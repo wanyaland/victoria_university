@@ -29,7 +29,7 @@
 		<div class="container">
   <header class="row top-menu-top">
 		<div class="accounts col-md-9 col-6">
-				<li class="top_li"><a href="#">COVID-19: Important information for VU Learners and Team Members.</li>
+				<li class="top_li"><a href="#">COVID-19: Important information for VU Learners and Team Members.</a></li>
 				<!-- <li class="top_li1"><span class="fa fa-envelope-o"></span> <a href="mailto:education-mail@support.com" class="mail"> admissions@vu.ac.ug</a></li> -->
 		</div>
 		<div class="social-top col-md-3 col-6">
@@ -39,19 +39,22 @@
 </div>
 </div>
     <!-- //Covid top -->
-	<div class="top-hd" style="background-color:#076dd3;">
+	<div class="top-hd" style="background-color:#076dd3; padding: 6px 0px 6px 0px;">
 		<div class="container">
   <header class="row top-menu-top">
-		<div class="accounts col-md-9 col-6">
-				<li class="top_li"><a href="#">Staff</a> </li>
-				<li class="top_li1"><a href="#" class="mail">Alumni</a></li>
-        <li class="top_li1"><a href="#" class="mail">News</a></li>
-        <li class="top_li1"><a href="#" class="mail">Events</a></li>
-        <li class="top_li1"><a href="#" class="mail">Careers</a></li>
-        <li class="top_li1"><a href="#" class="mail">Gallery</a></li>
+		<div class="accounts col-md-9 col-6" style="float: right; margin-right: -1rem; display: flex;">
+
+			<p style="font-size: .75rem;">Next Undergrad Deadline: Register by April 10th to start on May 1st <a href="contact.html" class="" style="color: #fff;"><b>Apply Now</b></a></p>	
 		</div>
-		<div class="social-top col-md-3 col-6">
-			<a href="contact.html" class="btn btn-secondary btn-theme4" style="color: #fff;">Apply Now</a>
+    <div class="social-top col-md-3 col-6" style="float: left; display: flex;">
+      
+      <li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">Staff</a> </li>&nbsp;&nbsp;&nbsp;&nbsp;
+				<li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">Alumni</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">News</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">Events</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">Careers</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="top_li1"><a href="#" class="mail" style="font-size: .75rem;">Gallery</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+
 		</div>
 	</header>
 </div>
@@ -61,7 +64,7 @@
 </section>
 <!-- //Top Menu 1 -->
 <section class="w3l-bootstrap-header">
-  <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2" style="background-color:dodgerblue;">
+  <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
     <div class="container">
       
       
@@ -76,25 +79,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color: #fff;">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html" style="color: #fff;">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Programmes</a>
+            <a class="nav-link" href="#">Programmes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Addmissions</a>
+            <a class="nav-link" href="#">Addmissions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Research</a>
+            <a class="nav-link" href="#">Research</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="color: #fff;">Life At VU</a>
+            <a class="nav-link" href="#">Life At VU</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: #fff;">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         <form action="search-results.html" class="form-inline position-relative my-2 my-lg-0">
@@ -587,7 +590,7 @@
                   </ul>
               </div>
           </div>
-          <button onclick="helpfunc()" id="helpBtn" title="Go to top">Help Me</button>
+          <!-- <button onclick="helpfunc()" id="helpBtn" title="Help">Help Me</button> -->
           <div class="d-grid grid-col-2 bottom-copies">
               <p class="copy-footer-29">© 2020 Victoria University, Kampala, Uganda. All rights reserved | Victoria University is part of the Ruparelia Group of Companies</p>
                <ul class="list-btm-29">
@@ -686,16 +689,16 @@
 </script>
 <script>
   
-  var mybutton = document.getElementById("helpBtn");
+  var helpBtn = document.getElementById("helpBtn");
 
   
-  window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction2()};
 
-  function scrollFunction() {
+  function scrollFunction2() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+      helpBtn.style.display = "block";
     } else {
-    mybutton.style.display = "none";
+      helpBtn.style.display = "none";
     }
   }
 
