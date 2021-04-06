@@ -581,6 +581,7 @@
                   </ul>
               </div>
           </div>
+          <button onclick="helpfunc()" id="helpBtn" title="Go to top">Help Me</button>
           <div class="d-grid grid-col-2 bottom-copies">
               <p class="copy-footer-29">© 2020 Victoria University, Kampala, Uganda. All rights reserved | Victoria University is part of the Ruparelia Group of Companies</p>
                <ul class="list-btm-29">
@@ -676,6 +677,25 @@
       }
     })
   });
+</script>
+<script>
+  
+  var mybutton = document.getElementById("helpBtn");
+
+  
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+  }
+
+  function helpfunc() {
+    location.href="#"
+  }
 </script>
 <!-- //script -->
 

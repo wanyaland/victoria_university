@@ -2378,6 +2378,26 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
+  #helpBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #82b62d;
+    color: #FFF;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  #helpBtn:hover {
+    background-color: #555;
+  }
+
 hr {
   box-sizing: content-box;
   height: 0;
