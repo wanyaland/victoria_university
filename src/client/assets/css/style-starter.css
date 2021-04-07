@@ -2391,6 +2391,12 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -11530,7 +11536,7 @@ button.owl-next {
   align-items: center; }
 
 .w3l-index2 h3.title-spe {
-  color: var(--primary-color);
+  color: #555;
   font-size: 56px;
   font-weight: 600; }
 
@@ -12181,7 +12187,7 @@ button.owl-next {
   .w3l-feature-2 span.number img {
     vertical-align: -webkit-baseline-middle; }
   .w3l-feature-2 .top-bottom {
-    background: #f6f6f6; }
+    background: #fff; }
   .w3l-feature-2 a.red {
     font-size: 16px;
     line-height: 24px;
