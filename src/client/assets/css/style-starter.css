@@ -5247,6 +5247,12 @@ input[type="button"].btn-block {
     border-left: inherit;
     border-radius: 0 0.25rem 0.25rem 0; }
 
+.hover-team:hover{
+  border:#7fb1e2 2px solid;
+  border-radius: 4px;
+  transition: all ease;
+}
+
 .custom-range {
   width: 100%;
   height: 1.4rem;
@@ -11536,7 +11542,7 @@ button.owl-next {
   align-items: center; }
 
 .w3l-index2 h3.title-spe {
-  color: #555;
+  color: #5755d8;
   font-size: 56px;
   font-weight: 600; }
 
@@ -12289,7 +12295,7 @@ button.owl-next {
     width: 100%;
     padding: 0 20px;
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     color: #fff;
     transform: translate3d(0, 10%, 0);
     transition: opacity 0.3s; }
