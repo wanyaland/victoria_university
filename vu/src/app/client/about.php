@@ -64,34 +64,18 @@
 								<p class="mb-4">Victoria University is a cosmopolitan university, accredited by the National Council for Higher Education with a wide range of nationalities. With a reputation as the best private, forward thinking and modern university in East Africa, Victoria University offers a vibrant and stimulating environment to further your studies. Our programmes are designed to meet all of your needs, study or research a subject in greater depth, or aiming to extend your knowledge and skills in pursuit of your career ambitions.</p>
 							</div>
 							<div class="col-lg-6 welcome-image" style="border: #000 1px solid">
-								<div class="apply-gd-right col-lg-5 mt-lg-0 mt-5">
-	
-					<div class="apply-form p-md-5 p-4 mx-auto bg-white mw-100">
-						<form action="#" method="post">
-							<div class="form-group">
-								<h2>Missions and staff</h2>
-								<label>First name</label>
-
-								<input type="text" class="form-control" id="validationDefault01" placeholder=""
-									required="">
-							</div>
-							<div class="form-group">
-								<label>Last name</label>
-								<input type="text" class="form-control" id="validationDefault02" placeholder=""
-									required="">
-							</div>
-
-							<div class="form-group mb-4">
-								<label class="mb-2">Password</label>
-								<input type="password" class="form-control" id="password1" placeholder="" required="">
-							</div>
-
-							<button type="submit" class="btn btn-primary submit">Apply Now</button>
-
-						</form>
-
-					</div>
-				</div>
+								<br>
+								
+										<div class="" style="border: red 1px solid; width: 100%">
+										  <ul class="w3-ul w3-card-4">
+											<li class="w3-display-container">Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container">University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container">Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											 <li class="w3-display-container">Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container">Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container">Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+										  </ul>
+										</div>
 							</div>	
 						
 						</div>	
@@ -104,28 +88,19 @@
   
 <section class="w3l-specification-6">
 	<!-- /specification-6-->
-	<div class="specification-content py-5">
+	<div class="specification-content py-5"  style="background-color: #E5E5E5">
 		<div class="container py-lg-5">
 			<div class="mission-grids-info row">
-				<div class="mission-gd-left col-lg-4" style="border: #000 2px solid;">
-					<div class="grids-inn-ab">
-						<!---->
-						<div class="features-1-info col-lg-8 col-md-6">
-							<div class="features-1-info-info text-center">
-								<h3 class="text-center"><a href="#">Stats coming soon...</a></h3>
-								<p>Requirements</p>
-								<p>Date &amp; Deadlines</p>
-								<br>
-								<h3 class="text-center"><a href="#">Admissions</a></h3>
-								<p>Requirements</p>
-								<p>Date &amp; Deadlines</p>
-								<br>
-								<h3 class="text-center"><a href="#">Admissions</a></h3>
-								<p>Requirements</p>
-								<p>Date &amp; Deadlines</p>
-							</div>
-						</div>
-						<!---->
+				<div class="mission-gd-right col-lg-4 pl-lg-4" style="background-color: #181383">
+					<div style="color: #fff;">
+						<br>
+						<p style="color: #fff;">Serves Over 40,000 Students</p>
+						<p style="color: #fff;">Employs Over 1000 Faculty and Staff Members</p>
+						<p style="color: #fff;">VU Offers Over 850 Courses</p>
+						<p style="color: #fff;">Maintains Over 350 Collaborative agreements</p>
+						<p style="color: #fff;">Additional Student Facts VU students come from every Canadian province and territory and 87 countries worldwide.</p>
+						<p style="color: #fff;">The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
+						<p style="color: #fff;">Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
 				<div class="mission-gd-right col-lg-8 pl-lg-4">
@@ -145,16 +120,22 @@
 			 <div class="container">
 					 <div class="content-info-in row">
 							 <div class="content-gd col-lg-6">
-									 <h3 class="hny-title two">Objectives</h3>
+									 <h3 class="hny-title two">Vision</h3>
 							 </div>
 							 <div class="content-gd col-lg-6">
-									<p>To provide transformational education by providing dynamic learning environment.</p>
-									 <p>To support creation of new knowledge by Research, Innovation and Critical Thinking.</p>
-								 	<p>To provide opportunities of community engagements.</p>
+									<p>To be a world class University for transformational education</p>
 							 </div>
 							
 					 </div>
-				 
+				 	<div class="content-info-in row">
+							 <div class="content-gd col-lg-6">
+									 <h3 class="hny-title two">Mission</h3>
+							 </div>
+							 <div class="content-gd col-lg-6">
+									<p>To provide a dynamic environment for learning, innovation, research and community engagementp>
+							 </div>
+							
+					 </div>
 				 </div>
 			 </div>
 	 </section>
@@ -162,166 +143,6 @@
 
   
 	<!--/team-sec-->
-	<section class="w3l-team-main">
-		<div class="team py-5">
-			<div class="container py-lg-5">
-					<div class="row title-content">
-							<div class="col-lg-4 title-left">
-								<h3 class="hny-title">Expert Instructors</h3>
-							</div>
-							<div class="col-lg-8 title-info">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima
-									accusantium
-									reiciendis, cupiditate optio corrupti quis quam at!.Duis aute irure dolor in reprehenderit
-									in voluptate velit esse cillum.</p>
-							</div>
-						</div>
-					<div class="row team-row">
-							<div class="col-lg-3 col-md-6 team-wrap">
-									<div class="team-info text-center">
-										<div class="column position-relative">
-											<a href="#url"><img src="assets/images/team1.jpg" alt="" class="img-fluid team-image" /></a>
-										</div>
-										<div class="column">
-											<h3 class="name-pos"><a href="#url">Mickel Zaman</a></h3>
-											<p>Law Instructor</p>
-											<div class="social">
-												<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-												<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-											</div>
-									</div>
-								</div>
-							</div>
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-			
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team2.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Paul Croves</a></h3>
-												<p>English Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-							</div>
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team3.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Ricardo Spencer</a></h3>
-												<p>Gym Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-								
-							</div>
-							<!-- end team member -->
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-			
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team4.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Marko Dugonji</a></h3>
-												<p>Law Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-							</div>
-							<!-- end team member -->
-							<div class="col-lg-3 col-md-6 team-wrap">
-									<div class="team-info text-center">
-										<div class="column position-relative">
-											<a href="#url"><img src="assets/images/team5.jpg" alt="" class="img-fluid team-image" /></a>
-										</div>
-										<div class="column">
-											<h3 class="name-pos"><a href="#url">Anthony</a></h3>
-											<p>Physics Instructor</p>
-											<div class="social">
-												<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-												<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-											</div>
-									</div>
-								</div>
-							</div>
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-			
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team6.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Emma Stone</a></h3>
-												<p>Maths Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-							</div>
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team7.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Rhoda Byrd</a></h3>
-												<p>Finance Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-								
-							</div>
-							<!-- end team member -->
-							<!-- end team member -->
-				
-							<div class="col-lg-3 col-md-6 team-wrap">
-			
-									<div class="team-info text-center">
-											<div class="column position-relative">
-												<a href="#url"><img src="assets/images/team8.jpg" alt="" class="img-fluid team-image" /></a>
-											</div>
-											<div class="column">
-												<h3 class="name-pos"><a href="#url">Max Stoiber</a></h3>
-												<p>History Instructor</p>
-												<div class="social">
-													<a href="#facebook" class="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-													<a href="#twitter" class="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-												</div>
-										</div>
-									</div>
-							</div>
-							<!-- end team member -->
-				</div>
-			</div>
-	</section>
 	<!--//team-sec-->
 <!-- footer -->
 <?php include_once('footer.php'); ?>
