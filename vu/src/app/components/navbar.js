@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class NavBar extends Component {
     render(){
         return(
+            <div>
         <section class="w3l-top-header-content">
 	<div class="hny-top-menu">
 		<div class="top-hd" style="background-color:#E35A25;">
@@ -44,11 +45,10 @@ class NavBar extends Component {
 <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
 	<div class="breadcrumb-infhny">
 		<header class="top-headerhny" id="head_runner">
-			<!--/nav-->
+			
 			<nav class="navbar navbar-expand-lg navbar-light fill">
 				<div class="container-fluid">
-					<!--<a class="navbar-brand" href="home.php">
-						<label class="lohny"><span class="fa fa-graduation-cap" aria-hidden="true"></span>Victoria</label>University</a>--> 
+					
 						<a class="navbar-brand" href="home.php">
 							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style="height:35px;" />
 						</a> 
@@ -85,14 +85,14 @@ class NavBar extends Component {
 
 					</div>
 					<a href="#" class="d-flex searchhny-form"><span class="fa fa-search"></span></a> 
-					<!--<form action="#" method="post" class="d-flex searchhny-form">
-						<input type="search" placeholder="Search Here..." required="required">
-						<button type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
-					</form>-->
+					
 				</div>
 			</nav>
-			<!--//nav-->
+			
     </header>
+    </div>
+    </section>
+    </div>
         )
     }
 }
