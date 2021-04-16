@@ -3573,7 +3573,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .searchhny-form {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     border-radius: 6px;
     padding: 4px;
 }
@@ -4723,7 +4723,7 @@ span.fa.fa-play {
 
 .w3-gallery button.price-course.btn {
     color: #fff;
-    background: #252b33;
+    background: #0077b5;
     border: none;
     padding: 0px 6px;
     text-decoration: none;
@@ -5147,7 +5147,7 @@ span.fa.fa-play {
 }
 
 .w3l-footer-16 .w3l-footer-16-main {
-    background: #1c2127;
+    background: #0080ff;
 }
 
 .w3l-footer-16 .w3l-footer-16-main h3 {
@@ -5197,7 +5197,7 @@ span.fa.fa-play {
 }
 
 .w3l-footer-16 span.color-hny {
-    color: #5bd2cd;
+    color: #fff;
     font-weight: 500;
     font-size: 17px;
     display: block;
@@ -5211,7 +5211,7 @@ span.fa.fa-play {
 }
 
 .w3l-footer-16 .footer-gd-16 li a {
-    color: #656f7b;
+    color: #fff;
     font-weight: normal;
     font-size: 15px;
     line-height: 25px;
