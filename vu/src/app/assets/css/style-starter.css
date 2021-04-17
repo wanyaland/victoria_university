@@ -3285,7 +3285,7 @@ h3.hny-title.two {
 }
 
 .w3l-top-header-content .top-head li {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #fff;
     margin: 0px 10px;
@@ -3313,8 +3313,8 @@ h3.hny-title.two {
 
 .w3l-top-header-content .accounts li {
     display: inline-block;
-    margin: 0 30px;
-    font-size: 14px;
+    margin: 0 10px;
+    font-size: 12px;
     line-height: 24px;
     color: #fff;
 }
@@ -3391,7 +3391,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main header.top-headerhny {
-    background-color: #1711B4;
+    background-color: #fff;
     position: absolute;
     z-index: 9;
     width: 100%;
@@ -3443,11 +3443,11 @@ h3.hny-title.two {
 
 .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link {
     padding: 0.6em 1.4em;
-    color: #fff;
+    color: #444;
     background: transparent;
     text-transform: capitalize;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .w3l-banner-slider-main .navbar-light .navbar-nav .show>.nav-link,
@@ -3663,7 +3663,7 @@ h3.hny-title.two {
 
 @media (max-width: 1080px) {
     .w3l-banner-slider-main .accounts li {
-        margin: 0 6px;
+        margin: 0 0px;
     }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link {
         padding: 0.6em 1em;
@@ -4143,7 +4143,7 @@ h3.hny-title.two {
 .w3l-features-1 .counter-grids-info h6 {
     font-size: 55px;
     line-height: 75px;
-    color: ##555;
+    color: #555;
     font-weight: 700;
 }
 
@@ -4152,6 +4152,22 @@ h3.hny-title.two {
     color: #555;
     font-weight: 500;
 }
+
+/*  */
+
+.titled {
+    font-size: 55px;
+    line-height: 75px;
+    color: #555;
+    font-weight: 700;
+}
+
+.titled4 {
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+}
+/*  */
 
 @media all and (max-width: 1390px) {
     .w3l-features-1 .features-1-info p {
@@ -11231,7 +11247,6 @@ input[type="button"].btn-block {
     display: inline-block;
     padding-right: 0.5rem;
     color: #6c757d;
-    content: "/";
 }
 
 .breadcrumb-item+.breadcrumb-item:hover::before {
