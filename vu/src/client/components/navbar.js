@@ -1,56 +1,15 @@
 import React, { Component } from 'react';
 
-class NavBar extends Component {
+class NavBar extends Component{
     render(){
         return(
-            <div>
-        <section class="w3l-top-header-content">
-	<div class="hny-top-menu">
-		<div class="top-hd" style="background-color:#E35A25;">
-			<div class="container-fluid">
-				<div class="row">
-					<ul class="social-top col-md-7" style="padding: 4px 8px 4px 8px;">
-						<li class="" style="font-size: .8rem"><a href="#">COVID-19: Important information for VU Learners and Team Members.</a></li>
-					</ul>
-					<ul class="accounts col-md-5">
-						
-					</ul>
-				</div>
-			</div>
-		</div>
-
-	</div>
-	<div class="hny-top-menu">
-		<div class="top-hd">
-			<div class="container-fluid">
-				<div class="row">
-					<ul class="social-top col-md-7" style="padding: 4px 8px 4px 8px;">
-						<li style="color: #fff; font-size: .8rem"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <a href="contact.php" class="" style="color: #fff; text-decoration: underline;"><b>Apply Now</b></a></li>
-					</ul>
-					<ul class="accounts col-md-5">
-						<li class="top_li"><span class=""></span><a href="#"></a>Staff</li>
-						<li class="top_li"><span class=""></span><a href="#"></a>ALumni</li>
-						<li class="top_li"><span class=""></span><a href="#"></a>News</li>
-						<li class="top_li"><span class=""></span><a href="#"></a>Events</li>
-						<li class="top_li"><span class=""></span><a href="#"></a>Career</li>
-						<li class="top_li"><span class=""></span><a href="#"></a>Gallery</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</section>
-
-<section class="w3l-banner-slider-main w3l-inner-page-main" id="">
+            <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
 	<div class="breadcrumb-infhny">
 		<header class="top-headerhny" id="head_runner">
-			
 			<nav class="navbar navbar-expand-lg navbar-light fill">
 				<div class="container-fluid">
-					
 						<a class="navbar-brand" href="home.php">
-							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style="height:35px;" />
+							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style="height:55px;" />
 						</a> 
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,17 +19,20 @@ class NavBar extends Component {
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mx-lg-auto ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="home.php">Home</a>
+							<li class="nav-item">
+								<a class="nav-link" href="home.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="about.php">About</a>
+								<a class="nav-link" href="about.html">About</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Programmes</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Admissions</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="co-ops.html">Co-Ops</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Research</a>
@@ -81,18 +43,49 @@ class NavBar extends Component {
 							<li class="nav-item">
 								<a class="nav-link" href="contact.php"><span class="fa fa-comments"></span>&nbsp;&nbsp;Help &amp; Contact</a>
 							</li>
+							<li class="nav-item">
+								<a href="home" class="nav-link"><span class="fa fa-search" style="font-size: 1rem;"></span></a> 
+							</li>
 						</ul>
 
 					</div>
-					<a href="#" class="d-flex searchhny-form"><span class="fa fa-search"></span></a> 
-					
 				</div>
 			</nav>
-			
     </header>
-    </div>
-    </section>
-    </div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="container">
+					</div>
+				</div>
+				<div class="carousel-item item2">
+					<div class="container">
+					</div>
+				</div>
+				<div class="carousel-item item3">
+					<div class="container">
+					</div>
+				</div>
+				<div class="carousel-item item4">
+					<div class="container">
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+	</div>
+
+</section>
         )
     }
 }
+
+export default NavBar;
