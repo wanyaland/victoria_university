@@ -209,8 +209,8 @@ h3.hny-title.two {
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    src: url("../src/client/assets/fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("../src/client/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../src/client/assets/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../src/client/assets/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../src/client/assets/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../src/client/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -3715,9 +3715,23 @@ h3.hny-title.two {
     position: relative;
     z-index: 1;
 }
-
+.back{
+    background-color:#E35A25;
+}
+.fonted{
+    font-size: .8rem;
+}
+.padded{
+    padding: 4px 8px 4px 8px;
+}
+.white{
+    color: #fff;
+}
+.underline{
+    text-decoration: underline;
+}
 .w3l-banner-slider-main .carousel-item {
-    background: url(../images/bg1.jpg) no-repeat;
+    background: url(../src/client/assets/images/bg1.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -3726,7 +3740,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .carousel-item.item2 {
-    background: url(../images/bg2.jpg) no-repeat;
+    background: url(../src/client/assets/images/bg2.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -3735,7 +3749,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .carousel-item.item3 {
-    background: url(../images/bg3.jpg) no-repeat;
+    background: url(../src/client/assets/images/bg3.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -3744,7 +3758,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .carousel-item.item4 {
-    background: url(../images/bg4.jpg) no-repeat;
+    background: url(../src/client/assets/images/bg4.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -4536,7 +4550,7 @@ button::-moz-focus-inner {
 }
 
 .video-gd-right {
-    background: url(../images/bg4.jpg) no-repeat center;
+    background: url(../src/client/assets/images/bg4.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -4776,7 +4790,7 @@ span.fa.fa-play {
 }
 
 .w3l-apply-6 .apply-info {
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../src/client/assets/images/bg2.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -5120,7 +5134,7 @@ span.fa.fa-play {
 }
 
 .w3l-content-5 .content-5-main {
-    background: url(../images/bg3.jpg) no-repeat bottom;
+    background: url(../src/client/assets/images/bg3.jpg) no-repeat bottom;
     background-size: cover;
     z-index: 0;
     position: relative;
@@ -5555,7 +5569,7 @@ span.fa.fa-play {
 }
 
 .w3l-content-5 .content-5-main {
-    background: url(../images/bg3.jpg) no-repeat bottom;
+    background: url(../src/client/assets/images/bg3.jpg) no-repeat bottom;
     background-size: cover;
     z-index: 0;
     position: relative;

@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 class NavBar extends Component{
     render(){
         return(
-            <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
+	<React.Fragment>
+    <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
 	<div class="breadcrumb-infhny">
 		<header class="top-headerhny" id="head_runner">
 			<nav class="navbar navbar-expand-lg navbar-light fill">
 				<div class="container-fluid">
 						<a class="navbar-brand" href="home.php">
-							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style="height:55px;" />
+							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 						</a> 
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -26,25 +27,25 @@ class NavBar extends Component{
 								<a class="nav-link" href="about.html">About</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Programmes</a>
+								<a class="nav-link" href="home">Programmes</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Admissions</a>
+								<a class="nav-link" href="home">Admissions</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="co-ops.html">Co-Ops</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Research</a>
+								<a class="nav-link" href="home">Research</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Life At VU</a>
+								<a class="nav-link" href="home">Life At VU</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="contact.php"><span class="fa fa-comments"></span>&nbsp;&nbsp;Help &amp; Contact</a>
 							</li>
 							<li class="nav-item">
-								<a href="home" class="nav-link"><span class="fa fa-search" style="font-size: 1rem;"></span></a> 
+								<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 
 							</li>
 						</ul>
 
@@ -84,6 +85,7 @@ class NavBar extends Component{
 	</div>
 
 </section>
+</React.Fragment>
         )
     }
 }
