@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navBar';
+import NewsHub from './newshub';
+import Events from './events';
+import Footer from './footer';
 class Home extends Component{
     render(){
         return(
@@ -148,6 +151,9 @@ class Home extends Component{
 		</div>
 	</div>
 </section>
+<NewsHub />
+<Events />
+<Footer />
     </React.Fragment>
         );
     }

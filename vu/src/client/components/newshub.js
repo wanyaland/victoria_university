@@ -17,15 +17,15 @@ class NewsHub extends Component{
 			<div class="row">
 				<div class="col-md-4 filter photo">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-titlegulp-wrapper">
+							<a href="home" class="course-titlegulp-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</a>
-							<h6><a class="course-instructor" href="#">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</a></h6>
+							<h6><a class="course-instructor" href="home">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</a></h6>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta"><span class="course-students" title=""><span
@@ -38,15 +38,15 @@ class NewsHub extends Component{
 
 				<div class="col-md-4 filter graphic photo">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-title-wrapper">
+							<a href="home" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Best Performer 2021</h3>
 							</a>
-							<h6><a class="course-instructor" href="#">Victoria University 5th Graduation 2021 Best Performer</a></h6>
+							<h6><a class="course-instructor" href="home">Victoria University 5th Graduation 2021 Best Performer</a></h6>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta"><span class="course-students" title=""><span
@@ -59,14 +59,14 @@ class NewsHub extends Component{
 
 				<div class="col-md-4 filter webdesign">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-title-wrapper">
+							<a href="home" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Feb-Mar 2021 Intake</h3>
 							</a>
-							<h6><a class="course-instructor" href="#">Victoria University welcomes you all for our new semester that will start on 22nd March, 2021.</a></h6>
+							<h6><a class="course-instructor" href="home">Victoria University welcomes you all for our new semester that will start on 22nd March, 2021.</a></h6>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta"><span class="course-students" title=""><span
@@ -80,7 +80,7 @@ class NewsHub extends Component{
 		</div>
 	</div>
 </section>
-<hr class="text-center" style="color:#000; width: 90%"></hr>
+<hr class="text-center" style={{color:'#000', width: '90%'}}></hr>
             </React.Fragment>
         )
     }

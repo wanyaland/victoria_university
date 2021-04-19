@@ -19,12 +19,12 @@ class Events extends Component{
 			<div class="row">
 				<div class="col-md-4 filter webdesign graphic">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-title-wrapper">
+							<a href="home" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">ICT &amp; Transport Expo</h3>
 							</a>
 						</div>
@@ -44,12 +44,12 @@ class Events extends Component{
 
 				<div class="col-md-4 filter photo">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg4.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg4.jpg" alt="" /></a>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-title-wrapper">
+							<a href="home" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">ICT hackathon</h3>
 							</a>
 						</div>
@@ -68,12 +68,12 @@ class Events extends Component{
 				</div>
 				<div class="col-md-4 filter photo">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="#" class="course-title-wrapper">
+							<a href="home" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Freshers Ball (August Intake)</h3>
 							</a>
 						</div>
