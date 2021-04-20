@@ -34,7 +34,7 @@ class NavBar extends Component{
 									<a class="nav-link" href="home">Admissions</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="co-ops.html">Co-Ops</a>
+									<Link to="/co-ops" className="nav-link">Co-Ops</Link>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="home">Research</a>
@@ -53,7 +53,7 @@ class NavBar extends Component{
 				</div>
 			</nav>
     </header>
-		
+		{/* rolling banner here - banner Home */}
 
 	</div>
 
