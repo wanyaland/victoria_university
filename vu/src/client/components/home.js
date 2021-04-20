@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navBar';
+import BannerHome from './bannerHome';
 import NewsHub from './newshub';
 import Events from './events';
 import Footer from './footer';
+
 class Home extends Component{
     render(){
         return(
     <React.Fragment>
 		<BreadNavBar />
 		<NavBar />
+		<BannerHome />
         <section class="w3l-content-6">
 	            <div class="content-6-mian py-5">
 		            <div class="container py-lg-5">

@@ -1,10 +1,17 @@
-//import logo from './logo.svg';
 import './App.css';
 import Home from './client/components/home';
-function App() {
-  return (
-    <Home />
-  );
-}
+import About from './client/components/about';
+import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
-export default App;
+const App = () => (
+  
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+      </Switch>
+    </Router>
+
+ // );
+)
+export default withRouter(App);

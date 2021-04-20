@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class NavBar extends Component{
     render(){
@@ -19,68 +20,40 @@ class NavBar extends Component{
 					</button>
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mx-lg-auto ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="home.html">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="about.html">About</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="home">Programmes</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="home">Admissions</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="co-ops.html">Co-Ops</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="home">Research</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="home">Life At VU</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contact.php"><span class="fa fa-comments"></span>&nbsp;&nbsp;Help &amp; Contact</a>
-							</li>
-							<li class="nav-item">
-								<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 
-							</li>
-						</ul>
-
+							<ul class="navbar-nav mx-lg-auto ml-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="home.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<Link to="/about" className="nav-link">About</Link>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="home">Programmes</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="home">Admissions</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="co-ops.html">Co-Ops</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="home">Research</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="home">Life At VU</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact.php"><span class="fa fa-comments"></span>&nbsp;&nbsp;Help &amp; Contact</a>
+								</li>
+								<li class="nav-item">
+									<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 
+								</li>
+							</ul>
 					</div>
 				</div>
 			</nav>
     </header>
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="container">
-					</div>
-				</div>
-				<div class="carousel-item item2">
-					<div class="container">
-					</div>
-				</div>
-				<div class="carousel-item item3">
-					<div class="container">
-					</div>
-				</div>
-				<div class="carousel-item item4">
-					<div class="container">
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
+		
 
 	</div>
 
@@ -89,5 +62,9 @@ class NavBar extends Component{
         )
     }
 }
-
+function About() {
+	return (
+	  <About />
+	);
+  }
 export default NavBar;

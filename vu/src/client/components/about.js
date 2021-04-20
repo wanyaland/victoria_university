@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
-import NavBar from './navbar';
+import NavBar from './navBar';
 import Footer from './footer';
 
 class AboutUs extends Component{
