@@ -13,13 +13,14 @@ export const UserContext = React.createContext({
   currentUser: null,
 });
 const App =  ()=> {
-
   return (
     <Router>
       <Layout>
         <Switch>
           {
-            Routes.map((route)=> <Route key={route.path} exact path={route.path} component={route.component} />)
+            Routes.map((route)=> {
+              return route?.children?.length?route.children.map((res)=><Route key={res.path} exact path={res.path} component={res.component} />)
+              :<Route key={route.path} exact path={route.path} component={route.component} />})
           }
           <Route component={NotFound} />
         </Switch>

@@ -39,16 +39,7 @@ export default function MenuComponent({label,children}) {
 >
         {label}
       </Button>
-      {/* <Menu
-        id="menu"
-        anchorEl={anchorEl}
-        keepMounted
-        open={Boolean(anchorEl)}
-        onClose={handleClose} 
-      >
-        {children}
-      </Menu> */}
-      <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+      <Popper  style={{zIndex: 10000}} open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
           {() => (
               <Paper elevation={0} >
                 <ClickAwayListener onClickAway={handleClose}>
