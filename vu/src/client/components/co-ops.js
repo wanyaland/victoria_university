@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import BreadNavBar from './breadNav';
+import NavBar from './navbar';
+import Footer from './footer';
 
 class Coops extends Component{
     render(){
         return(
             <React.Fragment>
+			<BreadNavBar />
+			<NavBar />
                 <section class="w3l-top-header-content" style="margin-top: -20px;">
 	<div class="hny-top-menu">
 		<div class="top-hd" style=" padding: 5px 0px 5px 0px;">
@@ -108,6 +113,7 @@ class Coops extends Component{
 		</div>
 	</div>
 </section>
+<Footer />
             </React.Fragment>
         )
     }
