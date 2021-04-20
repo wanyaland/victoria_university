@@ -22,7 +22,7 @@ class NavBar extends Component{
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="navbar-nav mx-lg-auto ml-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="home.html">Home</a>
+									<Link to="./" className="nav-link">Home</Link>
 								</li>
 								<li class="nav-item">
 									<Link to="/about" className="nav-link">About</Link>

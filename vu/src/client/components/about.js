@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navBar';
 import Footer from './footer';
+import { Link } from "react-router-dom";
 
 class AboutUs extends Component{
     render(){
@@ -11,7 +12,7 @@ class AboutUs extends Component{
 			<NavBar />
                 <section class="w3l-top-header-content" style={{marginTop: '-20px;'}}>
 	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '5px 0px 5px 0px;'}}>
+		<div class="top-hd" style={{padding: '5px 0px 5px 0px'}}>
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-2">
@@ -73,7 +74,7 @@ class AboutUs extends Component{
 										<ul class="w3-ul w3-card-4">
 										 	<li class="w3-display-container"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-file-word-o"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><a href="policies.html"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></a></li>
+											<li class="w3-display-container"><Link to='./policies'><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
 											<li class="w3-display-container"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
