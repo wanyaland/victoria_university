@@ -9,9 +9,9 @@ class Coops extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-                <section class="w3l-top-header-content" style="margin-top: -20px;">
+<section class="w3l-top-header-content" style={{marginTop: '-20px'}}>
 	<div class="hny-top-menu">
-		<div class="top-hd" style=" padding: 5px 0px 5px 0px;">
+		<div class="top-hd" style={{padding: '5px 0px 5px 0px'}}>
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-5">
@@ -37,8 +37,8 @@ class Coops extends Component{
 <section class="w3-gallery">
 	<div class="porfolio-inf py-5">
 		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style="background-color:#0077b5">
-				<li class="btn active filter-button" data-filter="all" style="color:#fff;">Our Co-op Program</li>
+			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
+				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Our Co-op Program</li>
 			</div>
 			<br />
 
@@ -59,8 +59,8 @@ class Coops extends Component{
 <section class="w3-gallery">
 	<div class="porfolio-inf py-5">
 		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style="background-color:#0077b5">
-				<li class="btn active filter-button" data-filter="all" style="color:#fff;">Top four reasons to join a CO-OP program:</li>
+			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
+				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Top four reasons to join a CO-OP program:</li>
 			</div>
 			<br />
 
@@ -80,8 +80,8 @@ class Coops extends Component{
 <section class="w3-gallery">
 	<div class="porfolio-inf py-5" >
 		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4 " style="background-color:#0077b5;">
-				<li class="btn active filter-button" data-filter="all" style="color:#fff;">How Co-Op Works</li>
+			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4 " style={{backgroundcolor:'#0077b'}}>
+				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>How Co-Op Works</li>
 			</div>
 			<br />
 			<div class="row">
@@ -97,15 +97,15 @@ class Coops extends Component{
 <section class="w3-gallery">
 	<div class="porfolio-inf py-5">
 		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4 " style="background-color:#0077b5;">
-				<li class="btn active filter-button" data-filter="all" style="color:#fff;">How does it Work</li>
+			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4 " style={{backgroundColor:'#0077b5'}}>
+				<li class="btn active filter-button" data-filter="all" style={{color:'#fff;'}}>How does it Work</li>
 			</div>
 			<br />
 
 			<div class="row">
 				<div class="col-md-12 filter photo justify-content-center">
 					<div class="each-item">
-						<a href="#"><img class="port-image img-fuild" src="assets/images/reserved.jpg" alt="" /></a>
+						<a href="home"><img class="port-image img-fuild" src="assets/images/reserved.jpg" alt="" /></a>
 
 					</div>
 				</div>

@@ -9,9 +9,9 @@ class AboutUs extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-                <section class="w3l-top-header-content" style="margin-top: -20px;">
+                <section class="w3l-top-header-content" style={{marginTop: '-20px;'}}>
 	<div class="hny-top-menu">
-		<div class="top-hd" style=" padding: 5px 0px 5px 0px;">
+		<div class="top-hd" style={{padding: '5px 0px 5px 0px;'}}>
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-2">
@@ -30,7 +30,7 @@ class AboutUs extends Component{
 			<br/>
 			<br/>
 			<div class="">
-					<h4 class="text-center"><span style="border-left: 8px #D4484A solid">&nbsp;About VU</span></h4>
+					<h4 class="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
 				</div>
 			<div class="apply-grids-info row">
 					<div class="row mt-lg-5 mt-4">
@@ -67,9 +67,9 @@ class AboutUs extends Component{
 								<p class="mb-4"></p>
 								<br/>
 							</div>
-							<div class="col-lg-6 welcome-image" style="background-color:#CCC">
+							<div class="col-lg-6 welcome-image" style={{backgroundColor:'#CCC'}}>
 								<br/>
-									<div class="" style="width: 100%; background-color:#fff">
+									<div class="" style={{width: '100%', backgroundColor:'#fff'}}>
 										<ul class="w3-ul w3-card-4">
 										 	<li class="w3-display-container"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-file-word-o"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
@@ -88,19 +88,19 @@ class AboutUs extends Component{
 	<div class="specification-content py-5">
 		<div class="container py-lg-5">
 			<div class="mission-grids-info row">
-				<div class="mission-gd-right col-lg-4 pl-lg-4" style="background-color: #0080ff">
-					<div class="justify-content-end" style="color: #fff;">
+				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0080ff'}}>
+					<div class="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
-						<p style="color: #fff;">Serves Over 40,000 Students</p>
-						<p style="color: #fff;">Employs Over 1000 Faculty and Staff Members</p>
-						<p style="color: #fff;">VU Offers Over 850 Courses</p>
-						<p style="color: #fff;">Maintains Over 350 Collaborative agreements</p>
-						<p style="color: #fff;">Additional Student Facts VU students come from every Canadian province and territory and 87 countries worldwide.</p>
-						<p style="color: #fff;">The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
-						<p style="color: #fff;">Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
+						<p style={{color: '#fff;'}}>Serves Over 40,000 Students</p>
+						<p style={{color: '#fff;'}}>Employs Over 1000 Faculty and Staff Members</p>
+						<p style={{color: '#fff;'}}>VU Offers Over 850 Courses</p>
+						<p style={{color: '#fff;'}}>Maintains Over 350 Collaborative agreements</p>
+						<p style={{color: '#fff;'}}>Additional Student Facts VU students come from every Canadian province and territory and 87 countries worldwide.</p>
+						<p style={{color: '#fff;'}}>The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
+						<p style={{color: '#fff;'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
-				<div class="mission-gd-right col-lg-8 pl-lg-4" style="background-color: #E5E5E5">
+				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5'}}>
 						<h3 class="hny-title">VU at a Glance</h3>
 						<p>Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.</p>
 				</div>
@@ -144,7 +144,7 @@ class AboutUs extends Component{
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 				</div>
 			</div>
-			<h4 class="hny-title text-center" style="color: #0080ff;">Learn More About VU Accreditation</h4>
+			<h4 class="hny-title text-center" style={{color: '#0080ff'}}>Learn More About VU Accreditation</h4>
         </div>
 	</div>
 </section>
