@@ -5847,12 +5847,17 @@ span.fa.fa-play {
     height: 40px;
 }
 .dot {
-    height: 25px;
-    width: 25px;
+    height: 8px;
+    width: 8px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
   }
+.circler{
+    color: #0080ff;
+    border: #e65252 10px solid; 
+    padding: 20px;
+}
 .w3l-services-2 button.price-course.btn:hover {
     background: #CC0055;
     transition: 0.3s ease;

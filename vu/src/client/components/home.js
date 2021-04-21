@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
-import NavBar from './navBar';
+import NavBar from './navbar';
 import BannerHome from './bannerHome';
 import NewsHub from './newshub';
 import Events from './events';
@@ -33,7 +33,7 @@ class Home extends Component{
 				</div>
 				<div class="columns-2 mt-md-0 mt-3 text-center">	
                     <ul class="social d-flex" style={{width: "80%", margin: "0 auto"}}>
-                        <li><a href="home" style={{backgroundColor: '80bfff'}}>&nbsp;</a></li><hr style={{border:'#80bfff 1px solid', width: '25%'}}/>
+                        <li><a href="home" style={{backgroundColor: '#80bfff'}}>&nbsp;</a></li><hr style={{border:'#80bfff 1px solid', width: '25%'}}/>
                         <li><a href="home" style={{backgroundColor: '#80bfff'}}>&nbsp;</a></li><hr style={{border:'#80bfff 1px solid', width: '25%'}}/>
 						<li><a href="home" style={{backgroundColor: '#80bfff'}}>&nbsp;</a></li><hr style={{border:'#80bfff 1px solid', width: '25%'}}/>
                         <li><a href="home" style={{backgroundColor: '#80bfff'}}>&nbsp;</a></li>
@@ -44,22 +44,22 @@ class Home extends Component{
 				
 				<div class="col-lg-3 col-md-6 imghrs">
 					<a class="imghr hover-team" href="home"><img src="assets/images/path1.jpg" class="img-fluid" alt=""/>
-						<div class="details text-center justify-content-md-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px'}}/></span><span class="title">Foundation</span></div>
+						<div class="details text-center justify-content-md-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px'}}/></span><span class="title">Foundation</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs">
 					<a class="imghr hover-team" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt=""/>
-						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}}/></span><span class="title">Undergradate</span></div>
+						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}}/></span><span class="title">Undergradate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs">
 					<a class="imghr hover-team" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt=""/>
-						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Postgraduate</span></div>
+						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Postgraduate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs">
 					<a class="imghr hover-team" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt=""/>
-						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Diploma</span></div>
+						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Diploma</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 			</div>
@@ -78,46 +78,52 @@ class Home extends Component{
 			<div class="row grids-innf my-lg-5">
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-graduation-cap" style={{color: '#0080ff'}}></span>
+						<span class="fa fa-graduation-cap circler circle1"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Online Education</a></h6>
+						<span class="dot"></span>
 						<p>Flexible Scheduling</p>
 						<p>How VU Works</p>
 					</div>
-
+					<div style={{border: '#000 1px solid;'}}></div>
+					<div class="text-center smalldash"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-user" style={{color: '#0080ff'}}></span>
+						<span class="fa fa-user circler circle2"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Admissions</a></h6>
+						<span class="dot"></span>
 						<p>Requirements</p>
 						<p>Date &amp; Deadlines</p>
 					</div>
-
+					<div class="text-center smalldash"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-book" style={{color: '#0080ff'}}></span>
+						<span class="fa fa-book circler circle3"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Transfer Credit</a></h6>
+						<span class="dot"></span>
 						<p>Transfer to a VU program</p>
 						<p>Courses for other tuitions</p>
 					</div>
-
+					<div  class="text-center smalldash"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-money" style={{color: '#0080ff'}}></span>
+						<span class="fa fa-money circler circle3"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Tution &amp; Fees</a></h6>
+						<span class="dot"></span>
 						<p>Calculate Fees</p>
 						<p>Financial Aid</p>
 					</div>
+					<div class="text-center smalldash"></div>
 				</div>
 			</div>
 			<div class="counter-main-sec">

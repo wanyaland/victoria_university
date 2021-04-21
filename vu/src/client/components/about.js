@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
-import NavBar from './navBar';
+import NavBar from './navbar';
 import Footer from './footer';
 import { Link } from "react-router-dom";
 
