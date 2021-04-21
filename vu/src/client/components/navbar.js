@@ -43,7 +43,7 @@ class NavBar extends Component{
 									<a class="nav-link" href="home">Life At VU</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="contact.php"><span class="fa fa-comments"></span>&nbsp;&nbsp;Help &amp; Contact</a>
+									<a class="nav-link" href="contact.php"><span class="fa fa-comments" style={{fontSize: '.85rem'}}></span>&nbsp;&nbsp;Help &amp; Contact</a>
 								</li>
 								<li class="nav-item">
 									<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 

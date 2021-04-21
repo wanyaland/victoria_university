@@ -78,7 +78,7 @@ class Home extends Component{
 			<div class="row grids-innf my-lg-5">
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-graduation-cap"></span>
+						<span class="fa fa-graduation-cap" style={{color: '#0080ff'}}></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Online Education</a></h6>
@@ -89,7 +89,7 @@ class Home extends Component{
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-user"></span>
+						<span class="fa fa-user" style={{color: '#0080ff'}}></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Admissions</a></h6>
@@ -100,7 +100,7 @@ class Home extends Component{
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-book"></span>
+						<span class="fa fa-book" style={{color: '#0080ff'}}></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Transfer Credit</a></h6>
@@ -111,7 +111,7 @@ class Home extends Component{
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-money"></span>
+						<span class="fa fa-money" style={{color: '#0080ff'}}></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Tution &amp; Fees</a></h6>
@@ -123,7 +123,7 @@ class Home extends Component{
 			<div class="counter-main-sec">
 				<div class="">
 					<h3 class="hny-title text-center" style={{color: '#0080ff'}}>HOW VU WORKS</h3>
-					<h4 class="hny-title text-center">Victoria University</h4>
+					<h4 class="hny-title text-center" style={{color: '#555'}}>Victoria University</h4>
 				</div>
 				<br/>
 				<br/>

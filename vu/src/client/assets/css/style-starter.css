@@ -5846,7 +5846,13 @@ span.fa.fa-play {
     line-height: 30px;
     height: 40px;
 }
-
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
 .w3l-services-2 button.price-course.btn:hover {
     background: #CC0055;
     transition: 0.3s ease;
