@@ -78,25 +78,25 @@ class Home extends Component{
 			</section>
 			<div class="content-info-in row mt-md-5 mt-4 justify-content-center" style={{marginLeft: 0, marginRight:0}}>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="badge pathdots">&nbsp;</span>
+				<span class="pathdots">&nbsp;</span>
 					<a class="imghr hover-team" href="home"><img src="assets/images/path1.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center justify-content-md-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px'}}/></span><span class="title">Foundation</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="badge pathdots">&nbsp;</span>
+				<span class="pathdots">&nbsp;</span>
 					<a class="imghr hover-team" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}}/></span><span class="title">Undergradate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="badge pathdots">&nbsp;</span>
+				<span class="pathdots">&nbsp;</span>
 					<a class="imghr hover-team" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Postgraduate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="badge pathdots">&nbsp;</span>
+				<span class="pathdots">&nbsp;</span>
 					<a class="imghr hover-team" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Diploma</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
