@@ -69,12 +69,18 @@ body img {
     padding-left: 40px;
 }
 .hover-team:hover{
-    border:#7fb1e2 3px solid;
-    border-radius: 6px;
     transition: all ease;
     transition-duration: .3s;
+    border:#3f90e0 4px solid;
+    border-radius: 2px;
 }
-
+.nomargin{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.flexd{
+    flex: 0 0 25%;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -3994,7 +4000,7 @@ h3.hny-title.two {
     opacity: .99;
     overflow: hidden;
     position: relative;
-    border-radius: 6px;
+    border-radius: 2px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -5853,7 +5859,42 @@ span.fa.fa-play {
     border:#7391e4 2px solid;
     margin: 0 auto;
 }
-
+.dashunder{
+    width:10%;
+    border: #f04545 3px solid;
+    display: subgrid;
+    margin: 0 auto;
+}
+.longdash{
+    width:10%;
+    border:#f04545 3px solid;
+    display: subgrid;
+    margin: 0 auto;
+}
+.howvu{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #1880e2;
+    padding: 3px 0px;
+}
+.howvu:hover{
+    background-color: #1772c7;
+    cursor: pointer;
+}
+.smalldot{
+    background-color:#80bfff;
+    height: 20px;
+    width: 20px;
+}
+.dotcontrol{
+    width: 46%;
+    margin: 0 auto;
+}
+.dotconnect{
+    border:#80bfff 1px solid;
+    width: 25%;
+    margin-top: 10px;
+}
 .dot {
     height: 8px;
     width: 8px;

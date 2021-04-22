@@ -3999,7 +3999,7 @@ h3.hny-title.two {
 }
 
 .w3l-content-6 .imghrs .imghr img {
-    display: block;
+    /* display: block; */
     max-width: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
