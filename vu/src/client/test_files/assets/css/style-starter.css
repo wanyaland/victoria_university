@@ -56,7 +56,13 @@ button,
 body img {
     border-radius: 6px;
 }
-
+.programfa{
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #0080ff;
+    padding: 10px;
+    font-size: 16px;
+}
 .noscroll {
     overflow: hidden;
 }
