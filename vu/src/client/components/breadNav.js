@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class BreadNavBar extends Component {
     render(){
         return(
-		<React.Fragment>
-            <section class="w3l-top-header-content">
+<React.Fragment>
+    <section class="w3l-top-header-content">
 				<div class="hny-top-menu">
 					<div class="top-hd back" style={{background:'#E35A25'}}>
 						<div class="container-fluid">
@@ -17,8 +17,8 @@ class BreadNavBar extends Component {
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="hny-top-menu">
+			</div>
+			<div class="hny-top-menu">
 			<div class="top-hd">
 				<div class="container-fluid">
 					<div class="row">

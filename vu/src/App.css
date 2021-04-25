@@ -74,9 +74,31 @@ body img {
     border:#3f90e0 4px solid;
     border-radius: 2px;
 }
+.borderLeft{
+    border-left: 8px #D4484A solid;
+}
+.topprog{
+    border-radius: 25%;
+    color: #0080ff;
+    border: #0080ff 10px solid;
+    padding: 15px;
+}
+.proghead{
+    width: 100%;
+    background-color: #FFF; 
+    border: #CCC 10px solid;
+}
 .nomargin{
     margin-right: 0px;
     margin-left: 0px;
+}
+.marginize{
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+.marginize2{
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 .flexd{
     flex: 0 0 25%;
@@ -5200,7 +5222,7 @@ span.fa.fa-play {
 }
 
 .w3l-footer-16 .w3l-footer-16-main {
-    background: #0080ff;
+    background: #0563c0;
 }
 
 .w3l-footer-16 .w3l-footer-16-main h3 {
@@ -5883,8 +5905,8 @@ span.fa.fa-play {
 }
 .pathdots{
     position: absolute;
-    top: -20px;
-    left: 150px;
+    top: -3.5%;
+    left: 45%;
     padding: 5px 10px;
     border-radius: 50%;
     background: #0080ff;
