@@ -5881,6 +5881,18 @@ span.fa.fa-play {
     background-color: #1772c7;
     cursor: pointer;
 }
+.pathdots{
+    position: absolute;
+    top: -20px;
+    left: 150px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #0080ff;
+    color: white;
+    z-index: 1000;
+    height: 34px;
+    width: 34px;
+}
 .smalldot{
     background-color:#80bfff;
     height: 20px;
