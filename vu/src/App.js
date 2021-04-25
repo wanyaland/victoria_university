@@ -4,6 +4,7 @@ import About from './client/components/about';
 import Coops from './client/components/co-ops';
 import Policies from './client/components/policies';
 import Contact from './client/components/contact';
+import Programs from './client/components/programs';
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
         <Route exact path="/co-ops" component={Coops} />
         <Route exact path="/policies" component={Policies} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/programs" component={Programs} />
       </Switch>
     </Router>
 

@@ -187,9 +187,14 @@ class Home extends Component{
 			</div>
 	</div>
 </section>
+<hr class="text-center" style={{color:'#000', width: '90%'}}></hr>
 <NewsHub />
 <Events />
+<div className="marginize"></div>
+<div className="marginize2"></div>
 <Testimonies />
+<div className="marginize"></div>
+<div className="marginize2"></div>
 <Footer />
     </React.Fragment>
         );
