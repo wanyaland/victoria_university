@@ -60,7 +60,13 @@ body img {
 .noscroll {
     overflow: hidden;
 }
-
+.programfa{
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #0080ff;
+    padding: 10px;
+    font-size: 16px;
+}
 .title-content {
     align-items: center;
 }

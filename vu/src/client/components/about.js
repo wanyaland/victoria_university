@@ -89,16 +89,16 @@ class AboutUs extends Component{
 	<div class="specification-content py-5">
 		<div class="container py-lg-5">
 			<div class="mission-grids-info row">
-				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0080ff'}}>
+				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0080ff', color: '#FFF'}}>
 					<div class="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
-						<p style={{color: '#fff;'}}>Serves Over 40,000 Students</p>
-						<p style={{color: '#fff;'}}>Employs Over 1000 Faculty and Staff Members</p>
-						<p style={{color: '#fff;'}}>VU Offers Over 850 Courses</p>
-						<p style={{color: '#fff;'}}>Maintains Over 350 Collaborative agreements</p>
-						<p style={{color: '#fff;'}}>Additional Student Facts VU students come from every Canadian province and territory and 87 countries worldwide.</p>
-						<p style={{color: '#fff;'}}>The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
-						<p style={{color: '#fff;'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
+						<p style={{color: '#fff'}}>Serves Over 40,000 Students</p>
+						<p style={{color: '#fff'}}>Employs Over 1000 Faculty and Staff Members</p>
+						<p style={{color: '#fff'}}>VU Offers Over 850 Courses</p>
+						<p style={{color: '#fff'}}>Maintains Over 350 Collaborative agreements</p>
+						<p style={{color: '#fff'}}>Additional Student Facts VU students come from every Canadian province and territory and 87 countries worldwide.</p>
+						<p style={{color: '#fff'}}>The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
+						<p style={{color: '#fff'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
 				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5'}}>
