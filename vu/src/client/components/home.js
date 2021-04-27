@@ -119,12 +119,12 @@ class Home extends Component{
 		<br/>
 		<br/>
 		<br/>
-		<section class="w3l-footer-16 text-center">
-			<div class="columns-2 mt-md-0 mt-3 text-center">	
+		<section class="w3l-footer-16">
+			<div class="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
 				<ul class="social d-flex dotcontrol">
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect"/>
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect"/>
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect"/>
+					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
 					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li>
 				</ul>
 			</div>
