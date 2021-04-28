@@ -47,6 +47,7 @@ class Footer extends Component{
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-angle-up"></span>
     </button>
+    <button class="open-button" onClick="openForm()"><span class="fa fa-comments text-center justify-content-center" title="Chat And Help"></span></button>
 </section>
             </React.Fragment>
         )

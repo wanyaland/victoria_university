@@ -6,6 +6,7 @@ import NewsHub from './newshub';
 import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
+import Chat from './chat';
 
 class Home extends Component{
     render(){
@@ -195,6 +196,7 @@ class Home extends Component{
 <Testimonies />
 <div className="marginize"></div>
 <div className="marginize2"></div>
+<Chat />
 <Footer />
     </React.Fragment>
         );
