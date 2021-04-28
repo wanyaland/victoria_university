@@ -48,7 +48,7 @@ class Home extends Component{
 				<br/><br/>
 				<div class="text-center">
 					<a class="logo-2" href="home.php">
-                                        <h3 class="lohny-2 text-center" style={{color:'#0080ff'}}><span class="fa fa-chain"></span>&nbsp;Come Prepared To Learn, Leave Prepared To Succeed</h3></a>
+                                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain"></span>&nbsp;Come Prepared To Learn, Leave Prepared To Succeed</h3></a>
                            
 				</div>
 			</div>
@@ -62,7 +62,7 @@ class Home extends Component{
 
 			<div class="row title-content">
 				<div class="col-lg-4 title-left">
-					<h3 class="hny-title" style={{color:'#0080ff'}}>Welcome To VU</h3>
+					<h3 class="hny-title" style={{color:'#0077b5'}}>Welcome To VU</h3>
 				</div>
 				<div class="col-lg-8 title-info">
 					<p>Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. We offer a wide variety of courses and our qualifications are designed to meet the needs of the market place.</p>
@@ -111,7 +111,7 @@ class Home extends Component{
 			<br/>
 			<br/>
 			<br/>
-			<h3 class="hny-title text-center" style={{color:'#0080ff'}}>Maximize</h3>
+			<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Maximize</h3>
 			<h4 class="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>
 			<div class="text-center dashunder"></div>
