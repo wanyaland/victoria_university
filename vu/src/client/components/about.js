@@ -146,7 +146,7 @@ class AboutUs extends Component{
 				</div>
 			</div>
 			<p><a class="logo-2" href="home" style={{color: '#0077b5'}}>
-				<h4 class="lohny-2 text-center"><span class="fa fa-chain programfa" style="background-color: #ff7b00;"></span>&nbsp;Learn More About VU Accreditation</h4>
+				<h4 class="lohny-2 text-center"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Learn More About VU Accreditation</h4>
 				</a>
 			</p>
         </div>

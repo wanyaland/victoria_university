@@ -5902,11 +5902,11 @@ span.fa.fa-play {
 .howvu{
     width: 40%;
     margin: 0 auto;
-    background-color: #1880e2;
+    background-color: #555;
     padding: 3px 0px;
 }
 .howvu:hover{
-    background-color: #1772c7;
+    background-color: #0077b5;
     cursor: pointer;
 }
 .pathdots{

@@ -48,7 +48,7 @@ class Home extends Component{
 				<br/><br/>
 				<div class="text-center">
 					<a class="logo-2" href="home.php">
-                                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain"></span>&nbsp;Come Prepared To Learn, Leave Prepared To Succeed</h3></a>
+                                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain"></span>&nbsp;What Makes VU Unique</h3></a>
                            
 				</div>
 			</div>
@@ -72,7 +72,7 @@ class Home extends Component{
 			<section class="w3l-footer-16 text-center">
 				<div class="">
 					<img src="assets/images/fav.png" class="text-center" title="Victoria University" width="80" height="80" alt="img"/>
-					<h3 class="hny-title text-center" style={{color:'#0080ff'}}>Select Your Path</h3>
+					<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Select Your Path</h3>
 					<h6 class="hny-title text-center">Choose your path and jump right in</h6>
 				</div>
 			</section>
