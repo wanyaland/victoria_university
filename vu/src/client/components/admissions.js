@@ -109,7 +109,7 @@ class Admissions extends Component{
     <div class="container">
         <br/>
         <span class="fa fa-puzzle-piece text-center" style={{color: 'steelblue', fontSize: '80px'}}></span>
-        <h5 class="hny-title text-center" style={{color:'#0080ff', fontSize: '30px'}}>Wherever you want to take your online education, Victoria University is <b>the perfect fit for you.</b></h5>
+        <h5 class="hny-title text-center" style={{color:'#0077b5', fontSize: '30px'}}>Wherever you want to take your online education, Victoria University is <b>the perfect fit for you.</b></h5>
     </div>
 </section>
 <br/>
@@ -191,7 +191,7 @@ class Admissions extends Component{
 <section class="w3l-footer-16 text-center">
     <div class="container">
         <img src="assets/images/fav.png" class="text-center" title="Victoria University" width="80" height="80" alt="img"/>
-        <h3 class="hny-title text-center" style={{color:'#0080ff'}}>Ready to get your online education started?</h3>
+        <h3 class="hny-title text-center" style={{color:'#0077b5'}}>Ready to get your online education started?</h3>
         <h4 class="hny-title text-center">Choose a program that’s right for you and set yourself up for success with an accredited undergraduate, graduate, doctorate degree or single courses that match your personal goals.</h4>
         <div class="button-4-pink justify-content-center text-center" style={{margin: '0 auto', padding: '0px 7px'}}>
             <div class="eff-4-pink"></div>

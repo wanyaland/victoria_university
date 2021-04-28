@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
 class Footer extends Component{
+	topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+    openForm(){
+        console.log("WE HERE");
+        document.getElementById("myForm").style.display = "block";
+    }
     render(){
         return(
             <React.Fragment>
@@ -44,9 +52,10 @@ class Footer extends Component{
             </div>
         </div>
     </div>
-    <button onclick="topFunction()" id="movetop" title="Go to top">
+    <button onClick={this.topFunction} id="movetop" title="Go to top">
         <span class="fa fa-angle-up"></span>
     </button>
+    <button class="open-button" onClick={this.openForm}><span class="fa fa-comments text-center justify-content-center" title="Chat And Help"></span></button>
 </section>
             </React.Fragment>
         )

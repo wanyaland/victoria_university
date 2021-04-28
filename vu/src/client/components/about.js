@@ -89,7 +89,7 @@ class AboutUs extends Component{
 	<div class="specification-content py-5">
 		<div class="container py-lg-5">
 			<div class="mission-grids-info row">
-				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0080ff', color: '#FFF'}}>
+				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
 					<div class="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
 						<p style={{color: '#fff'}}>Serves Over 40,000 Students</p>
@@ -145,7 +145,10 @@ class AboutUs extends Component{
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 				</div>
 			</div>
-			<h4 class="hny-title text-center" style={{color: '#0080ff'}}>Learn More About VU Accreditation</h4>
+			<p><a class="logo-2" href="home" style={{color: '#0077b5'}}>
+				<h4 class="lohny-2 text-center"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Learn More About VU Accreditation</h4>
+				</a>
+			</p>
         </div>
 	</div>
 </section>

@@ -63,7 +63,7 @@ body img {
 .programfa{
     border-radius: 50%;
     color: #FFF;
-    background-color: #0080ff;
+    background-color: #0077b5;
     padding: 10px;
     font-size: 16px;
 }
@@ -85,8 +85,8 @@ body img {
 }
 .topprog{
     border-radius: 25%;
-    color: #0080ff;
-    border: #0080ff 10px solid;
+    color: #0077b5;
+    border: #0077b5 10px solid;
     padding: 15px;
 }
 .proghead{
@@ -3286,7 +3286,7 @@ h3.hny-title.two {
 }
 
 .w3l-top-header-content .top-hd {
-    background: #076dd3;
+    background: #0077b5;
 }
 
 .w3l-top-header-content a.sign-in {
@@ -5228,7 +5228,7 @@ span.fa.fa-play {
 }
 
 .w3l-footer-16 .w3l-footer-16-main {
-    background: #0563c0;
+    background: #0077b5;
 }
 
 .w3l-footer-16 .w3l-footer-16-main h3 {
@@ -5407,7 +5407,7 @@ span.fa.fa-play {
     display: none;
     position: fixed;
     bottom: 15px;
-    right: 15px;
+    right: 0px;
     z-index: 99;
     border: none;
     outline: none;
@@ -5902,11 +5902,11 @@ span.fa.fa-play {
 .howvu{
     width: 40%;
     margin: 0 auto;
-    background-color: #1880e2;
+    background-color: #555;
     padding: 3px 0px;
 }
 .howvu:hover{
-    background-color: #1772c7;
+    background-color: #0077b5;
     cursor: pointer;
 }
 .pathdots{
@@ -5915,7 +5915,7 @@ span.fa.fa-play {
     left: 45%;
     padding: 5px 10px;
     border-radius: 50%;
-    background: #0080ff;
+    background: #0077b5;
     color: white;
     z-index: 1000;
     height: 34px;
@@ -5943,25 +5943,25 @@ span.fa.fa-play {
     display: inline-block;
   }
 .circler{
-    color: #0080ff;
+    color: #0077b5;
     border: #e65252 10px solid; 
     padding: 20px;
 }
 
 .circle1{
-    color: #0080ff;
+    color: #0077b5;
     border-radius: 60%;
     padding: 22px 18px;
     font-size:37px;
 }
 .circle2{
-    color: #0080ff;
+    color: #0077b5;
     border-radius: 90%;
     padding: 20px 25px;
     font-size:38px;
 }
 .circle3{
-    color: #0080ff;
+    color: #0077b5;
     border-radius: 50%;
 }
 
@@ -16617,3 +16617,78 @@ a.text-dark:focus {
 .lister:hover{
     color: #ba8b00;
 }
+/* CHAT CSS */
+.open-button {
+    background-color: #0077b5;
+    border-radius: 10% 0% 0% 10%;
+    color: white;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 53px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+  }
+  .open-button span{
+      font-size: 30px;
+      margin: 0 auto;
+  }
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

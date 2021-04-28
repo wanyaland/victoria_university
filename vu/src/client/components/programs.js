@@ -70,13 +70,13 @@ class Programs extends Component{
                                     </div>
                                     <div class="text-center">
                                         <a class="logo-2" href="home">
-                                            <h3 class="lohny-2 text-center" style={{color:'#0080ff'}}>HOW VU WORKS</h3>
+                                            <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}>HOW VU WORKS</h3>
                                         </a><br/>
                                         <a class="logo-2" href="home">
-                                            <h4 class="lohny-2 text-center" style={{color:'#0080ff'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
+                                            <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
                                         </a><br/>
                                         <a class="logo-2" href="home">
-                                            <h4 class="lohny-2 text-center" style={{color:'#0080ff'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
+                                            <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
                                         </a>
                                                
                                     </div>
@@ -93,13 +93,13 @@ class Programs extends Component{
                                         </div>
                                         <div class="text-center">
                                             <a class="logo-2" href="home">
-                                                <h3 class="lohny-2 text-center" style={{color:'#0080ff'}}>HOW VU WORKS</h3>
+                                                <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}>HOW VU WORKS</h3>
                                             </a><br/>
                                             <a class="logo-2" href="home">
-                                                <h4 class="lohny-2 text-center" style={{color:'#0080ff'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
+                                                <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
                                             </a><br/>
                                             <a class="logo-2" href="home">
-                                                <h4 class="lohny-2 text-center" style={{color:'#0080ff'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
+                                                <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
                                             </a>
                                                    
                                         </div>
