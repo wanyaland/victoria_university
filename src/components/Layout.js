@@ -1,17 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
 import { makeStyles ,  useTheme } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
-
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import Logo from '../assets/images/Master-Logo.jpeg'
@@ -19,8 +15,17 @@ import { Link } from 'react-router-dom';
 import Menu from './Menu'
 import MenuItem from '@material-ui/core/MenuItem';
 import {mainNav,topNav} from '../routes'
-
+import { Paper, Button,Typography,Card,CardContent ,CardMedia,Divider,Grid} from '@material-ui/core'
+import TwitterIcon from '@material-ui/icons/Twitter';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import YouTubeIcon from '@material-ui/icons/YouTube';
+import PhoneIcon from '@material-ui/icons/Phone';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailIcon from '@material-ui/icons/Email';
 const drawerWidth = 240;
+export const navHeight = 80;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,14 +49,14 @@ const useStyles = makeStyles((theme) => ({
       }, 
     },
     '& .logo-wrapper':{
-      width:'30vh',
+      width:'200px',
       height: '100%',
       padding:'10px',
       marginRight:'10%',
       backgroundColor:theme.white,
 
       '& img':{
-        width:'auto',
+        width:'100%',
         height:'100%'
       },
       [theme.breakpoints.down('md')]: {
@@ -60,13 +65,13 @@ const useStyles = makeStyles((theme) => ({
       }
     },
     '& .MuiToolbar-root':{
-      height: '100px',
+      height: navHeight,
       //backgroundColor:  theme.palette.primary.main;
       // background: 'rgb(241,243,245)',
-       background: 'radial-gradient(circle, rgba(136,198,245,1) 0%, rgba(129,195,244,1) 17%, rgba(98,167,219,1) 38%, rgba(98,167,219,1) 62%, rgba(232,112,146,1) 86%, rgba(215,25,32,1) 100%)',
+      background: 'radial-gradient(circle, rgba(136,198,245,1) 0%, rgba(129,195,244,1) 17%, rgba(98,167,219,1) 38%, rgba(98,167,219,1) 62%, rgba(232,112,146,1) 86%, rgba(215,25,32,1) 100%)',
       borderTop: '0.5px solid #e0dcdc',
       [theme.breakpoints.down('md')]: {
-        height: '70px',
+        // height: '70px',
         backgroundColor:theme.palette.primary.main,
       },
       '& .MuiButton-text':{
@@ -74,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
         color:theme.white,
         fontWeight:'bold',
         [theme.breakpoints.down('md')]: {
-           color:theme.white
+          color:theme.white
         },
         '& .MuiButton-label':{
           [theme.breakpoints.down('md')]: {
@@ -88,16 +93,9 @@ const useStyles = makeStyles((theme) => ({
       }
 
     },
-    '& .content-wrappper':{
-      minHeight:'70vh',
-      width: '100%',
-      marginTop:'100px',
-      [theme.breakpoints.down('md')]: {
-        marginTop:'30px',
-      }
-    },
+  
     '& .MuiList-root':{
-     color:`${theme.palette.primary.main} !important`,
+      color:`${theme.palette.primary.main} !important`,
 
       // [theme.breakpoints.down('md')]: {
       //   display:'none'
@@ -152,14 +150,30 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     flexGrow: 1,
-    backgroundColor:'#eae6e6',
+    backgroundColor:theme.grey.light,
     width:'100%',
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    //  marginTop:-navHeight+50,
     marginLeft: -drawerWidth,
-    padding:'0 10px'
+    overflowX: 'hidden',
+    '& .content-wrappper':{
+      // backgroundColor:theme.white,
+      minHeight:'70vh',
+      width: '100%',
+      //  marginTop:navHeight,
+      marginBottom:'50px',
+      // padding:'0 2%',
+   
+    },
+    [theme.breakpoints.down('md')]: {
+      // marginTop:'-50px',
+
+      // padding:'0 1%'
+    },
+  
   },
   contentShift: {
     transition: theme.transitions.create('margin', {
@@ -169,14 +183,38 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 0,
   },
   footer:{
+    position:'relative',
     backgroundColor:theme.palette.primary.main,
-    height:'300px',
-    margin:'0 -10px'
+    minHeight:'200px',
+    color:'white',
+    '& .MuiCard-root':{
+      background:'none',
+      color:'white',
+      '& a':{
+        color:'white',
+      },
+      '& p':{
+        margin:'2px',
+      }
+    }, 
+    '& .MuiPaper-elevation1':{
+      boxShadow:'none'
+    },
+    '& .copyright':{
+      postion:'absolute', 
+      top:'90%', 
+      left:'0' ,
+      backgroundColor:theme.palette.primary.dark,
+      color:'white'
+    },
+    '& .MuiDivider-root':{
+      backgroundColor:theme.white,  
+    }
   }
 
 }));
 
-const NavBar = ({open,setOpen}) => {
+const NavBar = ({open,setOpen,hideTopNav}) => {
   const classes = useStyles();
   const theme = useTheme();
   const handleDrawerOpen = () => {
@@ -190,20 +228,17 @@ const NavBar = ({open,setOpen}) => {
     return <>
       {routes.map((route)=>(
        
- !route?.children?.length
-  ? <div><Link to={`${route.path}`}>
- <Button>{route.name}</Button>
-</Link></div>
-: <Menu label={route?.children[0]?.name}>
- {route.children?.slice(1)?.map((res)=>( 
-   <Link  to={res.path} key={res.path}>
-     <MenuItem >{res.name}</MenuItem>
-   </Link>))}        
-</Menu>
-
-
-      ))}
-    
+        !route?.children?.length
+          ? <div><Link to={`${route.path}`}>
+            <Button>{route.name}</Button>
+          </Link></div>
+          : <Menu label={route?.children[0]?.name}>
+            {route.children?.slice(1)?.map((res)=>( 
+              <Link  to={res.path} key={res.path}>
+                <MenuItem >{res.name}</MenuItem>
+              </Link>))}        
+          </Menu>
+      ))}  
     </>
   }
 
@@ -213,11 +248,10 @@ const NavBar = ({open,setOpen}) => {
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}>
-        <div className="top-nav">
+        {!hideTopNav&&<div className="top-nav">
           {topNav.map(res => <Link key={res.path} to={`${res.path}`}>{res.name}</Link>)}
-        </div>
-        <Toolbar className={classes.toolbar}>
-          
+        </div>}
+        <Toolbar className={classes.toolbar}>    
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -247,7 +281,6 @@ const NavBar = ({open,setOpen}) => {
             {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </div>
-        <Divider />
         <List >     
           {renderNavLinks([...mainNav,...topNav])}
         </List>
@@ -259,10 +292,23 @@ const NavBar = ({open,setOpen}) => {
 export default function Layout({children}) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
+  const [hideTopNav, setHideTopNav] = React.useState(false);
+
+  //   useEffect(()=>{
+  //     window.addEventListener('scroll', handleScroll,true);
+  //   return   window.removeEventListener('scroll', handleScroll);
+  //   },[])
+
+  // const handleScroll =()=> {
+  //     let scrollTop = event.srcElement.body.scrollTop,
+  //         itemTranslate = Math.min(0, scrollTop/3 - 60);
+  //  console.log('called')
+  //         setHideTopNav(true);
+  //   }
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <NavBar open={open} setOpen={setOpen}/>
+      <NavBar open={open} setOpen={setOpen} hideTopNav={hideTopNav}/>
       <main
         className={clsx(classes.content, {
           [classes.contentShift]: open,
@@ -283,7 +329,67 @@ const Footer = () => {
 
   return (
     <div className={classes.footer}>
-
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={4} >
+          <Card >
+            <CardContent>
+              <Typography align="center"  variant="h6" gutterBottom>
+                Quick Links             
+              </Typography>
+              <Typography  align="center" variant="body1" component="p">
+                <p><Link to="/">Home</Link></p>
+                <p><Link to="/">About Us</Link></p>
+                <p><Link to="/">Admissions</Link></p>
+                <p><Link to="/">Programs</Link></p>
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={12} sm={4} >
+          <Card >
+            <CardContent>
+              <Typography align="center"  variant="h6" gutterBottom>
+               Location
+              </Typography>
+              <Typography  align="center" variant="body1" component="p">
+                Victoria Tower, Plot 1-13 Jinja Road
+                P.O.Box 30866, Kampala Uganda
+              </Typography>
+              <Typography align="center"  variant="h6" gutterBottom>
+                Connect with us
+              </Typography>
+              <Typography  align="center" variant="body1" >
+                <a href="https://www.facebook.com/VUKampala"><FacebookIcon/> </a>
+                <a href="https://twitter.com/VUKampala"><TwitterIcon/></a>
+                <a href="https://www.instagram.com/victoriauniversity_kampala/"><InstagramIcon/></a>
+                <a href="https://www.linkedin.com/company/victoria-university-kampala/"><LinkedInIcon/></a>
+                <a href="https://www.youtube.com/channel/UC_4EzcvGVtnqjvr4At_r7PQ"><YouTubeIcon/></a>
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs={12} sm={4} >
+          <Card >
+            <CardContent>
+              <Typography align="center"  variant="h6" gutterBottom>
+              Get Intouch
+              </Typography>
+              <Typography  align="center" variant="body1" component="p">
+                <div><PhoneIcon/><span>(+256) 200405433</span></div>
+                <div><PhoneIcon/><span> (+256) 759 996 130</span></div>
+                <div><WhatsAppIcon/><span> (+256) 700 300 088</span></div>
+                <div><EmailIcon/><span> admissions@vu.ac.ug</span></div>
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      </Grid>
+      <div  className="copyright" style={{}}>
+        <Typography  align="center" variant="body1" component="p">
+©2021 Victoria University, Kampala, Uganda.
+Victoria University is part of the Ruparelia Group of Companies.
+        </Typography>
+      </div>
     </div>
   );
 }

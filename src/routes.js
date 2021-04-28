@@ -1,11 +1,11 @@
-import Home from './pages/Home'
+import Home from './pages/home'
 
 export const mainNav = [
   {
     path:'/',
-   name:'Home',
-   component:Home
- },
+    name:'Home',
+    component:Home
+  },
   {
     path:'/about',
     name:'About Us',

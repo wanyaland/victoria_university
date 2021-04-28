@@ -20,7 +20,7 @@ const App =  ()=> {
           {
             Routes.map((route)=> {
               return route?.children?.length?route.children.map((res)=><Route key={res.path} exact path={res.path} component={res.component} />)
-              :<Route key={route.path} exact path={route.path} component={route.component} />})
+                :<Route key={route.path} exact path={route.path} component={route.component} />})
           }
           <Route component={NotFound} />
         </Switch>

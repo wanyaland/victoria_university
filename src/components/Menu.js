@@ -24,33 +24,29 @@ export default function MenuComponent({label,children}) {
     setOpen(false);
   };
 
-
-
-
-
   return (
     <div>
       <Button 
-       ref={anchorRef}
-          aria-controls={open ? 'menu' : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
+        ref={anchorRef}
+        aria-controls={open ? 'menu' : undefined}
+        aria-haspopup="true"
+        onClick={handleToggle}
         endIcon={<ArrowDropDownIcon/>}
->
+      >
         {label}
       </Button>
       <Popper  style={{zIndex: 10000}} open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
-          {() => (
-              <Paper elevation={0} >
-                <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList autoFocusItem={open} id="menu" >
-                    {children}
-                  </MenuList>
-                </ClickAwayListener>
-               </Paper>
-            // </Grow>
-          )}
-        </Popper>
+        {() => (
+          <Paper elevation={0} >
+            <ClickAwayListener onClickAway={handleClose}>
+              <MenuList autoFocusItem={open} id="menu" >
+                {children}
+              </MenuList>
+            </ClickAwayListener>
+          </Paper>
+          // </Grow>
+        )}
+      </Popper>
     </div>
   );
 }
