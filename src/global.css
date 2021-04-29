@@ -1,9 +1,18 @@
-a{
+a {
   text-decoration: none;
   color:#62A7DB
 }
 
 .page-content{
   width:100%; 
-  margin:0 1% !important; 
+  padding:2% !important; 
+}
+.vu-card{
+  background: none !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .page-content{
+    padding:2% 0 !important; 
+  }
 }
