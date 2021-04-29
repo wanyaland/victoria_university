@@ -9,9 +9,9 @@ const useStyles = makeStyles((theme) => ({
       objectFit: 'cover',
     }
   },
-
 }));
-export default function  Image({url,height,width}) {
+
+export default function  ImageComponent({url,height,width}) {
   const classes = useStyles();
 
   return (
@@ -19,7 +19,7 @@ export default function  Image({url,height,width}) {
   );
 }
 
-Image.defaultProps = {
+ImageComponent.defaultProps = {
   height:'100%',
   width:'100%'
 }
