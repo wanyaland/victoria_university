@@ -1,3 +1,4 @@
+import About from './pages/about'
 import Home from './pages/home'
 
 export const mainNav = [
@@ -13,12 +14,12 @@ export const mainNav = [
       {
         path:'/about',
         name:'About Us',
-        component:Home,
+        component:About,
       },
       {
         path:'/about',
         name:'Who we Are',
-        component:Home,
+        component:About,
       },
       {
         path:'/about/uni-council',

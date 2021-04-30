@@ -12,7 +12,7 @@ import { whyVuData, admissionsData,academicsData,testmonials,newsData ,events} f
 import { Link } from 'react-router-dom';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import adminAndAids from '../../assets/images/admissions.jpeg'
-import Image from '../../components/Image'
+import Image from '../../components/ImageComponent'
 import ReactPlayer from 'react-player'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width:'100%',
     backgroundColor:theme.grey.light,
-    // '& .page-content':{
     '& .main-content':{
       padding:'1rem',
       backgroundColor:'white',
@@ -366,7 +365,7 @@ export default function Home() {
           </div>
         </div>
       </div> 
-      <div style={{ padding: ' 16px' }}>
+      <div className="page-content">
         <Grid container spacing={2} > 
           <Grid item md={9} > 
             <div className="main-content">
@@ -374,7 +373,6 @@ export default function Home() {
               <Admisions/>
               <Academics/>
               <Testmonials/>
-              {/* <News/> */}
               <WelcomeVideo/>
             </div>
           </Grid>
@@ -454,7 +452,7 @@ const Admisions = ()=>{
   return <div className="admin">
     <div className="header">
       <Typography align="center" variant="h5" gutterBottom>
-         Admitions & Aid
+         Admissions & Aid
       </Typography>
       <ArrowDropDownIcon />
     </div>  

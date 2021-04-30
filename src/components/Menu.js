@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -8,11 +8,12 @@ import Popper from '@material-ui/core/Popper';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import MenuList from '@material-ui/core/MenuList';
 
-export default function MenuComponent({label,children}) {
+export default function MenuComponent({label,children,close,setCloseMenu}) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
   const handleToggle = () => {
+    setCloseMenu(false)
     setOpen((prevOpen) => !prevOpen);
   };
 
@@ -20,10 +21,14 @@ export default function MenuComponent({label,children}) {
     if (anchorRef.current && anchorRef.current.contains(event.target)) {
       return;
     }
-
     setOpen(false);
   };
 
+  useEffect(()=>{
+    if(close){
+      setOpen(false);
+    }
+  },[close])
   return (
     <div>
       <Button 

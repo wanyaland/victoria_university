@@ -29,7 +29,7 @@ export const navHeight = 80;
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
+    // display: 'flex',
     '& .top-nav':{
       // backgroundColor:theme.palette.primary.main,
       backgroundColor:theme.white,
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
       borderTop: '0.5px solid #e0dcdc',
       [theme.breakpoints.down('md')]: {
         // height: '70px',
-        backgroundColor:theme.palette.primary.main,
+        // backgroundColor:theme.palette.primary.main,
       },
       '& .MuiButton-text':{
         // color:theme.palette.primary.main,
@@ -91,16 +91,14 @@ const useStyles = makeStyles((theme) => ({
         color:theme.white,
         // backgroundColor:theme.palette.primary.main
       }
-
     },
   
     '& .MuiList-root':{
       color:`${theme.palette.primary.main} !important`,
-
-      // [theme.breakpoints.down('md')]: {
-      //   display:'none'
-      // }
     },
+    '& .MuiPaper-elevation4':{
+      boxShadow:'none'
+    }
   },
   appBar: {
     transition: theme.transitions.create(['margin', 'width'], {
@@ -119,11 +117,9 @@ const useStyles = makeStyles((theme) => ({
   menuButton: {
     marginRight: theme.spacing(2),
     color:'white',
-
     [theme.breakpoints.up('md')]: {
       display: 'none',
     },
-
   },
   hide: {
     display: 'none',
@@ -149,39 +145,29 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor:theme.palette.primary.main,
   },
   content: {
-    flexGrow: 1,
+    // flexGrow: 1,
     backgroundColor:theme.grey.light,
     width:'100%',
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    //  marginTop:-navHeight+50,
-    marginLeft: -drawerWidth,
+    // marginLeft: -drawerWidth,
     overflowX: 'hidden',
     '& .content-wrappper':{
-      // backgroundColor:theme.white,
       minHeight:'70vh',
       width: '100%',
-      //  marginTop:navHeight,
       marginBottom:'50px',
-      // padding:'0 2%',
-   
-    },
-    [theme.breakpoints.down('md')]: {
-      // marginTop:'-50px',
-
-      // padding:'0 1%'
     },
   
   },
-  contentShift: {
-    transition: theme.transitions.create('margin', {
-      easing: theme.transitions.easing.easeOut,
-      duration: theme.transitions.duration.enteringScreen,
-    }),
-    marginLeft: 0,
-  },
+  // contentShift: {
+  //   transition: theme.transitions.create('margin', {
+  //     easing: theme.transitions.easing.easeOut,
+  //     duration: theme.transitions.duration.enteringScreen,
+  //   }),
+  //   marginLeft: 0,
+  // },
   footer:{
     position:'relative',
     backgroundColor:theme.palette.primary.main,
@@ -214,7 +200,30 @@ const useStyles = makeStyles((theme) => ({
 
 }));
 
-const NavBar = ({open,setOpen,hideTopNav}) => {
+export default function Layout({children}) {
+  const classes = useStyles();
+  const [open, setOpen] = React.useState(false);
+
+  return (
+    <div className={classes.root}>
+      <CssBaseline />
+      <NavBar open={open} setOpen={setOpen} />
+      <main
+        className={clsx(classes.content)}
+      >
+        {/* <div className={classes.drawerHeader} /> */}
+        <div className="content-wrappper" >
+          {children}
+        </div>
+        <Footer/>
+      </main>
+    </div>
+  );
+}
+
+const NavBar = ({open,setOpen}) => {
+  const [closeMenu, setCloseMenu] = React.useState(false);
+
   const classes = useStyles();
   const theme = useTheme();
   const handleDrawerOpen = () => {
@@ -226,16 +235,15 @@ const NavBar = ({open,setOpen,hideTopNav}) => {
   };
   const renderNavLinks = (routes)=>{
     return <>
-      {routes.map((route)=>(
-       
+      {routes.map((route)=>(   
         !route?.children?.length
           ? <div><Link to={`${route.path}`}>
             <Button>{route.name}</Button>
           </Link></div>
-          : <Menu label={route?.children[0]?.name}>
+          : <Menu label={route?.children[0]?.name}  close={closeMenu} setCloseMenu={setCloseMenu}>
             {route.children?.slice(1)?.map((res)=>( 
               <Link  to={res.path} key={res.path}>
-                <MenuItem >{res.name}</MenuItem>
+                <MenuItem onClick={()=>setCloseMenu(true)}>{res.name}</MenuItem>
               </Link>))}        
           </Menu>
       ))}  
@@ -244,13 +252,14 @@ const NavBar = ({open,setOpen,hideTopNav}) => {
 
   return (
     <div className={classes.root}>
-      <AppBar   position="fixed"
+      <AppBar   
+        position="relative"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}>
-        {!hideTopNav&&<div className="top-nav">
+        <div className="top-nav">
           {topNav.map(res => <Link key={res.path} to={`${res.path}`}>{res.name}</Link>)}
-        </div>}
+        </div>
         <Toolbar className={classes.toolbar}>    
           <IconButton
             color="inherit"
@@ -289,40 +298,7 @@ const NavBar = ({open,setOpen,hideTopNav}) => {
   );
 };
 
-export default function Layout({children}) {
-  const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
-  const [hideTopNav, setHideTopNav] = React.useState(false);
 
-  //   useEffect(()=>{
-  //     window.addEventListener('scroll', handleScroll,true);
-  //   return   window.removeEventListener('scroll', handleScroll);
-  //   },[])
-
-  // const handleScroll =()=> {
-  //     let scrollTop = event.srcElement.body.scrollTop,
-  //         itemTranslate = Math.min(0, scrollTop/3 - 60);
-  //  console.log('called')
-  //         setHideTopNav(true);
-  //   }
-  return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <NavBar open={open} setOpen={setOpen} hideTopNav={hideTopNav}/>
-      <main
-        className={clsx(classes.content, {
-          [classes.contentShift]: open,
-        })}
-      >
-        <div className={classes.drawerHeader} />
-        <div className="content-wrappper" >
-          {children}
-        </div>
-        <Footer/>
-      </main>
-    </div>
-  );
-}
 
 const Footer = () => {
   const classes = useStyles();
