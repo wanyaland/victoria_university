@@ -24,7 +24,47 @@ export const whyVuData=[
   { 
     title:'2 Multi-Cultural Community',
     details:'Our international status in learning and training attracts students from over 20 countries. Such diversity allows our students to interact which opens up wide range career opportunities in the future.'
-  }
+  },
+  {
+    title: 'Market Driven Courses',
+    details: 'We offer a wide range of courses and our qualifications are designed to meet the needs of the market place. We have established links with corporate companies and constantly review our portfolio to ensure that it meets both the student’s requirements and employer’s needs'
+  },
+  {
+    title: 'Supportive Learning Environment',
+    details: 'A supportive learning environment is less about the physical classroom and resources than it is about values and relationships. At Victoria University we create a learning environment to empower our students.'
+  },
+  {
+    title: 'Student Centered Learning',
+    details: 'Victoria University addresses the distinct learning needs, interests, aspirations, or cultural backgrounds of individual students and groups of students. Students are taught the way they want to be taught other than the way a lecturer would prefer to teach.'
+  },
+  {
+    title: 'Internship and Job Placement',
+    details: 'We have international and local collaborations, so our students are assured of extensive hands on training every semester. This enables them acquire distinctive skills and knowledge of a working environment and making them competitive all rounders. Job placement given to top performers at the University.'
+  },
+  {
+    title: 'Research Excellence and Innovations',
+    details: 'Victoria University is a research active institution where students enjoy the benefits of working with research experts that our students are well informed and upto date with new research and development.'
+  },
+  {
+    title: 'Employability / Employment-Oriented Education',
+    details: 'We make sure that our Graduates are equipped with the knowledge and skills required for a successful career in their chosen field. Input is provided from researchers, current market and industry practitioners,professional bodies to ensure that the curriculum and content are up-to-date and relevant. The University has a dedicated Career Service team which is always at hand to assist students on embarking on their chosen career after graduation.'
+  },
+  {
+    title: 'Facilities',
+    details: 'We offer the perfect setting for you to achieve your full potential. We have world class facilities, Ultra-modern Nursing and Health simulation skills lab, all lecture rooms are air conditioned; we have a first class students lobby, top sports facilities, gyms and swimming pools. Our Campus has a fully-fledged Crane Bank Branch facility; VISA driven ATM machines, Western Union, MoneyGram facilities, Restaurants, parking and state of the art library.'
+  },
+  {
+    title: 'Investment',
+    details: 'Victoria University plans to invest over USD15million in the development of a modern vibrant and exciting university, complete with additional state of the art facilities, new buildings next to Uganda Golf Club and Mulago International Hospital, new halls of residence and innovative learning spaces and a university teaching hospital for health sciences.'
+  },
+  {
+    title: 'Social Enterprise',
+    details: 'The University is committed to delivering new student experience underpinned by a culture of entrepreneurship, research and social enterprise by encouraging students to get involved into social enterprises at all levels via the student Council.'
+  },
+  {
+    title: 'Creating Scholars',
+    details: 'We at Victoria University seek to create specialists in a particular branch of knowledge. We would like to create scholars empowered to provide cutting edge solutions.'
+  },
 ]
 export const admissionsData={
   intro:`
