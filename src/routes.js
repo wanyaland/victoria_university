@@ -1,5 +1,6 @@
 import About from './pages/about'
 import Home from './pages/home'
+import WhyVU from './pages/whyvu'
 
 export const mainNav = [
   {
@@ -48,7 +49,12 @@ export const mainNav = [
         component:Home
       },
     ]
-  }, 
+  },
+  {
+    path: '/whyvu',
+    name: 'Why VU',
+    component: WhyVU
+  }
 ]
 export const  topNav = [
   {
