@@ -16,8 +16,10 @@ const useStyles = makeStyles((theme) => ({
     '& .container': {
       padding:20,
       '& .container-header': {
-
         margin: '2rem',
+      },
+      '& .grid': {
+        justifyContent: 'center'
       },
       ' & .card': {
         '& .whyvu-title': {
@@ -38,8 +40,6 @@ const useStyles = makeStyles((theme) => ({
     marginRight: '1rem',
     fontSize: '1rem',
     backgroundColor: 'rgba(232,112,146,1)',
-
-    
   }
 }))
 
@@ -55,7 +55,7 @@ export default function WhyVU() {
         </Typography>
         <Grid container spacing={2} className='grid'>
           {whyVuData.map((item, i) => (
-            <Grid item key={item.title} xs={12} sm={6}>
+            <Grid item key={item.title} xs={12} sm={6} md={4}>
               <Card className='card' >
                 <CardContent>
                   <Typography
