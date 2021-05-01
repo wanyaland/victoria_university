@@ -117,8 +117,9 @@ const useStyles = makeStyles((theme) => ({
   menuButton: {
     marginRight: theme.spacing(2),
     color:'white',
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
+    display: 'none',
+    [theme.breakpoints.down('md')]: {
+      display: 'block',
     },
   },
   hide: {
@@ -146,7 +147,7 @@ const useStyles = makeStyles((theme) => ({
   },
   content: {
     // flexGrow: 1,
-    backgroundColor:theme.grey.light,
+    backgroundColor:theme.white,
     width:'100%',
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
@@ -154,11 +155,11 @@ const useStyles = makeStyles((theme) => ({
     }),
     // marginLeft: -drawerWidth,
     overflowX: 'hidden',
-    '& .content-wrappper':{
-      minHeight:'70vh',
-      width: '100%',
-      marginBottom:'50px',
-    },
+    // '& .content-wrappper':{
+    //   minHeight:'70vh',
+    //   width: '100%',
+    //   marginBottom:'50px',
+    // },
   
   },
   // contentShift: {
@@ -212,9 +213,10 @@ export default function Layout({children}) {
         className={clsx(classes.content)}
       >
         {/* <div className={classes.drawerHeader} /> */}
-        <div className="content-wrappper" >
+        {children}
+        {/* <div className="content-wrappper" >
           {children}
-        </div>
+        </div> */}
         <Footer/>
       </main>
     </div>

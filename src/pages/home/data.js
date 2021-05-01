@@ -6,6 +6,10 @@ import shortcourse from '../../assets/images/academics/students-at-table.jpeg'
 import grad from '../../assets/images/news/5thGraduation.jpeg'
 import ambassador from '../../assets/images/news/ambassador.jpeg'
 import admissionCeremony from '../../assets/images/news/admissionCeremony.jpeg'
+import admissionIcon from '../../assets/icons/admissions.png'
+import onlineIcon from '../../assets/icons/online.png'
+import transferIcon from '../../assets/icons/transfer.png'
+import tutionIcon from '../../assets/icons/tuition.png'
 
 
 export const whyVuData=[
@@ -25,6 +29,22 @@ export const whyVuData=[
     title:'2 Multi-Cultural Community',
     details:'Our international status in learning and training attracts students from over 20 countries. Such diversity allows our students to interact which opens up wide range career opportunities in the future.'
   }
+]
+export const howVuWorks=[
+  {
+    count:95,
+    details:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+  },
+  {
+    count:90,
+
+    details:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+  },
+  {
+    count:99,
+
+    details:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'
+  },
 ]
 export const admissionsData={
   intro:`
@@ -166,5 +186,31 @@ export const events=[
     imageUrl:ambassador,
     path:'/',
     date:'20-06-2021',
+  }
+]
+export const offers=[
+  {
+    title:'Online Education',
+    details:[ {title:'Lorem Ipsum ', path:'/'}, {title:'Lorem Ipsum ', path:'/'}],
+    imageUrl:onlineIcon,
+    path:'/'
+  },
+  {
+    title:'Admissions',
+    details:[ {title:'Basic Requirements', path:'/'}, {title:'Application Process', path:'/'}],
+    imageUrl:admissionIcon,
+    path:'/'
+  },
+  {
+    title:'Transfer Credit',
+    details:[ {title:'Lorem Ipsum ', path:'/'}, {title:'Lorem Ipsum ', path:'/'}],
+    imageUrl:transferIcon,
+    path:'/'
+  },
+  { 
+    title:'Tuition & Fees',
+    details:[ {title:'Lorem Ipsum ', path:'/'}, {title:'Lorem Ipsum ', path:'/'}],
+    imageUrl:tutionIcon,
+    path:'/'
   }
 ]

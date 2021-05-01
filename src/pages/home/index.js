@@ -8,55 +8,20 @@ import building2 from '../../assets/images/carousel/Victoria University - Buildi
 import compLab from '../../assets/images/carousel/Victoria University - Computer -Lab.jpeg'
 import graduation from '../../assets/images/carousel/victoria-university-5th-graduation-ceremony.jpeg'
 import CarouselComponent from '../../components/carousel';
-import { whyVuData, admissionsData,academicsData,testmonials,newsData ,events} from './data';
+import { whyVuData, admissionsData,academicsData,testmonials,newsData ,events,howVuWorks,offers} from './data';
 import { Link } from 'react-router-dom';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import adminAndAids from '../../assets/images/admissions.jpeg'
 import Image from '../../components/ImageComponent'
 import ReactPlayer from 'react-player'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
-
+import CountUp from 'react-countup';
+import ImageComponent from '../../components/ImageComponent';
+import PlayForWorkIcon from '@material-ui/icons/PlayForWork';
 const useStyles = makeStyles((theme) => ({
   root: {
     width:'100%',
-    backgroundColor:theme.grey.light,
-    '& .main-content':{
-      padding:'1rem',
-      backgroundColor:'white',
-    },
-    '& .side-content':{
-      width:'100%',
-      marginLeft:'3%',
-      padding:'0 1rem',
-
-      '& .events':{
-        marginTop:'6%',
-        paddingTop:'1rem',
    
-        width:'100%',
-        backgroundColor:'white',
-
-      },
-      '& .tweets-wrapper':{
-        marginTop:'6%',
-        paddingTop:'1rem',
-        backgroundColor:'white',
-        width:'100%',
-        '& div':{
-          width:'100%',
-          margin:'0 auto',
-          '& iframe':{
-            width:'100%',
-          }
-        }
-      },
-      [theme.breakpoints.down('sm')]: {
-        padding:0,
-        width:'100%',
-        marginLeft:0,
-      },
-    },
-
     '& .header':{
       display:'flex',
       flexDirection:'column',
@@ -233,13 +198,14 @@ const useStyles = makeStyles((theme) => ({
       },      
     },
     '& .why-vu':{
+      padding:'0 7rem',
       '& .header':{
         marginTop:0,
       },
       '& .MuiCard-root':{
         height:'100%',
         '& h6':{
-          color:theme.palette.primary.dark
+          // color:theme.palette.primary.dark
         }
       } ,
       '& .MuiPaper-elevation1':{
@@ -259,11 +225,19 @@ const useStyles = makeStyles((theme) => ({
     },
     '& .welcome-video':{
       marginTop:'5rem',
-      '& div':{
+      '& .video':{
         width: 'auto !important',
-        height: '500px !important'
-      }
-
+      },
+      '& .tweets-wrapper':{
+        height:'100%',
+        '& div':{
+          height:'100%',
+          '& iframe':{
+            width:'100%',
+            height:'100% !important'
+          }
+        }
+      },
     },
     '& .overlay':{
       position: 'absolute',
@@ -297,6 +271,28 @@ const useStyles = makeStyles((theme) => ({
     '& .MuiPaper-elevation1':{
       boxShadow:'none'
     },
+    '& .offers':{
+      '& .icon':{
+        height:'150px',
+        width:'80%',
+        margin:'0 auto',
+        border: `15px solid ${theme.palette.primary.dark}`,
+        borderRadius: '50px',
+        '& .img-wrapper':{
+          padding:'10px',
+          '& img':{
+            objectFit:'contain'
+          }
+        },
+      },
+      '& a':{
+        color:theme.palette.primary.dark
+      },
+      '& a:hover':{
+        color:theme.palette.secondary.dark
+      }
+   
+    },
     '& .link':{
       margin:'0 auto',
       fontSize:'3rem',
@@ -305,6 +301,29 @@ const useStyles = makeStyles((theme) => ({
     '& .link:hover':{
       color:theme.palette.secondary.dark,
       transform: 'translateX(10px)'
+    },
+    '& .page-content':{
+      [theme.breakpoints.down('md')]: {
+        '& .why-vu':{
+          padding:'0',
+        },
+      },
+      [theme.breakpoints.down('sm')]: {
+        '& .welcome-video':{
+          marginTop:'3rem',
+          '& .tweets-wrapper':{
+            marginTop:'1%',
+            // height:'500px',
+            '& div':{
+              // height:'100%',
+              '& iframe':{
+                // width:'100%',
+                height:'300px !important'
+              }
+            }
+          },
+        },
+      }
     },
   },
   '@keyframes slide': {
@@ -366,52 +385,16 @@ export default function Home() {
         </div>
       </div> 
       <div className="page-content">
-        <Grid container spacing={2} > 
-          <Grid item md={9} > 
-            <div className="main-content">
-              <WhyVU/>
-              <Admisions/>
-              <Academics/>
-              <Testmonials/>
-              <WelcomeVideo/>
-            </div>
-          </Grid>
-          <Grid item md={3}  > 
-            <div className="side-content">
-              <News/>
-              <div className="events">
-                <Typography align="center" variant="h5" gutterBottom>
-                Upcoming Events         
-                </Typography>
-                {events?.slice(0,3)?.map((res)=>(
-                  <>
-                    <Card key={res.title}>
-                      <CardContent>
-                        <Typography align="center"  color="primary" style={{}} variant="h6" gutterBottom>
-                          {res.title}
-                        </Typography>
-                        <Typography  align="center"variant="subtitle1" gutterBottom>
-                          {res.date}
-                        </Typography>
-                        <Typography  align="center" variant="body2" component="p">
-                          {res.details.substr(0, 100)}...
-                        </Typography>
-                      </CardContent>
-                    </Card>
-                    <Divider/> 
-                  </>
-                ))}
-                <Typography  align="center" variant="body2" >
-                  <Link className='link' to="/"><i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i></Link>
-                </Typography>
-              </div>
-              <div className="tweets-wrapper">
-                <TwitterTimelineEmbed sourceType="profile"   screenName="VUKampala" options={{height:600}}/>
-              </div>     
-            </div>        
-          </Grid>
-        </Grid>
-      </div>
+        <WhyVU/>
+        <Academics/>
+        <Offers />
+
+        {/* <Admisions/> */}
+        <Testmonials/>
+        <News title="News"/>
+        <News title ="Upcomming Events"/>
+        <WelcomeVideo/>
+      </div> 
     </div>
   );
 }
@@ -426,16 +409,26 @@ const WhyVU = ()=>{
       </Typography>
       <ArrowDropDownIcon />
     </div>
-    <Grid container spacing={2}>
-      {whyVuData?.slice(0,3)?.map((res)=>(
+    <Grid container spacing={2} >
+      {howVuWorks.map((res)=>(
         <Grid item xs={12} sm={4} key={res.title}>
           <Card >
             <CardContent>
-              <Typography align="center"  variant="h6" gutterBottom>
-                {res.title}
+              <Typography  align="center" variant="h6"  color="secondary">
+           
+  more than
+              </Typography>
+              <Typography  align="center" variant="h1" color="primary">
+                <CountUp
+                  start={0}
+                  end={res.count}
+                  duration={5}
+                  suffix="%"
+
+                />
               </Typography>
               <Typography  align="center" variant="body1" component="p">
-                {res.details.substr(0, 130)}...
+                {res.details}
               </Typography>
             </CardContent>
           </Card>
@@ -544,21 +537,18 @@ const Testmonials = ()=>{
   </div>
 }
 
-const News = ()=>{
+const News = ({title})=>{
   
   return <div className="news"> 
-    <Typography align="center" variant="h6" gutterBottom>
-         News 
-    </Typography>  
-    {/* <div className="header">
+    <div className="header">
       <Typography align="center" variant="h5" gutterBottom>
-         News 
+        {title} 
       </Typography>
       <ArrowDropDownIcon />
-    </div> */}
+    </div>
     <Grid  container spacing={2}>
       {newsData?.slice(0,3)?.map((res)=>(
-        <Grid item xs={12} key={res.title}>
+        <Grid item xs={12} sm={4}  key={res.title}>
           <Card >
             <CardContent>
               <Image url={res.imageUrl}/>
@@ -570,7 +560,6 @@ const News = ()=>{
               </Typography>
             </CardContent>
           </Card>
-          <Divider style={{margin:'10px 0'}}/>
         </Grid>
       ))}
       <Link className='link' to="/"><i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i></Link>
@@ -579,7 +568,49 @@ const News = ()=>{
 }
 
 const WelcomeVideo = ()=>{
-  return <div className="welcome-video">   
-    <ReactPlayer url='https://youtu.be/tkSJ5bP1nu0' controls={true}/>
+  return <Grid  container spacing={2} className="welcome-video">
+    <Grid  item xs={12} sm={8} >
+      <ReactPlayer url='https://youtu.be/tkSJ5bP1nu0' controls={true} className="video"/>
+    </Grid>
+    <Grid  item xs={12} sm={4} >
+      <div className="tweets-wrapper">
+        <TwitterTimelineEmbed sourceType="profile"   screenName="VUKampala" />
+      </div>
+    </Grid>
+  </Grid>
+}
+
+const Offers = ()=>{
+  
+  return <div className="offers">
+    
+    <div className="header">
+      <Typography align="center" variant="h5" gutterBottom>
+         What Vu Offers
+      </Typography>
+      <ArrowDropDownIcon />
+    </div>
+    <Grid container spacing={2} >
+      {offers.map((res)=>(
+        <Grid item xs={12} sm={6} lg={3} key={res.title}>
+          <Card >       
+            <CardContent>
+              <Typography  align="center" variant="h5"  className="icon">
+                <ImageComponent url={res.imageUrl}/>
+              </Typography>
+              <Typography  align="center" variant="h5">
+                <PlayForWorkIcon style={{fontSize:'3rem', color:'#D9232B' }} />
+              </Typography>
+              <Typography  align="center" variant="h4" >
+                {res.title}
+              </Typography>
+              <Typography  align="center" variant="body1" component="p">
+                {res.details.map((e)=><div key={e.title}><Link to={e.path} >{e.title}</Link></div>)}
+              </Typography>
+            </CardContent>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
   </div>
 }
