@@ -441,7 +441,7 @@ const WhyVU = ()=>{
           </Card>
         </Grid>
       ))}
-      <Link className='link' to="/"><i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i></Link>
+      <Link className='link' to="/whyvu"><i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i></Link>
 
     </Grid>
   </div>
