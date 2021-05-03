@@ -4,23 +4,34 @@ class Testimonies extends Component{
     render(){
         return(
             <React.Fragment>
-                <section class="w3l-content-5">
-	  <div class="content-5-main">
-			 <div class="container">
-					<div class="content-info-in row">
-							 <div class="content-gd col-lg-6">
-									 <p>My Appreciation to Victoria University. Greetings to you all,
-										I would like to take this opportunity to thank the whole organized VU team for making my three years stay at Victoria University a time of learning, developing making friends and an enjoyable one. Am also grateful of the epic Graduation ceremony you organized for us, am really humbled.</p>
-							 </div>
-							 <div class="content-gd col-lg-6 text-center">
-								<div class="imgger"><img src="assets/images/path5.jpg" alt="" style={{height: '200px', width: '200px', border: '#FFF 4px solid', borderRadius: '50%'}} /></div>
-								<h3 style={{color: '#FFF'}}>JOSHUA MUTEGHEKI</h3>
-								<p class="overview">Bachelor Of Banking And Finance</p>
-							 </div>
-							
+<section class="w3l-team-main">
+	<div class="team py-5">
+		<div class="py-lg-5" >
+			<div class="justify-content-center"  style={{display: 'flex'}}>
+				<div class="col-lg-6 testimonial_title">
+					<h5 class="hny-title" style={{color: '#FFF', fontSize: '40px'}}>What Our Students Say</h5>
+					<div class="triangle-topright"></div>
+				</div>
+				
+				<div class="col-lg-6 testimonial_text">
+					<p style={{color: '#FFF', fontSize: '17px'}}>
+						<span class="fa fa-quote-left" style={{fontSize: '40px'}}></span>
+						<br/>
+						My Appreciation to Victoria University. Greetings to you all, I would like to take this opportunity to thank the whole organized VU team for making my three years stay at Victoria University a time of learning, developing making friends and an enjoyable one. Am also grateful of the epic Graduation ceremony you organized for us, am really humbled.
+					</p>
+					<div class="course-content">
+						<div class="course-divider">
+							<div class="course-meta" style={{color: '#FFF'}}>
+								&#126;&nbsp;<span style={{color: '#FFF'}}>JOSHUA MUTEGHEKI</span>&#44;&nbsp;
+								<span class="overview" style={{color: '#FFF'}}>Bachelor Of Banking And Finance</span>
+							</div>
+						</div>
 					</div>
-				 </div>
-			 </div>
+					<div class="triangle-topleft"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
             </React.Fragment>
         )

@@ -216,9 +216,14 @@
 <!-- /counter-->
 <div class="counter-main-sec">
 	<div class="">
-		<h3 class="hny-title text-center" style="color:#0077b5">HOW VU WORKS</h3>
+		<h3 class="hny-title text-center howvu" style="color:#FFF">HOW VU WORKS</h3>
+		<span class="triangle-down text-center"></span>
 		<h4 class="hny-title text-center" style="color: #555;">Victoria University</h4>
-		<div style="width:10%;border:#f04545 3px solid;display: subgrid; margin: 0 auto;" class="text-center"></div>
+	</div>
+	<div>
+		<div class="tooltip">tooltip
+			<span class="tooltiptext">HOW VU WORKS</span>
+		  </div>
 	</div>
 	<br>
 	<br>
@@ -261,7 +266,7 @@
 <section class="w3l-content-6">
 	<!-- /content-6-section -->
 	<div class="content-6-mian py-5">
-		<div class="container py-lg-5">
+		<!-- <div class="container py-lg-5">
 
 			<div class="row title-content">
 				<div class="col-lg-4 title-left">
@@ -272,10 +277,10 @@
 				</div>
 			</div>
 
-		</div>
+		</div> -->
 		<section class="w3l-footer-16 text-center">
 			<div class="">
-				<img src="assets/images/fav.png" class="text-center" title="Victoria University" width="80" height="80"/>
+				<img src="assets/images/fav.png" class="text-center" title="Victoria University" width="150" height="150" style="border-radius: 50%; border: #0077b5 10px solid; padding: 15px;"/>
 				<h3 class="hny-title text-center" style="color:#0077b5">Select Your Path</h3>
 				<h6 class="hny-title text-center">Choose your path and jump right in</h6>
 			</div>
@@ -311,6 +316,33 @@
 		</div>
 		
 	</div>
+	</div>
+</section>
+<br><br>
+<section class="w3l-team-main">
+	<div class="team py-5">
+		<div class="py-lg-5" >
+			<div class="justify-content-center"  style="display: flex;">
+				<div class="col-lg-6" style="padding: 25px; background-color: #41afeb; align-items: center; display: flex; border-top-right-radius: 15px;">
+					<h5 class="hny-title" style="color: #FFF; font-size: 40px;">What Our Students Say</h5>
+				</div>
+				<div class="col-lg-6"   style="padding: 25px; background-color: #0077b5; border-top-left-radius: 15px; ;">
+					<p style="color: #FFF;">
+						<span class="fa fa-quote-left" style="font-size: 40px;"></span>
+						<br>
+						My Appreciation to Victoria University. Greetings to you all, I would like to take this opportunity to thank the whole organized VU team for making my three years stay at Victoria University a time of learning, developing making friends and an enjoyable one. Am also grateful of the epic Graduation ceremony you organized for us, am really humbled.
+					</p>
+					<div class="course-content">
+						<div class="course-divider">
+							<div class="course-meta"><span class="course-students" title="" style="color: #FFF;">
+								&#126;<span style="color: #FFF;">JOSHUA MUTEGHEKI</span>&#44;&nbsp;
+								<span class="overview" style="color: #FFF;">Bachelor Of Banking And Finance</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <section class="w3l-features-1">
@@ -606,8 +638,6 @@
 										aria-hidden="true"></span> Main Campus</span>
 							</div>
 							<button class="price-course btn"> More </button>
-
-
 						</div>
 					</div>
 				</div>
@@ -644,8 +674,7 @@
 <!-- //portfolio -->
 <!-- //apply-6-->
 <!--  -->
-<section class="w3l-content-5">
-	<!-- /content-6-section -->
+<!-- <section class="w3l-content-5">
 	  <div class="content-5-main">
 			 <div class="container">
 					<div class="content-info-in row">
@@ -662,9 +691,21 @@
 					</div>
 				 </div>
 			 </div>
-</section>
+</section> -->
 <!-- //customers-6-->
 
+
+<div class="chat-popup" id="myForm">
+	<form action="/action_page" class="form-container">
+		<h1 style="background-color: #0077b5; color: #FFF;">Chat</h1>
+
+		<label for="msg"><b>Message</b></label>
+		<textarea placeholder="Type message.." name="msg" required></textarea>
+
+		<button type="submit" class="btn">Send</button>
+		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	</form>
+</div>
 <!-- footer -->
 <section class="w3l-footer-16">
     <div class="w3l-footer-16-main py-5">
@@ -708,10 +749,10 @@
     </div>
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<!-- Chat -->
-	
+	<button class="open-button" onclick="openForm()"><span class="fa fa-comments"></span></button>
 	<!-- //Chat -->
     <!-- move top -->
-	<button onclick=topFunction() id="movetop" title="Go to to" style="border: #000 1px solid;">
+	<button onclick=topFunction() id="movetop" title="Go to to">
 		<span class="fa fa-angle-up"></span>
 	</button>
 	<script>
@@ -737,19 +778,6 @@
 	</script>
     <!-- //move top -->
 	<!-- Chat -->
-	<button class="open-button" onclick="openForm()"><span class="fa fa-comments"></span></button>
-
-	<div class="chat-popup" id="myForm">
-	<form action="/action_page" class="form-container">
-		<h1>Chat</h1>
-
-		<label for="msg"><b>Message</b></label>
-		<textarea placeholder="Type message.." name="msg" required></textarea>
-
-		<button type="submit" class="btn">Send</button>
-		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-	</form>
-	</div>
 	<script>
 		function openForm() {
 		  document.getElementById("myForm").style.display = "block";
