@@ -5384,7 +5384,7 @@ span.fa.fa-play {
     display: block;
     position: fixed;
     bottom: 15px;
-    right: 15px;
+    right: 0px;
     z-index: 99;
     border: none;
     outline: none;
@@ -16411,7 +16411,7 @@ a.text-dark:focus {
 /*LISITER*/
 
 .w3-ul li:hover {
-    background-color: #ccc;
+    background-color: #CCC;
     color: #fff;
 }
 
@@ -16437,7 +16437,7 @@ a.text-dark:focus {
     cursor: pointer;
 }
 
-.w3-card-4,
+/* .w3-card-4, */
 .w3-hover-shadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(192, 130, 95, 0.829);
     cursor: pointer;
@@ -16519,24 +16519,34 @@ a.text-dark:focus {
 .lister:hover{
     color: #ba8b00;
 }
-
+.howvu{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #555;
+    padding: 3px 0px;
+}
+.howvu:hover{
+    background-color: #e25252;
+    cursor: pointer;
+}
 /* CHAT CSS */
 .open-button {
     background-color: #0077b5;
     color: white;
-    padding: 16px 20px;
+    padding: 0px 0px;
+    border-radius: 10% 0% 0% 10%;
     border: none;
     cursor: pointer;
     opacity: 0.8;
     position: fixed;
     bottom: 53px;
     right: 0px;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     z-index: 1000;
   }
   .open-button span{
-      font-size: 40px;
+      font-size: 30px;
   }
   /* The popup chat - hidden by default */
   .chat-popup {
@@ -16551,10 +16561,12 @@ a.text-dark:focus {
   /* Add styles to the form container */
   .form-container {
     max-width: 300px;
-    padding: 10px;
+    padding: 0px 1px 0px 1px;
     background-color: white;
   }
-  
+  .form-container h1{
+      font-size: 16px;
+  }
   /* Full-width textarea */
   .form-container textarea {
     width: 100%;
@@ -16593,3 +16605,17 @@ a.text-dark:focus {
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+
+  /* TOOLTIP */
+  .triangle-down {
+    position:absolute;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    top:19.5%;
+    left: 49%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid #555;
+  }
+  /* //TOOLTIP */  

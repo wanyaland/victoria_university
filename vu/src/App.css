@@ -77,8 +77,31 @@ body img {
 .hover-team:hover{
     transition: all ease;
     transition-duration: .3s;
-    border:#3f90e0 4px solid;
+    border:#e6a329 4px solid;
     border-radius: 2px;
+}
+.hover-team2:hover{
+    transition: all ease;
+    transition-duration: .3s;
+    border:#9b6a6a 4px solid;
+    border-radius: 2px;
+}
+.hover-team3:hover{
+    transition: all ease;
+    transition-duration: .3s;
+    border:#0077b5 4px solid;
+    border-radius: 2px;
+}
+.hover-team4:hover{
+    transition: all ease;
+    transition-duration: .3s;
+    border:#b951ce 4px solid;
+    border-radius: 2px;
+}
+.bordered{
+    border-radius: 50%;
+    border: #0077b5 10px solid;
+    padding: 15px;
 }
 .borderLeft{
     border-left: 8px #D4484A solid;
@@ -5899,6 +5922,18 @@ span.fa.fa-play {
     display: subgrid;
     margin: 0 auto;
 }
+.testimonial_text{
+    padding: 45px;
+    background-color: #0077b5;
+    border-top-left-radius: 15px;
+}
+.testimonial_title{
+    padding: 45px;
+    background-color: #41afeb;
+    align-items: center;
+    display: flex;
+    border-top-right-radius: 15px;
+}
 .howvu{
     width: 40%;
     margin: 0 auto;
@@ -5906,7 +5941,7 @@ span.fa.fa-play {
     padding: 3px 0px;
 }
 .howvu:hover{
-    background-color: #0077b5;
+    background-color: #e25252;
     cursor: pointer;
 }
 .pathdots{
@@ -5915,11 +5950,22 @@ span.fa.fa-play {
     left: 45%;
     padding: 5px 10px;
     border-radius: 50%;
-    background: #0077b5;
     color: white;
     z-index: 1000;
     height: 34px;
     width: 34px;
+}
+.orange{
+    background-color: #e6a329;
+}
+.brown{
+    background-color:#9b6a6a;
+}
+.blue{
+    background-color: #0077b5;
+}
+.purple{
+    background-color: #b951ce;
 }
 .smalldot{
     background-color:#80bfff;
@@ -16509,13 +16555,13 @@ a.text-dark:focus {
 /*LISITER*/
 
 .w3-ul li:hover {
-    background-color: #ccc;
+    background-color: #CCC;
     color: #fff;
 }
 
 .w3-ul li {
     padding: 16px 32px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #DDD;
 }
 
 .w3-ul {
@@ -16535,7 +16581,7 @@ a.text-dark:focus {
     cursor: pointer;
 }
 
-.w3-card-4,
+/* .w3-card-4, */
 .w3-hover-shadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(192, 130, 95, 0.829);
     cursor: pointer;
@@ -16692,3 +16738,34 @@ a.text-dark:focus {
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+    /* TOOLTIP */
+    .triangle-down {
+        position:absolute;
+        margin: 0 auto;
+        width: 0px;
+        height: 0px;
+        top:18.5%;
+        left: 49%;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 10px solid #555;
+      }
+      .triangle-topleft {
+        position: absolute;
+        width: 0;
+        height: 0;
+        top:100%;
+        left: 0;
+        border-top: 15px solid #0077b5;
+        border-right: 10px solid transparent;
+      }
+      .triangle-topright {
+        position:absolute;
+        width: 0;
+        height: 0;
+        top:100%;
+        left: 98.8%;
+        border-top: 15px solid #41afeb;
+        border-left: 10px solid transparent;
+      }
+      /* //TOOLTIP */  

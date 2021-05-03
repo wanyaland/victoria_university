@@ -23,6 +23,7 @@ class Home extends Component{
 			<div class="counter-main-sec">
 				<div class="">
 					<h3 class="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS</h3>
+					<span class="triangle-down text-center"></span>
 					<br/>
 					<h4 class="hny-title text-center" style={{color: '#555'}}>Victoria University</h4>
 					<div class="text-center longdash"></div>
@@ -61,44 +62,44 @@ class Home extends Component{
 	            <div class="content-6-mian py-5">
 		            <div class="container py-lg-5">
 
-			<div class="row title-content">
+			{/* <div class="row title-content">
 				<div class="col-lg-4 title-left">
 					<h3 class="hny-title" style={{color:'#0077b5'}}>Welcome To VU</h3>
 				</div>
 				<div class="col-lg-8 title-info">
 					<p>Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. We offer a wide variety of courses and our qualifications are designed to meet the needs of the market place.</p>
 				</div>
-			</div>
+			</div> */}
 		            </div>
 			<section class="w3l-footer-16 text-center">
 				<div class="">
-					<img src="assets/images/fav.png" class="text-center" title="Victoria University" width="80" height="80" alt="img"/>
+					<img src="assets/images/fav.png" class="text-center bordered" title="Victoria University" width="120" height="120" alt="img"/>
 					<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Select Your Path</h3>
 					<h6 class="hny-title text-center">Choose your path and jump right in</h6>
 				</div>
 			</section>
 			<div class="content-info-in row mt-md-5 mt-4 justify-content-center" style={{marginLeft: 0, marginRight:0}}>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="pathdots">&nbsp;</span>
+				<span class="pathdots orange">&nbsp;</span>
 					<a class="imghr hover-team" href="home"><img src="assets/images/path1.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center justify-content-md-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px'}}/></span><span class="title">Foundation</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="pathdots">&nbsp;</span>
-					<a class="imghr hover-team" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt=""/>
+				<span class="pathdots brown">&nbsp;</span>
+					<a class="imghr hover-team2" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}}/></span><span class="title">Undergradate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="pathdots">&nbsp;</span>
-					<a class="imghr hover-team" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt=""/>
+				<span class="pathdots blue">&nbsp;</span>
+					<a class="imghr hover-team3" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Postgraduate</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-6 imghrs flexd">
-				<span class="pathdots">&nbsp;</span>
-					<a class="imghr hover-team" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt=""/>
+				<span class="pathdots purple">&nbsp;</span>
+					<a class="imghr hover-team4" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt=""/>
 						<div class="details text-center"><span class="text-center"><img src="assets/images/fav.png" alt="Your logo" title="Your logo" style={{height:'45px', zindex: '1000'}} /></span><span class="title">Diploma</span><span class="fa fa-angle-right rightangle"></span></div>
 					</a>
 				</div>
@@ -106,6 +107,9 @@ class Home extends Component{
 
 	            </div>
         </section>
+		<div className="marginize"></div>
+		<div className="marginize2"></div>
+		<Testimonies />
 		<section class="w3l-features-1">
 	<div class="features-1-mian py-5">
 		<div class="">
@@ -191,9 +195,6 @@ class Home extends Component{
 <hr class="text-center" style={{color:'#000', width: '90%'}}></hr>
 <NewsHub />
 <Events />
-<div className="marginize"></div>
-<div className="marginize2"></div>
-<Testimonies />
 <div className="marginize"></div>
 <div className="marginize2"></div>
 <Chat />

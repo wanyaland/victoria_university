@@ -68,19 +68,18 @@ class AboutUs extends Component{
 								<p class="mb-4"></p>
 								<br/>
 							</div>
-							<div class="col-lg-6 welcome-image" style={{backgroundColor:'#CCC'}}>
-								<br/>
-									<div class="" style={{width: '100%', backgroundColor:'#fff'}}>
-										<ul class="w3-ul w3-card-4">
+							<div class="col-lg-6 welcome-image">
+									<div class="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
+										<ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
 										 	<li class="w3-display-container"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-file-word-o"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><Link to='./policies'><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><a href="policies.html"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></a></li>
 											<li class="w3-display-container"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 										</ul>
 									</div>
-							</div>	
+							</div>
 						</div>
 				 </div>
 			</div>
