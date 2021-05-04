@@ -10,9 +10,9 @@ class AboutUs extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-                <section class="w3l-top-header-content" style={{marginTop: '-20px;'}}>
+<section class="w3l-top-header-content" style={{marginTop: '-26px'}}>
 	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '5px 0px 5px 0px'}}>
+		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-2">
@@ -34,12 +34,30 @@ class AboutUs extends Component{
 					<h4 class="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
 				</div>
 			<div class="apply-grids-info row">
-					<div class="row mt-lg-5 mt-4">
-						<div class="appyl-sub-icon-info text-center">
-							<p>Victoria University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover. We are Uganda’s most innovative university, you’ll be encouraged to take risks and challenge the status quo, to pursue an idea and disrupt industries. Whether you launch your own start-up and grow it into a vibrant company, write a best-selling book, or pursue a new career through our Co-operative (Co-op) Education Program – call it Experiential Learning (EL), we want you to think of an idea, grow it, solve problems and impact the world. So come prepared to learn and leave prepared to succeed, that is our promise to you. What is yours? And Where will you go from here?</p>
-						</div>
+				<div class="row mt-lg-5 mt-4">
+					<div class="appyl-sub-icon-info text-center">
+						<p>
+							Victoria University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover. We are Uganda’s most innovative university, you’ll be encouraged to take risks and challenge the status quo, to pursue an idea and disrupt industries.
+						</p>
 					</div>
-				
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-top-header-content" style={{marginTop: '0px'}}>
+	<div class="hny-top-menu">
+		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#FFF'}}>
+			<div class="container-fluid">
+				<div class="row" style={{display: 'flex', alignItems: 'center'}}>
+					<ol class="accounts col-md-12">
+						<li class="breadcrumb-item" style={{color: '#000'}}>Strategic Plan</li>
+						<li class="breadcrumb-item" style={{color: '#000'}}>Governance</li>
+						<li class="breadcrumb-item" style={{color: '#000'}}>VU at a Glance</li>
+						<li class="breadcrumb-item" style={{color: '#000'}}>Accreditation</li>
+						<li class="breadcrumb-item" style={{color: '#000'}}>RISE - 5 year IT Strategy</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -72,8 +90,9 @@ class AboutUs extends Component{
 									<div class="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
 										<ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
 										 	<li class="w3-display-container"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><span class="fa fa-file-word-o"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><a href="policies.html"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></a></li>
+											<li class="w3-display-container"><span class="fa fa-file"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container"><Link to="/policies"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link>
+											</li>
 											<li class="w3-display-container"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
 											<li class="w3-display-container"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
@@ -86,8 +105,8 @@ class AboutUs extends Component{
 </section>
 <section class="w3l-specification-6">
 	<div class="specification-content py-5">
-		<div class="container py-lg-5">
-			<div class="mission-grids-info row">
+		<div class="py-lg-5">
+			<div class="mission-grids-info" style={{display: 'flex'}}>
 				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
 					<div class="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
@@ -100,37 +119,20 @@ class AboutUs extends Component{
 						<p style={{color: '#fff'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
-				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5'}}>
-						<h3 class="hny-title">VU at a Glance</h3>
-						<p>Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.</p>
+				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 0px 40px 0px'}}>
+					<h3 class="hny-title">VU at a Glance</h3>
+					<p>
+						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
+					</p>
+					<br/>
+					<p><a class="logo-2" href="home" style={{color: '#0077b5'}}>
+						<h4 class="lohny-2"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Learn More About Victoria University</h4>
+						</a>
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-</section>
-<section class="w3l-content-5">
-	  <div class="content-5-main">
-			 <div class="container">
-					 <div class="content-info-in row">
-							 <div class="content-gd col-lg-6">
-									 <h3 class="hny-title two">Vision</h3>
-							 </div>
-							 <div class="content-gd col-lg-6">
-									<p>To be a world class University for transformational education</p>
-							 </div>
-							
-					 </div>
-				 	<div class="content-info-in row">
-							 <div class="content-gd col-lg-6">
-									 <h3 class="hny-title two">Mission</h3>
-							 </div>
-							 <div class="content-gd col-lg-6">
-									<p>To provide a dynamic environment for learning, innovation, research and community engagement</p>
-							 </div>
-							
-					 </div>
-				 </div>
-			 </div>
 </section>
 <section class="w3l-specification-6">
 	<div class="specification-content py-5">

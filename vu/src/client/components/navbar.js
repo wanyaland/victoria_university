@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 class NavBar extends Component{
-    render(){
+	render(){
         return(
 	<React.Fragment>
     <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
@@ -34,7 +34,16 @@ class NavBar extends Component{
 									<Link to="/admissions" className="nav-link">Admissions</Link>
 								</li>
 								<li class="nav-item">
-									<Link to="/co-ops" className="nav-link">Co-Ops</Link>
+									{/* <Link to="/co-ops" className="nav-link">WIL</Link> */}
+									<div class="dropdown" style={{float:'left'}}>
+									<Link class="dropdown nav-link" to="/wil">WIL&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
+									<div class="dropdown-content" style={{left:'0'}}>
+										<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
+										<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+										<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
+										<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+									</div>
+								</div>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="home">Research</a>

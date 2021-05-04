@@ -6,7 +6,6 @@ class Footer extends Component{
 		document.documentElement.scrollTop = 0;
 	}
     openForm(){
-        console.log("WE HERE");
         document.getElementById("myForm").style.display = "block";
     }
     render(){
