@@ -85,7 +85,15 @@
 								<a class="nav-link" href="#">Admissions</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="co-ops.html">Co-Ops</a>
+								<!-- <a class="nav-link" href="co-ops.html">WIL</a> -->
+								<div class="dropdown" style="float:left;">
+									<a class="dropdown nav-link" href="wil">WIL</a>
+									<!-- <button class="dropbtn">Left</button> -->
+									<div class="dropdown-content" style="left:0;">
+										<a href="co-ops" class="nav-link text-left">Co-ops</a>
+										<a href="home" class="nav-link text-left">Experiential Learning</a>
+									</div>
+								</div>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Research</a>
@@ -119,7 +127,7 @@
 </section>
 <!-- ROLLER -->
 <section class="w3l-banner-slider-main w3l-inner-page-main" id="" style="margin-top: -20px;">
-<div class="w3l-banner-slider-main breadcrumb-infhny">
+<div class="w3l-banner-slider-main breadcrumb-infhny" style="z-index: 0;">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	<!--<ol class="carousel-indicators">
 		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -697,13 +705,22 @@
 
 <div class="chat-popup" id="myForm">
 	<form action="/action_page" class="form-container">
-		<h1 style="background-color: #0077b5; color: #FFF;">Chat</h1>
+		<div style="display: flex; background-color: #0077b5; margin: 0 auto; width: 100%; padding: 0px 4px 0px 4px; align-items:flex-start;">
+			<div style="color: #FFF;">
+				<span class="fa fa-bars" style="color: #FFF;"></span>&nbsp;
+				<span class="" style="margin: 0 auto;">Chat</span>
+				<span class="fa fa-angle-down" style="color: #FFF;"></span>
+				<span class="fa fa-times" style="color: #FFF; font-weight: 100;" onclick="closeForm()" title="Close Chat"></span>
+			</div>
+		</div>
+		<div class="area" style="height: 300px;">
 
-		<label for="msg"><b>Message</b></label>
-		<textarea placeholder="Type message.." name="msg" required></textarea>
-
-		<button type="submit" class="btn">Send</button>
-		<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		</div>
+		<!-- <label for="msg"><b>Message</b></label> -->
+		<div style="display: flex; border-top: #888 1px solid; padding: 4px 4px 7px 4px;">
+			<textarea placeholder="Type message.." name="msg" required></textarea>&nbsp;
+			<button type="submit" class="btn" style="width: 20%;">Send</button>
+		</div>
 	</form>
 </div>
 <!-- footer -->
@@ -794,6 +811,9 @@
                 $('body').toggleClass('noscroll');
             })
         });
+		$('.hide-chat-box').click(function(){
+        $('.chat-content').slideToggle();
+});
     </script>
 </section>
 <!-- //footer -->

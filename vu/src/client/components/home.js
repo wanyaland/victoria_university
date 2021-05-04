@@ -25,7 +25,7 @@ class Home extends Component{
 					<h3 class="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS</h3>
 					<span class="triangle-down text-center"></span>
 					<br/>
-					<h4 class="hny-title text-center" style={{color: '#555'}}>Victoria University</h4>
+					<h4 class="hny-title text-center" style={{color: '#002c44'}}>Victoria University</h4>
 					<div class="text-center longdash"></div>
 				</div>
 				<br/>
@@ -50,7 +50,8 @@ class Home extends Component{
 				<br/><br/>
 				<div class="text-center">
 					<a class="logo-2" href="home.php">
-                                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain"></span>&nbsp;What Makes VU Unique</h3></a>
+                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
+					</a>
                            
 				</div>
 			</div>
@@ -127,10 +128,10 @@ class Home extends Component{
 		<section class="w3l-footer-16">
 			<div class="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
 				<ul class="social d-flex dotcontrol">
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
-					<li><a href="home" style={{backgroundColor: '#80bfff', height: '20px', width: '20px'}}>&nbsp;</a></li>
+					<li><a href="home" style={{backgroundColor: '#e6a329', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#9b6a6a', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#0077b5', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#b951ce', height: '20px', width: '20px'}}>&nbsp;</a></li>
 				</ul>
 			</div>
 		</section>
@@ -140,52 +141,52 @@ class Home extends Component{
 			<div class="row grids-innf my-lg-5">
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-graduation-cap circler circle1"></span>
+						<span class="fa fa-graduation-cap circler circle1 orange_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Online Education</a></h6>
-						<span class="dot"></span>
+						<span class="dot orange"></span>
 						<p>Flexible Scheduling</p>
 						<p>How VU Works</p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
-					<div class="text-center smalldash"></div>
+					<div class="text-center smalldash orange_d"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-user circler circle2"></span>
+						<span class="fa fa-user circler circle2 brown_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Admissions</a></h6>
-						<span class="dot"></span>
+						<span class="dot brown"></span>
 						<p>Requirements</p>
 						<p>Date &amp; Deadlines</p>
 					</div>
-					<div class="text-center smalldash"></div>
+					<div class="text-center smalldash brown_d"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-book circler circle3"></span>
+						<span class="fa fa-book circler circle3 blue_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Transfer Credit</a></h6>
-						<span class="dot"></span>
+						<span class="dot blue"></span>
 						<p>Transfer to a VU program</p>
 						<p>Courses for other tuitions</p>
 					</div>
-					<div  class="text-center smalldash"></div>
+					<div  class="text-center smalldash blue_d"></div>
 				</div>
 				<div class="features-1-info col-lg-3 col-md-6">
 					<div class="features-1-info-icon text-center">
-						<span class="fa fa-money circler circle3"></span>
+						<span class="fa fa-money circler circle3 purple_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><a href="home">Tution &amp; Fees</a></h6>
-						<span class="dot"></span>
+						<span class="dot purple"></span>
 						<p>Calculate Fees</p>
 						<p>Financial Aid</p>
 					</div>
-					<div class="text-center smalldash"></div>
+					<div class="text-center smalldash purple_d"></div>
 				</div>
 			</div>
 			{/* First close */}
