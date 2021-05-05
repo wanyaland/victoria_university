@@ -5944,8 +5944,12 @@ span.fa.fa-play {
     background-color: #e25252;
     cursor: pointer;
 }
+.howvu:hover span{
+    border-top: 10px solid #e25252;
+    cursor: pointer;
+}
 .pathdots{
-    position: absolute;
+    /* position: absolute;
     top: -3.5%;
     left: 45%;
     padding: 5px 10px;
@@ -5953,7 +5957,52 @@ span.fa.fa-play {
     color: white;
     z-index: 1000;
     height: 34px;
-    width: 34px;
+    width: 34px; */
+    /*  */
+    position: absolute;
+    top: -2.5%;
+    left: 46.5%;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+    z-index: 1000;
+    height: 24px;
+    width: 24px;
+}
+.pathdots_round{
+    position: absolute;
+    top: -4.8%;
+    left: 43.5%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background:none;
+    color: white;
+    z-index: 1;
+    height: 44px;
+    width: 44px;
+    border: #FFF 1px solid;
+}
+.path_stick{
+    width:.1%;
+    border-left:#FFF 1px solid;
+    margin: 0 auto;
+    height: 20px;
+    top:1.3%;
+    position: relative;
+}
+.path_img{
+    height:100px;
+    background-color: #EEE;
+    border-radius: 49%;
+    padding: 10px;
+}
+.path_pointer{
+    font-size: 50px;
+    border: red 2px solid;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 55%;
 }
 .orange{
     background-color: #e6a329;
@@ -16707,7 +16756,7 @@ a.text-dark:focus {
       font-size: 30px;
   }
   .chat_head{
-    display: flex;
+    display: inline-block;
     background-color: #0077b5;
     margin: 0 auto;
     width: 100%;
@@ -16719,6 +16768,11 @@ a.text-dark:focus {
     border-top: #888 1px solid;
     padding: 4px 4px 7px 4px;
   }
+  .hover-chat-btns:hover{
+    background-color: #03537e;
+    border-radius: 5px;
+    cursor: pointer;
+}
   /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
@@ -16726,7 +16780,7 @@ a.text-dark:focus {
     bottom: 0;
     right: 55px;
     border: 1px solid #f1f1f1;
-    z-index: 9;
+    z-index: 1000;
     border-radius: 5px;
     padding: none;
   }

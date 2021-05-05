@@ -93,13 +93,18 @@ body img {
 .title-content .title-info {
     padding-left: 40px;
 }
+/* .hover-team:hover img{
+    border:#3f90e0 4px solid;
+    padding: none;
+    transition: all ease;
+    transition-duration: .3s;
+} */
 .hover-team:hover{
     border:#3f90e0 4px solid;
-    border-radius: 2px;
+    padding: none;
     transition: all ease;
     transition-duration: .3s;
 }
-
 .sticky {
     position: fixed;
     top: 0;
@@ -4031,6 +4036,10 @@ h3.hny-title.two {
     -webkit-backface-visibility: hidden;
 }
 
+.w3l-content-6 .imghrs .imghr a:hover{
+    border: blue 4px solid;
+}
+
 .w3l-content-6 .imghrs .imghr .details {
     font-size: 16px;
     padding: 20px;
@@ -4071,8 +4080,8 @@ h3.hny-title.two {
 .w3l-content-6 .imghrs .imghr:hover:before,
 .w3l-content-6 .imghrs .imghr:hover span{
     opacity: 1;
-    transform: translate3d(0, -5%, 0);
-    transform: translate3d(0, -10%, 0);
+    /* transform: translate3d(0, -5%, 0);
+    transform: translate3d(0, -10%, 0); */
 }
 
 .w3l-content-6 .imghrs .imghr:focus:before,
@@ -16530,6 +16539,10 @@ a.text-dark:focus {
     background-color: #e25252;
     cursor: pointer;
 }
+.howvu:hover span{
+    border-top: 10px solid #e25252;
+    cursor: pointer;
+}
 /* CHAT CSS */
 .open-button {
     background-color: #0077b5;
@@ -16555,12 +16568,16 @@ a.text-dark:focus {
     position: fixed;
     bottom: 0;
     right: 55px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #e6e5e5;
     z-index: 9;
     border-radius: 5px;
     padding: none;
   }
-  
+  .hover-chat-btns:hover{
+      background-color: #03537e;
+      border-radius: 5px;
+      cursor: pointer;
+  }
   /* Add styles to the form container */
   .form-container {
     width: 300px;
