@@ -23,7 +23,7 @@ class BreadNavBar extends Component {
 				<div class="container-fluid">
 					<div class="row">
 						<ul class="social-top col-md-7 padded">
-							<li className="fonted white"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <a href="contact.php" class="white underline"><b>Apply Now</b></a></li>
+							<li className="fonted"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <a href="contact" class="fonted underline" style={{color: '#000'}}><b>Apply Now</b></a></li>
 						</ul>
 						<ul class="accounts col-md-5">
 							<li class="top_li"><a href="home">Staff</a></li>

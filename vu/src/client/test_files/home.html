@@ -10,6 +10,9 @@
   <link href="//fonts.googleapis.com/css?family=Muli:300,300i,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/images/fav.png" type="image/x-icon" sizes="100x100"/>
+  <!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/multi-animated-counter.js"></script>
 </head>
 <body>
 <!--/top-header-content-->
@@ -34,9 +37,9 @@
 			<div class="container-fluid">
 				<div class="row">
 					<ul class="social-top col-md-7" style="padding: 4px 8px 4px 8px;">
-						<li style="color: #fff; font-size: .8rem"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <a href="contact.php" class="" style="color: #fff; text-decoration: underline;"><b>Apply Now</b></a></li>
+						<li style="color: #000; font-size: .8rem"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <a href="contact.php" class="" style="color: #000; text-decoration: underline;"><b>Apply Now</b></a></li>
 					</ul>
-					<ul class="accounts col-md-5">
+					<ul class="accounts col-md-5" style="color: #000;">
 						<li class="top_li"><a href="#"></a>Staff</li>
 						<li class="top_li"><a href="#"></a>ALumni</li>
 						<li class="top_li"><a href="#"></a>News</li>
@@ -101,12 +104,6 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#">Life At VU</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contact.php"><span class="fa fa-comments" style="font-size: .85rem;"></span>&nbsp;&nbsp;Help &amp; Contact</a>
-							</li>
-							<li class="nav-item">
-								<a href="#" class="nav-link"><span class="fa fa-search" style="font-size: 1rem;"></span></a> 
-							</li>
 						</ul>
 
 					</div>
@@ -114,6 +111,17 @@
 						<input type="search" placeholder="Search Here..." required="required">
 						<button type="submit"><span class="fa fa-search" aria-hidden="true"></span></button>
 					</form>-->
+					<div class="d-flex searchhny-form" style="display: flex; align-items: center; border: red 1px solid;">
+						<a class="navbar-brand" href="home.php">
+							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style="height:55px;" />
+						</a> 
+					<a class="nav-link" href="contact.php">
+						<span class="fa fa-comments" style="font-size: .85rem;"></span>&nbsp;&nbsp;<span style="font-size: 13px;">Help &amp; Contact</span>
+					</a>
+					<a href="#" class="nav-link">
+						<span class="fa fa-search" style="font-size: 1rem;"></span>
+					</a> 
+					</div>
 				</div>
 			</nav>
 			<!--//nav-->
@@ -237,17 +245,29 @@
 	<div class="row">
 		<div class="counter-gd col-md-4 text-center">
 			<h4 class="titled4" style="color: #e25252">Beyond Expectations</h4>
-			<h6 class="titled">97%</h6>
+			<div id="counters_3">
+				<h6 class="titled">
+					<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+				</h6>
+			</div>
 			<p>of employers say VU grads meet or exceed their expectations<p>
 		</div>
 		<div class="counter-gd col-md-4 text-center">
 			<h4 class="titled4" style="color: #e25252">Prepared For The Jobs</h4>
-			<h6 class="titled">97%</h6>
+			<div id="counters_3">
+				<h6 class="titled">
+					<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+				</h6>
+			</div>
 			<p>said VU graduates were well prepared for their jobs</p>
 		</div>
 		<div class="counter-gd col-md-4 text-center">
 			<h4 class="titled4" style="color: #e25252">Top Candidates</h4>
-			<h6 class="titled">96%</h6>
+			<div id="counters_3">
+				<h6 class="titled">
+					<span class="counter" data-TargetNum="96" data-Speed="4000">0</span><span>%</span>
+				</h6>
+			</div>
 			<p>said they would hire another VU graduate</p>
 		</div>
 		<!-- <div class="counter-gd">
@@ -791,13 +811,32 @@
 						<span class="fa fa-angle-down" style="color: #FFF;" onclick="closeForm()" title="Minimize"></span>
 					</td>
 					<td class="hover-chat-btns" style="width: 2%; text-align: center;">
-						<span class="fa fa-times" style="color: #FFF;" onclick="closeForm()" title="Close Chat"></span>
+						<span class="fa fa-times" onclick="openModal()" style="color: #FFF;" title="Close Chat"></span>
 					</td>
 				</tr>
 			</table>
 		</div>
 		<div class="area" style="height: 400px;">
-			
+			<!-- Modal -->
+			<!-- <button id="myBtnr">Open Modal</button> -->
+			<!-- <span class="fa fa-times" id="myBtnr" style="color: #000;" title="Close Chat"></span> -->
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<p>End this Chat?</p>
+					<table>
+						<tr>
+							<td style="width: 50%; text-align: center;">
+								<button  class="btn" onclick="closeForm()"style="width: 100%; text-align: center; background-color: #ec4b1a;">Yes</button>
+							</td>
+							<td style="width: 50%; text-align: center;">
+								<button  class="btn" onclick="closeModal()" style="width: 100%; text-align: center; background-color: #2dc076;">No</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!-- //Modal -->
 		</div>
 		<!-- <label for="msg"><b>Message</b></label> -->
 		<div style="display: flex; border-top: #888 1px solid; padding: 4px 4px 7px 4px;">
@@ -806,6 +845,7 @@
 		</div>
 	</form>
 </div>
+
 <!-- footer -->
 <section class="w3l-footer-16">
     <div class="w3l-footer-16-main py-5">
@@ -847,7 +887,7 @@
             </div>
         </div>
     </div>
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	
 	<!-- Chat -->
 	<button class="open-button" onclick="openForm()"><span class="fa fa-comments"></span></button>
 	<!-- //Chat -->
@@ -925,6 +965,26 @@ function headHold() {
   } else {
     header.classList.remove("sticky");
   }
+}
+</script>
+<script>
+	// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtnr");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+function openModal() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+function closeModal() {
+  modal.style.display = "none";
 }
 </script>
 <script src="assets/js/bootstrap.min.js"></script>

@@ -51,13 +51,24 @@ class NavBar extends Component{
 								<li class="nav-item">
 									<a class="nav-link" href="home">Life At VU</a>
 								</li>
-								<li class="nav-item">
+								{/* <li class="nav-item">
 									<Link to="/contact" class="nav-link"><span class="fa fa-comments" style={{fontSize: '.85rem'}}></span>&nbsp;&nbsp;Help &amp; Contact</Link>
 								</li>
 								<li class="nav-item">
 									<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 
-								</li>
+								</li> */}
 							</ul>
+					</div>
+					<div class="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center'}}>
+						<a class="navbar-brand" href="home">
+							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style={{height: '55px'}} />
+						</a> 
+						<a href="contact" class="nav-link">
+							<span class="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
+						</a>
+						<a href="home" class="nav-link">
+							<span class="fa fa-search" style={{fontSize: '1rem', color: '#FFF'}}></span>
+						</a> 
 					</div>
 				</div>
 			</nav>

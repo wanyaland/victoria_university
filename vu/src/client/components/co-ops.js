@@ -9,7 +9,7 @@ class Coops extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-<section class="w3l-top-header-content" style={{marginTop: '-26px'}}>
+<section class="w3l-top-header-content" style={{marginTop: '-17px'}}>
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
