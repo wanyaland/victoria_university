@@ -32,17 +32,29 @@ class Home extends Component{
 				<div class="row">
 					<div class="counter-gd col-md-4 text-center">
 						<h4 class="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
-						<h6 class="titled">97%</h6>
+						<div id="counters_3">
+							<h6 class="titled">
+								<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+							</h6>
+						</div>
 						<p>of employers say VU grads meet or exceed their expectations</p>
 					</div>
 					<div class="counter-gd col-md-4 text-center">
 						<h4 class="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
-						<h6 class="titled">97%</h6>
+						<div id="counters_3">
+							<h6 class="titled">
+								<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+							</h6>
+						</div>
 						<p>said VU graduates were well prepared for their jobs</p>
 					</div>
 					<div class="counter-gd col-md-4 text-center">
 						<h4 class="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
-						<h6 class="titled">96%</h6>
+						<div id="counters_3">
+							<h6 class="titled">
+								<span class="counter" data-TargetNum="96" data-Speed="4000">0</span><span>%</span>
+							</h6>
+						</div>
 						<p>said they would hire another VU graduate</p>
 					</div>
 				</div>

@@ -160,9 +160,25 @@
 		</div>
 	</div>
 </section>
+<section class="w3l-top-header-content">
+	<div class="hny-top-menu">
+		<div class="top-hd" style="padding: 10px 0px 10px 0px; background-color:#EEE;">
+			<div class="container-fluid">
+				<div class="row">
+					<ol class="accounts col-md-12 justify-content-center">
+						<li class="breadcrumb-item" style="color: #000;"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style="height:32px;" /><span class="titled4" style="color: #0077b5">Strategic Plan</span></li>
+						<li class="breadcrumb-item" style="color: #000;"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style="height:32px;" /><span class="titled4" style="color: #0077b5">About Us</span></li>
+						<li class="breadcrumb-item" style="color: #000;"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style="height:32px;" /><span class="titled4" style="color: #0077b5">VU at a Glance</span></li>
+						<li class="breadcrumb-item" style="color: #000;"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style="height:32px;" /><span class="titled4" style="color: #0077b5">Accreditation</span></li>
+						<li class="breadcrumb-item" style="color: #000;"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style="height:32px;" /><span class="titled4" style="color: #0077b5">RISE - 5 year IT Strategy</span></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!--about banner-->
 <section class="w3l-wecome-content-6">
-	<!-- /content-6-section -->
 	  <div class="ab-content-6-mian py-5">
 			 <div class="container py-lg-5">
 					<div class="welcome-grids row">
@@ -170,11 +186,10 @@
 								<img src="assets/images/about_strategy.png" class="img-fluid" alt="" />
 							</div>	
 						
-						</div>	
-				 
+						</div>
 				 </div>
 			 </div>
-	 </section>
+</section>
 <section class="w3l-wecome-content-6">
 	<!-- /content-6-section -->
 	  <div class="ab-content-6-mian py-5">
@@ -206,8 +221,6 @@
 			</div>
 </section>
    <!-- //content-6-section -->
-
-  
 <section class="w3l-specification-6">
 	<!-- /specification-6-->
 	<div class="specification-content py-5">
@@ -231,8 +244,8 @@
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
 					<br>
-					<p><a class="logo-2" href="home" style="color: #0077b5;">
-						<h4 class="lohny-2"><span class="fa fa-chain programfa" style="background-color: #ff7b00;"></span>&nbsp;Learn More About Victoria University</h4>
+					<p><a class="logo-2" href="home" style="color: #0077b5;"  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
+						<h4 class="lohny-2" id="iconner"><span class="fa fa-chain programfa icon_1" style="background-color: #ff7b00;"></span><span class="fa fa-arrow-circle-right programfa icon_2" style="background-color: #ff7b00; display: none;"></span>&nbsp;Learn More About Victoria University</h4>
 						</a>
 					</p>
 				</div>
@@ -393,5 +406,18 @@ function headHold() {
     header.classList.remove("sticky");
   }
 }
+</script>
+<script>
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
 </script>
 <script src="assets/js/bootstrap.min.js"></script>

@@ -4,6 +4,15 @@ class Chat extends Component{
 	closeForm(){
         document.getElementById("myForm").style.display = "none";
     }
+	openModal(){
+	var modal = document.getElementById("myModal");
+	modal.style.display = "block";
+	}
+
+	closeModal(){
+		var modal = document.getElementById("myModal");
+		modal.style.display = "none";
+}
     render(){
         return(
             <React.Fragment>
@@ -18,17 +27,31 @@ class Chat extends Component{
 					<td style={{width: '25%', textAlign: 'center'}}>
 						<span class="" style={{color: '#FFF', textAlign: 'center'}}>Chat&nbsp;</span>
 					</td>
-					<td class="hover-chat-btns" style={{width: '2%', textAlign: 'center'}}>
-						<span class="fa fa-angle-down" style={{color: '#FFF'}} onClick={this.closeForm} title="Minimize"></span>
+					<td class="hover-chat-btns" style={{width: '2%', textAlign: 'center'}} onClick={this.closeForm}>
+						<span class="fa fa-angle-down" style={{color: '#FFF'}} title="Minimize"></span>
 					</td>
-					<td class="hover-chat-btns" style={{width: '2%', textAlign: 'center'}}>
-						<span class="fa fa-times" style={{color: '#FFF'}} onClick={this.closeForm} title="Close Chat"></span>
+					<td class="hover-chat-btns" style={{width: '2%', textAlign: 'center'}}  onClick={this.openModal}>
+						<span class="fa fa-times" style={{color: '#FFF'}} title="Close Chat"></span>
 					</td>
 				</tr>
 			</table>
 		</div>
 		<div class="area" style={{height: '400px'}}>
-			
+		<div id="myModal" class="modal">
+				<div class="modal-content">
+					<p>End this Chat?</p>
+					<table style={{width: '100%'}}>
+						<tr>
+							<td style={{width: '50%', textAlign: 'center'}}>
+								<button  class="modal_btns" onClick={this.closeForm}>Yes</button>
+							</td>
+							<td style={{width: '50%', textAlign: 'center'}}>
+								<button  class="modal_btns" onClick={this.closeModal} style={{backgroundColor: '#2dc076'}}>No</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 		
 		<div class="chat_foot">

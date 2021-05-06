@@ -10,12 +10,12 @@ class AboutUs extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-<section class="w3l-top-header-content" style={{marginTop: '-26px'}}>
+<section class="w3l-top-header-content" style={{marginTop: '-17px'}}>
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="row">
-					<ol class="accounts col-md-2">
+					<ol class="accounts col-md-2 justify-content-center">
 						<li class="breadcrumb-item">Home / About</li>
 					</ol>
 				</div>
@@ -45,17 +45,17 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-top-header-content" style={{marginTop: '0px'}}>
+<section class="w3l-top-header-content">
 	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#FFF'}}>
+		<div class="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>
 			<div class="container-fluid">
-				<div class="row" style={{display: 'flex', alignItems: 'center'}}>
-					<ol class="accounts col-md-12">
-						<li class="breadcrumb-item" style={{color: '#000'}}>Strategic Plan</li>
-						<li class="breadcrumb-item" style={{color: '#000'}}>Governance</li>
-						<li class="breadcrumb-item" style={{color: '#000'}}>VU at a Glance</li>
-						<li class="breadcrumb-item" style={{color: '#000'}}>Accreditation</li>
-						<li class="breadcrumb-item" style={{color: '#000'}}>RISE - 5 year IT Strategy</li>
+				<div class="row">
+					<ol class="accounts col-md-12 justify-content-center">
+						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>About Us</span></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></li>
 					</ol>
 				</div>
 			</div>
