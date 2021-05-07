@@ -5,11 +5,26 @@ import Footer from './footer';
 import { Link } from "react-router-dom";
 
 class AboutUs extends Component{
+	change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		console.log('HI3')
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
+			<section class="content2">
 <section class="w3l-top-header-content" style={{marginTop: '-17px'}}>
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
@@ -45,24 +60,24 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-top-header-content">
+<section class="w3l-top-header-content" id="myHeader2" style={{zIndex: '1'}}>
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-12 justify-content-center">
-						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>About Us</span></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#strategy"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#about"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>About Us</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#glance"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#credit"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#rise"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></a></li>
 					</ol>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="w3l-wecome-content-6">
+<section class="w3l-wecome-content-6" id="strategy">
 	  <div class="ab-content-6-mian py-5">
 			<div class="container py-lg-5">
 				<div class="welcome-grids row">
@@ -73,7 +88,7 @@ class AboutUs extends Component{
 			</div>
 		</div>
 </section>
-<section class="w3l-wecome-content-6">
+<section class="w3l-wecome-content-6" id="about">
 	  <div class="ab-content-6-mian py-5">
 			 <div class="container py-lg-5">
 					<div class="welcome-grids row">
@@ -103,7 +118,7 @@ class AboutUs extends Component{
 				 </div>
 			</div>
 </section>
-<section class="w3l-specification-6">
+<section class="w3l-specification-6" id="glance">
 	<div class="specification-content py-5">
 		<div class="py-lg-5">
 			<div class="mission-grids-info" style={{display: 'flex'}}>
@@ -125,16 +140,17 @@ class AboutUs extends Component{
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
 					<br/>
-					<p><a class="logo-2" href="home" style={{color: '#0077b5'}}>
-						<h4 class="lohny-2"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Learn More About Victoria University</h4>
-						</a>
+					<p>
+						<a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+						<h4 class="lohny-2"><span ref={this.icon} id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF', fontSize: '27px'}}></span>&nbsp;Learn More About Victoria University</h4>
+						</a>	
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="w3l-specification-6">
+<section class="w3l-specification-6" id="credit">
 	<div class="specification-content py-5">
 		<div class="container py-lg-5">
 			<h3 class="hny-title text-center">Accreditation</h3>
@@ -152,6 +168,7 @@ class AboutUs extends Component{
 			</p>
         </div>
 	</div>
+</section>
 </section>
 <Footer />
             </React.Fragment>   

@@ -34,7 +34,7 @@ class Home extends Component{
 						<h4 class="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
 						<div id="counters_3">
 							<h6 class="titled">
-								<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+								<span class="counter" data-TargetNum="97" data-Speed="4500">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>of employers say VU grads meet or exceed their expectations</p>
@@ -43,7 +43,7 @@ class Home extends Component{
 						<h4 class="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
 						<div id="counters_3">
 							<h6 class="titled">
-								<span class="counter" data-TargetNum="97" data-Speed="4000">0</span><span>%</span>
+								<span class="counter" data-TargetNum="97" data-Speed="4500">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>said VU graduates were well prepared for their jobs</p>
@@ -52,7 +52,7 @@ class Home extends Component{
 						<h4 class="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
 						<div id="counters_3">
 							<h6 class="titled">
-								<span class="counter" data-TargetNum="96" data-Speed="4000">0</span><span>%</span>
+								<span class="counter" data-TargetNum="96" data-Speed="4500">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>said they would hire another VU graduate</p>

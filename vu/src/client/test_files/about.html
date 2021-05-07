@@ -124,6 +124,7 @@
 	</div>
 	<!--//banner-slider-->
 </section>
+<section class="content2">
 <section class="w3l-top-header-content" style="margin-top: -20px;">
 	<div class="hny-top-menu">
 		<div class="top-hd" style=" padding: 5px 0px 5px 0px;">
@@ -160,7 +161,7 @@
 		</div>
 	</div>
 </section>
-<section class="w3l-top-header-content">
+<section class="w3l-top-header-content" id="myHeader2" style="z-index: 1;">
 	<div class="hny-top-menu">
 		<div class="top-hd" style="padding: 10px 0px 10px 0px; background-color:#EEE;">
 			<div class="container-fluid">
@@ -245,7 +246,7 @@
 					</p>
 					<br>
 					<p><a class="logo-2" href="home" style="color: #0077b5;"  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-						<h4 class="lohny-2" id="iconner"><span class="fa fa-chain programfa icon_1" style="background-color: #ff7b00;"></span><span class="fa fa-arrow-circle-right programfa icon_2" style="background-color: #ff7b00; display: none;"></span>&nbsp;Learn More About Victoria University</h4>
+						<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style="background-color: #ff7b00;"></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style="background-color: #ff7b00;color: #FFF; font-size: 26px;"></span>&nbsp;Learn More About Victoria University</h4>
 						</a>
 					</p>
 				</div>
@@ -300,7 +301,7 @@
 			</p>
 		</div>
 </section>
-  
+</section>
 	<!--/team-sec-->
 	<!--//team-sec-->
 <!-- footer -->
@@ -420,4 +421,32 @@ $('.count').each(function () {
     });
 });
 </script>
+<script>
+function change_icon() {
+   var element = document.getElementById("iconner");
+   element.classList.add("hider");
+   var element2 = document.getElementById("iconner2");
+   element2.classList.add("block");
+}
+function change_icon2(){
+   var element = document.getElementById("iconner");
+   element.classList.remove("hider");
+   var element2 = document.getElementById("iconner2");
+   element2.classList.remove("block");
+}
+</script>
+<script>
+	window.onscroll = function() {myFunction()};
+	
+	var header = document.getElementById("myHeader2");
+	var sticky = header.offsetTop;
+	
+	function myFunction() {
+	  if (window.pageYOffset > sticky) {
+		header.classList.add("sticky");
+	  } else {
+		header.classList.remove("sticky");
+	  }
+	}
+	</script>
 <script src="assets/js/bootstrap.min.js"></script>

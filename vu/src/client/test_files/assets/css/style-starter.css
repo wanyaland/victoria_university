@@ -105,16 +105,6 @@ body img {
     transition: all ease;
     transition-duration: .3s;
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+body {
-    padding-top: 102px;
-    z-index: 1000;
-}
 .icon_2{
     display: none;
 }
@@ -16729,3 +16719,30 @@ a.text-dark:focus {
     cursor: pointer;
   }
   /* //Modal */
+  .hider {
+    display: none;
+  }
+  .block {
+    display: inherit;
+  }
+/* STICKY */
+  .header2 {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  .content2 {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content2 {
+    padding-top: 102px;
+  }
+/* //STICKY */

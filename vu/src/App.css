@@ -16961,3 +16961,31 @@ a.text-dark:focus {
         height: 40px;
     }
     /* //Modal */
+.hider {
+display: none;
+transition: all 0.3s ease;
+}
+.block {
+display:unset;
+}
+/* STICKY */
+.header2 {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  .content2 {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content2 {
+    padding-top: 102px;
+  }
+/* //STICKY */
