@@ -82,6 +82,13 @@ body img {
     padding: 10px;
     font-size: 16px;
 }
+.programfa2{
+    background-color: darkorange;
+    border-radius: 50%;
+    color: #FFF;
+    font-size: 16px;
+    padding: 7.5px 10px;
+}
 .noscroll {
     overflow: hidden;
 }
@@ -104,16 +111,6 @@ body img {
     padding: none;
     transition: all ease;
     transition-duration: .3s;
-}
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+body {
-    padding-top: 102px;
-    z-index: 1000;
 }
 .icon_2{
     display: none;
@@ -16424,7 +16421,7 @@ a.text-dark:focus {
 /*LISITER*/
 
 .w3-ul li:hover {
-    background-color: #CCC;
+    background-color: #dd5313;
     color: #fff;
 }
 
@@ -16729,3 +16726,73 @@ a.text-dark:focus {
     cursor: pointer;
   }
   /* //Modal */
+  .hider {
+    display: none;
+  }
+  .block {
+    display: inherit;
+  }
+/* STICKY */
+  .header2 {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  .content2 {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content2 {
+    padding-top: 102px;
+  }
+/* //STICKY */
+/* collapser */
+.collapsible {
+    background-color: #FFF;
+    color: #1f3d8d;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .activer, .collapsible:hover {
+    background-color: #0077b5;
+    color: #FFF;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activer:after {
+    content: "\2212";
+  }
+  
+  .contenter {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  .job_list li:hover{
+      background-color: #FFF;
+      color: #000;
+      text-decoration: underline;
+  }
+/* //collapser */

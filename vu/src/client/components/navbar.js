@@ -5,7 +5,7 @@ class NavBar extends Component{
 	render(){
         return(
 	<React.Fragment>
-    <section class="w3l-banner-slider-main w3l-inner-page-main" id="">
+    <section class="w3l-banner-slider-main w3l-inner-page-main">
 	<div class="breadcrumb-infhny">
 		<header class="top-headerhny" id="head_runner">
 			<nav class="navbar navbar-expand-lg navbar-light fill">

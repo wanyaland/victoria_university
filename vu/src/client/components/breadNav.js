@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class BreadNavBar extends Component {
     render(){
@@ -30,7 +31,7 @@ class BreadNavBar extends Component {
 							<li class="top_li"><a href="home">ALumni</a></li>
 							<li class="top_li"><a href="home">News</a></li>
 							<li class="top_li"><a href="home">Events</a></li>
-							<li class="top_li"><a href="home">Career</a></li>
+							<li class="top_li"><Link to="/careers">Career</Link></li>
 							<li class="top_li"><a href="home">Gallery</a></li>
 						</ul>
 					</div>
