@@ -6,7 +6,18 @@ import { Link } from "react-router-dom";
 
 class AboutUs extends Component{
 	componentDidMount(){
+		window.onscroll = function() {stickyMenu()};
+	
+		var header = document.getElementById("myHeader2");
+		var sticky = header.offsetTop;
 		
+		function stickyMenu() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
 	}
 	change_icon() {
 		var element = document.getElementById("iconner");
