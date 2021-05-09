@@ -7,6 +7,7 @@ import Contact from './client/components/contact';
 import Programs from './client/components/programs';
 import Admissions from './client/components/admissions';
 import Careers from './client/components/careers';
+import Council from './client/components/council';
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
         <Route exact path="/programs" component={Programs} />
         <Route exact path="/admissions" component={Admissions} />
         <Route exact path="/careers" component={Careers} />
+        <Route exact path="/council" component={Council} />
       </Switch>
     </Router>
 
