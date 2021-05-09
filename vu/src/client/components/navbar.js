@@ -25,7 +25,13 @@ class NavBar extends Component{
 									<Link to="./" className="nav-link">Home</Link>
 								</li>
 								<li class="nav-item">
-									<Link to="/about" className="nav-link">About</Link>
+									<div class="dropdown" style={{float:'left'}}>
+										<Link class="dropdown nav-link" to="/about">About&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
+										<div class="dropdown-content" style={{left:'0'}}>
+											<Link to="/council" class="nav-link text-left" style={{color: '#000'}}>University Council</Link>
+											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+										</div>
+									</div>
 								</li>
 								<li class="nav-item">
 									<Link to="/programs" className="nav-link">Programmes</Link>
@@ -36,14 +42,14 @@ class NavBar extends Component{
 								<li class="nav-item">
 									{/* <Link to="/co-ops" className="nav-link">WIL</Link> */}
 									<div class="dropdown" style={{float:'left'}}>
-									<Link class="dropdown nav-link" to="/wil">WIL&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
-									<div class="dropdown-content" style={{left:'0'}}>
-										<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
-										<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
-										<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
-										<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+										<Link class="dropdown nav-link" to="/wil">WIL&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
+										<div class="dropdown-content" style={{left:'0'}}>
+											<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
+											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+											<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
+											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+										</div>
 									</div>
-								</div>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="home">Research</a>
@@ -51,12 +57,6 @@ class NavBar extends Component{
 								<li class="nav-item">
 									<a class="nav-link" href="home">Life At VU</a>
 								</li>
-								{/* <li class="nav-item">
-									<Link to="/contact" class="nav-link"><span class="fa fa-comments" style={{fontSize: '.85rem'}}></span>&nbsp;&nbsp;Help &amp; Contact</Link>
-								</li>
-								<li class="nav-item">
-									<a href="home" class="nav-link"><span class="fa fa-search" style={{fontsize: '1rem'}}></span></a> 
-								</li> */}
 							</ul>
 					</div>
 					<div class="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center'}}>
