@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Chat from './chat';
 
 class Footer extends Component{
 	topFunction() {
@@ -11,6 +12,7 @@ class Footer extends Component{
     render(){
         return(
             <React.Fragment>
+            <Chat />
         <section class="w3l-footer-16">
     <div class="w3l-footer-16-main py-5">
         <div class="container">

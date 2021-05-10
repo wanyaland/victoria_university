@@ -81,11 +81,12 @@
 							<li class="nav-item">
 								<!-- <a class="nav-link" href="co-ops.html">WIL</a> -->
 								<div class="dropdown" style="float:left;">
-									<a class="dropdown nav-link" href="about.html">About</a>
+									<a class="dropdown nav-link" href="about.html">About&nbsp;&nbsp;<span class="fa fa-angle-down" style="color:#FFF; font-size: 14px;"></span></a>
 									<!-- <button class="dropbtn">Left</button> -->
 									<div class="dropdown-content" style="left:0;">
-										<a href="council.html" class="nav-link text-left">Executive Team</a>
-										<a href="council.html" class="nav-link text-left">Executive Team</a>
+										<a href="council.html" class="text-left" style="color: #888; font-weight: 700;">About VU<span class="fa fa-home justify-content-lg-end" style="font-size: 20px; float: right;"></span></a>
+										<a href="council.html" class="text-left" style="color: #888; font-weight: 700;">Our Executive Team</a>
+										<a href="council.html" class="text-left" style="color: #888; font-weight: 700;">Our Executive Team</a>
 									</div>
 								</div>
 							</li>
@@ -98,11 +99,12 @@
 							<li class="nav-item">
 								<!-- <a class="nav-link" href="co-ops.html">WIL</a> -->
 								<div class="dropdown" style="float:left;">
-									<a class="dropdown nav-link" href="wil">WIL</a>
+									<a class="dropdown nav-link" href="wil">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style="color:#FFF; font-size: 14px;"></span></a>
 									<!-- <button class="dropbtn">Left</button> -->
 									<div class="dropdown-content" style="left:0;">
-										<a href="co-ops" class="nav-link text-left">Co-ops</a>
-										<a href="home" class="nav-link text-left">Experiential Learning</a>
+										<a href="co-ops.html" class="text-left" style="color: #888; font-weight: 700;">Co-ops</a>
+										<a href="co-ops.html" class="text-left" style="color: #888; font-weight: 700;">Co-ops</a>
+										<a href="co-ops.html" class="text-left" style="color: #888; font-weight: 700;">Co-ops</a>
 									</div>
 								</div>
 							</li>
@@ -127,8 +129,16 @@
 						<span class="fa fa-comments" style="font-size: .85rem;"></span>&nbsp;&nbsp;<span style="font-size: 13px;">Help &amp; Contact</span>
 					</a>
 					<a href="#" class="nav-link">
-						<span class="fa fa-search" style="font-size: 1rem;"></span>
-					</a> 
+						<span class="fa fa-search dropbtner" style="font-size: 1rem;" onclick="search()"></span>
+						<div class="dropdownr">
+							<div id="myDropdownr" class="dropdown-contentr">
+								<form action="#" method="post" class="d-flex searchhny-form" style="border: #999 1px solid;">
+									<input type="search" placeholder="Start Your Search" style="color: #000;" required="required">
+									<button class="search_btn">Search</button>
+								</form>
+							</div>
+						</div>
+					</a>
 					</div>
 				</div>
 			</nav>
@@ -995,4 +1005,26 @@ function closeModal() {
   modal.style.display = "none";
 }
 </script>
+<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function search() {
+	  document.getElementById("myDropdownr").classList.toggle("showr");
+	}
+	
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtner')) {
+		var dropdowns = document.getElementsByClassName("dropdown-contentr");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('showr')) {
+			openDropdown.classList.remove('showr');
+		  }
+		}
+	  }
+	}
+	</script>
+	
 <script src="assets/js/bootstrap.min.js"></script>
