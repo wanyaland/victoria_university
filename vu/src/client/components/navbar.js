@@ -2,6 +2,24 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 class NavBar extends Component{
+	search() {
+		document.getElementById("myDropdownr").classList.toggle("showr");
+	  }
+
+componentDidMount(){
+	 window.onclick = function(event) {
+		if (!event.target.matches('.dropbtner')) {
+		  var dropdowns = document.getElementsByClassName("dropdown-contentr");
+		  var i;
+		  for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('showr')) {
+			  openDropdown.classList.remove('showr');
+			}
+		  }
+		}
+	  }
+}
 	render(){
         return(
 	<React.Fragment>
@@ -25,13 +43,14 @@ class NavBar extends Component{
 									<Link to="./" className="nav-link">Home</Link>
 								</li>
 								<li class="nav-item">
-									<div class="dropdown" style={{float:'left'}}>
-										<Link class="dropdown nav-link" to="/about">About&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
-										<div class="dropdown-content" style={{left:'0'}}>
-											<Link to="/council" class="nav-link text-left" style={{color: '#000'}}>University Council</Link>
-											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
+									<div class="dropdown" style={{float: 'left'}}>
+										<Link class="dropdown nav-link" to="/about">About&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+										<div class="dropdown-content" style={{left: '0'}}>
+											<Link to="/about" class="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span class="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+											<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
+											<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
 										</div>
-									</div>
+								</div>
 								</li>
 								<li class="nav-item">
 									<Link to="/programs" className="nav-link">Programmes</Link>
@@ -40,16 +59,14 @@ class NavBar extends Component{
 									<Link to="/admissions" className="nav-link">Admissions</Link>
 								</li>
 								<li class="nav-item">
-									{/* <Link to="/co-ops" className="nav-link">WIL</Link> */}
-									<div class="dropdown" style={{float:'left'}}>
-										<Link class="dropdown nav-link" to="/wil">WIL&nbsp;<span className="fa fa-angle-down" style={{color:'#FFF', fontSize: '14px'}}></span></Link>
-										<div class="dropdown-content" style={{left:'0'}}>
-											<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
-											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
-											<Link to="/co-ops" class="nav-link text-left" style={{color: '#000'}}>Co-ops</Link>
-											<Link to="home" class="nav-link text-left" style={{color: '#000'}}>Experiential Learning</Link>
-										</div>
+								<div class="dropdown" style={{float: 'left'}}>
+									<Link class="dropdown nav-link" to="/wil">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div class="dropdown-content" style={{left: '0'}}>
+										<Link to="/co-ops" class="text-left" style={{color: '#888', fontWeight: '700'}}>Co-ops</Link>
+										<Link to="/co-ops" class="text-left" style={{color: '#888', fontWeight: '700'}}>Co-ops</Link>
+										<Link to="/co-ops" class="text-left" style={{color: '#888', fontWeight: '700'}}>Co-ops</Link>
 									</div>
+								</div>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="home">Research</a>
@@ -66,9 +83,17 @@ class NavBar extends Component{
 						<a href="contact" class="nav-link">
 							<span class="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>
-						<a href="home" class="nav-link">
-							<span class="fa fa-search" style={{fontSize: '1rem', color: '#FFF'}}></span>
-						</a> 
+						<Link to="/" class="nav-link">
+							<span class="fa fa-search dropbtner" style={{fontSize: '1rem'}} onClick={this.search}></span>
+							<div class="dropdownr">
+								<div id="myDropdownr" class="dropdown-contentr">
+									<form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid'}}>
+										<input type="search" placeholder="Start Your Search" style={{color: '#000'}} required="required" />
+										<button class="search_btn">Search</button>
+									</form>
+								</div>
+							</div>
+						</Link> 
 					</div>
 				</div>
 			</nav>

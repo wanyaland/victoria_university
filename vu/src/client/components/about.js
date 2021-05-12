@@ -39,7 +39,7 @@ class AboutUs extends Component{
 			<BreadNavBar />
 			<NavBar />
 			<section class="content2">
-<section class="w3l-top-header-content" style={{marginTop: '-17px'}}>
+<section class="w3l-top-header-content" style={{marginTop: '-25px'}}>
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
@@ -80,11 +80,11 @@ class AboutUs extends Component{
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-12 justify-content-center">
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#strategy"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#about"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>About Us</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#glance"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#credit"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#rise"><img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height: '32px'}} /><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#strategy"><span class="fa fa-gears about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#about"><span class="fa fa-dot-circle-o about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>About Us</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#glance"><span class="fa fa-photo about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#credit"><span class="fa fa-cubes about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#rise"><span class="fa fa-line-chart about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></a></li>
 					</ol>
 				</div>
 			</div>
