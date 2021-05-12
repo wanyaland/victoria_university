@@ -84,7 +84,7 @@ componentDidMount(){
 							<span class="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>
 						<Link to="/" class="nav-link">
-							<span class="fa fa-search dropbtner" style={{fontSize: '1rem'}} onClick={this.search}></span>
+							<span class="fa fa-search dropbtner" style={{fontSize: '1rem', color: '#FFF'}} onClick={this.search}></span>
 							<div class="dropdownr">
 								<div id="myDropdownr" class="dropdown-contentr">
 									<form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid'}}>
