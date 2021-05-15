@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 class NavBar extends Component{
 	search() {
 		document.getElementById("myDropdownr").classList.toggle("showr");
-	  }
+	}
+	redirect() {
+		window.location.href = "search";
+		console.log("Clicked")
+	}
 
 componentDidMount(){
 	 window.onclick = function(event) {
@@ -56,7 +60,14 @@ componentDidMount(){
 									<Link to="/programs" className="nav-link">Programmes</Link>
 								</li>
 								<li class="nav-item">
-									<Link to="/admissions" className="nav-link">Admissions</Link>
+									<div class="dropdown" style={{float:'left'}}>
+									<Link class="dropdown nav-link" to="/admissions">Admissions&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div class="dropdown-content" style={{left:'0'}}>
+										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
+										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
+										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
+									</div>
+								</div>
 								</li>
 								<li class="nav-item">
 								<div class="dropdown" style={{float: 'left'}}>
@@ -89,7 +100,7 @@ componentDidMount(){
 								<div id="myDropdownr" class="dropdown-contentr">
 									<form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid'}}>
 										<input type="search" placeholder="Start Your Search" style={{color: '#000'}} required="required" />
-										<button class="search_btn">Search</button>
+										<button class="search_btn" onClick={this.redirect}>Search</button>
 									</form>
 								</div>
 							</div>

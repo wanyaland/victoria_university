@@ -21,7 +21,10 @@ body p,
 input {
     font-family: 'Roboto', Sans-serif;
 }
-
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 body p {
     line-height: 26px;
     font-size: 16px;
@@ -16733,6 +16736,16 @@ a.text-dark:focus {
     border-right: 15px solid transparent;
     border-top: 10px solid #555;
   }
+  .triangle-step {
+    position:absolute;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    top:81.5%;
+    left: 47.2%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
   /* //TOOLTIP */  
   /*Dropdwn*/
   .dropbtn {
@@ -16754,7 +16767,7 @@ a.text-dark:focus {
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
-    min-width: 260px;
+    min-width: 280px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color: #000;
@@ -17068,9 +17081,138 @@ background-color: #014e77;
     margin-left: 50%;
   }
   #circle {
-    background: lightblue;
+    background: #FFF;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 /* //Circle Text */
+/* APPLY */
+* {
+    box-sizing: border-box;
+  }
+  
+  .form_fields, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .applier {
+    background-color: #02476d;
+    color: white;
+    padding: 22px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .applier:hover {
+    background-color: #033049;
+  }
+  
+  .container_form {
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row_form:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, .applier {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+/* //APPLY */
+/* SEARCH RESULTS */
+.search_results{
+    width: 100%;
+    background-color:#fff;
+    padding: 15px;
+    -webkit-box-shadow: 1px 1px 8px 1px #788891c7; 
+    box-shadow: 1px 1px 8px 1px #788891c7;
+}
+.more_results {
+    background-color: #FFF;
+    color: #555;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: orange 3px solid;
+    border-radius: 6px;
+}
+
+.more_results:hover{
+    background-color: orange;
+    color: #FFF;
+    cursor: pointer;
+}
+/* search sidebar */
+.sidenavd {
+    /* height: 800px; */
+    width: 100%;
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenavd a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenavd a:hover {
+    color: #f1f1f1;
+  }
+  
+  .maind {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenavd {padding-top: 15px;}
+    .sidenavd a {font-size: 18px;}
+  }
+  .with_shadow {
+      border-right: #CCC 1px solid;
+  }
+/* //SEARCH RESULTS */
