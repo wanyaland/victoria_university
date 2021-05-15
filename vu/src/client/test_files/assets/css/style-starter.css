@@ -17008,3 +17008,17 @@ a.text-dark:focus {
     transition: 0.3s ease;
 }
 /* //Search dropdown */
+.btn_link {
+    background-color: #0077b5;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #0077b5 1px solid;
+    box-shadow: 0px 0px 20px 0px #013e5f inset;
+}
+
+.btn_link:hover{
+background-color: #014e77;
+}

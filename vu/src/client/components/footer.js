@@ -33,15 +33,15 @@ class Footer extends Component{
 					</div>
 					<div class="columns-2 mt-md-0 mt-3">
 						<ul class="social text-right">
-							<li><a href="https://www.facebook.com/VUKampala"><span class="fa fa-facebook" aria-hidden="true"></span>&nbsp;</a>
+							<li><a href="https://www.facebook.com/VUKampala"><span class="fa fa-facebook" aria-hidden="true"></span><i></i></a>
 							</li>
-							<li><a href="https://www.linkedin.com/company/victoria-university-kampala/"><span class="fa fa-linkedin" aria-hidden="true"></span>&nbsp;</a>
+							<li><a href="https://www.linkedin.com/company/victoria-university-kampala/"><span class="fa fa-linkedin" aria-hidden="true"></span><i></i></a>
 							</li>
-							<li><a href="https://twitter.com/VUKampala"><span class="fa fa-twitter" aria-hidden="true"></span>&nbsp;</a>
+							<li><a href="https://twitter.com/VUKampala"><span class="fa fa-twitter" aria-hidden="true"></span><i></i></a>
 							</li>
-							<li><a href="https://www.instagram.com/victoriauniversity_kampala/"><span class="fa fa-instagram" aria-hidden="true"></span>&nbsp;</a>
+							<li><a href="https://www.instagram.com/victoriauniversity_kampala/"><span class="fa fa-instagram" aria-hidden="true"></span><i></i></a>
 							</li>
-							<li><a href="https://www.youtube.com/user/vukampala"><span class="fa fa-youtube-play" aria-hidden="true"></span>&nbsp;</a>
+							<li><a href="https://www.youtube.com/user/vukampala"><span class="fa fa-youtube-play" aria-hidden="true"></span><i></i></a>
 							</li>
 						</ul>
 					</div>
