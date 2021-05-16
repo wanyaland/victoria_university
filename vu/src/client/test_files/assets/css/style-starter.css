@@ -109,6 +109,10 @@ body img {
     transition: all ease;
     transition-duration: .3s;
 } */
+.hover-team{
+    border:#FFF 4px solid;
+    padding: none;
+}
 .hover-team:hover{
     border:#3f90e0 4px solid;
     padding: none;
@@ -4059,10 +4063,6 @@ h3.hny-title.two {
     -webkit-backface-visibility: hidden;
 }
 
-.w3l-content-6 .imghrs .imghr a:hover{
-    border: blue 4px solid;
-}
-
 .w3l-content-6 .imghrs .imghr .details {
     font-size: 16px;
     padding: 20px;
@@ -4109,22 +4109,22 @@ h3.hny-title.two {
 
 .w3l-content-6 .imghrs .imghr:focus:before,
 .w3l-content-6 .imghrs .imghr:hover:before {
-    top: 50%;
+    /* top: 50%; */
 }
 
 .w3l-content-6 .imghrs .imghr:focus span,
 .w3l-content-6 .imghrs .imghr:hover span {
-    top: 0;
+    /* top: 0; */
 }
 
 .w3l-content-6 .imghrs .imghr:focus .title,
 .w3l-content-6 .imghrs .imghr:hover .title {
-    transition-delay: 0.15s;
+   /*  transition-delay: 0.15s; */
 }
 
 .w3l-content-6 .imghrs .imghr:focus .info,
 .w3l-content-6 .imghrs .imghr:hover .info {
-    transition-delay: 0.25s;
+    /* transition-delay: 0.25s; */
 }
 
 @media (max-width: 991px) {
@@ -5588,11 +5588,7 @@ span.fa.fa-play {
     color: #555;
 }
 @media only screen and (max-width: 1080px) {
-    .pathdots{
-        position:absolute;
-        top: 50.5%;
-        border: red 20px solid;
-    }
+   
   }
 @media screen and (max-width: 1080px) {
     .w3l-inner-page-main h2.hny-title {
@@ -17033,6 +17029,20 @@ a.text-dark:focus {
 }
 
 .btn_link:hover{
+background-color: #014e77;
+}
+.btn_link2 {
+    background-color: #CCC;
+    color: #555;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #0077b5 1px solid;
+    box-shadow: 0px 0px 20px 0px #013e5f;
+}
+
+.btn_link2:hover{
 background-color: #014e77;
 }
 .t2 {

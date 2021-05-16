@@ -31,7 +31,7 @@ class Apply extends Component{
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-4">
-						<li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / About Us / How to Apply and Register</li>
+						<li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Admissions / How to Apply and Register</li>
 					</ol>
 				</div>
 			</div>

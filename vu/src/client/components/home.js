@@ -104,81 +104,81 @@ class Home extends Component{
 			</section>
 			<div class="content-info-in row mt-md-5 mt-4 justify-content-center" style={{marginLeft: 0, marginRight:0}}>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<span class="justify-content-center pathdots orange">&nbsp;</span>
-					<span class="justify-content-center pathdots_round">&nbsp;</span>
-					<a class="imghr hover-team" href="home">
+					<div class="justify-content-center pathdots orange">&nbsp;</div>
+					<div class="justify-content-center pathdots_round">&nbsp;</div>
+					<a class="imghr" href="home">
 						<img src="assets/images/path1.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center" style={{height: '100%'}}>
+						<div class="details text-center hover-team" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<span class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="" style={{top: '1.8%', position: 'relative'}}>
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</span>
+							</div>
 							<br/>
-							<span class="title">Foundation</span><br/>
-							<div style={{top: '17%', position: 'relative'}}>
-								<span class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</span>
-								<span class="fa fa-angle-right path_pointer orange_d"></span>
+							<div class="title">Foundation</div><br/>
+							<div style={{top: '14%', position: 'relative'}}>
+								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+								</div>
+								<div class="fa fa-angle-right path_pointer orange_d"></div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<span class="justify-content-center pathdots brown">&nbsp;</span>
-					<span class="justify-content-center pathdots_round">&nbsp;</span>
-					<a class="imghr hover-team2" href="home">
+					<div class="justify-content-center pathdots brown">&nbsp;</div>
+					<div class="justify-content-center pathdots_round">&nbsp;</div>
+					<a class="imghr" href="home">
 						<img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center" style={{height: '100%'}}>
+						<div class="details text-center hover-team2" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<span class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="" style={{top: '1.8%', position: 'relative'}}>
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</span>
+							</div>
 							<br/>
-							<span class="title">Undergraduate</span><br/>
-							<div style={{top: '17%', position: 'relative'}}>
-								<span class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</span>
-								<span class="fa fa-angle-right path_pointer brown_d"></span>
+							<div class="title">Undergraduate</div><br/>
+							<div style={{top: '14%', position: 'relative'}}>
+								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+								</div>
+								<div class="fa fa-angle-right path_pointer brown_d"></div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<span class="justify-content-center pathdots blue">&nbsp;</span>
-					<span class="justify-content-center pathdots_round">&nbsp;</span>
-					<a class="imghr hover-team3" href="home">
+					<div class="justify-content-center pathdots blue">&nbsp;</div>
+					<div class="justify-content-center pathdots_round">&nbsp;</div>
+					<a class="imghr" href="home">
 						<img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center" style={{height: '100%'}}>
+						<div class="details text-center hover-team3" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<span class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="" style={{top: '1.8%', position: 'relative'}}>
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</span>
+							</div>
 							<br/>
-							<span class="title">Postgraduate</span><br/>
-							<div style={{top: '17%', position: 'relative'}}>
-								<span class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</span>
-								<span class="fa fa-angle-right path_pointer blue_d"></span>
+							<div class="title">Postgraduate</div><br/>
+							<div style={{top: '14%', position: 'relative'}}>
+								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+								</div>
+								<div class="fa fa-angle-right path_pointer blue_d"></div>
 							</div>
 						</div>
 					</a>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<span class="justify-content-center pathdots purple">&nbsp;</span>
-					<span class="justify-content-center pathdots_round">&nbsp;</span>
-					<a class="imghr hover-team4" href="home">
+					<div class="justify-content-center pathdots purple">&nbsp;</div>
+					<div class="justify-content-center pathdots_round">&nbsp;</div>
+					<a class="imghr" href="home">
 						<img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center" style={{height: '100%'}}>
+						<div class="details text-center hover-team4" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<span class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="" style={{top: '1.8%', position: 'relative'}}>
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</span>
+							</div>
 							<br/>
-							<span class="title">Diploma</span><br/>
-							<div style={{top: '17%', position: 'relative'}}>
-								<span class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</span>
-								<span class="fa fa-angle-right path_pointer purple_d"></span>
+							<div class="title">Diploma</div><br/>
+							<div style={{top: '14%', position: 'relative'}}>
+								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+								</div>
+								<div class="fa fa-angle-right path_pointer purple_d"></div>
 							</div>
 						</div>
 					</a>
