@@ -12,6 +12,7 @@ import Alumni from './client/components/alumni';
 import Partners from './client/components/partners';
 import Apply from './client/components/apply';
 import Search from './client/components/search';
+import Requirements from './client/components/requirements';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -32,6 +33,7 @@ const App = () => (
         <Route exact path="/partners" component={Partners} />
         <Route exact path="/apply" component={Apply} />
         <Route exact path="/search" component={Search} />
+        <Route exact path="/requirements" component={Requirements} />
       </Switch>
     </Router>
 
