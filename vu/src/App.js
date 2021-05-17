@@ -13,6 +13,7 @@ import Partners from './client/components/partners';
 import Apply from './client/components/apply';
 import Search from './client/components/search';
 import Requirements from './client/components/requirements';
+import StudentGuidelines from './client/components/student-guidelines';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -34,6 +35,7 @@ const App = () => (
         <Route exact path="/apply" component={Apply} />
         <Route exact path="/search" component={Search} />
         <Route exact path="/requirements" component={Requirements} />
+        <Route exact path="/student-guidelines" component={StudentGuidelines} />
       </Switch>
     </Router>
 
