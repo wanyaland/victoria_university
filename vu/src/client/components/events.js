@@ -90,6 +90,13 @@ class Events extends Component{
 					</div>
 				</div>
 			</div>
+			<br/>
+			<div class="text-right">
+				<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
+					<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View all Events</h4>
+					</a>
+				</p>
+			</div>
 		</div>
 	</div>
 </section>

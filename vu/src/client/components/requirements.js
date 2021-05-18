@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
+import AskInfo from './ask-info';
 import GetInfo from './get_info';
 import Footer from './footer';
 
@@ -134,6 +135,7 @@ class Requirements extends Component{
 			</div>
 		</div>
 	</section>
+	<AskInfo />
     <GetInfo />
             <Footer />
             </React.Fragment>
