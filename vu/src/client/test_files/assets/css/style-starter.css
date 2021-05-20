@@ -17226,3 +17226,37 @@ background-color: #014e77;
       border-right: #CCC 1px solid;
   }
 /* //SEARCH RESULTS */
+/* IMG OVER TEXT */
+.img-text-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.img-text-bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: #FFF;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+}
+.img-text-centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -25%);
+    color: #FFF;
+    font-weight: 600;
+    padding: 0px;
+    font-size: 20px;
+  }
+/* //IMG OVER TEXT */
+.social_hub{
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}

@@ -15,6 +15,8 @@ import Search from './client/components/search';
 import Requirements from './client/components/requirements';
 import StudentGuidelines from './client/components/student-guidelines';
 import StudentProfile from './client/components/student-profile';
+import News from './client/components/news'
+import EventsHub from './client/components/events-hub'
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -38,6 +40,8 @@ const App = () => (
         <Route exact path="/requirements" component={Requirements} />
         <Route exact path="/student-guidelines" component={StudentGuidelines} />
         <Route exact path="/student-profile" component={StudentProfile} />
+        <Route exact path="/news" component={News} />
+        <Route exact path="/event" component={EventsHub} />
       </Switch>
     </Router>
 
