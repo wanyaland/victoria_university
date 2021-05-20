@@ -14,6 +14,7 @@ import Apply from './client/components/apply';
 import Search from './client/components/search';
 import Requirements from './client/components/requirements';
 import StudentGuidelines from './client/components/student-guidelines';
+import StudentProfile from './client/components/student-profile';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -36,6 +37,7 @@ const App = () => (
         <Route exact path="/search" component={Search} />
         <Route exact path="/requirements" component={Requirements} />
         <Route exact path="/student-guidelines" component={StudentGuidelines} />
+        <Route exact path="/student-profile" component={StudentProfile} />
       </Switch>
     </Router>
 

@@ -11,7 +11,7 @@ class NavBar extends Component{
 	}
 
 componentDidMount(){
-	 window.onclick = function(event) {
+	 /* window.onclick = function(event) {
 		if (!event.target.matches('.dropbtner')) {
 		  var dropdowns = document.getElementsByClassName("dropdown-contentr");
 		  var i;
@@ -22,7 +22,7 @@ componentDidMount(){
 			}
 		  }
 		}
-	  }
+	  } */
 }
 	render(){
         return(
@@ -63,6 +63,7 @@ componentDidMount(){
 									<div class="dropdown" style={{float:'left'}}>
 									<Link class="dropdown nav-link" to="/admissions">Admissions&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 									<div class="dropdown-content" style={{left:'0'}}>
+										<Link to="/student-profile" class="text-left" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
 										<Link to="/requirements" class="text-left" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
