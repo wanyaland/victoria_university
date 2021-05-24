@@ -66,6 +66,9 @@ componentDidMount(){
 										<Link to="/student-profile" class="text-left" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
 										<Link to="/requirements" class="text-left" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
+										<Link to="/transfer-credit" class="text-left" style={{color: '#888', fontWeight: '700'}}>Transfer Credit</Link>
+										<Link to="/dates-deadlines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link>
+										<Link to="/tuition-fees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Tuition, Fees and Financial Aid</Link>
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
 									</div>
 								</div>

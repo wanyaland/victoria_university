@@ -16,7 +16,10 @@ import Requirements from './client/components/requirements';
 import StudentGuidelines from './client/components/student-guidelines';
 import StudentProfile from './client/components/student-profile';
 import News from './client/components/news'
-import EventsHub from './client/components/events-hub'
+import EventsHub from './client/components/events-hub';
+import Keydates from './client/components/dates-deadlines'
+import Tuition from './client/components/tuition-fees';
+import TransferCredit from './client/components/transfer-credit'
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -41,7 +44,10 @@ const App = () => (
         <Route exact path="/student-guidelines" component={StudentGuidelines} />
         <Route exact path="/student-profile" component={StudentProfile} />
         <Route exact path="/news" component={News} />
-        <Route exact path="/event" component={EventsHub} />
+        <Route exact path="/events-hub" component={EventsHub} />
+        <Route exact path="/dates-deadlines" component={Keydates} />
+        <Route exact path="/tuition-fees" component={Tuition} />
+        <Route exact path="/transfer-credit" component={TransferCredit} />
       </Switch>
     </Router>
 

@@ -9,7 +9,7 @@ class GetInfo extends Component {
 			<div class="container py-lg-5">
 				<div class="row grids-innf my-lg-5" style={{border: '#CCC 1px solid'}}>
 					<div class="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
-						<img src="assets/images/path1.jpg" class="img-fluid" id="fixer4"  alt="img"/>
+						<img src="assets/images/form.png" class="img-fluid" id="fixer4"  alt="img"/>
 					</div>
 					<div class="features-1-info col-lg-9 col-md-9">
 						<br/>
