@@ -18,7 +18,8 @@ import StudentProfile from './client/components/student-profile';
 import News from './client/components/news'
 import EventsHub from './client/components/events-hub';
 import Keydates from './client/components/dates-deadlines'
-import Tuition from './client/components/tuition-fees'
+import Tuition from './client/components/tuition-fees';
+import TransferCredit from './client/components/transfer-credit'
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -46,6 +47,7 @@ const App = () => (
         <Route exact path="/events-hub" component={EventsHub} />
         <Route exact path="/dates-deadlines" component={Keydates} />
         <Route exact path="/tuition-fees" component={Tuition} />
+        <Route exact path="/transfer-credit" component={TransferCredit} />
       </Switch>
     </Router>
 
