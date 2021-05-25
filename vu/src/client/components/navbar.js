@@ -51,7 +51,9 @@ componentDidMount(){
 										<Link class="dropdown nav-link" to="/about">About&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 										<div class="dropdown-content" style={{left: '0'}}>
 											<Link to="/about" class="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span class="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+											<Link to="/glance" class="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
 											<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
+											<Link to="/faculties" class="text-left" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link>
 											<Link to="/partners" class="text-left" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
 										</div>
 								</div>
