@@ -22,6 +22,9 @@ import Tuition from './client/components/tuition-fees';
 import TransferCredit from './client/components/transfer-credit'
 import Glance from './client/components/glance';
 import Faculties from './client/components/faculties';
+import Governing from './client/components/governing';
+import History from './client/components/history';
+import Staff from './client/components/staff';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -52,6 +55,9 @@ const App = () => (
         <Route exact path="/transfer-credit" component={TransferCredit} />
         <Route exact path="/glance" component={Glance} />
         <Route exact path="/faculties" component={Faculties} />
+        <Route exact path="/governing" component={Governing} />
+        <Route exact path="/history" component={History} />
+        <Route exact path="/staff" component={Staff} />
       </Switch>
     </Router>
 
