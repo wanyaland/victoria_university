@@ -54,7 +54,10 @@ componentDidMount(){
 											<Link to="/glance" class="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
 											<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
 											<Link to="/faculties" class="text-left" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link>
+											<Link to="/governing" class="text-left" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
+											<Link to="/history" class="text-left" style={{color: '#888', fontWeight: '700'}}>History</Link>
 											<Link to="/partners" class="text-left" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
+											<Link to="/staff" class="text-left" style={{color: '#888', fontWeight: '700'}}>Employee Information</Link>
 										</div>
 								</div>
 								</li>
