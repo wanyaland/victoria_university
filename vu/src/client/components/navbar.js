@@ -89,7 +89,7 @@ componentDidMount(){
 								</div>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="home">Research</a>
+									<Link class="nav-link" to="/research">Research</Link>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="home">Life At VU</a>
