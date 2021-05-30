@@ -4,8 +4,38 @@ import NavBar from './navbar';
 import AskInfo from './ask-info';
 import GetInfo from './get_info';
 import Footer from './footer';
+import { Link } from 'react-router-dom';
 
 class Keydates extends Component{
+    componentDidMount(){
+        var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("activer");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = content.scrollHeight + "px";
+		} 
+	  });
+	}
+    }
+    change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
@@ -33,7 +63,7 @@ class Keydates extends Component{
                 <div class="col-lg-12 mb-lg-0 mb-5">
                     <h6 class="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Key Dates and Deadlines</h6>
                     <br/>
-                    <p class="my-4" style={{fontSize: '22px'}}>As an online university that lets you learn on your own schedule, it’s our priority to make sure your education fits into your life rather than the other way around. That’s why Athabasca University approaches scheduling differently than traditional schools.
+                    <p class="my-4" style={{fontSize: '22px'}}>As an online university that lets you learn on your own schedule, it’s our priority to make sure your education fits into your life rather than the other way around. That’s why Victoria University approaches scheduling differently than traditional schools.
                     </p>
                     <p class="mb-4" style={{fontSize: '18px'}}>We’ve designed our admission policies and course structure with your need for flexibility in mind. Which means, even though we do have many universal events and milestones, very few deadlines apply to all of our students. Therefore, your key dates will likely be different from those of your classmates.</p>
                 </div>
@@ -60,33 +90,36 @@ class Keydates extends Component{
                                     <div class="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p class="my-4">Undergraduate studentsa</p>
                                         <p class="my-4"><span class="fa fa-clock-o"></span> Apply anytime – no deadline!</p>
-                                        <p class="my-4">You can apply to AU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about undergraduate applications
-                                            </h4>
-                                            </a>
+                                        <p class="my-4">You can apply to VU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
+                                        <p>
+                                            <Link class="logo-2" href="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;Learn more about undergraduate applications
+                                                </span>
+                                            </Link>
                                         </p>
                                     </div>
                                     <hr />
                                     <div class="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p class="my-4">Undergraduate studentsa</p>
                                         <p class="my-4"><span class="fa fa-clock-o"></span> Apply anytime – no deadline!</p>
-                                        <p class="my-4">You can apply to AU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about undergraduate applications
-                                            </h4>
-                                            </a>
+                                        <p class="my-4">You can apply to VU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
+                                        <p>
+                                            <Link class="logo-2" href="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;
+                                                </span><span class="underline">Learn more about undergraduate applications</span>
+                                            </Link>
                                         </p>
                                     </div>
                                     <hr />
                                     <div class="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p class="my-4">Undergraduate studentsa</p>
                                         <p class="my-4"><span class="fa fa-clock-o"></span> Apply anytime – no deadline!</p>
-                                        <p class="my-4">You can apply to AU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px',}}></span>&nbsp;Learn more about undergraduate applications
-                                            </h4>
-                                            </a>
+                                        <p class="my-4">You can apply to VU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
+                                        <p>
+                                        <Link class="logo-2" href="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;
+                                                </span><span class="underline">Learn more about undergraduate applications</span>
+                                            </Link>
                                         </p>
                                     </div>
                                 </div>	
@@ -105,10 +138,11 @@ class Keydates extends Component{
                                             </tr>
                                         </table>
                                         <p class="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px',}}></span>&nbsp;Learn how to register for courses
-                                            </h4>
-                                            </a>
+                                        <p>
+                                            <Link class="logo-2" href="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;<span class="underline">Learn how to register for courses</span>
+                                                </span>
+                                            </Link>
                                         </p>
                                     </div>
                                     <hr />
@@ -121,10 +155,11 @@ class Keydates extends Component{
                                             </tr>
                                         </table>
                                         <p class="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn how to register for courses
-                                            </h4>
-                                            </a>
+                                        <p>
+                                            <Link class="logo-2" href="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;<span class="underline">Learn how to register for courses</span>
+                                                </span>
+                                            </Link>
                                         </p>
                                     </div>
                                     <div class="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -136,10 +171,11 @@ class Keydates extends Component{
                                             </tr>
                                         </table>
                                         <p class="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn how to register for courses
-                                            </h4>
-                                            </a>
+                                        <p>
+                                            <Link class="logo-2" href="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;<span class="underline">Learn how to register for courses</span>
+                                                </span>
+                                            </Link>
                                         </p>
                                     </div>
                                 </div>	

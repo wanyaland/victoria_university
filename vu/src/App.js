@@ -26,6 +26,7 @@ import Governing from './client/components/governing';
 import History from './client/components/history';
 import Staff from './client/components/staff';
 import Research from './client/components/research';
+import Trustees from './client/components/trustees';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -60,6 +61,7 @@ const App = () => (
         <Route exact path="/history" component={History} />
         <Route exact path="/staff" component={Staff} />
         <Route exact path="/research" component={Research} />
+        <Route exact path="/trustees" component={Trustees} />
       </Switch>
     </Router>
 

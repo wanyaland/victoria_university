@@ -62,7 +62,7 @@ class Alumni extends Component {
 				<div class="col-lg-12 welcome-image">
 					<div class="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid', padding: '40px'}}>
 						<h4 class="hny-title text-center" style={{color: '#0077b5', fontSize: '36px'}}>The benefit of Access.</h4>
-                        <p class="text-center">Your AU journey continues after graduation and our commitment to you is access to your global network, lifelong learning opportunities, and benefits that support your professional and personal pursuits.</p>
+                        <p class="text-center">Your VU journey continues after graduation and our commitment to you is access to your global network, lifelong learning opportunities, and benefits that support your professional and personal pursuits.</p>
 					</div>
 				</div>	
 			</div>

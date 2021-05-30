@@ -78,7 +78,7 @@ class Admissions extends Component{
 								<h4 class="hny-title" style={{fontSize: '32px'}}>
 									Admission requirements
 								</h4>
-								<p class="my-4">As long as you meet the minimum age requirement of being at least 16 years old, you'll fit right in! With our open admission policy becoming an online student at Athabasca University has never been easier.</p>
+								<p class="my-4">As long as you meet the minimum age requirement of being at least 16 years old, you'll fit right in! With our open admission policy becoming an online student at Victoria University has never been easier.</p>
 								<p>
                                     <a class="logo-2" href="home">
                                     <h4 class="lohny-2" style={{color: '#0080ff'}}><span class="fa fa-chain programfa"></span>&nbsp;Browse our different degree and course requirements</h4>
@@ -92,18 +92,18 @@ class Admissions extends Component{
 			</div>
 </section>
 <section class="w3l-content-5">
-	  <div class="content-5-main">
-			 <div class="container">
-                <h4 class="text-center" style={{color: '#FFF'}}>Guidelines for International Students</h4>
-					<div class="content-info-in row">
-                        <p>Admission requirements, deadlines and fees vary by program and depending on whether you study from within Canada or not. View our guidelines to find out what applies to your specific choice of courses, program and educational background.</p>
-					</div>
-                    <p><a class="logo-2" href="home" style={{color: '#FFF'}}>
-                        <h5 class="lohny-2 text-center"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Check our guidelines for International Students</h5>
-                        </a>
-                    </p>
-				</div>
-			 </div>
+	<div class="content-5-main">
+		<div class="container">
+		<h4 class="text-center" style={{color: '#FFF'}}>Guidelines for International Students</h4>
+			<div class="content-info-in row">
+				<p>Admission requirements, deadlines and fees vary by program and depending on whether you study from within Canada or not. View our guidelines to find out what applies to your specific choice of courses, program and educational background.</p>
+			</div>
+			<p><a class="logo-2" href="home" style={{color: '#FFF'}}>
+				<h5 class="lohny-2 text-center"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Check our guidelines for International Students</h5>
+				</a>
+			</p>
+		</div>
+	</div>
 </section>
 <section class="w3l-footer-16 text-center">
     <div class="container">
@@ -127,7 +127,7 @@ class Admissions extends Component{
 								<h4 class="hny-title" style={{fontSize: '32px'}}>
 									Make your previous experience work for you: <b>Transfer Credits.</b>
 								</h4>
-								<p class="my-4">We don’t want to teach you things you already know. If you have a degree, work experience, or any other relevant experience, at AU you can make it count! Getting credit for your knowledge can save you time and money on your way</p>
+								<p class="my-4">We don’t want to teach you things you already know. If you have a degree, work experience, or any other relevant experience, at VU you can make it count! Getting credit for your knowledge can save you time and money on your way</p>
 								<p>
                                     <a class="logo-2" href="home">
                                     <h4 class="lohny-2" style={{color: '#96a5b4'}}><span class="fa fa-chain programfa"></span>&nbsp;Learn more about advanced credits</h4>

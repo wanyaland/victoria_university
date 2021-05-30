@@ -23,7 +23,7 @@ class AskInfo extends Component {
 								<span class="fa fa-edit" style={{color: '#0077b5', fontSize: '90px'}}></span>
 							</div>
 							<div class="features-1-info-info text-center">
-								<h6 class="text-center">Get real-time answers to common questions about Athabasca University.</h6>
+								<h6 class="text-center">Get real-time answers to common questions about Victoria University.</h6>
 							</div>
                             <br/>
                             <br/>
