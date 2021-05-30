@@ -12,7 +12,7 @@ class Chat extends Component{
 	closeModal(){
 		var modal = document.getElementById("myModal");
 		modal.style.display = "none";
-}
+	}
     render(){
         return(
             <React.Fragment>

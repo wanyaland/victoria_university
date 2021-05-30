@@ -19,14 +19,13 @@ class AboutUs extends Component{
 		  }
 		}
 	}
-	change_icon() {
+	change_icon(id) {
 		var element = document.getElementById("iconner");
-		element.classList.add("hider");
+		element.classList.toggle("hider");
 		var element2 = document.getElementById("iconner2");
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		console.log('HI3')
+	 change_icon2(id){
 		var element = document.getElementById("iconner");
 		element.classList.remove("hider");
 		var element2 = document.getElementById("iconner2");
@@ -118,13 +117,14 @@ class AboutUs extends Component{
 							<div class="col-lg-6 welcome-image">
 									<div class="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
 										<ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-										 	<li class="w3-display-container"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><span class="fa fa-file"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><Link to="/policies"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link>
+										 	<li class="w3-display-container"><Link to="/governance"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-file"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link>
 											</li>
-											<li class="w3-display-container"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
-											<li class="w3-display-container"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Key Facts<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
 										</ul>
 									</div>
 							</div>
@@ -155,9 +155,9 @@ class AboutUs extends Component{
 					</p>
 					<br/>
 					<p>
-						<a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-						<h4 class="lohny-2"><span ref={this.icon} id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF', fontSize: '27px'}}></span>&nbsp;Learn More About Victoria University</h4>
-						</a>	
+						<Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon}>
+							<span class="lohny-2"><span ref={this.icon} id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn More About Victoria University</span>
+						</Link>	
 					</p>
 				</div>
 			</div>
@@ -176,9 +176,10 @@ class AboutUs extends Component{
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 				</div>
 			</div>
-			<p><a class="logo-2" href="home" style={{color: '#0077b5'}}>
-				<h4 class="lohny-2 text-center"><span class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span>&nbsp;Learn More About VU Accreditation</h4>
-				</a>
+			<p class="text-center">
+				<Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+						<span class="lohny-2"><span id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn More About VU Accreditation</span>
+				</Link>	
 			</p>
         </div>
 	</div>

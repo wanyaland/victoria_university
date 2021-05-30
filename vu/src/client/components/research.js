@@ -2,24 +2,38 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom';
 
 class Research extends Component {
     componentDidMount(){
         var coll = document.getElementsByClassName("collapsible");
-	var i;
-	
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-		this.classList.toggle("activer");
-		var content = this.nextElementSibling;
-		if (content.style.maxHeight){
-		  content.style.maxHeight = null;
-		} else {
-		  content.style.maxHeight = content.scrollHeight + "px";
-		} 
-	  });
-	}
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		coll[i].addEventListener("click", function() {
+			this.classList.toggle("activer");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			content.style.maxHeight = null;
+			} else {
+			content.style.maxHeight = content.scrollHeight + "px";
+			} 
+		});
+		}
     }
+	change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
@@ -64,50 +78,54 @@ class Research extends Component {
                     <div class="col-lg-12 mb-lg-0 mb-5">
 						<h6 class="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Overview</h6>
 						<br/>
-						<p class="my-4" style={{fontSize: '22px'}}>Athabasca University is a Comprehensive Alberta Research University (CARU) committed to the highest professional standards of scholarly research and research ethics. AU's research includes a wide range of creative and innovative scholarly activity.</p>
-						<p class="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more: all of our over 850 courses are available to our students even without being enrolled in an AU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both Canadian and international candidates.</p>
+						<p class="my-4" style={{fontSize: '22px'}}>Victoria University is a Comprehensive Alberta Research University (CARU) committed to the highest professional standards of scholarly research and research ethics. AU's research includes a wide range of creative and innovative scholarly activity.</p>
+						<p class="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more: all of our over 850 courses are available to our students even without being enrolled in an VU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both Canadian and international candidates.</p>
 						<p class="my-4">
 							<h4>Our areas of research</h4>
-							Athabasca University’s existing and emerging research strengths can be grouped into four broad themes and serve to identify the University’s strategic research directions for the upcoming five years. The themes are not inclusive of all the research being conducted at AU. The themes foster development of a critical mass of researchers to cultivate the growth of leading edge disciplinary and interdisciplinary research and afford opportunities to align strategic research infrastructure investments with research capacity. 
+							Victoria University’s existing and emerging research strengths can be grouped into four broad themes and serve to identify the University’s strategic research directions for the upcoming five years. The themes are not inclusive of all the research being conducted at AU. The themes foster development of a critical mass of researchers to cultivate the growth of leading edge disciplinary and interdisciplinary research and afford opportunities to align strategic research infrastructure investments with research capacity. 
 							<p class="my-4">Environmental and societal dynamics of sustainability encompasses research related to the complex social, economic and ecological dimensions of sustainability</p>
 							<p class="my-4">Disruptive pedagogies advance pedagogical theory and practice by calling into question traditional views of education and training, including commonly held assumptions about how people learn and how learning can be nurtured and measured.</p>
 							<p class="my-4">Society, culture, health and well-being addresses questions related to the human experience, be it individual or collective, past, present or future.</p>
 							<p class="my-4">Digital futures embody the design, application and impact of digital technology on society and the potential of open data and open science to advance knowledge and address social, economic, and environmental concerns.</p>
 						</p>
-						<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-							<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Strategic Research Plan</h4>
-							</a>
+						<p>
+							<Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+							<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Strategic Research Plan</span>
+							</Link>
 						</p>
 						<p class="my-4">
 							<h4>Research chairs</h4>
-							Research chairs play a vital role in enhancing AU’s research and research training, and in attracting and retaining other exceptional researchers. AU currently holds provincial, national and international research chair positions.
+							Research chairs play a vital role in enhancing AU’s research and research training, and in attracting and retaining other exceptional researchers. VU currently holds provincial, national and international research chair positions.
 						</p>
-						<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-							<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about our research chairs</h4>
-							</a>
+						<p>
+							<Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+							<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn more about our research chairs</span>
+							</Link>
 						</p>
 						<p class="my-4">
 							<h4>Student research</h4>
 							Research is a key part of the graduate degree experience. That’s why we place a high priority on providing our students with research opportunities.
-							<p class="my-4">Through your graduate research, you will make your own contributions to your field of study while completing an important milestone in your academic career. AU recognizes both inquiry-based and creative learning, so you can investigate the questions that move you.</p>
+							<p class="my-4">Through your graduate research, you will make your own contributions to your field of study while completing an important milestone in your academic career. VU recognizes both inquiry-based and creative learning, so you can investigate the questions that move you.</p>
 						</p>
-						<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-							<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn about graduate student funding opportunities</h4>
-							</a>
+						<p>
+							<Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+							<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn about graduate student funding opportunities</span>
+							</Link>
 						</p>
 						<p class="my-4">
 							<h4>Hands-on experience</h4>
-							In addition to completing your own master’s or doctoral research project, as a graduate student you may have the opportunity to work with AU faculty as a research assistant. Openings are posted as they become available.
+							In addition to completing your own master’s or doctoral research project, as a graduate student you may have the opportunity to work with VU faculty as a research assistant. Openings are posted as they become available.
 						</p>
-						<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-							<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about research assistant opportunities</h4>
-							</a>
+						<p>
+							<Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+							<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn more about research assistant opportunities</span>
+							</Link>
 						</p>
 						<p class="my-4">
 							<h4>Undergraduate research</h4>
-							<p class="my-4">U also supports undergraduate research. If you are studying engineering or the natural sciences, you can apply for NSERC’s $4,500 Undergraduate Student Research Awards. AU provides an additional financial supplement to award winners.</p>
+							<p class="my-4">U also supports undergraduate research. If you are studying engineering or the natural sciences, you can apply for NSERC’s $4,500 Undergraduate Student Research Awards. VU provides an additional financial supplement to award winners.</p>
 							<p class="my-4">Each award provides 16 weeks of full-time research work experience in an academic setting.</p>
-							<p class="my-4">If you would like to work with an AU faculty member in your area of interest, please contact the Research Centre.</p>
+							<p class="my-4">If you would like to work with an VU faculty member in your area of interest, please contact the Research Centre.</p>
 						</p>
 					</div>
 				</div>

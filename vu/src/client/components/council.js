@@ -44,19 +44,13 @@ class Council extends Component {
 			<div class="welcome-grids row">
 				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div class="">
-						<img src="assets/images/img/david-byatike-matovu.jpg" class="img-fluid" alt="" />
+						<img src="assets/images/img/chancellor.jpg" class="img-fluid" alt="" style={{height: '100%', width: '100%'}} />
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. David Byatike Matovu</h6>
-					<h6 style={{color: '#0077b5'}}><i>Chairman University Council</i></h6>
-					<p class="my-4">Dr Matovu is a seasoned scientist and researcher. He has served in positions of national leadership; he has been a policy maker, an expert in corporate governance, a senior civic administrator and a pillar of hislocal community.
-						<br/>
-						<b>Educational Qualifications:      Diplomgrad, Germany (equivalent to B.Sc/M.Sc.), Ph.D (Germany)</b>
-						<br/>
-						<b>Recent Management and Administration Experience</b>
-						<br/>
-						<b>2011 - : Head of Laity, St. John’s Parish, Church of Uganda, Entebbe</b></p>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Prof. John Opuda – Asibo</h6>
+					<h6 style={{color: '#0077b5'}}><i>University Chancellor</i></h6>
+					<p class="my-4">Professor John Opuda - Asibo, joins Victoria University as its Chancellor with over 43 years of wide professional experience gained from universities, government departments and research institutions in Africa, Europe, Japan and USA relevant to University teaching. He holds a Veterinary Medical Degree (1977) from Makerere University, a Master of Public Health (1980) and PhD (1983) degrees, the latter in Microbiology, Epidemiology and Public Health, both from the University of Minnesota, USA.</p>
 					<p class="mb-4"></p>
 					<button class="bio_btn" id="myBtn_bio" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 					<br/>
@@ -64,17 +58,32 @@ class Council extends Component {
 			</div>
 			<div id="myModal_bio 1" class="modal_bio">
 				<div class="modal-content_bio">
-				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 1")}>&times;</span>
-				  <br/>
-				  <p class="my-4">Dr Matovu is a seasoned scientist and researcher. He has served in positions of national leadership; he has been a policy maker, an expert in corporate governance, a senior civic administrator and a pillar of hislocal community.
+					<span class="close_bio" onClick={() => this.close_bio("myModal_bio 1")}>&times;</span>
 					<br/>
-					<b>Educational Qualifications:      Diplomgrad, Germany (equivalent to B.Sc/M.Sc.), Ph.D (Germany)</b>
-					<br/>
-					<b>Recent Management and Administration Experience</b>
-					<br/>
-					<b>2011 - : Head of Laity, St. John’s Parish, Church of Uganda, Entebbe</b></p>
+					<p class="my-4">Professor John Opuda - Asibo, joins Victoria University as its Chancellor with over 43 years of wide professional experience gained from universities, government departments and research institutions in Africa, Europe, Japan and USA relevant to University teaching. He holds a Veterinary Medical Degree (1977) from Makerere University, a Master of Public Health (1980) and PhD (1983) degrees, the latter in Microbiology, Epidemiology and Public Health, both from the University of Minnesota, USA. <br /><br />His Public Health training has equiped him with multi-sectoral knowledge application in Epidemiology (observational and analytical), Administration, Economics, Education and Governance. He is an accomplished researcher and has published widely in refereed journals and with chapters in books.<br /><br />He has a respectable experience in Administration and Institutional Management, Financing and
+					regulation of higher education.
+					<br /><br />He rose through the ranks to full Professor in 1997 at Makerere University and was a Chair of a
+					Department, Director of Graduate Studies and Research. At Kyambogo University, he was, a
+					Deputy Vice Chancellor Academic Affairs (Provost) and Vice Chancellor (President). He was
+					also an Executive Director and Chief Regulator of Higher education at the National Council for
+					Higher Education, Uganda.<br /><br />
+					His other experiences include;
+					<br /><br />A Senior Research Fulbright Fellow at the University of California at Davis teaching graduate
+					programmes
+					<br />Visiting scholar at Nagasaki University Institute of Tropical Medicine, Japan
+					External examiner and supervisor of graduate students in Uganda, Kenya, Canada, Germany,
+					Swaziland, Zimbabwe, Zambia, UK, Japan, Sweden, Norway and USA.
+					<br />Member and Chairman of the National Biosafety Committee in Uganda.
+					<br />Director POSTA Uganda
+					<br />Member Higher Education Financing Board
+					<br />A consultant and a Key note speaker.
+					<br />Professor John Opuda - Asibo is a practitioner of positive human values, which include - good
+					leadership, respect of authority, financial transparency, honesty while accommodating other
+					people and opinions
+					<br />The Chancellor is the titular head of the University and as such presides at all ceremonial
+					assemblies of the University and, in the name of that University, confers degrees and other
+					academic titles and distinctions of that University.</p>
 				</div>
-			  
 			</div>			  
 		</div>
 	</div>
@@ -127,7 +136,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. David Byatike Matovu</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Kalebbo James</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Mr Kalebbo has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
 						<br/>
@@ -155,15 +164,13 @@ class Council extends Component {
 			<div class="welcome-grids row">
 				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div class="">
-						<img src="assets/images/img/justice-mary-maitum.jpg" class="img-fluid" alt="" />
+						<img src="assets/images/img/mary.jpg" class="img-fluid" alt="" style={{height: '100%', width: '100%'}} />
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Ms. Justice Mary I. D. Maitum</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Mary Kanyiginya Tizikara</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p class="my-4">Mrs Maitum is a retired Justice of the High Court of Uganda, having served on the bench for over seven years. She is a seasoned legal practitioner, consultant and lecturer in law, with over forty years of professional experience. She is currently a consultant at Uganda Association of Women Lawyers (FIDA-Uganda) since 2008.
-					<br/>
-					<b>Educational Qualifications: Barrister-at-Law, Lincoln’s Inn (UK)</b></p>
+					<p class="my-4">She is an expert in Human Resource Management & Development, Policy and Practice with special emphasis on employee job satisfaction; higher education management. A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource analyst awarded in April 2017 by the American Academy of Project Management.</p>
 					<p class="mb-4"></p>
 					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 					<br/>
@@ -171,11 +178,19 @@ class Council extends Component {
 			</div>
 			<div id="myModal_bio 4" class="modal_bio">
 				<div class="modal-content_bio">
-				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 4")}>&times;</span>
-				  <br/>
-				  <p class="my-4">Mrs Maitum is a retired Justice of the High Court of Uganda, having served on the bench for over seven years. She is a seasoned legal practitioner, consultant and lecturer in law, with over forty years of professional experience. She is currently a consultant at Uganda Association of Women Lawyers (FIDA-Uganda) since 2008.
+					<span class="close_bio" onClick={() => this.close_bio("myModal_bio 4")}>&times;</span>
 					<br/>
-					<b>Educational Qualifications: Barrister-at-Law, Lincoln’s Inn (UK)</b></p>
+					<p class="my-4">She is an expert in Human Resource Management & Development, Policy and Practice with
+						special emphasis on employee job satisfaction; higher education management.
+						A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource
+						analyst awarded in April 2017 by the American Academy of Project Management. <br /><br />A champion
+						of best practice in talent and SHRM, employment laws, diversity management and equal
+						employment opportunities to ensure attraction, retention and succession, with more than 20 years
+						of administrative and human resource management experience, eleven of them at a senior
+						managerial level in Higher Education, University experience in all HR functions. She is also an
+						experienced team leader, trainer of trainers and adviser on HR policy, and practice on global HR
+						trends including HR metrics.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -192,7 +207,7 @@ class Council extends Component {
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Joram Francis Kahenano</h6>
-					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<h6 style={{color: '#0077b5'}}><i>Chairman</i></h6>
 					<p class="my-4">Mr Kahenano is a distinguished banker, with a banking career that has spanned over 36 years of professional experience. He has served on many boards of national institutions. He is currently the Diocesan Secretary, Kampala Diocese, Church of Uganda.
 					<br/>
 					<b>Educational Qualifications: B. Com. (Hons), Postgrad. Diploma, Economic Planning.</b>
@@ -221,15 +236,17 @@ class Council extends Component {
 			<div class="welcome-grids row">
 				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div class="">
-						<img src="assets/images/img/Dr. Chirag Kotecha.jpg" class="img-fluid" alt="" />
+						<img src="assets/images/img/" class="img-fluid" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Chirag Kotecha</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Sameer Thakkar</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p class="my-4">Dr. Chirag J. Kotecha is a Medical Director UMC Victoria Hospitals, a Consultant Aesthetician Director, Shareholder & Resident Director Avane (U) Ltd, Resident Director Europa Healthcare (U) Ltd, Director Agri Trading Ltd & Sanya Consultants Ltd.
-					<br/>
-					<b>Qualifications: M.B.A, Entrepreneurship Studies -London Bsc (Hons.) Medical Genetics M.B.B.S Certification (London)</b></p>
+					<p class="my-4">Mr. Sameer Thakkar is widely experienced in international Reporting Standards and was
+						involved with ICPAU in the Technical Committee which is mandated to promote and maintain
+						compliance with professional standards, legal and other regulatory requirements, and also a
+						member of the Education Sub-Committee (ICPAU) that deals with matters related to the
+						education and training of the Institute’s students..</p>
 					<p class="mb-4"></p>
 					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 					<br/>
@@ -239,9 +256,123 @@ class Council extends Component {
 				<div class="modal-content_bio">
 				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
 				  <br/>
-				  <p class="my-4">Dr. Chirag J. Kotecha is a Medical Director UMC Victoria Hospitals, a Consultant Aesthetician Director, Shareholder & Resident Director Avane (U) Ltd, Resident Director Europa Healthcare (U) Ltd, Director Agri Trading Ltd & Sanya Consultants Ltd.
+				  <p class="my-4">Mr. Sameer Thakkar is widely experienced in international Reporting Standards and was
+						involved with ICPAU in the Technical Committee which is mandated to promote and maintain
+						compliance with professional standards, legal and other regulatory requirements, and also a
+						member of the Education Sub-Committee (ICPAU) that deals with matters related to the
+						education and training of the Institute’s students. He is also responsible for providing the
+						continuous professional development of members and also coordinates research. One of his
+						achievements was his contribution in the formation of a joint degree programme for Uganda
+						Martyrs University incorporating CPA and Accounting and Finance of the University. He holds
+						FFCA (UK) and CPA (U).
+						</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-wecome-content-6">
+	<div class="ab-content-6-mian py-5">
+		<div class="container py-lg-5 bio_container">
+			<div class="welcome-grids row">
+				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
+					<div class="">
+						<img src="assets/images/img/" class="img-fluid" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Rajiv Ruparelia</h6>
+					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<p class="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
+					<p class="mb-4"></p>
+					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 					<br/>
-					<b>Qualifications: M.B.A, Entrepreneurship Studies -London Bsc (Hons.) Medical Genetics M.B.B.S Certification (London)</b></p>
+				</div>	
+			</div>
+			<div id="myModal_bio 6" class="modal_bio">
+				<div class="modal-content_bio">
+				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <br/>
+				  <p class="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-wecome-content-6">
+	<div class="ab-content-6-mian py-5">
+		<div class="container py-lg-5 bio_container">
+			<div class="welcome-grids row">
+				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
+					<div class="">
+						<img src="assets/images/img/" class="img-fluid" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Ssemambo Rashid</h6>
+					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<p class="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
+						progressive hands-on work experience in private legal practice, financial management,
+						international transactions, logistical management, administration, proposal and grant writing,
+						team building, people management, report writing, data analyzing and compiling. He is currently
+						the managing partner in Ssemambo & Ssemambo Advocates.</p>
+					<p class="mb-4"></p>
+					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<br/>
+				</div>	
+			</div>
+			<div id="myModal_bio 6" class="modal_bio">
+				<div class="modal-content_bio">
+				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <br/>
+				  <p class="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
+					progressive hands-on work experience in private legal practice, financial management,
+					international transactions, logistical management, administration, proposal and grant writing,
+					team building, people management, report writing, data analyzing and compiling. He is currently
+					the managing partner in Ssemambo & Ssemambo Advocates. He owns a number of businesses
+					among which include Chrome Beverages Limited. He holds Bachelors of Law from Makerere
+					University and Post Graduate Diploma in Legal Practice. He is currently pursuing his Master of
+					Laws at Makerere University.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-wecome-content-6">
+	<div class="ab-content-6-mian py-5">
+		<div class="container py-lg-5 bio_container">
+			<div class="welcome-grids row">
+				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
+					<div class="">
+						<img src="assets/images/img/" class="img-fluid" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Kabonesa Consolata</h6>
+					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<p class="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
+						programming, teaching human and community development, gender training and conducting
+						gender responsive research.
+						She holds the following qualifications: BA (Hons) in Liberal Arts; MA Modern English and
+						American Literature; Higher. Dip. Education; M.S Human Resources and Family Studies; Ph. D
+						Human and Community Development and; Certificate in IT Essentials.</p>
+					<p class="mb-4"></p>
+					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<br/>
+				</div>	
+			</div>
+			<div id="myModal_bio 6" class="modal_bio">
+				<div class="modal-content_bio">
+				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <br/>
+				  <p class="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
+						programming, teaching human and community development, gender training and conducting
+						gender responsive research.
+						She holds the following qualifications: BA (Hons) in Liberal Arts; MA Modern English and
+						American Literature; Higher. Dip. Education; M.S Human Resources and Family Studies; Ph. D
+						Human and Community Development and; Certificate in IT Essentials.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -295,8 +426,8 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mrs. M. G. Katusabe Ssemwezi</h6>
-					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MAry Goretti Katusabe – Ssemwezi (MRS.) – </h6>
+					<h6 style={{color: '#0077b5'}}><i>EX-Officio/Secretary To Council</i></h6>
 					<p class="my-4">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 					<br/>
 					<b>Qualifications: M.Ed (Mak), B.A./Dip Ed. (Mak), PGDFM (UM) Ad. Cert. Tr. Mgt (Bristal University)</b></p>
@@ -328,7 +459,7 @@ class Council extends Component {
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Waliraki J. Bosco</h6>
-					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
+					<h6 style={{color: '#0077b5'}}><i>Staff Representative</i></h6>
 					<p class="my-4">Mr. Waliraki J. Bosco has served as a programme coordinator, Finance and Accounting for over 7 years at CUU. He has lectured in finance and accounting for eight (8), he is currently the head of department, Banking and Finance of Faculty of Business and Management, Victoria University.
 					<br/>
 					<b>Qualifications: Master of Business Administration(Finance) Muk, BSc Degree (Economics and Statistics)(Hons Muk) and has ACCA and CPA(U) professional accounting qualifications</b></p>
@@ -344,6 +475,44 @@ class Council extends Component {
 				  <p class="my-4">Mr. Waliraki J. Bosco has served as a programme coordinator, Finance and Accounting for over 7 years at CUU. He has lectured in finance and accounting for eight (8), he is currently the head of department, Banking and Finance of Faculty of Business and Management, Victoria University.
 					<br/>
 					<b>Qualifications: Master of Business Administration(Finance) Muk, BSc Degree (Economics and Statistics)(Hons Muk) and has ACCA and CPA(U) professional accounting qualifications</b></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-wecome-content-6">
+	<div class="ab-content-6-mian py-5">
+		<div class="container py-lg-5 bio_container">
+			<div class="welcome-grids row">
+				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
+					<div class="">
+						<img src="" class="img-fluid" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Lawrence Muganga – AG.</h6>
+					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
+					<p class="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
+					<p class="mb-4"></p>
+					<button class="bio_btn" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
+					<br/>
+				</div>	
+			</div>
+			<div id="myModal_bio 9" class="modal_bio">
+				<div class="modal-content_bio">
+				  <span class="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
+				  <br/>
+				  <p class="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor –
+					Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
+					educator, public policy practitioner, strategy advisor, development management Specialist and
+					authentic learning enthusiast based in Edmonton, Alberta Canada. Dr. Muganga earned his MA
+					in Economic Policy Management from Makerere University and a Ph.D. in Educational
+					Administration and Leadership from the University of Alberta, Canada. Dr. Muganga holds a
+					Higher Education Teaching Certification from Harvard University, Derek Bok Center for
+					Teaching and Learning.<br/><br/>
+					Dr. Muganga has extensively researched and written about a cutting-edge educational paradigm
+					known as Authentic Learning, which, in short, means an education that prepares students for the
+					real world by equipping them with real-life skills to face now and the future.</p>
 				</div>
 			</div>
 		</div>

@@ -122,7 +122,7 @@ class Programs extends Component{
 			<div class="row">
 				<div class="col-md-12 filter graphic photo">
 					<div class="each-item text-center">
-						<p>Not sure where to begin? We can help. Our counsellors will work with you to clarify your career and educational goals, and help you select an AU program.</p>
+						<p>Not sure where to begin? We can help. Our counsellors will work with you to clarify your career and educational goals, and help you select an VU program.</p>
 					</div>
 				</div>
 			</div><br/>

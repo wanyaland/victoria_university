@@ -17024,7 +17024,7 @@ display: none;
 transition: all 0.3s ease;
 }
 .block {
-display:unset;
+display:inline-block;
 }
 /* STICKY */
 .header2 {

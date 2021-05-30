@@ -6,8 +6,22 @@ import NewsHub from './newshub';
 import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
+import { Link } from 'react-router-dom';
 
 class Home extends Component{
+	change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
     <React.Fragment>
@@ -59,10 +73,14 @@ class Home extends Component{
 				</div>
 				<br/><br/>
 				<div class="text-center">
-					<a class="logo-2" href="home.php">
+					{/* <a class="logo-2" href="home.php">
                         <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
-					</a>
-                           
+					</a> */}
+                    <p>
+					<Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+						<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;&nbsp;&nbsp;</span><span class="underline">What Makes VU Unique</span>
+					</Link>
+					</p>   
 				</div>
 			</div>
 			{/* Start of close */}
@@ -106,7 +124,7 @@ class Home extends Component{
 				<div class="col-lg-3 col-md-5 imghrs flexd">
 					<div class="justify-content-center pathdots orange">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<a class="imghr" href="home">
+					<Link class="imghr" to="/apply">
 						<img src="assets/images/path1.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 						<div class="details text-center hover-team" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
@@ -121,12 +139,12 @@ class Home extends Component{
 								<div class="fa fa-angle-right path_pointer orange_d"></div>
 							</div>
 						</div>
-					</a>
+					</Link>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
 					<div class="justify-content-center pathdots brown">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<a class="imghr" href="home">
+					<Link class="imghr" to="/apply">
 						<img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 						<div class="details text-center hover-team2" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
@@ -141,12 +159,12 @@ class Home extends Component{
 								<div class="fa fa-angle-right path_pointer brown_d"></div>
 							</div>
 						</div>
-					</a>
+					</Link>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
 					<div class="justify-content-center pathdots blue">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<a class="imghr" href="home">
+					<Link class="imghr" to="/apply">
 						<img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 						<div class="details text-center hover-team3" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
@@ -161,12 +179,12 @@ class Home extends Component{
 								<div class="fa fa-angle-right path_pointer blue_d"></div>
 							</div>
 						</div>
-					</a>
+					</Link>
 				</div>
 				<div class="col-lg-3 col-md-5 imghrs flexd">
 					<div class="justify-content-center pathdots purple">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<a class="imghr" href="home">
+					<Link class="imghr" to="/apply">
 						<img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 						<div class="details text-center hover-team4" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
@@ -181,7 +199,7 @@ class Home extends Component{
 								<div class="fa fa-angle-right path_pointer purple_d"></div>
 							</div>
 						</div>
-					</a>
+					</Link>
 				</div>
 
 			</div>
@@ -224,10 +242,10 @@ class Home extends Component{
 						<span class="fa fa-graduation-cap circler circle1 orange_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><a href="home">Online Education</a></h6>
+						<h6 class="text-center"><Link to="/programs">Online Education</Link></h6>
 						<span class="dot orange"></span>
-						<p>Flexible Scheduling</p>
-						<p>How VU Works</p>
+						<p><Link to="/admissions">Flexible Scheduling</Link></p>
+						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
 					<div class="text-center smalldash orange_d"></div>
@@ -237,10 +255,10 @@ class Home extends Component{
 						<span class="fa fa-user circler circle2 brown_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><a href="home">Admissions</a></h6>
+						<h6 class="text-center"><Link to="/admissions">Admissions</Link></h6>
 						<span class="dot brown"></span>
-						<p>Requirements</p>
-						<p>Date &amp; Deadlines</p>
+						<p><Link to='/requirements'>Requirements</Link></p>
+						<p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p>
 					</div>
 					<div class="text-center smalldash brown_d"></div>
 				</div>
@@ -249,10 +267,10 @@ class Home extends Component{
 						<span class="fa fa-book circler circle3 blue_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><a href="home">Transfer Credit</a></h6>
+						<h6 class="text-center"><Link to="/transfer-credit">Transfer Credit</Link></h6>
 						<span class="dot blue"></span>
-						<p>Transfer to a VU program</p>
-						<p>Courses for other tuitions</p>
+						<p><Link to="/transfer-credit">Transfer to a VU program</Link></p>
+						<p><Link to="/admissions">Courses for other tuitions</Link></p>
 					</div>
 					<div  class="text-center smalldash blue_d"></div>
 				</div>
@@ -261,10 +279,10 @@ class Home extends Component{
 						<span class="fa fa-money circler circle3 purple_c"></span>
 					</div>
 					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><a href="home">Tution &amp; Fees</a></h6>
+						<h6 class="text-center"><Link to="/tution-fees">Tution &amp; Fees</Link></h6>
 						<span class="dot purple"></span>
-						<p>Calculate Fees</p>
-						<p>Financial Aid</p>
+						<p><Link to="/tuition-fees">Calculate Fees</Link></p>
+						<p><Link to="/tuition-fees">Financial Aid</Link></p>
 					</div>
 					<div class="text-center smalldash purple_d"></div>
 				</div>

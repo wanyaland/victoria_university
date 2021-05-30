@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Events extends Component{
+	change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
@@ -19,14 +33,14 @@ class Events extends Component{
 			<div class="row">
 				<div class="col-md-4 filter webdesign graphic">
 					<div class="each-item">
-						<a href="home"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
+					<Link to="/events-hub"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></Link>
 
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="home" class="course-title-wrapper">
+							<Link to="/events-hub" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">ICT &amp; Transport Expo</h3>
-							</a>
+							</Link>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta grid"><span class="course-students" title=""><span
@@ -44,14 +58,13 @@ class Events extends Component{
 
 				<div class="col-md-4 filter photo">
 					<div class="each-item">
-						<a href="home"><img class="port-image img-fuild" src="assets/images/bg4.jpg" alt="" /></a>
-
+						<Link to="/events-hub"><img class="port-image img-fuild" src="assets/images/bg4.jpg" alt="" /></Link>
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="home" class="course-title-wrapper">
+							<Link to="/events-hub" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">ICT hackathon</h3>
-							</a>
+							</Link>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta grid"><span class="course-students" title=""><span
@@ -68,14 +81,13 @@ class Events extends Component{
 				</div>
 				<div class="col-md-4 filter photo">
 					<div class="each-item">
-						<a href="home"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
-
+						<Link to="/events-hub"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></Link>
 					</div>
 					<div class="course-content">
 						<div class="course-info">
-							<a href="home" class="course-title-wrapper">
+							<Link to="/events-hub" class="course-title-wrapper">
 								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Freshers Ball (August Intake)</h3>
-							</a>
+							</Link>
 						</div>
 						<div class="course-divider">
 							<div class="course-meta grid"><span class="course-students" title=""><span
@@ -92,9 +104,10 @@ class Events extends Component{
 			</div>
 			<br/>
 			<div class="text-right">
-				<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-					<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View all Events</h4>
-					</a>
+				<p>
+					<Link class="logo-2" to="/events-hub" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+						<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;</span><span class="underline">View all Events</span>
+					</Link>
 				</p>
 			</div>
 		</div>

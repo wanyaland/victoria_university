@@ -3,6 +3,7 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer';
+import { Link } from 'react-router-dom';
 
 class StudentProfile extends Component {
     componentDidMount(){
@@ -21,6 +22,19 @@ class StudentProfile extends Component {
 	  });
 	}
     }
+    change_icon() {
+		var element = document.getElementById("iconner");
+		element.classList.add("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.add("block");
+	 }
+	 change_icon2(){
+		var element = document.getElementById("iconner");
+		element.classList.remove("hider");
+		var element2 = document.getElementById("iconner2");
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
@@ -140,7 +154,7 @@ class StudentProfile extends Component {
 					<div class="col-lg-12 mb-lg-0 mb-5">
 						<p class="my-4" style={{fontSize: '24px'}}>Program and non-program students also include…</p>
 						<p class="mb-4" style={{fontSize: '18px'}}>Returning students</p>
-                        <p class="my-4">Once you've become an VU student, you’ll always be an AU student, though you will become inactive after 12 months of your application date if you haven’t registered for a course or your most recent course completion date, course contract end date, withdrawal date.</p>
+                        <p class="my-4">Once you've become an VU student, you’ll always be an VU student, though you will become inactive after 12 months of your application date if you haven’t registered for a course or your most recent course completion date, course contract end date, withdrawal date.</p>
 					</div>
 				</div>
 			</div>
@@ -158,14 +172,15 @@ class StudentProfile extends Component {
 									<br/>
 									<div class="col-lg-12 welcome-image">
 										<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
-											<p class="my-4">Athabasca University welcomes applicants for undergraduate studies from a wide variety of educational backgrounds. To qualify as an undergraduate student, you must be 16 or older. No other conditions apply, though a select range of programs does require prior education to enrol.</p>
-											<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-												<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Find all your requirements for your undergraduate program</h4>
-												</a>
+											<p class="my-4">Victoria University welcomes applicants for undergraduate studies from a wide variety of educational backgrounds. To qualify as an undergraduate student, you must be 16 or older. No other conditions apply, though a select range of programs does require prior education to enrol.</p>
+											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your undergraduate program</span>
+												</Link>
 											</p>
-											<p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-												<h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;How to apply</h4>
-												</a>
+											<p>
+                                                <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+												</Link>
 											</p>
 										</div>
 									</div>	
@@ -187,9 +202,10 @@ class StudentProfile extends Component {
                         <p class="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Canada to study? Many of our programs are eligible to accept students on a study permit.</p>
                         <br/>
                         <br/>
-                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about studying at VU as an international student</h4>
-                            </a>
+                        <p>
+                            <Link class="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about studying at VU as an international student</span>
+                            </Link>
                         </p>
 					</div>
 				</div>
@@ -205,9 +221,10 @@ class StudentProfile extends Component {
                         <p class="my-4">If you are a student seeking financial assistance and would like to apply to one of our programs, your application process is the same as other students, you just need to start a little earlier.</p>
                         <br/>
                         <br/>
-                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Learn more about our financial aid program</h4>
-                            </a>
+                        <p>
+                            <Link class="logo-2" to="/tuition-fees" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about our financial aid program</span>
+                            </Link>
                         </p>
 					</div>
 				</div>
@@ -274,12 +291,13 @@ class StudentProfile extends Component {
 				<div class="welcome-grids row">
 					<div class="col-lg-12 mb-lg-0 mb-5">
 						<p class="mb-4" style={{fontSize: '18px'}}>To become a non-program student:</p>
-                        <p class="my-4">As a non-program student at Athabasca University, you will enjoy all of the same rights and privileges as a full time AU program student. Visiting students should obtain a Letter of Permission from their home institution before they register in an AU course. Ensure that the Letter of Permission indicates that the institution will accept the AU course in your program.</p>
+                        <p class="my-4">As a non-program student at Victoria University, you will enjoy all of the same rights and privileges as a full time VU program student. Visiting students should obtain a Letter of Permission from their home institution before they register in an VU course. Ensure that the Letter of Permission indicates that the institution will accept the VU course in your program.</p>
                         <br/>
                         <br/>
-                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onmouseover="change_icon(this)" onmouseout="change_icon2(this)">
-                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Apply as a non-program student</h4>
-                            </a>
+                        <p>
+                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Apply as a non-program student</span>
+                            </Link>
                         </p>
 					</div>
 				</div>
