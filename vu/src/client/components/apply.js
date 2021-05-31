@@ -21,19 +21,19 @@ class Apply extends Component{
 	  });
 	}
 }
-change_icon() {
-    var element = document.getElementById("iconner");
-    element.classList.add("hider");
-    var element2 = document.getElementById("iconner2");
-    element2.classList.add("block");
- }
- change_icon2(){
-    var element = document.getElementById("iconner");
-    element.classList.remove("hider");
-    var element2 = document.getElementById("iconner2");
-    element2.classList.remove("block");
-    console.log('HI4')
- }
+	change_icon(id, id2) {
+		var element = document.getElementById(id);
+		element.classList.add("hider");
+		var element2 = document.getElementById(id2);
+		element2.classList.add("block");
+	 }
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
+		element.classList.remove("hider");
+		var element2 = document.getElementById(id2);
+		element2.classList.remove("block");
+		console.log('HI4')
+	 }
     render(){
         return(
             <React.Fragment>
@@ -247,7 +247,7 @@ change_icon() {
                                         <p class="my-4">&emsp;<span>6.</span> &nbsp;Be sure to have your official transcripts sent directly to AU, if ApplyAlberta was unable to forward them automatically. Also, arrange to submit any other required supporting documents, that pertain to your application, to the Office of the Registrar.</p>
                                         <p class="my-4">&emsp;<span>7.</span> &nbsp;For the next steps review the section Register for courses - Program students</p>
                                         <p>
-                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                                                 <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
                                             </Link>
                                         </p>
@@ -268,8 +268,8 @@ change_icon() {
                                         <p class="my-4">&emsp;<span>3.</span> &nbsp;Write down your VU student ID number at the end of the application process. Your ID number will also appear on your printed or e-mailed receipt if you choose one of those options.</p>
                                         <p class="my-4">&emsp;<span>4.</span> &nbsp;You are now ready to start registering for VU Undergraduate Course as a Non-Program Student</p>
                                         <p>
-                                            <Link class="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply as a non-program student</span>
+                                            <Link class="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                                                <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply as a non-program student</span>
                                             </Link>
                                         </p>
 									</div>
@@ -285,8 +285,8 @@ change_icon() {
                                         <p class="my-4">Keep in mind that you can't start a full VU degree until you've completed or withdrawn from your other program.</p>
                                         <p>&emsp;<span class="fa fa-angle-right"></span>&nbsp;&nbsp;<b style={{fontWeight:'600'}}>Learn more about transferring credit to other institutions.</b></p>
                                         <p>
-                                            <Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
+                                            <Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+                                                <span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
                                             </Link>
                                         </p>
 									</div>
@@ -360,8 +360,8 @@ change_icon() {
 								<div class="col-lg-12 welcome-image">
 									<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
 										<p class="my-4">Our courses are revised periodically to make sure the content stays relevant – those courses are unavailable during the revision period. Some other courses need professor approval, which can be requested during the online registration process.</p>
-                                        <p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                            <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Check the course availability</span>
+                                        <p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+                                            <span class="lohny-2"><span  id="iconner7" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Check the course availability</span>
                                             </Link>
                                         </p>
 									</div>
@@ -384,8 +384,8 @@ change_icon() {
                                         <p class="my-4">&emsp;<span>6.</span> &nbsp;Pay your course fee(s) to complete the registration process. See methods of payment.</p>
                                         <p class="my-4">&emsp;<span>7.</span> &nbsp;You will receive an e-letter confirming your course registration within 2 weeks.</p>
                                         <p>
-                                            <Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                            <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Start Now</span>
+                                            <Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+                                            <span class="lohny-2"><span  id="iconner9" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Start Now</span>
                                             </Link>
                                         </p>
                                         <h6 class="hny-title" style={{color: '#043a57'}}>After you register</h6>
@@ -433,8 +433,8 @@ change_icon() {
                                         <p class="my-4">Unlike our undergraduate programs, most graduate programs have specific intake dates. If you miss an application deadline, you will have to wait for the next intake to apply – this could be up to a year for some programs.</p>
                                         <p class="my-4">Be sure to review your program’s information carefully so you can meet all the necessary requirements in time for your application deadline.</p>
                                         <p>
-                                            <Link class="logo-2" to="/programs" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                            <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">See all graduate programs</span>
+                                            <Link class="logo-2" to="/programs" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+                                            <span class="lohny-2"><span  id="iconner12" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">See all graduate programs</span>
                                             </Link>
                                         </p>
                                         <p class="my-4">Specific requirements vary from program to program, but generally involve the following steps.</p>
@@ -446,8 +446,8 @@ change_icon() {
                                         <p class="my-4">&emsp;<span>6.</span> &nbsp;If necessary, arrange for official transcripts to be sent directly from post-secondary institutions you have previously attended.</p>
                                         <p class="my-4">&emsp;<span>7.</span> &nbsp;Gather and complete other materials required by the program you are applying to. These could include a resumé, a biography, questionnaires, or letters of reference.</p>
                                         <p>
-                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                            <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
+                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
+                                            <span class="lohny-2"><span  id="iconner13" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
                                             </Link>
                                         </p>
                                         
@@ -475,8 +475,8 @@ change_icon() {
 										<h6 class="hny-title" style={{color: '#043a57', fontSize: '22px'}}>Visiting students</h6>
                                         <p class="my-4">If you’re enrolled at another university and want to take an VU course for one of your program requirements, you also register as a non-program student. We encourage you to get a letter of permission from your school to ensure your VU credits will transfer to your program. This is for your own records – you don’t have to send it to AU.</p>
                                         <p>
-                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
+                                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>
+                                                <span class="lohny-2"><span  id="iconner15" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner16" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Apply Now</span>
                                             </Link>
                                         </p>
 									</div>

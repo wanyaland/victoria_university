@@ -22,16 +22,16 @@ class StudentProfile extends Component {
 	  });
 	}
     }
-    change_icon() {
-		var element = document.getElementById("iconner");
+    change_icon(id, id2) {
+		var element = document.getElementById(id);
 		element.classList.add("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		var element = document.getElementById("iconner");
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
 		element.classList.remove("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
@@ -173,13 +173,13 @@ class StudentProfile extends Component {
 									<div class="col-lg-12 welcome-image">
 										<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
 											<p class="my-4">Victoria University welcomes applicants for undergraduate studies from a wide variety of educational backgrounds. To qualify as an undergraduate student, you must be 16 or older. No other conditions apply, though a select range of programs does require prior education to enrol.</p>
-											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your undergraduate program</span>
 												</Link>
 											</p>
 											<p>
-                                                <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+                                                <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+												<span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -203,8 +203,8 @@ class StudentProfile extends Component {
                         <br/>
                         <br/>
                         <p>
-                            <Link class="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about studying at VU as an international student</span>
+                            <Link class="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+                                <span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about studying at VU as an international student</span>
                             </Link>
                         </p>
 					</div>
@@ -222,8 +222,8 @@ class StudentProfile extends Component {
                         <br/>
                         <br/>
                         <p>
-                            <Link class="logo-2" to="/tuition-fees" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about our financial aid program</span>
+                            <Link class="logo-2" to="/tuition-fees" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+                                <span class="lohny-2"><span  id="iconner7" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Learn more about our financial aid program</span>
                             </Link>
                         </p>
 					</div>
@@ -295,8 +295,8 @@ class StudentProfile extends Component {
                         <br/>
                         <br/>
                         <p>
-                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Apply as a non-program student</span>
+                            <Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+                                <span class="lohny-2"><span  id="iconner9" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Apply as a non-program student</span>
                             </Link>
                         </p>
 					</div>

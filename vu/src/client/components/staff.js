@@ -5,16 +5,16 @@ import Footer from './footer';
 import { Link } from 'react-router-dom';
 
 class Staff extends Component {
-    change_icon() {
-		var element = document.getElementById("iconner");
+    	change_icon(id, id2) {
+		var element = document.getElementById(id);
 		element.classList.add("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		var element = document.getElementById("iconner");
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
 		element.classList.remove("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
@@ -47,7 +47,7 @@ class Staff extends Component {
                     <br/>
                     <p class="my-4" style={{fontSize: '22px'}}>Victoria University is a public research university specializing in online and distance learning. VU operates under the province of Alberta, offering university education to over 40,000 students a year.
                     </p>
-                    <p><Link class="logo-2" to="/careers" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                    <p><Link class="logo-2" to="/careers" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Career opportunities</span>
                         </Link>
                     </p>
@@ -94,8 +94,8 @@ class Staff extends Component {
                             <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Staff intranet</li>
                         </ul>
                     </p>
-                    <p><Link class="logo-2" to="/student-profile" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                        <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;Log in now</span>
+                    <p><Link class="logo-2" to="/student-profile" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                        <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;Log in now</span>
                         </Link>
                     </p>
                 </div>

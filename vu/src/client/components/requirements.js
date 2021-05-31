@@ -24,16 +24,16 @@ class Requirements extends Component{
           });
         }
     }
-	change_icon() {
-		var element = document.getElementById("iconner");
+		change_icon(id, id2) {
+		var element = document.getElementById(id);
 		element.classList.add("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		var element = document.getElementById("iconner");
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
 		element.classList.remove("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
@@ -116,7 +116,7 @@ class Requirements extends Component{
 												<li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Any other subject done and passed at Advanced level is relevant.</li>
 												<li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
 											</ul>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your undergraduate program</span>
 												</Link>
 											</p>
@@ -145,13 +145,13 @@ class Requirements extends Component{
 										Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.
 										</p>
 											<p>
-												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to transfer credit</span>
+												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+													<span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+													<span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -175,8 +175,8 @@ class Requirements extends Component{
 												<li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Any other subject done and passed at Advanced level is relevant.</li>
 												<li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
 											</ul>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your undergraduate program</span>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+													<span class="lohny-2"><span  id="iconner7" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your undergraduate program</span>
 												</Link>
 											</p>
 											<p class="my-4">Diploma</p>
@@ -204,13 +204,13 @@ class Requirements extends Component{
 										Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.
 										</p>
 											<p>
-												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to transfer credit</span>
+												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span class="lohny-2"><span  id="iconner9" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span class="lohny-2"><span  id="iconner11" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -292,8 +292,8 @@ class Requirements extends Component{
 											Credit transfer from other universities
 											</p>
 											<p class="my-4">Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.</p>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-													<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
+													<span class="lohny-2"><span  id="iconner13" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
