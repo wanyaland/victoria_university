@@ -23,16 +23,16 @@ class StudentGuidelines extends Component{
 	  });
 	}
 	}
-	change_icon() {
-		var element = document.getElementById("iconner");
+		change_icon(id, id2) {
+		var element = document.getElementById(id);
 		element.classList.add("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		var element = document.getElementById("iconner");
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
 		element.classList.remove("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
@@ -85,18 +85,18 @@ class StudentGuidelines extends Component{
 									<div class="col-lg-12 welcome-image">
 										<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
 											<p class="my-4">If you are not a Canadian citizen or permanent resident of Canada, and you plan to stay in your home country while completing your Victoria University program, you can follow the regular application process. There will be a onetime, non-refundable CDN fee once you submit your application. For fee information, please visit Academic-related fees .<span class="fa fa-external-link"></span></p>
-											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">I want to become an VU undergraduate student</span>
 												</Link>
 											</p>
 											<p>
-												<Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">I want to become a VU undergraduate student</span>
+												<Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+												<span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">I want to become a VU undergraduate student</span>
 												</Link>
 											</p>
 											<p>
-												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">I want to register for courses</span>
+												<Link class="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+												<span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">I want to register for courses</span>
 												</Link>
 											</p>
                                             <p class="my-4">You should register for your courses at least one month before your intended start date. Also, you should note that students studying internationally may have different timelines for:</p>
@@ -136,12 +136,12 @@ class StudentGuidelines extends Component{
 									<div class="col-lg-12 welcome-image">
 										<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
 											<p class="my-4">To apply for an Victoria University graduate program you must have an undergraduate degree. Doctorate programs require a master’s degree to qualify for admission. Requirements for graduate programs vary and are listed on each program’s website. You can take some graduate courses without being admitted to the full program if you meet the non-program student requirements for said program. Requirements for graduate programs are listed on each program’s website.</p>
-											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your graduate program</span>
+											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+												<span class="lohny-2"><span  id="iconner7" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Find all your requirements for your graduate program</span>
 												</Link>
 											</p>
-											<p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
+											<p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+												<span class="lohny-2"><span  id="iconner9" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -175,8 +175,8 @@ class StudentGuidelines extends Component{
                                             <p class="my-4">&emsp;<span class="fa fa-angle-right"></span>&nbsp;&nbsp;Successful completion of AU’s English Language Proficiency Program <span class="fa fa-external-link"></span> with an overall average of 75% (GPA of 3.0).&nbsp;&nbsp;</p>
                                             <p class="my-4">&emsp;<span class="fa fa-angle-right"></span>&nbsp;&nbsp;See the English Language Proficiency Requirements Policy <span class="fa fa-file-pdf-o"></span> for further details.&nbsp;&nbsp;</p>
                                             <p class="my-4">AU’s graduate programs have slightly different ELP requirements. In addition to the general graduate ELP requirements, individual programs may also have their own rules.</p>
-											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Find your graduate program</span>
+											<p><Link class="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+												<span class="lohny-2"><span  id="iconner11" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Find your graduate program</span>
 												</Link>
 											</p>
 										</div>
@@ -190,8 +190,8 @@ class StudentGuidelines extends Component{
 										<div class="" style={{width: '100%', backgroundColor: '#fff'}}>
 											<p class="my-4">If you have credentials from an institution outside of Canada or the United States and you would like VU to consider them for transfer credit, you need to have an assessment done through an international assessment agency.</p>
 											<p>
-												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Transfer credit for foreign credentials</span>
+												<Link class="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
+												<span class="lohny-2"><span  id="iconner13" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Transfer credit for foreign credentials</span>
 												</Link>
 											</p>
 										</div>

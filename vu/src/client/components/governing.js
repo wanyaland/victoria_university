@@ -21,16 +21,16 @@ class Governing extends Component{
 	  });
 	}
     }
-    change_icon() {
-		var element = document.getElementById("iconner");
+    	change_icon(id, id2) {
+		var element = document.getElementById(id);
 		element.classList.add("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.add("block");
 	 }
-	 change_icon2(){
-		var element = document.getElementById("iconner");
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
 		element.classList.remove("hider");
-		var element2 = document.getElementById("iconner2");
+		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
@@ -63,7 +63,7 @@ class Governing extends Component{
                     <p class="my-4" style={{fontSize: '28px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Alberta Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                     <p class="my-4" style={{fontSize: '18px'}}>The University Secretariat provides support for all areas of the Board and GFC, enabling both bodies (and their respective standing committees) to govern the institution in an efficient and effective manner.</p>
                     <p>
-                        <Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
+                        <Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">Visit the Office of the University Secretariat website.</span>
                         </Link>
                     </p>
@@ -173,8 +173,8 @@ class Governing extends Component{
                                         <p class="my-4">The Office of the University Secretariat considers the online, published version of all policies and procedures as part of the Policy and Procedures Manual to be the official records
                                         </p>
                                         <p>
-                                        <Link class="logo-2" to="/policies" style={{color: '#0077b5'}}  onMouseOver={this.change_icon} onMouseOut={this.change_icon2}>
-                                            <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Visit the Policy Manual website</span>
+                                        <Link class="logo-2" to="/policies" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                                            <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span class="underline">Visit the Policy Manual website</span>
                                         </Link>
                     </p>
                                     </div>
