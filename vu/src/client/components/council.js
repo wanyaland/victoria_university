@@ -136,7 +136,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Kalebbo James</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Kalebbo James</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Mr Kalebbo has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
 						<br/>
@@ -168,7 +168,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Mary Kanyiginya Tizikara</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Mary Kanyiginya Tizikara</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">She is an expert in Human Resource Management & Development, Policy and Practice with special emphasis on employee job satisfaction; higher education management. A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource analyst awarded in April 2017 by the American Academy of Project Management.</p>
 					<p class="mb-4"></p>
@@ -240,7 +240,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Sameer Thakkar</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Sameer Thakkar</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Mr. Sameer Thakkar is widely experienced in international Reporting Standards and was
 						involved with ICPAU in the Technical Committee which is mandated to promote and maintain
@@ -281,7 +281,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Rajiv Ruparelia</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Rajiv Ruparelia</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
 					<p class="mb-4"></p>
@@ -309,7 +309,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MR. Ssemambo Rashid</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Ssemambo Rashid</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
 						progressive hands-on work experience in private legal practice, financial management,
@@ -349,7 +349,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Kabonesa Consolata</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Kabonesa Consolata</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p class="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
 						programming, teaching human and community development, gender training and conducting
@@ -426,7 +426,7 @@ class Council extends Component {
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MAry Goretti Katusabe – Ssemwezi (MRS.) – </h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MAry Goretti Katusabe – Ssemwezi (Mrs.) – </h6>
 					<h6 style={{color: '#0077b5'}}><i>EX-Officio/Secretary To Council</i></h6>
 					<p class="my-4">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 					<br/>
@@ -486,11 +486,11 @@ class Council extends Component {
 			<div class="welcome-grids row">
 				<div class="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div class="">
-						<img src="" class="img-fluid" alt="" />
+						<img src="assets/images/img/lawerence.jpg" class="img-fluid" alt="" />
 					</div>
 				</div>
 				<div class="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>DR. Lawrence Muganga – AG.</h6>
+					<h6 class="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Lawrence Muganga – Ag.</h6>
 					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
 					<p class="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
 					<p class="mb-4"></p>
