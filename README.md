@@ -1,10 +1,9 @@
-# victoria_university
-Victoria University
 
 # Victoria University Web Application
 
 ## Dependencies
 - docker-compose
+## Development
 
 ## Development
 ## Leverage docker-compose to spin up services
@@ -15,8 +14,7 @@ docker-compose -f docker-compose.dev.yaml up -d --build --remove-orphans
 Ensure docker service is up and running
 `docker ps`
 
-Run `localhost` and verify frontend (react)
 
-
+On dev setup run `localhost` and verify frontend (react)
 ## Production
 
