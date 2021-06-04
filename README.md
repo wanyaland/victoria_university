@@ -3,7 +3,6 @@
 
 ## Dependencies
 - docker-compose
-## Development
 
 ## Development
 ## Leverage docker-compose to spin up services
