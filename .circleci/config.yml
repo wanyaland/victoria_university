@@ -1,29 +1,14 @@
 version: 2.1
-orbs:
-  node: circleci/node@3.0.0
+
 jobs:
-  build:
-    docker:
-      - image: node:11.10.1
-
-    working_directory: ~/repo/src/client
-
-    steps:
-      - checkout
-
-      # # Download and cache dependencies
-      # - restore_cache:
-      #     keys:
-      #       - v1-dependencies-{{ checksum "package.json" }}
-      #       # fallback to using the latest cache if no exact match is found
-      #       - v1-dependencies-
-
-      - run: npm install
-
-      # - save_cache:
-      #     paths:
-      #       - node_modules
-      #     key: v1-dependencies-{{ checksum "package.json" }}
-
-      # run tests!
-      - run: npm run test
+    deploy-dev:
+      machine: true
+      steps:
+        - checkout
+        - run:
+            name: Build and push Docker image to Heroku
+            command: |
+              sudo curl https://cli-assets.heroku.com/install.sh | sh
+              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
+              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a peaceful-ocean-79264 web
+              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a peaceful-ocean-79264 web
