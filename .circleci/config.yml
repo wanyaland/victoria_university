@@ -3,6 +3,7 @@ orbs:
   node: circleci/node@3.0.1
 jobs:
   build-and-test:
+    working_directory: ~project/src/
     executor: node/default
     steps:
       - checkout
@@ -10,19 +11,16 @@ jobs:
       - run: 
           name: Running npm test
           command: |
-            cd src/client
             npm run test
       - run:
           name: Codecov coverage
           command: |
-            cd src/client
             npm run coverage
       - setup_remote_docker:
           version: 18.06.0-ce
       - run:
           name: Build Docker image
           command: |
-            cd src/client
             docker build -t heroku-dockerize:circleci .
             docker images
 workflows:
