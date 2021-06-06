@@ -7,7 +7,7 @@
 ## Development
 ## Leverage docker-compose to spin up services
 ```bash
-cd src/client
+cd src
 docker-compose -f docker-compose.dev.yaml up -d --build --remove-orphans
 ```
 Ensure docker service is up and running

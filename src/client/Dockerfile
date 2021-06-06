@@ -8,7 +8,7 @@ ENV PATH /app/node_nodules/.bin:$PATH
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install --silent
-RUN npm install -g npm@7.16.0
+RUN npm install 
 
 #add app
 COPY . ./
