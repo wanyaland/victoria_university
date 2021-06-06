@@ -17,6 +17,6 @@ jobs:
 workflows:
   deploy-dev:
     jobs:
-      - deploy-dev
+      - deploy-dev:
           filters:
             only: main
