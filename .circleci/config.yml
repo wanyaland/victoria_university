@@ -3,7 +3,7 @@ orbs:
   node: circleci/node@3.0.1
 jobs:
   build-and-test:
-    working_directory: ~/repo/src/client
+    working_directory: ~/repo
     executor: node/default
     steps:
       - checkout
