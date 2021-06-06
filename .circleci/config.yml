@@ -1,29 +1,29 @@
 version: 2.1
 orbs:
-  node: circleci/node@3.0.1
+  node: circleci/node@3.0.0
 jobs:
-  build-and-test:
-    working_directory: ~/repo
-    executor: node/default
+  build:
+    docker:
+      - image: node:11.10.1
+
+    working_directory: ~/repo/src/client
+
     steps:
       - checkout
-      - node/install-packages
-      - run: 
-          name: Running npm test
-          command: |
-            npm run test
-      - run:
-          name: Codecov coverage
-          command: |
-            npm run coverage
-      - setup_remote_docker:
-          version: 18.06.0-ce
-      - run:
-          name: Build Docker image
-          command: |
-            docker build -t heroku-dockerize:circleci .
-            docker images
-workflows:
-  build-test-deploy:
-    jobs:
-      - build-and-test
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # run tests!
+      - run: npm run test
