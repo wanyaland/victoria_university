@@ -16864,7 +16864,14 @@ a.text-dark:focus {
     height: 40px;
     font-size: 14px;
   }
-  
+  .text-box{
+    border: #CCC 1px solid;
+    max-width: 80%;
+    padding: 6px;
+    background-color: #adc1cc;
+    border-radius: 4px;
+    margin-bottom: 3px;
+  }
   /* Add a red background color to the cancel button */
   .form-container .cancel {
     background-color: red;

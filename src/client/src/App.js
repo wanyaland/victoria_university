@@ -27,6 +27,8 @@ import History from './client/components/history';
 import Staff from './client/components/staff';
 import Research from './client/components/research';
 import Trustees from './client/components/trustees';
+import CurrentStudents from './client/components/current-students';
+import NewStudents from './client/components/new-students';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -62,6 +64,8 @@ const App = () => (
         <Route exact path="/staff" component={Staff} />
         <Route exact path="/research" component={Research} />
         <Route exact path="/trustees" component={Trustees} />
+        <Route exact path="/current-students" component={CurrentStudents} />
+        <Route exact path="/new-students" component={NewStudents} />
       </Switch>
     </Router>
 
