@@ -1,7 +1,5 @@
 version: '3.2'
-
 services:
-
     client:
         image: wanyaland/victoria_university:web
         container_name: client
