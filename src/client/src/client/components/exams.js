@@ -243,9 +243,9 @@ class Exams extends Component{
                     <br/>
                     <p class="mb-4">VU has established a Uganda-wide examination invigilation network <span class="fa fa-external-link"></span> to help students write their exams. If you live within 100 km of an approved AU examination centre, you must write your exam at one of the centres.</p>
                     <p class="my-4">If you live outside of Canada, contact examunit@vu.ac.ug for help finding an invigilator in your area.</p>
-                    <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                    <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
                         <h4 class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Find an invigilator</h4>
-                        </a>
+                        </Link>
                     </p>
                     <h6 class="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>I can’t find an invigilator in my area</h6>
                     <p class="my-4">If you can’t find an exam invigilator within 100 km of your residence, you can ask to have an invigilator established. You must do this at least 60 days before the date you plan to write your exam. Proposed invigilators must meet the invigilator guidelines.</p>
