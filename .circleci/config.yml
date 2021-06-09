@@ -1,10 +1,6 @@
 
 version: 2.1
 
-environment:
-  APP_NAME: peaceful-ocean-79264
-  IMAGE_NAME: wanyaland/victoria_university:web
-
 jobs:
   build-deploy-dev:
     machine: true
