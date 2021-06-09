@@ -37,6 +37,12 @@ class Chat extends Component{
 			</table>
 		</div>
 		<div class="area" style={{height: '400px'}}>
+			<div class="text-box">
+				<span class="text-left">Hi, Am John Doe and I'm your vitual agent</span>
+			</div>
+			<div class="text-box">
+				<span class="text-left" style={{width: 'auto'}}>How can I help you?</span>
+			</div>
 		<div id="myModal" class="modal">
 				<div class="modal-content">
 					<p>End this Chat?</p>

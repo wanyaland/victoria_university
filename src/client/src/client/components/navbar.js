@@ -79,6 +79,20 @@ componentDidMount(){
 								</div>
 								</li>
 								<li class="nav-item">
+									<div class="dropdown" style={{float:'left'}}>
+									<Link class="dropdown nav-link" to="/current-students">Current Students&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div class="dropdown-content" style={{left:'0'}}>
+										<Link to="/current-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
+										<Link to="/new-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
+										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
+										<Link to="/transfer-credit" class="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
+										<Link to="/dates-deadlines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
+										<Link to="/tuition-fees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
+										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
+									</div>
+								</div>
+								</li>
+								<li class="nav-item">
 								<div class="dropdown" style={{float: 'left'}}>
 									<Link class="dropdown nav-link" to="/wil">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 									<div class="dropdown-content" style={{left: '0'}}>
@@ -88,9 +102,6 @@ componentDidMount(){
 								</li>
 								<li class="nav-item">
 									<Link class="nav-link" to="/research">Research</Link>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="home">Life At VU</a>
 								</li>
 							</ul>
 					</div>
