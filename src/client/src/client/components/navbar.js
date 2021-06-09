@@ -85,9 +85,9 @@ componentDidMount(){
 										<Link to="/current-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
 										<Link to="/new-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
-										<Link to="/transfer-credit" class="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
+										<Link to="/myvu-student-portal" class="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
 										<Link to="/dates-deadlines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
-										<Link to="/tuition-fees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
+										<Link to="/exams" class="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
 									</div>
 								</div>
