@@ -83,7 +83,7 @@ componentDidMount(){
 									<Link class="dropdown nav-link" to="/current-students">Current Students&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 									<div class="dropdown-content" style={{left:'0'}}>
 										<Link to="/current-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
-										<Link to="/requirements" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
+										<Link to="/new-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
 										<Link to="/transfer-credit" class="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
 										<Link to="/dates-deadlines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
