@@ -1,23 +1,34 @@
 
 version: 2.1
 
+environment:
+  APP_NAME: peaceful-ocean-79264
+  IMAGE_NAME: wanyaland/victoria_university:web
+  HEROKU_REGISTRY: registry.heroku.com/peaceful-ocean-79264/web
+
 jobs:
-    deploy-dev:
-      machine: true
-      steps:
-        - checkout
-        - run:
-            name: Build and push Docker image to Heroku
-            command: |
-              sudo curl https://cli-assets.heroku.com/install.sh | sh
-              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
-              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a peaceful-ocean-79264 web
-              HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a peaceful-ocean-79264 web
+  build-deploy-dev:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Build Docker image
+          command: |
+            docker-compose -f src/docker-compose.dev.yaml up -d --build 
+
+      - run:
+          name: Build and push Docker image to Heroku
+          command: |
+            sudo curl https://cli-assets.heroku.com/install.sh | sh
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
+            docker tag $IMAGE_NAME $HEROKU_REGISTRY
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a $APP_NAME web
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
 
 workflows:
-  deploy-dev:
+  build-deploy-dev:
     jobs:
-      - deploy-dev:
+      - build-deploy-dev:
           filters:
             branches:
               only:
