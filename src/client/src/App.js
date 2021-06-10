@@ -29,6 +29,8 @@ import Research from './client/components/research';
 import Trustees from './client/components/trustees';
 import CurrentStudents from './client/components/current-students';
 import NewStudents from './client/components/new-students';
+import Myvustudentportal from './client/components/myvu-student-portal';
+import Exams from './client/components/exams';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -66,6 +68,8 @@ const App = () => (
         <Route exact path="/trustees" component={Trustees} />
         <Route exact path="/current-students" component={CurrentStudents} />
         <Route exact path="/new-students" component={NewStudents} />
+        <Route exact path="/myvu-student-portal" component={Myvustudentportal} />
+        <Route exact path="/exams" component={Exams} />
       </Switch>
     </Router>
 
