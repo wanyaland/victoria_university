@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
 
 class Glance extends Component {
     componentDidMount(){
@@ -33,6 +34,13 @@ class Glance extends Component {
                     <ol class="accounts col-md-4">
                         <li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Admissions / At a Glance</li>
                     </ol>
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
+					/ Admissions 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ At a Glance</span>
                 </div>
             </div>
         </div>

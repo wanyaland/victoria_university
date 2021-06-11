@@ -30,7 +30,9 @@ class AboutUs extends Component{
 		element.classList.remove("hider");
 		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
-		console.log('HI4')
+	 }
+	 route(){
+		window.location.href = "/";
 	 }
     render(){
         return(
@@ -42,10 +44,11 @@ class AboutUs extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-2 justify-content-center">
-						<li class="breadcrumb-item">Home / About</li>
-					</ol>
+				<div class="">
+					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+						Home 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ About</span>
 				</div>
 			</div>
 		</div>

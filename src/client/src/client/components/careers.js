@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 
 class Careers extends Component{
@@ -31,10 +33,11 @@ componentDidMount(){
             <div class="hny-top-menu">
                 <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
                     <div class="container-fluid">
-                        <div class="row">
-                            <ol class="accounts col-md-3">
-                                <li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Careers Opportunities</li>
-                            </ol>
+                        <div className="underline">
+                            <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+                            Victoria University 
+					        </span></Link>&nbsp;
+					        <span style={{color: '#CCC'}}>/ Careers Opportunities</span>
                         </div>
                     </div>
                 </div>

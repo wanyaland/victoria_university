@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Faculties extends Component {
     componentDidMount(){
@@ -33,6 +35,13 @@ class Faculties extends Component {
                     <ol class="accounts col-md-4">
                         <li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Admissions / Academic Faculties & Centres</li>
                     </ol>
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
+					/ Admissions 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Academic Faculties & Centres</span>
                 </div>
             </div>
         </div>

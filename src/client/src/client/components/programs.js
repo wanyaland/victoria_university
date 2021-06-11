@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Programs extends Component{
     render(){
@@ -13,11 +15,11 @@ class Programs extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-2">
-						<li class="breadcrumb-item">Home / Programs</li>
-						{/* <li class="breadcrumb-item">About</li> */}
-					</ol>
+				<div class="">
+					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Programs</span>
 				</div>
 			</div>
 		</div>
