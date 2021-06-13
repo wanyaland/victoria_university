@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Search extends Component {
     render(){
@@ -13,10 +15,11 @@ class Search extends Component {
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-2">
-						<li class="breadcrumb-item" style={{color: '#000', fontSize: '20px'}}><span class="fa fa-search" style={{color: '#555'}}></span> Search</li>
-					</ol>
+				<div class="">
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Search</span>
 				</div>
 			</div>
 		</div>

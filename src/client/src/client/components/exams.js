@@ -42,10 +42,14 @@ class Exams extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-3">
-						<li class="breadcrumb-item">Home / Current Students / Exams</li>
-					</ol>
+				<div class="">
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/current-students"><span className="underline" style={{color: "#CCC"}}>
+					Current Students 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Exams</span>
 				</div>
 			</div>
 		</div>

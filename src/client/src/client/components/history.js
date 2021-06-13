@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class History extends Component {
     render(){
@@ -13,10 +15,14 @@ class History extends Component {
     <div class="hny-top-menu">
         <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div class="container-fluid">
-                <div class="row">
-                    <ol class="accounts col-md-4">
-                        <li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Admissions / History</li>
-                    </ol>
+                <div class="">
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
+					/ Admissions 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ History</span>
                 </div>
             </div>
         </div>

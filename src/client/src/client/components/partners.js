@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Partners extends Component {
 
@@ -30,10 +32,14 @@ class Partners extends Component {
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-4">
-						<li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / About Us / Collaboration &amp; Partnership</li>
-					</ol>
+				<div class="">
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/about"><span className="underline" style={{color: "#CCC"}}>
+					About Us 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Collaboration &amp; Partnership</span>
 				</div>
 			</div>
 		</div>

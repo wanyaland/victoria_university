@@ -43,10 +43,14 @@ class Governing extends Component{
     <div class="hny-top-menu">
         <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div class="container-fluid">
-                <div class="row">
-                    <ol class="accounts col-md-4">
-                        <li class="breadcrumb-item"><span class="fa fa-home" style={{color: '#FFF'}}></span> Victoria University / Admissions / Governance</li>
-                    </ol>
+                <div class="">
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Victoria University 
+					</span></Link>&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
+					/ Admissions 
+					</span></Link>&nbsp;
+					<span style={{color: '#CCC'}}>/ Governance</span>
                 </div>
             </div>
         </div>
