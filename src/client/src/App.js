@@ -31,6 +31,8 @@ import CurrentStudents from './client/components/current-students';
 import NewStudents from './client/components/new-students';
 import Myvustudentportal from './client/components/myvu-student-portal';
 import Exams from './client/components/exams';
+import Appeals from './client/components/appeals';
+import CourseProcedures from './client/components/course-procedures';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -70,6 +72,8 @@ const App = () => (
         <Route exact path="/new-students" component={NewStudents} />
         <Route exact path="/myvu-student-portal" component={Myvustudentportal} />
         <Route exact path="/exams" component={Exams} />
+        <Route exact path="/appeals" component={Appeals} />
+        <Route exact path="/course-procedures" component={CourseProcedures} />
       </Switch>
     </Router>
 

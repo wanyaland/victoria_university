@@ -32,7 +32,7 @@ componentDidMount(){
 			<nav class="navbar navbar-expand-lg navbar-light fill">
 				<div class="container-fluid">
 						<a class="navbar-brand" href="home.php">
-							<img src="assets/images/logo.jpg" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
+							<img src="assets/images/logo.jpeg" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 						</a> 
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -86,9 +86,11 @@ componentDidMount(){
 										<Link to="/new-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
 										<Link to="/myvu-student-portal" class="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
+										<Link to="/course-procedures" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course proceduress</Link>
 										<Link to="/dates-deadlines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
 										<Link to="/exams" class="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
+										<Link to="/appeals" class="text-left" style={{color: '#888', fontWeight: '700'}}>Appeals</Link>
 									</div>
 								</div>
 								</li>
