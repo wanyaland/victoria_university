@@ -10,7 +10,6 @@ class Testimonies extends Component{
 			<div class="mission-grids-info row">
 				<div class="mission-gd-right col-lg-6 pl-lg-4 testimonial_title">
 					<p><h5 class="hny-title" style={{color: '#FFF', fontSize: '40px'}}>What Our Students Say</h5></p>
-					<div class="triangle-topright"></div>
 				</div>
 				<div class="mission-gd-right col-lg-6 pl-lg-4 testimonial_text">
 					<p style={{color: '#FFF'}}>
@@ -28,7 +27,6 @@ class Testimonies extends Component{
 							</div>
 						</div>
 					</p>
-					<div class="triangle-topleft"></div>
 				</div>
 			</div>
 		</div>
