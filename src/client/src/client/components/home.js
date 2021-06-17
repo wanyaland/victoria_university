@@ -209,6 +209,8 @@ class Home extends Component{
 		<div className="marginize"></div>
 		<div className="marginize2"></div>
 		<Testimonies />
+		<div className="marginize"></div>
+		<div className="marginize2"></div>
 		<section class="w3l-features-1">
 	<div class="features-1-mian py-5">
 		<div class="">
