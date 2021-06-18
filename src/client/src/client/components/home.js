@@ -7,6 +7,7 @@ import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
+import SelectPath from './select-path';
 
 class Home extends Component{
 		change_icon(id, id2) {
@@ -100,112 +101,7 @@ class Home extends Component{
 		</div>
 	</div>
 </section>
-        <section class="w3l-content-6">
-	            <div class="content-6-mian py-5">
-		            <div class="container py-lg-5">
-
-			{/* <div class="row title-content">
-				<div class="col-lg-4 title-left">
-					<h3 class="hny-title" style={{color:'#0077b5'}}>Welcome To VU</h3>
-				</div>
-				<div class="col-lg-8 title-info">
-					<p>Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. We offer a wide variety of courses and our qualifications are designed to meet the needs of the market place.</p>
-				</div>
-			</div> */}
-		            </div>
-			<section class="w3l-footer-16 text-center">
-				<div class="">
-					<img src="assets/images/fav.png" class="text-center bordered" title="Victoria University" width="120" height="120" alt="img"/>
-					<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Select Your Path</h3>
-					<h6 class="hny-title text-center">Choose your path and jump right in</h6>
-				</div>
-			</section>
-			<div class="content-info-in row mt-md-5 mt-4 justify-content-center" style={{marginLeft: 0, marginRight:0}}>
-				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<div class="justify-content-center pathdots orange">&nbsp;</div>
-					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" to="/apply">
-						<img src="assets/images/path1.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center hover-team" style={{height: '100%'}}>
-							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
-								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</div>
-							<br/>
-							<div class="title">Foundation</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</div>
-								<div class="fa fa-angle-right path_pointer orange_d"></div>
-							</div>
-						</div>
-					</Link>
-				</div>
-				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<div class="justify-content-center pathdots brown">&nbsp;</div>
-					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" to="/apply">
-						<img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center hover-team2" style={{height: '100%'}}>
-							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
-								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</div>
-							<br/>
-							<div class="title">Undergraduate</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</div>
-								<div class="fa fa-angle-right path_pointer brown_d"></div>
-							</div>
-						</div>
-					</Link>
-				</div>
-				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<div class="justify-content-center pathdots blue">&nbsp;</div>
-					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" to="/apply">
-						<img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center hover-team3" style={{height: '100%'}}>
-							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
-								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</div>
-							<br/>
-							<div class="title">Postgraduate</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</div>
-								<div class="fa fa-angle-right path_pointer blue_d"></div>
-							</div>
-						</div>
-					</Link>
-				</div>
-				<div class="col-lg-3 col-md-5 imghrs flexd">
-					<div class="justify-content-center pathdots purple">&nbsp;</div>
-					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" to="/apply">
-						<img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-						<div class="details text-center hover-team4" style={{height: '100%'}}>
-							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
-								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
-							</div>
-							<br/>
-							<div class="title">Diploma</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
-								</div>
-								<div class="fa fa-angle-right path_pointer purple_d"></div>
-							</div>
-						</div>
-					</Link>
-				</div>
-
-			</div>
-
-	            </div>
-        </section>
+        <SelectPath />
 		<div className="marginize"></div>
 		<div className="marginize2"></div>
 		<Testimonies />
