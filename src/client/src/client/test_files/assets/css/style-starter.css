@@ -16655,7 +16655,7 @@ a.text-dark:focus {
   }
   /* The popup chat - hidden by default */
   .chat-popup {
-    display: block;
+    display: none;
     position: fixed;
     bottom: 0;
     right: 55px;

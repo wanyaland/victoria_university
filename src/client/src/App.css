@@ -5959,6 +5959,7 @@ span.fa.fa-play {
     background-color: #41afeb;
     align-items: center;
     display: flex;
+    height: 100%;
     border-top-right-radius: 15px;
 }
 .howvu{
