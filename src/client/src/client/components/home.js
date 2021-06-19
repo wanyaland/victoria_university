@@ -107,7 +107,7 @@ class Home extends Component{
 		<Testimonies />
 		<div className="marginize"></div>
 		<div className="marginize2"></div>
-		<section class="w3l-features-1">
+<section class="w3l-features-1">
 	<div class="features-1-mian py-5">
 		<div class="">
 			<br/>
@@ -121,7 +121,7 @@ class Home extends Component{
 		<br/>
 		<br/>
 		<br/>
-		<section class="w3l-footer-16">
+		<div class="w3l-footer-16">
 			<div class="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
 				<ul class="social d-flex dotcontrol">
 					<li><a href="home" style={{backgroundColor: '#e6a329', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
@@ -130,7 +130,7 @@ class Home extends Component{
 					<li><a href="home" style={{backgroundColor: '#b951ce', height: '20px', width: '20px'}}>&nbsp;</a></li>
 				</ul>
 			</div>
-		</section>
+		</div>
 		<div class="container py-lg-5">
 			<div class="row title-content">
 			</div>
