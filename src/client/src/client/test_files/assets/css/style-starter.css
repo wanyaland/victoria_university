@@ -5610,7 +5610,7 @@ span.fa.fa-play {
         padding-top: 90px;
     }
     .w3l-inner-page-main .breadcrumb-infhny {
-        min-height: 200px;
+        min-height: 100px;
     }
 }
 
@@ -16967,7 +16967,8 @@ a.text-dark:focus {
     background-color: #3e8e41;
   }
    */
-  .dropdownr {
+   /*search*/
+   .dropdownr {
     position: absolute;
     display: inline-block;
     top: 97%;
@@ -16994,6 +16995,45 @@ a.text-dark:focus {
   }
   
   .dropdownr a:hover {background-color: #ddd;}
+   /*Search*/
+   .dropbtned {
+    /* background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none; */
+    cursor: pointer;
+  }
+  
+  .dropbtned:hover, .dropbtned:focus {
+    /* background-color: #2980B9; */
+  }
+  
+  .dropdowner {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-contenter {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contenter a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdowner a:hover {background-color: #ddd;}
+  
+  .shower {display: block;}
   
   .showr {display: block;}
 

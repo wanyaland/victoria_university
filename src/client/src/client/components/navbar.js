@@ -9,19 +9,22 @@ class NavBar extends Component{
 		window.location.href = "search";
 		console.log("Clicked")
 	}
+	dropdowned(id) {
+		document.getElementById(id).classList.toggle("shower");
+	}
 componentDidMount(){
-	 /* window.onclick = function(event) {
-		if (!event.target.matches('.dropbtner')) {
-		  var dropdowns = document.getElementsByClassName("dropdown-contentr");
+	  window.onclick = function(event) {
+		if (!event.target.matches('.dropbtned')) {
+		  var dropdowns = document.getElementsByClassName("dropdown-contenter");
 		  var i;
 		  for (i = 0; i < dropdowns.length; i++) {
 			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('showr')) {
-			  openDropdown.classList.remove('showr');
+			if (openDropdown.classList.contains('shower')) {
+			  openDropdown.classList.remove('shower');
 			}
 		  }
 		}
-	  } */
+	  }
 }
 	render(){
         return(
@@ -46,28 +49,26 @@ componentDidMount(){
 									<Link to="./" className="nav-link">Home</Link>
 								</li>
 								<li class="nav-item">
-									<div class="dropdown" style={{float: 'left'}}>
-										<Link class="dropdown nav-link" to="/about">About&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-										<div class="dropdown-content" style={{left: '0'}}>
-											<Link to="/about" class="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span class="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-											<Link to="/glance" class="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
-											<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
-											<Link to="/trustees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link>
-											<Link to="/faculties" class="text-left" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link>
-											<Link to="/governing" class="text-left" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
-											<Link to="/history" class="text-left" style={{color: '#888', fontWeight: '700'}}>History</Link>
-											<Link to="/partners" class="text-left" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
-											<Link to="/staff" class="text-left" style={{color: '#888', fontWeight: '700'}}>Employee Information</Link>
-										</div>
-								</div>
+									<Link href="#" onClick={this.dropdowned.bind(this, "about")} class="dropbtned nav-link">About&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div id="about" class="dropdown-contenter">
+										<Link to="/about" class="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span class="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+										<Link to="/glance" class="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
+										<Link to="/council" class="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
+										<Link to="/trustees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link>
+										<Link to="/faculties" class="text-left" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link>
+										<Link to="/governing" class="text-left" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
+										<Link to="/history" class="text-left" style={{color: '#888', fontWeight: '700'}}>History</Link>
+										<Link to="/partners" class="text-left" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
+										<Link to="/staff" class="text-left" style={{color: '#888', fontWeight: '700'}}>Employee Information</Link>
+									</div>
 								</li>
 								<li class="nav-item">
 									<Link to="/programs" className="nav-link">Programmes</Link>
 								</li>
 								<li class="nav-item">
-									<div class="dropdown" style={{float:'left'}}>
-									<Link class="dropdown nav-link" to="/admissions">Admissions&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-									<div class="dropdown-content" style={{left:'0'}}>
+									<Link onClick={this.dropdowned.bind(this, "admissions")} class="dropbtned nav-link">Admissions&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div id="admissions" class="dropdown-contenter">
+										<Link to="/admissions" class="text-left" style={{color: '#888', fontWeight: '700'}}>Admissions</Link>
 										<Link to="/student-profile" class="text-left" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
 										<Link to="/requirements" class="text-left" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
@@ -76,12 +77,10 @@ componentDidMount(){
 										<Link to="/tuition-fees" class="text-left" style={{color: '#888', fontWeight: '700'}}>Tuition, Fees and Financial Aid</Link>
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
 									</div>
-								</div>
 								</li>
 								<li class="nav-item">
-									<div class="dropdown" style={{float:'left'}}>
-									<Link class="dropdown nav-link" to="/current-students">Current Students&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-									<div class="dropdown-content" style={{left:'0'}}>
+									<Link onClick={this.dropdowned.bind(this, "current-students")} class="dropbtned nav-link">Current Students&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div id="current-students" class="dropdown-contenter">
 										<Link to="/current-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
 										<Link to="/new-students" class="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
 										<Link to="/student-guidelines" class="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
@@ -92,15 +91,12 @@ componentDidMount(){
 										<Link to="/apply" class="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
 										<Link to="/appeals" class="text-left" style={{color: '#888', fontWeight: '700'}}>Appeals</Link>
 									</div>
-								</div>
 								</li>
 								<li class="nav-item">
-								<div class="dropdown" style={{float: 'left'}}>
-									<Link class="dropdown nav-link" to="/wil">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-									<div class="dropdown-content" style={{left: '0'}}>
+									<Link onClick={this.dropdowned.bind(this, "wil")} class="dropbtned nav-link">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+									<div id="wil" class="dropdown-contenter">
 										<Link to="/co-ops" class="text-left" style={{color: '#888', fontWeight: '700'}}>Co-ops</Link>
 									</div>
-								</div>
 								</li>
 								<li class="nav-item">
 									<Link class="nav-link" to="/research">Research</Link>
