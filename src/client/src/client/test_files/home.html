@@ -79,11 +79,9 @@
 								<a class="nav-link" href="home.html">Home</a>
 							</li>
 							<li class="nav-item">
-								<!-- <a class="nav-link" href="co-ops.html">WIL</a> -->
-								<div class="dropdown" style="float:left;">
-									<a class="dropdown nav-link" href="about.html">About&nbsp;&nbsp;<span class="fa fa-angle-down" style="color:#FFF; font-size: 14px;"></span></a>
-									<!-- <button class="dropbtn">Left</button> -->
-									<div class="dropdown-content" style="left:0;">
+								<!-- <div class="dropdowner"> -->
+									<a href="#" onclick="dropdowned()" class="dropbtned nav-link">About&nbsp;&nbsp;<span class="fa fa-angle-down" style="color:#FFF; font-size: 14px;"></span></a>
+									<div id="myDropdowner" class="dropdown-contenter">
 										<a href="council.html" class="text-left" style="color: #888; font-weight: 700;">About VU<span class="fa fa-home justify-content-lg-end" style="font-size: 20px; float: right;"></span></a>
 										<a href="glance.html" class="text-left" style="color: #888; font-weight: 700;">VU at a Glance</a>
 										<a href="council.html" class="text-left" style="color: #888; font-weight: 700;">Our Executive Team</a>
@@ -93,7 +91,7 @@
 										<a href="partners.html" class="text-left" style="color: #888; font-weight: 700;">Collaboration & Partnerships</a> 
 										<a href="staff.html" class="text-left" style="color: #888; font-weight: 700;">Employee Information</a> 
 									</div>
-								</div>
+								<!-- </div> -->
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#">Programmes</a>
@@ -1090,6 +1088,27 @@
 	</script>
     <!-- //move top -->
 	<!-- Chat -->
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function dropdowned() {
+		  document.getElementById("myDropdowner").classList.toggle("shower");
+		}
+		
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtned')) {
+			var dropdowns = document.getElementsByClassName("dropdown-contenter");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('shower')) {
+				openDropdown.classList.remove('shower');
+			  }
+			}
+		  }
+		}
+		</script>
 	<script>
 		function openForm() {
 		  document.getElementById("myForm").style.display = "block";
