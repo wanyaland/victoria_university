@@ -123,6 +123,9 @@ body img {
     transition-duration: .3s;
     border:#b951ce 4px solid;
 }
+.cursor:hover{
+    cursor: pointer;
+}
 .bordered{
     border-radius: 50%;
     border: #0077b5 10px solid;
@@ -3479,7 +3482,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main header.top-headerhny {
-    background-color: #0077b5;
+    background-color: #025e8f;
     position: absolute;
     z-index: 9;
     width: 100%;

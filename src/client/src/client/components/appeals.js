@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Appeals extends Component{
     componentDidMount(){
@@ -29,10 +31,14 @@ class Appeals extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-3">
-						<li class="breadcrumb-item">Home / Current Students / Appeals</li>
-					</ol>
+				<div class="">
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
+					Victoria University 
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/current-students"><span className="underline" style={{color: "#EEE"}}>
+					Current Students 
+					</span></Link>&nbsp;
+					<span style={{color: '#EEE'}}>/ Appeals</span>
 				</div>
 			</div>
 		</div>

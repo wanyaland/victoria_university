@@ -34,10 +34,10 @@ componentDidMount(){
                 <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
                     <div class="container-fluid">
                         <div className="underline">
-                            <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+                            <Link to="/"><span className="underline" style={{color: "#EEE"}}>
                             Victoria University 
 					        </span></Link>&nbsp;
-					        <span style={{color: '#CCC'}}>/ Careers Opportunities</span>
+					        <span style={{color: '#EEE'}}>/ Careers Opportunities</span>
                         </div>
                     </div>
                 </div>

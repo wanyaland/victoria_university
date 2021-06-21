@@ -45,13 +45,13 @@ class Tuition extends Component {
     <div class="hny-top-menu">
         <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div class="container-fluid">
-                <div class="">
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+                <div class="" style={{color: '#EEE'}}>
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
-					</span></Link>&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
-					/ Admissions 
-					</span></Link>&nbsp;
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
+					Admissions 
+					</span></Link>&nbsp;/&nbsp;
 					<span style={{color: '#CCC'}}>/ Tuition, Fees and Financial Aid</span>
                 </div>
             </div>

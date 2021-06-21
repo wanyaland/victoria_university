@@ -6,6 +6,18 @@ import { Link } from 'react-router-dom'
 
 
 class Programs extends Component{
+	change_icon(id, id2) {
+		var element = document.getElementById(id);
+		element.classList.add("hider");
+		var element2 = document.getElementById(id2);
+		element2.classList.add("block");
+	 }
+	 change_icon2(id, id2){
+		var element = document.getElementById(id);
+		element.classList.remove("hider");
+		var element2 = document.getElementById(id2);
+		element2.classList.remove("block");
+	 }
     render(){
         return(
 <React.Fragment>
@@ -16,10 +28,10 @@ class Programs extends Component{
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="">
-					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ Programs</span>
+					<span style={{color: '#EEE'}}>/ Programs</span>
 				</div>
 			</div>
 		</div>
@@ -74,13 +86,14 @@ class Programs extends Component{
                                         <a class="logo-2" href="home">
                                             <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}>HOW VU WORKS</h3>
                                         </a><br/>
-                                        <a class="logo-2" href="home">
-                                            <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
-                                        </a><br/>
-                                        <a class="logo-2" href="home">
-                                            <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
-                                        </a>
-                                               
+										<p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+												<span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Undergraduate Programs</span></span>
+												</Link>
+											</p>
+											<p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+												<span class="lohny-2"><span  id="iconner7" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Undergraduate Programs</span></span>
+												</Link>
+											</p>        
                                     </div>
                                     <br/>
                                 </div>
@@ -97,13 +110,14 @@ class Programs extends Component{
                                             <a class="logo-2" href="home">
                                                 <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}>HOW VU WORKS</h3>
                                             </a><br/>
-                                            <a class="logo-2" href="home">
-                                                <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
-                                            </a><br/>
-                                            <a class="logo-2" href="home">
-                                                <h4 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;Undergraduate Programs</h4>
-                                            </a>
-                                                   
+                                            <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+												<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Undergraduate Programs</span></span>
+												</Link>
+											</p>
+											<p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+												<span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Undergraduate Programs</span></span>
+												</Link>
+											</p> 
                                         </div>
                                         <br/>
 									</div>

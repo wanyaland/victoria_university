@@ -45,10 +45,10 @@ class AboutUs extends Component{
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="">
-					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 						Home 
 					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ About</span>
+					<span style={{color: '#EEE'}}>/ About</span>
 				</div>
 			</div>
 		</div>
