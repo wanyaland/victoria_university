@@ -98,7 +98,7 @@ class AboutUs extends Component{
 			<div class="container py-lg-5">
 				<div class="welcome-grids row">
 					<div class="welcome-image">
-						<img src="assets/images/about_strategy.jpeg" class="img-fluid" alt="" />
+						<img src="assets/images/about_strategy.jpg" class="img-fluid" alt="" />
 					</div>
 				</div>	
 			</div>

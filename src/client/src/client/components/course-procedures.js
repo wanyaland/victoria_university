@@ -75,9 +75,9 @@ class CourseProcedures extends Component {
                     <h6 class="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Course registrations</h6>
                     <br/>
                     <p class="mb-4" style={{fontSize: '18px'}}>Undergraduate courses begin on the first of each month. You must register and pay by the 10th of the month to start your course on the 1st of the next month.</p>
-                    <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;How to register for courses</h4>
-                        </a>
+                    <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                        <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">How to register for courses</span></span>
+                        </Link>
                     </p>
                 </div>
             </div>
@@ -134,7 +134,7 @@ class CourseProcedures extends Component {
                 <div class="col-lg-12 welcome-image">
                     <div class="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <div style={{width: '100%', backgroundColor: '#CCC', border: '#CCC 1px solid', paddingTop: '15px', paddingBottom: '15px'}}><h5 class="text-center" style={{fontSize: '30px', color: '#025683'}}>Helpful links & resources:</h5></div>
-                        <ul class="w3-ul w3-card-4">
+                        <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
                             <li class="w3-display-container collapsible"><span><span class="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;New student orientation<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <div class="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
@@ -144,8 +144,8 @@ class CourseProcedures extends Component {
                                             Learn more about AU’s services and resources in our new student orientation <span class="fa fa-external-link"></span>.
                                         </p>
                                         <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                            <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View new student orientation
-                                            </h4>
+                                            <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">View new student orientation</span>
+                                            </span>
                                             </Link>
                                         </p>
                                     </div>
