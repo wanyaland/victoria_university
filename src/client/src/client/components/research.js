@@ -39,15 +39,15 @@ class Research extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
-                <section class="w3l-top-header-content" style={{marginTop: '-25px', borderBottom: '#CCC 1px solid'}}>
+                <section class="w3l-top-header-content">
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="">
-					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ Research at AU</span>
+					<span style={{color: '#EEE'}}>/ Research at AU</span>
 				</div>
 			</div>
 		</div>

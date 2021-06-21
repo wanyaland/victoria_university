@@ -32,14 +32,14 @@ class Partners extends Component {
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="">
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+				<div class="" style={{color: '#EEE'}}>
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
-					</span></Link>&nbsp;
-                    <Link to="/about"><span className="underline" style={{color: "#CCC"}}>
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
 					About Us 
 					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ Collaboration &amp; Partnership</span>
+					<span style={{color: '#EEE'}}>/ Collaboration &amp; Partnership</span>
 				</div>
 			</div>
 		</div>

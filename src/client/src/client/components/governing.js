@@ -44,13 +44,13 @@ class Governing extends Component{
         <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div class="container-fluid">
                 <div class="">
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
+					Admissions 
 					</span></Link>&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#CCC"}}>
-					/ Admissions 
-					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ Governance</span>
+					<span style={{color: '#EEE'}}>/ Governance</span>
                 </div>
             </div>
         </div>

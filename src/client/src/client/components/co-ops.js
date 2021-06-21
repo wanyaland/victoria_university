@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import { Link } from 'react-router-dom'
+
 
 class Coops extends Component{
     render(){
@@ -13,14 +15,22 @@ class Coops extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-5">
-						<li class="breadcrumb-item">Future Students</li>
-						<li class="breadcrumb-item">Co-Op Students</li>
-						<li class="breadcrumb-item">Employers</li>
-						<li class="breadcrumb-item">Awards And Contests</li>
-						<li class="breadcrumb-item">Co-OP Team</li>
-					</ol>
+				<div class="">
+					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Future Students
+					</span></Link>&nbsp;&nbsp;
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Co-Op Students 
+					</span></Link>&nbsp;&nbsp;
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Employers
+					</span></Link>&nbsp;&nbsp;
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Awards And Contests
+					</span></Link>&nbsp;&nbsp;
+                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					Co-OP Team
+					</span></Link>
 				</div>
 			</div>
 		</div>

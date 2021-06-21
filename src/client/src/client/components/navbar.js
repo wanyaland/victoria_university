@@ -7,7 +7,6 @@ class NavBar extends Component{
 	}
 	redirect() {
 		window.location.href = "search";
-		console.log("Clicked")
 	}
 	dropdowned(id) {
 		document.getElementById(id).classList.toggle("shower");
@@ -110,17 +109,17 @@ componentDidMount(){
 						<a href="contact" class="nav-link">
 							<span class="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>
-						<Link to="/" class="nav-link">
+						<span class="nav-link cursor">
 							<span class="fa fa-search dropbtner" style={{fontSize: '1rem', color: '#FFF'}} onClick={this.search}></span>
 							<div class="dropdownr">
 								<div id="myDropdownr" class="dropdown-contentr">
 									<form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid'}}>
-										<input type="search" placeholder="Start Your Search" style={{color: '#000'}} required="required" />
+										<input type="search" placeholder="Start Your Search" style={{color: '#000', backgroundColor: '#CCC'}} required="required" />
 										<button class="search_btn" onClick={this.redirect}>Search</button>
 									</form>
 								</div>
 							</div>
-						</Link> 
+						</span> 
 					</div>
 				</div>
 			</nav>

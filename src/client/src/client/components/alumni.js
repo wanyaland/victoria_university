@@ -16,10 +16,10 @@ class Alumni extends Component {
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
 				<div class="">
-					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
+					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#CCC'}}>/ Alumni and Friends</span>
+					<span style={{color: '#EEE'}}>/ Alumni and Friends</span>
 				</div>
 			</div>
 		</div>
