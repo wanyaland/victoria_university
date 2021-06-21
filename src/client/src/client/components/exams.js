@@ -97,10 +97,10 @@ class Exams extends Component{
                     <p class="my-4">
                         You need your student ID number and password to access myVU.
                     </p>
-                    <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Log in to myAU
-                        </h4>
-                        </a>
+                    <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                        <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Log in to myAU</span>
+                        </span>
+                        </Link>
                     </p>
                 </div>
             </div>
@@ -248,7 +248,7 @@ class Exams extends Component{
                     <p class="mb-4">VU has established a Uganda-wide examination invigilation network <span class="fa fa-external-link"></span> to help students write their exams. If you live within 100 km of an approved AU examination centre, you must write your exam at one of the centres.</p>
                     <p class="my-4">If you live outside of Canada, contact examunit@vu.ac.ug for help finding an invigilator in your area.</p>
                     <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                        <h4 class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Find an invigilator</h4>
+                        <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Find an invigilator</span></span>
                         </Link>
                     </p>
                     <h6 class="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>I can’t find an invigilator in my area</h6>
@@ -278,10 +278,10 @@ class Exams extends Component{
                                         <p class="my-4">
                                             It’s normal to be nervous before an exam. Learn how to identify and reduce the anxiety you may be feeling.
                                         </p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-                                            <h4 class="lohny-2"><span  id="iconner5" class="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Mastering exam anxiety
-                                            </h4>
-                                            </a>
+                                        <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+                                            <span class="lohny-2"><span  id="iconner5" class="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">Mastering exam anxiety</span>
+                                            </span>
+                                            </Link>
                                         </p>
                                     </div>
                                 </div>	
@@ -293,10 +293,10 @@ class Exams extends Component{
                                 <div class="col-lg-12 welcome-image">
                                     <div class="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p class="my-4">Learn more about VU’s services and resources in our New Student Orientation <span class="fa fa-external-link"></span>.</p>
-                                        <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-                                            <h4 class="lohny-2"><span  id="iconner7" class="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View orientation
-                                            </h4>
-                                            </a>
+                                        <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+                                            <span class="lohny-2"><span  id="iconner7" class="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">View orientation</span>
+                                            </span>
+                                            </Link>
                                         </p>
                                     </div>
                                 </div>	

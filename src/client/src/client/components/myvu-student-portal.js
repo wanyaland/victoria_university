@@ -87,10 +87,10 @@ class Myvustudentportal extends Component{
                     <p class="my-4">
                         You need your student ID number and password to access myVU.
                     </p>
-                    <p><a class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner","iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner","iconner2")}>
-                        <h4 class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Log in to myAU
-                        </h4>
-                        </a>
+                    <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner","iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner","iconner2")}>
+                        <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp; <span class="underline">Log in to myAU</span>
+                        </span>
+                        </Link>
                     </p>
                 </div>
             </div>
@@ -130,8 +130,8 @@ class Myvustudentportal extends Component{
                                             Learn more about AU’s services and resources in our new student orientation <span class="fa fa-external-link"></span>.
                                         </p>
                                         <p><Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                            <h4 class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View new student orientation
-                                            </h4>
+                                            <span class="lohny-2"><span  id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span class="underline">View new student orientation</span>
+                                            </span>
                                             </Link>
                                         </p>
                                     </div>

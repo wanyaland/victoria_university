@@ -35,7 +35,7 @@ componentDidMount(){
 			<nav class="navbar navbar-expand-lg navbar-light fill">
 				<div class="container-fluid">
 						<a class="navbar-brand" href="home.php">
-							<img src="assets/images/logo.jpeg" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
+							<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 						</a> 
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
