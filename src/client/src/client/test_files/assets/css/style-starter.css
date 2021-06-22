@@ -3689,7 +3689,8 @@ h3.hny-title.two {
         left: 4%;
     }
     .w3l-banner-slider-main div#navbarSupportedContent {
-        background: #fff;
+        background: #00527e;
+        color: #FFF;
         padding: 10px;
         border-radius: 6px;
         position: relative;
@@ -3741,7 +3742,7 @@ h3.hny-title.two {
         z-index: 999;
     }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link {
-        color: #252b33;
+        color: #FFF;
     }
     .w3l-banner-slider-main .navbar-toggler {
         padding: 0.25rem 0.45rem;

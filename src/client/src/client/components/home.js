@@ -116,11 +116,8 @@ class Home extends Component{
 			<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Maximize</h3>
 			<h4 class="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>
-			<div class="text-center dashunder"></div>
+			{/* <div class="text-center dashunder"></div> */}
 		</div>
-		<br/>
-		<br/>
-		<br/>
 		<div class="w3l-footer-16">
 			<div class="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
 				<ul class="social d-flex dotcontrol">
