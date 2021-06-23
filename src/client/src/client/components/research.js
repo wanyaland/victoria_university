@@ -47,7 +47,7 @@ class Research extends Component {
 					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ Research at AU</span>
+					<span style={{color: '#EEE'}}>/ Research at VU</span>
 				</div>
 			</div>
 		</div>
