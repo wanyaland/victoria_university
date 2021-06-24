@@ -24,15 +24,15 @@ class SelectPath extends Component {
 					<Link class="imghr" href="home"><img src="assets/images/path1.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 					<div class="details text-center hover-team" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title">Foundation</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+							<div class="title title_path">Foundation</div><br/>
+							<div class="extra-dets">
+								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
-								<div class="fa fa-angle-right path_pointer orange_d"></div>
+								<div class="fa fa-angle-right path_pointer orange_d" style={{fontSize: '40px'}}></div>
 							</div>
 						</div>
 					</Link>
@@ -43,15 +43,15 @@ class SelectPath extends Component {
 					<Link class="imghr" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 					<div class="details text-center hover-team2" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title">Undergraduate</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+							<div class="title title_path">Undergraduate</div><br/>
+							<div class="extra-dets">
+								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
-								<div class="fa fa-angle-right path_pointer brown_d"></div>
+								<div class="fa fa-angle-right path_pointer brown_d" style={{fontSize: '40px'}}></div>
 							</div>
 						</div>
 					</Link>
@@ -62,15 +62,15 @@ class SelectPath extends Component {
 					<Link class="imghr" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 					<div class="details text-center hover-team3" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title">Postgraduate</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+							<div class="title title_path">Postgraduate</div><br/>
+							<div class="extra-dets">
+								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
-								<div class="fa fa-angle-right path_pointer blue_d"></div>
+								<div class="fa fa-angle-right path_pointer blue_d" style={{fontSize: '40px'}}></div>
 							</div>
 						</div>
 					</Link>
@@ -81,15 +81,15 @@ class SelectPath extends Component {
 					<Link class="imghr" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 						<div class="details text-center hover-team4" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
-							<div class="" style={{top: '1.8%', position: 'relative'}}>
+							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title">Diploma</div><br/>
-							<div style={{top: '14%', position: 'relative'}}>
-								<div class="text"><div style={{width:'15%', border:'#FFF 2px solid', margin: '0 auto'}} class="text-center"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+							<div class="title title_path">Diploma</div><br/>
+							<div class="extra-dets">
+								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
-								<div class="fa fa-angle-right path_pointer purple_d"></div>
+								<div class="fa fa-angle-right path_pointer purple_d" style={{fontSize: '40px'}}></div>
 							</div>
 						</div>
 					</Link>
