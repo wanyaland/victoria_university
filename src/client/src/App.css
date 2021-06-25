@@ -181,6 +181,114 @@ body img {
     text-align: center;
 }
 
+/* SELECT PATH */
+.pathdots{
+    position: absolute;
+    top: -2.5%;
+    left: 46.5%;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+    z-index: 1000;
+    height: 24px;
+    width: 24px;
+    /* border: blue 1px solid; */
+}
+.pathdots_round{
+    position: absolute;
+    top: -4.8%;
+    left: 43.5%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background:none;
+    color: white;
+    z-index: 1;
+    height: 44px;
+    width: 44px;
+    border: #FFF 1px solid;
+}
+.extra-dets{
+    top: 14%;
+    position: relative;
+}
+.dets-text{
+    width:15%;
+    border:#FFF 2px solid;
+    margin: 0 auto;
+}
+.path_stick{
+    width:.1%;
+    border-left:#FFF 1px solid;
+    margin: 0 auto;
+    height: 20px;
+    top:1.3%;
+    position: relative;
+}
+.path_img{
+    height:100px;
+    background-color: #EEE;
+    border-radius: 49%;
+    padding: 10px;
+}
+.path_pointer{
+    font-size: 40px;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 55%;
+    text-align: center;
+}
+.img_pos{
+    top: 1.8%;
+    position: relative;
+}
+.title_path{
+    left: 0%;
+    position: relative;
+}
+/* //SELECT PATH */
+/* TOOLTIP */
+.triangle-down {
+    position:absolute;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    top:18%;
+    left: 49%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid #0077b5;
+  }
+  .triangle-topleft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:100%;
+    left: 0;
+    border-top: 15px solid #0077b5;
+    border-right: 10px solid transparent;
+  }
+  .triangle-topright {
+    position:absolute;
+    width: 0;
+    height: 0;
+    top:100%;
+    left: 98.8%;
+    border-top: 15px solid #41afeb;
+    border-left: 10px solid transparent;
+  }
+  .triangle-step {
+    position:absolute;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    top:81.5%;
+    left: 47.2%;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+  }
+  /* //TOOLTIP */  
 h3.hny-title,
 h3.hny-title.two {
     font-size: 40px;
@@ -5642,6 +5750,33 @@ span.fa.fa-play {
     .w3l-inner-page-main .breadcrumb-infhny {
         min-height: 260px;
     }
+    /* Screen adjustment */
+    .pathdots{
+        top: -1.5%;
+        left: 47.7%;
+    }
+    .pathdots_round{
+        top: -3.2%;
+        left: 45%;
+    }
+    .path_stick{
+        top: 1%;
+        left: 1%;
+    }
+    .img_pos{
+        top: 1.8%;
+        left: 0.7%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:32%;
+    }
+    .triangle-down{
+        top:22.4%;
+        left: 48%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -5653,6 +5788,32 @@ span.fa.fa-play {
     }
     .w3l-inner-page-main .breadcrumb-infhny {
         min-height: 80px;
+    }
+    /* Screen adjustment */
+    .pathdots{
+        top: -1%;
+        left: 48.5%;
+    }
+    .pathdots_round{
+        top: -2.2%;
+        left: 47%;
+    }
+    .path_stick{
+        top: 1%;
+    }
+    .img_pos{
+        top: 1.8%;
+        left: 0.5%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:65%;
+    }
+    .triangle-down{
+        top:15%;
+        left: 47.4%;
     }
 }
 
@@ -5979,7 +6140,7 @@ span.fa.fa-play {
     border-top: 10px solid #e25252;
     cursor: pointer;
 }
-.pathdots{
+/* .pathdots{
     position: absolute;
     top: -2.5%;
     left: 46.5%;
@@ -6023,13 +6184,13 @@ span.fa.fa-play {
     border: red 2px solid;
     width: 20%;
     margin: 0 auto;
-    border-radius: 55%; */
+    border-radius: 55%;
     font-size: 50px;
     border: red 2px solid;
     width: 20%;
     margin: 0 auto;
     border-radius: 55%;
-}
+} */
 .orange{
     background-color: #e6a329;
 }
@@ -16876,47 +17037,7 @@ a.text-dark:focus {
     opacity: 1;
   }
 
-    /* TOOLTIP */
-    .triangle-down {
-        position:absolute;
-        margin: 0 auto;
-        width: 0px;
-        height: 0px;
-        top:18%;
-        left: 49%;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 10px solid #0077b5;
-      }
-      .triangle-topleft {
-        position: absolute;
-        width: 0;
-        height: 0;
-        top:100%;
-        left: 0;
-        border-top: 15px solid #0077b5;
-        border-right: 10px solid transparent;
-      }
-      .triangle-topright {
-        position:absolute;
-        width: 0;
-        height: 0;
-        top:100%;
-        left: 98.8%;
-        border-top: 15px solid #41afeb;
-        border-left: 10px solid transparent;
-      }
-      .triangle-step {
-        position:absolute;
-        margin: 0 auto;
-        width: 0px;
-        height: 0px;
-        top:81.5%;
-        left: 47.2%;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-      }
-      /* //TOOLTIP */  
+    
       /*Dropdwn*/
       .dropbtn {
         background-color: #4CAF50;
