@@ -93,7 +93,7 @@ class Home extends Component{
 		<div class="container">
 			<div class="content-info-in row">
 				<div class="content-gd col-lg-6">
-						<h3 class="hny-title two" style={{fontSize: '100px'}}>DISCOVER</h3>
+						<h3 class="discover">DISCOVER</h3>
 				</div>
 			</div>
 			<div class="content-info-in row">
@@ -102,18 +102,11 @@ class Home extends Component{
 	</div>
 </section>
         <SelectPath />
-		<div className="marginize"></div>
-		<div className="marginize2"></div>
 		<Testimonies />
-		<div className="marginize"></div>
-		<div className="marginize2"></div>
 <section class="w3l-features-1">
 	<div class="features-1-mian py-5">
-		<div class="">
-			<br/>
-			<br/>
-			<br/>
-			<h3 class="hny-title text-center" style={{color:'#0077b5'}}>Maximize</h3>
+		<div class="new_margin">
+			<h3 class="hny-title text-center" style={{color:'#0077b5', fontSize: '40px'}}>Maximize</h3>
 			<h4 class="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>
 			{/* <div class="text-center dashunder"></div> */}

@@ -5,7 +5,7 @@ import Footer from './footer';
 import { Link } from 'react-router-dom'
 
 
-class Coops extends Component{
+class Wil extends Component{
     render(){
         return(
             <React.Fragment>
@@ -162,4 +162,4 @@ class Coops extends Component{
     }
 }
 
-export default Coops;
+export default Wil;

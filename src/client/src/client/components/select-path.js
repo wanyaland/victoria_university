@@ -28,7 +28,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Foundation</div><br/>
+							<div class="title title_path">Undergraduate</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -40,14 +40,14 @@ class SelectPath extends Component {
 				<div class="col-lg-3 col-md-6 imghrs">
 					<div class="justify-content-center pathdots brown">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
+					<Link class="imghr" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 					<div class="details text-center hover-team2" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
 							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Undergraduate</div><br/>
+							<div class="title title_path">Postgraduate</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -59,14 +59,14 @@ class SelectPath extends Component {
 				<div class="col-lg-3 col-md-6 imghrs">
 					<div class="justify-content-center pathdots blue">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
-					<Link class="imghr" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
+					<Link class="imghr" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
 					<div class="details text-center hover-team3" style={{height: '100%'}}>
 							<div class="text-center path_stick"></div>
 							<div class="img_pos">
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Postgraduate</div><br/>
+							<div class="title title_path">Diploma</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -85,7 +85,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Diploma</div><br/>
+							<div class="title title_path">Short Courses</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>

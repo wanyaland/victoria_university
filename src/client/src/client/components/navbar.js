@@ -11,20 +11,20 @@ class NavBar extends Component{
 	dropdowned(id) {
 		document.getElementById(id).classList.toggle("shower");
 	}
-componentDidMount(){
-	  window.onclick = function(event) {
-		if (!event.target.matches('.dropbtned')) {
-		  var dropdowns = document.getElementsByClassName("dropdown-contenter");
-		  var i;
-		  for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('shower')) {
-			  openDropdown.classList.remove('shower');
+	componentDidMount(){
+		window.onclick = function(event) {
+			if (!event.target.matches('.dropbtned')) {
+				var dropdowns = document.getElementsByClassName("dropdown-contenter");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('shower')) {
+					openDropdown.classList.remove('shower');
+					}
+				}
 			}
-		  }
 		}
-	  }
-}
+	}
 	render(){
         return(
 	<React.Fragment>
@@ -92,10 +92,7 @@ componentDidMount(){
 									</div>
 								</li>
 								<li class="nav-item">
-									<Link onClick={this.dropdowned.bind(this, "wil")} class="dropbtned nav-link">WIL&nbsp;&nbsp;<span class="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-									<div id="wil" class="dropdown-contenter">
-										<Link to="/co-ops" class="text-left" style={{color: '#888', fontWeight: '700'}}>Co-ops</Link>
-									</div>
+									<Link to="/wil" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 								</li>
 								<li class="nav-item">
 									<Link class="nav-link" to="/research">Research</Link>
