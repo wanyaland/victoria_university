@@ -30,7 +30,7 @@ class Glance extends Component {
     <div class="hny-top-menu">
         <div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div class="container-fluid">
-                <div class="">
+                <div class="" style={{color: '#EEE'}}>
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;

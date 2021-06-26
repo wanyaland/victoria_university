@@ -32,7 +32,7 @@ class Search extends Component {
 				<div class="col-lg-3 with_shadow">
 					<div class="sidenavd">
                         <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Website Search <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Website Search<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container" style={{borderBottom: 'none'}}>Staff Search<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container">A-Z index<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container">Library Search<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-external-link"></span></span></li>
@@ -41,7 +41,7 @@ class Search extends Component {
 				</div>
 				<div class="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div class="col-lg-12 mb-lg-0 mb-5">
-                        <h6 class="hny-title" style={{fontSize: '48px', color: 'orange'}}>Website Search</h6>
+                        <h6 class="hny-title" style={{fontSize: '48px', color: 'orange'}}>Website Search <button>Show/Hide</button></h6>
                         <br/>
                         <form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid', paddingLeft: '10px'}}>
                             <input type="search" placeholder="Start Your Search" style={{color: '#000', width: '100%', border: 'none'}} required="required" />

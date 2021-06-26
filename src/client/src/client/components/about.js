@@ -65,7 +65,7 @@ class AboutUs extends Component{
 					<h4 class="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
 				</div>
 			<div class="apply-grids-info row">
-				<div class="row mt-lg-5 mt-4">
+				<div class="row mt-lg-5 mt-4 col-md-12">
 					<div class="appyl-sub-icon-info text-center">
 						<p>
 							Victoria University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover. We are Uganda’s most innovative university, you’ll be encouraged to take risks and challenge the status quo, to pursue an idea and disrupt industries.
@@ -82,11 +82,11 @@ class AboutUs extends Component{
 			<div class="container-fluid">
 				<div class="row">
 					<ol class="accounts col-md-12 justify-content-center">
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#strategy"><span class="fa fa-gears about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>Strategic Plan</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#about"><span class="fa fa-dot-circle-o about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>About Us</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#glance"><span class="fa fa-photo about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>VU at a Glance</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#credit"><span class="fa fa-cubes about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>Accreditation</span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}}><a href="#rise"><span class="fa fa-line-chart about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}>RISE - 5 year IT Strategy</span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}} title="Strategic Plan"><a href="#strategy"><span class="fa fa-gears about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">Strategic Plan</span></span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}} title="About Us"><a href="#about"><span class="fa fa-dot-circle-o about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">About Us</span></span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}} title="VU at a Glance"><a href="#glance"><span class="fa fa-photo about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">VU at a Glance</span></span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}} title="Accreditation"><a href="#credit"><span class="fa fa-cubes about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">Accreditation</span></span></a></li>
+						<li class="breadcrumb-item" style={{color: '#000'}} title="RISE - 5 year IT Strategy"><a href="#rise"><span class="fa fa-line-chart about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">RISE - 5 year IT Strategy</span></span></a></li>
 					</ol>
 				</div>
 			</div>
@@ -137,8 +137,8 @@ class AboutUs extends Component{
 </section>
 <section class="w3l-specification-6" id="glance">
 	<div class="specification-content py-5">
-		<div class="py-lg-5">
-			<div class="mission-grids-info" style={{display: 'flex'}}>
+		<div class="container py-lg-5" style={{maxWidth: '100%'}}>
+			<div class="mission-grids-info row" style={{display: 'flex'}}>
 				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
 					<div class="justify-content-end" style={{color: '#fff;'}}>
 						<br/>

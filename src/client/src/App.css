@@ -291,7 +291,7 @@ body img {
   /* //TOOLTIP */  
 h3.hny-title,
 h3.hny-title.two {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 48px;
     color: #252b33;
     margin-bottom: 24px;
@@ -300,6 +300,14 @@ h3.hny-title.two {
 
 h3.hny-title.two {
     color: #fff;
+}
+
+.discover{
+    font-size: 100px;
+    line-height: 48px;
+    color: #FFF;
+    margin-bottom: 24px;
+    font-weight: 700;
 }
 
 .button-4-pink {
@@ -5845,7 +5853,7 @@ span.fa.fa-play {
     }
     .path_stick{
         top: 1%;
-        left: 1%;
+        left: 0.7%;
     }
     .img_pos{
         top: 1.8%;
@@ -5860,6 +5868,12 @@ span.fa.fa-play {
     .triangle-down{
         top:22.4%;
         left: 48%;
+    }
+    .new_margin{
+        margin-top: 280px;
+    }
+    .text-hider{
+        display: none;
     }
 }
 
@@ -5884,6 +5898,7 @@ span.fa.fa-play {
     }
     .path_stick{
         top: 1%;
+        left: 0%;
     }
     .img_pos{
         top: 1.8%;
@@ -5898,6 +5913,51 @@ span.fa.fa-play {
     .triangle-down{
         top:15%;
         left: 47.4%;
+    }
+    .new_margin{
+        margin-top: 380px;
+    }
+    .text-hider{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pathdots{
+        top: -1%;
+        left: 48.5%;
+    }
+    .pathdots_round{
+        top: -2.8%;
+        left: 46.3%;
+    }
+    .path_stick{
+        top: 1.5%;
+        left: 0.8%;
+    }
+    .img_pos{
+        top: 2%;
+        left: 0.5%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:51%;
+    }
+    .triangle-down{
+        top:13.2%;
+        left: 47%;
+    }
+    h3.hny-title.two {
+        font-size: 70px;
+        line-height: 46px;
+    }
+    .new_margin{
+        margin-top: 380px;
+    }
+    .text-hider{
+        display: none;
     }
 }
 
