@@ -4393,6 +4393,7 @@ h3.hny-title.two {
         font-size: 15px;
         padding-right: 0px;
     }
+    
 }
 
 @media all and (max-width: 1280px) {
@@ -5739,7 +5740,90 @@ span.fa.fa-play {
 .w3l-inner-page-main .breadcrumb-item.active {
     color: #555;
 }
-
+@media screen and (min-width: 1920px) {
+    .pathdots{
+        top: -1%;
+        left: 47.7%;
+    }
+    .pathdots_round{
+        top: -3.2%;
+        left: 45.5%;
+    }
+    .path_stick{
+        top: 1%;
+        left: 0.3%;
+    }
+    .img_pos{
+        top: 1.8%;
+        left: 0.7%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:48%;
+    }
+    .triangle-down{
+        top:18%;
+        left: 49%;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .pathdots{
+        top: -1.4%;
+        left: 47.7%;
+    }
+    .pathdots_round{
+        top: -3.2%;
+        left: 45%;
+    }
+    .path_stick{
+        top: 1%;
+        left: 1%;
+    }
+    .img_pos{
+        top: 1.8%;
+        left: 0.7%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:34%;
+    }
+    .triangle-down{
+        top:18%;
+        left: 49%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .pathdots{
+        top: -2%;
+        left: 47.7%;
+    }
+    .pathdots_round{
+        top: -4.5%;
+        left: 44.3%;
+    }
+    .path_stick{
+        top: 1%;
+        left: 1%;
+    }
+    .img_pos{
+        top: 1.8%;
+        left: 0.7%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:15%;
+    }
+    .triangle-down{
+        top:18%;
+        left: 49%;
+    }
+}
 @media screen and (max-width: 1080px) {
     .w3l-inner-page-main h2.hny-title {
         font-size: 42px;
@@ -7348,6 +7432,7 @@ pre code {
     .container {
         max-width: 1140px;
     }
+    
 }
 
 .container-fluid,
