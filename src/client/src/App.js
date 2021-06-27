@@ -33,6 +33,11 @@ import Myvustudentportal from './client/components/myvu-student-portal';
 import Exams from './client/components/exams';
 import Appeals from './client/components/appeals';
 import CourseProcedures from './client/components/course-procedures';
+import ContactWil from './client/components/contactwil';
+import WilCosts from './client/components/costs-and-insurance';
+import HowWilWorks from './client/components/how-wil-works';
+import Benefits from './client/components/benefits';
+import WilHallOfFame from './client/components/wil-hall-of-fame'
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -74,6 +79,11 @@ const App = () => (
         <Route exact path="/exams" component={Exams} />
         <Route exact path="/appeals" component={Appeals} />
         <Route exact path="/course-procedures" component={CourseProcedures} />
+        <Route exact path="/contactwil" component={ContactWil} />
+        <Route exact path="/costs-and-insurance" component={WilCosts} />
+        <Route exact path="/how-wil-works" component={HowWilWorks} />
+        <Route exact path="/benefits" component={Benefits} />
+        <Route exact path="/wil-hall-of-fame" component={WilHallOfFame} />
       </Switch>
     </Router>
 

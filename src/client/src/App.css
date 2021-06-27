@@ -5959,6 +5959,51 @@ span.fa.fa-play {
     .text-hider{
         display: none;
     }
+    .discover{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pathdots{
+        top: -1%;
+        left: 48.5%;
+    }
+    .pathdots_round{
+        top: -2.8%;
+        left: 45.7%;
+    }
+    .path_stick{
+        top: 1.5%;
+        left: 0.8%;
+    }
+    .img_pos{
+        top: 2.3%;
+        left: 0.5%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:37%;
+    }
+    .triangle-down{
+        top:12.2%;
+        left: 46.5%;
+    }
+    h3.hny-title.two {
+        font-size: 70px;
+        line-height: 46px;
+    }
+    .new_margin{
+        margin-top: 380px;
+    }
+    .text-hider{
+        display: none;
+    }
+    .discover{
+        font-size: 70px;
+    }
 }
 
 .w3l-content-5 .content-5-main {

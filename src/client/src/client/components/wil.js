@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import WilNav from './wil_nav';
+import BottomWil from './bottomWil';
 
 
 class Wil extends Component{
@@ -15,147 +17,110 @@ class Wil extends Component{
 	<div class="hny-top-menu">
 		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div class="container-fluid">
-				<div class="">
-					<Link to="/"><span className="underline" style={{color: "#CCC"}}>
-					Future Students
-					</span></Link>&nbsp;&nbsp;
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
-					Co-Op Students 
-					</span></Link>&nbsp;&nbsp;
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
-					Employers
-					</span></Link>&nbsp;&nbsp;
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
-					Awards And Contests
-					</span></Link>&nbsp;&nbsp;
-                    <Link to="/"><span className="underline" style={{color: "#CCC"}}>
-					Co-OP Team
-					</span></Link>
+				<div class=""  style={{color: '#EEE'}}>
+				<Link to="/"><span className="underline" style={{color: "#EEE"}}>
+					Victoria University 
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/wil"><span className="underline" style={{color: "#EEE"}}>
+					Work Integrated Learning 
+					</span></Link>&nbsp;
+					<span style={{color: '#EEE'}}>/ About WIL</span>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<br/>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container">
-			<h2>CO-OP: A world of opportunities</h2>
-		</div>
-	</div>
-</section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
-				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Our Co-op Program</li>
-			</div>
-			<br />
-
-			<div class="row">
-				<div class="col-md-12 filter graphic">
-					<div class="each-item">
-						<h4>CO-OPERATIVE EDUCATION PROGRAM </h4>
-							<p>This is Victoria’s Work-Ready Talent Advantage. But what is it?
-								Co-operative Education (co-op) is a work experience program that gives post-secondary students the opportunity to apply their academic learning through regular, real-world work terms throughout their undergraduate degree. We achieve this by integrating work into every student’s learning, something we call Work-Integrated Learning Model (WIL). Work-Integrated Learning is a model and process of curricular experiential education which formally and intentionally integrates a student’s academic studies within a workplace or practice setting. WIL experiences include an engaged partnership of at least: an academic institution, a host organization and a student. WIL can occur at the course or program level and includes the development of learning outcomes related to employability, personal agency and life-long learning.
-								Forget everything you thought you knew about student internships. Our Co-op program adds up to almost three years of work experience to your résumé. With access to a big network of Co-op jobs around the country, you’ll be able to try out exciting careers and build a world-class professional network.
-								</p>
+<section class="w3l-team-main">
+	<div class="team py-5">
+		<div class="py-lg-5" >
+			<div class="justify-content-center"  style={{display: 'flex'}}>
+				<div class="col-lg-3 with_shadow">
+					<WilNav />
+				</div>
+				<div class="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+					<div class="search_results">
+						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL works</b></h6>
+                        <div style={{width: '10%', border: '#f04545 3px solid'}} class="text-left"></div>
+						<br/><br/>
+						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What is WIL?</b></h6>
+						<p class="my-4" style={{fontSize: '24px'}}>WIL is known by many names across the University and Australia. You may have heard of WIL as practicum, clinical placement, internship or fieldwork, to name a few.</p>
+						<p class="my-4">
+							WIL also occurs in various types. While placement is the most known form, WIL can also be project-based learning, simulation activities, clinic-based, fieldwork and even virtual.
+						</p>
+						<p class="my-4">WIL opportunities are aligned with the curriculum of hundreds of courses offered by the University of Newcastle and are delivered at different times of the year.</p>
+						<div class="w3l-features-1">
+							<div class="features-1-mian py-5" style={{paddingBottom: '0rem !important'}}>
+								<div class="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+									<div class="row title-content">
+										<div class="counter-main-sec">
+											<div class="row">
+												<div class="counter-gd col-md-6 text-center">
+													<div id="counters_3">
+														<h6 class="titled">
+															<span class="counter">No.1</span>
+														</h6>
+													</div>
+													<p>university in Australia for industry collaboration</p>
+												</div>
+												<div class="counter-gd col-md-6 text-center">
+													<div id="counters_3">
+														<h6 class="titled">
+															<span class="counter">3000+</span>
+														</h6>
+													</div>
+													<p>employer connections</p>
+												</div>
+											</div>
+											<div class="row">
+												<div class="counter-gd col-md-6 text-center">
+													<div id="counters_3">
+														<h6 class="titled">
+															<span class="counter">89.5%</span>
+														</h6>
+													</div>
+													<p>of our undergraduate graduates find employment within four months of graduating</p>
+												</div>
+												<div class="counter-gd col-md-6 text-center">
+													<div id="counters_3">
+														<h6 class="titled">
+															<span class="counter">23,000+</span>
+														</h6>
+													</div>
+													<p>Work Integrated Learning experiences delivered each year</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="my-4">
+							While work experience, volunteering and the like can be valuable to increase student employability skills, it is not work integrated learning. Work Integrated Learning - or WIL as we like to call it - is an umbrella term used to describe a range of approaches that integrate theory with the practice of work within a purposefully designed curriculum. That means, for it to be WIL, it needs to be part of a course or a graduation requirement of a program.
+						</p>
+						<div class="w3l-wecome-content-6">
+							<div class="ab-content-6-mian py-5">
+								<div class="container py-lg-5">
+									<div class="welcome-grids row">
+										<div class="welcome-image">
+											<img src="assets/images/b3.jpg" class="img-fluid" alt="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<table style={{width: '100%', height: '100%'}}>
+							<tr>
+								<td class="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px', fontSize: '30px'}}><b>INSTERESTED IN HOSTING WIL</b>&nbsp;&nbsp;|&nbsp;&nbsp;Contact Us!</td>
+								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#0077b5'}}><span class="fa fa-angle-right" style={{fontSize: '20px', color: '#fff'}}></span></td>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
-				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Top four reasons to join a CO-OP program:</li>
-			</div>
-			<br />
-
-			<div class="row">
-				<div class="col-md-12 filter graphic photo">
-					<div class="each-item">
-						<li>Student experience and our research portfolio are built around our academic core</li>
-						<li>Our research is high-quality, interdisciplinary and benchmarks internationally</li>
-						<li>World-class entrepreneurial skills development is woven across all academic programs</li>
-						<li>We take calculated risks to nurture ideas into real-world application</li>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5" >
-		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-		<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
-				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>How Co-op Works</li>
-			</div>
-			<br />
-			<div class="row">
-				<div class="col-md-12 filter photo">
-					<div class="each-item">
-						<p>In co-op programs, you’ll typically alternate between time as a full-time student and time as a full-time, employee building relevant skills through our network of 103+ employers. With the help of our career resources and student advisors located across the country, you’ll be more than ready to take on your first co-op job. Once on the job, you’ll learn to adapt to different workplaces, build your skills through our professional development courses, and develop a fresh appreciation for your classroom studies. As you progress through your experiential learning sessions with real-world work, your résumé, knowledge, and confidence will grow, preparing you for an exciting career.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<br />
-			<div class="row">
-				<div class="col-md-12 filter photo justify-content-center">
-					<div class="each-item">
-					<h6 class="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>A New Dawn At Victoria University</h6>
-					<p class="my-4">In striving towards our Vision “to be a world-class University for transformational education,” Victoria University is currently investing in a bold transformation of our Strategy, and Student, Faculty and Partner Experience in furtherance of our Mission “to provide a dynamic environment for learning, innovation, research and community engagement”.</p>
-					<p class="my-4">We are working towards becoming a University, Faculty and Student Body that Cultivates Ideas, Celebrates Diversity, Fosters Entrepreneurship, Seeks Excellence, and Impacts Community.</p>
-					<p class="my-4">Our goal is to transform Victoria University into a University where:</p>
-					<p class="my-4">
-						<ul style={{listStyle: 'none'}}>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Student experience and our research portfolio are built around our academic core,</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Our research is high-quality, interdisciplinary and benchmarks internationally,</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;World-class entrepreneurial skills development is woven across all academic programs, and</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;We take calculated risks to nurture ideas into real-world application</li>
-                        </ul>
-					</p>
-					<p class="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on:</p>
-					<p class="my-4">
-					<ul style={{listStyle: 'none'}}>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Experiential learning supported by real-world case studies and experiences developed through purpose-built facilities and programs such as the Sudhir Ruparelia Centre for Excellence in Teaching and Learning of Entrepreneurship, an ultramodern Fourth Industrial Revolution Innovation Lab and a Teaching Hotel,</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Strengthening post-study outcomes through Work-Integrated Learning that weaves practical experience into the Authentic Learning experience,</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Championing entrepreneurship through inculcating a founder-culture among Students and Faculty, and</li>
-                            <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;Cultivating tomorrow’s leaders by fostering collaborative and interdisciplinary learning.</li>
-                        </ul>
-					</p>
-					<p class="my-4">We are working to position Victoria University as “Africa’s Premier Fourth Industrial Revolution-Compatible Entrepreneurial University” as we deliver renewed value to our Students, Faculty and Partners.</p>
-					<p class="my-4">
-						We are currently engaging a variety of stakeholders and undertaking a wide range of activities and investments towards achieving this transformation. We will be unveiling our progress throughout the year.
-					</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4 bdr-bottom">
-			<br />
-			<div class="row">
-				<div class="col-md-12 filter photo justify-content-center">
-					<div class="each-item">
-						<a href="home"><img class="port-image img-fuild" src="assets/images/reserved.jpg" alt="" /></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<BottomWil />
 <Footer />
             </React.Fragment>
         )
