@@ -43,15 +43,15 @@ class Benefits extends Component{
                         <br/>
                         <br/>
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What can WIL do for your organisation?</b></h6>
-						<p class="my-4">The University of Newcastle’s commitment to providing world-class learning opportunities for its students underpins WIL as a process of reciprocal involvement for the mutual benefit of all involved.</p>
+						<p class="my-4">Victoria University's commitment to providing world-class learning opportunities for its students underpins WIL as a process of reciprocal involvement for the mutual benefit of all involved.</p>
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Benefits for hosts:</b></h6>
                         <p class="my-4">
                             <ul style={{listStyle: 'none'}}>
                                 <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Benefit from the injection of new and innovative ideas, cognitive diversity, and ‘fresh eyes’ of students.</li>
-                                <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Work with University of Newcastle staff to design a project to create real-world outcomes for your organisation.</li>
+                                <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Work with Victoria University staff to design a project to create real-world outcomes for your organisation.</li>
                                 <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Have direct access to a pool of talented graduates for future employment.</li>
                                 <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Provide your current staff with a valuable professional development opportunity as mentees.</li>
-                                <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Engage directly with the University of Newcastle and help to shape the future of the degree programs offered by the world-class organisation.</li>
+                                <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-check-circle-o"></span>&emsp;Engage directly with the Victoria University and help to shape the future of the degree programs offered by the world-class organisation.</li>
                             </ul>
                         </p>
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Benefits for students:</b></h6>
@@ -64,7 +64,7 @@ class Benefits extends Component{
                             </ul>
                         </p>
                         <p class="my-4">
-                            WIL allows industry and the University of Newcastle to work together to develop Australia’s future workforce and to help build our national economy, through ensuring that graduates are adept and sufficiently agile to face the challenges of a changing job market.
+                            WIL allows industry and the Victoria University to work together to develop Uganda;s future workforce and to help build our national economy, through ensuring that graduates are adept and sufficiently agile to face the challenges of a changing job market.
                         </p>
                         <div class="w3l-wecome-content-6">
 							<div class="ab-content-6-mian py-5">

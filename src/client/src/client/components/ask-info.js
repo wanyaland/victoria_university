@@ -25,6 +25,9 @@ class AskInfo extends Component {
 							<div class="features-1-info-info text-center">
 								<h6 class="text-center">Get real-time answers to common questions about Victoria University.</h6>
 							</div>
+							<div class="features-1-info-info text-center">
+								<h6 class="text-center">Email: admissions@vu.ac.ug</h6>
+							</div>
                             <br/>
                             <br/>
 						</div>
@@ -36,7 +39,7 @@ class AskInfo extends Component {
 								<span class="fa fa-globe" style={{color: '#0077b5', fontSize:'90px'}}></span>
 							</div>
 							<div class="features-1-info-info text-center">
-								<h6 class="text-center">(+256) 200 405 433 (international) or (+256) 200 405 433 (toll-free in Uganda.) Fax: (+256) 200 405 433</h6>
+								<h6 class="text-center">+256 759 996 130 or +256 700 300 088 or +256 707 780 158</h6>
 							</div>
                             <br/>
                             <br/>

@@ -69,7 +69,7 @@ class Requirements extends Component{
 						<h6 class="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Admission Requirements</h6>
 						<br/>
 						<p class="my-4" style={{fontSize: '22px'}}>We believe in education and learning opportunities for everyone. That’s why Victoria University programs are made to work for our students regardless of level of experience, previous grades or degrees. It’s our priority to ensure that our post-secondary online education is accessible and flexible, so our admission policy accepts undergraduate students to a program as long as they pass the minimum age restriction of 16 years of age.</p>
-						<p class="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more: all of our over 850 courses are available to our students even without being enrolled in an VU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both Canadian and international candidates.</p>
+						<p class="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more:  are available to our students even without being enrolled in an VU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both Canadian and international candidates.</p>
 					</div>
 				</div>
 			</div>

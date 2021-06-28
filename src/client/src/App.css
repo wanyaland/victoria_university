@@ -123,6 +123,16 @@ body img {
     transition-duration: .3s;
     border:#b951ce 4px solid;
 }
+.hover-team5{
+    border:#FFF 4px solid;
+    padding: none;
+}
+.hover-team5:hover{
+    padding: none;
+    transition: all ease;
+    transition-duration: .3s;
+    border: #f12020 4px solid;
+}
 .cursor:hover{
     cursor: pointer;
 }
@@ -209,7 +219,7 @@ body img {
     border: #FFF 1px solid;
 }
 .extra-dets{
-    top: 14%;
+    top: 10%;
     position: relative;
 }
 .dets-text{
@@ -5750,8 +5760,8 @@ span.fa.fa-play {
 }
 @media screen and (min-width: 1920px) {
     .pathdots{
-        top: -1%;
-        left: 47.7%;
+        top: -1.4%;
+        left: 48%;
     }
     .pathdots_round{
         top: -3.2%;
@@ -5759,17 +5769,17 @@ span.fa.fa-play {
     }
     .path_stick{
         top: 1%;
-        left: 0.3%;
+        left: 1.2%;
     }
     .img_pos{
         top: 1.8%;
-        left: 0.7%;
+        left: 1%;
     }
     .title_path{
         left: 1%;
     }
     .extra-dets{
-        top:48%;
+        top:35%;
     }
     .triangle-down{
         top:18%;
@@ -5782,22 +5792,22 @@ span.fa.fa-play {
         left: 47.7%;
     }
     .pathdots_round{
-        top: -3.2%;
+        top: -3.7%;
         left: 45%;
     }
     .path_stick{
-        top: 1%;
-        left: 1%;
+        top: 2%;
+        left: 2%;
     }
     .img_pos{
-        top: 1.8%;
-        left: 0.7%;
+        top: 3%;
+        left: 2%;
     }
     .title_path{
         left: 1%;
     }
     .extra-dets{
-        top:34%;
+        top:14%;
     }
     .triangle-down{
         top:18%;
@@ -5807,25 +5817,25 @@ span.fa.fa-play {
 @media screen and (max-width: 1366px) {
     .pathdots{
         top: -2%;
-        left: 47.7%;
+        left: 48%;
     }
     .pathdots_round{
         top: -4.5%;
         left: 44.3%;
     }
     .path_stick{
-        top: 1%;
-        left: 1%;
+        top: 1.5%;
+        left: 3%;
     }
     .img_pos{
-        top: 1.8%;
-        left: 0.7%;
+        top: 2%;
+        left: 2%;
     }
     .title_path{
         left: 1%;
     }
     .extra-dets{
-        top:15%;
+        top:-1%;
     }
     .triangle-down{
         top:18%;
@@ -5844,23 +5854,23 @@ span.fa.fa-play {
     }
     /* Screen adjustment */
     .pathdots{
-        top: -1.5%;
-        left: 47.7%;
+        top: -2.7%;
+        left: 45.7%;
     }
     .pathdots_round{
-        top: -3.2%;
-        left: 45%;
+        top: -7%;
+        left: 40.6%;
     }
     .path_stick{
-        top: 1%;
-        left: 0.7%;
+        top: 3%;
+        left: 4%;
     }
     .img_pos{
-        top: 1.8%;
-        left: 0.7%;
+        top: 4.5%;
+        left: 3%;
     }
     .title_path{
-        left: 1%;
+        left: -3%;
     }
     .extra-dets{
         top:32%;
@@ -5967,25 +5977,25 @@ span.fa.fa-play {
 @media screen and (max-width: 500px) {
     .pathdots{
         top: -1%;
-        left: 48.5%;
+        left: 48%;
     }
     .pathdots_round{
-        top: -2.8%;
+        top: -3%;
         left: 45.7%;
     }
     .path_stick{
-        top: 1.5%;
-        left: 0.8%;
+        top: 1%;
+        left: 1%;
     }
     .img_pos{
         top: 2.3%;
-        left: 0.5%;
+        left: 1.5%;
     }
     .title_path{
         left: 1%;
     }
     .extra-dets{
-        top:37%;
+        top:38%;
     }
     .triangle-down{
         top:12.2%;
@@ -6392,6 +6402,9 @@ span.fa.fa-play {
 .purple{
     background-color: #b951ce;
 }
+.red{
+    background-color: #f12020;
+}
 .orange_d{
     border: #e6a329 2px solid;
 }
@@ -6404,6 +6417,9 @@ span.fa.fa-play {
 .purple_d{
     border: #b951ce 2px solid;
 }
+.red_d{
+    border: #f12020 2px solid;
+}
 .orange_c{
     border: #e6a329 10px solid; 
 }
@@ -6415,6 +6431,9 @@ span.fa.fa-play {
 }
 .purple_c{
     border: #b951ce 10px solid;
+}
+.red_c{
+    border: #f12020 2px solid;
 }
 .smalldot{
     background-color:#80bfff;
@@ -7680,6 +7699,13 @@ pre code {
     padding-left: 15px;
 }
 
+.col-md-2-5{
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 .col {
     flex-basis: 0;
     flex-grow: 1;
@@ -8094,6 +8120,10 @@ pre code {
     .col-md-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+    .col-md-2-5{
+        flex: 0 0 20%;
+        max-width: 20%;
     }
     .col-md-3 {
         flex: 0 0 25%;

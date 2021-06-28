@@ -44,7 +44,7 @@ class WilCosts extends Component{
                         <div style={{width: '10%', border: '#f04545 3px solid'}} class="text-left"></div>
                         <br/><br/>
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What does WIL cost?</b></h6>
-						<p class="my-4">University of Newcastle recognises the value of WIL experiences for its students, and has developed policies to ensure placements comply with the Fair Work Act 2009.</p>
+						<p class="my-4">Victoria University recognises the value of WIL experiences for its students, and has Victoria University developed policies to ensure placements comply with the Uganda's working act</p>
 						<p class="my-4">
 							As WIL is aligned with the curriculum, there is generally no expectation that the student will be remunerated, in fact, the majority of WIL placements are unpaid.
 						</p>
@@ -58,10 +58,10 @@ class WilCosts extends Component{
                         <hr class="text-center" style={{color: '#000', width: '90%'}} />
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What about insurance?</b></h6>
                         <p class="my-4">
-                            The University has insurance to cover students undertaking professional experience including while undertaking WIL that is a course requirement and unpaid. The WIL experience must form part of the curriculum and be assessed by a course coordinator.
+						The University has insurance to cover students undertaking professional experience including while undertaking WIL that is a course requirement and unpaid. The WIL experience must form part of the curriculum and be assessed by a course coordinator.
                         </p>
                         <p class="my-4">
-                            The University may provide the host organisation with a copy of the University's certificate of currency for a relevant insurance policy.
+						The University may provide the host organisation with a copy of the University's certificate of currency for a relevant insurance policy.
                         </p>
                         <p class="my-4">To learn more about insurance for WIL, please read about the University's insurance<span class="fa fa-external-link"></span>.</p>
 					</div>

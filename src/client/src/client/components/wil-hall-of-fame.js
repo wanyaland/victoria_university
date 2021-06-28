@@ -69,20 +69,20 @@ class WilHallOfFame extends Component{
 							</div>
 						</div>
                         <hr class="text-center" style={{color: '#000', width: '90%'}} />
-						<p class="my-4">
-							To provide WIL activities for our students, the University of Newcastle collaborates with business, industry, government and community, from small businesses to large enterprises, not-for-profit and for-profit organisations.
-						</p>
-                        <p class="my-4">
+						<p className="my-4">
+                            To provide WIL activities for our students,Victoria University collaborates with business, industry, government and community, from small businesses to large enterprises, not-for-profit and for-profit organisations.
+                        </p>
+                        <p className="my-4">
                             To commemorate the importance of our industry partnerships and acknowledge the support of our partners – large and small – the University confers a Hall of Fame award on WIL hosts that have significantly contributed to, and benefited from, participation in WIL activity.
                         </p>
-                        <p class="my-4">
-                            The Hall of Fame commenced in 2013 to recognise each inductee's contribution to the University, the professional preparation of our students past and present, and growing and strengthening our regions.
+                        <p className="my-4">
+                            The Hall of Fame recognises each inductee's contribution to the University, the professional preparation of our students past and present, and growing and strengthening our regions.
                         </p>
-                        <p class="my-4">
+                        <p className="my-4">
                             A selection committee consisting of University senior executive and industry representatives evaluates the suitability of nominations from the University and community for induction. Each inductee has a strong track record of contributing to the advancement of WIL with our University.
                         </p>
-                        <p class="my-4">
-                            Ideally, the recipient is a regional or regionally focused business, industry or community organisation that, for at least five years, has hosted students undertaking WIL as part of their studies.
+                        <p className="my-4">
+                            Ideally, the recipient is a regional or regionally focused business, industry or community organisation that, for at least five years, has hosted students undertaking WIL as part of their studies
                         </p>
                         <div class="w3l-wecome-content-6">
                             <div class="ab-content-6-mian py-5">

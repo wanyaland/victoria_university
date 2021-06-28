@@ -18,7 +18,7 @@ class SelectPath extends Component {
 	<div class="content-6-mian py-5">
 		<div class="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div class="content-info-in row mt-md-5 mt-4">
-				<div class="col-lg-3 col-md-6 imghrs">
+				<div class="col-md-2-5 imghrs">
 					<div class="justify-content-center pathdots orange">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
 					<Link class="imghr" href="home"><img src="assets/images/path1.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
@@ -37,7 +37,7 @@ class SelectPath extends Component {
 						</div>
 					</Link>
 				</div>
-				<div class="col-lg-3 col-md-6 imghrs">
+				<div class="col-md-2-5 imghrs">
 					<div class="justify-content-center pathdots brown">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
 					<Link class="imghr" href="home"><img src="assets/images/path3.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
@@ -56,7 +56,7 @@ class SelectPath extends Component {
 						</div>
 					</Link>
 				</div>
-				<div class="col-lg-3 col-md-6 imghrs">
+				<div class="col-md-2-5 imghrs">
 					<div class="justify-content-center pathdots blue">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
 					<Link class="imghr" href="home"><img src="assets/images/path2.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
@@ -75,7 +75,7 @@ class SelectPath extends Component {
 						</div>
 					</Link>
 				</div>
-				<div class="col-lg-3 col-md-6 imghrs">
+				<div class="col-md-2-5 imghrs">
 					<div class="justify-content-center pathdots purple">&nbsp;</div>
 					<div class="justify-content-center pathdots_round">&nbsp;</div>
 					<Link class="imghr" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
@@ -85,11 +85,30 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Short Courses</div><br/>
+							<div class="title title_path">Foundation</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
 								<div class="fa fa-angle-right path_pointer purple_d" style={{fontSize: '40px'}}></div>
+							</div>
+						</div>
+					</Link>
+				</div>
+				<div class="col-md-2-5 imghrs">
+					<div class="justify-content-center pathdots red">&nbsp;</div>
+					<div class="justify-content-center pathdots_round">&nbsp;</div>
+					<Link class="imghr" href="home"><img src="assets/images/path4.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
+						<div class="details text-center hover-team5" style={{height: '100%'}}>
+							<div class="text-center path_stick"></div>
+							<div class="img_pos">
+								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
+							</div>
+							<br/>
+							<div class="title title_path">Short Courses</div><br/>
+							<div class="extra-dets">
+								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
+								</div>
+								<div class="fa fa-angle-right path_pointer red_d" style={{fontSize: '40px'}}></div>
 							</div>
 						</div>
 					</Link>
