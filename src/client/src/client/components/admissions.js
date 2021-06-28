@@ -109,7 +109,7 @@ class Admissions extends Component{
 		<div class="container">
 		<h4 class="text-center" style={{color: '#FFF'}}>Guidelines for International Students</h4>
 			<div class="content-info-in row">
-				<p>Admission requirements, deadlines and fees vary by program and depending on whether you study from within Canada or not. View our guidelines to find out what applies to your specific choice of courses, program and educational background.</p>
+				<p>Admission requirements, deadlines and fees vary by program and depending on whether you study from within Victoria University or not. View our guidelines to find out what applies to your specific choice of courses, program and educational background.</p>
 			</div>
 			<p>
 				<Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>

@@ -43,10 +43,13 @@ class HowWilWorks extends Component{
                         <br/>
                         <br/>
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What is WIL?</b></h6>
-						<p class="my-4">WIL is known by many names across the University and Australia. You may have heard of WIL as practicum, clinical placement, internship or fieldwork, to name a few.</p>
+						<p class="my-4">WIL is a new education system in Uganda introduced by Victoria University .You may have heard of WIL as practicum, clinical placement, internship or fieldwork, to name a few.</p>
 						<p class="my-4">
 							WIL also occurs in various types. While placement is the most known form, WIL can also be project-based learning, simulation activities, clinic-based, fieldwork and even virtual.
 						</p>
+                        <p className="my-4">
+                        WIL opportunities are aligned with the curriculum of hundreds of courses offered by Victoria University and are delivered at different times of the year.
+                        </p>
                         <p class="my-4">
                             <ul style={{listStyle: 'none'}}>
                                 <li class="" style={{marginBottom: '.5rem !important'}}>&emsp;<span class="fa fa-angle-right"></span>&emsp;WIL can be real or simulated, provided on or off campus, a compulsory or optional part of a program.</li>
@@ -60,7 +63,7 @@ class HowWilWorks extends Component{
                             WIL courses and industry experience are available to domestic and international students enrolled in most undergraduate, postgraduate or research higher degrees.
                         </p>
                         <p class="my-4">
-                            The majority of the undergraduate degree programs offered by the University of Newcastle include an opportunity for students to take part in some type of WIL. Tens of thousands of students from across the University take part in a diverse range of core, compulsory, elective, and directed WIL courses opportunities each year.
+                            The majority of the undergraduate degree programs offered by Victoria University include an opportunity for students to take part in some type of WIL. Tens of thousands of students from across the University take part in a diverse range of core, compulsory, elective, and directed WIL courses opportunities each year.
                         </p>
                         <p class="my-4">
                             It is not just teachers, nurses, doctors and engineers that can take part in these meaningful workplace learning opportunities, with WIL courses being offered as part of degree programs in diverse fields such as Information Technology, Communications and Design, Humanities, Business, Commerce and Marketing.

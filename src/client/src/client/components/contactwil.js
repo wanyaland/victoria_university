@@ -44,8 +44,8 @@ class ContactWil extends Component{
 						<p class="my-4">
 							Then either complete the form below or get in touch with Employability and Enterprise:
 						</p>
-						<p class="my-4">Ph: (02) 4921 5588<br/>
-                            Email: WIL@newcastle.edu.au
+						<p class="my-4">Phone: +256 759 996 130, +256 700 300 088, +256 707 780 158<br/>
+                            Email: admissions@vu.ac.ug /marketing@vu.ac.ug
                         </p>
                         
                         <div class="w3l-features-1">
