@@ -60,6 +60,17 @@ class Glance extends Component {
 </section>
 <section class="w3l-wecome-content-6">
     <div class="ab-content-6-mian py-5">
+        <div class="container py-lg-5">
+            <div class="welcome-grids row">
+                <div class="welcome-image" style={{width: '100%'}}>
+                    <video src="assets/media/message from vc.mp4" class="img-fluid" alt="" autoPlay="true" controls="true" style={{width: '100%'}}/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="w3l-wecome-content-6">
+    <div class="ab-content-6-mian py-5">
         <div class="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div class="welcome-grids row">
                 <div class="col-lg-12 mb-lg-0 mb-5">

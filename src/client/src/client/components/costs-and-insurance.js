@@ -52,9 +52,6 @@ class WilCosts extends Component{
                         <p class="my-4">
                             If your organisation would like a student quickly, is long or short term, or is for a specific purpose not aligned to curriculum learning outcomes, your opportunity may be better considered as paid work. The Careers Service can help with advertising employment opportunities to our students.
                         </p>
-						<p class="my-4">
-							While work experience, volunteering and the like can be valuable to increase student employability skills, it is not work integrated learning. Work Integrated Learning - or WIL as we like to call it - is an umbrella term used to describe a range of approaches that integrate theory with the practice of work within a purposefully designed curriculum. That means, for it to be WIL, it needs to be part of a course or a graduation requirement of a program.
-						</p>
                         <hr class="text-center" style={{color: '#000', width: '90%'}} />
                         <h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What about insurance?</b></h6>
                         <p class="my-4">
@@ -63,7 +60,6 @@ class WilCosts extends Component{
                         <p class="my-4">
 						The University may provide the host organisation with a copy of the University's certificate of currency for a relevant insurance policy.
                         </p>
-                        <p class="my-4">To learn more about insurance for WIL, please read about the University's insurance<span class="fa fa-external-link"></span>.</p>
 					</div>
 				</div>
 			</div>

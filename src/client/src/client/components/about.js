@@ -151,7 +151,7 @@ class AboutUs extends Component{
 						<p style={{color: '#fff'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
-				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 0px 40px 0px'}}>
+				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
 					<h3 class="hny-title">VU at a Glance</h3>
 					<p>
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
