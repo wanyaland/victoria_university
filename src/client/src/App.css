@@ -7462,6 +7462,11 @@ mark,
     height: auto;
 }
 
+.img-fluid video{
+    max-width: 100%;
+    height: auto;
+}
+
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
@@ -17830,3 +17835,23 @@ background-color: #014e77;
     border-radius: 50%;
     text-align: center;
 }
+/* TESTIMONIES SLIDE */
+.testimonial_slides{
+    display: none;
+}
+.w3-content{
+    margin-left:auto;
+    margin-right:auto
+}
+.w3-content{
+    max-width:980px
+}
+.w3-animate-top{
+    position:relative;
+    animation:animatetop 0.8s
+}
+@keyframes animatetop{
+    from{top:-300px;opacity:0} 
+    to{top:0;opacity:1}
+}
+/* ///TESTIMONIES SLIDE */

@@ -42,12 +42,9 @@ class Wil extends Component{
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL works</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} class="text-left"></div>
 						<br/><br/>
-						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>What is WIL?</b></h6>
-						<p class="my-4" style={{fontSize: '24px'}}>Providing meaningful, hands-on workplace experience to enrich the theoretical learning of students and to enhance the employability of graduates is a key focus of our University.</p>
-						<p class="my-4">
-						Over the last decade, the number of Work Integrated Learning (WIL) opportunities offered by Victoria Universityhas increased substantially. We will continue our commitment to engage with our community and create career-ready graduates by growing the number and variety of WIL opportunities.
-						</p>
-						<p class="my-4">WIL opportunities are aligned with the curriculum of hundreds of courses offered by the University of Newcastle and are delivered at different times of the year.</p>
+						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>FACTS YOU NEED TO KNOW ABOUT VICTORIA UNIVERSITY</b></h6>
+						<p class="my-4" style={{fontSize: '24px'}}>At Victoria University we understand that good things happen when you’re outside yourcomfort zone, away from the classroom and beyond the textbooks. That’s why integrated practical experience is embedded into all of our degrees.</p>
+						<p class="my-4">Providing meaningful, hands-on workplace experience to enrich the theoretical learning of students and to enhance the employability of graduates is a key focus of our University.</p>
 						<div class="w3l-features-1">
 							<div class="features-1-mian py-5" style={{paddingBottom: '0rem !important', backgroundColor: '#FFF'}}>
 								<div class="container py-lg-5" style={{paddingBottom: '0rem !important', backgroundColor: '#FFF'}}>
@@ -60,33 +57,33 @@ class Wil extends Component{
 															<span class="counter">No.</span><span class="counter" data-TargetNum="1" data-Speed="2000">0</span>
 														</h6>
 													</div>
-													<p>university in Uganda for industry collaboration</p>
+													<p>University for industry collaboration. We are the leading university in Uganda and East Africa when it comes to Experiential Learning and Working Integrated Learning.</p>
 												</div>
 												<div class="counter-gd col-md-6 text-center">
 													<div id="counters_3">
 														<h6 class="titled">
-															<span class="counter" data-TargetNum="4000" data-Speed="2000">0</span><span>+</span>
+															<span class="counter" data-TargetNum="103" data-Speed="2000">0</span><span>+</span>
 														</h6>
 													</div>
-													<p>employer connections</p>
+													<p>We have over 103 Employer Connections and Partnerships.</p>
 												</div>
 											</div>
 											<div class="row">
 												<div class="counter-gd col-md-6 text-center">
 													<div id="counters_3">
 														<h6 class="titled">
-															<span class="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
+															<span class="counter" data-TargetNum="95" data-Speed="2000">0</span><span>%</span>
 														</h6>
 													</div>
-													<p>of our undergraduate graduates find employment within four months of graduating</p>
+													<p>of our Graduates find employment within 3 months of graduating</p>
 												</div>
 												<div class="counter-gd col-md-6 text-center">
 													<div id="counters_3">
 														<h6 class="titled">
-															<span class="counter" data-TargetNum="1000" data-Speed="2000">0</span><span>+</span>
+															<span class="counter" data-TargetNum="3000" data-Speed="2000">0</span><span>+</span>
 														</h6>
 													</div>
-													<p>Work Integrated Learning experiences delivered each year</p>
+													<p>3000 Work Integrated Learning Experiences: We are the only University with a program that is working to deliver 3000 Work Integrated Learning experiences to students in two years</p>
 												</div>
 											</div>
 										</div>
