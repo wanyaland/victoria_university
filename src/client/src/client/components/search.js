@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 
 
 class Search extends Component {
+    componentDidMount(){
+        
+    }
     render(){
         return(
             <React.Fragment>
@@ -25,11 +28,12 @@ class Search extends Component {
 		</div>
 	</div>
 </section>
+<button class="side_control_btn" onClick={this.openForm}><span class="fa fa-bars text-center justify-content-center" style={{fontSize: '30px'}}></span></button>
 <section class="w3l-team-main">
 	<div class="team py-5">
-		<div class="py-lg-5" >
-			<div class="justify-content-center"  style={{display: 'flex'}}>
-				<div class="col-lg-3 with_shadow">
+		<div class="container py-lg-5" style={{maxWidth: '100%'}}>
+			<div class="justify-content-center row"  style={{display: 'flex'}}>
+				<div class="col-lg-3 with_shadow side_control">
 					<div class="sidenavd">
                         <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
                             <li class="w3-display-container" style={{borderBottom: 'none'}}>Website Search<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
@@ -41,7 +45,7 @@ class Search extends Component {
 				</div>
 				<div class="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div class="col-lg-12 mb-lg-0 mb-5">
-                        <h6 class="hny-title" style={{fontSize: '48px', color: 'orange'}}>Website Search <button>Show/Hide</button></h6>
+                        <h6 class="hny-title" style={{fontSize: '48px', color: 'orange'}}>Website Search</h6>
                         <br/>
                         <form action="#" method="post" class="d-flex searchhny-form" style={{border: '#999 1px solid', paddingLeft: '10px'}}>
                             <input type="search" placeholder="Start Your Search" style={{color: '#000', width: '100%', border: 'none'}} required="required" />
