@@ -363,7 +363,24 @@ h3.hny-title.two {
 .button-4-pink:hover a {
     color: #fff;
 }
-
+/* SIDE_CONTROL */
+.side_control_btn {
+    background-color: #0077b5;
+    color: white;
+    padding: 0px 0px;
+    border-radius: 0% 10% 10% 0%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 53px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    display: none;
+}
+/* //SIDE_CONTROL */
 @media (max-width: 1280px) {
     h3.hny-title,
     h3.hny-title.two {
@@ -6014,6 +6031,12 @@ span.fa.fa-play {
     .discover{
         font-size: 70px;
     }
+    .side_control{
+        display: none;
+    }
+    .side_control_btn{
+        display: block;
+    }
 }
 
 .w3l-content-5 .content-5-main {
@@ -7244,6 +7267,10 @@ progress {
 [type="search"] {
     outline-offset: -2px;
     -webkit-appearance: none;
+}
+
+[type="search"]:focus{
+    border: none;
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -17836,9 +17863,9 @@ background-color: #014e77;
     text-align: center;
 }
 /* TESTIMONIES SLIDE */
-.testimonial_slides{
+/* .testimonial_slides{
     display: none;
-}
+} */
 .w3-content{
     margin-left:auto;
     margin-right:auto
@@ -17855,3 +17882,38 @@ background-color: #014e77;
     to{top:0;opacity:1}
 }
 /* ///TESTIMONIES SLIDE */
+/* .item-1, 
+.item-2, 
+.item-3 {
+	
+}
+ */
+.item-1{
+	animation-name: anim-1 0.8s;
+}
+
+.item-2{
+	animation-name: anim-2 0.8s;
+}
+
+.item-3{
+	animation-name: anim-3 0.8s;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Testimonies extends Component{
 	componentDidMount(){
-		var myIndex = 0;
+		/* var myIndex = 0;
 		carousel();
 
 		function carousel() {
@@ -15,7 +15,7 @@ class Testimonies extends Component{
 		if (myIndex > x.length) {myIndex = 1}    
 		x[myIndex-1].style.display = "block";  
 		setTimeout(carousel, 9000);    
-		}
+		} */
 	}
     render(){
         return(
@@ -29,7 +29,7 @@ class Testimonies extends Component{
 				</div>
 				<div class="mission-gd-right col-lg-6 pl-lg-4 testimonial_text">
 					<div class="w3-content w3-section">
-						<div class="testimonial_slides w3-animate-top">
+						<div class="testimonial_slides w3-animate-top item-1">
 							<p style={{color: '#FFF'}}>
 								<span class="fa fa-quote-left" style={{fontSize: '40px'}}></span>
 								<br/>
@@ -47,7 +47,7 @@ class Testimonies extends Component{
 								</div>
 							</p>
 						</div>
-						<div class="testimonial_slides w3-animate-top">
+						<div class="testimonial_slides w3-animate-top item-2">
 							<p style={{color: '#FFF'}}>
 								<span class="fa fa-quote-left" style={{fontSize: '40px'}}></span>
 								<br/>
@@ -58,13 +58,13 @@ class Testimonies extends Component{
 									<div class="course-divider">
 										<div class="course-meta" style={{color: '#FFF'}}>
 											&#126;&nbsp;<span style={{color: '#FFF'}}>ACHIENG SUZAN</span>&#44;&nbsp;
-											{/* <span class="overview" style={{color: '#FFF'}}>Bachelor Of Banking And Finance</span> */}
+											<span class="overview" style={{color: '#FFF'}}>Bachelor Of Business Administration</span>
 										</div>
 									</div>
 								</div>
 							</p>
 						</div>
-						<div class="testimonial_slides w3-animate-top">
+						<div class="testimonial_slides w3-animate-top item-3">
 							<p style={{color: '#FFF'}}>
 								<span class="fa fa-quote-left" style={{fontSize: '40px'}}></span>
 								<br/>
