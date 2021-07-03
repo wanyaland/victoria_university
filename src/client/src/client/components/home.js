@@ -132,7 +132,7 @@ class Home extends Component{
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><Link to="/programs">Online Education</Link></h6>
 						<span class="dot orange"></span>
-						<p><Link to="/admissions">Flexible Scheduling</Link></p>
+						<p><Link to="/admissions">Visit V-Class</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
@@ -145,7 +145,7 @@ class Home extends Component{
 					<div class="features-1-info-info text-center">
 						<h6 class="text-center"><Link to="/admissions">Admissions</Link></h6>
 						<span class="dot brown"></span>
-						<p><Link to='/requirements'>Requirements</Link></p>
+						<p><Link to='/requirements'>Facult-wise Admission Requirements</Link></p>
 						<p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p>
 					</div>
 					<div class="text-center smalldash brown_d"></div>

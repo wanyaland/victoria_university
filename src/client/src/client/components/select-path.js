@@ -28,7 +28,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Undergraduate</div><br/>
+							<div class="title_path">Undergraduate Programme</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -47,7 +47,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Postgraduate</div><br/>
+							<div class="title_path">Postgraduate Programme</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -66,7 +66,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Diploma</div><br/>
+							<div class="title_path">Diploma Programme</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -85,7 +85,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Foundation</div><br/>
+							<div class="title_path">Foundations</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
@@ -104,7 +104,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title title_path">Short Courses</div><br/>
+							<div class="title_path">Short Courses</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
