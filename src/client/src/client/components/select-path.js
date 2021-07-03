@@ -104,7 +104,7 @@ class SelectPath extends Component {
 								<img src="assets/images/fav.png" alt="Your logo" title="Your logo" class="path_img"/>
 							</div>
 							<br/>
-							<div class="title_path">Short Courses</div><br/>
+							<div class="title_path">Professional Developments</div><br/>
 							<div class="extra-dets">
 								<div class="text"><div class="text-center dets-text"></div><br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis	
 								</div>
