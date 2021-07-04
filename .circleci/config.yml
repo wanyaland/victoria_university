@@ -19,6 +19,30 @@ jobs:
             docker tag $IMAGE_NAME registry.heroku.com/$APP_NAME/web
             docker push registry.heroku.com/$APP_NAME/web
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
+  
+  build-prod:
+    machine: true
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Build Docker image
+          command: |
+            docker-compose -f src/docker-compose.dev.yaml up -d --build
+
+  deploy-prod:
+    machine: true
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00 
+      - run:
+          name: Deploy VU
+          command: |
+            docker-compose -f src/docker-compose.dev.yaml up -d --build
+
 
 workflows:
   build-deploy-dev:
@@ -28,3 +52,28 @@ workflows:
             branches:
               only:
                 - main
+      - build-prod:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+      - approve-prod:
+          type: approval
+          requires:
+            - build-prod
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+      - deploy-prod:
+          requires:
+            - approve-prod
+            - build-prod
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+          

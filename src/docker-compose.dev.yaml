@@ -1,25 +1,53 @@
-version: '3.2'
-services:
+version: '3.7'
+
+services: 
+    core:
+        build: ./app
+        command: python manage.py runserver 0.0.0.0:8000
+        volumes:
+            - ./app/:/usr/src/app
+        ports:
+            - 8000:8000
+        env_file:
+            - ./app/.env.dev
+        depends_on: 
+            - db
+    
+    db:
+        image: postgres:12-alpine
+        volumes:
+            - postgres_data:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=vu_user
+            - POSTGRES_PASSWORD=Pas55word!
+            - POSTGRES_DB=vu_dev
+    
+    db-test:
+        image: postgres:12-alpine
+        volumes:
+            - postgres_test_data:/var/lib/postgresql/data/
+        environment: 
+            - POSTGRES_USER=vu_user
+            - POSTGRES_PASSWORD=Pas55word!
+            - POSTGRES_DB=vu_dev
+
     client:
-        image: wanyaland/victoria_university:web
-        container_name: client
-        build:
+        build: 
             context: ./client
             dockerfile: Dockerfile
         volumes:
-            - './client/:/app'
-            - '/app/node_modules'
+            - './client/:/usr/src/app'
+            - '/usr/src/app/node_modules'
         ports:
-            - 3000:3000
-    nginx:
-        build:
-            context: ./nginx
-            dockerfile: Dockerfile
-        restart: always
-        ports:
-            - 80:80
-        depends_on:
-            - client  
+            - 3001:3000
+        environment: 
+            - NODE_ENV=development
+        depends_on: 
+            - core
+        
+volumes:
+    postgres_data:
+    postgres_test_data:
     
 
     
