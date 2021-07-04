@@ -78,7 +78,7 @@ jobs:
           name: Deploy 
           command: |
             chmod +x src/deploy_project.sh
-            scp  -o StrictHostKeyChecking=no -r src/app/.env src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/vitoria_university
+            scp  -o StrictHostKeyChecking=no -r src/app/.env src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university
             ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP “src/deploy_project.sh”
 
 
