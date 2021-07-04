@@ -9,7 +9,7 @@ environment:
 
 setup_env: &setup_env
   run:
-    name: setup env variables:
+    name: setup env variables
     command: |
       cd src/app
       echo DEBUG=0 >> .env
