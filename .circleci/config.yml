@@ -1,6 +1,33 @@
 
 version: 2.1
 
+environment:
+  IMAGE: wanyaland/victoria_university
+  WEB_IMAGE: $IMAGE:web
+  API_IMAGE: $IMAGE:api
+  NGINX_IMAGE: $IMAGE:nginx
+
+setup_env: &setup_env
+  run:
+    name: setup env variables:
+    command: |
+      cd src/app
+      echo DEBUG=0 >> .env
+      echo SQL_ENGINE=django.db.backends.postgresql >> .env
+      echo DATABASE=postgres >> .env
+      echo SECRET_KEY=$SECRET_KEY >> .env
+      echo SQL_DATABASE=$SQL_DATABASE >> .env
+      echo SQL_USER=$SQL_USER >> .env
+      echo SQL_PASSWORD=$SQL_PASSWORD >> .env
+      echo SQL_HOST=$SQL_HOST >> .env
+      echo SQL_PORT=$SQL_PORT >> .env
+
+login_docker: &login_docker
+    run:
+      name: Login Docker
+      command: |
+        docker login -u $DOCKER_USER -p $DOCKER_PASS
+
 jobs:
   build-deploy-dev:
     machine: true
@@ -25,10 +52,18 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - *setup_env
       - run:
           name: Build Docker image
           command: |
-            docker-compose -f src/docker-compose.prod.yaml up -d --build
+            docker login -u $DOCKER_USER -p $DOCKER_PASS
+            docker pull $IMAGE:web || true
+            docker pull $IMAGE:api || true
+            docker pull $IMAGE:nginx || true
+            docker-compose -f src/docker-compose.prod.yaml --build
+            docker push $IMAGE:web
+            docker push $IMAGE:api
+            docker push $IMAGE:nginx
 
   deploy-prod:
     machine: true
@@ -37,11 +72,14 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00 
+            - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00
+      - *setup_env
       - run:
           name: Deploy 
           command: |
-            ssh -oStrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP “src/deploy_project.sh”
+            chmod +x src/deploy_project.sh
+            scp  -o StrictHostKeyChecking=no -r src/app/.env src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/vitoria_university
+            ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP “src/deploy_project.sh”
 
 
 workflows:
