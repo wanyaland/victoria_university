@@ -60,7 +60,7 @@ jobs:
             docker pull $IMAGE:web || true
             docker pull $IMAGE:api || true
             docker pull $IMAGE:nginx || true
-            docker-compose -f src/docker-compose.prod.yaml --build
+            docker-compose -f src/docker-compose.prod.yaml build
             docker push $IMAGE:web
             docker push $IMAGE:api
             docker push $IMAGE:nginx
