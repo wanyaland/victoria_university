@@ -18,89 +18,89 @@ class NewsHub extends Component{
     render(){
         return(
             <React.Fragment>
-                <section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4">
-			<div class="row title-content">
-				<div class="col-lg-4 title-left">
-					<h4 class="hny-title">News From The Hub</h4>
+                <section className="w3-gallery">
+	<div className="porfolio-inf py-5">
+		<div className="container pt-lg-5 pb-lg-4">
+			<div className="row title-content">
+				<div className="col-lg-4 title-left">
+					<h4 className="hny-title">News From The Hub</h4>
 				</div>
 			</div>
 			<br />
 
-			<div class="row">
-				<div class="col-md-4 filter photo">
-					<div class="each-item">
-						<Link to="/news"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></Link>
+			<div className="row">
+				<div className="col-md-4 filter photo">
+					<div className="each-item">
+						<Link to="/news"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></Link>
 
 					</div>
-					<div class="course-content">
-						<div class="course-info">
-							<Link to="/news" class="course-titlegulp-wrapper">
-								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
+					<div className="course-content">
+						<div className="course-info">
+							<Link to="/news" className="course-titlegulp-wrapper">
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link>
-							<h6><a class="course-instructor" href="home">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</a></h6>
+							<h6><a className="course-instructor" href="home">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</a></h6>
 						</div>
-						<div class="course-divider">
-							<div class="course-meta"><span class="course-students" title=""><span
-										class="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
+						<div className="course-divider">
+							<div className="course-meta"><span className="course-students" title=""><span
+										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button class="price-course btn">More</button>
+							<button className="price-course btn">More</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4 filter graphic photo">
-					<div class="each-item">
-						<Link to="/news"><img class="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></Link>
+				<div className="col-md-4 filter graphic photo">
+					<div className="each-item">
+						<Link to="/news"><img className="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></Link>
 					</div>
-					<div class="course-content">
-						<div class="course-info">
-							<Link to="/news" class="course-title-wrapper">
-								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Best Performer 2021</h3>
+					<div className="course-content">
+						<div className="course-info">
+							<Link to="/news" className="course-title-wrapper">
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Best Performer 2021</h3>
 							</Link>
-							<h6><a class="course-instructor" href="home">Victoria University 5th Graduation 2021 Best Performer</a></h6>
+							<h6><a className="course-instructor" href="home">Victoria University 5th Graduation 2021 Best Performer</a></h6>
 						</div>
-						<div class="course-divider">
-							<div class="course-meta"><span class="course-students" title=""><span
-										class="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
+						<div className="course-divider">
+							<div className="course-meta"><span className="course-students" title=""><span
+										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button class="price-course btn">More</button>
+							<button className="price-course btn">More</button>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4 filter webdesign">
-					<div class="each-item">
-						<Link to="/news"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></Link>
+				<div className="col-md-4 filter webdesign">
+					<div className="each-item">
+						<Link to="/news"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></Link>
 					</div>
-					<div class="course-content">
-						<div class="course-info">
-							<Link to="/news" class="course-title-wrapper">
-								<h3 class="course-title" data-gal="prettyPhoto[gallery]">Feb-Mar 2021 Intake</h3>
+					<div className="course-content">
+						<div className="course-info">
+							<Link to="/news" className="course-title-wrapper">
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Feb-Mar 2021 Intake</h3>
 							</Link>
-							<h6><a class="course-instructor" href="home">Victoria University welcomes you all for our new semester that will start on 22nd March, 2021.</a></h6>
+							<h6><a className="course-instructor" href="home">Victoria University welcomes you all for our new semester that will start on 22nd March, 2021.</a></h6>
 						</div>
-						<div class="course-divider">
-							<div class="course-meta"><span class="course-students" title=""><span
-										class="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
+						<div className="course-divider">
+							<div className="course-meta"><span className="course-students" title=""><span
+										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button class="price-course btn">More</button>
+							<button className="price-course btn">More</button>
 						</div>
 					</div>
 				</div>
 			</div>
 			<br/>
-			<div class="text-right">
-				<p><Link class="logo-2" to="/news" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-					<span class="lohny-2"><span  id="iconner5" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">View all VU News</span>
+			<div className="text-right">
+				<p><Link className="logo-2" to="/news" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+					<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">View all VU News</span>
 					</Link>
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
-<hr class="text-center" style={{color:'#000', width: '90%'}}></hr>
+<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
             </React.Fragment>
         )
     }

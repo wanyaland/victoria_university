@@ -4,35 +4,35 @@ class BannerHome extends Component{
     render(){
         return(
 <React.Fragment>
-	<section class="w3l-banner-slider-main w3l-inner-page-main" id="">
-		<div class="w3l-banner-slider-main breadcrumb-infhny" style={{zIndex: '0'}}>
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					{/* <div class="carousel-item active">
-						<div class="container">
+	<section className="w3l-banner-slider-main w3l-inner-page-main" id="">
+		<div className="w3l-banner-slider-main breadcrumb-infhny" style={{zIndex: '0'}}>
+			<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+				<div className="carousel-inner">
+					{/* <div className="carousel-item active">
+						<div className="container">
 						</div>
 					</div>
-					<div class="carousel-item item2">
-						<div class="container">
+					<div className="carousel-item item2">
+						<div className="container">
 						</div>
 					</div>
-					<div class="carousel-item item3">
-						<div class="container">
+					<div className="carousel-item item3">
+						<div className="container">
 						</div>
 					</div>
-					<div class="carousel-item item4">
-						<div class="container">
+					<div className="carousel-item item4">
+						<div className="container">
 						</div>
 					</div> */}
-					<video src="assets/media/speech.mp4" class="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}}/>
+					<video src="assets/media/speech.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}}/>
 				</div>
-				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
+				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span className="sr-only">Previous</span>
 				</a>
-				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
+				<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span className="carousel-control-next-icon" aria-hidden="true"></span>
+					<span className="sr-only">Next</span>
 				</a>
 			</div>
 		</div>

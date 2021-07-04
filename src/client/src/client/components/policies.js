@@ -11,11 +11,11 @@ class Policies extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-                <section class="w3l-top-header-content">
-	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
-			<div class="container-fluid">
-				<div class="">
+                <section className="w3l-top-header-content">
+	<div className="hny-top-menu">
+		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
+			<div className="container-fluid">
+				<div className="">
 					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
@@ -26,21 +26,21 @@ class Policies extends Component{
 	</div>
 </section>
 <br/>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
+<section className="w3-gallery">
+	<div className="porfolio-inf py-5">
 	
-		<div class="container">
+		<div className="container">
 			<h2>Policies And Procedures</h2>
 		</div>
 	</div>
 </section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4 ">
+<section className="w3-gallery">
+	<div className="porfolio-inf py-5">
+		<div className="container pt-lg-5 pb-lg-4 ">
 		
-			<div class="row">
-				<div class="col-md-12 filter graphic">
-					<div class="each-item">
+			<div className="row">
+				<div className="col-md-12 filter graphic">
+					<div className="each-item">
 							<p>This website provides a central location for approved policies and procedures currently in effect. The policies and procedures available here, taken together, form the university's policy and procedure manual.Questions regarding content of a particular policy should be directed to the policy sponsor, as noted in the policy. Questions regarding the manual should be directed to the Policy Coordinator.</p>
 					</div>
 				</div>
@@ -48,21 +48,21 @@ class Policies extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3-gallery">
-	<div class="porfolio-inf py-5">
-		<div class="container pt-lg-5 pb-lg-4">
-			<div class="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
-				<li class="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Policy and Procedures Manuals</li>
+<section className="w3-gallery">
+	<div className="porfolio-inf py-5">
+		<div className="container pt-lg-5 pb-lg-4">
+			<div className="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
+				<li className="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Policy and Procedures Manuals</li>
 			</div>
 			<br />
 
-			<div class="row">
-				<div class="col-md-12 filter graphic photo">
-					<div class="each-item">
-						<li class="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="assets/docs/Sports scholarships policy final.pdf">Sports Scholarships Policy</a></li>
-						<li class="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
-						<li class="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
-						<li class="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
+			<div className="row">
+				<div className="col-md-12 filter graphic photo">
+					<div className="each-item">
+						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="assets/docs/Sports scholarships policy final.pdf">Sports Scholarships Policy</a></li>
+						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
+						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
+						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
 					</div>
 				</div>
 			</div>
