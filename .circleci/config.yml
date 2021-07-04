@@ -22,11 +22,6 @@ setup_env: &setup_env
       echo SQL_HOST=$SQL_HOST >> .env
       echo SQL_PORT=$SQL_PORT >> .env
 
-login_docker: &login_docker
-    run:
-      name: Login Docker
-      command: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASS
 
 jobs:
   build-deploy-dev:
@@ -78,7 +73,8 @@ jobs:
           name: Deploy 
           command: |
             chmod +x src/deploy_project.sh
-            scp  -o StrictHostKeyChecking=no -r src/app/.env src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university
+            scp  -o StrictHostKeyChecking=no -r src/app/.env src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university/src/app
+            scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yml $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university/src
             ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP “src/deploy_project.sh”
 
 
