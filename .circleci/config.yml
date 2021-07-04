@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            docker-compose -f src/docker-compose.dev.yaml up -d --build
+            docker-compose -f src/docker-compose.prod.yaml up -d --build
 
   deploy-prod:
     machine: true
@@ -41,7 +41,7 @@ jobs:
       - run:
           name: Deploy VU
           command: |
-            docker-compose -f src/docker-compose.dev.yaml up -d --build
+            docker-compose -f src/docker-compose.prod.yaml up -d --build
 
 
 workflows:
