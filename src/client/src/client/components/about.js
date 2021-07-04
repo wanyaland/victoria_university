@@ -39,12 +39,12 @@ class AboutUs extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
-			<section class="content2">
-<section class="w3l-top-header-content">
-	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
-			<div class="container-fluid">
-				<div class="">
+			<section className="content2">
+<section className="w3l-top-header-content">
+	<div className="hny-top-menu">
+		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
+			<div className="container-fluid">
+				<div className="">
 					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 						Home 
 					</span></Link>&nbsp;
@@ -54,19 +54,19 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-apply-6">
-	<div class="apply-info py-5">
-		<div class="container py-lg-5">
+<section className="w3l-apply-6">
+	<div className="apply-info py-5">
+		<div className="container py-lg-5">
 			<br/>
 			<br/>
 			<br/>
 			<br/>
-			<div class="">
-					<h4 class="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
+			<div className="">
+					<h4 className="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
 				</div>
-			<div class="apply-grids-info row">
-				<div class="row mt-lg-5 mt-4 col-md-12">
-					<div class="appyl-sub-icon-info text-center">
+			<div className="apply-grids-info row">
+				<div className="row mt-lg-5 mt-4 col-md-12">
+					<div className="appyl-sub-icon-info text-center">
 						<p>
 							Victoria University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover. We are Uganda’s most innovative university, you’ll be encouraged to take risks and challenge the status quo, to pursue an idea and disrupt industries.
 						</p>
@@ -76,58 +76,58 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-top-header-content" id="myHeader2" style={{zIndex: '1'}}>
-	<div class="hny-top-menu">
-		<div class="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>
-			<div class="container-fluid">
-				<div class="row">
-					<ol class="accounts col-md-12 justify-content-center">
-						<li class="breadcrumb-item" style={{color: '#000'}} title="Strategic Plan"><a href="#strategy"><span class="fa fa-gears about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">Strategic Plan</span></span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}} title="About Us"><a href="#about"><span class="fa fa-dot-circle-o about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">About Us</span></span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}} title="VU at a Glance"><a href="#glance"><span class="fa fa-photo about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">VU at a Glance</span></span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}} title="Accreditation"><a href="#credit"><span class="fa fa-cubes about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">Accreditation</span></span></a></li>
-						<li class="breadcrumb-item" style={{color: '#000'}} title="RISE - 5 year IT Strategy"><a href="#rise"><span class="fa fa-line-chart about-sub-items"></span><span class="titled4" style={{color: '#0077b5'}}><span class="text-hider">RISE - 5 year IT Strategy</span></span></a></li>
+<section className="w3l-top-header-content" id="myHeader2" style={{zIndex: '1'}}>
+	<div className="hny-top-menu">
+		<div className="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>
+			<div className="container-fluid">
+				<div className="row">
+					<ol className="accounts col-md-12 justify-content-center">
+						<li className="breadcrumb-item" style={{color: '#000'}} title="Strategic Plan"><a href="#strategy"><span className="fa fa-gears about-sub-items"></span><span className="titled4" style={{color: '#0077b5'}}><span className="text-hider">Strategic Plan</span></span></a></li>
+						<li className="breadcrumb-item" style={{color: '#000'}} title="About Us"><a href="#about"><span className="fa fa-dot-circle-o about-sub-items"></span><span className="titled4" style={{color: '#0077b5'}}><span className="text-hider">About Us</span></span></a></li>
+						<li className="breadcrumb-item" style={{color: '#000'}} title="VU at a Glance"><a href="#glance"><span className="fa fa-photo about-sub-items"></span><span className="titled4" style={{color: '#0077b5'}}><span className="text-hider">VU at a Glance</span></span></a></li>
+						<li className="breadcrumb-item" style={{color: '#000'}} title="Accreditation"><a href="#credit"><span className="fa fa-cubes about-sub-items"></span><span className="titled4" style={{color: '#0077b5'}}><span className="text-hider">Accreditation</span></span></a></li>
+						<li className="breadcrumb-item" style={{color: '#000'}} title="RISE - 5 year IT Strategy"><a href="#rise"><span className="fa fa-line-chart about-sub-items"></span><span className="titled4" style={{color: '#0077b5'}}><span className="text-hider">RISE - 5 year IT Strategy</span></span></a></li>
 					</ol>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="w3l-wecome-content-6" id="strategy">
-	  <div class="ab-content-6-mian py-5">
-			<div class="container py-lg-5">
-				<div class="welcome-grids row">
-					<div class="welcome-image">
-						<img src="assets/images/about_strategy.jpg" class="img-fluid" alt="" />
+<section className="w3l-wecome-content-6" id="strategy">
+	  <div className="ab-content-6-mian py-5">
+			<div className="container py-lg-5">
+				<div className="welcome-grids row">
+					<div className="welcome-image">
+						<img src="assets/images/about_strategy.jpg" className="img-fluid" alt="" />
 					</div>
 				</div>	
 			</div>
 		</div>
 </section>
-<section class="w3l-wecome-content-6" id="about">
-	  <div class="ab-content-6-mian py-5">
-			 <div class="container py-lg-5">
-					<div class="welcome-grids row">
-							<div class="col-lg-6 mb-lg-0 mb-5">
+<section className="w3l-wecome-content-6" id="about">
+	  <div className="ab-content-6-mian py-5">
+			 <div className="container py-lg-5">
+					<div className="welcome-grids row">
+							<div className="col-lg-6 mb-lg-0 mb-5">
 								<h6>About Us</h6>
-								<h3 class="hny-title">
+								<h3 className="hny-title">
 									Victoria University
 									</h3>
-								<p class="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
-								<p class="mb-4"></p>
+								<p className="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
+								<p className="mb-4"></p>
 								<br/>
 							</div>
-							<div class="col-lg-6 welcome-image">
-									<div class="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
-										<ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-										 	<li class="w3-display-container"><Link to="/governance"><span class="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-file"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link>
+							<div className="col-lg-6 welcome-image">
+									<div className="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
+										<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
+										 	<li className="w3-display-container"><Link to="/governance"><span className="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-file"></span>&nbsp;&nbsp;&nbsp;University Documents <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa fa-folder-open"></span>&nbsp;&nbsp;&nbsp;Policy Manuals <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link>
 											</li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
-											<li class="w3-display-container"><Link to="/governance"><span class="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Key Facts<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"><span class="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-lock"></span>&nbsp;&nbsp;&nbsp;Privacy - Brief Summary <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;Values <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Service Standards <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
+											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Key Facts<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
 										</ul>
 									</div>
 							</div>
@@ -135,12 +135,12 @@ class AboutUs extends Component{
 				 </div>
 			</div>
 </section>
-<section class="w3l-specification-6" id="glance">
-	<div class="specification-content py-5">
-		<div class="container py-lg-5" style={{maxWidth: '100%'}}>
-			<div class="mission-grids-info row" style={{display: 'flex'}}>
-				<div class="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
-					<div class="justify-content-end" style={{color: '#fff;'}}>
+<section className="w3l-specification-6" id="glance">
+	<div className="specification-content py-5">
+		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
+			<div className="mission-grids-info row" style={{display: 'flex'}}>
+				<div className="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
+					<div className="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
 						<p style={{color: '#fff'}}>Serves Over 40,000 Students</p>
 						<p style={{color: '#fff'}}>Employs Over 1000 Faculty and Staff Members</p>
@@ -151,15 +151,15 @@ class AboutUs extends Component{
 						<p style={{color: '#fff'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
 				</div>
-				<div class="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
-					<h3 class="hny-title">VU at a Glance</h3>
+				<div className="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
+					<h3 className="hny-title">VU at a Glance</h3>
 					<p>
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
 					<br/>
 					<p>
-						<Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-							<span class="lohny-2"><span id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn More About Victoria University</span>
+						<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+							<span className="lohny-2"><span id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About Victoria University</span>
 						</Link>	
 					</p>
 				</div>
@@ -167,21 +167,21 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-specification-6" id="credit">
-	<div class="specification-content py-5">
-		<div class="container py-lg-5">
-			<h3 class="hny-title text-center">Accreditation</h3>
-			<div class="mission-grids-info row">
-				<div class="mission-gd-right col-lg-6 pl-lg-4">
+<section className="w3l-specification-6" id="credit">
+	<div className="specification-content py-5">
+		<div className="container py-lg-5">
+			<h3 className="hny-title text-center">Accreditation</h3>
+			<div className="mission-grids-info row">
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
 					<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 			</div>
-				<div class="mission-gd-right col-lg-6 pl-lg-4">
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 				</div>
 			</div>
-			<p class="text-center">
-				<Link class="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-						<span class="lohny-2"><span id="iconner3" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span class="underline">Learn More About VU Accreditation</span>
+			<p className="text-center">
+				<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+						<span className="lohny-2"><span id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About VU Accreditation</span>
 				</Link>	
 			</p>
         </div>

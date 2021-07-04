@@ -29,57 +29,57 @@ class Home extends Component{
 		<BreadNavBar />
 		<NavBar />
 		<BannerHome />
-<section class="w3l-features-1">
-	<div class="features-1-mian py-5">
-		<div class="container py-lg-5">
-			<div class="row title-content">
+<section className="w3l-features-1">
+	<div className="features-1-mian py-5">
+		<div className="container py-lg-5">
+			<div className="row title-content">
 			</div>
-			<div class="counter-main-sec">
-				<div class="">
-					<h3 class="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span class="triangle-down text-center"></span></h3>
+			<div className="counter-main-sec">
+				<div className="">
+					<h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3>
 					<br/>
-					<h4 class="hny-title text-center" style={{color: '#002c44'}}>Victoria University</h4>
-					<div class="text-center longdash"></div>
+					<h4 className="hny-title text-center" style={{color: '#002c44'}}>Victoria University</h4>
+					<div className="text-center longdash"></div>
 				</div>
 				<br/>
 				<br/>
-				<div class="row">
-					<div class="counter-gd col-md-4 text-center">
-						<h4 class="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
+				<div className="row">
+					<div className="counter-gd col-md-4 text-center">
+						<h4 className="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
 						<div id="counters_3">
-							<h6 class="titled">
-								<span class="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
+							<h6 className="titled">
+								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>of employers say VU grads meet or exceed their expectations</p>
 					</div>
-					<div class="counter-gd col-md-4 text-center">
-						<h4 class="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
+					<div className="counter-gd col-md-4 text-center">
+						<h4 className="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
 						<div id="counters_3">
-							<h6 class="titled">
-								<span class="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
+							<h6 className="titled">
+								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>said VU graduates were well prepared for their jobs</p>
 					</div>
-					<div class="counter-gd col-md-4 text-center">
-						<h4 class="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
+					<div className="counter-gd col-md-4 text-center">
+						<h4 className="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
 						<div id="counters_3">
-							<h6 class="titled">
-								<span class="counter" data-TargetNum="96" data-Speed="2000">0</span><span>%</span>
+							<h6 className="titled">
+								<span className="counter" data-TargetNum="96" data-Speed="2000">0</span><span>%</span>
 							</h6>
 						</div>
 						<p>said they would hire another VU graduate</p>
 					</div>
 				</div>
 				<br/><br/>
-				<div class="text-center">
-					{/* <a class="logo-2" href="home.php">
-                        <h3 class="lohny-2 text-center" style={{color:'#0077b5'}}><span class="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
+				<div className="text-center">
+					{/* <a className="logo-2" href="home.php">
+                        <h3 className="lohny-2 text-center" style={{color:'#0077b5'}}><span className="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
 					</a> */}
                     <p>
-					<Link class="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-						<span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;&nbsp;&nbsp;</span><span class="underline">What Makes VU Unique</span>
+					<Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+						<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;&nbsp;&nbsp;</span><span className="underline">What Makes VU Unique</span>
 					</Link>
 					</p>   
 				</div>
@@ -88,98 +88,98 @@ class Home extends Component{
 		</div>
 	</div>
 </section>
-<section class="w3l-content-5">
-	<div class="content-5-main">
-		<div class="container">
-			<div class="content-info-in row">
-				<div class="content-gd col-lg-6">
-						<h3 class="discover">DISCOVER</h3>
+<section className="w3l-content-5">
+	<div className="content-5-main">
+		<div className="container">
+			<div className="content-info-in row">
+				<div className="content-gd col-lg-6">
+						<h3 className="discover">DISCOVER</h3>
 				</div>
 			</div>
-			<div class="content-info-in row">
+			<div className="content-info-in row">
 			</div>
 		</div>
 	</div>
 </section>
         <SelectPath />
 		<Testimonies />
-<section class="w3l-features-1">
-	<div class="features-1-mian py-5">
-		<div class="new_margin">
-			<h3 class="hny-title text-center" style={{color:'#0077b5', fontSize: '40px'}}>Maximize</h3>
-			<h4 class="hny-title text-center">Take Advantage Of VU's Offerings</h4>
+<section className="w3l-features-1">
+	<div className="features-1-mian py-5">
+		<div className="new_margin">
+			<h3 className="hny-title text-center" style={{color:'#0077b5', fontSize: '40px'}}>Maximize</h3>
+			<h4 className="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>
-			{/* <div class="text-center dashunder"></div> */}
+			{/* <div className="text-center dashunder"></div> */}
 		</div>
-		<div class="w3l-footer-16">
-			<div class="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
-				<ul class="social d-flex dotcontrol">
-					<li><a href="home" style={{backgroundColor: '#e6a329', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
-					<li><a href="home" style={{backgroundColor: '#9b6a6a', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
-					<li><a href="home" style={{backgroundColor: '#0077b5', height: '20px', width: '20px'}}>&nbsp;</a></li><hr class="dotconnect" />
+		<div className="w3l-footer-16">
+			<div className="col-md-8 mt-md-0 text-center justify-content-center dotcontrol">	
+				<ul className="social d-flex dotcontrol">
+					<li><a href="home" style={{backgroundColor: '#e6a329', height: '20px', width: '20px'}}>&nbsp;</a></li><hr className="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#9b6a6a', height: '20px', width: '20px'}}>&nbsp;</a></li><hr className="dotconnect" />
+					<li><a href="home" style={{backgroundColor: '#0077b5', height: '20px', width: '20px'}}>&nbsp;</a></li><hr className="dotconnect" />
 					<li><a href="home" style={{backgroundColor: '#b951ce', height: '20px', width: '20px'}}>&nbsp;</a></li>
 				</ul>
 			</div>
 		</div>
-		<div class="container py-lg-5">
-			<div class="row title-content">
+		<div className="container py-lg-5">
+			<div className="row title-content">
 			</div>
-			<div class="row grids-innf my-lg-5">
-				<div class="features-1-info col-lg-3 col-md-6">
-					<div class="features-1-info-icon text-center">
-						<span class="fa fa-graduation-cap circler circle1 orange_c"></span>
+			<div className="row grids-innf my-lg-5">
+				<div className="features-1-info col-lg-3 col-md-6">
+					<div className="features-1-info-icon text-center">
+						<span className="fa fa-graduation-cap circler circle1 orange_c"></span>
 					</div>
-					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><Link to="/programs">Online Education</Link></h6>
-						<span class="dot orange"></span>
+					<div className="features-1-info-info text-center">
+						<h6 className="text-center"><Link to="/programs">Online Education</Link></h6>
+						<span className="dot orange"></span>
 						<p><Link to="/admissions">Visit V-Class</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
-					<div class="text-center smalldash orange_d"></div>
+					<div className="text-center smalldash orange_d"></div>
 				</div>
-				<div class="features-1-info col-lg-3 col-md-6">
-					<div class="features-1-info-icon text-center">
-						<span class="fa fa-user circler circle2 brown_c"></span>
+				<div className="features-1-info col-lg-3 col-md-6">
+					<div className="features-1-info-icon text-center">
+						<span className="fa fa-user circler circle2 brown_c"></span>
 					</div>
-					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><Link to="/admissions">Admissions</Link></h6>
-						<span class="dot brown"></span>
+					<div className="features-1-info-info text-center">
+						<h6 className="text-center"><Link to="/admissions">Admissions</Link></h6>
+						<span className="dot brown"></span>
 						<p><Link to='/requirements'>Facult-wise Admission Requirements</Link></p>
 						<p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p>
 					</div>
-					<div class="text-center smalldash brown_d"></div>
+					<div className="text-center smalldash brown_d"></div>
 				</div>
-				<div class="features-1-info col-lg-3 col-md-6">
-					<div class="features-1-info-icon text-center">
-						<span class="fa fa-book circler circle3 blue_c"></span>
+				<div className="features-1-info col-lg-3 col-md-6">
+					<div className="features-1-info-icon text-center">
+						<span className="fa fa-book circler circle3 blue_c"></span>
 					</div>
-					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><Link to="/transfer-credit">Transfer Credit</Link></h6>
-						<span class="dot blue"></span>
+					<div className="features-1-info-info text-center">
+						<h6 className="text-center"><Link to="/transfer-credit">Transfer Credit</Link></h6>
+						<span className="dot blue"></span>
 						<p><Link to="/transfer-credit">Transfer to a VU program</Link></p>
 						<p><Link to="/admissions">Courses for other tuitions</Link></p>
 					</div>
-					<div  class="text-center smalldash blue_d"></div>
+					<div  className="text-center smalldash blue_d"></div>
 				</div>
-				<div class="features-1-info col-lg-3 col-md-6">
-					<div class="features-1-info-icon text-center">
-						<span class="fa fa-money circler circle3 purple_c"></span>
+				<div className="features-1-info col-lg-3 col-md-6">
+					<div className="features-1-info-icon text-center">
+						<span className="fa fa-money circler circle3 purple_c"></span>
 					</div>
-					<div class="features-1-info-info text-center">
-						<h6 class="text-center"><Link to="/tution-fees">Tution &amp; Fees</Link></h6>
-						<span class="dot purple"></span>
+					<div className="features-1-info-info text-center">
+						<h6 className="text-center"><Link to="/tution-fees">Tution &amp; Fees</Link></h6>
+						<span className="dot purple"></span>
 						<p><Link to="/tuition-fees">Calculate Fees</Link></p>
 						<p><Link to="/tuition-fees">Financial Aid</Link></p>
 					</div>
-					<div class="text-center smalldash purple_d"></div>
+					<div className="text-center smalldash purple_d"></div>
 				</div>
 			</div>
 			{/* First close */}
 			</div>
 	</div>
 </section>
-<hr class="text-center" style={{color:'#000', width: '90%'}}></hr>
+<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
 <NewsHub />
 <Events />
 <div className="marginize"></div>

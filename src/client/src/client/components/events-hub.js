@@ -23,11 +23,11 @@ class EventsHub extends Component{
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
-                <section class="w3l-top-header-content">
-		<div class="hny-top-menu">
-			<div class="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
-				<div class="container-fluid">
-					<div class="">
+                <section className="w3l-top-header-content">
+		<div className="hny-top-menu">
+			<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
+				<div className="container-fluid">
+					<div className="">
                         <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Home 
 					</span></Link>&nbsp;
@@ -39,199 +39,199 @@ class EventsHub extends Component{
 	</section>
     <br/>
 	<br/>
-    <section class="w3l-wecome-content-6">
-		<div class="ab-content-6-mian py-5">
-			<div class="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
-				<div class="welcome-grids row">
-					<div class="col-lg-12 mb-lg-0 mb-5">
-						<h6 class="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Upcoming Events</h6>
+    <section className="w3l-wecome-content-6">
+		<div className="ab-content-6-mian py-5">
+			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+				<div className="welcome-grids row">
+					<div className="col-lg-12 mb-lg-0 mb-5">
+						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Upcoming Events</h6>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-    <section class="w3l-wecome-content-6">
-        <div class="ab-content-6-mian py-5">
-            <div class="container py-lg-5">
-                <div class="welcome-grids row">
-                    <div class="col-lg-6 welcome-image">
-                        <img src="assets/images/ab.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-                        <div class="img-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis, cupiditate optio corrupti quis quam at!.</div>
-                        <div class="img-text-bottom-right"><span class="fa fa-calendar"></span></div>
+    <section className="w3l-wecome-content-6">
+        <div className="ab-content-6-mian py-5">
+            <div className="container py-lg-5">
+                <div className="welcome-grids row">
+                    <div className="col-lg-6 welcome-image">
+                        <img src="assets/images/ab.jpg" className="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
+                        <div className="img-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis, cupiditate optio corrupti quis quam at!.</div>
+                        <div className="img-text-bottom-right"><span className="fa fa-calendar"></span></div>
                     </div>
-                    <div class="col-lg-6 welcome-image">
-                        <img src="assets/images/ab.jpg" class="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
-                        <div class="img-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis, cupiditate optio corrupti quis quam at!.</div>
-                        <div class="img-text-bottom-right"><span class="fa fa-calendar"></span></div>
+                    <div className="col-lg-6 welcome-image">
+                        <img src="assets/images/ab.jpg" className="img-fluid" alt="" style={{filter: 'brightness(70%)'}}/>
+                        <div className="img-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi minima accusantium reiciendis, cupiditate optio corrupti quis quam at!.</div>
+                        <div className="img-text-bottom-right"><span className="fa fa-calendar"></span></div>
                     </div>
                 </div>	
             </div>
         </div>
     </section>
-    <section class="w3-gallery">
-        <div class="porfolio-inf py-5">
-            <div class="container pt-lg-5 pb-lg-4">
-                <div class="row">
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+    <section className="w3-gallery">
+        <div className="porfolio-inf py-5">
+            <div className="container pt-lg-5 pb-lg-4">
+                <div className="row">
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 filter photo">
-                        <div class="each-item">
-                            <a href="#home"><img class="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
+                    <div className="col-md-4 filter photo">
+                        <div className="each-item">
+                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
                         </div>
-                        <div class="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-                            <div class="course-info">
-                                <a href="#home" class="course-titlegulp-wrapper">
-                                    <h3 class="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
+                        <div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
+                            <div className="course-info">
+                                <a href="#home" className="course-titlegulp-wrapper">
+                                    <h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University is to hold it's 5th Graduation Ceremony on the 19th February 2021.</h3>
                                 </a>
-                                <h6><a class="course-instructor" href="#home">Faculty of medicine</a></h6>
+                                <h6><a className="course-instructor" href="#home">Faculty of medicine</a></h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-right">
-                    <p><Link class="logo-2" to="/events-hub" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <span class="lohny-2"><span  id="iconner" class="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" class="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span class="underline">See all recent posts</span>
+                <div className="text-right">
+                    <p><Link className="logo-2" to="/events-hub" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">See all recent posts</span>
                         </Link>
                     </p>
                 </div>
