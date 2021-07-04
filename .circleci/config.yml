@@ -39,11 +39,9 @@ jobs:
           fingerprints:
             - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00 
       - run:
-          name: Deploy VU
+          name: Deploy 
           command: |
-            sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-            sudo chmod +x /usr/local/bin/docker-compose
-            docker-compose -f src/docker-compose.prod.yaml up -d --build
+            ssh -oStrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP “src/deploy_project.sh”
 
 
 workflows:
