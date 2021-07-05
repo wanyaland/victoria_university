@@ -130,9 +130,9 @@ class Home extends Component{
 						<span className="fa fa-graduation-cap circler circle1 orange_c"></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><Link to="/programs">Online Education</Link></h6>
+						<h6 className="text-center">Online Education</h6>
 						<span className="dot orange"></span>
-						<p><Link to="/admissions">Visit V-Class</Link></p>
+						<p><Link to="/vclass">Visit V-Class</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>

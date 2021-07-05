@@ -79,7 +79,7 @@ class Research extends Component {
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Overview</h6>
 						<br/>
-						<p className="my-4" style={{fontSize: '22px'}}>Victoria University is a Comprehensive Alberta Research University (CARU) committed to the highest professional standards of scholarly research and research ethics. AU's research includes a wide range of creative and innovative scholarly activity.</p>
+						<p className="my-4" style={{fontSize: '22px'}}>Victoria University is a Comprehensive Alberta Research University (CARU) committed to the highest professional standards of scholarly research and research ethics. VU's research includes a wide range of creative and innovative scholarly activity.</p>
 						<p className="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more: all of our over 850 courses are available to our students even without being enrolled in an VU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both Canadian and international candidates.</p>
 						<p className="my-4">
 							<h4>Our areas of research</h4>

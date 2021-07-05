@@ -99,14 +99,14 @@ class Glance extends Component {
                     <br/>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;AU students come from every Canadian province and territory and 87 countries worldwide.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU students come from every Canadian province and territory and 87 countries worldwide.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The average undergraduate is 27; the average graduate student, 35.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;73 per cent work while they study.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Percentage of students who are women: 65% (Undergraduate) & 74% (Graduate)</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;70 per cent of graduates are the first in their family to earn a university degree.</li>
                         </ul>
                     </p>
-                    <p className="my-4">Many students enrolled at other post-secondary institutions make extensive use of AU's courses and educational services to help them complete their degrees. These visiting students take VU courses for transfer to an academic program at their home institution. Still others take VU courses out of personal interest or for professional development.</p>
+                    <p className="my-4">Many students enrolled at other post-secondary institutions make extensive use of VU's courses and educational services to help them complete their degrees. These visiting students take VU courses for transfer to an academic program at their home institution. Still others take VU courses out of personal interest or for professional development.</p>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@ class Glance extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Institutional learning outcomes</h6>
                     <br/>
-                    <p className="my-4">The Victoria University experience represents a rigorous, high quality university education accessible for adult learners worldwide. To help students achieve their transfer and occupational goals VU has adopted the national learning outcomes at the bachelor, masters and doctoral levels described in the Canadian Degree Qualifications Framework <span className="fa fa-file-pdf-o"></span>.</p>
+                    <p className="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on: <span className="fa fa-file-pdf-o"></span>.</p>
                 </div>
             </div>
         </div>

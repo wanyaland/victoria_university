@@ -221,6 +221,8 @@ body img {
 .extra-dets{
     top: 10%;
     position: relative;
+    border: orange 1px solid;
+    font-size: 15px;
 }
 .dets-text{
     width:15%;
@@ -236,10 +238,10 @@ body img {
     position: relative;
 }
 .path_img{
-    height:100px;
-    background-color: #EEE;
+    height:70px;
+    background-color: #dbdbdb;
     border-radius: 49%;
-    padding: 10px;
+    padding: 5px;
 }
 .path_pointer{
     font-size: 40px;
@@ -254,6 +256,7 @@ body img {
     position: relative;
 }
 .title_path{
+    margin-top: 10px;
     left: 0%;
     position: relative;
     font-weight: 600;
@@ -17914,3 +17917,23 @@ background-color: #014e77;
     to{top:0;opacity:1}
 }
 /* ///TESTIMONIES SLIDE */
+/* pay btn */
+.open-pay {
+    background-color: #024569;
+    color: white;
+    padding: 0px 0px;
+    border-radius: 10% 0% 0% 10%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 110px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+  }
+  .open-pay span{
+      font-size: 30px;
+  }
+/* //pay btn */
