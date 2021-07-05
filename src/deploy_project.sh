@@ -7,5 +7,5 @@ ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP << 'ENDSSH'
   docker pull $IMAGE:web
   docker pull $IMAGE:api
   docker pull $IMAGE:nginx
-  docker-compose -f src/docker-compose.prod.yml up -d
+  docker-compose -f src/docker-compose.prod.yaml up -d
 ENDSSH
