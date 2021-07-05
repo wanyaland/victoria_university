@@ -64,7 +64,7 @@ class Governing extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Governance</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '28px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Alberta Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
+                    <p className="my-4" style={{fontSize: '25px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Alberta Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                     <p className="my-4" style={{fontSize: '18px'}}>The University Secretariat provides support for all areas of the Board and GFC, enabling both bodies (and their respective standing committees) to govern the institution in an efficient and effective manner.</p>
                     <p>
                         <Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
@@ -138,7 +138,7 @@ class Governing extends Component{
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>Our I-CARE values</h6>
-                                    <p className="my-4">The students and staff of Athabasca University hold a set of complementary values that are fundamental to Athabasca University's identity and functioning.</p>
+                                    <p className="my-4">The students and staff of  VictoriaUniversity hold a set of complementary values that are fundamental to  VictoriaUniversity's identity and functioning.</p>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
                                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diversity</li>
@@ -173,7 +173,7 @@ class Governing extends Component{
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
-                                        The Athabasca University Policy and Procedures Manual, the official source for AU's policies, is a public document maintained and issued by the Office of the University Secretariat. Unless otherwise noted, policies apply to all units under AU's jurisdiction, whether they are located in Athabasca, Edmonton, Calgary or an off-site location.</p>
+                                        The  VictoriaUniversity Policy and Procedures Manual, the official source for VU's policies, is a public document maintained and issued by the Office of the University Secretariat. Unless otherwise noted, policies apply to all units under VU's jurisdiction, whether they are located in  Victoria, Edmonton, Calgary or an off-site location.</p>
                                         <p className="my-4">The Office of the University Secretariat considers the online, published version of all policies and procedures as part of the Policy and Procedures Manual to be the official records
                                         </p>
                                         <p>
@@ -200,7 +200,7 @@ class Governing extends Component{
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-                                        <p className="my-4">If you have credentials from an institution outside of Canada or the United States and you would like VU to consider them for transfer credit, you need to have an assessment done through an international assessment agency.</p>
+                                        <p className="my-4">If you have credentials from an institution outside of Uganda and you would like VU to consider them for transfer credit, you need to have an assessment done through an international assessment agency.</p>
                                     </div>
                                 </div>	
                                 <br/>
@@ -238,7 +238,7 @@ class Governing extends Component{
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-                                        <p className="my-4"><b style={{fontSize: '18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;I want to take an online program. Can I get a study permit for entry into Canada?</p>
+                                        <p className="my-4"><b style={{fontSize: '18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;I want to take an online program. Can I get a study permit for entry into Uganda?</p>
                                     </div>
                                 </div>	
                                 <br/>

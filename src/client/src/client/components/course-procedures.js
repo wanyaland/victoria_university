@@ -64,7 +64,7 @@ class CourseProcedures extends Component {
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Course Procedures</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '28px'}}>
-                        Following the correct process and timelines for registering in, withdrawing from and extending your courses will help keep your AU experience running smoothly.
+                        Following the correct process and timelines for registering in, withdrawing from and extending your courses will help keep your VUexperience running smoothly.
                     </p>
                 </div>
             </div>

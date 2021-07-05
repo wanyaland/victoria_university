@@ -73,7 +73,7 @@ class NavBar extends Component{
 										<Link to="/student-guidelines" className="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
 										<Link to="/transfer-credit" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exemption and Transfer Credit</Link>
 										<Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link>
-										<Link to="/tuition-fees" className="text-left" style={{color: '#888', fontWeight: '700'}}>Tuition, Fees and Financial Aid</Link>
+										<Link to="/tuition-fees" className="text-left" style={{color: '#888', fontWeight: '700'}}>Tuition and Fees</Link>
 										<Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
 									</div>
 								</li>

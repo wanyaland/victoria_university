@@ -171,19 +171,224 @@ class Partners extends Component {
                     <br/>
                 </div>
             </div>
-            {/* <hr className="text-center" style={{color: '#000', width: '100%'}} />
+            <hr className="text-center" style={{color: '#000', width: '100%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '36px', color: '#004063'}}>Institutional alliances</h6>
                     <p className="my-4" style={{fontSize: '18px'}}>We maintain additional educational or research agreements with the following institutions and organizations:</p>
-                    <ul style={{listStyle: 'none'}}>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;Access Media Group&nbsp;&nbsp;<a href="home" rel="noreferrer" target="_blank" style={{color: '#025683'}}><span className="fa fa-external-link"></span></a></li>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;Access Media Group&nbsp;&nbsp;<a href="home" rel="noreferrer" target="_blank" style={{color: '#025683'}}><span className="fa fa-external-link"></span></a></li>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;Access Media Group&nbsp;&nbsp;<a href="home" rel="noreferrer" target="_blank" style={{color: '#025683'}}><span className="fa fa-external-link"></span></a></li>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;Access Media Group&nbsp;&nbsp;<a href="home" rel="noreferrer" target="_blank" style={{color: '#025683'}}><span className="fa fa-external-link"></span></a></li>
-                    </ul>
+                    <div className="container py-lg-5">
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/1.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/2.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/3.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/4.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/5.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/6.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/7.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/8.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/9.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/10.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/11.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/12.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/13.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/14.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/15.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/16.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/17.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/18.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/19.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/20.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/21.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/22.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/23.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/24.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/25.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/26.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/27.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/28.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/29.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/30.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/31.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/32.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/33.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/34.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/35.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/36.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/37.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/38.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/39.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> */}
+            </div>
         </div>
 	</div>
 </section>

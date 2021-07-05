@@ -9,6 +9,9 @@ class Footer extends Component{
     openForm(){
         document.getElementById("myForm").style.display = "block";
     }
+    payed(){
+        window.location.href = "https://payments.pesapal.com/victoriauniversity";
+    }
     render(){
         return(
             <React.Fragment>
@@ -56,7 +59,8 @@ class Footer extends Component{
     <button onClick={this.topFunction} id="movetop" title="Go to top">
         <span className="fa fa-angle-up"></span>
     </button>
-    <button className="open-button" onClick={this.openForm}><span className="fa fa-comments text-center justify-content-center" title="Chat And Help"></span></button>
+    <button className="open-button" onClick={this.openForm}><span className="fa fa-comments text-center justify-content-center" title="Chat And Help" style={{display: 'flex', alignItems: 'center'}}></span></button>
+    <button className="open-pay" onClick={this.payed}><span className="fa fa-credit-card text-center justify-content-center" title="Make Payment"></span></button>
 </section>
             </React.Fragment>
         )

@@ -28,7 +28,7 @@ class Testimonies extends Component{
 					<p><h5 className="hny-title" style={{color: '#FFF', fontSize: '40px'}}>What Our Students Say</h5></p>
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4 testimonial_text">
-					<div className="w3-content w3-section">
+					{/* <div className="w3-content w3-section"> */}
 					<div id="myCarousel" className="carousel slide" data-ride="carousel">
 						<div className="carousel-inner">
 							<div className="carousel-item active testimonial_slides w3-animate-top">
@@ -83,7 +83,6 @@ class Testimonies extends Component{
 									</div>
 								</p>
 							</div>
-						</div>
 						</div>
 					</div>		
 				</div>

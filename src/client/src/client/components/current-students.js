@@ -173,7 +173,7 @@ class CurrentStudents extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Find Help</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>
-                        No matter where you are in your AU experience, we’re here to help you along the way.
+                        No matter where you are in your VUexperience, we’re here to help you along the way.
                     </p>
                     <p>
                     <Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>

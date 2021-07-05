@@ -172,12 +172,12 @@ class AboutUs extends Component{
 		<div className="container py-lg-5">
 			<h3 className="hny-title text-center">Accreditation</h3>
 			<div className="mission-grids-info row">
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
-			</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
+				<div className="mission-gd-right col-lg-12 pl-lg-12 text-center">
+					<p>Victoria University is acredited by the National Council For Higher education</p>
 				</div>
+				{/* <div className="mission-gd-right col-lg-6 pl-lg-4">
+						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
+				</div> */}
 			</div>
 			<p className="text-center">
 				<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>

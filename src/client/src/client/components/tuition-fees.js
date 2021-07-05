@@ -63,40 +63,48 @@ class Tuition extends Component {
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container">
-			<h3 className="hny-title text-left" style={{color: 'orangered'}}>Tuition, Fees and Financial Aid</h3>
+			<h3 className="hny-title text-left" style={{color: 'orange'}}>Tuition and Fees</h3>
 		</div>
 		<div className="container py-lg-5">
 			<div className="row grids-innf my-lg-5">
-				<div className="features-1-info col-lg-3 col-md-6">
+				{/* <div className="features-1-info col-lg-3 col-md-6">
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-vcard" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><a href="#home">Online tuition and fee assesment</a></h6>
 					</div>
-				</div>
-				<div className="features-1-info col-lg-3 col-md-6">
+				</div> */}
+				<div className="features-1-info col-lg-4 col-md-6">
 					<div className="features-1-info-icon text-center">
-						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
+						<span className="fa fa-credit-card" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><a href="#home">Fee payment</a></h6>
 					</div>
 				</div>
-				<div className="features-1-info col-lg-3 col-md-6">
+				{/* <div className="features-1-info col-lg-3 col-md-6">
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-money" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><a href="#home">Financial aid</a></h6>
 					</div>
-				</div>
-				<div className="features-1-info col-lg-3 col-md-6">
+				</div> */}
+				<div className="features-1-info col-lg-4 col-md-6">
 					<div className="features-1-info-icon text-center">
-						<span className="fa fa-credit-card" style={{color: '#0077b5', fontSize: '47px'}}></span>
+						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><a href="#home">Calculate undergraduate course fees</a></h6>
+					</div>
+				</div>
+                <div className="features-1-info col-lg-4 col-md-6">
+					<div className="features-1-info-icon text-center">
+						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
+					</div>
+					<div className="features-1-info-info text-center">
+						<h6 className="text-center"><a href="#home">Calculate postgraduate course fees</a></h6>
 					</div>
 				</div>
 			</div>
