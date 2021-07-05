@@ -1,12 +1,6 @@
 
 version: 2.1
 
-environment:
-  IMAGE: wanyaland/victoria_university
-  WEB_IMAGE: $IMAGE:web
-  API_IMAGE: $IMAGE:api
-  NGINX_IMAGE: $IMAGE:nginx
-
 setup_env: &setup_env
   run:
     name: setup env variables
@@ -56,6 +50,7 @@ jobs:
             docker pull $IMAGE:api || true
             docker pull $IMAGE:nginx || true
             docker-compose -f src/docker-compose.prod.yaml build
+            docker ps 
             docker push $IMAGE:web
             docker push $IMAGE:api
             docker push $IMAGE:nginx
