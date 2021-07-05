@@ -2,7 +2,7 @@
 
 ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP << 'ENDSSH'
   cd /home/circleci/victoria_university
-  export $(cat src/app/.env.dev | xargs)
+  export $(cat src/app/.env | xargs)
   docker login -u $DOCKER_USER -p $DOCKER_PASS
   docker pull $IMAGE:web
   docker pull $IMAGE:api
