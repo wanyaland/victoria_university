@@ -15,6 +15,7 @@ setup_env: &setup_env
       echo SQL_PASSWORD=$SQL_PASSWORD >> .env
       echo SQL_HOST=$SQL_HOST >> .env
       echo SQL_PORT=$SQL_PORT >> .env
+      echo DJANGO_ALLOWED_HOSTS=$ALLOWED_HOSTS >> .env
 
 
 jobs:
