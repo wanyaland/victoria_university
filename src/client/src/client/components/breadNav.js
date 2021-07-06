@@ -27,13 +27,13 @@ class BreadNavBar extends Component {
 							<li className="fonted"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <Link to="/apply" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></Link></li>
 						</ul>
 						<ul className="accounts col-md-5">
-							<li className="top_li"><a href="home">Staff</a></li>
-							<li className="top_li"><Link to="/alumni">Alumni</Link></li>
-							<li className="top_li"><Link to="/news">News</Link></li>
-							<li className="top_li"><Link to="/events-hub">Events</Link></li>
-							<li className="top_li"><Link to="/careers">Career</Link></li>
-							<li className="top_li"><a href="home">Gallery</a></li>
-							<li className="top_li"><a href="home">Life At VU</a></li>
+							<li className="top_li underline"><Link to="/staff">Staff</Link></li>
+							<li className="top_li underline"><Link to="/alumni">Alumni</Link></li>
+							<li className="top_li underline"><Link to="/news">News</Link></li>
+							<li className="top_li underline"><Link to="/events-hub">Events</Link></li>
+							<li className="top_li underline"><Link to="/careers">Career</Link></li>
+							<li className="top_li underline"><a href="home">Gallery</a></li>
+							<li className="top_li underline"><a href="home">Life At VU</a></li>
 						</ul>
 					</div>
 				</div>

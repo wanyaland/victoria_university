@@ -60,7 +60,7 @@ class Footer extends Component{
         <span className="fa fa-angle-up"></span>
     </button>
     <button className="open-button" onClick={this.openForm}><span className="fa fa-comments text-center justify-content-center" title="Chat And Help" style={{display: 'flex', alignItems: 'center'}}></span></button>
-    <button className="open-pay" onClick={this.payed}><span className="fa fa-credit-card text-center justify-content-center" title="Make Payment"></span></button>
+    <button className="open-pay" onClick={this.payed}><span style={{color: '#FFF'}}>Pay</span></button>
 </section>
             </React.Fragment>
         )

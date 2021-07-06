@@ -82,7 +82,7 @@ class Glance extends Component {
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU offers over 850 courses in more than 55 undergraduate and graduate programs in a range of arts, science and professional disciplines.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU has a $130 million annual operating budget.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU employs over 1,000 faculty and staff members on four Alberta, Canada, campuses located in Victoria, St. Albert, Edmonton and Calgary.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU maintains over 350 collaborative agreements with other Canadian and international post-secondary institutions, with professional associations and employer groups and with First Nations institutions and communities.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU maintains over 350 collaborative agreements with other  Ugandan and international post-secondary institutions, with professional associations and employer groups and with First Nations institutions and communities.</li>
                         </ul>
                     </p>
                 </div>
@@ -99,14 +99,13 @@ class Glance extends Component {
                     <br/>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU students come from every Canadian province and territory and 87 countries worldwide.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The average undergraduate is 27; the average graduate student, 35.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;73 per cent work while they study.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Percentage of students who are women: 65% (Undergraduate) & 74% (Graduate)</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;70 per cent of graduates are the first in their family to earn a university degree.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU is the No. 1 University for industry collaboration. We are the leading university in Uganda and East Africa when it comes to Experiential Learning and Working Integrated Learning.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;We have over 103 Employer Connections and Partnerships.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;95% of our Graduates find employment within 3 months of graduating</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;3000 Work Integrated Learning Experiences: We are the only University with a program that is working to deliver 3000 Work Integrated Learning experiences to students in two years</li>
                         </ul>
                     </p>
-                    <p className="my-4">Many students enrolled at other post-secondary institutions make extensive use of VU's courses and educational services to help them complete their degrees. These visiting students take VU courses for transfer to an academic program at their home institution. Still others take VU courses out of personal interest or for professional development.</p>
+                    <p className="my-4">While work experience, volunteering and the like can be valuable to increase student employability skills, it is not work integrated learning. Work Integrated Learning - or WIL as we like to call it - is an umbrella term used to describe a range of approaches that integrate theory with the practice of work within a purposefully designed curriculum. That means, for it to be WIL, it needs to be part of a course or a graduation requirement of a program.</p>
                 </div>
             </div>
         </div>
@@ -119,7 +118,7 @@ class Glance extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Institutional learning outcomes</h6>
                     <br/>
-                    <p className="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on: <span className="fa fa-file-pdf-o"></span>.</p>
+                    <p className="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on.</p>
                 </div>
             </div>
         </div>

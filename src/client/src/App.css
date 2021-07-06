@@ -56,6 +56,17 @@ button,
 body img {
     border-radius: 0px;
 }
+.img-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
 .topper{
     margin-top: -25%;
 }
@@ -146,7 +157,7 @@ body img {
 }
 .topprog{
     border-radius: 25%;
-    color: #0077b5;
+    color: #8a8c8d;
     border: #0077b5 10px solid;
     padding: 15px;
 }
@@ -221,8 +232,10 @@ body img {
 .extra-dets{
     top: 10%;
     position: relative;
-    border: orange 1px solid;
-    font-size: 15px;
+    /* border: orange 1px solid; */
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000;
 }
 .dets-text{
     width:15%;
@@ -250,6 +263,7 @@ body img {
     margin: 0 auto;
     border-radius: 55%;
     text-align: center;
+    position: relative;
 }
 .img_pos{
     top: 1.8%;
@@ -260,6 +274,8 @@ body img {
     left: 0%;
     position: relative;
     font-weight: 600;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px #000;
 }
 /* //SELECT PATH */
 /* TOOLTIP */
@@ -5806,6 +5822,46 @@ span.fa.fa-play {
         top:18%;
         left: 49%;
     }
+    .path_point1{
+        top:50%;
+        left: 0%;
+    }
+    .path_point2{
+        top:50.3%;
+        left: 0%;
+    }
+    .path_point3{
+        top:54%;
+        left: 0%;
+    }
+    .path_point4{
+        top:41.8%;
+        left: 0%;
+    }
+    .path_point5{
+        top:54%;
+        left: 0%;
+    }
+    .ext-1{
+        top:45%;
+        left: 0%;
+    }
+    .ext-2{
+        top:45%;
+        left: 0%;
+    }
+    .ext-3{
+        top:48.8%;
+        left: 0%;
+    }
+    .ext-4{
+        top:36.5%;
+        left: 0%;
+    }
+    .ext-5{
+        top:49%;
+        left: 0%;
+    }
 }
 @media screen and (max-width: 1600px) {
     .pathdots{
@@ -5833,6 +5889,46 @@ span.fa.fa-play {
     .triangle-down{
         top:18%;
         left: 49%;
+    }
+    .path_point1{
+        top:32%;
+        left: 0%;
+    }
+    .path_point2{
+        top:38%;
+        left: 0%;
+    }
+    .path_point3{
+        top:37.2%;
+        left: 0%;
+    }
+    .path_point4{
+        top:22%;
+        left: 0%;
+    }
+    .path_point5{
+        top:38%;
+        left: 0%;
+    }
+    .ext-1{
+        top:5%;
+        left: 0%;
+    }
+    .ext-2{
+        top:45%;
+        left: 0%;
+    }
+    .ext-3{
+        top:48.8%;
+        left: 0%;
+    }
+    .ext-4{
+        top:36.5%;
+        left: 0%;
+    }
+    .ext-5{
+        top:49%;
+        left: 0%;
     }
 }
 @media screen and (max-width: 1600px) {
@@ -5862,6 +5958,46 @@ span.fa.fa-play {
         top:18%;
         left: 49%;
     }
+    .path_point1{
+        top:32%;
+        left: 0%;
+    }
+    .path_point2{
+        top:38%;
+        left: 0%;
+    }
+    .path_point3{
+        top:37.2%;
+        left: 0%;
+    }
+    .path_point4{
+        top:22%;
+        left: 0%;
+    }
+    .path_point5{
+        top:38%;
+        left: 0%;
+    }
+    .ext-1{
+        top:28%;
+        left: 0%;
+    }
+    .ext-2{
+        top:32%;
+        left: 0%;
+    }
+    .ext-3{
+        top:32%;
+        left: 0%;
+    }
+    .ext-4{
+        top:16%;
+        left: 0%;
+    }
+    .ext-5{
+        top:32%;
+        left: 0%;
+    }
 }
 @media screen and (max-width: 1366px) {
     .pathdots{
@@ -5889,6 +6025,46 @@ span.fa.fa-play {
     .triangle-down{
         top:18%;
         left: 49%;
+    }
+    .path_point1{
+        top:6.5%;
+        left: 0%;
+    }
+    .path_point2{
+        top:20.3%;
+        left: 0%;
+    }
+    .path_point3{
+        top:26%;
+        left: 0%;
+    }
+    .path_point4{
+        top:1.7%;
+        left: 0%;
+    }
+    .path_point5{
+        top:13%;
+        left: 0%;
+    }
+    .ext-1{
+        top:4%;
+        left: 0%;
+    }
+    .ext-2{
+        top:11%;
+        left: 0%;
+    }
+    .ext-3{
+        top:11%;
+        left: 0%;
+    }
+    .ext-4{
+        top:0%;
+        left: 0%;
+    }
+    .ext-5{
+        top:4%;
+        left: 0%;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -6068,6 +6244,46 @@ span.fa.fa-play {
     }
     .side_control_btn{
         display: block;
+    }
+    .path_point1{
+        top:53%;
+        left: 0%;
+    }
+    .path_point2{
+        top: 57%;
+        left: 0%;
+    }
+    .path_point3{
+        top:56%;
+        left: 0%;
+    }
+    .path_point4{
+        top: 49%;
+        left: 0%;
+    }
+    .path_point5{
+        top:56.5%;
+        left: 0%;
+    }
+    .ext-1{
+        top:48%;
+        left: 0%;
+    }
+    .ext-2{
+        top:54%;
+        left: 0%;
+    }
+    .ext-3{
+        top:53%;
+        left: 0%;
+    }
+    .ext-4{
+        top:46%;
+        left: 0%;
+    }
+    .ext-5{
+        top:54%;
+        left: 0%;
     }
 }
 
@@ -17929,7 +18145,7 @@ background-color: #014e77;
     position: fixed;
     bottom: 110px;
     right: 0px;
-    width: 50px;
+    width: 60px;
     height: 50px;
     z-index: 1000;
   }

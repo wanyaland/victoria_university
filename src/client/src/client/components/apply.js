@@ -233,7 +233,7 @@ class Apply extends Component{
 									<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
 										<p className="my-4">All undergraduate programs have continuous enrolment – you can start registering for courses as soon as you finish your application. Many undergraduate programs are open admission, but some do have specific entry requirements. Visit our programs page to find out what's needed for your program of interest.</p>
                                         <h6 className="hny-tile" style={{color: '#06547e', fontSize: '24px'}}>About ApplyAlberta</h6>
-                                        <p className="my-4">AU is a part of the ApplyAlberta system. When you apply to an VU program, you’ll start and finish your application with us. In between, you’ll use ApplyAlberta - no matter what country or Canadian province you are from - to enter your personal and academic information and send us any required documents you may have. Want to know more?</p>
+                                        <p className="my-4">AU is a part of the ApplyAlberta system. When you apply to an VU program, you’ll start and finish your application with us. In between, you’ll use ApplyAlberta - no matter what country or  Ugandan province you are from - to enter your personal and academic information and send us any required documents you may have. Want to know more?</p>
                                         <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<b style={{fontWeight:'600'}}>Learn About ApplyAlberta</b>&nbsp;&nbsp;<span className="fa fa-external-link"></span></p>
                                         <p className="my-4">First to get started:</p>
                                         <p className="my-4"><span>1.</span>Choose your program . Be sure to note the number of years (if applicable) and your major – you’ll need this detailed information for step 3 below.
@@ -512,8 +512,7 @@ class Apply extends Component{
                             <span className="fa fa-globe" style={{color: '#0077b5', fontSize: '90px'}}></span>
                         </div>
                         <div className="features-1-info-info text-center">
-                            <h6 className="text-center">(+256) 200 405 433 (international) or (+256) 200 405 433 (toll-free in Uganda.)
-                                Fax: (+256) 200 405 433</h6>
+                            <h6 className="text-center">+256 759 996 130 or 256 700 300 088 or +256 707 780 158</h6>
                         </div>
                         <br/>
                     </div>
