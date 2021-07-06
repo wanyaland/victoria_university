@@ -34,13 +34,16 @@ class Testimonies extends Component{
 							<div className="carousel-item active testimonial_slides w3-animate-top">
 								<p style={{color: '#FFF'}}>
 									<span className="fa fa-quote-left" style={{fontSize: '40px'}}></span>
-									<br/>
-									I have been a student at Victoria University for 2years and from what I have experienced. I can tell you it is a great institution. The lecturers are very reasonable and fair. The staff is excellent and the rules help to keep the institution in order. There is an equal balance of learning and reviewing information so that everyone gets what is to be done and there’s tutoring if we need it. 
-									I like the fact that Victoria University has many activities for students for example sports, talk shows, faculty seminars, one on ones with artists in the entertainment industry and students are able to show case talents. Everyone at Victoria University is destined for a great future. 
+									<br/>I have been a student at Victoria University for the last two years, and I can assure you that I have had a great experience.<br/>
+										This is a great university. The lecturers are very reasonable and fair. The support staff is excellent. We also have a great regulatory system, which promotes creativity and acceptance in the divergence in views; for all of us to contribute to solutions daily.<br/>
+										We have student-centered education in this university, and we just do not sit back to take notes from lectures. We also have practical or call it authentic learning; which allows us to practically try out what we study in class, daily. Why would this be impossible, when the founders of this university, as the leaders in business in this country, with a chain of companies and partnerships?<br/>
+										Apart from academics, we are involved in sports and entertainment. We have vast access to entertainment, political, and media celebrities since some of them are our fellow students.<br/>
+										Everyone at Victoria University is destined for a great future.
 									<br/>
 									<br/>
 									<div className="course-content">
 										<div className="course-divider">
+											<div class="img-box"><img src="assets/images/test1.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
 												&#126;&nbsp;<span style={{color: '#FFF'}}>NALUGYA VICTORIA</span>&#44;&nbsp;
 												{/* <span className="overview" style={{color: '#FFF'}}>Bachelor Of Banking And Finance</span> */}
@@ -58,6 +61,7 @@ class Testimonies extends Component{
 									<br/>
 									<div className="course-content">
 										<div className="course-divider">
+											<div class="img-box"><img src="assets/images/test2.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
 												&#126;&nbsp;<span style={{color: '#FFF'}}>ACHIENG SUZAN</span>&#44;&nbsp;
 												<span className="overview" style={{color: '#FFF'}}>Bachelor Of Business</span>
@@ -75,6 +79,7 @@ class Testimonies extends Component{
 									<br/>
 									<div className="course-content">
 										<div className="course-divider">
+											<div class="img-box"><img src="assets/images/test3.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
 												&#126;&nbsp;<span style={{color: '#FFF'}}>SANDRA ALAKA</span>&#44;&nbsp;
 												<span className="overview" style={{color: '#FFF'}}>Bachelor in science of Oil and Gas Accounting</span>

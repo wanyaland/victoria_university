@@ -512,8 +512,7 @@ class Apply extends Component{
                             <span className="fa fa-globe" style={{color: '#0077b5', fontSize: '90px'}}></span>
                         </div>
                         <div className="features-1-info-info text-center">
-                            <h6 className="text-center">(+256) 200 405 433 (international) or (+256) 200 405 433 (toll-free in Uganda.)
-                                Fax: (+256) 200 405 433</h6>
+                            <h6 className="text-center">+256 759 996 130 or 256 700 300 088 or +256 707 780 158</h6>
                         </div>
                         <br/>
                     </div>

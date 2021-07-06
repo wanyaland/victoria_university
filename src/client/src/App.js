@@ -39,6 +39,7 @@ import HowWilWorks from './client/components/how-wil-works';
 import Benefits from './client/components/benefits';
 import WilHallOfFame from './client/components/wil-hall-of-fame'
 import Vclass from './client/components/vclass';
+import ProgIndex from './client/components/prog-index';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -86,6 +87,7 @@ const App = () => (
         <Route exact path="/benefits" component={Benefits} />
         <Route exact path="/wil-hall-of-fame" component={WilHallOfFame} />
         <Route exact path="/vclass" component={Vclass} />
+        <Route exact path="/prog-index" component={ProgIndex} />
       </Switch>
     </Router>
 
