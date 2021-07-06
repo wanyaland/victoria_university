@@ -395,7 +395,7 @@ class TransferCredit extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize:'40px'}}>Transfer VU credit to another institution</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Many Canadian post-secondaries have transfer agreements with Victoria University that grant credit for most of our courses. However, we can’t guarantee acceptance of your VU credit. The decision to accept transfer courses is made by the institution you’re applying to, and you should contact them with any questions or concerns.</p>
+                    <p className="mb-4" style={{fontSize: '18px'}}>Many  Ugandan post-secondaries have transfer agreements with Victoria University that grant credit for most of our courses. However, we can’t guarantee acceptance of your VU credit. The decision to accept transfer courses is made by the institution you’re applying to, and you should contact them with any questions or concerns.</p>
                     <p><Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner17", "iconner18")} onMouseOut={this.change_icon2.bind(this, "iconner17", "iconner18")}>
                         <span className="lohny-2"><span  id="iconner17" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner18" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Learn more about transferring VU courses</span>
                         </Link>

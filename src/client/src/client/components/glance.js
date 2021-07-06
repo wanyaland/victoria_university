@@ -82,7 +82,7 @@ class Glance extends Component {
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU offers over 850 courses in more than 55 undergraduate and graduate programs in a range of arts, science and professional disciplines.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU has a $130 million annual operating budget.</li>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU employs over 1,000 faculty and staff members on four Alberta, Canada, campuses located in Victoria, St. Albert, Edmonton and Calgary.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU maintains over 350 collaborative agreements with other Canadian and international post-secondary institutions, with professional associations and employer groups and with First Nations institutions and communities.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU maintains over 350 collaborative agreements with other  Ugandan and international post-secondary institutions, with professional associations and employer groups and with First Nations institutions and communities.</li>
                         </ul>
                     </p>
                 </div>
