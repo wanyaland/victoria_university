@@ -45,8 +45,10 @@ class Testimonies extends Component{
 										<div className="course-divider">
 											<div class="img-box"><img src="assets/images/test1.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
-												&#126;&nbsp;<span style={{color: '#FFF'}}>NALUGYA VICTORIA</span>&#44;&nbsp;
-												{/* <span className="overview" style={{color: '#FFF'}}>Bachelor Of Banking And Finance</span> */}
+												<span style={{color: '#FFF'}}>Name: NALUGYA VICTORIA</span>&#44;&nbsp;<br/>
+												<span className="overview" style={{color: '#FFF'}}>Registration No.: VU-DBF-1809-0039</span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Course: </span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Year of study: Year II (2021)</span>
 											</div>
 										</div>
 									</div>
@@ -63,8 +65,10 @@ class Testimonies extends Component{
 										<div className="course-divider">
 											<div class="img-box"><img src="assets/images/test2.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
-												&#126;&nbsp;<span style={{color: '#FFF'}}>ACHIENG SUZAN</span>&#44;&nbsp;
-												<span className="overview" style={{color: '#FFF'}}>Bachelor Of Business</span>
+												<span style={{color: '#FFF'}}>Name: ACHIENG SUZAN</span>&#44;&nbsp;<br/>
+												<span className="overview" style={{color: '#FFF'}}>Registration No.: VU-BBA-1909-0087</span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Course: Bachelor Of Business Administration</span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Year of study: Year II (2021)</span>
 											</div>
 										</div>
 									</div>
@@ -81,8 +85,11 @@ class Testimonies extends Component{
 										<div className="course-divider">
 											<div class="img-box"><img src="assets/images/test3.jpg" alt=""/></div>
 											<div className="course-meta" style={{color: '#FFF'}}>
-												&#126;&nbsp;<span style={{color: '#FFF'}}>SANDRA ALAKA</span>&#44;&nbsp;
-												<span className="overview" style={{color: '#FFF'}}>Bachelor in science of Oil and Gas Accounting</span>
+												<span style={{color: '#FFF'}}>Name: SANDRA ALAKA</span>&#44;&nbsp;
+												<br/>
+												<span className="overview" style={{color: '#FFF'}}>Registration No.: </span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Course: Bachelor in science of Oil and Gas Accounting</span><br/>
+												<span className="overview" style={{color: '#FFF'}}>Year of study: Year III (2021)</span>
 											</div>
 										</div>
 									</div>

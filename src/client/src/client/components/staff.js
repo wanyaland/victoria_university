@@ -49,7 +49,7 @@ class Staff extends Component {
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Employee Information</h6>
                     <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Institutional learning outcomes</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University is a public research university specializing in online and distance learning. VU operates under the province of Alberta, offering university education to over 40,000 students a year.
+                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University is a public research university specializing in online and distance learning, offering university education to over 40,000 students a year.
                     </p>
                     <p><Link className="logo-2" to="/careers" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Career opportunities</span>

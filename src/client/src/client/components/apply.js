@@ -232,9 +232,9 @@ class Apply extends Component{
 								<div className="col-lg-12 welcome-image">
 									<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
 										<p className="my-4">All undergraduate programs have continuous enrolment – you can start registering for courses as soon as you finish your application. Many undergraduate programs are open admission, but some do have specific entry requirements. Visit our programs page to find out what's needed for your program of interest.</p>
-                                        <h6 className="hny-tile" style={{color: '#06547e', fontSize: '24px'}}>About ApplyAlberta</h6>
-                                        <p className="my-4">AU is a part of the ApplyAlberta system. When you apply to an VU program, you’ll start and finish your application with us. In between, you’ll use ApplyAlberta - no matter what country or  Ugandan province you are from - to enter your personal and academic information and send us any required documents you may have. Want to know more?</p>
-                                        <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<b style={{fontWeight:'600'}}>Learn About ApplyAlberta</b>&nbsp;&nbsp;<span className="fa fa-external-link"></span></p>
+                                        <h6 className="hny-tile" style={{color: '#06547e', fontSize: '24px'}}>About Apply</h6>
+                                        <p className="my-4">VU is a part of the Apply system. When you apply to an VU program, you’ll start and finish your application with us. In between, you’ll use Apply - no matter what country or  Ugandan province you are from - to enter your personal and academic information and send us any required documents you may have. Want to know more?</p>
+                                        <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<b style={{fontWeight:'600'}}>Learn About Apply</b>&nbsp;&nbsp;<span className="fa fa-external-link"></span></p>
                                         <p className="my-4">First to get started:</p>
                                         <p className="my-4"><span>1.</span>Choose your program . Be sure to note the number of years (if applicable) and your major – you’ll need this detailed information for step 3 below.
                                         </p>
@@ -242,11 +242,11 @@ class Apply extends Component{
                                         </p>
                                         <p className="my-4">You are now ready to become an VU student and receive an VU student ID number, and apply to an undergraduate program.</p>
                                         <p className="my-4">&emsp;<span>1.</span> &nbsp;Fill out the Undergraduate General Application  and select the "Yes, I am applying to a specific program." option.</p>
-                                        <p className="my-4">&emsp;<span>2.</span> &nbsp;Continue to the ApplyAlberta site. Learn more about the ApplyAlberta application process .</p>
-                                        <p className="my-4">&emsp;<span>3.</span> &nbsp;ApplyAlberta will return you to the VU site. Complete the rest of the application.</p>
-                                        <p className="my-4">&emsp;<span>4.</span> &nbsp;Pay the one-time general application fee  and the evaluation fee (if applicable). Be sure to have your official transcripts sent to VU if ApplyAlberta was unable to forward them automatically.</p>
+                                        <p className="my-4">&emsp;<span>2.</span> &nbsp;Continue to the Apply site. Learn more about the Apply application process .</p>
+                                        <p className="my-4">&emsp;<span>3.</span> &nbsp;Apply will return you to the VU site. Complete the rest of the application.</p>
+                                        <p className="my-4">&emsp;<span>4.</span> &nbsp;Pay the one-time general application fee  and the evaluation fee (if applicable). Be sure to have your official transcripts sent to VU if Apply was unable to forward them automatically.</p>
                                         <p className="my-4">&emsp;<span>5.</span> &nbsp;Write down your VU student ID number at the end of the application process. Your ID number will also appear on your printed or e-mailed receipt if you choose one of those options.</p>
-                                        <p className="my-4">&emsp;<span>6.</span> &nbsp;Be sure to have your official transcripts sent directly to AU, if ApplyAlberta was unable to forward them automatically. Also, arrange to submit any other required supporting documents, that pertain to your application, to the Office of the Registrar.</p>
+                                        <p className="my-4">&emsp;<span>6.</span> &nbsp;Be sure to have your official transcripts sent directly to AU, if Apply was unable to forward them automatically. Also, arrange to submit any other required supporting documents, that pertain to your application, to the Office of the Registrar.</p>
                                         <p className="my-4">&emsp;<span>7.</span> &nbsp;For the next steps review the section Register for courses - Program students</p>
                                         <p>
                                             <Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
