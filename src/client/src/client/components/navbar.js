@@ -82,9 +82,9 @@ class NavBar extends Component{
 									<div id="current-students" className="dropdown-contenter">
 										<Link to="/current-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
 										<Link to="/new-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
-										<Link to="/student-guidelines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
+										<Link to="/course-offering" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
 										<Link to="/myvu-student-portal" className="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
-										<Link to="/course-procedures" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course proceduress</Link>
+										{/* <Link to="/course-procedures" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course proceduress</Link> */}
 										<Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
 										<Link to="/exams" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
 										<Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>

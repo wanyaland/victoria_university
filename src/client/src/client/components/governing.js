@@ -138,7 +138,7 @@ class Governing extends Component{
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>Our I-CARE values</h6>
-                                    <p className="my-4">The students and staff of  VictoriaUniversity hold a set of complementary values that are fundamental to  VictoriaUniversity's identity and functioning.</p>
+                                    <p className="my-4">The students and staff of  VictoriaUniversity hold a set of complementary values that are fundamental to  Victoria University's identity and functioning.</p>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
                                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diversity</li>
@@ -173,7 +173,7 @@ class Governing extends Component{
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
-                                        The  VictoriaUniversity Policy and Procedures Manual, the official source for VU's policies, is a public document maintained and issued by the Office of the University Secretariat. Unless otherwise noted, policies apply to all units under VU's jurisdiction, whether they are located in  Victoria, Edmonton, Calgary or an off-site location.</p>
+                                        The  Victoria University Policy and Procedures Manual, the official source for VU's policies, is a public document maintained and issued by the Office of the University Secretariat. Unless otherwise noted, policies apply to all units under VU's jurisdiction.</p>
                                         <p className="my-4">The Office of the University Secretariat considers the online, published version of all policies and procedures as part of the Policy and Procedures Manual to be the official records
                                         </p>
                                         <p>
@@ -195,7 +195,7 @@ class Governing extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Service standards<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Service standards<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -204,7 +204,7 @@ class Governing extends Component{
                                     </div>
                                 </div>	
                                 <br/>
-                            </div>
+                            </div> */}
                             <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Key Facts<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
@@ -233,7 +233,7 @@ class Governing extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Related Links<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Related Links<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -242,7 +242,7 @@ class Governing extends Component{
                                     </div>
                                 </div>	
                                 <br/>
-                            </div>
+                            </div> */}
                         </ul>
                     </div>
                 </div>

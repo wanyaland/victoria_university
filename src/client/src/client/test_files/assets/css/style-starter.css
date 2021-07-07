@@ -17280,6 +17280,14 @@ background-color: #014e77;
     padding: 15px;
     -webkit-box-shadow: 1px 1px 8px 1px #788891c7; 
     box-shadow: 1px 1px 8px 1px #788891c7;
+    margin-left: 2rem;
+}
+.prog_results{
+    background-color:#fff;
+    padding: 8px;
+    -webkit-box-shadow: 1px 1px 4px 1px #788891c7; 
+    box-shadow: 1px 1px 4px 1px #788891c7;
+    margin: 0rem auto;
 }
 .more_results {
     background-color: #FFF;
