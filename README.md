@@ -1,19 +1,16 @@
 
+[![CircleCI](https://circleci.com/gh/wanyaland/victoria_university.svg?style=svg)](https://circleci.com/gh/wanyaland/victoria_university)
 # Victoria University Web Application
 
-## Dependencies
-- docker-compose
+Victoria University Web application - Version II
 
-## Development
-## Leverage docker-compose to spin up services
-```bash
-cd src
-docker-compose -f docker-compose.dev.yaml up -d --build --remove-orphans
-```
-Ensure docker service is up and running
-`docker ps`
+## Backend
 
+- Django
+- Django Rest Framework
+- Django CMS
 
-On dev setup run `localhost` and verify frontend (react)
-## Production
+## Frontend
+- React
+
 
