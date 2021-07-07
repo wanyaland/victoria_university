@@ -97,7 +97,7 @@ class SelectPath extends Component {
 								</div>
 								<div className="title_path">Professional Developments</div><br/>
 								<div className="extra-dets ext-5">
-									<div className="text"><div className="text-center dets-text"></div> Join one of our proffessional development courses and learn new and verifiable skills for your career.</div>
+									<div className="text"><div className="text-center dets-text"></div> Join one of our professional development courses and learn new and verifiable skills for your career.</div>
 								</div>
 								<div className="fa fa-angle-right path_pointer path_point5 red_d" style={{fontSize: '40px'}}></div>
 							</div>

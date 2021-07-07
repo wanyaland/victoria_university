@@ -5999,6 +5999,74 @@ span.fa.fa-play {
         left: 0%;
     }
 }
+@media screen and (max-width: 1440px) {
+    .pathdots{
+        top: -1.4%;
+        left: 47.7%;
+    }
+    .pathdots_round{
+        top: -3.7%;
+        left: 44%;
+    }
+    .path_stick{
+        top: 2%;
+        left: 2%;
+    }
+    .img_pos{
+        top: 3%;
+        left: 2%;
+    }
+    .title_path{
+        left: 1%;
+    }
+    .extra-dets{
+        top:5%;
+    }
+    .triangle-down{
+        top:18%;
+        left: 49%;
+    }
+    .path_point1{
+        top:24.4%;
+        left: 0%;
+    }
+    .path_point2{
+        top:30.3%;
+        left: 0%;
+    }
+    .path_point3{
+        top:30.3%;
+        left: 0%;
+    }
+    .path_point4{
+        top:7%;
+        left: 0%;
+    }
+    .path_point5{
+        top:30.3%;
+        left: 0%;
+    }
+    .ext-1{
+        top:22%;
+        left: 0%;
+    }
+    .ext-2{
+        top:27.5%;
+        left: 0%;
+    }
+    .ext-3{
+        top:27.5%;
+        left: 0%;
+    }
+    .ext-4{
+        top: 5%;
+        left: 0%;
+    }
+    .ext-5{
+        top:27.5%;
+        left: 0%;
+    }
+}
 @media screen and (max-width: 1366px) {
     .pathdots{
         top: -2%;
