@@ -76,15 +76,7 @@ class Glance extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>The university</h6>
                     <br/>
-                    <p className="my-4">
-                        <ul style={{listStyle: 'none'}}>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU serves over 40,000 students (over 7,800 full-load equivalents).</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU offers over 850 courses in more than 55 undergraduate and graduate programs in a range of arts, science and professional disciplines.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU has a $130 million annual operating budget.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU employs over 1,000 faculty and staff members.</li>
-                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;VU maintains over 350 collaborative agreements with other  Ugandan and international post-secondary institutions, with professional associations and employer groups and with First Nations institutions and communities.</li>
-                        </ul>
-                    </p>
+                    <p className="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
                 </div>
             </div>
         </div>

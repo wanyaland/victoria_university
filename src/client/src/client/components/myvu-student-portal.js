@@ -64,7 +64,7 @@ class Myvustudentportal extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>myVU & Student Record</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University’s student portal is named myAU. This is where you will access all of your course sites, and where you will manage your courses, your program and your Student Record.
+                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University’s student portal is named  myVU. This is where you will access all of your course sites, and where you will manage your courses, your program and your Student Record.
                     </p>
                 </div>
             </div>
@@ -92,7 +92,7 @@ class Myvustudentportal extends Component{
                         You need your student ID number and password to access myVU.
                     </p>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner","iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner","iconner2")}>
-                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp; <span className="underline">Log in to myAU</span>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp; <span className="underline">Log in to  myVU</span>
                         </span>
                         </Link>
                     </p>
@@ -109,7 +109,7 @@ class Myvustudentportal extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Lost password or student ID</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>If you have forgotten your myAU password, fill out the password change form <span className="fa fa-external-link"></span>. You will need your student ID number. You can also find a link to the password change form on your myAV login page <span className="fa fa-external-link"></span>.</p>
+                    <p className="mb-4" style={{fontSize: '18px'}}>If you have forgotten your  myVU password, fill out the password change form <span className="fa fa-external-link"></span>. You will need your student ID number. You can also find a link to the password change form on your myAV login page <span className="fa fa-external-link"></span>.</p>
                     <p className="my-4">After you complete the password change form, you must answer your challenge question. Once you have answered it, you will be able to choose a new password.</p>
                     <p className="my-4">If you need to retrieve your student ID, call the Information Centre at 1-800-788-9041.</p>
                 </div>

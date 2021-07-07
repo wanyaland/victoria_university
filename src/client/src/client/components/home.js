@@ -170,7 +170,7 @@ class Home extends Component{
 						<h6 className="text-center"><Link to="/tution-fees">Tuition &amp; Fees</Link></h6>
 						<span className="dot purple"></span>
 						<p><Link to="/tuition-fees">Calculate Fees</Link></p>
-						<p><Link to="/tuition-fees">Fees and tution payment</Link></p>
+						<p><Link to="/tuition-fees">Fees and tuition payment</Link></p>
 					</div>
 					<div className="text-center smalldash purple_d"></div>
 				</div>

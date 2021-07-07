@@ -98,7 +98,7 @@ class Exams extends Component{
                         You need your student ID number and password to access myVU.
                     </p>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to myAU</span>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to  myVU</span>
                         </span>
                         </Link>
                     </p>
@@ -140,8 +140,8 @@ class Exams extends Component{
                     <p className="mb-4" style={{fontSize: '18px'}}>All exam deadlines are based on your course contract end date, which can be viewed in myVU by selecting ‘Check your course status’ in the Manage Your Courses section.</p>
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Request deadlines</h6>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;You can request your exam date anytime, but to avoid a late exam request fee, you must request before the following deadlines:</p>
-                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;outside of Canada and the U.S. – 30 days before scheduled write date</p>
-                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;inside Canada and the U.S. – 20 days before scheduled write date</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;outside of Uganda – 30 days before scheduled write date</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;inside Uganda. – 20 days before scheduled write date</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;to write at an VU location – 10 days before scheduled write date
                         (If you would like to write your exam the last week of the month, it is recommended you book a month in advance as timeslots close to the end of the month are in higher demand.)
                     </p>
@@ -246,7 +246,7 @@ class Exams extends Component{
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Invigilation network</h6>
                     <br/>
                     <p className="mb-4">VU has established a Uganda-wide examination invigilation network <span className="fa fa-external-link"></span> to help students write their exams. If you live within 100 km of an approved VUexamination centre, you must write your exam at one of the centres.</p>
-                    <p className="my-4">If you live outside of Canada, contact examunit@vu.ac.ug for help finding an invigilator in your area.</p>
+                    <p className="my-4">If you live outside of Uganda, contact examunit@vu.ac.ug for help finding an invigilator in your area.</p>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
                         <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Find an invigilator</span></span>
                         </Link>
