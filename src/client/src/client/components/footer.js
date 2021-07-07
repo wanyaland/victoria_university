@@ -12,6 +12,9 @@ class Footer extends Component{
     payed(){
         window.location.href = "https://payments.pesapal.com/victoriauniversity";
     }
+    apply(){
+        window.location.href = "apply";
+    }
     render(){
         return(
             <React.Fragment>
@@ -61,6 +64,7 @@ class Footer extends Component{
     </button>
     <button className="open-button" onClick={this.openForm}><span className="fa fa-comments text-center justify-content-center" title="Chat And Help" style={{display: 'flex', alignItems: 'center'}}></span></button>
     <button className="open-pay" onClick={this.payed}><span style={{color: '#FFF'}}>Pay</span></button>
+    <button className="open-apply" onClick={this.apply}><span style={{color: '#FFF'}}>Apply Now</span></button>
 </section>
             </React.Fragment>
         )

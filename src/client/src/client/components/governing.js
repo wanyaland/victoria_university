@@ -64,7 +64,7 @@ class Governing extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Governance</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '25px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Alberta Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
+                    <p className="my-4" style={{fontSize: '25px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Uganda Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                     <p className="my-4" style={{fontSize: '18px'}}>The University Secretariat provides support for all areas of the Board and GFC, enabling both bodies (and their respective standing committees) to govern the institution in an efficient and effective manner.</p>
                     <p>
                         <Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>

@@ -202,46 +202,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Travel tips and frequently asked questions<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid;'}}>
-									<br/>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-											<p className="my-4"><b style={{fontSize:'18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;I want to take an online program. Can I get a study permit for entry into Uganda?</p>
-                                            <p className="my-4"><b style={{fontWeight: '600', color: 'orchid'}}>A:</b>&nbsp;&nbsp;No. Distance education (online) does not require you to be in Uganda. According to IRCC regulations, a study permit can’t be issued for distance education (online) courses or programs.</p>
-                                            <p className="my-4">&nbsp;&nbsp;Online programs can be taken from anywhere in the world without ever having to travel to Uganda.</p>
-                                            <p className="my-4"><b style={{fontSize:'18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;I already have a study permit. Can I change schools to take an online program at Victoria University?</p>
-                                            <p className="my-4"><b style={{fontWeight: '600', color: 'orchid'}}>A:</b>&nbsp;&nbsp;No. If you change to an VU online program, you can’t maintain the conditions of your study permit according to IRCC regulations. You will not be able to renew, extend, or apply for a new study permit using an VU online program. To keep your study permit, you must be taking an in-person program.</p>
-                                            <p className="my-4"><b style={{fontSize:'18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;Can I take an VU course while studying at another Ugandan institution? How do I transfer those courses?</p>
-                                            <p className="my-4"><b style={{fontWeight: '600', color: 'orchid'}}>A:</b>&nbsp;&nbsp;If you are an international student studying at another institution in Ugandayou can take VU courses and transfer them into your program. You need to follow the below process:</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Get a Letter of Permission <span className="fa fa-external-link"></span> from your home institution to ensure the VU course will transfer into your program.&nbsp;&nbsp;</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Apply using the online application form.<span className="fa fa-external-link"></span>&nbsp;&nbsp;</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Register for your courses through your myVU account <span className="fa fa-external-link"></span> You will have access to myVU once your application has been processed. You can also register using the paper course registration form.<span className="fa fa-file-pdf-o"></span>&nbsp;&nbsp;</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Use the Request Transcripts function in myVU <span className="fa fa-external-link"></span> to have your official VU transcript sent to your home university upon grade finalization.&nbsp;&nbsp;</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Post-Baccalaureate Diploma in Counselling&nbsp;&nbsp;</p>
-                                            <p className="my-4"><b style={{fontSize:'18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;Where do I find my letter of acceptance to submit with my study permit application?</p>
-                                            <p className="my-4"><b style={{fontWeight: '600', color: 'orchid'}}>A:</b>&nbsp;&nbsp;We will send your letter of acceptance when you are ready to begin the in-person part of your program. Please send an email to international@Victoriau.ca to request your letter. You may want to check IRCC’s application processing times to make sure you meet your course registration deadline. Letters of acceptance as required by IRCC are not provided to students enrolled in online programs.</p>
-                                            <p className="my-4"><b style={{fontSize:'18px', fontWeight: '600', color: 'orchid'}}>Q:</b>&nbsp;&nbsp;Getting ready for your trip:</p>
-                                            <p className="my-4"><b style={{fontWeight: '600', color: 'orchid'}}>A:</b>&nbsp;&nbsp;Since it will be several weeks before you may be eligible for Alberta Health Care coverage, it's imperative to buy travel insurance for your trip and the first weeks of your stay in Uganda. Medical costs generally can get very expensive. That’s why it’s important to get health care coverage for your trip to Uganda, and to make sure you have appropriate coverage while you’re here.</p>
-                                            <p className="my-4">&emsp;Basic health care: If you are studying for 12 months or longer on-site in Alberta you qualify for the Alberta Health Care Insurance Plan (AHCIP). You need to apply for AHCIP within 90 days of your arrival in Alberta.</p>
-                                            <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Learn about AHCIP for temporary residents of Alberta <span className="fa fa-external-link"></span>&nbsp;&nbsp;</p>
-                                            <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
-                                                <table style={{width: '100%', height: '100%'}}>
-                                                    <tr>
-                                                        <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
-                                                        <td className="text-left" style={{backgroundColor: '#0077b5', textAlign:'center', color: '#FFF', padding: '20px'}}>
-                                                            Please note that the Alberta Health Care Insurance Plan only covers some expenses. You may want to consider supplementary plans (see below) in case you need prescriptions or dental or eye care.</td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                            <br/>
-                                            <p className="my-4">Other AHCIP exclusions: If you are studying for less than 12 months on-site in Alberta, you need to buy health insurance to cover your journey and stay.</p>
-                                            <p className="my-4">Supplementary plans: Several companies offer private health insurance. Search online for "health insurance plans Alberta."</p>
-                                            <p className="my-4">Graduate students may be eligible for optional dental and prescription coverage through the Victoria University Graduate Students' Association. Undergraduate students should direct inquiries to the Victoria University Students' Union at ausu@ausu.org.</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
+                                {/*  */}
 							</ul>
 						</div>
 					</div>
