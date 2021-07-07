@@ -1,5 +1,5 @@
 
-[![CircleCI](https://circleci.com/gh/wanyaland/victoria_university.svg?style=svg)](https://circleci.com/gh/wanyaland/victoria_university)
+[![CircleCI](https://circleci.com/gh/wanyaland/victoria_university.svg?style=shield)](https://circleci.com/gh/wanyaland/victoria_university)
 # Victoria University Web Application
 
 Victoria University Web application - Version II
@@ -8,7 +8,7 @@ Victoria University Web application - Version II
 
 - Django
 - Django Rest Framework
-- Django CMS
+
 
 ## Frontend
 - React
