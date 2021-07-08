@@ -1,10 +1,10 @@
 # base image
 FROM python:3.7.2-alpine
 
-#install dependencies
-RUN apk update && \
-    apk add gcc python-dev musl-dev && \
-    apk add postgresql-dev 
+#install psycopg2 dependencies
+RUN apk update \
+    && apk add postgresql-dev gcc python3-dev musl-dev \
+    && apk add zlib-dev jpeg-dev libffi-dev openssl-dev
 
 
 # set working directory
