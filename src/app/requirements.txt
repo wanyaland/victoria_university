@@ -12,5 +12,5 @@ pytest-clarity==0.3.0a0
 pytest-cov==2.8.1
 # Pillow==6.2.2
 django-rest-auth
-django-allauth
-django-cors-headers
+# django-allauth
+# django-cors-headers
