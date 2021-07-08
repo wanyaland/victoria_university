@@ -17499,7 +17499,7 @@ a.text-dark:focus {
 }
 /* CHAT CSS */
 .open-button {
-    background-color: #0077b5;
+    background-color: #024569;
     color: white;
     padding: 0px 0px;
     border-radius: 10% 0% 0% 10%;
@@ -18206,19 +18206,21 @@ background-color: #014e77;
     background-color: #024569;
     color: white;
     padding: 0px 0px;
-    border-radius: 10% 0% 0% 10%;
+    border-radius: 15px 15px 0 0px;
     border: none;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: .8;
     position: fixed;
-    bottom: 110px;
-    right: 0px;
-    width: 60px;
+    bottom: 90px;
+    left: -10px;
+    width: 70px;
     height: 50px;
     z-index: 1000;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(90deg);
   }
   .open-pay span{
-      font-size: 30px;
+      font-size: 25px;
   }
   .open-apply {
     background-color: #024569;
@@ -18227,17 +18229,79 @@ background-color: #014e77;
     border-radius: 15px 15px 0 0px;
     border: none;
     cursor: pointer;
-    opacity: 1;
+    opacity: .8;
     position: fixed;
-    bottom: 110px;
+    bottom: 210px;
     left: -40px;
     width: 120px;
     height: 50px;
     z-index: 1000;
-     -ms-transform: rotate(20deg); /* IE 9 */
-  transform: rotate(90deg);
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(90deg);
   }
   .open-pay span{
       font-size: 30px;
   }
+  .open-pay:hover, .open-apply:hover, .open-button:hover{
+      opacity: 1;
+  }
+  .open-pay:focus, .open-apply:focus, .open-button:focus{
+    opacity: 1;
+    border: none;
+    outline: none;
+}
 /* //pay btn */
+/* Programs */
+.view-program{
+    background-color: #c3c6c7;
+    color: #04324b;
+    padding-right: 5px;
+    font-weight: 600;
+}
+.prog_results{
+    background-color:#fff;
+    padding: 8px;
+    -webkit-box-shadow: 1px 1px 4px 1px #788891c7; 
+    box-shadow: 1px 1px 4px 1px #788891c7;
+    margin: 0rem auto;
+}
+/* Programs */
+/* Calcuator */
+.cal-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .cal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .cal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .cal-close:hover,
+  .cal-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* Calcuator */

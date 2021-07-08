@@ -24,7 +24,7 @@ class BreadNavBar extends Component {
 				<div className="container-fluid">
 					<div className="row">
 						<ul className="social-top col-md-7 padded">
-							<li className="fonted"><b>Next Undergrad Deadline:</b> Register by April 10th to start on May 1st <Link to="/apply" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></Link></li>
+							<li className="fonted"><b>Next Undergrad Deadline:</b> Join us Now for August - September 2021 intake <Link to="/apply" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></Link></li>
 						</ul>
 						<ul className="accounts col-md-5">
 							<li className="top_li underline"><Link to="/staff">Staff</Link></li>
