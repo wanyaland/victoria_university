@@ -217,9 +217,22 @@ class Tuition extends Component {
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Fee payment</h6>
-                    <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>After selecting your program and/or individual courses, you will be required to complete tuition payments in order to finalize your registration and begin your online studies. You must pay all fees in full when you apply as a student or register for a course, but you only pay for a course once you register for it.</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>There’s no formal timeline to complete most VU credentials, so if time isn’t a concern, you can take your classes as you can afford them, and you may be able to complete your education with little student debt. However, if meeting your personal goals means a faster pace and a heavier financial commitment, there are financial aid options available to support your online studies.</p>
+                    <p className="my-4"> All students become liable to pay their full tuition fees from first day of term on their programme. Mode of payment. All the fees have to be deposited in the Accounts of Victoria University .Fees can be deposited in the following modes: <br/><br/>
+                    <ul style={{listStyle: 'none'}}>
+                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<a href="https://payments.pesapal.com/victoriauniversity" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Pesapal&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>
+                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">GTPay (MTN, Airttel, Card Pay)</span></li>
+                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">University Mobile number +256759996141</span></li>
+                    </ul>
+                    <p className="my-4">
+                        Victoria University acknowledges the net amount received in the bank account.
+                        <br/><br/>
+                       <b style={{fontWeight: '600'}}>GT BANK</b><br/><br/>
+                       <ul style={{listStyle: 'none'}}>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">UGX Account Number 218143915151110</span></li>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">USD Account Number 218143915251110</span></li>
+                        </ul>
+                    </p>
+                    </p>
                 </div>
             </div>
         </div>

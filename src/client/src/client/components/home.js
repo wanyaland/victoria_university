@@ -8,6 +8,7 @@ import Testimonies from './testimonies';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
 import SelectPath from './select-path';
+import CalculatorFees from './calculator-modal';
 
 class Home extends Component{
 		change_icon(id, id2) {
@@ -22,6 +23,13 @@ class Home extends Component{
 		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 		console.log('HI4')
+	 }
+	 popCal(){
+		var modal = document.getElementById("cal-myModal");
+		modal.style.display = "block";
+	}
+	 componentDidMount(){
+
 	 }
     render(){
         return(
@@ -169,7 +177,7 @@ class Home extends Component{
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><Link to="/tution-fees">Tuition &amp; Fees</Link></h6>
 						<span className="dot purple"></span>
-						<p><Link to="/tuition-fees">Calculate Fees</Link></p>
+						<p><Link className="calBtn" onClick={this.popCal}>Calculate Fees</Link></p>
 						<p><Link to="/tuition-fees">Fees and tuition payment</Link></p>
 					</div>
 					<div className="text-center smalldash purple_d"></div>
@@ -184,6 +192,7 @@ class Home extends Component{
 <Events />
 <div className="marginize"></div>
 <div className="marginize2"></div>
+<CalculatorFees />
 <Footer />
     </React.Fragment>
         );
