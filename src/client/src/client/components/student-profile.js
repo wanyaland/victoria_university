@@ -216,25 +216,7 @@ class StudentProfile extends Component {
 			</div>
 		</div>
 	</section>
-    <section className="w3l-wecome-content-6">
-		<div className="ab-content-6-mian py-5">
-			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
-				<div className="welcome-grids row">
-					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4" style={{fontSize: '18px'}}>Students with loans</p>
-                        <p className="my-4">If you are a student seeking financial assistance and would like to apply to one of our programs, your application process is the same as other students, you just need to start a little earlier.</p>
-                        <br/>
-                        <br/>
-                        <p>
-                            <Link className="logo-2" to="/tuition-fees" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-                                <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;</span><span className="underline">Learn more about our financial aid program</span>
-                            </Link>
-                        </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    {/* */}
     <hr className="text-center" style={{color: '#000', width: '90%'}} />
     <section className="w3l-footer-16 text-center">
         <div className="container">

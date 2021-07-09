@@ -18268,7 +18268,7 @@ background-color: #014e77;
 /* Programs */
 /* Calcuator */
 .cal-modal {
-    display: none; /* Hidden by default */
+    display: block; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -18285,15 +18285,15 @@ background-color: #014e77;
   .cal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
+    min-height: 400px;
   }
   
   /* The Close Button */
   .cal-close {
-    color: #aaaaaa;
-    float: right;
+    color: #FFF;
     font-size: 28px;
     font-weight: bold;
   }
@@ -18305,3 +18305,7 @@ background-color: #014e77;
     cursor: pointer;
   }
 /* Calcuator */
+.backed-btn{
+    background-color: #002c44;
+    color: #FFF;
+}

@@ -122,7 +122,7 @@ class CourseProcedures extends Component {
                     <p className="my-4">Visit your program regulations for your program’s withdrawal and refund information</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Course material returns and refund policy <span className="fa fa-file-pdf-o"></span></p>
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Course extensions</h6>
-                    <p className="my-4">If you can’t complete your course within your 6- or 12-month course contract period, you can buy up to 3 two-month extensions. If you have student loans, an extension may affect your funding. Contact Student Financial Aid <span className="fa fa-external-link"></span> before you apply for an extension.</p>
+                    <p className="my-4">If you can’t complete your course within your 6- or 12-month course contract period, you can buy up to 3 two-month extensions.<span className="fa fa-external-link"></span> before you apply for an extension.</p>
                     <p className="my-4">You must apply for your extension no later than 1 month before your course contract end date. You can apply for an extension in myVU <span className="fa fa-external-link"></span>, in the Student Record section.</p>
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Related policies</h6>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Course Extension Policy <span className="fa fa-file-pdf-o"></span></p>

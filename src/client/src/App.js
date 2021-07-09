@@ -41,6 +41,7 @@ import WilHallOfFame from './client/components/wil-hall-of-fame'
 import Vclass from './client/components/vclass';
 import ProgIndex from './client/components/prog-index';
 import CourseOffering from './client/components/course-offering';
+import ApplyNow from './client/components/apply-now';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -90,6 +91,7 @@ const App = () => (
         <Route exact path="/vclass" component={Vclass} />
         <Route exact path="/prog-index" component={ProgIndex} />
         <Route exact path="/course-offering" component={CourseOffering} />
+        <Route exact path="/apply-now" component={ApplyNow} />
       </Switch>
     </Router>
 

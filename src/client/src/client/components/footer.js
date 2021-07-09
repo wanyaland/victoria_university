@@ -13,7 +13,7 @@ class Footer extends Component{
         window.location.href = "https://payments.pesapal.com/victoriauniversity";
     }
     apply(){
-        window.location.href = "apply";
+        window.location.href = "apply-now";
     }
     render(){
         return(
