@@ -18268,7 +18268,7 @@ background-color: #014e77;
 /* Programs */
 /* Calcuator */
 .cal-modal {
-    display: block; /* Hidden by default */
+    display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
