@@ -75,6 +75,7 @@ class NavBar extends Component{
 										<Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link>
 										<Link to="/tuition-fees" className="text-left" style={{color: '#888', fontWeight: '700'}}>Tuition and Fees</Link>
 										<Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
+										<Link to="/apply-now" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</Link>
 									</div>
 								</li>
 								<li className="nav-item">

@@ -52,7 +52,7 @@ class Tuition extends Component {
                     <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
 					Admissions 
 					</span></Link>&nbsp;/&nbsp;
-					<span style={{color: '#CCC'}}>/ Tuition, Fees and Financial Aid</span>
+					<span style={{color: '#CCC'}}> Tuition and Fees</span>
                 </div>
             </div>
         </div>
@@ -83,14 +83,6 @@ class Tuition extends Component {
 						<h6 className="text-center"><a href="#home">Fee payment</a></h6>
 					</div>
 				</div>
-				{/* <div className="features-1-info col-lg-3 col-md-6">
-					<div className="features-1-info-icon text-center">
-						<span className="fa fa-money" style={{color: '#0077b5', fontSize: '47px'}}></span>
-					</div>
-					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Financial aid</a></h6>
-					</div>
-				</div> */}
 				<div className="features-1-info col-lg-4 col-md-6">
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
@@ -216,22 +208,63 @@ class Tuition extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Fee payment</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Tuition and Fees payment</h6>
                     <p className="my-4"> All students become liable to pay their full tuition fees from first day of term on their programme. Mode of payment. All the fees have to be deposited in the Accounts of Victoria University .Fees can be deposited in the following modes: <br/><br/>
-                    <ul style={{listStyle: 'none'}}>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<a href="https://payments.pesapal.com/victoriauniversity" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Pesapal&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">GTPay (MTN, Airttel, Card Pay)</span></li>
-                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">University Mobile number +256759996141</span></li>
-                    </ul>
+                    </p>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#888'}}>Payment steps for our accepted modes of payment</h6>
+                    <br/>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>GTPay</h6>
                     <p className="my-4">
-                        Victoria University acknowledges the net amount received in the bank account.
-                        <br/><br/>
-                       <b style={{fontWeight: '600'}}>GT BANK</b><br/><br/>
-                       <ul style={{listStyle: 'none'}}>
-                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">UGX Account Number 218143915151110</span></li>
-                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="underline">USD Account Number 218143915251110</span></li>
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<a href="https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Login into https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>2</span>&emsp;<span className="">Fill in the empty fields and click ""Process Payment""</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>3</span>&emsp;<span className="">Select your desired payment option</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>4</span>&emsp;<span className="">Enter your email address and click ""Continue""</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>5</span>&emsp;<span className="">Enter the required payment details (These vary depending on previously selected option) after click ""pay""</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>6</span>&emsp;<span className="">Complete security check (if paying by card)</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>7</span>&emsp;<span className="">Click ""Submit"" to complete the transaction"</span></li>
                         </ul>
                     </p>
+                    <br/>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>Wire Transfer Payment Option (For International students)</h6>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Account Name: Victoria University</span></li>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">UGX Account Number: 218143915151110</span></li>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">USD Account Number: 218143915251110</span></li>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Bank Name: Guaranty Trust Bank (U) Ltd</span></li>
+                            <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Swift Code: GTBIUGKA</span></li>
+                        </ul>
+                    </p>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>USSD Steps for MTN users</h6>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<span className="">Dial *237*100#</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>2</span>&emsp;<span className="">Select Tuition payment (Option 1)</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>3</span>&emsp;<span className="">Select Victoria University (Option 1)</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>4</span>&emsp;<span className="">Enter Your Student Number </span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>5</span>&emsp;<span className="">Enter Your Tuition Amount </span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>6</span>&emsp;<span className="">Confirm Your Tuition Amount</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>7</span>&emsp;<span className="">Press cancel. Then complete the prompted screen from your MM or Dial *165 #for confirmation and PIN entry</span></li>
+                        </ul>
+                    </p>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>USSD Steps for Airtel users</h6>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<span className="">Dial *237*100#</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>2</span>&emsp;<span className="">Select Tuition payment (Option 1)</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>3</span>&emsp;<span className="">Select Victoria University (Option 1)</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>4</span>&emsp;<span className="">Enter Your Student Number </span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>5</span>&emsp;<span className="">Enter Your Tuition Amount </span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>6</span>&emsp;<span className="">Confirm Your Tuition Amount</span></li>
+                            <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>7</span>&emsp;<span className="">Enter your PIN To close Transaction</span></li>
+                        </ul>
+                    </p>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>Pesapal (Click the link below to make payment)</h6>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                        <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<a href="https://payments.pesapal.com/victoriauniversity" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Pesapal&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>
+                        </ul>
                     </p>
                 </div>
             </div>

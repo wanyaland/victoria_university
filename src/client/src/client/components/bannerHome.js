@@ -24,7 +24,7 @@ class BannerHome extends Component{
 						<div className="container">
 						</div>
 					</div> */}
-					<video src="assets/media/home_wel.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}}/>
+					<video src="assets/media/home_wel.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"/>
 				</div>
 				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
