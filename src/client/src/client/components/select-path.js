@@ -21,7 +21,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots orange">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to="/programs"><img src="assets/images/path1.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
+						<Link className="imghr" to="/prog-index"><img src="assets/images/path1.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
 						<div className="details text-center hover-team" style={{height: '100%'}}>
 								<div className="text-center path_stick"></div>
 								<div className="img_pos">
@@ -38,7 +38,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots brown">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to="/programs"><img src="assets/images/path3.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
+						<Link className="imghr" to="/prog-index"><img src="assets/images/path3.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
 						<div className="details text-center hover-team2" style={{height: '100%'}}>
 								<div className="text-center path_stick"></div>
 								<div className="img_pos">
@@ -55,7 +55,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots blue">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to="/programs"><img src="assets/images/path2.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
+						<Link className="imghr" to="/prog-index"><img src="assets/images/path2.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
 						<div className="details text-center hover-team3" style={{height: '100%'}}>
 								<div className="text-center path_stick"></div>
 								<div className="img_pos">
@@ -72,7 +72,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots purple">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to="/programs"><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
+						<Link className="imghr" to="/prog-index"><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
 							<div className="details text-center hover-team4" style={{height: '100%'}}>
 								<div className="text-center path_stick"></div>
 								<div className="img_pos">
@@ -89,7 +89,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots red">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to="/programs"><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
+						<Link className="imghr" to="/prog-index"><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(60%)'}}/>
 							<div className="details text-center hover-team5" style={{height: '100%'}}>
 								<div className="text-center path_stick"></div>
 								<div className="img_pos">
