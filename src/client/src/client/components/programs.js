@@ -87,10 +87,10 @@ class Programs extends Component{
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
 						<div className="text-center">
-							<a className="logo-2" href="home">
-								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>How VU Programmes Work</h5>
-							</a><br/>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+							<Link className="logo-2" to="/about">
+								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>How VU Work</h5>
+							</Link><br/>
+							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
 									<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 									</Link>
 							</p>
@@ -116,11 +116,11 @@ class Programs extends Component{
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
 						<div className="text-center">
-							<a className="logo-2" href="home">
-								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>HOW VU Programmes Work</h5>
-							</a><br/>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-								<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
+							<Link className="logo-2" to="/about">
+								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>HOW VU Work</h5>
+							</Link><br/>
+							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+								<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 								</Link>
 							</p>
 							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>

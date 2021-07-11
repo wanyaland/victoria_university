@@ -3655,7 +3655,7 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .navbar-expand-lg .navbar-nav .dropdown-menu {
-    transform: translateX(-50px);
+    transform: translateX(- 0px);
 }
 
 .w3l-banner-slider-main .dropdown-item:hover,
@@ -6795,6 +6795,14 @@ span.fa.fa-play {
     border-radius: 50%;
     display: inline-block;
   }
+.dot_prog {
+    height: 16px;
+    width: 16px;
+    /* background-color: #bbb; */
+    border-radius: 50%;
+    display: inline-block;
+  }
+
 .circler{
     color: #0077b5;
     /* border: #e65252 10px solid;  */
@@ -11687,7 +11695,7 @@ input[type="button"].btn-block {
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    align-items: center;
+    align-items:center;
 }
 
 .navbar-toggler {
@@ -18254,31 +18262,37 @@ background-color: #014e77;
 /* Programs */
 .view-program{
     background-color: #c3c6c7;
-    color: #04324b;
-    padding-right: 5px;
-    font-weight: 600;
+    color: #4f5f68;
+    padding: 8px 14px;
+    border-radius: 3px;
+    font-weight: 550;
+    float: right;
+}
+.view-program:hover{
+    cursor: pointer;
+    background-color: #b6b4b4;
 }
 .prog_results{
     background-color:#fff;
     padding: 8px;
+    margin-bottom: 20px;
     -webkit-box-shadow: 1px 1px 4px 1px #788891c7; 
     box-shadow: 1px 1px 4px 1px #788891c7;
-    margin: 0rem auto;
 }
 /* Programs */
-/* Calcuator */
+/* Calculator */
 .cal-modal {
-    display: block; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
   }
   
   /* Modal Content */

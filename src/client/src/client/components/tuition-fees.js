@@ -117,7 +117,7 @@ class Tuition extends Component {
         </div>
     </div>
 </section>
-<section className="w3l-wecome-content-6">
+<section className="w3l-wecome-content-6" id="trackdoc">
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
