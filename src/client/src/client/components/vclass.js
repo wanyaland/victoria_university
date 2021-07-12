@@ -50,8 +50,8 @@ class Vclass extends Component {
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Victoria University V-Classes</h6>
-                    {/* <p className="my-4" style={{fontSize: '22px'}}>Victoria University provides learning for life. Through the achievements of its students, faculty and staff, VU stands out as a provider of high quality post-secondary education.
-                    </p> */}
+                    <p className="my-4" style={{}}>Modern education models and teaching methodologies demand that higher education institutions like our University aspiring to be leaders in education   technology and provide real world learning experience should and must educate students to fit in both the 21st century economies and the forth industrial revolution because the world has changed and continues to change only well prepared will fit in it. One of the assured paths to deliver such meaningful learning is  to ensure that learning happens Anywhere-Anytime. That is why Victoria University has carefully developed a state of the art learning management system (VClass) to support meaningful and interactive online learning and credible assessment of all our students please visit VU’S VClass  for more information  www.vclass.ac 
+                    </p>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@ class Vclass extends Component {
         <div className="container py-lg-5">
             <div className="welcome-grids row">
                 <div className="welcome-image" style={{width: '100%'}}>
-                    <video src="assets/media/VClass.mp4" className="img-fluid" alt="" autoPlay="true" controls="true" style={{width: '100%'}}/>
+                    <video src="assets/media/VClass.mp4" className="img-fluid" alt="" autoPlay="true" loop="true" controls="true" style={{width: '100%'}}/>
                 </div>
             </div>
         </div>

@@ -3,9 +3,34 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
 import { Link } from 'react-router-dom'
+import Data from './data/courses.json'
 
 
 class ApplyNow extends Component{
+    addEdu = () => {
+        var edHu = document.getElementById('edH')
+        var rowForm = document.createElement('div')
+        var rowForm2 = document.createElement('div')
+        var colSize = document.createElement('div')
+        var colSize2 = document.createElement('div')
+        var input = document.createElement('input')
+        var input2 = document.createElement('input')
+        rowForm.className = 'row_form';
+        rowForm2.className = 'row_form';
+        colSize.className = 'col-75'
+        colSize2.className = 'col-75'
+        input.className = 'form_fields'
+        input2.className = 'form_fields'
+        input.placeholder = 'Level of Education'
+        input2.placeholder = 'Level of Education'
+        input.type = 'text'
+        input2.type = 'text'
+        input.id = 'lved'
+        input2.id = 'lved'
+        input.name = 'lved'
+        input2.name = 'lved'
+        edHu.appendChild(rowForm).appendChild(colSize).appendChild(input).appendChild(rowForm2).appendChild(colSize2).appendChild(input2)
+    }
     render(){
         return(
             <React.Fragment>
@@ -393,110 +418,12 @@ class ApplyNow extends Component{
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>Programme</p>
 									<select className="form_fields" placeholder="">
-                                        <option></option>
-                                        <option>Master of Business Administration (MBA Generic)</option>
-                                        <option>Master of Business Administration (MBA Accounting and Finance)</option>
-                                        <option>Master of Business Administration (MBA Human Resource Management )</option>
-                                        <option>Master of Business Administration (MBA Marketing )</option>
-                                        <option>Master of Business Administration (MBA Real Estate and Propoerty Management )</option>
-                                        <option>Masters of Monitoring $ Evaluation</option>
-                                        <option>Master of Science in Information Technology</option>
-                                        <option>Master of Science in Big Data Analytics</option>
-                                        <option>Master of Science in Global Health Nutrition (Full-Time)</option>
-                                        <option>Master of Science in Global Health Nutrition (Part-Time)</option>
-                                        <option>Master of Science in Public Health (Full-Time)</option>
-                                        <option>Master of Science in Public Health (Part-Time)</option>
-                                        <option>Masters of Science in Sexual and Reproductive Health</option>
-                                        <option>Masters of Science in Health Service Management</option>
-                                        <option>Master of Arts in Public Administration and Management (MA-PAM)</option>
-                                        <option>Masters of Arts in Mass Communication</option>
-                                        <option>Masters in Diplomacy and Global Studies</option>
-                                        <option>Masters of Education (M.Ed) in Advanced Teaching (Full-Time)</option>
-                                        <option>Masters of Education (M.Ed) in Advanced Teaching (Part-Time)</option>
-                                        <option>Masters of Educational Administration and leadership and Management</option>
-                                        <option>Post Graduate Diploma Monitoring $ Evaluation</option>
-                                        <option>Post Graduate Diploma in Nutrition and Leadership</option>
-                                        <option>Post Graduate Diploma in Human Nutrition (Course Work)</option>
-                                        <option>Post Graduate Diploma + Masters in Human Nutrition (Course work + Research)</option>
-                                        <option>Bachelor of Business Administration</option>
-                                        <option>Bachelor of Business Administration (Real Estate and Property Management)</option>
-                                        <option>Bachelor od Science in Banking and Finance</option>
-                                        <option>Bachelor of Procurement & Logistics Management</option>
-                                        <option>Bachelor of Tourism and Hopitality Management</option>
-                                        <option>Bachelor of International Business</option>
-                                        <option>Bachelor of Science in Oil and Gas Accounting</option>
-                                        <option>Bachelor of Arts in Human Resource Management</option>
-                                        <option>Bachelor of Hotel and Hospitality Management</option>
-                                        <option>Bachelor of Tourism Management</option>
-                                        <option>Bachelor of Events Management</option>
-                                        <option>Bachelor of Science in Computer Science</option>
-                                        <option>Bachelor of Business Information Systems</option>
-                                        <option>Bachelor of Information Technology</option>
-                                        <option>Bachelor of Art & Industrial Design</option>
-                                        <option>Bachelor Agriculture & Rural Innovation</option>
-                                        <option>Bachelor of Science in Animation and Visual Effects</option>
-                                        <option>Bachelor of Science in Public Health (Full-Time)</option>
-                                        <option>Bachelor of Science in Public Health (Part-Time)</option>
-                                        <option>Bachelor of Midwifrey Science (TOP-UP)</option>
-                                        <option>Bachelor of Nursing Science (DIRECT)</option>
-                                        <option>Bachelor of Nursing Science (TOP-UP)</option>
-                                        <option>Bachelor of Science in Human Nutrition and Dietetics</option>
-                                        <option>Bachelor of Public Administration & Management</option>
-                                        <option>Bachelor of Social work and Social Administration</option>
-                                        <option>Bachelor of Arts in Journalism and Media Studies</option>
-                                        <option>Bachelor of Development Studies</option>
-                                        <option>Bachelor of Arts in International Relations & Diplomatic Studies</option>
-                                        <option>Bachelor of Arts in Education (BA. Ed)</option>
-                                        <option>Bachelor of Science in Education (BSC. Ed)</option>
-                                        <option>Bachelor of Education (BEd) - In-Service</option>
-                                        <option>Bachelor of Laws</option>
-                                        <option>Bachelors of Criminal Justice and Law Enforcement</option>
-                                        <option>Diploma in Procurement & Logistics Management</option>
-                                        <option>Diploma in Banking and Finanace</option>
-                                        <option>Diploma In Business and Administration</option>
-                                        <option>Diploma in Tourism and Hopitality Management</option>
-                                        <option>Diploma in Human Resource Management</option>
-                                        <option>Diploma in Real Estate and Property Management</option>
-                                        <option>Diploma in Events and Management</option>
-                                        <option>Diploma in Tourism Management</option>
-                                        <option>Diploma in Hotel and Hospitality</option>
-                                        <option>Diploma in Information Technology</option>
-                                        <option>Diploma in Social work and Social Administration</option>
-                                        <option>Diploma in International Relations & Diplomatic Studies</option>
-                                        <option>Diploma in Journalism and Media Studies</option>
-                                        <option>Higher Education Certificate (HEC) in Biological Science</option>
-                                        <option>Higher Education Certificate (HEC) - General</option>
-                                        <option>Digital Marketing and Social Media Specialist</option>
-                                        <option>Entrepreneurial Development Studies</option>
-                                        <option>Export Trade Promotion</option>
-                                        <option>Sustainable Microfinance</option>
-                                        <option>Introduction to Oil and Gas Industry</option>
-                                        <option>Oil and Gas Supply Chain and Logistics Management</option>
-                                        <option>Oil and Gas Project Management</option>
-                                        <option>Health, Safety and Environmental Management in the Oil and Gas Industry</option>
-                                        <option>House Keeping in the Hospitality Industry</option>
-                                        <option>Customer Service in the Hospitality Industry</option>
-                                        <option>Front Office Management in the Hospitality Industry</option>
-                                        <option>Chartered Institute of Logistics and Transport (CILT)</option>
-                                        <option>CISCO-CCNA</option>
-                                        <option>Cisco-IT Essentials</option>
-                                        <option>Basic Computer Applications</option>
-                                        <option>CCTV Controller</option>
-                                        <option>Cyber Security Essentials</option>
-                                        <option>PCAP Programming Essentials in Python</option>
-                                        <option>CCNA Security</option>
-                                        <option>Artificial Intelligence with Python</option>
-                                        <option>Comprehensive Management of STI’s, HIV</option>
-                                        <option>First Aid</option>
-                                        <option>Resource Mobilisation and Project ProposalWriting for Health workers</option>
-                                        <option>SPSS - Statistical Package For Social Sciences</option>
-                                        <option>Public Health Nutrition</option>
-                                        <option>Presentation and Public Speaking</option>
-                                        <option>Coaching aand Mentoring</option>
-                                        <option>Graphics Designing</option>
-                                        <option>Filmmaking (Video/Audio production/Editing)</option>
-                                        <option>Radio Production</option>
-                                        <option>English Language (Beginner, Intermediate and Advanced)</option>
+                                        { Data.map(prog => {
+                                            return(
+                                                <option value={prog.id}>{prog.program}</option>
+                                            )
+                                            }) 
+                                        }
                                     </select>
 									</div>
 								</div>
@@ -504,7 +431,6 @@ class ApplyNow extends Component{
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>HOW DID YOU HEAR ABOUT VICTORIA UNIVERSITY</p>
                                 <div className="row_form">
 									<div className="col-75">
-                                    <p className="text-left" style={{fontSize:'18px'}}>Choose level of education</p>
 									<select className="form_fields" placeholder="">
                                         <option></option>
                                         <option>News papers</option>
@@ -534,36 +460,41 @@ class ApplyNow extends Component{
 								</div>
                                 <hr />
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>EDUCATION HISTORY</p>
+                                <div id="edH">
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="lved" className="form_fields" name="lved" placeholder="Level of Education"/>
+                                        </div>
+                                    </div>
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="sub_comb" className="form_fields" name="sub_comb" placeholder="Subject/Combination"/>
+                                        </div>
+                                    </div>
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="institution" className="form_fields" name="institution" placeholder="Name of Institution"/>
+                                        </div>
+                                    </div>
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="qual" className="form_fields" name="qual" placeholder="Qualification"/>
+                                        </div>
+                                    </div>
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="result_grade" className="form_fields" name="result_grade" placeholder="Result/Grade/Mark"/>
+                                        </div>
+                                    </div>
+                                    <div className="row_form">
+                                        <div className="col-75">
+                                        <input type="text" id="year" className="form_fields" name="year" placeholder="Year"/>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="lved" className="form_fields" name="lved" placeholder="Level of Education"/>
-									</div>
-								</div>
-                                <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="sub_comb" className="form_fields" name="sub_comb" placeholder="Subject/Combination"/>
-									</div>
-								</div>
-                                <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="institution" className="form_fields" name="institution" placeholder="Name of Institution"/>
-									</div>
-								</div>
-                                <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="qual" className="form_fields" name="qual" placeholder="Qualification"/>
-									</div>
-								</div>
-                                <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="result_grade" className="form_fields" name="result_grade" placeholder="Result/Grade/Mark"/>
-									</div>
-								</div>
-                                <div className="row_form">
-									<div className="col-75">
-									<input type="text" id="year" className="form_fields" name="year" placeholder="Year"/>
-									</div>
-								</div>
+                                    <a href="#home" className="my-2 underline" onClick={this.addEdu}>Add Education History</a>
+                                </div>
                                 <hr />
                                 <div className="row_form">
                                     <p className="text-left" style={{fontSize:'18px', fontWeight: '600'}}>Application Charges</p>
@@ -588,7 +519,6 @@ class ApplyNow extends Component{
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>SELECT PAYMENT METHOD</p>
                                 <div className="row_form">
 									<div className="col-75">
-                                    <p className="text-left" style={{fontSize:'18px'}}>Choose level of education</p>
 									<select className="form_fields" placeholder="Disability">
                                         <option></option>
                                         <option>Pesapal</option>

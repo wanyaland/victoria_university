@@ -43,7 +43,7 @@ class ProgIndex extends Component {
 				</div>
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                        <h6 className="hny-title" style={{fontSize: '48px', color: 'orange'}}>Graduate Programs</h6>
+                        <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>Graduate Programs (UNDER DEVELOPMENT)</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                         <br/>
