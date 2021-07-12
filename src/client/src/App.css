@@ -18295,7 +18295,6 @@ background-color: #014e77;
     background-color: rgba(0,0,0,0.4);
   }
   
-  /* Modal Content */
   .cal-content {
     background-color: #fefefe;
     margin: auto;
@@ -18304,8 +18303,7 @@ background-color: #014e77;
     width: 50%;
     min-height: 400px;
   }
-  
-  /* The Close Button */
+
   .cal-close {
     color: #FFF;
     font-size: 28px;
@@ -18318,6 +18316,27 @@ background-color: #014e77;
     text-decoration: none;
     cursor: pointer;
   }
+
+  /* caculator tabs */
+  div.items section:not(:target) {display: none}
+  div.items section:target {display: block}
+  
+  .cal-btn{
+    background-color: #c3c6c7;
+    color: #4f5f68;
+    padding: 8px 14px;
+    border-radius: 3px;
+    font-weight: 550;
+    /* float: right; */
+}
+.cal-btn:hover{
+    cursor: pointer;
+    background-color: #b6b4b4;
+}
+.res_out{
+    border: #555 1px solid;
+    display: none;
+}
 /* Calcuator */
 .backed-btn{
     background-color: #002c44;

@@ -27,7 +27,7 @@ class Faculties extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
-                <section className="w3l-top-header-content">
+<section className="w3l-top-header-content">
     <div className="hny-top-menu">
         <div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div className="container-fluid">
@@ -63,50 +63,18 @@ class Faculties extends Component {
                 <div className="col-lg-12 welcome-image">
                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Business<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Business and Management<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Faculty of Business <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate courses and programs <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters programs <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li>
                                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Doctoral programs <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Leadership and Management Development <span className="fa fa-external-link"></span></li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>	
-                                <br/>
-                            </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Health Disciplines<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <div className="contenter" style={{backgroundColor: '#FFF'}}>
-                                <br/>
-                                <div className="col-lg-12 welcome-image">
-                                    <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-                                        <p className="my-4">
-                                            <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Faculty of Health Disciplines <span className="fa fa-external-link"></span></li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>	
-                                <br/>
-                            </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Humanity and Sciences<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <div className="contenter" style={{backgroundColor: '#FFF'}}>
-                                <br/>
-                                <div className="col-lg-12 welcome-image">
-                                    <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-                                        <p className="my-4">
-                                            <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Faculty of Humanities and Social Sciences<span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Center for Humanities <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Center of Interdisciplinary studies <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Center for Social Sciences <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Nukskahtowin Meeting Place <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li>
                                             </ul>
                                         </p>
                                     </div>
@@ -120,40 +88,78 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Faculty of Science and Technology<span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Center of Science <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;RAIC center of Architecture <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;School of Computing & information Systems <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Doctoral programs <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li>
                                             </ul>
                                         </p>
                                     </div>
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Graduate Studies<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Health Science<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Faculty of Graduate Studies <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Graduate Programs <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Doctoral programs <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li>
                                             </ul>
                                         </p>
                                     </div>
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Other Centers<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Humanities and Social Science<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Center of Learning Accreditation (PLAR) <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Research Center <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Doctoral programs <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations <span className="fa fa-external-link"></span></li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>	
+                                <br/>
+                            </div>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Institute Of Educationa And Social Sciences<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <div className="contenter" style={{backgroundColor: '#FFF'}}>
+                                <br/>
+                                <div className="col-lg-12 welcome-image">
+                                    <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+                                        <p className="my-4">
+                                        <ul style={{listStyle: 'none'}}>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp; <span className="fa fa-external-link"></span></li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>	
+                                <br/>
+                            </div>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;School Of Law<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <div className="contenter" style={{backgroundColor: '#FFF'}}>
+                                <br/>
+                                <div className="col-lg-12 welcome-image">
+                                    <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+                                        <p className="my-4">
+                                            <ul style={{listStyle: 'none'}}>
+                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li>
                                             </ul>
                                         </p>
                                     </div>

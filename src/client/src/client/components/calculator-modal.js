@@ -22,6 +22,7 @@ class CalculatorFees extends Component {
     if(program === '' || studSelect === ''){
       document.getElementById('status').innerHTML = "Please programme and student type";
     } else {
+      document.getElementById("res_chk").style.display = "block"
       document.getElementById("prog").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Program:</b> "+ progData[program].program +"</p>";
       document.getElementById("stud").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Student Type:</b> "+ studSelect +"</p>";
       if(studSelect === "Local"){
@@ -51,8 +52,14 @@ class CalculatorFees extends Component {
                   </p>
                   <br/>
                   {/*  */}
-                  <p className="my-1" style={{fontSize: '18px'}}>Please select Programme</p>
-                    <form action="/action_page.php">
+                  <p  style={{padding: '5px'}}>
+                    <a href="#item1" className="cal-btn">Step 1: Choose Program</a>&nbsp;
+                    <a href="#item2" className="cal-btn">Step 2: Residence</a>&nbsp;
+                  </p>
+
+                  <div class="items">
+                    <section id="item1">
+                      <p className="my-1" style={{fontSize: '18px'}}>Please select Programme</p>
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
                           <select className="form_fields" id="prog_item" style={{padding: '10px'}}>
@@ -65,6 +72,8 @@ class CalculatorFees extends Component {
                           </select>
                         </div>
                       </div>
+                    </section>
+                    <section id="item2">
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
                           <p className="text-left my-1" style={{fontSize:'18px'}}>Residence</p>
@@ -76,15 +85,19 @@ class CalculatorFees extends Component {
                         </div>
                       </div>
                       <p id="status" style={{color: 'red', fontWeight: '600'}}></p>
-                    </form>
-                    <p id="prog" className="my-1" style={{fontSize: '15px'}}></p>
-                    <p id="stud" className="my-1" style={{fontSize: '15px'}}></p>
-                    <p id="regfee" className="my-1" style={{fontSize: '15px'}}></p>
-                    <p id="fee" className="my-4" style={{fontSize: '15px'}}></p>
+                    </section>
+                  </div>
+                  <div id="res_chk" className="res_out">
+                    <p id="prog" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="stud" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="regfee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="fee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                  </div>
                   </div>
                 </div>
               </div>
             </div>
+  
           </React.Fragment>
         )
     }

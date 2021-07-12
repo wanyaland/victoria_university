@@ -78,7 +78,7 @@ class Partners extends Component {
                     <br/>
                 </div>
             </div>
-            <hr className="text-center" style={{color: '#000', width: '100%'}} />
+            {/* <hr className="text-center" style={{color: '#000', width: '100%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '36px', color: '#004063'}}>International partnerships</h6>
@@ -170,7 +170,7 @@ class Partners extends Component {
                     </ul>
                     <br/>
                 </div>
-            </div>
+            </div> */}{/*  */}
             <hr className="text-center" style={{color: '#000', width: '100%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
