@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import Data from './data/courses.json'
 
 
 class ProgIndex extends Component {
@@ -14,11 +15,11 @@ class ProgIndex extends Component {
                 <BreadNavBar />
                 <NavBar />
 <section className="w3l-team-main">
-	<div className="team py-5">
+	<div className="team">
 		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div className="justify-content-center row"  style={{display: 'flex'}}>
-				<div className="col-lg-3 with_shadow side_control" style={{padding: '0rem !important'}}>
-					<div className="sidenavd" style={{padding: '0rem !important'}}>
+				<div className="col-lg-3 with_shadow side_control" style={{padding: '0px'}}>
+					<div className="sidenavd" style={{paddingTop: '0px'}}>
 						<div className="" style={{height: '60px'}}>
 							<table style={{width: '100%', height: '100%'}}>
 								<tr>
@@ -26,24 +27,24 @@ class ProgIndex extends Component {
 								</tr>
 							</table>
 						</div>
-                        <ul className="w3-ul w3-card-4" style={{borderBottom: '#888 1px solid', boxShadow: 'none'}}>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>LEVEL<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                        </ul>
-						<hr style={{border: '#fff 1px solid', width: '90%'}}/>
-						<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-							<h6 style={{color: '#888'}}>CREDENTIAL</h6>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>All<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Post Graduate<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Under Graduate<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Diploma<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Foundations<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Professional<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                        </ul>
+						<ul className="prog-listu" style={{margin: '0 auto'}}>
+							<p className="my-1" style={{fontSize: '22px'}}>LEVEL</p>
+						</ul>
+						<hr style={{border: '#888 1px solid', width: '90%'}}/>
+						<ul className="prog-listu">
+							<li className="prog-list" style={{width: '100%'}}><span>All</span> <span className="fa fa-external-link text-center"></span></li>
+							<li className="prog-list"><span style={{width: '80%'}}>Post Graduate</span><span class="" style={{width: '20%', float: 'right'}}>12</span></li>
+							<li className="prog-list"><span>Under Graduate</span></li>
+							<li className="prog-list"><span>Diploma</span></li>
+							<li className="prog-list"><span>Foundations</span></li>
+							<li className="prog-list"><span>Professional Development</span></li>
+						</ul>
                     </div>
 				</div>
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                        <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>Graduate Programs (UNDER DEVELOPMENT)</h6>
+						<br/>
+                        <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>Graduate Programs <b>(UNDER DEVELOPMENT)</b></h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                         <br/>
