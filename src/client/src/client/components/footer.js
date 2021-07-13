@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Chat from './chat';
+import PayPop from './paypop';
 
 class Footer extends Component{
 	topFunction() {
@@ -9,16 +10,21 @@ class Footer extends Component{
     openForm(){
         document.getElementById("myForm").style.display = "block";
     }
-    payed(){
+    /* payed(){
         window.location.href = "https://payments.pesapal.com/victoriauniversity";
-    }
+    } */
     apply(){
         window.location.href = "apply-now";
     }
+    popPay(){
+		var modal = document.getElementById("pay-myModal");
+		modal.style.display = "block";
+	}
     render(){
         return(
             <React.Fragment>
             <Chat />
+            <PayPop />
         <section className="w3l-footer-16">
     <div className="w3l-footer-16-main py-5">
         <div className="container">
@@ -63,7 +69,7 @@ class Footer extends Component{
         <span className="fa fa-angle-up"></span>
     </button>
     <button className="open-button" onClick={this.openForm}><span className="fa fa-comments text-center justify-content-center" title="Chat And Help" style={{display: 'flex', alignItems: 'center'}}></span></button>
-    <button className="open-pay" onClick={this.payed}><span style={{color: '#FFF'}}>Pay</span></button>
+    <button className="open-pay" onClick={this.popPay}><span style={{color: '#FFF'}}>Pay</span></button>
     <button className="open-apply" onClick={this.apply}><span style={{color: '#FFF'}}>Apply Now</span></button>
 </section>
             </React.Fragment>
