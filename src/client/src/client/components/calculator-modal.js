@@ -13,15 +13,17 @@ class CalculatorFees extends Component {
     var modal = document.getElementById("cal-myModal");
     modal.style.display = "none";
   }
-  view_stud = () => {
+  view_stud = (stud) => {
     const progData = Data;
     var locRegfee = "50,000";
     var intRegfee = "16";
+    //var reset = document.getElementById('reseter');
     var program = document.getElementById("prog_item").value;
-    var studSelect = document.getElementById("stud_chk").value;
+    var studSelect = document.getElementById(stud).value;
     if(program === '' || studSelect === ''){
       document.getElementById('status').innerHTML = "Please programme and student type";
     } else {
+      //reset.style.display = "block";
       document.getElementById("res_chk").style.display = "block"
       document.getElementById("prog").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Program:</b> "+ progData[program].program +"</p>";
       document.getElementById("stud").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Student Type:</b> "+ studSelect +"</p>";
@@ -34,6 +36,27 @@ class CalculatorFees extends Component {
       }
     }
   }
+  /* reseter = () => {
+    var reset = document.getElementById('reseter');
+    var program = document.getElementById("prog_item")
+    var studL = document.getElementById("local")
+    var studI = document.getElementById("int")
+    var prog = document.getElementById("prog")
+    var stud = document.getElementById("stud")
+    var regfee = document.getElementById("regfee")
+    var fee = document.getElementById("fee")
+    var res_chk = document.getElementById("res_chk")
+
+    program.value = ""
+    studL.value = ""
+    studI.value = ""
+    prog.innerHTML = ""
+    stud.innerHTML = ""
+    regfee.innerHTML = ""
+    fee.innerHTML = ""
+    res_chk.style.display = "none"
+    reset.style.display = "none"
+  } */
   render(){
         return(
           <React.Fragment>
@@ -42,16 +65,20 @@ class CalculatorFees extends Component {
                 <div className="features-1-info col-lg-12 col-md-12" style={{height: '50px', width: '100%', padding: '0', marginBottom: '40px'}}>
                   <table style={{width: '100%', height: '100%'}}>
                     <tr>
-                      <td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px', width: '90%'}}>Course Fee Calculator</td><td style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}><span class="cal-close" onClick={this.dropCal}>&times;</span></td>
+                      <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', paddingLeft: '10px', fontSize: '28px', width: '90%'}}>Course Fee Calculator</td><td style={{backgroundColor: '#FFF', textAlign: 'center', paddingLeft: '10px', fontSize: '28px'}}><span class="cal-close" onClick={this.dropCal} style={{color: '#444'}}>&times;</span></td>
                     </tr>
                   </table>
                   <div className="container_form">
                   {/*  */}
                   <p className="my-1" style={{fontSize: '15px'}}>
-                  Use this calculator to determine the fees for an undergraduate course. If you have trouble using this calculator, please check out the <a href="/tuition-fees#trackdoc" className="underline">tuition and fees documentation.<span className="fa fa-external-link"></span></a>
+                  Use this calculator to determine the fees for an undergraduate course. If you have trouble using this calculator, please check out the <a href="/tuition-fees#trackdoc" className="underline" style={{fontWeight: '500'}}>tuition and fees documentation.<span className="fa fa-external-link"></span></a>
                   </p>
-                  <br/>
+                  
+                  <hr />
                   {/*  */}
+                  {/* <p id="reseter" style={{padding: '5px'}}>
+                    <span href="tune" className="cal-btn">Start Over</spa>&nbsp;
+                  </p> */}
                   <p  style={{padding: '5px'}}>
                     <a href="#item1" className="cal-btn">Step 1: Choose Program</a>&nbsp;
                     <a href="#item2" className="cal-btn">Step 2: Residence</a>&nbsp;
@@ -76,12 +103,19 @@ class CalculatorFees extends Component {
                     <section id="item2">
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
-                          <p className="text-left my-1" style={{fontSize:'18px'}}>Residence</p>
-                          <select id="stud_chk" className="form_fields" onChange={this.view_stud} style={{padding: '10px'}}>
-                            <option></option>
-                            <option value="Local">Local Student</option>
-                            <option value="International">International Student</option>
-                          </select>
+                          <table style={{width: '100%', height: '100%'}}>
+                            <tr>
+                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Select Residence</td>
+                            </tr>
+                            <tr>
+                              <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>
+                                <input type="radio" id="local" name="fav_language" value="Local" onChange={this.view_stud.bind(this, "local")}/>
+                                <span for="Local">Local Student</span><br/>
+                                <input type="radio" id="int" name="fav_language" value="International" onChange={this.view_stud.bind(this, "int")}/>
+                                <span for="International">International Student</span>
+                              </td>
+                            </tr>
+                          </table>
                         </div>
                       </div>
                       <p id="status" style={{color: 'red', fontWeight: '600'}}></p>
