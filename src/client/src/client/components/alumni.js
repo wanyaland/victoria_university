@@ -64,8 +64,15 @@ class Alumni extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-12 welcome-image">
 					<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid', padding: '40px'}}>
-						<h4 className="hny-title text-center" style={{color: '#0077b5', fontSize: '36px'}}>The benefit of Access.</h4>
-                        <p className="text-center">Your VU journey continues after graduation and our commitment to you is access to your global network, lifelong learning opportunities, and benefits that support your professional and personal pursuits.</p>
+						<h4 className="hny-title text-center" style={{color: '#0077b5', fontSize: '36px'}}>Alumni</h4>
+                        <p className="text-center my-4">"
+						As a graduate or ‘alumnus’ of Victoria University, you automatically become part of our extensive alumni community which brings with it a host of benefits before and after graduation.
+						We strive to ensure that each member of our alumni community enjoys the benefits of studying at Victoria University, beyond one’s graduation.</p>
+						<p className="my-4">We believe that our commitment to work-integrated-learning sets our alumni apart from their peers from other universities. Our students enter the job market with world-class qualifications and work experience.</p>
+						<p className="my-4">We are proud that so many of our alumni choose to give something back to the university, not only through financial donations but by providing practical support and career guidance to current students which equally gives the latter a head start as one enters the world of work.</p>
+						<p className="my-4">From guest lectures and mentoring to providing career afternoons and work experience placements, our alumni are actively encouraged to share their knowledge and experience with current students.</p>
+						<p className="my-4">Our current students have many opportunities to meet our alumni in both social and professional settings where personal and career experiences are shared.</p>
+						<p className="my-4">One more promise to our students; after you graduate, you will continue to have access to a wide range of services and facilities that will support both your personal and professional development."</p>
 					</div>
 				</div>	
 			</div>
