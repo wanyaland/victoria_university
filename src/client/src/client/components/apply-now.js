@@ -239,6 +239,7 @@ class ApplyNow extends Component{
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>Programme</p>
 									<select className="form_fields" placeholder="">
+                                        <option></option>
                                         { Data.map(prog => {
                                             return(
                                                 <option value={prog.id}>{prog.program}</option>
@@ -369,7 +370,7 @@ class ApplyNow extends Component{
                                         <option>GTPay</option>
                                         <option>USSD</option>
                                         <option>Wire Transfer</option>
-                                        <option>Bursor</option>
+                                        <option>Bursar</option>
                                     </select>
 									</div>
 								</div>

@@ -70,14 +70,14 @@ class Partners extends Component {
                 </div>
             </div>
             <hr className="text-center" style={{color: '#000', width: '100%'}} />
-            <div className="welcome-grids row">
+            {/* <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize:'36px', color: '#004063'}}>Educational collaborations</h6>
                     <p className="my-4" style={{fontSize: '18px'}}>VU is a member of the following collaborative institutions:</p>
                     <p className="mb-4 t2">&emsp;&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&nbsp;&nbsp;<a href="home" target="_blank" style={{color: '#025683'}}>OERu  <span className="fa fa-external-link"></span></a> (The Open Educational Resources university) a consortium of more than 29 higher educational institutions on five continents supporting the assessment and accreditation of learners using OER.</p>
                     <br/>
                 </div>
-            </div>
+            </div> */}
             {/* <hr className="text-center" style={{color: '#000', width: '100%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
@@ -174,7 +174,7 @@ class Partners extends Component {
             <hr className="text-center" style={{color: '#000', width: '100%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '36px', color: '#004063'}}>Institutional alliances</h6>
+                    <h6 className="hny-title" style={{fontSize: '36px', color: '#004063'}}>Partners</h6>
                     <p className="my-4" style={{fontSize: '18px'}}>We maintain additional educational or research agreements with the following institutions and organizations:</p>
                     <div className="container py-lg-5">
                         <div className="row grids-innf my-lg-5">

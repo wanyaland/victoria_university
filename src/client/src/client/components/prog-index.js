@@ -6,8 +6,79 @@ import Data from './data/courses.json'
 
 
 class ProgIndex extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			post_sum : 0,
+			under_sum: 0,
+			diploma_sum: 0,
+			found_sum: 0,
+			pro_sum: 0,
+		}
+	}
+	
+
+	postCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].level === "Post Graduate")
+			count++
+		}
+		this.setState({
+			post_sum: count
+		})
+	}
+	underCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].level === "Under Graduate")
+			count++
+		}
+		this.setState({
+			under_sum: count
+		})
+	}
+	diplomaCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].level === "Diploma")
+			count++
+		}
+		this.setState({
+			diploma_sum: count
+		})
+	}
+	foundCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].level === "Foundations")
+			count++
+		}
+		this.setState({
+			found_sum: count
+		})
+	}
+	proCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].level === "Foundations")
+			count++
+		}
+		this.setState({
+			pro_sum: count
+		})
+	}
     componentDidMount(){
-        
+        this.postCount()
+        this.underCount()
+        this.diplomaCount()
+        this.foundCount()
+        this.proCount()
     }
     render(){
         return(
@@ -27,24 +98,35 @@ class ProgIndex extends Component {
 								</tr>
 							</table>
 						</div>
-						<ul className="prog-listu" style={{margin: '0 auto'}}>
-							<p className="my-1" style={{fontSize: '22px'}}>LEVEL</p>
+						<ul className="prog-listu" style={{borderBottom: '#888 1px solid'}}>
+							<p className="my-1" style={{fontSize: '18px', fontWeight: '550'}}>LEVEL</p>
 						</ul>
-						<hr style={{border: '#888 1px solid', width: '90%'}}/>
 						<ul className="prog-listu">
-							<li className="prog-list" style={{width: '100%'}}><span>All</span> <span className="fa fa-external-link text-center"></span></li>
-							<li className="prog-list"><span style={{width: '80%'}}>Post Graduate</span><span class="" style={{width: '20%', float: 'right'}}>12</span></li>
-							<li className="prog-list"><span>Under Graduate</span></li>
-							<li className="prog-list"><span>Diploma</span></li>
-							<li className="prog-list"><span>Foundations</span></li>
-							<li className="prog-list"><span>Professional Development</span></li>
+							<li className="prog-list" style={{width: '100%'}}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td><td><span className="fa fa-external-link text-center" style={{fontSize: '20px'}}></span></td></tr></table>
+							</li>
+							<li className="prog-list">
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Post Graduate</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
+							</li>
+							<li className="prog-list">
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Under Graduate</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
+							</li>
+							<li className="prog-list">
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Diploma</span></td><td><span class="badged">{this.state.diploma_sum}</span></td></tr></table>
+							</li>
+							<li className="prog-list">
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Foundations</span></td><td><span class="badged">{this.state.found_sum}</span></td></tr></table>
+							</li>
+							<li className="prog-list">
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>professional Development</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
+							</li>
 						</ul>
                     </div>
 				</div>
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<br/>
-                        <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>Graduate Programs <b>(UNDER DEVELOPMENT)</b></h6>
+                        <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>Graduate Programs</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                         <br/>
@@ -84,119 +166,25 @@ class ProgIndex extends Component {
 					</div>
 					<br/>
 					<div className="container py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
-						<div className="row grids-innf my-lg-5" style={{margin: '0 auto'}}>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
+						<div className="" style={{}}>
+							{Data.map(course => {
+								return(
+									<div className="prog_results">
+										<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
+											<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
+												<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;{course.program}</h6>
+											</div>
+											<div className="col-md-7" style={{}}>
+												<p className="my-4" style={{fontSize: '14px'}}>{course.short_desc}</p>
+												<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> {course.credit}</p>
+											</div>
+											<div className="col-md-2 text-right" style={{display: 'flex', alignItems: 'center'}}>
+												<p className="text-left view-program">View Program</p>
+											</div>
+										</div>
 									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
-							<div className="prog_results">
-								<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-									<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-										<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;Doctor of Business Administration</h6>
-									</div>
-									<div className="col-md-6" style={{}}>
-										<p className="my-4" style={{fontSize: '14px'}}>Undergraduate Application We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate!</p>
-										<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> 30</p>
-									</div>
-									<div className="col-md-3 text-right" style={{display: 'flex', alignItems: 'center'}}>
-										<p className="text-left view-program">View Program</p>
-									</div>
-								</div>
-							</div>
+								)
+							})}
 						</div>
 					</div>
 				</div>

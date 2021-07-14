@@ -18263,7 +18263,8 @@ background-color: #014e77;
 .view-program{
     background-color: #c3c6c7;
     color: #4f5f68;
-    padding: 8px 14px;
+    padding: 8px 12px;
+    font-size: 14px;
     border-radius: 3px;
     font-weight: 550;
     float: right;
@@ -18286,11 +18287,23 @@ background-color: #014e77;
     list-style: none;
     padding: 10px;
     width: 100%;
+    font-size: 15px;
 }
 .prog-list:hover{
     background-color: #555;
     color: #FFF;
     cursor: pointer;
+}
+.badged{
+    position: relative;
+    /* float: right; */
+    right: 0;
+    width: 100%;
+    bottom: auto;
+  padding: 5px 10px;
+  border-radius: 10%;
+  background: #c7c7c7;
+  color: #444;
 }
 /* Programs */
 /* Calculator */

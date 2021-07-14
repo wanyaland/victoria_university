@@ -42,6 +42,11 @@ import Vclass from './client/components/vclass';
 import ProgIndex from './client/components/prog-index';
 import CourseOffering from './client/components/course-offering';
 import ApplyNow from './client/components/apply-now';
+import AboutRes from './client/components/about-res';
+import EthicsRes from './client/components/ethics-res';
+import AvailRes from './client/components/avail-res';
+import AcademRes from './client/components/academic-res';
+import SupervRes from './client/components/superv-res';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -92,6 +97,11 @@ const App = () => (
         <Route exact path="/prog-index" component={ProgIndex} />
         <Route exact path="/course-offering" component={CourseOffering} />
         <Route exact path="/apply-now" component={ApplyNow} />
+        <Route exact path="/about-res" component={AboutRes} />
+        <Route exact path="/ethics-res" component={EthicsRes} />
+        <Route exact path="/avail-res" component={AvailRes} />
+        <Route exact path="/academic-res" component={AcademRes} />
+        <Route exact path="/superv-res" component={SupervRes} />
       </Switch>
     </Router>
 

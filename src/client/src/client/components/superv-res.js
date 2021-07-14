@@ -5,7 +5,7 @@ import Footer from './footer';
 import ResNav from './res_nav'
 import { Link } from 'react-router-dom';
 
-class Research extends Component {
+class SupervRes extends Component {
     componentDidMount(){
         var coll = document.getElementsByClassName("collapsible");
 		var i;
@@ -43,14 +43,17 @@ class Research extends Component {
                 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
-			<div className="container-fluid">
-				<div className="">
-					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
-					Victoria University 
-					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ Research at VU</span>
-				</div>
-			</div>
+            <div className="container-fluid">
+                <div className="" style={{color: '#EEE'}}>
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
+                Victoria University 
+                </span></Link>&nbsp;/&nbsp;
+                <Link to="/research"><span className="underline" style={{color: "#EEE"}}>
+                Research At VU 
+                </span></Link>&nbsp;
+                <span style={{color: '#EEE'}}>/ Research Supervisors and Mentors</span>
+                </div>
+            </div>
 		</div>
 	</div>
 </section>
@@ -61,16 +64,10 @@ class Research extends Component {
 				<ResNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Overview</h6>
+						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Research Supervisors and Mentors</h6>
 						<br/>
-						<p className="my-4" style={{fontSize: '22px'}}>Victoria University education and training is a pathway to success for our students, partners and other stakeholders. Our partnership with industry is a rich platform offering invaluable insights on the breadth of research areas ingrained across the faculties of Business and Management, Humanities and Social Sciences, Education, Science and Technology as well as Health Sciences.</p>
-						<p className="mb-4" style={{fontSize: '18px'}}>Our research tackles a range of program areas, societal disciplines, a variety of subject areas across multiple specialties that are global and local in nature. Our research scholars are determined to push the boundaries interrogating the way people think and behave, while challenging conventions. To unlock leading edge research from Victoria University, browse the VU site to find research supervision opportunities, projects, student research and relevant publications.</p>
-						<p className="my-4">
-							<h4>Work with Victoria University Research</h4>
-							The 21st Century posits different ways of doing things. There are various challenges that will need both holistic and specific approaches. The Covid-19 pandemic has affected every social fabric of our societies locally and abroad ranging from altering the way people relate to the way they trade.
-							<p className="my-4">Victoria University research brings together the greatest minds in all disciplines to work with your organization for the benefit of all. Our team of researchers are ready to find new opportunities and insights that will help you solve issues within your organization, be it a start-up, community groups, the environment and across all sectors of the economy.</p>
-							<p className="my-4">We invite you to take advantage of our robust research ecosystem including our custom-built paradigms, latest industry-university collaborative research, technologies among others. </p>
-						</p>
+						<p className="my-4">The research process can be arduous, tedious and sometime quite challenging. Building effective relationship with research supervisors and mentors. These supervisors have the advantage of experience.</p>
+                        <p className="my-4">Not only have they conducted their own research studies, they have also guided graduates and undergraduates in pursuing research and other opportunities. They are therefore well-placed to help with research opportunities and funding sources, provide guidance on the process of the study and mentoring throughout the research project.</p>
 					</div>
 				</div>
 			</div>
@@ -110,4 +107,4 @@ class Research extends Component {
     }
 }
 
-export default Research;
+export default SupervRes;

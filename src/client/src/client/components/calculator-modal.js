@@ -90,7 +90,7 @@ class CalculatorFees extends Component {
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
                           <select className="form_fields" id="prog_item" style={{padding: '10px'}}>
-                            {/* <option></option> */}
+                            <option></option>
                             { Data.map(prog => {
                               return(
                                 <option value={prog.id}>{prog.program}</option>
