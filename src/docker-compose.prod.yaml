@@ -3,11 +3,8 @@ version: '3.2'
 services: 
     api:
         image: wanyaland/victoria_university:api
-
         ports:
             - 8009:8009
-        env_file:
-            - ./.env
         depends_on: 
             - db
     
