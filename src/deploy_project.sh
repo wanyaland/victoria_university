@@ -1,9 +1,11 @@
 #!/bin/sh
 
 ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP << 'ENDSSH'
-  cd /home/circleci/victoria_university
+  cd /home/circleci/app
   eval "$(ssh-agent -s)"
   echo "Getting GH updates" && git pull origin main
-  export $(cat src/app/.env | xargs)
-  docker-compose -f src/docker-compose.prod.yaml up -d --build
+  export $(cat .env | xargs)
+  docker pull $IMAGE:web
+  docker pull $IMAGE:api
+  docker-compose -f docker-compose.prod.yml up -d
 ENDSSH
