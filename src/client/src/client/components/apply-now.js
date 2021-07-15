@@ -10,6 +10,37 @@ import $ from 'jquery'
 
 
 class ApplyNow extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            firstname: 'Your first name',
+            middlename: 'Your middle name',
+            lastname: 'Your last name',
+            gender: '',
+            dob: '',
+            nationality: '',
+            firstlanguage: '',
+            country: '',
+            city: '',
+            email: 'Your email',
+            whatsappnum: 'Your Whatsapp Number',
+            altnumber: 'Your Alternative Number',
+            disability: '',
+            program: '',
+            hearUs: '',
+            levelofeducation: 'Level of Education',
+            subject: 'Subject/Combination',
+            nameofinstitution: 'Name of Institution',
+            qualification: 'Qualification',
+            result: 'Result/Grade/Mark',
+            year: 'Year',
+            docs: [],
+            agreeComs: '',
+            agreeRules: '',
+            payMethod: '',
+        }
+    }
+    
     addEdu = () => {
         var edHu = document.getElementById('edH')
         /* Level of Education */
@@ -138,17 +169,17 @@ class ApplyNow extends Component{
                             <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>PERSONAL INFORMATION</p>
 								<div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fname" className="form_fields" name="firstname" placeholder="Your name"/>
+									<input type="text" id="fname" className="form_fields" name="firstname" value={this.state.firstname} placeholder="Your first name"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="mname" className="form_fields" name="middlename" placeholder="Your middle name" />
+									<input type="text" id="mname" className="form_fields" name="middlename" value={this.state.middlename} placeholder="Your middle name" />
 									</div>
 								</div>
 								<div className="row_form">
 									<div className="col-75">
-									<input type="text" id="lname" className="form_fields" name="lastname" placeholder="Your last name" />
+									<input type="text" id="lname" className="form_fields" name="lastname" value={this.state.lastname} placeholder="Your last name" />
 									</div>
 								</div>
                                 <div className="row_form">
@@ -161,17 +192,17 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                         <p className="text-left" style={{fontSize:'18px'}}>Date of birth</p>
-									<input type="date" id="dob" className="form_fields" name="dob" placeholder="Your Date of birth"/>
+									<input type="date" id="dob" className="form_fields" name="dob" value={this.state.dob} placeholder="Your Date of birth"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="nationality" className="form_fields" name="nationality" placeholder="Your nationality"/>
+									<input type="text" id="nationality" className="form_fields" name="nationality" value={this.state.nationality} placeholder="Your nationality"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="flang" className="form_fields" name="flang" placeholder="Your First Language"/>
+									<input type="text" id="flang" className="form_fields" name="flang" value={this.state.firstlanguage} placeholder="Your First Language"/>
 									</div>
 								</div>
                                 <hr />
@@ -190,22 +221,22 @@ class ApplyNow extends Component{
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="city" className="form_fields" name="city" placeholder="Your City"/>
+									<input type="text" id="city" className="form_fields" name="city" value={this.state.city} placeholder="Your City"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="email" id="email" className="form_fields" name="email" placeholder="Your Email"/>
+									<input type="email" id="email" className="form_fields" name="email" value={this.state.email} placeholder="Your Email"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fnumber" className="form_fields" name="fnumber" placeholder="Your Whatsapp Number"/>
+									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.whatsappnum} placeholder="Your Whatsapp Number"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fnumber" className="form_fields" name="fnumber" placeholder="Your Alternative Number"/>
+									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.altnumber} placeholder="Your Alternative Number"/>
 									</div>
 								</div>
                                 <hr />
@@ -287,32 +318,32 @@ class ApplyNow extends Component{
                                 <div id="edH">
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="lved" className="form_fields" name="lved" placeholder="Level of Education"/>
+                                        <input type="text" id="lved" className="form_fields" name="lved" value={this.state.levelofeducation} placeholder="Level of Education"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="sub_comb" className="form_fields" name="sub_comb" placeholder="Subject/Combination"/>
+                                        <input type="text" id="sub_comb" className="form_fields" name="sub_comb" value={this.state.subject} placeholder="Subject/Combination"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="institution" className="form_fields" name="institution" placeholder="Name of Institution"/>
+                                        <input type="text" id="institution" className="form_fields" name="institution" value={this.state.nameofinstitution} placeholder="Name of Institution"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="qual" className="form_fields" name="qual" placeholder="Qualification"/>
+                                        <input type="text" id="qual" className="form_fields" name="qual" value={this.state.qualification} placeholder="Qualification"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="result_grade" className="form_fields" name="result_grade" placeholder="Result/Grade/Mark"/>
+                                        <input type="text" id="result_grade" className="form_fields" name="result_grade" value={this.state.result} placeholder="Result/Grade/Mark"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="year" className="form_fields" name="year" placeholder="Year"/>
+                                        <input type="text" id="year" className="form_fields" name="year" value={this.state.year} placeholder="Year"/>
                                         </div>
                                     </div>
                                 </div>
@@ -353,12 +384,12 @@ class ApplyNow extends Component{
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="checkbox" id="lname" className="" name="" required/>&nbsp;<span> I AGREE to receive communications from Victoria  University. Not checking this box means that you will not receive information on new degree programs or courses that may fit your study program.		</span>
+									<input type="checkbox" id="lname" className="" value={this.state.agreeComs} name="" required/>&nbsp;<span> I AGREE to receive communications from Victoria  University. Not checking this box means that you will not receive information on new degree programs or courses that may fit your study program.		</span>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="checkbox" id="lname" className="" name="" required/>&nbsp;<span>I AGREE to abide by the rules and regulations of Victoria  University . I certify that the information submitted is true and complete in all respects and that no relevant information has been withheld. I agree that Victoria University retains the right to nullify my application if the information provided is false or incomplete. Falsification and misrepresentation of credentials or supporting documents is considered an academic offense and penalties may be imposed .I understand tha Victoria University may approach my previous places of learning for a  reference</span>
+									<input type="checkbox" id="lname" className="" name="" value={this.state.agreeRules} required/>&nbsp;<span>I AGREE to abide by the rules and regulations of Victoria  University . I certify that the information submitted is true and complete in all respects and that no relevant information has been withheld. I agree that Victoria University retains the right to nullify my application if the information provided is false or incomplete. Falsification and misrepresentation of credentials or supporting documents is considered an academic offense and penalties may be imposed .I understand tha Victoria University may approach my previous places of learning for a  reference</span>
 									</div>
 								</div>
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>SELECT PAYMENT METHOD</p>

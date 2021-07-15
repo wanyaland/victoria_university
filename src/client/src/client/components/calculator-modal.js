@@ -105,14 +105,14 @@ class CalculatorFees extends Component {
                         <div className="col-75">
                           <table style={{width: '100%', height: '100%'}}>
                             <tr>
-                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Select Residence</td>
+                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Do you reside in Uganda?</td>
                             </tr>
                             <tr>
                               <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>
                                 <input type="radio" id="local" name="fav_language" value="Local" onChange={this.view_stud.bind(this, "local")}/>
-                                <span for="Local">Local Student</span><br/>
+                                <span for="Local">Yes</span><br/>
                                 <input type="radio" id="int" name="fav_language" value="International" onChange={this.view_stud.bind(this, "int")}/>
-                                <span for="International">International Student</span>
+                                <span for="International">No</span>
                               </td>
                             </tr>
                           </table>

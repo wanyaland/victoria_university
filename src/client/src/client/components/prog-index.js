@@ -3,6 +3,7 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
 import Data from './data/courses.json'
+import CourseList from './course-list';
 
 
 class ProgIndex extends Component {
@@ -14,10 +15,61 @@ class ProgIndex extends Component {
 			diploma_sum: 0,
 			found_sum: 0,
 			pro_sum: 0,
+			courses: [],
+			courses_title: '',
+			courses_count: '',
 		}
 	}
-	
+	componentDidMount(){
+        this.postCount()
+        this.underCount()
+        this.diplomaCount()
+        this.foundCount()
+        this.proCount()
+		this.getCourses()
+    }
 
+	getCourses = () => {
+		this.setState({
+			courses: Data,
+			courses_title: 'All Programs'
+		})
+	}
+	getPostGs = () => {
+		var result = Data.filter(course => course.level === "Post Graduate")
+		this.setState({
+			courses: result,
+			courses_title: "Post Graduate Programs",
+		})
+	}
+	getUnder = () => {
+		var result = Data.filter(course => course.level === "Under Graduate")
+		this.setState({
+			courses: result,
+			courses_title: "Under Graduate Program"
+		})
+	}
+	getPros = () => {
+		var result = Data.filter(course => course.level === "Professional Development")
+		this.setState({
+			courses: result,
+			courses_title: "Professional Development"
+		})
+	}
+	getFounds = () => {
+		var result = Data.filter(course => course.level === "Foundations")
+		this.setState({
+			courses: result,
+			courses_title: "Foundations"
+		})
+	}
+	getDiploma = () => {
+		var result = Data.filter(course => course.level === "Diploma")
+		this.setState({
+			courses: result,
+			courses_title: "Diploma Programs"
+		})
+	}
 	postCount = () =>{
 		var progData = Data;
 		var count = 0;
@@ -66,20 +118,13 @@ class ProgIndex extends Component {
 		var progData = Data;
 		var count = 0;
 		for(var i = 0; i < progData.length; ++i){
-    	if(progData[i].level === "Foundations")
+    	if(progData[i].level === "Professional Development")
 			count++
 		}
 		this.setState({
 			pro_sum: count
 		})
 	}
-    componentDidMount(){
-        this.postCount()
-        this.underCount()
-        this.diplomaCount()
-        this.foundCount()
-        this.proCount()
-    }
     render(){
         return(
             <React.Fragment>
@@ -102,23 +147,23 @@ class ProgIndex extends Component {
 							<p className="my-1" style={{fontSize: '18px', fontWeight: '550'}}>LEVEL</p>
 						</ul>
 						<ul className="prog-listu">
-							<li className="prog-list" style={{width: '100%'}}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td><td><span className="fa fa-external-link text-center" style={{fontSize: '20px'}}></span></td></tr></table>
+							<li className="prog-list" style={{width: '100%'}} onClick={this.getCourses}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
 							</li>
-							<li className="prog-list">
+							<li className="prog-list" onClick={this.getPostGs}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Post Graduate</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
 							</li>
-							<li className="prog-list">
+							<li className="prog-list" onClick={this.getUnder}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Under Graduate</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
 							</li>
-							<li className="prog-list">
+							<li className="prog-list" onClick={this.getDiploma}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Diploma</span></td><td><span class="badged">{this.state.diploma_sum}</span></td></tr></table>
 							</li>
-							<li className="prog-list">
+							<li className="prog-list" onClick={this.getFounds}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Foundations</span></td><td><span class="badged">{this.state.found_sum}</span></td></tr></table>
 							</li>
-							<li className="prog-list">
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>professional Development</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
+							<li className="prog-list" onClick={this.getPros}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '90%'}}><span style={{width: '80%'}}>Professional Development</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
 							</li>
 						</ul>
                     </div>
@@ -165,26 +210,10 @@ class ProgIndex extends Component {
 						</table>
 					</div>
 					<br/>
+					<p className="my-4 text-center" style={{fontSize: '24px', fontWeight: 550}}>{this.state.courses_title}</p>
 					<div className="container py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
 						<div className="" style={{}}>
-							{Data.map(course => {
-								return(
-									<div className="prog_results">
-										<div className="" style={{display: 'flex', flexWrap: 'wrap'}}>
-											<div className="col-md-3" style={{display: 'flex', alignItems: 'center'}}>
-												<h6 className="underline" style={{color: '#555', fontSize: '18px'}}><span className="dot_prog purple"></span>&nbsp;{course.program}</h6>
-											</div>
-											<div className="col-md-7" style={{}}>
-												<p className="my-4" style={{fontSize: '14px'}}>{course.short_desc}</p>
-												<p className="my-1"><b style={{fontWeight: '600'}}>Credits:</b> {course.credit}</p>
-											</div>
-											<div className="col-md-2 text-right" style={{display: 'flex', alignItems: 'center'}}>
-												<p className="text-left view-program">View Program</p>
-											</div>
-										</div>
-									</div>
-								)
-							})}
+							<CourseList courses={this.state.courses} />
 						</div>
 					</div>
 				</div>
