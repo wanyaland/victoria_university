@@ -49,12 +49,10 @@ jobs:
             docker login -u $DOCKER_USER -p $DOCKER_PASS
             docker pull $IMAGE:web || true
             docker pull $IMAGE:api || true
-            docker pull $IMAGE:nginx || true
             docker-compose -f src/docker-compose.prod.yaml build
             docker ps 
             docker push $IMAGE:web
             docker push $IMAGE:api
-            docker push $IMAGE:nginx
 
   deploy-prod:
     machine: true
@@ -69,8 +67,8 @@ jobs:
           name: Deploy 
           command: |
             chmod +x src/deploy_project.sh
-            scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university/src/app
-            scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/victoria_university/src
+            scp  -o StrictHostKeyChecking=no -r .env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
+            scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_project.sh
 
 
@@ -84,35 +82,35 @@ workflows:
                 - main
       - build-prod:
           filters:
-            # branches:
-            #   ignore: /.*/
-            # tags:
-            #   only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
             branches:
-              only:
-                - main
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+            # branches:
+            #   only:
+            #     - main
       - approve-prod:
           type: approval
           requires:
             - build-prod
           filters:
-            # branches:
-            #   ignore: /.*/
-            # tags:
-            #   only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
             branches:
-              only:
-                - main
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+            # branches:
+            #   only:
+            #     - main
       - deploy-prod:
           requires:
             - approve-prod
             - build-prod
           filters:
-            # branches:
-            #   ignore: /.*/
-            # tags:
-            #   only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
             branches:
-              only:
-                - main
+              ignore: /.*/
+            tags:
+              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+            # branches:
+            #   only:
+            #     - main
           
