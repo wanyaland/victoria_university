@@ -3,9 +3,6 @@ version: '3.2'
 services: 
     api:
         image: wanyaland/victoria_university:api
-        build:
-            context: ./app
-            dockerfile: Dockerfile-prod
 
         volumes:
             - ./app/:/usr/src/app
@@ -27,7 +24,6 @@ services:
 
     client:
         image: wanyaland/victoria_university:web
-        build: ./client
         volumes:
             - './client/:/usr/src/app'
             - '/usr/src/app/node_modules'
@@ -36,7 +32,6 @@ services:
 
     nginx:
         image: wanyaland/victoria_university:nginx
-        build: ./nginx
         restart: always
         ports:
           - 80:80
