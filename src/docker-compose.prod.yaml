@@ -4,12 +4,10 @@ services:
     api:
         image: wanyaland/victoria_university:api
 
-        volumes:
-            - ./app/:/usr/src/app
         ports:
             - 8009:8009
         env_file:
-            - ./app/.env
+            - ./.env
         depends_on: 
             - db
     
@@ -24,9 +22,6 @@ services:
 
     client:
         image: wanyaland/victoria_university:web
-        volumes:
-            - './client/:/usr/src/app'
-            - '/usr/src/app/node_modules'
         ports:
             - 3001:3000
 
