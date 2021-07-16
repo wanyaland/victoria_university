@@ -67,6 +67,7 @@ class NavBar extends Component{
 								<Link onClick={this.dropdowned.bind(this, "admissions")} className="dropbtned nav-link">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="admissions" className="dropdown-contenter">
 									<Link to="/admissions" className="text-left" style={{color: '#888', fontWeight: '700'}}>Admissions</Link>
+									<Link to="/vclass" className="text-left" style={{color: '#888', fontWeight: '700'}}>Vclass</Link>
 									<Link to="/student-profile" className="text-left" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
 									<Link to="/requirements" className="text-left" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 									<Link to="/student-guidelines" className="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>

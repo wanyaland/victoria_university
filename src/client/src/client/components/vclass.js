@@ -21,6 +21,10 @@ class Vclass extends Component {
 	  });
 	}
     }
+    toVclass = () => {
+        window.location.href = "https://vclass.ac/"
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -49,9 +53,12 @@ class Vclass extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Victoria University V-Classes</h6>
-                    <p className="my-4" style={{}}>Modern education models and teaching methodologies demand that higher education institutions like our University aspiring to be leaders in education   technology and provide real world learning experience should and must educate students to fit in both the 21st century economies and the forth industrial revolution because the world has changed and continues to change only well prepared will fit in it. One of the assured paths to deliver such meaningful learning is  to ensure that learning happens Anywhere-Anytime. That is why Victoria University has carefully developed a state of the art learning management system (VClass) to support meaningful and interactive online learning and credible assessment of all our students please visit VU’S VClass  for more information  <h6 className="underline" style={{fontSize: '22px'}}><a href="www.vclass.ac">www.vclass.ac <span className="fa fa-external-link"></span></a></h6>
+                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Victoria University Vclasses</h6>
+                    <p className="my-4" style={{}}>Modern education models and teaching methodologies demand that higher education institutions like our University aspiring to be leaders in education   technology and provide real world learning experience should and must educate students to fit in both the 21st century economies and the forth industrial revolution because the world has changed and continues to change only well prepared will fit in it. One of the assured paths to deliver such meaningful learning is  to ensure that learning happens Anywhere-Anytime. That is why Victoria University has carefully developed a state of the art learning management system (VClass) to support meaningful and interactive online learning and credible assessment of all our students please visit VU’s VClass  for more information<br/><h6 className="underline" style={{fontSize: '22px'}}><a href="#ac" target="_blank" onClick={this.toVclass}>Log into Vclass <span className="fa fa-external-link"></span></a></h6>
                     </p>
+                    <div className="text-center">
+                        <button class="more_vclass" onClick={this.toVclass}><span>Log into Vclass</span></button>
+                    </div>
                 </div>
             </div>
         </div>

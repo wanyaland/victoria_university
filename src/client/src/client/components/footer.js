@@ -3,6 +3,12 @@ import Chat from './chat';
 import PayPop from './paypop';
 
 class Footer extends Component{
+    constructor(props) {
+        super(props);
+        
+        this.popPay = this.popPay.bind(this)
+    }
+    
 	topFunction() {
 		document.body.scrollTop = 0;
 		document.documentElement.scrollTop = 0;

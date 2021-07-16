@@ -5398,7 +5398,7 @@ span.fa.fa-play {
     background: rgba(1, 37, 36, 0.83);
     position: absolute;
     top: 0;
-    min-height: 100%;
+    min-height: auto;
     left: 0;
     right: 0;
     z-index: -1;
@@ -6356,7 +6356,7 @@ span.fa.fa-play {
 }
 
 .w3l-content-5 .content-5-main {
-    background: url(../src/client/assets/images/bg3.jpg) no-repeat bottom;
+    background: url(../src/client/assets/images/discover.png) no-repeat bottom;
     background-size: cover;
     z-index: 0;
     position: relative;
@@ -6365,7 +6365,7 @@ span.fa.fa-play {
 
 .w3l-content-5 .content-5-main::before {
     content: "";
-    background: rgba(1, 37, 36, 0.83);
+    background: transparent;
     position: absolute;
     top: 0;
     min-height: 100%;
@@ -6652,6 +6652,7 @@ span.fa.fa-play {
     margin: 0 auto;
 }
 .testimonial_text{
+    height: 100%;
     padding: 45px;
     background-color: #0077b5;
     border-top-left-radius: 15px;
@@ -18305,6 +18306,34 @@ background-color: #014e77;
   background: #c7c7c7;
   color: #444;
 }
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    border: #888 1px solid;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: #FFF;
+    color: #777;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  
+  .input-field:focus {
+    border: 1px solid dodgerblue;
+  }
 /* Programs */
 /* Calculator */
 .cal-modal {
@@ -18425,3 +18454,45 @@ background-color: #014e77;
         color: #FFF;
     }
 /* //pay-pop-up */
+/* Vclass */
+.more_vclass {
+    border-radius: 4px;
+    background-color: #035886;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .more_vclass:hover{
+    background-color: #013049;
+  }
+  .more_vclass span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .more_vclass span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .more_vclass:hover span {
+    padding-right: 25px;
+  }
+  
+  .more_vclass:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/* Vclass */

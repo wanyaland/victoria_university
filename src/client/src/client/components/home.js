@@ -96,19 +96,18 @@ class Home extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-content-5">
-	<div className="content-5-main">
+{/*<section className="w3l-content-5">
+	<div className="content-5-main" style={{border: 'red 1px solid'}}>
 		<div className="container">
-			<div className="content-info-in row">
-				<div className="content-gd col-lg-6">
-						<h3 className="discover">DISCOVER</h3>
-				</div>
-			</div>
+			<div className="content-info-in row">*/}
+				<img src="assets/images/discover.png" className="img-fluid" alt="Discover"/>
+			{/*</div>
 			<div className="content-info-in row">
 			</div>
 		</div>
 	</div>
-</section>
+</section>*/}
+<br/>
         <SelectPath />
 		<Testimonies />
 <section className="w3l-features-1">
@@ -140,7 +139,7 @@ class Home extends Component{
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center">Online Education</h6>
 						<span className="dot orange"></span>
-						<p><Link to="/vclass">Visit V-Class</Link></p>
+						<p><Link to="/vclass">Visit Vclass</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
@@ -153,7 +152,7 @@ class Home extends Component{
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center"><Link to="/admissions">Admissions</Link></h6>
 						<span className="dot brown"></span>
-						<p><Link to='/requirements'>Facult-wise Admission Requirements</Link></p>
+						<p><Link to='/requirements'>Requirements per faculty</Link></p>
 						<p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p>
 					</div>
 					<div className="text-center smalldash brown_d"></div>
