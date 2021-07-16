@@ -399,9 +399,9 @@ class ApplyNow extends Component{
                                         <option></option>
                                         <option>Pesapal</option>
                                         <option>GTPay</option>
-                                        <option>USSD</option>
+                                        {/* <option>USSD</option>
                                         <option>Wire Transfer</option>
-                                        <option>Bursar</option>
+                                        <option>Bursar</option> */}
                                     </select>
 									</div>
 								</div>

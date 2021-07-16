@@ -38,7 +38,7 @@ class Faculties extends Component {
                     <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
 					Admissions 
 					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ Academic Faculties & Centres</span>
+					<span style={{color: '#EEE'}}>/ Academic Faculties & Centers</span>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ class Faculties extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Academic Faculties & Centres</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Academic Faculties & Centers</h6>
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@ class Faculties extends Component {
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Health Science<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Health Sciences<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -145,7 +145,6 @@ class Faculties extends Component {
                                         <p className="my-4">
                                         <ul style={{listStyle: 'none'}}>
                                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li>
-                                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp; <span className="fa fa-external-link"></span></li>
                                             </ul>
                                         </p>
                                     </div>

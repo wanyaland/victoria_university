@@ -143,9 +143,18 @@ class ProgIndex extends Component {
 								</tr>
 							</table>
 						</div>
-						<ul className="prog-listu" style={{borderBottom: '#888 1px solid'}}>
-							<p className="my-1" style={{fontSize: '18px', fontWeight: '550'}}>LEVEL</p>
-						</ul>
+						<div>
+							<p className="my-2 text-center" style={{fontSize: '18px', fontWeight: '400'}}>Level Of Education</p>
+							<ul className="prog-listu" style={{border: '#888 1px solid', width: '80%', margin: '0 auto', padding: '0'}}>
+								<li className="prog-list" style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getCourses}>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Post graduate</span></td></tr></table>
+								</li>
+								<li className="prog-list" style={{width: '100%'}} onClick={this.getCourses}>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Under graduate</span></td></tr></table>
+								</li>
+							</ul>
+						</div>
+						<hr/>
 						<ul className="prog-listu">
 							<li className="prog-list" style={{width: '100%'}} onClick={this.getCourses}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
@@ -175,10 +184,11 @@ class ProgIndex extends Component {
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.</p>
                         <br/>
-                        <form action="#" method="post" className="d-flex searchhny-form" style={{border: '#999 1px solid', paddingLeft: '10px'}}>
-                            <input type="search" placeholder="Search for programs by name or keyword" style={{color: '#000', width: '100%', border: 'none'}} required="required"/>
-                            <button className="search_btn" style={{borderRadius: '0rem', backgroundColor: '#f87a21'}}>Search</button>
-                        </form>
+                        <div class="input-container">
+							<i class="fa fa-search icon"></i>
+							<input class="input-field" type="text" placeholder="Search for programs by name or keywords" name="usrnm"/>
+							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f87a21'}}>Search</button>
+						</div>
                         <br/>
                     </div>
 					<section className="w3l-wecome-content-6">
