@@ -2,7 +2,7 @@ FROM node:13.12.0-alpine
 
 WORKDIR /app
 
-ENV PATH /app/node_nodules/.bin:$PATH
+ENV PATH /app/client/node_nodules/.bin:$PATH
 
 #install dependencies
 COPY package.json ./

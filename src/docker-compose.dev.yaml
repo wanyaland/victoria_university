@@ -38,8 +38,8 @@ services:
             context: ./client
             dockerfile: Dockerfile
         volumes:
-            - './client/:/usr/src/app'
-            - '/usr/src/app/node_modules'
+            - './client/:/usr/src/app/client'
+            - '/usr/src/app/client/node_modules'
         ports:
             - 3001:3000
         environment: 
