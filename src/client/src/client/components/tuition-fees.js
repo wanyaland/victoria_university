@@ -3,6 +3,7 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer';
+import CalculatorFees from './calculator-modal'
 import { Link } from 'react-router-dom'
 
 class Tuition extends Component {
@@ -23,6 +24,14 @@ class Tuition extends Component {
 	  });
 	}
     }
+    popPay(){
+		var modal = document.getElementById("pay-myModal");
+		modal.style.display = "block";
+	}
+    popCal(){
+		var modal = document.getElementById("cal-myModal");
+		modal.style.display = "block";
+	}
     change_icon(id, id2) {
 		var element = document.getElementById(id);
 		element.classList.add("hider");
@@ -80,7 +89,7 @@ class Tuition extends Component {
 						<span className="fa fa-credit-card" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Fee payment</a></h6>
+						<h6 className="text-center"><a href="#home" onClick={this.popPay}>Fee payment</a></h6>
 					</div>
 				</div>
 				<div className="features-1-info col-lg-4 col-md-6">
@@ -88,7 +97,7 @@ class Tuition extends Component {
 						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Calculate undergraduate course fees</a></h6>
+						<h6 className="text-center"><a href="#home" onClick={this.popCal}>Calculate undergraduate course fees</a></h6>
 					</div>
 				</div>
                 <div className="features-1-info col-lg-4 col-md-6">
@@ -96,7 +105,7 @@ class Tuition extends Component {
 						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Calculate postgraduate course fees</a></h6>
+						<h6 className="text-center"><a href="#home" onClick={this.popCal}>Calculate postgraduate course fees</a></h6>
 					</div>
 				</div>
 			</div>
@@ -271,8 +280,9 @@ class Tuition extends Component {
         </div>
     </div>
 </section>
+<CalculatorFees />
                 <GetInfo />
-                <Footer />
+                <Footer popPay={this.popPay}/>
             </React.Fragment>
         )
     }
