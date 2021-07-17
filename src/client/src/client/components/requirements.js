@@ -827,6 +827,175 @@ class Requirements extends Component{
 			</div>
 		</div>
 	</section>
+	<section className="w3l-wecome-content-6">
+		<div className="ab-content-6-mian py-5">
+			<div className="container py-lg-5">
+				<div className="welcome-grids row">
+					<div className="col-lg-12 welcome-image">
+						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Health Sciences</h6>
+						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
+							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in public health (3 years ) BPH<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Uganda Advanced Certificate of education or its equivalent with two principle passes in Biology and Chemistry.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp; Diploma in health sciences from a recognized institution and must be certified by a Health Professional Council.</li>
+											</ul>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Nursing Science (4 years) BNS.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Uganda Advanced Certificate of education or its equivalent with two principle passes in Biology, Chemistry.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Nursing or comprehensive nursing from a recognized and licensed institution.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Must have at least two years post-diploma in clinical experience.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Midwifery Science (3 years) BMS<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Midwifery or comprehensive nursing from a recognized and licensed institution.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Must have at least two years post-diploma in clinical experience.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of environmental health sciences (3 years) BHS.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Uganda Advanced Certificate of education or it’s equivalent with two principle passes in Biology, Chemistry.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Health Sciences from a recognized institution and must be certified by Allied Health Professional Council.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in Human Nutrition and Dietetics (4 years) BHN<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;UACE or its equivalent with two principle passes in either Food and Nutrition, Chemistry, or Biology obtained at the same sitting.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Health Sciences from a recognized institution and must be certified by relevant council.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Uganda Advanced Certificate of education or its equivalent with a subsidiary pass in biology and chemistry.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;UACE or its equivalent with two principle passes in either Food and Nutrition, Chemistry, or Biology obtained at the same sitting.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Students whose foreign secondary school qualifications are not considered equivalent to the Uganda advanced certificate of education in their respective countries, such students shall be required to have an equivalent of the following, biology, physics, chemistry. Foreign students whose studies were not conducted in English shall show proof of proficiency in English language.Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
+						<table style={{width: '100%', height: '100%'}}>
+							<tr>
+								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
+								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Please ensure to review the specific requirements for the undergraduate or graduate program you are applying for carefully before submitting your final application.</td>
+							</tr>
+						</table>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
 	<AskInfo />
     <GetInfo />
             <Footer />
