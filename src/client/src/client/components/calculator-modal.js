@@ -117,7 +117,7 @@ class CalculatorFees extends Component {
                         <div className="col-75">
                           <table style={{width: '100%', height: '100%'}}>
                             <tr>
-                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Are you a Uganda?</td>
+                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Are you a Ugandan?</td>
                             </tr>
                             <tr>
                               <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>
