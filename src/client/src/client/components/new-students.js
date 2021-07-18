@@ -165,7 +165,7 @@ class NewStudents extends Component{
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-                                        <p className="my-4">Learn more about AU’s services and resources in our new student orientation.</p>
+                                        <p className="my-4">Learn more about VU’s services and resources in our new student orientation.</p>
                                         <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
                                             <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">View Orientation</span></span>
                                             </Link>

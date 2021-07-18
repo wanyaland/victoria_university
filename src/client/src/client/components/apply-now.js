@@ -376,7 +376,7 @@ class ApplyNow extends Component{
                                     <p className="text-left" style={{fontSize:'18px', fontWeight: '600'}}>Application Charges</p>
 									<div className="col-75">
 									<table style={{width: '100%', border: '#888 1px solid', padding: '5px'}}>
-                                        <tr style={{width: '100%', border: '#000 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Description</td><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Total</td></tr>
+                                        <tr style={{width: '100%', border: '#000 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Description</td><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Amount</td></tr>
                                         <tr style={{width: '100%', border: '#888 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px'}}>Local Student</td><td style={{border: '#000 1px solid', padding: '5px'}}>UGX</td><td style={{border: '#000 1px solid', padding: '5px'}}>50,000/=</td></tr>
                                         <tr style={{width: '100%', border: '#888 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px'}}>International Students</td><td style={{border: '#000 1px solid', padding: '5px'}}>USD</td><td style={{border: '#000 1px solid', padding: '5px'}}>$16</td></tr>
                                     </table>
@@ -399,9 +399,10 @@ class ApplyNow extends Component{
                                         <option></option>
                                         <option>Pesapal</option>
                                         <option>GTPay</option>
+                                        <option>Bursar</option>
                                         {/* <option>USSD</option>
                                         <option>Wire Transfer</option>
-                                        <option>Bursar</option> */}
+                                        */}
                                     </select>
 									</div>
 								</div>

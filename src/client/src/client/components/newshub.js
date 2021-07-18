@@ -15,6 +15,9 @@ class NewsHub extends Component{
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
+	 toNewshub = () => {
+		 window.location.href = "news"
+	 }
     render(){
         return(
             <React.Fragment>
@@ -45,7 +48,7 @@ class NewsHub extends Component{
 							<div className="course-meta"><span className="course-students" title=""><span
 										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button className="price-course btn">More</button>
+							<button className="price-course btn" onClick={this.toNewshub}>More</button>
 						</div>
 					</div>
 				</div>
@@ -65,7 +68,7 @@ class NewsHub extends Component{
 							<div className="course-meta"><span className="course-students" title=""><span
 										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button className="price-course btn">More</button>
+							<button className="price-course btn" onClick={this.toNewshub}>More</button>
 						</div>
 					</div>
 				</div>
@@ -85,7 +88,7 @@ class NewsHub extends Component{
 							<div className="course-meta"><span className="course-students" title=""><span
 										className="fa fa-clock-o" aria-hidden="true"></span> 46 Mins Ago</span>
 							</div>
-							<button className="price-course btn">More</button>
+							<button className="price-course btn" onClick={this.toNewshub}>More</button>
 						</div>
 					</div>
 				</div>

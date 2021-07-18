@@ -228,7 +228,7 @@ class Exams extends Component{
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Rescheduling exams</h6>
                     <br/>
                     <p className="mb-4">If you can’t write your exam on the requested date, you may reschedule your exam up to 10 business days after your original write date, as long as the invigilator can supervise at that time.</p>
-                    <p className="mb-4">To reschedule your exam, contact the location where you are writing. If you are writing at an VUlocation, contact Exam Services at 1-800-788-9041 to reschedule.</p>
+                    <p className="mb-4">To reschedule your exam, contact the location where you are writing. If you are writing at an VUlocation, contact Exam Services at +256 759 996 130 or +256 700 300 088 or +256 707 780 158 to reschedule.</p>
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>Fees</h6>
                     <p className="my-4">If you are writing at an VU location, there is a non-refundable exam rebooking fee <span className="fa fa-external-link"></span>.</p>
                     <p className="my-4">If you need to reschedule your exam to a write date more than 10 business days later, your original exam will be returned to VUunwritten. You will need to submit a new exam request, and pay a multiple exam fee <span className="fa fa-external-link"></span>.</p>

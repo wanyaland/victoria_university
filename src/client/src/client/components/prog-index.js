@@ -146,10 +146,10 @@ class ProgIndex extends Component {
 						<div>
 							<p className="my-2 text-center" style={{fontSize: '18px', fontWeight: '400'}}>Level Of Education</p>
 							<ul className="prog-listu" style={{border: '#888 1px solid', width: '80%', margin: '0 auto', padding: '0'}}>
-								<li className="prog-list" style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getCourses}>
+								<li className="prog-list" style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getPostGs}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Post graduate</span></td></tr></table>
 								</li>
-								<li className="prog-list" style={{width: '100%'}} onClick={this.getCourses}>
+								<li className="prog-list" style={{width: '100%'}} onClick={this.getUnder}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '80%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Under graduate</span></td></tr></table>
 								</li>
 							</ul>

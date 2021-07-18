@@ -239,7 +239,7 @@ class Council extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+						<img src="assets/images/img/sameer.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -280,7 +280,7 @@ class Council extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+					<img src="assets/images/trustees/rajiv.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -308,7 +308,7 @@ class Council extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+						<img src="assets/images/img/ssemambo.jpg" className="img-fluid" alt="" style={{width: '100%', height: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -348,7 +348,7 @@ class Council extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+						<img src="assets/images/img/kabonesa.jpg" className="img-fluid" alt="" style={{width: '100%'}} />
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>

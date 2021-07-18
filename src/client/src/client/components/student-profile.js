@@ -66,7 +66,7 @@ class StudentProfile extends Component {
 						<br/>
 						<p className="my-4" style={{fontSize: '24px'}}>Are you ready to become an Victoria University student?</p>
 						<p className="mb-4" style={{fontSize: '18px'}}>The application process at Victoria University varies depending on what level you wish to study (undergraduate or graduate), where you live, and if you want to take a full program or specific courses. To ensure that you follow the right application process, it is important to understand what type of student you are before getting started. Browse through all our student type options below to find your path!</p>
-                        <p className="my-4">If you have any questions or aren’t sure which student category applies to you, feel free to get in touch with one of our online program advisors <span className="fa fa-external-link"></span> or call 1-800-788-9041. Once your application has been approved, you can start registering for courses right away.</p>
+                        <p className="my-4">If you have any questions or aren’t sure which student category applies to you, feel free to get in touch with one of our online program advisors <span className="fa fa-external-link"></span> or call +256 759 996 130 or +256 700 300 088 or +256 707 780 158. Once your application has been approved, you can start registering for courses right away.</p>
 					</div>
 				</div>
 			</div>
@@ -203,7 +203,7 @@ class StudentProfile extends Component {
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
 						<p className="mb-4" style={{fontSize: '18px'}}>International students</p>
-                        <p className="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Canada to study? Many of our programs are eligible to accept students on a study permit.</p>
+                        <p className="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Uganda to study? Many of our programs are eligible to accept students on a study permit.</p>
                         <br/>
                         <br/>
                         <p>
