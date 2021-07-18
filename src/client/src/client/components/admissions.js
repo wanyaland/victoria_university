@@ -68,7 +68,7 @@ class Admissions extends Component{
 								</h4>
 								<p className="my-4">Since admission requirements vary by program, degree, and course choices make sure to identify which student profile matches your interests before starting the application process!</p>
 								<p>
-									<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+									<Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
 										<span className="lohny-2"><span id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Undergraduate Programs</span>
 									</Link>	
 								</p>
@@ -87,14 +87,14 @@ class Admissions extends Component{
 					<div className="welcome-grids row">
                             <div className="col-lg-6 welcome-image">
                                 <img src="assets/images/bg1.jpg" className="img-fluid" alt=""/>
-                            </div>	
+                            </div>
 							<div className="col-lg-6 mb-lg-0 mb-5" style={{borderTop: '#D4484A 4px solid'}}>
 								<h4 className="hny-title" style={{fontSize: '32px'}}>
 									Admission requirements
 								</h4>
 								<p className="my-4">As long as you meet the minimum age requirement of being at least 16 years old, you'll fit right in! With our open admission policy becoming an online student at Victoria University has never been easier.</p>
 								<p>
-									<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+									<Link className="logo-2" to="/requirements" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
 										<span className="lohny-2"><span id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Browse our different degree and course requirements</span>
 									</Link>	
 								</p>
@@ -131,7 +131,7 @@ class Admissions extends Component{
 								</h4>
 								<p className="my-4">We don’t want to teach you things you already know. If you have a degree, work experience, or any other relevant experience, at VU you can make it count! Getting credit for your knowledge can save you time and money on your way</p>
 								<p>
-									<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+									<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
 										<span className="lohny-2"><span id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn more about advanced credits</span>
 									</Link>	
 								</p>
@@ -154,7 +154,7 @@ class Admissions extends Component{
 								</h4>
 								<p className="my-4">It’s important for us to make sure that your online education syncs with your life rather than complicates it. Which is why we like to be as flexible as possible and have our admission policies reflect that.</p>
 								<p>
-									<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+									<Link className="logo-2" to="/dates-deadlines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 										<span className="lohny-2"><span id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Check which dates are important for your classes or degree</span>
 									</Link>	
 								</p>
@@ -177,8 +177,8 @@ class Admissions extends Component{
 								</h4>
 								<p className="my-4">After a one-time non-refundable fee when you first apply to Victoria University, you pay for your classes only when you register for them. You have full control over your pace and your finances.</p>
 								<p>
-									<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-										<span className="lohny-2"><span id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find out how Tuition & Fees work at AU.</span>
+									<Link className="logo-2" to="/tuition-fees" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+										<span className="lohny-2"><span id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find out how Tuition & Fees work at VU.</span>
 									</Link>	
 								</p>
 								<br/>

@@ -76,7 +76,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="" className="img-fluid" alt="" />
+						<img src="assets/images/trustees/sudhir.jpg" className="img-fluid" alt="" style={{width:'100%'}} />
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -108,7 +108,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+						<img src="assets/images/trustees/jyotsna.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -139,7 +139,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" style={{height: '100%', width: '100%'}} />
+					<img src="assets/images/trustees/rajiv.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -168,7 +168,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+					<img src="assets/images/trustees/meera.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -199,7 +199,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+					<img src="assets/images/trustees/sheena.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
@@ -228,7 +228,7 @@ class Trustees extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/" className="img-fluid" alt="" />
+					<img src="assets/images/trustees/naiya.jpg" className="img-fluid" alt="" style={{width: '100%'}}/>
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>

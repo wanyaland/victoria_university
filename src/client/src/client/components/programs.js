@@ -69,6 +69,10 @@ class Programs extends Component{
 			</div>
 	</div>
 </section>
+<section className="w3l-content-5">
+	<img src="assets/images/admission_banner.jpg" className="img-fluid" alt="Discover"/>
+</section>
+<br/>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">

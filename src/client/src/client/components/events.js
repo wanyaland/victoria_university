@@ -15,6 +15,9 @@ class Events extends Component{
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
+	 toEvents = () => {
+		 window.location.href = "events-hub"
+	 }
     render(){
         return(
             <React.Fragment>
@@ -39,7 +42,7 @@ class Events extends Component{
 					<div className="course-content">
 						<div className="course-info">
 							<Link to="/events-hub" className="course-title-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">ICT &amp; Transport Expo</h3>
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Guild elections</h3>
 							</Link>
 						</div>
 						<div className="course-divider">
@@ -49,7 +52,7 @@ class Events extends Component{
 										aria-hidden="true"></span> Main Campus</span>
 
 							</div>
-							<button className="price-course btn">More</button>
+							<button className="price-course btn" onClick={this.toEvents}>More</button>
 
 
 						</div>
@@ -63,7 +66,7 @@ class Events extends Component{
 					<div className="course-content">
 						<div className="course-info">
 							<Link to="/events-hub" className="course-title-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">ICT hackathon</h3>
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">End on semesters exams</h3>
 							</Link>
 						</div>
 						<div className="course-divider">
@@ -73,7 +76,7 @@ class Events extends Component{
 										aria-hidden="true"></span> Main Campus</span>
 
 							</div>
-							<button className="price-course btn"> More </button>
+							<button className="price-course btn" onClick={this.toEvents}> More </button>
 
 
 						</div>
@@ -86,7 +89,7 @@ class Events extends Component{
 					<div className="course-content">
 						<div className="course-info">
 							<Link to="/events-hub" className="course-title-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Freshers Ball (August Intake)</h3>
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Festival of ideas</h3>
 							</Link>
 						</div>
 						<div className="course-divider">
@@ -95,9 +98,7 @@ class Events extends Component{
 								<span className="course-reviews" title=""><span className="fa fa-map-marker"
 										aria-hidden="true"></span> Main Campus</span>
 							</div>
-							<button className="price-course btn"> More </button>
-
-
+							<button className="price-course btn" onClick={this.toEvents}> More </button>
 						</div>
 					</div>
 				</div>

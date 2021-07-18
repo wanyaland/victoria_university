@@ -165,7 +165,7 @@ class Home extends Component{
 						<h6 className="text-center"><Link to="/transfer-credit">Transfer Credit</Link></h6>
 						<span className="dot blue"></span>
 						<p><Link to="/transfer-credit">Transfer to a VU program</Link></p>
-						<p><Link to="/admissions">Courses for other tuitions</Link></p>
+						{/* <p><Link to="/admissions">Courses for other tuitions</Link></p> */}
 					</div>
 					<div  className="text-center smalldash blue_d"></div>
 				</div>

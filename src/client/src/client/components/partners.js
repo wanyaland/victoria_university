@@ -345,6 +345,11 @@ class Partners extends Component {
                             </div>
                             <div className="features-1-info col-lg-2 col-md-6">
                                 <div className="features-1-info-icon text-center">
+                                    <img src="assets/images/partners/40.jpg" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="features-1-info col-lg-2 col-md-6">
+                                <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/32.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
@@ -363,13 +368,13 @@ class Partners extends Component {
                                     <img src="assets/images/partners/35.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
+                        </div>{/*  */}
+                        <div className="row grids-innf my-lg-5">
                             <div className="features-1-info col-lg-2 col-md-6">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/36.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                        </div>{/*  */}
-                        <div className="row grids-innf my-lg-5">
                             <div className="features-1-info col-lg-2 col-md-6">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/37.png" alt="Victoria University" title="Victoria University" className="img-fluid"/>

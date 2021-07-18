@@ -18340,7 +18340,7 @@ background-color: #014e77;
 /* Programs */
 /* Calculator */
 .cal-modal {
-    display: none; 
+    display: block; 
     position: fixed; 
     z-index: 1; 
     padding-top: 100px; 
@@ -18358,7 +18358,7 @@ background-color: #014e77;
     margin: auto;
     padding: 0px;
     border: 1px solid #888;
-    width: 50%;
+    width: 60%;
     min-height: 400px;
   }
 

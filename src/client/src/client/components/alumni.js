@@ -162,7 +162,7 @@ class Alumni extends Component {
 					<div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
 						<div className="course-info">
 							<a href="#home" className="course-titlegulp-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">AU alumna wins two CCPA awards
+								<h3 className="course-title" data-gal="prettyPhoto[gallery]">VU alumna wins two CCPA awards
                                 </h3>
 							</a>
 							<h6><a className="course-instructor" href="#home">Alumni,Announcements</a></h6>

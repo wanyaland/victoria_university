@@ -17,6 +17,8 @@ class CalculatorFees extends Component {
     const progData = Data;
     var locRegfee = "50,000";
     var intRegfee = "16";
+    var locProfee = "160,000"
+    var intProfee = "51"
     //var reset = document.getElementById('reseter');
     var program = document.getElementById("prog_item").value;
     
@@ -30,19 +32,23 @@ class CalculatorFees extends Component {
       document.getElementById("stud").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Student Type:</b> "+ studSelect +"</p>";
       if(studSelect === "Local"){
         if(progData[program].level === "Professional Development"){
-          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fees: UGX </b> 0</p>";
+          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> 0</p>";
+          document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> 0</p>";
           document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
         } else {
-        document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fees: UGX </b> "+ locRegfee +"</p>";
+        document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +"</p>";
+        document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +"</p>";
         document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
         }
       } else {
         
         if(progData[program].level === "Professional Development"){
-          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fees: USD </b> 0</p>";
+          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> 0</p>";
+          document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> 0</p>";
           document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
         } else {
-          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fees: USD </b> "+ intRegfee +"</p>";
+          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +"</p>";
+          document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +"</p>";
           document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +"</p>";
         }
       }
@@ -137,6 +143,7 @@ class CalculatorFees extends Component {
                     <p id="prog" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
                     <p id="stud" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
                     <p id="regfee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="profee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
                     <p id="fee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
                   </div>
                   </div>

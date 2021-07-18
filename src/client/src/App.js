@@ -48,6 +48,7 @@ import AvailRes from './client/components/avail-res';
 import AcademRes from './client/components/academic-res';
 import SupervRes from './client/components/superv-res';
 import ViewProgram from './client/components/view-program';
+import LifeVu from './client/components/life-at-vu';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -103,6 +104,7 @@ const App = () => (
         <Route exact path="/avail-res" component={AvailRes} />
         <Route exact path="/academic-res" component={AcademRes} />
         <Route exact path="/superv-res" component={SupervRes} />
+        <Route exact path="/life-at-vu" component={LifeVu} />
         <Route exact path="/:program" component={ViewProgram} />
       </Switch>
     </Router>
