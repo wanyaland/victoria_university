@@ -272,6 +272,7 @@ body img {
 .title_path{
     margin-top: 10px;
     left: 0%;
+    top: 15%;
     position: relative;
     font-weight: 600;
     font-size: 17px;
@@ -5797,12 +5798,12 @@ span.fa.fa-play {
 }
 @media screen and (min-width: 1920px) {
     .pathdots{
-        top: -1.4%;
-        left: 48%;
+        top: -1%;
+        left: 47.5%;
     }
     .pathdots_round{
-        top: -3.2%;
-        left: 45.5%;
+        top: -2.5%;
+        left: 45%;
     }
     .path_stick{
         top: 1%;
@@ -5823,53 +5824,53 @@ span.fa.fa-play {
         left: 49%;
     }
     .path_point1{
-        top:50%;
+        top:75%;
         left: 0%;
     }
     .path_point2{
-        top:50.3%;
+        top:75%;
         left: 0%;
     }
     .path_point3{
-        top:54%;
+        top:78%;
         left: 0%;
     }
     .path_point4{
-        top:41.8%;
+        top:70%;
         left: 0%;
     }
     .path_point5{
-        top:54%;
+        top:77%;
         left: 0%;
     }
     .ext-1{
-        top:45%;
+        top:70%;
         left: 0%;
     }
     .ext-2{
-        top:45%;
+        top:70%;
         left: 0%;
     }
     .ext-3{
-        top:48.8%;
+        top:69%;
         left: 0%;
     }
     .ext-4{
-        top:36.5%;
+        top:62%;
         left: 0%;
     }
     .ext-5{
-        top:49%;
+        top:69%;
         left: 0%;
     }
 }
 @media screen and (max-width: 1600px) {
     .pathdots{
         top: -1.4%;
-        left: 47.7%;
+        left: 47%;
     }
     .pathdots_round{
-        top: -3.7%;
+        top: -0.7%;
         left: 45%;
     }
     .path_stick{
@@ -5934,10 +5935,10 @@ span.fa.fa-play {
 @media screen and (max-width: 1600px) {
     .pathdots{
         top: -1.4%;
-        left: 47.7%;
+        left: 47.5%;
     }
     .pathdots_round{
-        top: -3.7%;
+        top: -3%;
         left: 44%;
     }
     .path_stick{
@@ -5950,6 +5951,7 @@ span.fa.fa-play {
     }
     .title_path{
         left: 1%;
+        top: 18%;
     }
     .extra-dets{
         top:5%;
@@ -5959,43 +5961,43 @@ span.fa.fa-play {
         left: 49%;
     }
     .path_point1{
-        top:32%;
+        top:70%;
         left: 0%;
     }
     .path_point2{
-        top:38%;
+        top:73%;
         left: 0%;
     }
     .path_point3{
-        top:37.2%;
+        top:73%;
         left: 0%;
     }
     .path_point4{
-        top:22%;
+        top:63%;
         left: 0%;
     }
     .path_point5{
-        top:38%;
+        top:73%;
         left: 0%;
     }
     .ext-1{
-        top:28%;
+        top:60%;
         left: 0%;
     }
     .ext-2{
-        top:32%;
+        top:59%;
         left: 0%;
     }
     .ext-3{
-        top:32%;
+        top:57%;
         left: 0%;
     }
     .ext-4{
-        top:16%;
+        top:47%;
         left: 0%;
     }
     .ext-5{
-        top:32%;
+        top:59%;
         left: 0%;
     }
 }
@@ -6027,43 +6029,43 @@ span.fa.fa-play {
         left: 49%;
     }
     .path_point1{
-        top:24.4%;
+        top:66.5%;
         left: 0%;
     }
     .path_point2{
-        top:30.3%;
+        top:70%;
         left: 0%;
     }
     .path_point3{
-        top:30.3%;
+        top: 70%;
         left: 0%;
     }
     .path_point4{
-        top:7%;
+        top:55%;
         left: 0%;
     }
     .path_point5{
-        top:30.3%;
+        top:70%;
         left: 0%;
     }
     .ext-1{
-        top:22%;
+        top:60%;
         left: 0%;
     }
     .ext-2{
-        top:27.5%;
+        top:58%;
         left: 0%;
     }
     .ext-3{
-        top:27.5%;
+        top:58%;
         left: 0%;
     }
     .ext-4{
-        top: 5%;
+        top: 45%;
         left: 0%;
     }
     .ext-5{
-        top:27.5%;
+        top:58%;
         left: 0%;
     }
 }
@@ -6095,43 +6097,43 @@ span.fa.fa-play {
         left: 49%;
     }
     .path_point1{
-        top:6.5%;
+        top:56%;
         left: 0%;
     }
     .path_point2{
-        top:20.3%;
+        top:64%;
         left: 0%;
     }
     .path_point3{
-        top:26%;
+        top:68%;
         left: 0%;
     }
     .path_point4{
-        top:1.7%;
+        top:52%;
         left: 0%;
     }
     .path_point5{
-        top:13%;
+        top:60%;
         left: 0%;
     }
     .ext-1{
-        top:4%;
+        top:52%;
         left: 0%;
     }
     .ext-2{
-        top:11%;
+        top:56.5%;
         left: 0%;
     }
     .ext-3{
-        top:11%;
+        top:55%;
         left: 0%;
     }
     .ext-4{
-        top:0%;
+        top:40%;
         left: 0%;
     }
     .ext-5{
-        top:4%;
+        top:54.5%;
         left: 0%;
     }
 }
@@ -6273,7 +6275,7 @@ span.fa.fa-play {
         left: 48%;
     }
     .pathdots_round{
-        top: -3%;
+        top: -2.5%;
         left: 45.7%;
     }
     .path_stick{
@@ -6286,6 +6288,7 @@ span.fa.fa-play {
     }
     .title_path{
         left: 1%;
+        top: 20%;
     }
     .extra-dets{
         top:38%;
@@ -6314,43 +6317,43 @@ span.fa.fa-play {
         display: block;
     }
     .path_point1{
-        top:53%;
+        top:80%;
         left: 0%;
     }
     .path_point2{
-        top: 57%;
+        top: 82%;
         left: 0%;
     }
     .path_point3{
-        top:56%;
+        top:82%;
         left: 0%;
     }
     .path_point4{
-        top: 49%;
+        top: 77%;
         left: 0%;
     }
     .path_point5{
-        top:56.5%;
+        top:82%;
         left: 0%;
     }
     .ext-1{
-        top:48%;
+        top:75%;
         left: 0%;
     }
     .ext-2{
-        top:54%;
+        top:78%;
         left: 0%;
     }
     .ext-3{
-        top:53%;
+        top:78%;
         left: 0%;
     }
     .ext-4{
-        top:46%;
+        top:72%;
         left: 0%;
     }
     .ext-5{
-        top:54%;
+        top:77%;
         left: 0%;
     }
 }
@@ -18496,3 +18499,8 @@ background-color: #014e77;
     right: 0;
   }
 /* Vclass */
+.activated{
+    background-color: red;
+    padding: 30px;
+    border: white 8px solid;
+}

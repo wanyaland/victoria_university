@@ -103,7 +103,7 @@ const App = () => (
         <Route exact path="/avail-res" component={AvailRes} />
         <Route exact path="/academic-res" component={AcademRes} />
         <Route exact path="/superv-res" component={SupervRes} />
-        <Route exact path="/view-program" component={ViewProgram} />
+        <Route exact path="/:program" component={ViewProgram} />
       </Switch>
     </Router>
 

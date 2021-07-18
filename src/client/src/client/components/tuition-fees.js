@@ -220,6 +220,8 @@ class Tuition extends Component {
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Tuition and Fees payment</h6>
                     <p className="my-4"> All students become liable to pay their full tuition fees from first day of term on their programme. Mode of payment. All the fees have to be deposited in the Accounts of Victoria University .Fees can be deposited in the following modes: <br/><br/>
                     </p>
+                    <img src="assets/images/pay_banner.jpg" className="img-fluid" alt="Discover"/>
+                    <br/><br/>
                     <h6 className="hny-title" style={{fontSize: '38px', color: '#888'}}>Payment steps for our accepted modes of payment</h6>
                     <br/>
                     <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>GTPay</h6>

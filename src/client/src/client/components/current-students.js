@@ -87,6 +87,11 @@ class CurrentStudents extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Taking courses</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Find out exactly what you need to know about registering in, withdrawing from and extending a course – then learn about the exam process at VU.</p>
+                    <br/>
+                    <br/>
+                    <img src="assets/images/class_mat.jpg" className="img-fluid" alt="" />
+                    <br/>
+                    <br/>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}} onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
                         <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Course procedures for new students</span></span>
                         </Link>
