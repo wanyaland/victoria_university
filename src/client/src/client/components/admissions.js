@@ -105,19 +105,7 @@ class Admissions extends Component{
 			</div>
 </section>
 <section className="w3l-content-5">
-	<div className="content-5-main">
-		<div className="container">
-		<h4 className="text-center" style={{color: '#FFF'}}>Guidelines for International Students</h4>
-			<div className="content-info-in row">
-				<p>Admission requirements, deadlines and fees vary by program and depending on whether you study from within Victoria University or not. View our guidelines to find out what applies to your specific choice of courses, program and educational background.</p>
-			</div>
-			<p>
-				<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-					<span className="lohny-2"><span id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Check our guidelines for International Students</span>
-				</Link>	
-			</p>
-		</div>
-	</div>
+	<img src="assets/images/admission_banner.jpg" className="img-fluid" alt="Discover"/>
 </section>
 <section className="w3l-footer-16 text-center">
     <div className="container">

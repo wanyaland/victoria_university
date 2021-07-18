@@ -18,6 +18,7 @@ class ProgIndex extends Component {
 			courses: [],
 			courses_title: '',
 			courses_count: '',
+			course_test: ""
 		}
 	}
 	componentDidMount(){
@@ -28,7 +29,6 @@ class ProgIndex extends Component {
         this.proCount()
 		this.getCourses()
     }
-
 	getCourses = () => {
 		this.setState({
 			courses: Data,

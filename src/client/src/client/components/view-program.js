@@ -3,17 +3,65 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer'
-import { Link } from 'react-router-dom'
+import Data from './data/courses.json'
 
 class ViewProgram extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			course_prog: {},
+			course_desc: "",
+			course_test: ""
+		}
+	}
+	componentDidMount(){
+		this.getCourse_ch()
+	}
+	getCourse_ch = () => {
+		var progData = Data
+		const result = progData.find( ({ program }) => program === this.props.match.params.program );
+		console.log(result, "RESULT")
+		console.log(result.full_desc, "DESC")
+		this.setState({
+			course_prog: result,
+		})
+	}
+	apply(){
+        window.location.href = "apply-now";
+    }
+	viewSummary(){
+        window.location.href = "#summary";
+    }
+	updateOverview = () =>{
+		var mainDisplay = document.getElementById('main-display')
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Programme Overview</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.full_desc+'</p>'
+	}
+	updateTime = () => {
+		var mainDisplay = document.getElementById('main-display')
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Completion Time</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.duration+' Years</p>'
+	}
+	updateRequirements = () => {
+		window.location.href = "requirements";
+	}
+	updateReqcourses = () => {
+		window.location.href = "requirements";
+	}
+	updateFees = () => {
+		var mainDisplay = document.getElementById('main-display')
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><br/><p class="my-4" style="font-size: 18px">Ugndan Students: UGX '+this.state.course_prog.local_price+'<br><br>International Students: USD '+this.state.course_prog.int_price+'</p>'
+	}
     render(){
+		
+		//const { search } = this.props.location
+		//const { match } = this.props
+		//const { params } = match
+		//const { program } = params
+		//console.log({program}, "PROGRAM SELECT", {search});
+		//con
         return(
             <React.Fragment>
                 <BreadNavBar />
-                <NavBar />{/* 
-                <div style="padding: 5px 0px; position: relative;">
-	<a href="home" style="font-size: 14px;" class="underline">Home</a> / About
-</div> */}
+                <NavBar />
 <section class="w3l-apply-6">
 	<div class="apply-info py-5">
 		<div class="container py-lg-5">
@@ -23,10 +71,10 @@ class ViewProgram extends Component {
 			<br/>
             <br/>
 			<div class="">
-					<h4 class="text-center" style={{textTransform: 'capitalize'}}>Master of Business Administration (MBA Generic)</h4>
+					<h4 class="text-center" style={{textTransform: 'capitalize'}}>{this.state.course_prog.program}</h4>
 			</div>
 			<br/>
-			<p class="text-center"><button class="btn_link">Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link">Program Summary</button></p>
+			<p class="text-center"><button class="btn_link" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link" onClick={this.viewSummary}>Program Summary</button></p>
 			<br/>
 			<br/>
 			<br/>
@@ -54,24 +102,23 @@ class ViewProgram extends Component {
 <section class="w3l-specification-6">
 	<div class="specification-content py-5">
 		<div class="container py-lg-5">
-			
 			<h6 class="hny-title text-center" style={{fontSize: '32px'}}><span class="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
-			<p class="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: Post graduate</span>&nbsp;|&nbsp;<span>Credits: 30</span>&nbsp;|&nbsp;<span>Next Start:</span></p>
-			<p class="my-4 text-center">Advance your research skills and professional management practices, processes and programs with Athabasca University’s online Master of Business Administration (MBA Generic).</p>
+			<p class="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: {this.state.course_prog.level}</span>&nbsp;|&nbsp;<span>Credits: {this.state.course_prog.credit}</span>&nbsp;|&nbsp;<span>Next Start:</span></p>
+			<p class="my-4 text-center">Advance your skills and begin your academic journey with Victoria University’s {this.state.course_prog.program}.</p>
 			<div class="mission-grids-info row">
 				<div class="mission-gd-right col-lg-6 pl-lg-4">
 					<p style={{fontSize: '24px', color: '#025886'}}><b style={{fontWeight: '600'}}>Q:</b>&nbsp;Why take the Doctor of Business Administration?</p>
-					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
+					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>{this.state.course_prog.short_desc}</p>
 			    </div>
 				<div class="mission-gd-right col-lg-6 pl-lg-4">
 					<p style={{fontSize: '24px', color: '#025886'}}><b >Q:</b>&nbsp;How long would it take to complete?</p>
-					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>&nbsp;Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
+					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>&nbsp;The expected normal completion time is {this.state.course_prog.duration} years.</p>
 				</div>
 			</div>
 		</div>
     </div>
 </section>
-<section class="w3l-team-main">
+<section class="w3l-team-main" id="summary">
 	<div class="team py-5">
 		<div class="py-lg-5" >
 			<h6 class="hny-title text-center" style={{fontSize: '28px', color: '#025886', fontWeight: '500'}}>Programme Overview</h6>
@@ -80,29 +127,19 @@ class ViewProgram extends Component {
 				<div class="col-lg-3 with_shadow" style={{border: '#888 1px solid', backgroundColor: '#EEE'}}>
 					<div class="sidenavd" style={{backgroundColor: '#EEE'}}>
                         <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Overview<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Completion time<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Admission requirements<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Required courses<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Tuition and fees<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}}>Application deadlines and start dates<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateOverview}>Overview<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateTime}>Completion time<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateRequirements}>Admission requirements<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateReqcourses}>Required courses<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateFees}>Tuition and fees<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                         </ul>
                     </div>
 				</div>
 				<div class="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', border: '#888 1px solid'}}>
-                    <div class="col-lg-12 mb-lg-0 mb-5">
+                    <div class="col-lg-12 mb-lg-0 mb-5" id="main-display">
 						<h6 class="hny-title" style={{fontSize: '28px', color: '#444', fontWeight: '500'}}>Programme Overview</h6>
 						<br/>
-						<p class="my-4" style={{fontSize: '18px'}}>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
-						<p class="my-4">
-							<h4>Our areas of research</h4>
-							Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..
-							<p class="my-4">Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
-						</p>
-						<p class="my-4">
-							<h4>Student research</h4>
-							Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..
-						</p>
+						<p class="my-4" style={{fontSize: '18px'}}>{this.state.course_prog.full_desc}</p>
 					</div>
 				</div>
 			</div>

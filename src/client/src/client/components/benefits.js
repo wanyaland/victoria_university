@@ -71,9 +71,9 @@ class Benefits extends Component{
 								<div className="container py-lg-5">
 									<div className="welcome-grids row">
 										<div className="welcome-image">
-											<img src="assets/images/b3.jpg" className="img-fluid" alt="" />
+											<img src="assets/images/wil_banner.jpg" className="img-fluid" alt="" />
 										</div>
-                                        <span><i><span className="fa fa-sort-asc"></span><b>Video:</b> BMG Partnership</i></span>
+                                        {/* <span><i><span className="fa fa-sort-asc"></span><b>Video:</b> BMG Partnership</i></span> */}
 									</div>
 								</div>
 							</div>
