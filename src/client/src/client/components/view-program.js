@@ -51,7 +51,6 @@ class ViewProgram extends Component {
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><br/><p class="my-4" style="font-size: 18px">Ugndan Students: UGX '+this.state.course_prog.local_price+'<br><br>International Students: USD '+this.state.course_prog.int_price+'</p>'
 	}
     render(){
-		
 		//const { search } = this.props.location
 		//const { match } = this.props
 		//const { params } = match

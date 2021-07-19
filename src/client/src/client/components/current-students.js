@@ -35,6 +35,9 @@ class CurrentStudents extends Component{
 		element2.classList.remove("block");
 		console.log('HI4')
 	 }
+     toVclass = () => {
+        window.location.href = "https://vclass.ac/"
+    }
     render(){
         return(
             <React.Fragment>
@@ -65,13 +68,13 @@ class CurrentStudents extends Component{
                     <p className="my-4" style={{fontSize: '22px'}}>Congratulations on your decision to become an Victoria University student. Let us show you what you need to know to succeed.
                     </p>
                     <p>
-                        <Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                        <Link className="logo-2" to="/new-students" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Overview for new students</span></span>
                         </Link>
                     </p>
-                    <p><a className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                    <p><Link className="logo-2" style={{color: '#0077b5'}} onclick={this.toVclass}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
                         <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">myVU Student Portal</span></span>
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>
@@ -92,11 +95,11 @@ class CurrentStudents extends Component{
                     <img src="assets/images/class_mat.jpg" className="img-fluid" alt="" />
                     <br/>
                     <br/>
-                    <p><Link className="logo-2" href="home" style={{color: '#0077b5'}} onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+                    <p><Link className="logo-2" to="/new-students" style={{color: '#0077b5'}} onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
                         <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Course procedures for new students</span></span>
                         </Link>
                     </p>
-                    <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+                    <p><Link className="logo-2" to="/exams" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
                         <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Learn more about our exam procedures</span></span>
                         </Link>
                     </p>
@@ -121,7 +124,7 @@ class CurrentStudents extends Component{
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Check your grades online and learn about requesting transcripts.
                     </p>
-                    <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner29", "iconner30")} onMouseOut={this.change_icon2.bind(this, "iconner29", "iconner30")}>
+                    <p><Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner29", "iconner30")} onMouseOut={this.change_icon2.bind(this, "iconner29", "iconner30")}>
                         <span className="lohny-2"><span  id="iconner29" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner30" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Transcripts & grades</span></span>
                         </Link>
                     </p>

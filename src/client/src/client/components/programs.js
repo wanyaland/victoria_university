@@ -18,6 +18,8 @@ class Programs extends Component{
 		element2.classList.remove("block");
 	 }
     render(){
+		const under = 'undergraduate'
+		const postg = 'postgraduate'
         return(
 <React.Fragment>
     <BreadNavBar />
@@ -94,11 +96,11 @@ class Programs extends Component{
 							<Link className="logo-2" to="/about">
 								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>How VU Work</h5>
 							</Link><br/>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+							<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
 									<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 									</Link>
 							</p>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+							<p><Link className="logo-2" to={`/prog-index${postg}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
 								</Link>
 							</p>        
@@ -123,11 +125,11 @@ class Programs extends Component{
 							<Link className="logo-2" to="/about">
 								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>HOW VU Work</h5>
 							</Link><br/>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+							<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
 								<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 								</Link>
 							</p>
-							<p><Link className="logo-2" to="/prog-index" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+							<p><Link className="logo-2" to={`/prog-index${postg}`}style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 								<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
 								</Link>
 							</p> 

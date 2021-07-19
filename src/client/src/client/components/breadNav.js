@@ -28,6 +28,7 @@ class BreadNavBar extends Component {
 						</ul>
 						<ul className="accounts col-md-5">
 							<li className="top_li underline"><Link to="/staff">Staff</Link></li>
+							<li className="top_li underline"><Link to="/library">Library</Link></li>
 							<li className="top_li underline"><Link to="/alumni">Alumni</Link></li>
 							<li className="top_li underline"><Link to="/news">News</Link></li>
 							<li className="top_li underline"><Link to="/events-hub">Events</Link></li>

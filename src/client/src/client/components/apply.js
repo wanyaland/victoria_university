@@ -439,7 +439,7 @@ class Apply extends Component{
                                         <p className="my-4">Be sure to review your program’s information carefully so you can meet all the necessary requirements in time for your application deadline.</p>
                                         <p>
                                             <Link className="logo-2" to="/programs" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-                                            <span className="lohny-2"><span  id="iconner12" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">See all graduate programs</span>
+                                            <span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">See all graduate programs</span>
                                             </Link>
                                         </p>
                                         <p className="my-4">Specific requirements vary from program to program, but generally involve the following steps.</p>

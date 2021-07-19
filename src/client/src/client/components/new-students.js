@@ -72,7 +72,7 @@ class NewStudents extends Component{
                     <p className="my-4">
                         Your main point of contact with VU as a student will be through myVU <span className="fa fa-external-link"></span>, our student portal.
                     </p>
-                    <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                    <p><Link className="logo-2" to="/myvu-student-potrtal" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Learn About myVU</span></span>
                         </Link>
                     </p>
