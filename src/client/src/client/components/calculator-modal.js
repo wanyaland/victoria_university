@@ -19,6 +19,7 @@ class CalculatorFees extends Component {
     var intRegfee = "16";
     var locProfee = "160,000"
     var intProfee = "51"
+    var funcfee = "650,000"
     //var reset = document.getElementById('reseter');
     var program = document.getElementById("prog_item").value;
     
@@ -38,6 +39,7 @@ class CalculatorFees extends Component {
         } else {
         document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +"</p>";
         document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +"</p>";
+        document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ funcfee +"</p>";
         document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
         }
       } else {
@@ -49,6 +51,7 @@ class CalculatorFees extends Component {
         } else {
           document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +"</p>";
           document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +"</p>";
+          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ funcfee +"</p>";
           document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +"</p>";
         }
       }
@@ -140,11 +143,12 @@ class CalculatorFees extends Component {
                     </section>
                   </div>
                   <div id="res_chk" className="res_out">
-                    <p id="prog" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
-                    <p id="stud" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
-                    <p id="regfee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
-                    <p id="profee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
-                    <p id="fee" className="my-1" style={{fontSize: '15px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="prog" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="stud" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="regfee" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="profee" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="funcfee" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
+                    <p id="fee" className="my-1" style={{fontSize: '13px', borderBottom: '#888 1px solid', padding: '0 5px 0 5px'}}></p>
                   </div>
                   </div>
                 </div>

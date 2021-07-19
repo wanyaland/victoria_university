@@ -30,6 +30,25 @@ class ProgIndex extends Component {
 		this.getCourses()
     }
 	getCourses = () => {
+		/* const { match } = this.props
+		const { params } = match
+		const { program } = params
+		console.log({program}, "PROGRAM SELECT"); */
+		if(this.props.match.params.program === "undergraduate"){
+			this.getUnder()
+		} else if(this.props.match.params.program === "postgraduate"){
+			this.getPostGs()
+		} else if(this.props.match.params.program === "diploma"){
+			this.getDiploma()
+		} else if(this.props.match.params.program === "foundation"){
+			this.getFounds()
+		} else if(this.props.match.params.program === "professional"){
+			this.getPros()
+		} else{
+			this.getAllCourses()
+		}
+	}
+	getAllCourses = () => {
 		this.setState({
 			courses: Data,
 			courses_title: 'All Programs'
@@ -126,6 +145,7 @@ class ProgIndex extends Component {
 		})
 	}
     render(){
+		
         return(
             <React.Fragment>
                 <BreadNavBar />

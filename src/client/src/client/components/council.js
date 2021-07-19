@@ -288,13 +288,13 @@ class Council extends Component {
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p className="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 6" className="modal_bio">
+			<div id="myModal_bio 7" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 7")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
 				</div>
@@ -320,13 +320,13 @@ class Council extends Component {
 						team building, people management, report writing, data analyzing and compiling. He is currently
 						the managing partner in Ssemambo & Ssemambo Advocates.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 6" className="modal_bio">
+			<div id="myModal_bio 8" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
 					progressive hands-on work experience in private legal practice, financial management,
@@ -361,13 +361,13 @@ class Council extends Component {
 						American Literature; Higher. Dip. Education; M.S Human Resources and Family Studies; Ph. D
 						Human and Community Development and; Certificate in IT Essentials.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 6" className="modal_bio">
+			<div id="myModal_bio 9" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
 						programming, teaching human and community development, gender training and conducting
@@ -395,13 +395,13 @@ class Council extends Component {
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
 					<p className="my-4">Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 10")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 7" className="modal_bio">
+			<div id="myModal_bio 10" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 7")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 10")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda
 
@@ -429,19 +429,19 @@ class Council extends Component {
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>MAry Goretti Katusabe – Ssemwezi (Mrs.) – </h6>
+					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mary Goretti Katusabe – Ssemwezi (Mrs.) – </h6>
 					<h6 style={{color: '#0077b5'}}><i>EX-Officio/Secretary To Council</i></h6>
 					<p className="my-4">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 					<br/>
 					<b>Qualifications: M.Ed (Mak), B.A./Dip Ed. (Mak), PGDFM (UM) Ad. Cert. Tr. Mgt (Bristal University)</b></p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 11")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 8" className="modal_bio">
+			<div id="myModal_bio 11" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 11")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 					<br/>
@@ -467,13 +467,13 @@ class Council extends Component {
 					<br/>
 					<b>Qualifications: Master of Business Administration(Finance) Muk, BSc Degree (Economics and Statistics)(Hons Muk) and has ACCA and CPA(U) professional accounting qualifications</b></p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 12")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 9" className="modal_bio">
+			<div id="myModal_bio 12" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 12")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Mr. Waliraki J. Bosco has served as a programme coordinator, Finance and Accounting for over 7 years at CUU. He has lectured in finance and accounting for eight (8), he is currently the head of department, Banking and Finance of Faculty of Business and Management, Victoria University.
 					<br/>
@@ -497,13 +497,13 @@ class Council extends Component {
 					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
 					<p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 13")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 9" className="modal_bio">
+			<div id="myModal_bio 13" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 13")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor –
 					Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
@@ -537,13 +537,13 @@ class Council extends Component {
 					<br/>
 					<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 10")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 14")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 10" className="modal_bio">
+			<div id="myModal_bio 14" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 10")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 14")}>&times;</span>
 				  <br/>
 				  <p className="my-4">Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 					<br/>
