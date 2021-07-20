@@ -26,14 +26,14 @@ class News extends Component{
                 <section className="w3l-top-header-content">
 		<div className="hny-top-menu">
 			<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
-				<div className="container-fluid">
-					<div className="">
-                        <Link to="/"><span className="underline" style={{color: "#EEE"}}>
+            <div className="container-fluid">
+                <div className="">
+                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-                    <span>/ News</span>
-					</div>
-				</div>
+					<span style={{color: '#EEE'}}>/ News</span>
+                </div>
+            </div>
 			</div>
 		</div>
 	</section>

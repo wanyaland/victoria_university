@@ -237,13 +237,13 @@ class Trustees extends Component {
                         Upon graduating, Ms. Naiya held three jobs primarily in the marketing and sales domain in England before coming to Uganda where she is currently a Director at the privately owned Victoria University, Director Premier Advertising, a full-service advertising and marketing agency.
                     </p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 6" className="modal_bio">
+			<div id="myModal_bio 7" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 7")}>&times;</span>
 				  <br/>
 				  <p className="my-4">
                     Upon graduating, Ms. Naiya held three jobs primarily in the marketing and sales domain in England before coming to Uganda where she is currently a Director at the privately owned Victoria University, Director Premier Advertising, a full-service advertising and marketing agency.
