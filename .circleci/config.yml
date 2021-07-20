@@ -47,12 +47,15 @@ jobs:
           name: Build Docker image
           command: |
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker pull $IMAGE:web_latest || true
+            docker pull $IMAGE:web || true
             docker pull $IMAGE:api || true
             docker pull $IMAGE:nginx || true
             docker-compose -f src/docker-compose.dev.yaml build
-            docker ps 
-            docker push $IMAGE:web_latest
+            docker ps
+            docker tag $IMAGE:web $IMAGE:web || true
+            docker tag $IMAGE:api $IMAGE:api || true
+            docker tag $IMAGE:nginx $IMAGE:nginx || true
+            docker push $IMAGE:web
             docker push $IMAGE:api
             docker push $IMAGE:nginx
 

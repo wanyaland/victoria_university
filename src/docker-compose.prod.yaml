@@ -19,7 +19,7 @@ services:
             - POSTGRES_DB=vu_prod
 
     client:
-        image: wanyaland/victoria_university:web_latest
+        image: wanyaland/victoria_university:web
         command: npm start
         volumes:
             - client:/usr/src/app/client
