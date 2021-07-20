@@ -200,13 +200,13 @@ class ProgIndex extends Component {
 						<ul className="" style={{padding: '10px'}}>
 						<p className="" style={{fontSize: '18px', fontWeight: '400'}}>Credentials</p>
 							<Link onClick={this.getCourses}><li className="prog-list-course-outline" style={{width: '100%'}}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle-o"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
 								</li>
 							</Link>
 							{ this.state.courses.map((outline => {
 								return(
 									<Link to={`/view-program${outline.program}`}><li className="prog-list-course-outline" onClick={this.getPostGs}>
-										<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle-o"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>{outline.program}</span></td></tr></table>
+										<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>{outline.program}</span></td></tr></table>
 									</li></Link>
 								)
 							})) }
