@@ -32,7 +32,7 @@ services:
             - POSTGRES_DB=vu_dev
 
     client:
-        image: wanyaland/victoria_university:web
+        image: wanyaland/victoria_university:web_latest
         container_name: client
         build: 
             context: ./client
