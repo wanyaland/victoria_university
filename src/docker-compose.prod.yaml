@@ -3,6 +3,7 @@ version: '3.2'
 services: 
     api:
         image: wanyaland/victoria_university:api
+        command: python manage.py runserver 0.0.0.0:8000
         ports:
             - 8009:8009
         depends_on: 
@@ -23,6 +24,8 @@ services:
         volumes:
             - client:/usr/src/app/client
             - node:/usr/src/app/client/node_modules
+        environment:
+            - NODE_ENV=production
         ports:
             - 3001:3000
 
