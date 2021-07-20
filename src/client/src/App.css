@@ -6778,6 +6778,9 @@ span.fa.fa-play {
 .red_c{
     border: #f12020 2px solid;
 }
+.purple_color{
+    color: #ac2ec5;
+}
 .smalldot{
     background-color:#80bfff;
     height: 20px;
@@ -17999,6 +18002,7 @@ background-color: #014e77;
 
 .btn_link2:hover{
 background-color: #014e77;
+color: #FFF;
 }
 .t2 {
     -moz-tab-size: 16px; /* Firefox */
@@ -18298,16 +18302,31 @@ background-color: #014e77;
     color: #FFF;
     cursor: pointer;
 }
+.prog-list-active{
+    background-color: #555;
+    color: #FFF;  
+}
+.prog-list-course-outline{
+    padding: 0px;
+    line-height: 2rem;
+    list-style: none;
+    font-size: 14px;
+}
+.prog-list-course-outline:hover{
+    color: #d12727;
+    cursor: pointer;
+}
 .badged{
     position: relative;
     /* float: right; */
     right: 0;
-    width: 100%;
+    font-size: 80%;
+    width: 80%;
     bottom: auto;
-  padding: 5px 10px;
-  border-radius: 10%;
-  background: #c7c7c7;
-  color: #444;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background: #c7c7c7;
+    color: #444;
 }
 .input-container {
     display: -ms-flexbox; /* IE10 */
