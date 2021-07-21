@@ -16,6 +16,7 @@ setup_env: &setup_env
       echo SQL_HOST=$SQL_HOST >> .env
       echo SQL_PORT=$SQL_PORT >> .env
       echo DJANGO_ALLOWED_HOSTS=$ALLOWED_HOSTS >> .env
+      echo TAG=$CIRCLE_TAG >> .env
 
 
 jobs:
@@ -47,14 +48,14 @@ jobs:
           name: Build Docker image
           command: |
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker pull $IMAGE:web || true
-            docker pull $IMAGE:api || true
-            docker pull $IMAGE:nginx || true
+            docker pull web:$TAG || true
+            docker pull api:$TAG || true
+            docker pull nginx:$TAG || true
             docker-compose -f src/docker-compose.dev.yaml build
             docker ps
-            docker push $IMAGE:web
-            docker push $IMAGE:api
-            docker push $IMAGE:nginx
+            docker push web:$TAG
+            docker push image:$TAG
+            docker push nginx:$TAG
 
   deploy-prod:
     machine: true
@@ -87,7 +88,7 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+              only: /^\d+\.\d+\.\d+$/
             # branches:
             #   only:
             #     - main
@@ -99,7 +100,7 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+              only: /^\d+\.\d+\.\d+$/
             # branches:
             #   only:
             #     - main
@@ -111,7 +112,7 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^v?(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+              only: /^\d+\.\d+\.\d+$/
             # branches:
             #   only:
             #     - main
