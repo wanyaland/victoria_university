@@ -33,7 +33,7 @@ jobs:
           command: |
             sudo curl https://cli-assets.heroku.com/install.sh | sh
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
-            docker tag $IMAGE_NAME registry.heroku.com/$APP_NAME/web
+            docker tag $IMAGE_WEB registry.heroku.com/$APP_NAME/web
             docker push registry.heroku.com/$APP_NAME/web
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
   
@@ -47,17 +47,14 @@ jobs:
           name: Build Docker image
           command: |
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker pull $IMAGE:web || true
-            docker pull $IMAGE:api || true
-            docker pull $IMAGE:nginx || true
+            docker pull $IMAGE_WEB || true
+            docker pull $IMAGE_API || true
+            docker pull $IMAGE_NGINX || true
             docker-compose -f src/docker-compose.dev.yaml build
             docker ps
-            docker tag $IMAGE:web $IMAGE:web || true
-            docker tag $IMAGE:api $IMAGE:api || true
-            docker tag $IMAGE:nginx $IMAGE:nginx || true
-            docker push $IMAGE:web
-            docker push $IMAGE:api
-            docker push $IMAGE:nginx
+            docker push $IMAGE_WEB
+            docker push $IMAGE_API
+            docker push $IMAGE_NGINX
 
   deploy-prod:
     machine: true
