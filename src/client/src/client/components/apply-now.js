@@ -13,9 +13,9 @@ class ApplyNow extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            firstname: 'Your first name',
-            middlename: 'Your middle name',
-            lastname: 'Your last name',
+            firstname: '',
+            middlename: '',
+            lastname: '',
             gender: '',
             dob: '',
             nationality: '',
@@ -23,17 +23,17 @@ class ApplyNow extends Component{
             country: '',
             city: '',
             email: 'Your email',
-            whatsappnum: 'Your Whatsapp Number',
-            altnumber: 'Your Alternative Number',
+            whatsappnum: '',
+            altnumber: '',
             disability: '',
             program: '',
             hearUs: '',
-            levelofeducation: 'Level of Education',
-            subject: 'Subject/Combination',
-            nameofinstitution: 'Name of Institution',
-            qualification: 'Qualification',
-            result: 'Result/Grade/Mark',
-            year: 'Year',
+            levelofeducation: '',
+            subject: '',
+            nameofinstitution: '',
+            qualification: '',
+            result: '',
+            year: '',
             docs: [],
             agreeComs: '',
             agreeRules: '',
@@ -41,6 +41,132 @@ class ApplyNow extends Component{
         }
     }
     
+    updateFname = (evt) => {
+        this.setState({
+            firstname: evt.target.value
+        })
+    }
+    updateMname = (evt) => {
+        this.setState({
+            middlename: evt.target.value
+        })
+    }
+    updateLname = (evt) => {
+        this.setState({
+            lastname: evt.target.value
+        })
+    }
+    updateGender = (evt) => {
+        this.setState({
+            gender: evt.target.value
+        })
+    }
+    updateDob = (evt) => {
+        this.setState({
+            dob: evt.target.value
+        })
+    }
+    updateNationality = (evt) => {
+        this.setState({
+            nationality: evt.target.value
+        })
+    }
+    updateFlanguage = (evt) => {
+        this.setState({
+            firstlanguage: evt.target.value
+        })
+    }
+    updateCountry = (evt) => {
+        this.setState({
+            country: evt.target.value
+        })
+    }
+    updateCity = (evt) => {
+        this.setState({
+            city: evt.target.value
+        })
+    }
+    updateEmail = (evt) => {
+        this.setState({
+            email: evt.target.value
+        })
+    }
+    updateWhatnum = (evt) => {
+        this.setState({
+            whatsappnum: evt.target.value
+        })
+    }
+    updateAltnum = (evt) => {
+        this.setState({
+            altnumber: evt.target.value
+        })
+    }
+    updateDisability = (evt) => {
+        this.setState({
+            disability: evt.target.value
+        })
+    }
+    updateProgram = (evt) => {
+        this.setState({
+            program: evt.target.value
+        })
+    }
+    updateHearAbt = (evt) => {
+        this.setState({
+            hearUs: evt.target.value
+        })
+    }
+    updateLeveOfedu = (evt) => {
+        this.setState({
+            levelofeducation: evt.target.value
+        })
+    }
+    updateSubject = (evt) => {
+        this.setState({
+            subject: evt.target.value
+        })
+    }
+    updateNameOfInst = (evt) => {
+        this.setState({
+            nameofinstitution: evt.target.value
+        })
+    }
+    updateQaul = (evt) => {
+        this.setState({
+            qualification: evt.target.value
+        })
+    }
+    updateGrade = (evt) => {
+        this.setState({
+            result: evt.target.value
+        })
+    }
+    updateYear = (evt) => {
+        this.setState({
+            year: evt.target.value
+        })
+    }
+    /* updateDocs = (evt) => {
+        this.setState({
+            docs: evt.target.value
+        })
+    } */
+    updateIscom = (evt) => {
+        this.setState({
+            agreeComs: evt.target.value
+        })
+    }
+    updateIsrule = (evt) => {
+        this.setState({
+            agreeRules: evt.target.value
+        })
+    }
+    updatePayMet = (evt) => {
+        this.setState({
+            payMethod: evt.target.value
+        })
+    }
+
     addEdu = () => {
         var edHu = document.getElementById('edH')
         /* Level of Education */
@@ -169,21 +295,21 @@ class ApplyNow extends Component{
                             <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>PERSONAL INFORMATION</p>
 								<div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fname" className="form_fields" name="firstname" value={this.state.firstname} placeholder="Your first name"/>
+									<input type="text" id="fname" className="form_fields" name="firstname" value={this.state.firstname} onChange={this.updateFname} placeholder="Your first name"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="mname" className="form_fields" name="middlename" value={this.state.middlename} placeholder="Your middle name" />
+									<input type="text" id="mname" className="form_fields" name="middlename" value={this.state.middlename} onChange={this.updateMname} placeholder="Your middle name" />
 									</div>
 								</div>
 								<div className="row_form">
 									<div className="col-75">
-									<input type="text" id="lname" className="form_fields" name="lastname" value={this.state.lastname} placeholder="Your last name" />
+									<input type="text" id="lname" className="form_fields" name="lastname" value={this.state.lastname} onChange={this.updateLname} placeholder="Your last name" />
 									</div>
 								</div>
                                 <div className="row_form">
-                                    <select className="form_fields">
+                                    <select className="form_fields" onChange={this.updateGender}>
                                         <option>Gender</option>
                                         <option>Male</option>
                                         <option>Female</option>
@@ -192,17 +318,17 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                         <p className="text-left" style={{fontSize:'18px'}}>Date of birth</p>
-									<input type="date" id="dob" className="form_fields" name="dob" value={this.state.dob} placeholder="Your Date of birth"/>
+									<input type="date" id="dob" className="form_fields" name="dob" value={this.state.dob} onChange={this.updateDob} placeholder="Your Date of birth"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="nationality" className="form_fields" name="nationality" value={this.state.nationality} placeholder="Your nationality"/>
+									<input type="text" id="nationality" className="form_fields" name="nationality" value={this.state.nationality} onChange={this.updateNationality} placeholder="Your nationality"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="flang" className="form_fields" name="flang" value={this.state.firstlanguage} placeholder="Your First Language"/>
+									<input type="text" id="flang" className="form_fields" name="flang" value={this.state.firstlanguage} onChange={this.updateFlanguage} placeholder="Your First Language"/>
 									</div>
 								</div>
                                 <hr />
@@ -210,7 +336,7 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>Country</p>
-                                        <select id="country" name="country" className="form_fields">
+                                        <select id="country" name="country" className="form_fields" onChange={this.updateCountry}>
                                             { Countries.map(country => {
                                                 return(
                                                     <option value={country.name}>{country.name}</option>
@@ -221,22 +347,22 @@ class ApplyNow extends Component{
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="city" className="form_fields" name="city" value={this.state.city} placeholder="Your City"/>
+									<input type="text" id="city" className="form_fields" name="city" value={this.state.city} onChange={this.updateCity} placeholder="Your City"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="email" id="email" className="form_fields" name="email" value={this.state.email} placeholder="Your Email"/>
+									<input type="email" id="email" className="form_fields" name="email" value={this.state.email} onChange={this.updateEmail} placeholder="Your Email"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.whatsappnum} placeholder="Your Whatsapp Number"/>
+									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.whatsappnum} onChange={this.updateWhatnum} placeholder="Your Whatsapp Number"/>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.altnumber} placeholder="Your Alternative Number"/>
+									<input type="text" id="fnumber" className="form_fields" name="fnumber" value={this.state.altnumber} onChange={this.updateAltnum} placeholder="Your Alternative Number"/>
 									</div>
 								</div>
                                 <hr />
@@ -244,7 +370,7 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>I am a student with a disability (optional)</p>
-									<select className="form_fields" placeholder="Disability">
+									<select className="form_fields" placeholder="Disability" onChange={this.updateDisability}>
                                         <option></option>
                                         <option>Yes</option>
                                         <option>No</option>
@@ -257,7 +383,7 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>Choose level of education</p>
-									<select className="form_fields" placeholder="">
+									<select className="form_fields" placeholder="" onChange={this.updateLeveOfedu}>
                                         {Levels.map(lev => {
                                             return(
                                                 <option value={lev.level}>{lev.level}</option>
@@ -269,7 +395,7 @@ class ApplyNow extends Component{
                                 <div className="row_form">
 									<div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px'}}>Programme</p>
-									<select className="form_fields" placeholder="">
+									<select className="form_fields" placeholder="" onChange={this.updateProgram}>
                                         <option></option>
                                         { Data.map(prog => {
                                             return(
@@ -284,7 +410,7 @@ class ApplyNow extends Component{
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>HOW DID YOU HEAR ABOUT VICTORIA UNIVERSITY</p>
                                 <div className="row_form">
 									<div className="col-75">
-									<select className="form_fields" placeholder="">
+									<select className="form_fields" placeholder="" onChange={this.updateHearAbt}>
                                         <option></option>
                                         <option>News papers</option>
                                         <option>sms</option>
@@ -318,32 +444,32 @@ class ApplyNow extends Component{
                                 <div id="edH">
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="lved" className="form_fields" name="lved" value={this.state.levelofeducation} placeholder="Level of Education"/>
+                                        <input type="text" id="lved" className="form_fields" name="lved" value={this.state.levelofeducation} onChange={this.updatelved} placeholder="Level of Education"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="sub_comb" className="form_fields" name="sub_comb" value={this.state.subject} placeholder="Subject/Combination"/>
+                                        <input type="text" id="sub_comb" className="form_fields" name="sub_comb" value={this.state.subject} onChange={this.updateSubject} placeholder="Subject/Combination"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="institution" className="form_fields" name="institution" value={this.state.nameofinstitution} placeholder="Name of Institution"/>
+                                        <input type="text" id="institution" className="form_fields" name="institution" value={this.state.nameofinstitution} onChange={this.updateNameOfInst} placeholder="Name of Institution"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="qual" className="form_fields" name="qual" value={this.state.qualification} placeholder="Qualification"/>
+                                        <input type="text" id="qual" className="form_fields" name="qual" value={this.state.qualification} onChange={this.updateQaul} placeholder="Qualification"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="result_grade" className="form_fields" name="result_grade" value={this.state.result} placeholder="Result/Grade/Mark"/>
+                                        <input type="text" id="result_grade" className="form_fields" name="result_grade" value={this.state.result} onChange={this.updateGrade} placeholder="Result/Grade/Mark"/>
                                         </div>
                                     </div>
                                     <div className="row_form">
                                         <div className="col-75">
-                                        <input type="text" id="year" className="form_fields" name="year" value={this.state.year} placeholder="Year"/>
+                                        <input type="text" id="year" className="form_fields" name="year" value={this.state.year} onChange={this.updateYear} placeholder="Year"/>
                                         </div>
                                     </div>
                                 </div>
@@ -384,18 +510,18 @@ class ApplyNow extends Component{
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="checkbox" id="lname" className="" value={this.state.agreeComs} name="" required/>&nbsp;<span> I AGREE to receive communications from Victoria  University. Not checking this box means that you will not receive information on new degree programs or courses that may fit your study program.		</span>
+									<input type="checkbox" id="lname" className="" value={this.state.agreeComs} onChange={this.updateIscom} name="" required/>&nbsp;<span> I AGREE to receive communications from Victoria  University. Not checking this box means that you will not receive information on new degree programs or courses that may fit your study program.		</span>
 									</div>
 								</div>
                                 <div className="row_form">
 									<div className="col-75">
-									<input type="checkbox" id="lname" className="" name="" value={this.state.agreeRules} required/>&nbsp;<span>I AGREE to abide by the rules and regulations of Victoria  University . I certify that the information submitted is true and complete in all respects and that no relevant information has been withheld. I agree that Victoria University retains the right to nullify my application if the information provided is false or incomplete. Falsification and misrepresentation of credentials or supporting documents is considered an academic offense and penalties may be imposed .I understand tha Victoria University may approach my previous places of learning for a  reference</span>
+									<input type="checkbox" id="lname" className="" name="" value={this.state.agreeRules} onChange={this.updateIsrule} required/>&nbsp;<span>I AGREE to abide by the rules and regulations of Victoria  University . I certify that the information submitted is true and complete in all respects and that no relevant information has been withheld. I agree that Victoria University retains the right to nullify my application if the information provided is false or incomplete. Falsification and misrepresentation of credentials or supporting documents is considered an academic offense and penalties may be imposed .I understand tha Victoria University may approach my previous places of learning for a  reference</span>
 									</div>
 								</div>
                                 <p className="text-left" style={{fontSize:'18px', fontWeight: '600', textDecoration: 'underline'}}>SELECT PAYMENT METHOD</p>
                                 <div className="row_form">
 									<div className="col-75">
-									<select className="form_fields" placeholder="Disability">
+									<select className="form_fields" placeholder="Payment Methode" onChange={this.updatePayMet}>
                                         <option></option>
                                         <option>Pesapal</option>
                                         <option>GTPay</option>
@@ -407,7 +533,7 @@ class ApplyNow extends Component{
 									</div>
 								</div>
 								<div className="row_form">
-									<input type="submit" value="SUBMIT" className="applier"/>
+									<input type="submit" value="SUBMIT" className="applier" onClick={this.mailOut}/>
 								</div>
 								</form>
 						  </div>

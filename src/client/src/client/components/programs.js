@@ -20,6 +20,9 @@ class Programs extends Component{
     render(){
 		const under = 'undergraduate'
 		const postg = 'postgraduate'
+		const diploma = 'diploma'
+		const found = 'foundation'
+		const professional = 'professional'
         return(
 <React.Fragment>
     <BreadNavBar />
@@ -39,22 +42,23 @@ class Programs extends Component{
 	</div>
 </section>
 <section className="w3l-apply-6">
-	<div className="apply-info py-5">
-		<div className="container py-lg-5">
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<div className="">
-					<h4 className="text-center"><span className="borderLeft">&nbsp;Programs &amp; Courses</span></h4>
-				</div>
-			<div className="apply-grids-info row">
-					<div className="row mt-lg-5 mt-4">
-						<div className="appyl-sub-icon-info text-center">
-							<p style={{fontSize: '24px'}}>If you think studying online with Victoria University might be right for you, we encourage you to explore our wide variety of distance learning programs and courses. Try out a single course, or jump into a full program – the choice is yours.</p>
-						</div>
+	<div className=""  style={{color: '#000', border: '#000 1px solid'}}>
+		<div className="container" style={{maxWidth: '100%' , padding: '0rem !important', margin: '0'}}>
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide"/>
 					</div>
-				
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"/>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide" />
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide" />
+					</div>
+  				</div>
 			</div>
 		</div>
 	</div>
@@ -62,17 +66,14 @@ class Programs extends Component{
 <section className="w3l-wecome-content-6">
     <br/>
 	<div className="ab-content-6-mian py-5">
-			<div className="container py-lg-5">
-					<div className="welcome-grids row text-center justify-content-center">
-							<div className="welcome-image">
-								<h4 className="text-center">NOT SURE WHERE TO START? BROWSE ALL OUR OFFERINGS.</h4>
-							</div>	
-					</div>
+		<div className="container py-lg-5">
+			<div className="welcome-grids row text-center justify-content-center">
+				<div className="welcome-image">
+					<h4 className="text-center">NOT SURE WHERE TO START? BROWSE ALL OUR OFFERINGS.</h4>
+				</div>	
 			</div>
+		</div>
 	</div>
-</section>
-<section className="w3l-content-5">
-	<img src="assets/images/admission_banner.jpg" className="img-fluid" alt="Discover"/>
 </section>
 <br/>
 <section className="w3l-wecome-content-6">
@@ -92,16 +93,28 @@ class Programs extends Component{
 						<div className="appyl-sub-icon-info text-center">
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
-						<div className="text-center">
-							<Link className="logo-2" to="/about">
+						<Link className="logo-2" to="/about">
 								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>How VU Work</h5>
 							</Link><br/>
+						<div className="text-left" style={{paddingLeft: '8rem'}}>
 							<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
 									<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 									</Link>
 							</p>
 							<p><Link className="logo-2" to={`/prog-index${postg}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
+								</Link>
+							</p>        
+							<p><Link className="logo-2" to={`/prog-index${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Diploma Programs</span></span>
+								</Link>
+							</p>        
+							<p><Link className="logo-2" to={`/prog-index${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Foundations Programs</span></span>
+								</Link>
+							</p>        
+							<p><Link className="logo-2" to={`/prog-index${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Professional Development Programs</span></span>
 								</Link>
 							</p>        
 						</div>
@@ -121,10 +134,10 @@ class Programs extends Component{
 						<div className="appyl-sub-icon-info text-center">
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
-						<div className="text-center">
-							<Link className="logo-2" to="/about">
+						<Link className="logo-2" to="/about">
 								<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>HOW VU Work</h5>
 							</Link><br/>
+						<div className="text-left" style={{paddingLeft: '8rem'}}>
 							<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
 								<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 								</Link>
@@ -132,7 +145,19 @@ class Programs extends Component{
 							<p><Link className="logo-2" to={`/prog-index${postg}`}style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 								<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
 								</Link>
-							</p> 
+							</p>
+							<p><Link className="logo-2" to={`/prog-index${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Diploma Programs</span></span>
+								</Link>
+							</p>        
+							<p><Link className="logo-2" to={`/prog-index${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Foundations Programs</span></span>
+								</Link>
+							</p>        
+							<p><Link className="logo-2" to={`/prog-index${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Professional Development Programs</span></span>
+								</Link>
+							</p>    
 						</div>
 						<br/>
 					</div>
