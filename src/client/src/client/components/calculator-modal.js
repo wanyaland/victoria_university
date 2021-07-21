@@ -101,10 +101,10 @@ class CalculatorFees extends Component {
                   {/* <p id="reseter" style={{padding: '5px'}}>
                     <span href="tune" className="cal-btn">Start Over</spa>&nbsp;
                   </p> */}
-                  <p  style={{padding: '5px'}}>
+                  <div  style={{padding: '5px',display: 'flex'}}>
                     <a href="#item1" className="cal-btn">Step 1: Choose Program</a>&nbsp;
                     <a href="#item2" className="cal-btn">Step 2: Nationality</a>&nbsp;
-                  </p>
+                  </div>
 
                   <div class="items">
                     <section id="item1">
