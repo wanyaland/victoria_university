@@ -11,7 +11,7 @@ services:
             - 8000:8000
         depends_on: 
             - db
-        env_file`:
+        env_file:
             - ./app/.env
 
     
@@ -46,7 +46,7 @@ services:
             - 3001:3000
         environment: 
             - NODE_ENV=development
-        env_file`:
+        env_file:
             - ./app/.env
         depends_on: 
             - api
@@ -63,7 +63,7 @@ services:
         depends_on:
             - client
             - api
-        env_file`:
+        env_file:
             - ./app/.env
 
 
