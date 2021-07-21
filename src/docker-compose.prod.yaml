@@ -2,7 +2,7 @@ version: '3.2'
 
 services: 
     api:
-        image: api
+        image: wanyaland/vu_api
         command: python manage.py runserver 0.0.0.0:8000
         ports:
             - 8009:8009
@@ -21,7 +21,7 @@ services:
             - POSTGRES_DB=vu_prod
 
     client:
-        image: web
+        image: wanyaland/vu_web
         command: npm start
         volumes:
             - client:/usr/src/app/client
@@ -34,7 +34,7 @@ services:
             - 3001:3000
 
     nginx:
-        image: nginx
+        image: wanyaland/vu_nginx
         restart: always
         ports:
           - 80:80
