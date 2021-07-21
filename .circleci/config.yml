@@ -27,7 +27,7 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            TAG=$CIRLCE_TAG
+            TAG=$CIRCLE_TAG
             echo Tag value : $TAG
             docker-compose -f src/docker-compose.dev.yaml up -d --build 
 
