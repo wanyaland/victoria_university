@@ -342,14 +342,14 @@ class ProgIndex extends Component {
 		})
 	}
 	getBusiness = () => {
-		var result = Data.filter(course => course.faculty === "Faculty of Business and Management")
+		var result = Data.filter(course => course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
 			courses_title: "Faculty of Business and Management",
 		})
 	}
 	getTech = () => {
-		var result = Data.filter(course => course.faculty === "Faculty of Science and Technology")
+		var result = Data.filter(course => course.faculty === "Faculty Of Science And Technology")
 		this.setState({
 			courses: result,
 			courses_title: "Faculty of Science and Technology",
@@ -363,7 +363,7 @@ class ProgIndex extends Component {
 		})
 	}
 	getHumanities = () => {
-		var result = Data.filter(course => course.faculty === "Faculty of Humanities and Social Science")
+		var result = Data.filter(course => course.faculty === "Faculty of Humanities and Social Sciences")
 		this.setState({
 			courses: result,
 			courses_title: "Faculty of Humanities and Social Science",
@@ -387,7 +387,7 @@ class ProgIndex extends Component {
 		var progData = Data;
 		var count = 0;
 		for(var i = 0; i < progData.length; ++i){
-    	if(progData[i].faculty === "Faculty of Business and Management")
+    	if(progData[i].faculty === "Faculty Of Business And Management")
 			count++
 		}
 		this.setState({
@@ -398,7 +398,7 @@ class ProgIndex extends Component {
 		var progData = Data;
 		var count = 0;
 		for(var i = 0; i < progData.length; ++i){
-    	if(progData[i].faculty === "Faculty of Science and Technology")
+    	if(progData[i].faculty === "Faculty Of Science And Technology")
 			count++
 		}
 		this.setState({
@@ -420,7 +420,7 @@ class ProgIndex extends Component {
 		var progData = Data;
 		var count = 0;
 		for(var i = 0; i < progData.length; ++i){
-    	if(progData[i].faculty === "Faculty of Humanities and Social Science")
+    	if(progData[i].faculty === "Faculty of Humanities and Social Sciences")
 			count++
 		}
 		this.setState({
