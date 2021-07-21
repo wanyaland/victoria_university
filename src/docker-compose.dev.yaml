@@ -2,7 +2,7 @@ version: '3.2'
 
 services: 
     api:
-        image: "web:$${TAG}"
+        image: "web:${TAG}"
         build: ./app
         command: python manage.py runserver 0.0.0.0:8000
         volumes:
@@ -12,7 +12,7 @@ services:
         depends_on: 
             - db
         env_file:
-            - ./app/.env
+            - ./src/app/.env
 
     
     db:
@@ -34,7 +34,7 @@ services:
             - POSTGRES_DB=vu_dev
 
     client:
-        image: "web:$${TAG}"
+        image: "web:${TAG}"
         container_name: client
         build: 
             context: ./client
@@ -47,12 +47,12 @@ services:
         environment: 
             - NODE_ENV=development
         env_file:
-            - ./app/.env
+            - ./src/app/.env
         depends_on: 
             - api
 
     nginx:
-        image: "web:$${TAG}"
+        image: "web:${TAG}"
         container_name: nginx
         restart: always
         ports:
@@ -64,7 +64,7 @@ services:
             - client
             - api
         env_file:
-            - ./app/.env
+            - ./src/app/.env
 
 
 
