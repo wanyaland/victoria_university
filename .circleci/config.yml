@@ -52,7 +52,7 @@ jobs:
             docker pull $IMAGE:nginx || true
             docker-compose -f src/docker-compose.dev.yaml build
             docker ps
-            docker push $IMAGE:web_lat
+            docker push $IMAGE:web
             docker push $IMAGE:api
             docker push $IMAGE:nginx
 
