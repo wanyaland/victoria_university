@@ -386,7 +386,7 @@ h3.hny-title.two {
 }
 /* Calculator */
 .cal-modal {
-    display: block; 
+    display: none; 
     position: fixed; 
     z-index: 1; 
     padding-top: 100px; 
