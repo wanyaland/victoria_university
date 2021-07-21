@@ -18298,13 +18298,17 @@ color: #FFF;
     font-size: 15px;
 }
 .prog-list:hover{
-    background-color: #555;
-    color: #FFF;
+    background-color: #DDD;
+    color: #444;
     cursor: pointer;
 }
 .prog-list-active{
-    background-color: #555;
-    color: #FFF;  
+    background-color: #DDD;
+    color: #555; 
+    border-left: #555 3px solid; 
+}
+.grad_icon {
+    color: #045079;
 }
 .prog-list-course-outline{
     padding: 0px;
