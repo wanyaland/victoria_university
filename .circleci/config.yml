@@ -16,7 +16,7 @@ setup_env: &setup_env
       echo SQL_HOST=$SQL_HOST >> .env
       echo SQL_PORT=$SQL_PORT >> .env
       echo DJANGO_ALLOWED_HOSTS=$ALLOWED_HOSTS >> .env
-      echo TAG=0.1.$CIRCLE_BUILD_NUM >> .env
+      echo TAG="0.1.$CIRCLE_BUILD_NUM" >> .env
 
 
 jobs:
