@@ -2,7 +2,7 @@ version: '3.2'
 
 services: 
     api:
-        image: wanyaland/victoria_university/api
+        image: wanyaland/victoria_university:api
         command: python manage.py runserver 0.0.0.0:8000
         ports:
             - 8009:8009
@@ -19,7 +19,7 @@ services:
             - POSTGRES_DB=vu_prod
 
     client:
-        image: wanyaland/victoria_university/web
+        image: wanyaland/victoria_university:web_lat
         command: npm start
         volumes:
             - client:/usr/src/app/client
@@ -30,7 +30,7 @@ services:
             - 3001:3000
 
     nginx:
-        image: wanyaland/victoria_university/nginx
+        image: wanyaland/victoria_university:nginx
         restart: always
         ports:
           - 80:80
