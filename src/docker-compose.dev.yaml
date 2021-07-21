@@ -1,7 +1,7 @@
 version: '3.2'
 
 services: 
-    core:
+    api:
         image: wanyaland/victoria_university:api
         build: ./app
         command: python manage.py runserver 0.0.0.0:8000
@@ -46,7 +46,22 @@ services:
         environment: 
             - NODE_ENV=development
         depends_on: 
-            - core
+            - api
+
+    nginx:
+        image: wanyaland/victoria_university:nginx
+        container_name: nginx
+        restart: always
+        ports:
+            - 80:80
+        build:
+            context: ./nginx
+            dockerfile: Dockerfile
+        depends_on:
+            - client
+            - api
+
+
         
 volumes:
     postgres_data:
