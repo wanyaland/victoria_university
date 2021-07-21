@@ -24,10 +24,11 @@ jobs:
     machine: true
     steps:
       - checkout
-      - *setup_env
       - run:
           name: Build Docker image
           command: |
+            TAG=$CIRLCE_TAG
+            echo Tag value : $TAG
             docker-compose -f src/docker-compose.dev.yaml up -d --build 
 
       - run:
