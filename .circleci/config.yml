@@ -16,7 +16,7 @@ setup_env: &setup_env
       echo SQL_HOST=$SQL_HOST >> .env
       echo SQL_PORT=$SQL_PORT >> .env
       echo DJANGO_ALLOWED_HOSTS=$ALLOWED_HOSTS >> .env
-      echo TAG=$CIRCLE_TAG >> .env
+      echo TAG=0.1.$CIRCLE_BUILD_NUM >> .env
 
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            TAG=$CIRCLE_TAG
+            TAG=0.1.$CIRCLE_BUILD_NUM
             echo Tag value : $TAG
             docker-compose -f src/docker-compose.dev.yaml up -d --build 
 
