@@ -9,7 +9,7 @@ services:
         depends_on: 
             - db
         env_file:
-            - .env
+            - ./.env
     
     db:
         image: postgres:12-alpine
@@ -29,7 +29,7 @@ services:
         environment:
             - NODE_ENV=production
         env_file:
-            - .env
+            - ./.env
         ports:
             - 3001:3000
 
@@ -42,7 +42,7 @@ services:
           - api
           - client
         env_file:
-            - .env
+            - ./.env
         
 volumes:
     postgres_data:

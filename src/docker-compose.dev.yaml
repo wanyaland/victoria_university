@@ -11,6 +11,9 @@ services:
             - 8000:8000
         depends_on: 
             - db
+        env_file`:
+            - ./app/.env
+
     
     db:
         image: postgres:12-alpine
@@ -43,6 +46,8 @@ services:
             - 3001:3000
         environment: 
             - NODE_ENV=development
+        env_file`:
+            - ./app/.env
         depends_on: 
             - api
 
@@ -58,6 +63,8 @@ services:
         depends_on:
             - client
             - api
+        env_file`:
+            - ./app/.env
 
 
 

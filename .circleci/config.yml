@@ -24,11 +24,10 @@ jobs:
     machine: true
     steps:
       - checkout
+      - *setup_env
       - run:
           name: Build Docker image
           command: |
-            TAG="0.1.$CIRCLE_BUILD_NUM"
-            echo Tag value : $TAG
             docker-compose -f src/docker-compose.dev.yaml up -d --build 
 
       - run:
