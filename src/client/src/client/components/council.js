@@ -141,7 +141,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Kalebbo James</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Mr Kalebbo has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
+					<p className="my-4">Mr. Kalebbo James has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
 						<br/>
 						<b>Educational Qualifications: B.A., M. Soc. Sc.</b></p>
 					<p className="mb-4"></p>
@@ -153,7 +153,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 3")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mr Kalebbo has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
+				  <p className="my-4">Mr. Kalebbo James has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
 					<br/>
 					<b>Educational Qualifications: B.A., M. Soc. Sc.</b></p>
 				</div>
@@ -173,7 +173,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Mary Kanyiginya Tizikara</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">She is an expert in Human Resource Management & Development, Policy and Practice with special emphasis on employee job satisfaction; higher education management. A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource analyst awarded in April 2017 by the American Academy of Project Management.</p>
+					<p className="my-4">Dr. Mary Kanyiginya Tizikara is an expert in Human Resource Management & Development, Policy and Practice with special emphasis on employee job satisfaction; higher education management. A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource analyst awarded in April 2017 by the American Academy of Project Management.</p>
 					<p className="mb-4"></p>
 					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 					<br/>
@@ -183,7 +183,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 					<span className="close_bio" onClick={() => this.close_bio("myModal_bio 4")}>&times;</span>
 					<br/>
-					<p className="my-4">She is an expert in Human Resource Management & Development, Policy and Practice with
+					<p className="my-4">Dr. Mary Kanyiginya Tizikara is an expert in Human Resource Management & Development, Policy and Practice with
 						special emphasis on employee job satisfaction; higher education management.
 						A Ph.D holder of Makerere University awarded in Jan, 2018 and a Chartered human resource
 						analyst awarded in April 2017 by the American Academy of Project Management. <br /><br />A champion
@@ -211,7 +211,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Joram Francis Kahenano</h6>
 					<h6 style={{color: '#0077b5'}}><i>Chairman</i></h6>
-					<p className="my-4">Mr Kahenano is a distinguished banker, with a banking career that has spanned over 36 years of professional experience. He has served on many boards of national institutions. He is currently the Diocesan Secretary, Kampala Diocese, Church of Uganda.
+					<p className="my-4">Mr. Joram Francis Kahenano is a distinguished banker, with a banking career that has spanned over 36 years of professional experience. He has served on many boards of national institutions. He is currently the Diocesan Secretary, Kampala Diocese, Church of Uganda.
 					<br/>
 					<b>Educational Qualifications: B. Com. (Hons), Postgrad. Diploma, Economic Planning.</b>
 					</p>
@@ -224,7 +224,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 5")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mr Kahenano is a distinguished banker, with a banking career that has spanned over 36 years of professional experience. He has served on many boards of national institutions. He is currently the Diocesan Secretary, Kampala Diocese, Church of Uganda.
+				  <p className="my-4">Mr. Joram Francis Kahenano is a distinguished banker, with a banking career that has spanned over 36 years of professional experience. He has served on many boards of national institutions. He is currently the Diocesan Secretary, Kampala Diocese, Church of Uganda.
 					<br/>
 					<b>Educational Qualifications: B. Com. (Hons), Postgrad. Diploma, Economic Planning.</b>
 					</p>
@@ -286,7 +286,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Rajiv Ruparelia</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
+					<p className="my-4">Mr. Rajiv Ruparelia is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
 					<p className="mb-4"></p>
 					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 					<br/>
@@ -296,7 +296,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 7")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mr. Rajiv is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
+				  <p className="my-4">Mr. Rajiv Ruparelia is a representative of the Board of Directors of VU LTD which owns Victoria University. He is a graduate of Regents College London holds a degree in Financial Management. He is passionate about the growth and development of Victoria University. <br/><br/> With top – class education, he has the knowledge and training to steer the University through the 21st Century. He has strong analytical and technical skills in business management combined with the ability to use initiative as well as applying professional judgment to aid decision making.</p>
 				</div>
 			</div>
 		</div>
@@ -314,7 +314,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Ssemambo Rashid</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
+					<p className="my-4">Mr. Ssemambo Rashid is an Advocate of all courts of Judicature in Uganda with thirteen years of
 						progressive hands-on work experience in private legal practice, financial management,
 						international transactions, logistical management, administration, proposal and grant writing,
 						team building, people management, report writing, data analyzing and compiling. He is currently
@@ -328,7 +328,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mr. Ssemambo is an Advocate of all courts of Judicature in Uganda with thirteen years of
+				  <p className="my-4">Mr. Ssemambo Rashid is an Advocate of all courts of Judicature in Uganda with thirteen years of
 					progressive hands-on work experience in private legal practice, financial management,
 					international transactions, logistical management, administration, proposal and grant writing,
 					team building, people management, report writing, data analyzing and compiling. He is currently
@@ -354,7 +354,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Kabonesa Consolata</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
+					<p className="my-4">Dr. Kabonesa Consolata holds over 25 years of specialized experience in leadership, women and gender
 						programming, teaching human and community development, gender training and conducting
 						gender responsive research.
 						She holds the following qualifications: BA (Hons) in Liberal Arts; MA Modern English and
@@ -369,7 +369,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Dr. Kabonesa holds over 25 years of specialized experience in leadership, women and gender
+				  <p className="my-4">Dr. Kabonesa Consolata holds over 25 years of specialized experience in leadership, women and gender
 						programming, teaching human and community development, gender training and conducting
 						gender responsive research.
 						She holds the following qualifications: BA (Hons) in Liberal Arts; MA Modern English and
@@ -393,7 +393,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Andrew M. Mwenda</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda.</p>
+					<p className="my-4">Mr. Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda.</p>
 					<p className="mb-4"></p>
 					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 10")}>View Bio</button>
 					<br/>
@@ -403,7 +403,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 10")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda
+				  <p className="my-4">Mr. Andrew M. Mwenda is an African journalist and entrepreneur. Currently he is the Managing Director of Independent Publications Limited, the publishers of The Independent, East Africa’s leading current affairs news magazine. He has also invested in schools, is involved in microfinance, mobile money and strategic communications. On top of sitting on the boards of some multi-national corporations in Africa, Mwenda also sits on the Presidential Advisory Committee of President Paul Kagame of Rwanda
 
 					Nominated by Foreign Policy among the Top 100 Global Thinkers in 2010, Mwenda was also nominated by the World Economic Forum as a Young Global Leader in 2008 and by the Africa Study Institute as an Archbishop Tutu fellow, a program for “Africa’s future leaders” (2009). He has also won the International Press Freedom Award (2008) by the Committee to Protect Journalists “in tribute to his commitment to a free press in Uganda and the whole world” and the Outstanding Alumni Award from the British Council (2006).
 					
@@ -489,11 +489,11 @@ class Council extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/lawerence.jpg" className="img-fluid" alt="" />
+						<img src="assets/images/img/lawerence.JPG" className="img-fluid" alt="" />
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Lawrence Muganga – Ag.</h6>
+					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Lawrence Muganga.</h6>
 					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
 					<p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
 					<p className="mb-4"></p>
@@ -505,7 +505,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 13")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor –
+				  <p className="my-4">Dr. Lawrence Muganga doubles as the Vice Chancellor and Deputy Vice Chancellor –
 					Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
 					educator, public policy practitioner, strategy advisor, development management Specialist and
 					authentic learning enthusiast based in Edmonton, Alberta Canada. Dr. Muganga earned his MA
@@ -533,7 +533,7 @@ class Council extends Component {
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>H.E Mark Serebe</h6>
 					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
+					<p className="my-4">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 					<br/>
 					<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p>
 					<p className="mb-4"></p>
@@ -545,7 +545,7 @@ class Council extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 14")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
+				  <p className="my-4">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 					<br/>
 					<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p>
 				</div>

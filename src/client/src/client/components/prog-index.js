@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import Footer from './footer';
 import Data from './data/courses.json'
 import CourseList from './course-list';
+//import Faculties from './data/faculties.json';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -20,7 +21,12 @@ class ProgIndex extends Component {
 			courses_title: 'All Programs',
 			courses_desc: 'Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.',
 			courses_count: '',
-			course_test: "",
+			busy_count: 0,
+			tech_count: 0,
+			health_count: 0,
+			humanities_count: 0,
+			edu_count: 0,
+			law_count: 0
 		}
 	}
 	componentDidMount(){
@@ -29,14 +35,15 @@ class ProgIndex extends Component {
         this.diplomaCount()
         this.foundCount()
         this.proCount()
+		this.busyCount()
+		this.techCount()
+		this.healthCount()
+		this.humanitiesCount()
+		this.eduCount()
+		this.lawCount()
 		this.getCourses()
     }
 	getCourses = () => {
-		/* const { match } = this.props
-		const { params } = match
-		const { program } = params
-		console.log({program}, "PROGRAM SELECT"); */
-		//console.log(this.props, "CURRENT")
 		if(this.props.match.params.program === "undergraduate"){
 			this.getUnder()
 		} else if(this.props.match.params.program === "postgraduate"){
@@ -47,9 +54,44 @@ class ProgIndex extends Component {
 			this.getFounds()
 		} else if(this.props.match.params.program === "professional"){
 			this.getPros()
-		} else if(this.props.match.params.program === ""){
-			this.getAllCourses()
-			//console.log("WE TRY ALL ");
+		} else if(this.props.match.params.program === "faculty_BusPostgraduate"){
+			this.getFacBusPostgs()
+		} else if(this.props.match.params.program === "faculty_Busundergraduate"){
+			this.getFacBusUndergs()
+		} else if(this.props.match.params.program === "faculty_Busdiploma"){
+			this.getFacBusDiplogs()
+		} else if(this.props.match.params.program === "faculty_Busprofessional"){
+			this.getFacBusPros()
+		} else if(this.props.match.params.program === "faculty_TechPostgraduate"){
+			this.getFacTechPost()
+		} else if(this.props.match.params.program === "faculty_Techundergraduate"){
+			this.getFacTechUnder()
+		} else if(this.props.match.params.program === "faculty_Techdiploma"){
+			this.getFacTechDiploma()
+		} else if(this.props.match.params.program === "faculty_Techprofessional"){
+			this.getFacTechPros()
+		} else if(this.props.match.params.program === "faculty_HealthPostgraduate"){
+			this.getFacHealthPost()
+		} else if(this.props.match.params.program === "faculty_Healthundergraduate"){
+			this.getFacHealthUnder()
+		} else if(this.props.match.params.program === "faculty_Healthprofessional"){
+			this.getFacHealthPros()
+		} else if(this.props.match.params.program === "faculty_HealthFound"){
+			this.getFacHealthFound()
+		} else if(this.props.match.params.program === "faculty_HumanPostgraduate"){
+			this.getFacHumanPost()
+		} else if(this.props.match.params.program === "faculty_Humanundergraduate"){
+			this.getFacHumanUnder()
+		} else if(this.props.match.params.program === "faculty_HumanDiploma"){
+			this.getFacHumanDiploma()
+		} else if(this.props.match.params.program === "faculty_HumanFound"){
+			this.getFacHumanFound()
+		} else if(this.props.match.params.program === "faculty_Eduundergraduate"){
+			this.getFacEduUnder()
+		} else if(this.props.match.params.program === "faculty_EDuPostgraduate"){
+			this.getFacEduPost()
+		} else if(this.props.match.params.program === "faculty_Lawundergraduate"){
+			this.getFacLawUnder()
 		}
 	}
 	getAllCourses = () => {
@@ -58,6 +100,152 @@ class ProgIndex extends Component {
 			courses_title: 'All Programs'
 		})
 	}
+	getFacBusPostgs = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty of Business and Management")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Business and Management (Post Graduate)",
+		})
+		console.log(result, "WE SEE THIS")
+	}
+	getFacBusUndergs = () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Business and Management")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Business and Management (Under Graduate)",
+		})
+	}
+	getFacBusDiplogs = () => {
+		var result = Data.filter(course => course.level === "Diploma" && course.faculty === "Faculty of Business and Management")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Business and Management (Diploma)",
+		})
+	}
+	getFacBusPros = () => {
+		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty Of Business And Management")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Business and Management (Professional Development)",
+		})
+	}
+	///////
+	getFacTechPost = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty Of Science And Technology")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Science and Technology (Post Graduate)",
+		})
+	}
+	getFacTechUnder= () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty Of Science And Technology")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Science and Technology (Under Graduate)",
+		})
+	}
+	getFacTechDiploma = () => {
+		var result = Data.filter(course => course.level === "Diploma" && course.faculty === "Faculty Of Science And Technology")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Science and Technology (Diploma)",
+		})
+	}
+	getFacTechPros = () => {
+		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty Of Science And Technology")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Science and Technology (Professional Development)",
+		})
+	}
+	/////
+	getFacHealthPost = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty of Health Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Health Sciences (Post Graduate)",
+		})
+	}
+	getFacHealthUnder = () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Health Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Health Sciences (Under Graduate)",
+		})
+	}
+	getFacHealthPros = () => {
+		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty of Health Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Health Sciences (Professional Development)",
+		})
+	}
+	getFacHealthFound = () => {
+		var result = Data.filter(course => course.level === "Foundations" && course.faculty === "Faculty of Health Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Health Sciences (Foundations)",
+		})
+	}
+	//////
+	getFacHumanPost = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty of Humanities and Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science (Post Graduate)",
+		})
+	}
+	getFacHumanUnder = () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Humanities and Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science (Under Graduate)",
+		})
+	}
+	getFacHumanDiploma = () => {
+		var result = Data.filter(course => course.level === "Diploma" && course.faculty === "Faculty of Humanities and Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science (Diploma)",
+		})
+	}
+	getFacHumanFound = () => {
+		var result = Data.filter(course => course.level === "Foundations" && course.faculty === "Faculty of Humanities and Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science (Foundations)",
+		})
+	}
+	getFacHumanPros = () => {
+		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty of Humanities and Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science (Professional Development)",
+		})
+	}
+	/////////
+	getFacEduPost = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Institute Of Education And Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Institute Of Education And Social Sciences (Post Graduate)",
+		})
+	}
+	getFacEduUnder = () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Institute Of Education And Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Institute Of Education And Social Sciences (Under Graduate)",
+		})
+	}
+	getFacLawUnder = () => {
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "School Of Law")
+		this.setState({
+			courses: result,
+			courses_title: "School Of Law (Under Graduate)",
+		})
+	}
+	////////////
 	getPostGs = () => {
 		var result = Data.filter(course => course.level === "Post Graduate")
 		this.setState({
@@ -153,6 +341,114 @@ class ProgIndex extends Component {
 			pro_sum: count
 		})
 	}
+	getBusiness = () => {
+		var result = Data.filter(course => course.faculty === "Faculty of Business and Management")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Business and Management",
+		})
+	}
+	getTech = () => {
+		var result = Data.filter(course => course.faculty === "Faculty of Science and Technology")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Science and Technology",
+		})
+	}
+	getHealth = () => {
+		var result = Data.filter(course => course.faculty === "Faculty of Health Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Health Sciences",
+		})
+	}
+	getHumanities = () => {
+		var result = Data.filter(course => course.faculty === "Faculty of Humanities and Social Science")
+		this.setState({
+			courses: result,
+			courses_title: "Faculty of Humanities and Social Science",
+		})
+	}
+	getEdu = () => {
+		var result = Data.filter(course => course.faculty === "Institute Of Education And Social Sciences")
+		this.setState({
+			courses: result,
+			courses_title: "Institute Of Education And Social Sciences",
+		})
+	}
+	getLaw = () => {
+		var result = Data.filter(course => course.faculty === "School Of Law")
+		this.setState({
+			courses: result,
+			courses_title: "School Of Law",
+		})
+	}
+	busyCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "Faculty of Business and Management")
+			count++
+		}
+		this.setState({
+			busy_count: count
+		})
+	}
+	techCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "Faculty of Science and Technology")
+			count++
+		}
+		this.setState({
+			tech_count: count
+		})
+	}
+	healthCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "Faculty of Health Sciences")
+			count++
+		}
+		this.setState({
+			health_count: count
+		})
+	}
+	humanitiesCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "Faculty of Humanities and Social Science")
+			count++
+		}
+		this.setState({
+			humanities_count: count
+		})
+	}
+	eduCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "Institute Of Education And Social Sciences")
+			count++
+		}
+		this.setState({
+			edu_count: count
+		})
+	}
+	lawCount = () =>{
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+    	if(progData[i].faculty === "School Of Law")
+			count++
+		}
+		this.setState({
+			law_count: count
+		})
+	}
 	toVclass = () => {
         window.location.href = "https://vclass.ac/"
     }
@@ -166,7 +462,7 @@ class ProgIndex extends Component {
 	<div className="team">
 		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div className="justify-content-center row"  style={{display: 'flex'}}>
-				<div className="col-lg-2 with_shadow side_control" style={{padding: '0px'}}>
+				<div className="col-lg-3 with_shadow side_control" style={{padding: '0px'}}>
 					<div className="sidenavd" style={{paddingTop: '0px', position: 'inherit'}}>
 						<div className="" style={{height: '60px'}}>
 							<table style={{width: '100%', height: '100%'}}>
@@ -179,41 +475,64 @@ class ProgIndex extends Component {
 							<p className="my-2 text-center" style={{fontSize: '18px', fontWeight: '400'}}>Level Of Education</p>
 							<ul className="prog-listu" style={{border: '#888 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
 								<li className={this.state.courses_title === "Post Graduate"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Post graduate</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Under Graduate"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Under graduate</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Under graduate Programs</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Diploma"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getDiploma}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Diploma</span></td><td><span class="badged">{this.state.diploma_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span class="badged">{this.state.diploma_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Foudations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Foundations</span></td><td><span class="badged">{this.state.found_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Foundations Programs</span></td><td><span class="badged">{this.state.found_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Professional Development"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap"></span>&nbsp;&nbsp;&nbsp;Professional Development</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Professional Development Programs</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
 								</li>
 							</ul>
 						</div>
 						<hr/>
 						
 						<ul className="" style={{padding: '10px'}}>
-						<p className="" style={{fontSize: '18px', fontWeight: '400'}}>Credentials</p>
+						<p className="" style={{fontSize: '18px', fontWeight: '400'}}>Faculties</p>
 							<Link onClick={this.getCourses}><li className="prog-list-course-outline" style={{width: '100%'}}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
 								</li>
 							</Link>
-							{ this.state.courses.map((outline => {
-								return(
-									<Link to={`/view-program${outline.program}`}><li className="prog-list-course-outline" onClick={this.getPostGs}>
-										<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>{outline.program}</span></td></tr></table>
-									</li></Link>
-								)
-							})) }
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getBusiness}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span class="badged">{this.state.busy_count}</span></td></tr></table>
+								</li>
+							</Link>
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getTech}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Science and Technology</span></td><td><span class="badged">{this.state.tech_count}</span></td></tr></table>
+								</li>
+							</Link>
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getHealth}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Health Sciences</span></td><td><span class="badged">{this.state.health_count}</span></td></tr></table>
+								</li>
+							</Link>
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getHumanities}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Humanities and Social Science</span></td><td><span class="badged">{this.state.humanities_count}</span></td></tr></table>
+								</li>
+							</Link>
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getEdu}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Institute Of Education And Social Sciences</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
+								</li>
+							</Link>
+							<Link>
+								<li className="prog-list-course-outline" onClick={this.getLaw}>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>School Of Law</span></td><td><span class="badged">{this.state.law_count}</span></td></tr></table>
+								</li>
+							</Link>
 						</ul>
                     </div>
 				</div>
-				<div className="col-lg-10"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<br/>
                         <h6 className="hny-title" style={{fontSize: '38px', color: 'orange'}}>{this.state.courses_title} Programs</h6>
