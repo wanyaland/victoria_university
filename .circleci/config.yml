@@ -24,6 +24,7 @@ jobs:
     machine: true
     steps:
       - checkout
+      - *setup_env
       - run:
           name: Build Docker image
           command: |
