@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Lint
           command: |
-            docker-compose -f src/docker-compose.dev.yaml exec api flake8 .
+            docker-compose -f src/docker-compose.dev.yaml exec api flake8 --exclude=migrations .
             docker-compose -f src/docker-compose.dev.yaml exec api black -l 127 --check --exclude=migrations .
             docker-compose -f src/docker-compose.dev.yaml exec api isort .
 
