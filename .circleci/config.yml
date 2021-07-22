@@ -24,6 +24,8 @@ jobs:
     machine: true
     steps:
       - checkout
+      - setup_remote_docker:
+          docker-layer_caching: true
       - run:
           name: Build backend
           command: |
@@ -36,7 +38,7 @@ jobs:
           name: Lint
           command: |
             docker-compose -f src/docker-compose.dev.yaml exec api flake8 .
-            docker-compose -f src/docker-compose.dev.yaml exec api black --check --exclude=migrations .
+            docker-compose -f src/docker-compose.dev.yaml exec api black -l 127 --check --exclude=migrations .
             docker-compose -f src/docker-compose.dev.yaml exec api isort .
 
       - run:
