@@ -21,8 +21,7 @@ setup_env: &setup_env
 
 jobs:
   build-dev:
-    machine:
-      docker_layer_caching: true
+    machine: true
     steps:
       - checkout
       - run:
