@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer'
 import Data from './data/courses.json'
+import { Link } from 'react-router-dom';
 
 class ViewProgram extends Component {
 	constructor(props) {
@@ -20,12 +21,13 @@ class ViewProgram extends Component {
 	getCourse_ch = () => {
 		var progData = Data
 		const result = progData.find( ({ program }) => program === this.props.match.params.program );
-		console.log(result, "RESULT")
-		console.log(result.full_desc, "DESC")
 		this.setState({
 			course_prog: result,
 		})
 	}
+	openForm(){
+        document.getElementById("myForm").style.display = "block";
+    }
 	apply(){
         window.location.href = "apply-now";
     }
@@ -41,14 +43,15 @@ class ViewProgram extends Component {
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Completion Time</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.duration+' Years</p>'
 	}
 	updateRequirements = () => {
-		window.location.href = "requirements";
+		var mainDisplay = document.getElementById('main-display')
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Program Requirements</h6><br/><p class="my-4" style="font-size: 18px;"><a href="requirements#business" class="underline" style="color: #0077b5;" target="_blank">Click here to view course requirements under faculty <b style="font-weight: 600;">'+this.state.course_prog.faculty+'</b></a></p>'
 	}
 	updateReqcourses = () => {
 		window.location.href = "requirements";
 	}
 	updateFees = () => {
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><br/><p class="my-4" style="font-size: 18px">Ugndan Students: UGX '+this.state.course_prog.local_price+'<br><br>International Students: USD '+this.state.course_prog.int_price+'</p>'
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><p class="my-4" style="font-size: 18px"><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">Local Students</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX '+this.state.course_prog.local_func_fee+'<br>Registration Fee: UGX 50,000<br>Application Fee: UGX 160,000<br><hr style="width:100%;"><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">International Students</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD '+this.state.course_prog.int_func_fee+'<br>Registration Fee: USD 16<br>Application Fee: USD 51</p>'
 	}
     render(){
 		//const { search } = this.props.location
@@ -61,6 +64,7 @@ class ViewProgram extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
+				
 <section class="w3l-apply-6">
 	<div class="apply-info py-5">
 		<div class="container py-lg-5">
@@ -106,7 +110,7 @@ class ViewProgram extends Component {
 			<p class="my-4 text-center">Advance your skills and begin your academic journey with Victoria University’s {this.state.course_prog.program}.</p>
 			<div class="mission-grids-info row">
 				<div class="mission-gd-right col-lg-6 pl-lg-4">
-					<p style={{fontSize: '24px', color: '#025886'}}><b style={{fontWeight: '600'}}>Q:</b>&nbsp;Why take the Doctor of Business Administration?</p>
+					<p style={{fontSize: '24px', color: '#025886'}}><b style={{fontWeight: '600'}}>Q:</b>&nbsp;Why take {this.state.course_prog.program}?</p>
 					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>{this.state.course_prog.short_desc}</p>
 			    </div>
 				<div class="mission-gd-right col-lg-6 pl-lg-4">
@@ -129,7 +133,6 @@ class ViewProgram extends Component {
                             <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateOverview}>Overview<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateTime}>Completion time<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateRequirements}>Admission requirements<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateReqcourses}>Required courses<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                             <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateFees}>Tuition and fees<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
                         </ul>
                     </div>
@@ -160,8 +163,7 @@ class ViewProgram extends Component {
                         </div>
 						<p class="my-4">
 							<ul style={{listStyle: 'none'}}>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Visit program website</span></li>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Apply Online</span></li>
+								<Link to="/apply-now"><li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Apply Online</span></li></Link>
 							</ul>
 						</p>
                     </div>
@@ -171,9 +173,7 @@ class ViewProgram extends Component {
                         </div>
 						<p class="my-4">
 							<ul style={{listStyle: 'none'}}>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Ask VU</span></li>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">How VU programmes work</span></li>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">View programme listings</span></li>
+								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline" onClick={this.openForm}>Ask VU</span></li>
 							</ul>
 						</p>
                     </div>
@@ -183,8 +183,8 @@ class ViewProgram extends Component {
                         </div>
 						<p class="my-4">
 							<ul style={{listStyle: 'none'}}>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Call</span></li>
-								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span class="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span class="underline">Email programme</span></li>
+								<li class="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-angle-right" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="">+256 759 996 130 or +256 700 300 088 or +256 707 780 158</span></li>
+								<li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-angle-right" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="">admissions@vu.ac.ug OR marketing@vu.ac.ug</span></li>
 							</ul>
 						</p>
                     </div>

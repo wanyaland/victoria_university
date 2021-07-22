@@ -63,7 +63,7 @@ class Library extends Component {
                         To become a Centre of Excellence for library resources and services is core to our mission. We offer engaging experiences with people and content that enrich the University’s learning and research communities - in both physical and digital spaces. The Library has an enduring impact on both the student and researcher experience. Library enriches the intellectual and creative life of our users by facilitating information discovery and the creation and dissemination of research. We offer a user-centered library service, designed in collaboration with our University and the community around.
                     </p>
                     <p className="my-4">
-                        <p className="my-4" style={{fontSize: '22px', fontWeight: '500'}}>VULIB COVID-19 Statement Update (optional)</p>
+                        <p className="my-4" style={{fontSize: '22px', fontWeight: '500'}}>VULIB COVID-19 Statement Update</p>
                         Under the latest government restrictions VULIB Library is not open for physical access and bookable study. There is limited access to library study space. If you are want to access our E-Library, kindly use our MYLOFT web App or download the Mobile App Version on to your gadgets for use off campus, please before downloading, make sure you have contacted our library staff for to get your username and password registration, this helps us comply with contact tracing during the pandemic.
                         If you require library support, remember you can access this online library@vu.ac.ug or via calling the VULIB Tel no: +256707780156 and our staff will be available to assist you.
                     </p>
