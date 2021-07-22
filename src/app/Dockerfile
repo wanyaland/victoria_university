@@ -1,5 +1,5 @@
 #pull official base image
-FROM python:3.6-alpine
+FROM python:3.9.5-slim-buster
 
 #set Working directory
 WORKDIR /usr/src/app
@@ -9,9 +9,10 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONBUFFERED 1
 
 #install psycopg2 dependencies
-RUN apk update \
-    && apk add postgresql-dev gcc python3-dev musl-dev \
-    && apk add zlib-dev jpeg-dev libffi-dev openssl-dev
+RUN apt-get update \
+    && apt-get -y install postgresql libpq-dev postgresql-client postgresql-client-common \
+    && apt-get -y install  gcc python3-dev musl-dev 
+    
 
 #install dependencies
 RUN pip install --upgrade pip 
