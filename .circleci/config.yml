@@ -20,7 +20,7 @@ setup_env: &setup_env
 
 
 jobs:
-  build-dev:
+  build-test:
     machine: true
     steps:
       - checkout
@@ -40,12 +40,19 @@ jobs:
             docker-compose -f src/docker-compose.dev.yaml exec api isort .
 
       - run:
-          name: Deploy Dev
+          name: Publish
           command: |
             sudo curl https://cli-assets.heroku.com/install.sh | sh
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
             docker tag wanyaland/vu_web:latest registry.heroku.com/$APP_NAME/web
             docker push registry.heroku.com/$APP_NAME/web
+            
+  deploy-dev:
+    machine: true
+    steps:
+      - run:
+          name: Deploy Heroku
+          command: |
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
 
   build-prod:
@@ -84,11 +91,13 @@ jobs:
             scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_project.sh
 
-
 workflows:
   build-deploy:
     jobs:
-      - build-dev:
+      - build-test
+      - deploy-dev:
+          requires:
+            - build-test
           filters:
             branches:
               only:

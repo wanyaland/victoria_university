@@ -1,6 +1,6 @@
 from django.db import models
 
-from .choices import *
+from .choices import DISABILITY_CHOICES, NO
 
 # Create your models here.
 

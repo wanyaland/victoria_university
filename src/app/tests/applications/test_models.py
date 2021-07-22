@@ -3,9 +3,7 @@ from datetime import datetime
 import pytest
 
 from applications.choices import *
-from applications.models import (Application, Contact, EducationHistory,
-                                 EducationLevel, Faculty, GeneralInfo,
-                                 Programme)
+from applications.models import Application, Contact, EducationHistory, EducationLevel, Faculty, GeneralInfo, Programme
 
 
 @pytest.mark.django_db
