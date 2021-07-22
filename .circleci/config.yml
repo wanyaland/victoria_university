@@ -20,23 +20,32 @@ setup_env: &setup_env
 
 
 jobs:
-  build-deploy-dev:
+  build-dev:
     machine: true
     steps:
       - checkout
       - run:
-          name: Build Docker image
+          name: Build backend
           command: |
-            docker-compose -f src/docker-compose.dev.yaml up -d --build 
-
+            docker-compose -f src/docker-compose.dev.yaml up -d --build
       - run:
-          name: Build and push Docker image to Heroku
+          name: Test backend
+          command: |
+            docker-compose -f src/docker-compose.dev.yaml exec api pytest
+
+  deploy-dev:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Deploy Dev
           command: |
             sudo curl https://cli-assets.heroku.com/install.sh | sh
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
             docker tag wanyaland/vu_web:latest registry.heroku.com/$APP_NAME/web
             docker push registry.heroku.com/$APP_NAME/web
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
+
   
   build-prod:
     machine: true
@@ -78,7 +87,12 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - build-deploy-dev:
+      - build-dev:
+          filters:
+            branches:
+              only:
+                - main
+      - deploy-dev:
           filters:
             branches:
               only:
