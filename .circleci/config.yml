@@ -21,11 +21,10 @@ setup_env: &setup_env
 
 jobs:
   build-dev:
-    machine: true
+    machine:
+      docker_layer_caching: true
     steps:
       - checkout
-      - setup_remote_docker:
-          docker-layer_caching: true
       - run:
           name: Build backend
           command: |
