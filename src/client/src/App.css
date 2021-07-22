@@ -6849,6 +6849,24 @@ span.fa.fa-play {
 .purple_color{
     color: #ac2ec5;
 }
+.red_color{
+    color: #b82b2b;
+}
+.green_color{
+    color: rgb(46, 141, 46);
+}
+.blue_color{
+    color: #0e6492;
+}
+.orange_color{
+    color: #cf9b39;
+}
+.brown_color{
+    color: #801c1c;
+}
+.skyblue_color{
+    color: #5095b1;
+}
 .smalldot{
     background-color:#80bfff;
     height: 20px;
@@ -18336,6 +18354,10 @@ color: #FFF;
 }
 /* //pay btn */
 /* Programs */
+.refresh:hover{
+    color: tomato;
+    cursor: pointer;
+}
 .view-program{
     background-color: #c3c6c7;
     color: #4f5f68;
@@ -18366,12 +18388,12 @@ color: #FFF;
     font-size: 15px;
 }
 .prog-list:hover{
-    background-color: #DDD;
+    background-color: #EEE;
     color: #444;
     cursor: pointer;
 }
 .prog-list-active{
-    background-color: #DDD;
+    background-color: #EEE;
     color: #555; 
     border-left: #555 3px solid; 
 }
@@ -18407,7 +18429,9 @@ color: #FFF;
     margin-bottom: 15px;
     border: #888 1px solid;
   }
-  
+  .input-container:focus{
+      border: #000 2px solid;
+  }
   .icon {
     padding: 10px;
     background: #FFF;
@@ -18426,7 +18450,7 @@ color: #FFF;
   }
   
   .input-field:focus {
-    border: 1px solid dodgerblue;
+    /* border: 1px solid dodgerblue; */
   }
 /* Programs */
 /* pay-pop-up */

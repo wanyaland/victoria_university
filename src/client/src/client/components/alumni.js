@@ -32,15 +32,15 @@ class Alumni extends Component {
 			<br/>
 			<br/>
 			<br/>
-            <br/>
+            <br/>{/* 
 			<div className="">
-					<h4 className="text-left" style={{textTransform: 'capitalize'}}>DEANNA SYKES</h4>
-			</div>
-			<div style={{width: '10%', border: '#f89422 2px solid', display: 'subgrid'}} className="text-left"></div>
-			
+					<h4 className="text-left" style={{textTransform: 'capitalize'}}>ALUMNI</h4>
+			</div> */}
+			{/* <div style={{width: '10%', border: '#f89422 2px solid', display: 'subgrid'}} className="text-left"></div> */}
+			{/* 
             <p className="text-left">VU’s 2020 Volunteer Service Award Recipient</p>
 			<br/>
-            <button className="btn_link">Read More</button>
+            <button className="btn_link">Read More</button> */}
 			<br/>
 			<br/>
 			<br/>
@@ -49,7 +49,9 @@ class Alumni extends Component {
 			<div className="apply-grids-info">
 				<div className="mt-lg-5 mt-4 justify-content-center">
 					<div className="appyl-sub-icon-info text-center">
-						<div style={{border: '#FFF 2px solid', height: '40px', width: '2%', margin: '0 auto', borderRadius: '40%'}}></div>
+					<div className="">
+					<h4 className="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;Alumni</span></h4>
+				</div>
 					</div>
 				</div>
 			</div>
@@ -79,146 +81,60 @@ class Alumni extends Component {
 		</div>
 	</div>
 </section>
-<section className="w3-gallery">
-	<div className="porfolio-inf py-5">
-		<div className="container pt-lg-5 pb-lg-4">
-			<div className="row title-content">
-				<div className="col-lg-6 title-left">
-					<h4 className="hny-title" style={{color: '#034f77'}}>Digital programs and on-demand content</h4>
+<section className="w3l-specification-6" id="credit">
+	<div className="specification-content py-5">
+		<div className="container py-lg-5">
+			<h3 className="hny-title text-center"><i>Alumni Testimonies</i></h3>
+			<div className="mission-grids-info row">
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Marlie Keishamaza</p>
+					<p className="my-2">Social Media Influencer and Entrepreneur</p>
+					<p className="my-2">Diploma in Journalism and Media Studies, Class of 2019</p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+						<p>Victoria University gave me a platform to practice my passions and exercise my gifts. I had several opportunities to emcee events and speak to different people, which is what I love to do. My public speaking career kicked off at Victoria University with the support of many friends I met at VU, many of whom have become family to me. Vu provided me with countless opportunities to nurture my skill and talent.  I am grateful for the time  spent at VU and would highly encourage it if you are looking for a place that will hone your talents outside of a classroom environment</p>
+				</div>
+				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p>Victoria University is a place which gives you the opportunity to not only learn theory but also nurtures non-classroom related skills such as presentations to audiences and report writing to mention but a few. For those looking to enter the field of public health, the faculty has a policy that three internships must be completed as one of the requirements to graduate, giving the students an opportunity to practice what they learnt in class.</p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Sempa Aron Kitratius</p>
+					<p className="my-2">Lecture Assistant at Victoria University</p>
+					<p className="my-2">Bachelor of Science in Public Health, Class of 2019</p>
+				</div>
+				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Mariah Peggy Nabunya</p>
+					<p className="my-2">Bachelor of Science in Public Health, Class of 2019</p>
+					<p className="my-2">Diploma in Journalism and Media Studies, Class of 2019</p>
+					<p className="my-2">Guild President, 2017 – 2019</p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+						<p>At Victoria University, learning is student centered, diverse and very practical. The university has an open door policy which enables students to easily access their lecturers, deans and the whole administration at large. During my time at the university, I always felt valued because my concerns were always addressed and my learning needs catered for. Victoria University greatly supports its students who are juggling entrepreneurship and education. It encourages its students to be creative and business-minded.</p>
+				</div>
+				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p>I graduated with a Bachelor of Business Administration. Studying this course at VU exposed me to an opportunity to work with Vivo Energy, Africa’s Giant oil and Gas Company, both as an intern and later as an employee. I would recommend any student to join this prestigious university, since learning at Victoria University is not just about education but exposure to opportunities. Join us and let us connect via #ProudVUAlumni.</p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Fred Poggo</p>
+					<p className="my-2">Alumni President</p>
+					<p className="my-2">Bachelor of Business Administration, Class of 2017</p>
+				</div>
+				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Peace Monica Pimer</p>
+					<p className="my-2">Founder and CEO</p>
+					<p className="my-2">Nile Girls Forum</p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-4">
+						<p>Victoria University offers a great learning experience and at the same time allows you to explore beyond the classroom. It has a wonderful social environment that promotes ethical decisions. Not only is it very supportive of students and alumni initiatives, like Nile Girls Forum, it also prepared me for the corporate world and I have no regrets.</p>
 				</div>
 			</div>
-			<br/>
-
-			<div className="row">
-				<div className="col-md-4 filter photo">
-                    <div  style={{backgroundColor: '#fff', border: '#CCC 10px solid', padding: '0'}}>
-                        <div className="each-item">
-                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
-
-                        </div>
-                        <div className="course-content" style={{padding: '30px'}}>
-                            <div className="course-info">
-                                
-                                <h6><a className="course-instructor" href="#home"  style={{fontSize: '19px'}}>Access upcoming events and on-demand digital content on a variety of professional development and lifelong learning topics.</a></h6>
-                            </div>
-                            <div className="course-divider">
-                                
-                            </div>
-                        </div>
-                    </div>
-				</div>
-				<div className="col-md-4 filter webdesign">
-                    <div  style={{backgroundColor: '#fff', border:'#CCC 10px solid', padding: '0'}}>
-                        <div className="each-item">
-                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
-                        </div>
-                        <div className="course-content" style={{padding: '30px'}}>
-                            <div className="course-info">
-                                <h6><a className="course-instructor" href="#home"  style={{fontSize: '19px'}}>Access upcoming events and on-demand digital content on a variety of professional development and lifelong learning topics.</a></h6>
-                            </div>
-                            <div className="course-divider">
-                                
-                            </div>
-                        </div>
-                    </div>
-				</div>
-				<div className="col-md-4 filter webdesign">
-                    <div  style={{backgroundColor: '#fff', border: '#CCC 10px solid', padding: '0'}}>
-                        <div className="each-item">
-                            <a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
-                        </div>
-                        <div className="course-content" style={{padding: '30px'}}>
-                            <div className="course-info">
-                                <h6><a className="course-instructor" href="#home"  style={{fontSize: '19px'}}>Access upcoming events and on-demand digital content on a variety of professional development and lifelong learning topics.</a></h6>
-                            </div>
-                            <div className="course-divider">
-                                
-                            </div>
-                        </div>
-                    </div>
-				</div>
-			</div>
-		</div>
+        </div>
 	</div>
 </section>
-<br/>
-<br/>
-<section className="w3-gallery">
-	<div className="porfolio-inf py-5">
-		<div className="container pt-lg-5 pb-lg-4">
-			<div className="row title-content">
-				<div className="col-lg-4 title-left">
-					<h4 className="hny-title" style={{color: '#034f77'}}>Stories that inspire</h4>
-				</div>
-			</div>
-			<br/>
-
-			<div className="row">
-				<div className="col-md-4 filter photo">
-					<div className="each-item">
-						<a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
-
-					</div>
-					<div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-						<div className="course-info">
-							<a href="#home" className="course-titlegulp-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">VU alumna wins two CCPA awards
-                                </h3>
-							</a>
-							<h6><a className="course-instructor" href="#home">Alumni,Announcements</a></h6>
-                            <div style={{width: '10%', border: '#f89422 2px solid', display: 'subgrid'}} className="text-left"></div>
-						</div>
-						<div className="course-divider">
-							<div className="course-meta"><span className="course-students" title="">April 21, 2021</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-md-4 filter graphic photo">
-					<div className="each-item">
-						<a href="#home"><img className="port-image img-fuild" src="assets/images/bg2.jpg" alt="" /></a>
-
-					</div>
-					<div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-						<div className="course-info">
-							<a href="#home" className="course-title-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">A passion for mental health
-                                </h3>
-							</a>
-							<h6><a className="course-instructor" href="#home">Alumni,In Our Communities</a></h6>
-						</div>
-                        <div style={{width: '10%', border: '#f89422 2px solid', display: 'subgrid'}} className="text-left"></div>
-						<div className="course-divider">
-							<div className="course-meta"><span className="course-students" title="">February 19, 2021</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="col-md-4 filter webdesign">
-					<div className="each-item">
-						<a href="#home"><img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" /></a>
-					</div>
-					<div className="course-content" style={{backgroundColor: '#FFF', border: 'none'}}>
-						<div className="course-info">
-							<a href="#home" className="course-title-wrapper">
-								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Norma Inch: Life is not a dress rehearsal</h3>
-							</a>
-							<h6><a className="course-instructor" href="#home">Alumni,Faculty of Humanities & Social Sciences,In Our Communities</a></h6>
-						</div>
-                        <div style={{width: '10%', border: '#f89422 2px solid', display: 'subgrid'}} className="text-left"></div>
-						<div className="course-divider">
-							<div className="course-meta"><span className="course-students" title="">February 26, 2021</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				</div>
-		</div>
-	</div>
-</section>
-<br/>
 <br/>
 <section className="w3l-footer-16 text-center">
     <div className="container">

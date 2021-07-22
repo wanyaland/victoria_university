@@ -97,14 +97,15 @@ class ProgIndex extends Component {
 	getAllCourses = () => {
 		this.setState({
 			courses: Data,
-			courses_title: 'All Programs'
+			courses_title: 'All',
+			courses_desc: 'Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body'
 		})
 	}
 	getFacBusPostgs = () => {
-		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty of Business and Management")
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Business and Management (Post Graduate)",
+			courses_title: "Faculty Of Business And Management (Post Graduate)",
 		})
 		console.log(result, "WE SEE THIS")
 	}
@@ -471,11 +472,15 @@ class ProgIndex extends Component {
 								</tr>
 							</table>
 						</div>
+						<div style={{paddingLeft: '10px', paddingRight: '10px'}}>
+							<p className="my-2 text-right refresh" style={{fontSize: '18px', fontWeight: '400'}} onClick={this.getAllCourses}><span className="fa fa-refresh"></span> Reset</p>
+						</div>
+						<hr/>
 						<div>
-							<p className="my-2 text-center" style={{fontSize: '18px', fontWeight: '400'}}>Level Of Education</p>
+							<p className="my-2 text-left" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</p>
 							<ul className="prog-listu" style={{border: '#888 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
 								<li className={this.state.courses_title === "Post Graduate"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Under Graduate"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Under graduate Programs</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
@@ -494,39 +499,39 @@ class ProgIndex extends Component {
 						<hr/>
 						
 						<ul className="" style={{padding: '10px'}}>
-						<p className="" style={{fontSize: '18px', fontWeight: '400'}}>Faculties</p>
+						<p className="" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;FACULTIES</p>
 							<Link onClick={this.getCourses}><li className="prog-list-course-outline" style={{width: '100%'}}>
 								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getBusiness}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span class="badged">{this.state.busy_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o red_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span class="badged">{this.state.busy_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getTech}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Science and Technology</span></td><td><span class="badged">{this.state.tech_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o green_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Science and Technology</span></td><td><span class="badged">{this.state.tech_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getHealth}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Health Sciences</span></td><td><span class="badged">{this.state.health_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o blue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Health Sciences</span></td><td><span class="badged">{this.state.health_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getHumanities}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Humanities and Social Science</span></td><td><span class="badged">{this.state.humanities_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o orange_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Humanities and Social Science</span></td><td><span class="badged">{this.state.humanities_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getEdu}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Institute Of Education And Social Sciences</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o brown_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Institute Of Education And Social Sciences</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getLaw}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o purple_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>School Of Law</span></td><td><span class="badged">{this.state.law_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o skyblue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>School Of Law</span></td><td><span class="badged">{this.state.law_count}</span></td></tr></table>
 								</li>
 							</Link>
 						</ul>

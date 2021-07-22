@@ -81,6 +81,17 @@ class Exams extends Component{
 </section>
 <section className="w3l-wecome-content-6">
     <div className="ab-content-6-mian py-5">
+        <div className="container py-lg-5">
+            <div className="welcome-grids row">
+                <div className="welcome-image" style={{width: '100%'}}>
+                    <video src="assets/media/exams.mp4" className="img-fluid" alt="" autoPlay="true" loop="true" controls="true" style={{width: '100%'}}/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section className="w3l-wecome-content-6">
+    <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
