@@ -1,21 +1,20 @@
-import pytest
 from datetime import datetime
 
-from applications.models import Application, Contact, GeneralInfo, EducationLevel, Programme, EducationHistory
-from applications.choices import *
+import pytest
 
+from applications.choices import *
+from applications.models import (Application, Contact, EducationHistory,
+                                 EducationLevel, Faculty, GeneralInfo,
+                                 Programme)
 
 
 @pytest.mark.django_db
 def test_application_model():
-    level = EducationLevel (
-        name = "bachelors"
-    )
+    level = EducationLevel(name="bachelors")
     level.save()
-    programme = Programme(
-        name="comp science",
-        level=level
-    )
+    faculty = Faculty(name="technology")
+    faculty.save()
+    programme = Programme(name="comp science", level=level, faculty=faculty)
     programme.save()
     application = Application(
         first_name="Harold",
@@ -39,14 +38,15 @@ def test_application_model():
     assert application.updated_at
     assert str(application) == "Harold Nachwera Wanyama"
 
+
 @pytest.mark.django_db
 def test_contact_model():
     contact = Contact(
-        country = "Uganda",
-        city = "Kampala",
-        email = "wanyaland@gmail.com",
-        whatsapp_number = "256788999982",
-        alternative_number = "256788999982"
+        country="Uganda",
+        city="Kampala",
+        email="wanyaland@gmail.com",
+        whatsapp_number="256788999982",
+        alternative_number="256788999982",
     )
     contact.save()
     assert contact.country == "Uganda"
@@ -57,36 +57,32 @@ def test_contact_model():
     assert contact.created_at
     assert contact.updated_at
 
+
 @pytest.mark.django_db
 def test_general_info_model():
-    gen_info = GeneralInfo(
-        disability = YES
-    )
+    gen_info = GeneralInfo(disability=YES)
     gen_info.save()
     assert gen_info.disability == YES
     assert gen_info.created_at
     assert gen_info.updated_at
 
+
 @pytest.mark.django_db
 def test_level_of_education_model():
-    level_of_education = EducationLevel(
-        name="Bachelors",
-    )
+    level_of_education = EducationLevel(name="Bachelors",)
     level_of_education.save()
     assert level_of_education.name == "Bachelors"
     assert level_of_education.created_at
     assert level_of_education.updated_at
 
+
 @pytest.mark.django_db
 def test_programme_model():
-    level = EducationLevel (
-        name = "bachelors"
-    )
+    level = EducationLevel(name="bachelors")
     level.save()
-    programme = Programme(
-        name="comp science",
-        level=level
-    )
+    faculty = Faculty(name="technology")
+    faculty.save()
+    programme = Programme(name="comp science", level=level, faculty=faculty)
     programme.save()
     assert programme.name == "comp science"
     assert programme.level.name == "bachelors"
@@ -94,16 +90,14 @@ def test_programme_model():
     assert programme.created_at
     assert str(programme) == "comp science"
 
+
 @pytest.mark.django_db
 def test_education_history_model():
-    level = EducationLevel (
-        name = "bachelors"
-    )
+    level = EducationLevel(name="bachelors")
     level.save()
-    programme = Programme(
-        name="comp science",
-        level=level
-    )
+    faculty = Faculty(name="technology")
+    faculty.save()
+    programme = Programme(name="comp science", level=level, faculty=faculty)
     programme.save()
     application = Application(
         first_name="Harold",
@@ -113,17 +107,17 @@ def test_education_history_model():
         dob=datetime(1981, 12, 3),
         nationality="Ugandan",
         first_language="English",
-        programme=programme
+        programme=programme,
     )
     application.save()
     history = EducationHistory(
-        education_level = level,
-        subject = "history",
-        institution_name = "Mak",
-        qualification = "certificate",
-        result = "A plus",
-        year = "1982",
-        application = application
+        education_level=level,
+        subject="history",
+        institution_name="Mak",
+        qualification="certificate",
+        result="A plus",
+        year="1982",
+        application=application,
     )
     history.save()
     assert history.education_level == level
@@ -133,4 +127,3 @@ def test_education_history_model():
     assert history.result == "A plus"
     assert history.year == "1982"
     assert history.application == application
-

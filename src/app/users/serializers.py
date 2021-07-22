@@ -1,5 +1,6 @@
 # users/serializers.py
 from rest_framework.serializers import ModelSerializer
+
 from .models import CustomUser
 
 
