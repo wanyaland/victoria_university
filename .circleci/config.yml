@@ -20,39 +20,51 @@ setup_env: &setup_env
 
 
 jobs:
-  build-test:
+  build-dev:
     machine: true
     steps:
       - checkout
+      - *setup_env
       - run:
-          name: Build backend
+          name: build
           command: |
-            docker-compose -f src/docker-compose.dev.yaml up -d --build
+            cd src/app
+            docker login -u $DOCKER_USER -p $DOCKER_PASS
+            docker pull wanyaland/vu_api:latest || true
+            docker build --cache-from  wanyaland/vu_api:latest \
+            --tag wanyaland/vu_api:latest --file ./Dockerfile .
+            docker push wanyaland/vu_api:latest
+  
+  test-dev:
+    docker:
+      - image: wanyaland/vu_api:latest
+    steps:
+      - checkout
+      - *setup_env
       - run:
-          name: Test backend
+          name: test
           command: |
-            docker-compose -f src/docker-compose.dev.yaml exec api pytest -p no:warnings --cov=.
-      - run:
-          name: Lint
-          command: |
-            docker-compose -f src/docker-compose.dev.yaml exec api flake8 .
-            docker-compose -f src/docker-compose.dev.yaml exec api black -l 127 --check --exclude=migrations .
-            docker-compose -f src/docker-compose.dev.yaml exec api isort .
+            cd src/app
+            pytest -p no:warnings --cov=.
+            flake8 .
+            black --check -l 127 .
+            isort . --check-only
 
-      - run:
-          name: Publish
-          command: |
-            sudo curl https://cli-assets.heroku.com/install.sh | sh
-            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
-            docker tag wanyaland/vu_web:latest registry.heroku.com/$APP_NAME/web
-            docker push registry.heroku.com/$APP_NAME/web
             
   deploy-dev:
     machine: true
     steps:
       - run:
+          name: Build backend
+          command: |
+            docker-compose -f src/docker-compose.dev.yaml up -d --build
+      - run:
           name: Deploy Heroku
           command: |
+            sudo curl https://cli-assets.heroku.com/install.sh | sh
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
+            docker tag wanyaland/vu_web:latest registry.heroku.com/$APP_NAME/web
+            docker push registry.heroku.com/$APP_NAME/web
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
 
   build-prod:
@@ -94,10 +106,11 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - build-test
-      - deploy-dev:
+      - build-dev
+      - test-dev:
           requires:
-            - build-test
+            - build-dev
+      - deploy-dev:
           filters:
             branches:
               only:
