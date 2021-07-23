@@ -54,6 +54,8 @@ jobs:
   deploy-dev:
     machine: true
     steps:
+      - checkout
+      - *setup_env
       - run:
           name: Build backend
           command: |
