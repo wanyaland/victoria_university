@@ -113,6 +113,8 @@ workflows:
           requires:
             - build-dev
       - deploy-dev:
+          requires:
+            - test-dev
           filters:
             branches:
               only:
