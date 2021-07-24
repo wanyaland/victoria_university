@@ -17,6 +17,7 @@ class ViewProgram extends Component {
 	}
 	componentDidMount(){
 		this.getCourse_ch()
+		this.getBanner()
 	}
 	getCourse_ch = () => {
 		var progData = Data
@@ -24,6 +25,22 @@ class ViewProgram extends Component {
 		this.setState({
 			course_prog: result,
 		})
+	}
+	getBanner = () => {
+		var facultyBanner = this.state.course_prog.faculty
+		if(facultyBanner === "Faculty Of Business And Management"){
+
+		} else if(facultyBanner === "Faculty Of Science And Technology"){
+
+		} else if(facultyBanner === "Faculty of Health Sciences"){
+
+		} else if(facultyBanner === "Faculty of Humanities and Social Sciences"){
+
+		} else if(facultyBanner === "Institute Of Education And Social Sciences"){
+
+		} else if(facultyBanner === "School Of Law"){
+			
+		}
 	}
 	openForm(){
         document.getElementById("myForm").style.display = "block";

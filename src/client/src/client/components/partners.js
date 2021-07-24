@@ -178,67 +178,91 @@ class Partners extends Component {
                     <p className="my-4" style={{fontSize: '18px'}}>We maintain additional educational or research agreements with the following institutions and organizations:</p>
                     <div className="container py-lg-5">
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/1.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://munyonyocommonwealth.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/1.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/2.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.spekeresort.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/2.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/3.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://kabiracountryclub.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/3.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/4.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.spekehotel.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/4.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/5.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://dolphinsuites.co.ug/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/5.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/6.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.forest-cottages.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/6.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/7.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.spekeapartments.com/wampewo/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/7.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/8.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.spekeapartments.com/kitante/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/8.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/9.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.bukotoheights.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/9.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/10.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.tagoreapartments.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/10.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/11.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.boulevardsuites.co.ug/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/11.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/12.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.naguruapartments.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/12.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
@@ -247,148 +271,178 @@ class Partners extends Component {
                                     <img src="assets/images/partners/13.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/14.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://tagoreliving.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/14.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/15.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/16.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/17.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/18.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/19.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/20.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/21.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/22.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/23.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.cms.co.ug/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/23.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/24.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.meerainvestments.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/24.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/25.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/26.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/27.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.premieradvertising.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/27.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/28.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="http://premierrecruitment.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/28.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/29.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/30.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://mail.calabashspa.com/index.html" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/30.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/31.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.rupareliafoundation.org/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/31.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/40.jpg" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="http://vu.ac.ug/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/40.jpg" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/32.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="http://dpsuganda.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/32.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/33.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.kisu.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/33.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/34.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://kampalaparents.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/34.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <div className="features-1-info-icon text-center">
                                     <img src="assets/images/partners/35.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
                                 </div>
                             </div>
                         </div>{/*  */}
                         <div className="row grids-innf my-lg-5">
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/36.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://sanyufm.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/36.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/37.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.goldstarinsurance.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/37.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/38.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://www.rosebudlimited.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/38.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
-                            <div className="features-1-info col-lg-2 col-md-6">
-                                <div className="features-1-info-icon text-center">
-                                    <img src="assets/images/partners/39.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
-                                </div>
+                            <div className="features-1-info col-lg-2 col-md-6 hover-partners">
+                                <a href="https://premier-roses.com/" target="_blank" rel="noreferrer">
+                                    <div className="features-1-info-icon text-center">
+                                        <img src="assets/images/partners/39.PNG" alt="Victoria University" title="Victoria University" className="img-fluid"/>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
