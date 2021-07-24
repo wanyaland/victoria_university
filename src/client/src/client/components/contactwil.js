@@ -5,6 +5,7 @@ import Footer from './footer';
 import { Link } from 'react-router-dom';
 import WilNav from './wil_nav';
 import BottomWil from './bottomWil';
+import WilBanner from './wil_banner';
 
 class ContactWil extends Component{
     render(){
@@ -29,14 +30,15 @@ class ContactWil extends Component{
 		</div>
 	</div>
 </section>
+<WilBanner />
 <section className="w3l-team-main">
 	<div className="team py-5">
-		<div className="py-lg-5" >
+		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
-				<div className="col-lg-3 with_shadow">
+				<div className="col-lg-3">
 					<WilNav />
 				</div>
-				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Contact us</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>

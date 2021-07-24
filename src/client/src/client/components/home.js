@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import BannerHome from './bannerHome';
-import NewsHub from './newshub';
-import Events from './events';
+import NewsHub from './news-events';
+//import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
@@ -188,7 +188,7 @@ class Home extends Component{
 </section>
 <hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
 <NewsHub />
-<Events />
+{/* <Events /> */}
 <div className="marginize"></div>
 <div className="marginize2"></div>
 <CalculatorFees />
