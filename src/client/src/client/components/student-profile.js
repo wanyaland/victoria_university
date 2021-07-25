@@ -65,7 +65,7 @@ class StudentProfile extends Component {
 						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>What's Your Student Profile?</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '24px'}}>Are you ready to become an Victoria University student?</p>
-						<p className="mb-4" style={{fontSize: '18px'}}>The application process at Victoria University varies depending on what level you wish to study (undergraduate or graduate), where you live, and if you want to take a full program or specific courses. To ensure that you follow the right application process, it is important to understand what type of student you are before getting started. Browse through all our student type options below to find your path!</p>
+						<p className="mb-4">The application process at Victoria University varies depending on what level you wish to study (undergraduate or graduate), where you live, and if you want to take a full program or specific courses. To ensure that you follow the right application process, it is important to understand what type of student you are before getting started. Browse through all our student type options below to find your path!</p>
                         <p className="my-4">If you have any questions or aren’t sure which student category applies to you, feel free to get in touch with one of our online program advisors <span className="fa fa-external-link"></span> or call +256 759 996 130 or +256 700 300 088 or +256 707 780 158. Once your application has been approved, you can start registering for courses right away.</p>
 					</div>
 				</div>
@@ -80,10 +80,10 @@ class StudentProfile extends Component {
 						<table style={{width: '100%', height: '100%'}}>
 							<tr>
 								<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
-                                    <h4>THINKING ABOUT STUDYING WITH US?</h4>
-									<h2>Learners from across Uganda and the world are finding academic success with VU</h2>
+                                    <h2>THINKING ABOUT STUDYING WITH US?</h2>
+									<h4>Learners from across Uganda and the world are finding academic success with VU</h4>
 									<p className="my-5" style={{color: '#FFF'}}>We've compiled the most important things you need to know about Victoria University into this handy viewbook. Learn about everything from the Benefits of studying online to convocating from an online university.</p>
-                                    <p className="my-4" style={{color: '#FFF'}}>Check out our interactive map to discover where open, accessible and online post-secondary education is being embraced</p>
+                                    <p className="my-1" style={{color: '#FFF'}}>Check out our interactive map to discover where open, accessible and online post-secondary education is being embraced</p>
 									<p className="my-4"><button className="btn_link2">Sign up to interact with the map</button></p>
 								</td>
 							</tr>
@@ -156,8 +156,8 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="my-4" style={{fontSize: '24px'}}>Program and non-program students also include…</p>
-						<p className="mb-4" style={{fontSize: '18px'}}>Returning students</p>
+						<p className="my-4"  style={{fontWeight: '500', fontSize: '24px'}}>Program and non-program students also include…</p>
+						<p className="mb-4"  style={{fontWeight: '400', fontSize: '22px'}}>Returning students</p>
                         <p className="my-4">Once you've become an VU student, you’ll always be an VU student, though you will become inactive after 12 months of your application date if you haven’t registered for a course or your most recent course completion date, course contract end date, withdrawal date.</p>
 					</div>
 				</div>
@@ -202,7 +202,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4" style={{fontSize: '18px'}}>International students</p>
+						<p className="mb-4"  style={{fontWeight: '500', fontSize: '24px'}}>International students</p>
                         <p className="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Uganda to study? Many of our programs are eligible to accept students on a study permit.</p>
                         <br/>
                         <br/>
@@ -276,7 +276,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4" style={{fontSize: '18px'}}>To become a non-program student:</p>
+						<p className="mb-4" style={{fontSize: '24px', fontWeight: '500'}}>To become a non-program student:</p>
                         <p className="my-4">As a non-program student at Victoria University, you will enjoy all of the same rights and privileges as a full time VU program student. Visiting students should obtain a Letter of Permission from their home institution before they register in an VU course. Ensure that the Letter of Permission indicates that the institution will accept the VU course in your program.</p>
                         <br/>
                         <br/>

@@ -112,7 +112,7 @@ class Home extends Component{
 		<Testimonies />
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
-		<div className="new_margin">
+		<div className="">
 			<h3 className="hny-title text-center" style={{color:'#0077b5', fontSize: '40px'}}>Maximize</h3>
 			<h4 className="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>

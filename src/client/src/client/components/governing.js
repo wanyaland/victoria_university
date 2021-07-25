@@ -43,12 +43,12 @@ class Governing extends Component{
     <div className="hny-top-menu">
         <div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div className="container-fluid">
-                <div className="">
-                    <Link to="/"><span className="underline" style={{color: "#EEE"}}>
+                <div className=""  style={{color: "#EEE"}}>
+                    <Link to="/"><span className="underline"  style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
-					Admissions 
+                    <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
+					About VU 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ Governance</span>
                 </div>
@@ -64,7 +64,7 @@ class Governing extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Governance</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '25px'}}>Victoria University has a principle of good governance  structure through which the academic and administrative affairs of University are Conducted .The governance of the University shall be vested in the Board of Directors, University Chancellor, University Council, University Senate,University Top Management.</p>
+                    <p className="my-4" style={{fontSize: '20px'}}>Victoria University has a principle of good governance  structure through which the academic and administrative affairs of University are Conducted .The governance of the University shall be vested in the Board of Directors, University Chancellor, University Council, University Senate,University Top Management.</p>
                     <p>
                         <Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Visit the Office of the University Secretariat website.</span>

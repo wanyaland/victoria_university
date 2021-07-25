@@ -67,7 +67,7 @@ class Keydates extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Key Dates and Deadlines</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>As an online university that lets you learn on your own schedule, it’s our priority to make sure your education fits into your life rather than the other way around. That’s why Victoria University approaches scheduling differently than traditional schools.
+                    <p className="my-4" style={{fontSize: '18px'}}>As an online university that lets you learn on your own schedule, it’s our priority to make sure your education fits into your life rather than the other way around. That’s why Victoria University approaches scheduling differently than traditional schools.
                     </p>
                     <p className="mb-4" style={{fontSize: '18px'}}>We’ve designed our admission policies and course structure with your need for flexibility in mind. Which means, even though we do have many universal events and milestones, very few deadlines apply to all of our students. Therefore, your key dates will likely be different from those of your classmates.</p>
                 </div>

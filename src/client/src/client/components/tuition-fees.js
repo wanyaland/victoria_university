@@ -138,7 +138,7 @@ class Tuition extends Component {
                     <p>
                         <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                             <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                            </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                            </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                         </a>
                     </p>
                 </div>
@@ -169,7 +169,7 @@ class Tuition extends Component {
                                         <p>
                                             <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                                                 <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                                             </a>
                                         </p>
                                     </div>
@@ -198,7 +198,7 @@ class Tuition extends Component {
                                         <p>
                                             <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                                                 <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                                             </a>
                                         </p>
                                     </div>

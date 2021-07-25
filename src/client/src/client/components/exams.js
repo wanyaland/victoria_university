@@ -50,7 +50,7 @@ class Exams extends Component{
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
                     <Link to="/current-students"><span className="underline" style={{color: "#EEE"}}>
-					Current Students 
+					Students 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ Exams</span>
 				</div>
@@ -95,7 +95,7 @@ class Exams extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <p className="mb-4" style={{fontSize: '24px'}}>Exams are different from the quizzes or tests that might be part of your course work. Exams must be written in a supervised environment, with an approved exam invigilator (supervisor). As there are no pre-set dates for exams, you must schedule an exam to write it.</p>
+                    <p className="mb-4" style={{fontSize: '20px'}}>Exams are different from the quizzes or tests that might be part of your course work. Exams must be written in a supervised environment, with an approved exam invigilator (supervisor). As there are no pre-set dates for exams, you must schedule an exam to write it.</p>
                     <p className="my-4">If you have a disability, you may qualify for exam accommodations <span className="fa fa-external-link"></span>. Please contact our Accessibility Services office <span className="fa fa-external-link"></span> for assistance.</p>
                     <p className="my-4">
                         You must complete any exams before the end of your course contract, with the exception of late exam requests.
@@ -135,7 +135,7 @@ class Exams extends Component{
                     <p className="">
                         Remember that times close to the end of the month are in higher demand, and exams are scheduled on a first-come, first-served basis.
                     </p>
-                    <p className="fa fa-external-link">
+                    <p className="my-4">
                         If you're writing in a new location or for the first time, choose your invigilator at least 60 days before you intend to write your first exam. This will ensure you meet the deadline for requesting a new invigilator, if one is required.
                     </p>
                 </div>

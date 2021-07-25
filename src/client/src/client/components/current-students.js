@@ -51,7 +51,7 @@ class CurrentStudents extends Component{
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ Current Students</span>
+					<span style={{color: '#EEE'}}>/ Students</span>
 				</div>
 			</div>
 		</div>
@@ -63,7 +63,7 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Current Students</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Students</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '22px'}}>Congratulations on your decision to become an Victoria University student. Let us show you what you need to know to succeed.
                     </p>
@@ -72,9 +72,9 @@ class CurrentStudents extends Component{
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Overview for new students</span></span>
                         </Link>
                     </p>
-                    <p><Link className="logo-2" style={{color: '#0077b5'}} onclick={this.toVclass}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+                    <p><a href="https://vclass.ac/login" className="logo-2" style={{color: '#0077b5'}} target="_blank" rel="noreferrer" onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
                         <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">myVU Student Portal</span></span>
-                        </Link>
+                        </a>
                     </p>
                 </div>
             </div>

@@ -27,7 +27,7 @@ class BannerHome extends Component{
 						<div className="container">
 						</div>
 					</div> */}
-					<video src="assets/media/home_wel2.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video><p class="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '42.5%'}}><button class="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p>
+					<video src="assets/media/home_wel2.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video><p class="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '45%'}}><button class="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p>
 				</div>
 				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
