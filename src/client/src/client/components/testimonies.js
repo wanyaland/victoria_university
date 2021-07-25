@@ -27,7 +27,7 @@ class Testimonies extends Component{
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span class="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
 							</div>
