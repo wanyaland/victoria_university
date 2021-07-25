@@ -68,7 +68,7 @@ class Apply extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px'}}>How to Apply and Register</h6>
                     <br/>
                     <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p>
-                    <p className="my-4" style={{fontSize: '22px'}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
+                    <p className="my-4" style={{fontSize: '20px'}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
                     <p className="mb-4"></p>
                     <br/>
                 </div>
@@ -214,7 +214,7 @@ class Apply extends Component{
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <p className="hny-title" style={{fontSize: '34px', color: '#0077b5', fontWeight: '500'}}>Apply to become an <b>VU undergraduate student</b></p>
-                    <p className="my-4" style={{fontSize: '22px'}}>We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate, or just take some courses as a non-program student - it’s up to you. If you change your mind later, you won’t have to pay another application fee. You can start registering for courses as soon as you finish your application.</p>
+                    <p className="my-4" style={{fontSize: '18px'}}>We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate, or just take some courses as a non-program student - it’s up to you. If you change your mind later, you won’t have to pay another application fee. You can start registering for courses as soon as you finish your application.</p>
                     <p className="mb-4" style={{fontWeight: '700'}}>No matter what route you choose, you’ll start with our online application system.</p>
                     <br/>
                 </div>

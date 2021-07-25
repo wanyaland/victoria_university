@@ -11,7 +11,7 @@ class BreadNavBar extends Component {
 						<div className="container-fluid">
 					<div className="row">
 						<ul className="social-top col-md-7 padded">
-							<li className="fonted"><a href="home">COVID-19: Important information for VU Learners and Team Members.</a></li>
+							<li className="fonted"><span className="fa fa-exclamation-circle" style={{color: '#FFF'}}></span>&nbsp;&nbsp;<Link to="/covid-notice"><span className="underline underlined">COVID-19: Important information for VU Learners and Team Members.</span></Link></li>
 						</ul>
 						<ul className="accounts col-md-5">
 						</ul>
