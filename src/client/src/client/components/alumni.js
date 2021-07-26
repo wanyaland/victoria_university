@@ -81,58 +81,94 @@ class Alumni extends Component {
 		</div>
 	</div>
 </section>
-<section className="w3l-specification-6" id="credit">
-	<div className="specification-content py-5">
-		<div className="container py-lg-5">
-			<h3 className="hny-title text-center"><i>Alumni Testimonies</i></h3>
-			<div className="mission-grids-info row">
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Marlie Keishamaza</p>
-					<p className="my-2">Social Media Influencer and Entrepreneur</p>
-					<p className="my-2">Diploma in Journalism and Media Studies, Class of 2019</p>
+<section className="w3l-specification-6">
+	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
+		<h3 className="hny-title text-center"><i>Alumni Testimonies</i></h3>
+		<div className="container" style={{maxWidth: '80%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
+			<div class="testimonial_slides">
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+					</div>
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+						<p className="inside-text">
+							<span className="fa fa-quote-left quotes"></span>
+							<br/><b>
+							<span style={{color: '#FFF'}}>Marlie Keishamaza</span>&#44;&nbsp;<br/>
+							<span style={{color: '#FFF'}}>Social Media Influencer and Entrepreneur</span><br/>
+							<span style={{color: '#FFF'}}>Diploma in Journalism and Media Studies, Class of 2019</span></b>
+							<br/>
+							Victoria University gave me a platform to practice my passions and exercise my gifts. I had several opportunities to emcee events and speak to different people, which is what I love to do. My public speaking career kicked off at Victoria University with the support of many friends I met at VU, many of whom have become family to me. Vu provided me with countless opportunities to nurture my skill and talent.  I am grateful for the time  spent at VU and would highly encourage it if you are looking for a place that will hone your talents outside of a classroom environment<br/>
+						</p>
+					</div>
 				</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-						<p>Victoria University gave me a platform to practice my passions and exercise my gifts. I had several opportunities to emcee events and speak to different people, which is what I love to do. My public speaking career kicked off at Victoria University with the support of many friends I met at VU, many of whom have become family to me. Vu provided me with countless opportunities to nurture my skill and talent.  I am grateful for the time  spent at VU and would highly encourage it if you are looking for a place that will hone your talents outside of a classroom environment</p>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+						<span class="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+					</div>
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
+							<span className="fa fa-quote-left quotes"></span>
+							<br/><b>
+							<span style={{color: '#FFF'}}>Sempa Aron Kitratius</span>&#44;&nbsp;<br/>
+							<span style={{color: '#FFF'}}>Lecture Assistant at Victoria University</span><br/>
+							<span style={{color: '#FFF'}}>Bachelor of Science in Public Health, Class of 2019</span></b>
+							<br/>
+							Victoria University is a place which gives you the opportunity to not only learn theory but also nurtures non-classroom related skills such as presentations to audiences and report writing to mention but a few. For those looking to enter the field of public health, the faculty has a policy that three internships must be completed as one of the requirements to graduate, giving the students an opportunity to practice what they learnt in class.<br/>
+						</p>
+					</div>
 				</div>
-				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p>Victoria University is a place which gives you the opportunity to not only learn theory but also nurtures non-classroom related skills such as presentations to audiences and report writing to mention but a few. For those looking to enter the field of public health, the faculty has a policy that three internships must be completed as one of the requirements to graduate, giving the students an opportunity to practice what they learnt in class.</p>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+					</div>
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+						<p className="inside-text">
+							<span className="fa fa-quote-left quotes"></span>
+							<br/><b>
+							<span style={{color: '#FFF'}}>Mariah Peggy Nabunya</span>&#44;&nbsp;<br/>
+							<span style={{color: '#FFF'}}>Bachelor of Science in Public Health, Class of 2019</span><br/>
+							<span style={{color: '#FFF'}}>Diploma in Journalism and Media Studies, Class of 2019</span>
+							<span style={{color: '#FFF'}}>Guild President, 2017 – 2019</span></b>
+							<br/>
+							At Victoria University, learning is student centered, diverse and very practical. The university has an open door policy which enables students to easily access their lecturers, deans and the whole administration at large. During my time at the university, I always felt valued because my concerns were always addressed and my learning needs catered for. Victoria University greatly supports its students who are juggling entrepreneurship and education. It encourages its students to be creative and business-minded.<br/>
+						</p>
+					</div>
 				</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Sempa Aron Kitratius</p>
-					<p className="my-2">Lecture Assistant at Victoria University</p>
-					<p className="my-2">Bachelor of Science in Public Health, Class of 2019</p>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+						<span class="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+					</div>
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
+							<span className="fa fa-quote-left quotes"></span>
+							<br/><b>
+							<span style={{color: '#FFF'}}>Fred Poggo</span>&#44;&nbsp;<br/>
+							<span style={{color: '#FFF'}}>Alumni President</span><br/>
+							<span style={{color: '#FFF'}}>Bachelor of Business Administration, Class of 2017</span></b>
+							<br/>
+							I graduated with a Bachelor of Business Administration. Studying this course at VU exposed me to an opportunity to work with Vivo Energy, Africa’s Giant oil and Gas Company, both as an intern and later as an employee. I would recommend any student to join this prestigious university, since learning at Victoria University is not just about education but exposure to opportunities. Join us and let us connect via #ProudVUAlumni.<br/>
+						</p>
+					</div>
 				</div>
-				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Mariah Peggy Nabunya</p>
-					<p className="my-2">Bachelor of Science in Public Health, Class of 2019</p>
-					<p className="my-2">Diploma in Journalism and Media Studies, Class of 2019</p>
-					<p className="my-2">Guild President, 2017 – 2019</p>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+					</div>
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+						<p className="inside-text">
+							<span className="fa fa-quote-left quotes"></span>
+							<br/><b>
+							<span style={{color: '#FFF'}}>Peace Monica Pimer</span>&#44;&nbsp;<br/>
+							<span style={{color: '#FFF'}}>Founder and CEO</span><br/>
+							<span style={{color: '#FFF'}}>Nile Girls Forum</span></b>
+							<br/>
+							Victoria University offers a great learning experience and at the same time allows you to explore beyond the classroom. It has a wonderful social environment that promotes ethical decisions. Not only is it very supportive of students and alumni initiatives, like Nile Girls Forum, it also prepared me for the corporate world and I have no regrets.<br/>
+						</p>
+					</div>
 				</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-						<p>At Victoria University, learning is student centered, diverse and very practical. The university has an open door policy which enables students to easily access their lecturers, deans and the whole administration at large. During my time at the university, I always felt valued because my concerns were always addressed and my learning needs catered for. Victoria University greatly supports its students who are juggling entrepreneurship and education. It encourages its students to be creative and business-minded.</p>
-				</div>
-				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p>I graduated with a Bachelor of Business Administration. Studying this course at VU exposed me to an opportunity to work with Vivo Energy, Africa’s Giant oil and Gas Company, both as an intern and later as an employee. I would recommend any student to join this prestigious university, since learning at Victoria University is not just about education but exposure to opportunities. Join us and let us connect via #ProudVUAlumni.</p>
-				</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Fred Poggo</p>
-					<p className="my-2">Alumni President</p>
-					<p className="my-2">Bachelor of Business Administration, Class of 2017</p>
-				</div>
-				<hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-					<p className="my-2" style={{fontWeight: '500', fontSize: '24px'}}>Peace Monica Pimer</p>
-					<p className="my-2">Founder and CEO</p>
-					<p className="my-2">Nile Girls Forum</p>
-				</div>
-				<div className="mission-gd-right col-lg-6 pl-lg-4">
-						<p>Victoria University offers a great learning experience and at the same time allows you to explore beyond the classroom. It has a wonderful social environment that promotes ethical decisions. Not only is it very supportive of students and alumni initiatives, like Nile Girls Forum, it also prepared me for the corporate world and I have no regrets.</p>
-				</div>
-			</div>
-        </div>
+			</div>{/*  */}
+		</div>
 	</div>
 </section>
 <br/>
