@@ -39,7 +39,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/07/13/graduate-on-time-with-victoria-universitys-technologically-enabled-e-learning/" target="_blank" rel="noreferrer">Graduate On Time With Victoria University’s Technologically Enabled E-learning</a></h6>
+							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/07/13/graduate-on-time-with-victoria-universitys-technologically-enabled-e-learning/" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Graduate On Time With Victoria University’s Technologically Enabled E-learning</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> July 13, 2021</span>
@@ -52,7 +52,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/06/28/victoria-university-success-formula-initiative-to-equip-students-with-employable-skills/" target="_blank" rel="noreferrer">‘VU SUCCESS FORMULA’: An Initiative by Victoria University to equip students with employable skills</a></h6>
+							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/06/28/victoria-university-success-formula-initiative-to-equip-students-with-employable-skills/" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>‘VU SUCCESS FORMULA’: An Initiative by Victoria University to equip students with employable skills</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> June 28, 2021</span>
@@ -65,7 +65,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/06/24/victoria-university-free-data-students-to-aid-online-learning-amid-lockdown/" target="_blank" rel="noreferrer">Victoria University offers ‘Free Data’ to students to aid online learning amid lockdown</a></h6>
+							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/06/24/victoria-university-free-data-students-to-aid-online-learning-amid-lockdown/" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Victoria University offers ‘Free Data’ to students to aid online learning amid lockdown</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> June 24, 2021</span>
@@ -78,7 +78,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/05/25/victoria-university-unveils-mobile-money-option-for-students-tuition-payment/" target="_blank" rel="noreferrer">Victoria University unveils mobile money option for tuition payment</a></h6>
+							<h6><a className="course-instructor underline" href="https://dailyexpress.co.ug/2021/05/25/victoria-university-unveils-mobile-money-option-for-students-tuition-payment/" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Victoria University unveils mobile money option for tuition payment</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> May 25, 2021</span>
@@ -95,7 +95,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://www.youtube.com/watch?v=s8G1ll5JFa8" target="_blank" rel="noreferrer">Welcome to Victoria University video</a></h6>
+							<h6><a className="course-instructor underline" href="https://www.youtube.com/watch?v=s8G1ll5JFa8" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Welcome to Victoria University video</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> Oct 18, 2013</span>
@@ -108,7 +108,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://youtu.be/SM8-tfrGePE" target="_blank" rel="noreferrer">Victoria University video</a></h6>
+							<h6><a className="course-instructor underline" href="https://youtu.be/SM8-tfrGePE" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Victoria University video</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> Oct 14, 2013</span>
@@ -121,7 +121,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://www.youtube.com/watch?v=s8G1ll5JFa8" target="_blank" rel="noreferrer">Welcome to Victoria University video</a></h6>
+							<h6><a className="course-instructor underline" href="https://www.youtube.com/watch?v=s8G1ll5JFa8" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Welcome to Victoria University video</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> Oct 18, 2013</span>
@@ -134,7 +134,7 @@ class NewsHub extends Component{
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
 								<h3 className="course-title" data-gal="prettyPhoto[gallery]">Victoria University</h3>
 							</Link> */}
-							<h6><a className="course-instructor underline" href="https://youtu.be/SM8-tfrGePE" target="_blank" rel="noreferrer">Victoria University video</a></h6>
+							<h6><a className="course-instructor underline" href="https://youtu.be/SM8-tfrGePE" target="_blank" rel="noreferrer" style={{fontSize: '14.5px'}}>Victoria University video</a></h6>
 						</div>
 						<div className="course-divider">
 							<div className="course-meta"><span className="course-students" title=""><span className="fa fa-clock-o" aria-hidden="true"></span> Oct 14, 2013</span>

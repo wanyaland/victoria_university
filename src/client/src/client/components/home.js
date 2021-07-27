@@ -139,7 +139,7 @@ class Home extends Component{
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center">Online Education</h6>
 						<span className="dot orange"></span>
-						<p><Link to="/vclass">Visit Vclass</Link></p>
+						<p><Link to="/vclass">Visit VClass</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>

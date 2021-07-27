@@ -53,6 +53,7 @@ import Library from './client/components/library';
 import CovidNotice from './client/components/covid-notice';
 import ExecTeam from './client/components/executive-team';
 import Gallery from './client/components/gallery';
+import WilLand from './client/components/wil-landing';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -115,6 +116,7 @@ const App = () => (
         <Route exact path="/covid-notice" component={CovidNotice} />
         <Route exact path="/executive-team" component={ExecTeam} />
         <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/wil-landing" component={WilLand} />
       </Switch>
     </Router>
 

@@ -41,7 +41,7 @@ class Wil extends Component{
 				</div>
 				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF'}}>
 					<div className="search_results">
-						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL works</b></h6>
+						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>About WIL</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
 						<br/><br/>
 						<p className="my-4" style={{fontSize: '30px'}}><b>Facts you need to know about Victoria University</b></p>
