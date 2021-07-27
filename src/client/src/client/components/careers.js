@@ -43,35 +43,27 @@ componentDidMount(){
                 </div>
             </div>
         </section>
-        <section className="w3l-apply-6">
-            <div className="apply-info py-5">
-                <div className="container py-lg-5">
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div className="">
-                            <h4 className="text-left" style={{textTransform: 'capitalize'}}>Career opportunities</h4>
-                    </div>
-                    <div style={{width:'10%', border:'#f04545 2px solid', display: 'subgrid'}} className="text-left"></div>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <div className="apply-grids-info">
-                        <div className="mt-lg-5 mt-4 justify-content-center">
-                            <div className="appyl-sub-icon-info text-center">
-                                <div style={{border: '#FFF 2px solid', height: '40px', width: '2%', margin: '0 auto', borderRadius: '40%'}}></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="w3l-apply-6">
+	<div class="apply-info py-5">
+		<div class="container py-lg-5">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+            <br/>
+			<div class="">
+					<h4 class="text-center" style={{textTransform: 'capitalize'}}>Career Opportunities</h4>
+			</div>
+			<br/>
+			<p class="text-center"><button class="btn_link">Apply Here</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link">Student Recruitment</button></p>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+		</div>
+	</div>
+</section>
         <br/>
         <br/>
         <section className="w3l-wecome-content-6">
@@ -136,10 +128,19 @@ componentDidMount(){
                     <div className="row grids-innf my-lg-5">
                         <div className="features-1-info col-lg-4 col-md-6">
                             <div className="features-1-info-icon text-center">
+                                <span className="fa fa-money" style={{color: '#0077b5', padding: '22px 18px', fontSize: '58px'}}></span>
+                            </div>
+                            <div className="features-1-info-info text-center">
+                                <h6 className="text-center">Commission for student recruitment</h6>
+                                <p>Commission for every successful student recruitment made</p>
+                            </div>
+                        </div>
+                        <div className="features-1-info col-lg-4 col-md-6">
+                            <div className="features-1-info-icon text-center">
                                 <span className="fa fa-stethoscope" style={{color: '#0077b5', padding: '22px 18px', fontSize: '58px'}}></span>
                             </div>
                             <div className="features-1-info-info text-center">
-                                <h6 className="text-center">Health Care Benefitsn</h6>
+                                <h6 className="text-center">Health Care Benefits</h6>
                                 <p>Coverage for dental, vision, prescription drugs, out-of-country health care coverage, counselling services.</p>
                             </div>
                         </div>
@@ -150,16 +151,6 @@ componentDidMount(){
                             <div className="features-1-info-info text-center">
                                 <h6 className="text-center">Insurance Benefits</h6>
                                 <p>Life insurance, accident insurance, long-term disability insurance.</p>
-                            </div>
-                        </div>
-                        
-                        <div className="features-1-info col-lg-4 col-md-6">
-                            <div className="features-1-info-icon text-center">
-                                <span className="fa fa-plane" style={{color: '#0077b5', padding: '22px 18px', fontSize: '58px'}}></span>
-                            </div>
-                            <div className="features-1-info-info text-center">
-                                <h6 className="text-center">Vacation</h6>
-                                <p>Paid vacation days and statutory holidays.</p>
                             </div>
                         </div>
                     </div>
@@ -190,6 +181,17 @@ componentDidMount(){
                             <div className="features-1-info-info text-center">
                                 <h6 className="text-center">Research and Study Leave</h6>
                                 <p>Paid research and study leave for academic, professional and tutor positions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row grids-innf my-lg-5">
+                        <div className="features-1-info col-lg-4 col-md-6">
+                            <div className="features-1-info-icon text-center">
+                                <span className="fa fa-plane" style={{color: '#0077b5', padding: '22px 18px', fontSize: '58px'}}></span>
+                            </div>
+                            <div className="features-1-info-info text-center">
+                                <h6 className="text-center">Vacation</h6>
+                                <p>Paid vacation days and statutory holidays.</p>
                             </div>
                         </div>
                     </div>

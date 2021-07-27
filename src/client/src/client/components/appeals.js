@@ -31,7 +31,7 @@ class Appeals extends Component{
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
 			<div className="container-fluid">
-				<div className="">
+				<div className="" style={{color: "#EEE"}}>
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;

@@ -50,6 +50,10 @@ import SupervRes from './client/components/superv-res';
 import ViewProgram from './client/components/view-program';
 import LifeVu from './client/components/life-at-vu';
 import Library from './client/components/library';
+import CovidNotice from './client/components/covid-notice';
+import ExecTeam from './client/components/executive-team';
+import Gallery from './client/components/gallery';
+import WilLand from './client/components/wil-landing';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -109,6 +113,10 @@ const App = () => (
         <Route exact path="/prog-index:facultylevel" component={ProgIndex} />
         <Route exact path="/life-at-vu" component={LifeVu} />
         <Route exact path="/library" component={Library} />
+        <Route exact path="/covid-notice" component={CovidNotice} />
+        <Route exact path="/executive-team" component={ExecTeam} />
+        <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/wil-landing" component={WilLand} />
       </Switch>
     </Router>
 

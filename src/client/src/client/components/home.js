@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import BannerHome from './bannerHome';
-import NewsHub from './newshub';
-import Events from './events';
+import NewsHub from './news-events';
+//import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
@@ -112,7 +112,7 @@ class Home extends Component{
 		<Testimonies />
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
-		<div className="new_margin">
+		<div className="">
 			<h3 className="hny-title text-center" style={{color:'#0077b5', fontSize: '40px'}}>Maximize</h3>
 			<h4 className="hny-title text-center">Take Advantage Of VU's Offerings</h4>
 			<h4>&nbsp;</h4>
@@ -139,7 +139,7 @@ class Home extends Component{
 					<div className="features-1-info-info text-center">
 						<h6 className="text-center">Online Education</h6>
 						<span className="dot orange"></span>
-						<p><Link to="/vclass">Visit Vclass</Link></p>
+						<p><Link to="/vclass">Visit VClass</Link></p>
 						<p><Link to="/about">How VU Works</Link></p>
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
@@ -188,7 +188,7 @@ class Home extends Component{
 </section>
 <hr className="text-center" style={{color:'#000', width: '90%'}}></hr>
 <NewsHub />
-<Events />
+{/* <Events /> */}
 <div className="marginize"></div>
 <div className="marginize2"></div>
 <CalculatorFees />

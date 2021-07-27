@@ -63,7 +63,7 @@ class Programs extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-wecome-content-6">
+{/* <section className="w3l-wecome-content-6">
     <br/>
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
@@ -74,7 +74,7 @@ class Programs extends Component{
 			</div>
 		</div>
 	</div>
-</section>
+</section> */}
 <br/>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
@@ -90,7 +90,7 @@ class Programs extends Component{
 							</table>
 						</div>
 						<div className="text-center"><h3 className="lohny-2"><span className="fa fa-book topprog" style={{fontSize: '80px'}}></span></h3></div>
-						<div className="appyl-sub-icon-info text-center">
+						<div className="appyl-sub-icon-info text-center" style={{padding: '10px'}}>
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
 						<Link className="logo-2" to="/about">
@@ -131,7 +131,7 @@ class Programs extends Component{
 							</table>
 						</div>
 						<div className="text-center"><h3 className="lohny-2"><span className="fa fa-book topprog" style={{fontSize: '80px'}}></span></h3></div>
-						<div className="appyl-sub-icon-info text-center">
+						<div className="appyl-sub-icon-info text-center" style={{padding: '10px'}}>
 							<p>A full-time job and life responsibilities don’t leave much time for studying – we get it. That’s why our online programs are designed to let you fit university education into your life.</p>
 						</div>
 						<Link className="logo-2" to="/about">

@@ -36,12 +36,11 @@ class History extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>History</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University is one of the leading Universities in Uganda and stands out as a center for academic excellence .It offers a fresh and intellectually stimulating environment that nurtures critical thinkers. The University was opened in 2013 and has the capacity , the facilities and determination to revitalize higher education in Uganda and in the region .We are committed to playing a leading role in bringing and developing high quality , student centered learning opportunities based on standards of excellence that are unique , innovative and difficult to match. 
+                    <p className="my-4" style={{fontSize: '18px'}}>Victoria University is one of the leading Universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers. The University was opened in 2013 and has the capacity , the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality, student centered learning opportunities based on standards of excellence that are unique, innovative and difficult to match. 
                     </p>
-                    <p className="my-4" style={{fontSize: '22px'}}>
+                    <p className="my-4" style={{fontSize: '18px'}}>
                     The University is centrally located in the heart of Kampala city and on the main public transportation routes coupled with ample parking space. Victoria University is part of the Ruparelia Group of Companies which has a strong presence in the education sector in Uganda and has under its portfolio, kampala international school of uganda, kampala parents school, Delhi Public School international.
-                    Victoria University is a cosmopolitan university , accredited by the National Council for Higher Education with a wide range of nationalities .With a reputation as the best private ,forward thinking and modern University in East Africa, Victoria University offers a vibrant and stimulating environment to further your needs , study or research a subject in greater depth , or aiming to extend your knowledge and skills in pursuit of your career ambitio
-"
+                    Victoria University is a cosmopolitan university, accredited by the National Council for Higher Education with a wide range of nationalities. With a reputation as the best private ,forward thinking and modern University in East Africa, Victoria University offers a vibrant and stimulating environment to further your needs, study or research a subject in greater depth, or aiming to extend your knowledge and skills in pursuit of your career ambition"
                     </p>
                 </div>
             </div>

@@ -8,10 +8,10 @@ class GetInfo extends Component {
 		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 			<div className="container py-lg-5">
 				<div className="row grids-innf my-lg-5" style={{border: '#CCC 1px solid'}}>
-					<div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
+					{/* <div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
 						<img src="assets/images/path1.jpg" className="img-fluid" id="fixer4"  alt="img"/>
-					</div>
-					<div className="features-1-info col-lg-9 col-md-9">
+					</div> */}
+					<div className="features-1-info col-lg-12 col-md-9">
 						<br/>
 						<div className="features-1-info-icon text-center">
 							<span className="fa fa-fax" style={{color: '#0077b5', fontSize: '90px'}}></span>

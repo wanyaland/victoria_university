@@ -72,7 +72,7 @@ class Tuition extends Component {
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container">
-			<h3 className="hny-title text-left" style={{color: 'orange'}}>Tuition and Fees</h3>
+			<h3 className="hny-title text-left" style={{color: '#f74040'}}>Tuition and Fees</h3>
 		</div>
 		<div className="container py-lg-5">
 			<div className="row grids-innf my-lg-5">
@@ -84,28 +84,28 @@ class Tuition extends Component {
 						<h6 className="text-center"><a href="#home">Online tuition and fee assesment</a></h6>
 					</div>
 				</div> */}
-				<div className="features-1-info col-lg-4 col-md-6">
+				<div className="features-1-info col-lg-4 col-md-6 fa-hover" onClick={this.popPay}>
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-credit-card" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home" onClick={this.popPay}>Fee payment</a></h6>
+						<h6 className="text-center"><a href="#home">Fee payment</a></h6>
 					</div>
 				</div>
-				<div className="features-1-info col-lg-4 col-md-6">
+				<div className="features-1-info col-lg-4 col-md-6 fa-hover" onClick={this.popCal}>
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home" onClick={this.popCal}>Calculate undergraduate course fees</a></h6>
+						<h6 className="text-center"><a href="#home">Calculate undergraduate course fees</a></h6>
 					</div>
 				</div>
-                <div className="features-1-info col-lg-4 col-md-6">
+                <div className="features-1-info col-lg-4 col-md-6 fa-hover" onClick={this.popCal}>
 					<div className="features-1-info-icon text-center">
 						<span className="fa fa-calculator" style={{color: '#0077b5', fontSize: '47px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home" onClick={this.popCal}>Calculate postgraduate course fees</a></h6>
+						<h6 className="text-center"><a href="#home">Calculate postgraduate course fees</a></h6>
 					</div>
 				</div>
 			</div>
@@ -117,7 +117,7 @@ class Tuition extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Your tuition, your career investment</h6>
+                    <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Your tuition, your career investment</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>At Victoria University we want to allow you to study at your own pace. To reflect that, all our courses are pay-as-you-go. You pay for each course only when you register for it, and our course fees include all textbooks, class materials, and access to a tutor or success centre. All course fees must be paid in full when you register.</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>The first time you take an VU course or apply to an VU program, you’ll also pay a one-time, non-refundable application fee. You won’t have to pay this fee again, no matter how many courses you take, or how long you wait between courses.</p>
@@ -131,14 +131,14 @@ class Tuition extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Online tuition and fee assessment</h6>
+                    <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Online tuition and fee assessment</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Understanding how your fees and tuition are calculated is important to make sure you stay within your budget and make informed decisions when choosing, adding or dropping courses. VU academic fees are calculated differently for undergraduate and graduate students and will also vary depending on where you live while studying, course choice and other individual circumstances.</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>Make sure to understand the details of all tuition and fees that apply to your choice of program - if in doubt, please feel free to contact Victoria University’s administrators for clarification.</p>
                     <p>
                         <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                             <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                            </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                            </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                         </a>
                     </p>
                 </div>
@@ -169,7 +169,7 @@ class Tuition extends Component {
                                         <p>
                                             <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                                                 <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                                             </a>
                                         </p>
                                     </div>
@@ -198,7 +198,7 @@ class Tuition extends Component {
                                         <p>
                                             <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                                                 <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
-                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tution and fees documentation <span className="fa fa-file-pdf-o"></span></span>
+                                                </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                                             </a>
                                         </p>
                                     </div>
@@ -217,7 +217,7 @@ class Tuition extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Tuition and Fees payment</h6>
+                    <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Tuition and Fees payment</h6>
                     <p className="my-4"> All students become liable to pay their full tuition fees from first day of term on their programme. Mode of payment. All the fees have to be deposited in the Accounts of Victoria University .Fees can be deposited in the following modes: <br/><br/>
                     </p>
                     <img src="assets/images/pay_banner.jpg" className="img-fluid" alt="Discover"/>

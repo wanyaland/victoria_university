@@ -14,7 +14,7 @@ class BottomWil extends Component {
                         <div style={{width: '35%', border:'#f04545 2px solid'}} className="text-left"></div>
 						<span>Employability and Enterprise</span>
 						<br/>
-						<span><a href="home" mailto="">admissions@vu.ac.ug /marketing@vu.ac.ug</a></span>
+						<span><a href="home" mailto="">admissions@vu.ac.ug OR marketing@vu.ac.ug</a></span>
 						<br/>
 						<span>+256 759 996 130,+256 700 300 088, +256 707 780 158</span>
 					</div>

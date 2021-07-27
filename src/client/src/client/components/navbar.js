@@ -8,8 +8,22 @@ class NavBar extends Component{
 	redirect() {
 		window.location.href = "search";
 	}
-	dropdowned(id) {
-		document.getElementById(id).classList.toggle("shower");
+	dropdowned(id, event) {
+		/* window.onclick = function(event) { */
+			//if (!event.target.matches('.dropbtned')) {
+				var dropdowns = document.getElementsByClassName("dropdown-contenter");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('shower')) {
+					openDropdown.classList.remove('shower');
+					} else{
+						document.getElementById(id).classList.toggle("shower");
+					}
+				}
+			//}
+		//}
+		
 	}
 	componentDidMount(){
 		window.onclick = function(event) {
@@ -51,13 +65,14 @@ class NavBar extends Component{
 								<div id="about" className="dropdown-contenter">
 									<Link to="/about" className="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
-									<Link to="/council" className="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
+									<Link to="/council" className="text-left" style={{color: '#888', fontWeight: '700'}}>Our Governing Team</Link>
+									<Link to="/executive-team" className="text-left" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
 									<Link to="/trustees" className="text-left" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link>
 									<Link to="/faculties" className="text-left" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link>
 									<Link to="/governing" className="text-left" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
 									<Link to="/history" className="text-left" style={{color: '#888', fontWeight: '700'}}>History</Link>
 									<Link to="/partners" className="text-left" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
-									<Link to="/staff" className="text-left" style={{color: '#888', fontWeight: '700'}}>Employee Information</Link>
+									<Link to="/staff" className="text-left" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
 								</div>
 							</li>
 							<li className="nav-item">
@@ -79,21 +94,21 @@ class NavBar extends Component{
 								</div>
 							</li>
 							<li className="nav-item">
-								<Link onClick={this.dropdowned.bind(this, "current-students")} className="dropbtned nav-link">Current Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+								<Link onClick={this.dropdowned.bind(this, "current-students")} className="dropbtned nav-link">Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="current-students" className="dropdown-contenter">
-									<Link to="/current-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>Current Students</Link>
-									<Link to="/new-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
+									<Link to="/current-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>Students</Link>
+									{/* <Link to="/new-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
 									<Link to="/course-offering" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
-									<Link to="/myvu-student-portal" className="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link>
+									<Link to="/myvu-student-portal" className="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link> */}
 									{/* <Link to="/course-procedures" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course proceduress</Link> */}
-									<Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link>
+									{/* <Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link> */}
 									<Link to="/exams" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
-									<Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
-									<Link to="/appeals" className="text-left" style={{color: '#888', fontWeight: '700'}}>Appeals</Link>
+									{/* <Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
+									<Link to="/appeals" className="text-left" style={{color: '#888', fontWeight: '700'}}>Appeals</Link> */}
 								</div>
 							</li>
 							<li className="nav-item">
-								<Link to="/wil" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
+								<Link to="/wil-landing" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to="/research">Research</Link>
@@ -101,9 +116,9 @@ class NavBar extends Component{
 						</ul>
 					</div>
 					<div className="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center'}}>
-						<a className="navbar-brand" href="home">
+						<a className="navbar-brand" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
 							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style={{height: '55px'}} />
-						</a> 
+						</a>
 						<a href="contact" className="nav-link">
 							<span className="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>

@@ -35,23 +35,44 @@ jobs:
     machine: true
     steps:
       - checkout
+      - *setup_env
+      - run:
+          name: build
+          command: |
+            cd src/app
+            docker login -u $DOCKER_USER -p $DOCKER_PASS
+            docker pull wanyaland/vu_api:latest || true
+            docker build --cache-from  wanyaland/vu_api:latest \
+            --tag wanyaland/vu_api:latest --file ./Dockerfile .
+            docker push wanyaland/vu_api:latest
+  
+  test-dev:
+    docker:
+      - image: wanyaland/vu_api:latest
+    steps:
+      - checkout
+      - *setup_env
+      - run:
+          name: test
+          command: |
+            cd src/app
+            pytest -p no:warnings --cov=.
+            flake8 .
+            black --check -l 127 .
+            isort . --check-only
+
+            
+  deploy-dev:
+    machine: true
+    steps:
+      - checkout
+      - *setup_env
       - run:
           name: Build backend
           command: |
             docker-compose -f src/docker-compose.dev.yaml up -d --build
       - run:
-          name: Test backend
-          command: |
-            docker-compose -f src/docker-compose.dev.yaml exec api pytest -p no:warnings --cov=.
-      - run:
-          name: Lint
-          command: |
-            docker-compose -f src/docker-compose.dev.yaml exec api flake8 .
-            docker-compose -f src/docker-compose.dev.yaml exec api black -l 127 --check --exclude=migrations .
-            docker-compose -f src/docker-compose.dev.yaml exec api isort .
-
-      - run:
-          name: Deploy Dev
+          name: Deploy Heroku
           command: |
             sudo curl https://cli-assets.heroku.com/install.sh | sh
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
@@ -113,11 +134,16 @@ jobs:
             scp  -o StrictHostKeyChecking=no -r  src/docker-compose.staging.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_staging.sh
 
-
 workflows:
   build-deploy:
     jobs:
-      - build-dev:
+      - build-dev
+      - test-dev:
+          requires:
+            - build-dev
+      - deploy-dev:
+          requires:
+            - test-dev
           filters:
             branches:
               only:

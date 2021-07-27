@@ -28,7 +28,7 @@ class Council extends Component {
 					<Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ University Council</span>
+					<span style={{color: '#EEE'}}>/ Governing Council</span>
 				</div>
 			</div>
 		</div>
@@ -38,7 +38,7 @@ class Council extends Component {
 <br/>
 <section className="w3l-footer-16 text-center">
 	<div className="container">
-		<h3 className="hny-title text-left" style={{color: '#dd6018', fontSize: '50px', fontWeight: '600'}}>Our University Council</h3>
+		<h3 className="hny-title text-left" style={{color: '#dd6018', fontSize: '50px', fontWeight: '600'}}>Our Governing Council</h3>
 	</div>
 </section>
 <section className="w3l-wecome-content-6">

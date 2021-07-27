@@ -5,8 +5,13 @@ class WilNav extends Component{
     render(){
         return(
             <React.Fragment>
-                <div className="sidenavd">
+                <div className="sidenavd shadowed">
+                        
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
+                        
+                        <li className="w3-display-container" style={{borderBottom: 'none', padding: '6px 22px'}}>
+                        <h6 style={{fontSize: '24px'}}>Work Integrated Learning</h6>
+                        <div style={{width: '35%', border:'#f04545 2px solid'}} className="text-ec"></div></li>
                             <li className="w3-display-container" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/wil' style={{fontSize: '16px'}}>About WIL<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></Link></li>
                             <li className="w3-display-container" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/how-wil-works' style={{fontSize: '16px'}}>How WIL works<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></Link></li>
                             <li className="w3-display-container" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/benefits' style={{fontSize: '16px'}}>Benefits<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></Link></li>

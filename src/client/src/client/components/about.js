@@ -139,7 +139,7 @@ class AboutUs extends Component{
 	<div className="specification-content py-5">
 		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div className="mission-grids-info row" style={{display: 'flex'}}>
-				<div className="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
+				{/* <div className="mission-gd-right col-lg-4 pl-lg-4" style={{backgroundColor: '#0077b5', color: '#FFF'}}>
 					<div className="justify-content-end" style={{color: '#fff;'}}>
 						<br/>
 						<p style={{color: '#fff'}}>Serves Over 40,000 Students</p>
@@ -150,15 +150,15 @@ class AboutUs extends Component{
 						<p style={{color: '#fff'}}>The average undergraduate is 27; the average graduate student, 35.73 per cent work while they study.</p>
 						<p style={{color: '#fff'}}>Percentage of students who are women: 65% (Undergraduate) &amp; 74% (Graduate)</p>
 					</div>
-				</div>
-				<div className="mission-gd-right col-lg-8 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
-					<h3 className="hny-title">VU at a Glance</h3>
+				</div> */}
+				<div className="mission-gd-right col-lg-12 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
+					<h3 className="hny-title text-center">VU at a Glance</h3>
 					<p>
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
 					<br/>
-					<p>
-						<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+					<p className="text-center">
+						<Link className="logo-2" to="/governing" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 							<span className="lohny-2"><span id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About Victoria University</span>
 						</Link>	
 					</p>

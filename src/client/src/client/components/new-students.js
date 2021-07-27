@@ -64,7 +64,7 @@ class NewStudents extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>New Students</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Welcome to Victoria University. Your student experience at VU won’t be the same as at a traditional university, but we’ll help you through the new parts. We have lots of experience in distance education – it’s been our focus since 2011.
+                    <p className="my-4" style={{fontSize: '20px'}}>Welcome to Victoria University. Your student experience at VU won’t be the same as at a traditional university, but we’ll help you through the new parts. We have lots of experience in distance education – it’s been our focus since 2011.
                     </p>
                     <p className="my-4">
                         Once you’ve finished your application you’re an VU student and you can register for courses right away.
