@@ -26,8 +26,27 @@ class BannerHome extends Component{
 					<div className="carousel-item item4">
 						<div className="container">
 						</div>
+					</div>
+					<div className="carousel-item item4 active" style={{backgroundColor: '#FFF'}}>
+						<div className="container">
+						
+						</div>
 					</div> */}
-					<video src="assets/media/home_wel2.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video><p class="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '45%'}}><button class="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p>
+					<div>
+						<video src="assets/media/home_wel_no_txt.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video>
+						<div class="carousel-caption">
+							<h1 className="main-header">EXPERIENCE</h1>
+							<p className="sub-head text-center">A WORK-INTEGRATED AND EXPERIENTIAL LEARNING
+							<br/>APPROACH IN UGANDA</p>
+							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.class.ac</p>
+							<div class="v-btn-link">
+								{/* <div class="eff-4"></div> */}
+								<button class="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
+							  </div>
+							
+						</div>
+						{/* <p class="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '45%'}}><button class="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p> */}
+					</div>
 				</div>
 				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>

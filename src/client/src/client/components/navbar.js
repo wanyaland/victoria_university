@@ -108,7 +108,7 @@ class NavBar extends Component{
 								</div>
 							</li>
 							<li className="nav-item">
-								<Link to="/wil" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
+								<Link to="/wil-landing" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to="/research">Research</Link>

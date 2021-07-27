@@ -32,14 +32,14 @@ class Testimonies extends Component{
 								<span class="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
 							</div>
 							<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
-								<p className="inside-text">
+								<p className="inside-text" style={{fontSize: '12px'}}>
 									<span className="fa fa-quote-left quotes"></span>
 									<br/><b>
 									<span style={{color: '#FFF'}}>Name: NALUGYA VICTORIA</span>&#44;&nbsp;<br/>
 									<span style={{color: '#FFF'}}>Course: </span><br/>
 									<span style={{color: '#FFF'}}>Year of study: Year II (2021)</span></b>
 									<br/>
-									I have been a student at Victoria University for the last two years, and I can assure you that I have had a great experience. This is a great university. The lecturers are very reasonable and fair. The support staff is excellent. We also have a great regulatory system, which promotes creativity and acceptance in the divergence in views;<br/>
+									I have been a student at Victoria University for the last two years, and I can assure you that I have had a great experience. This is a great university. The lecturers are very reasonable and fair. The support staff is excellent. We also have a great regulatory system, which promotes creativity and acceptance in the divergence in views; for all of us to contribute to solutions daily. We have student-centered education in this university, and we just do not sit back to take notes from lectures. We also have practical or call it authentic learning; which allows us to practically try out what we study in class, daily. Why would this be impossible, when the founders of this university, as the leaders in business in this country, with a chain of companies and partnerships? Apart from academics, we are involved in sports and entertainment. We have vast access to entertainment, political, and media celebrities since some of them are our fellow students. Everyone at Victoria University is destined for a great future.
 								</p>
 							</div>
 						</div>

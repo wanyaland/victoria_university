@@ -49,6 +49,7 @@ class Faculties extends Component {
         const faculty_EduUnder = 'faculty_Eduundergraduate'
 		const faculty_EduPostg = 'faculty_EDuPostgraduate'
         /* Faculty And Level Filter -Law */
+        const faculty_LawPost = 'faculty_Lawpostgraduate'
         const faculty_LawUner = 'faculty_Lawundergraduate'
         return (
             <React.Fragment>
@@ -159,7 +160,7 @@ class Faculties extends Component {
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Institute Of Education And Social Sciences<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Faculty of Education<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -185,6 +186,7 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
+                                            <Link to={`prog-index${faculty_LawPost}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post graduate <span className="fa fa-external-link"></span></li></Link>
                                             <Link to={`prog-index${faculty_LawUner}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>

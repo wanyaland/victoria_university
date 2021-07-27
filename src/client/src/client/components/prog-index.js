@@ -90,6 +90,8 @@ class ProgIndex extends Component {
 			this.getFacEduUnder()
 		} else if(this.props.match.params.program === "faculty_EDuPostgraduate"){
 			this.getFacEduPost()
+		} else if(this.props.match.params.program === "faculty_Lawpostgraduate"){
+			this.getFacLawPost()
 		} else if(this.props.match.params.program === "faculty_Lawundergraduate"){
 			this.getFacLawUnder()
 		}
@@ -226,17 +228,24 @@ class ProgIndex extends Component {
 	}
 	/////////
 	getFacEduPost = () => {
-		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Institute Of Education And Social Sciences")
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "Faculty of Education")
 		this.setState({
 			courses: result,
-			courses_title: "Institute Of Education And Social Sciences (Post Graduate)",
+			courses_title: "Faculty of Education (Post Graduate)",
 		})
 	}
 	getFacEduUnder = () => {
-		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Institute Of Education And Social Sciences")
+		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Education")
 		this.setState({
 			courses: result,
-			courses_title: "Institute Of Education And Social Sciences (Under Graduate)",
+			courses_title: "Faculty of Education (Under Graduate)",
+		})
+	}
+	getFacLawPost = () => {
+		var result = Data.filter(course => course.level === "Post Graduate" && course.faculty === "School Of Law")
+		this.setState({
+			courses: result,
+			courses_title: "School Of Law (Post Graduate)",
 		})
 	}
 	getFacLawUnder = () => {
@@ -371,10 +380,10 @@ class ProgIndex extends Component {
 		})
 	}
 	getEdu = () => {
-		var result = Data.filter(course => course.faculty === "Institute Of Education And Social Sciences")
+		var result = Data.filter(course => course.faculty === "Faculty of Education")
 		this.setState({
 			courses: result,
-			courses_title: "Institute Of Education And Social Sciences",
+			courses_title: "Faculty of Education",
 		})
 	}
 	getLaw = () => {
@@ -432,7 +441,7 @@ class ProgIndex extends Component {
 		var progData = Data;
 		var count = 0;
 		for(var i = 0; i < progData.length; ++i){
-    	if(progData[i].faculty === "Institute Of Education And Social Sciences")
+    	if(progData[i].faculty === "Faculty of Education")
 			count++
 		}
 		this.setState({
@@ -526,7 +535,7 @@ class ProgIndex extends Component {
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getEdu}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o brown_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Institute Of Education And Social Sciences</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o brown_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Education</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
