@@ -17,7 +17,18 @@ setup_env: &setup_env
       echo SQL_PORT=$SQL_PORT >> .env
       echo DJANGO_ALLOWED_HOSTS=$ALLOWED_HOSTS >> .env
       echo TAG="0.1.$CIRCLE_BUILD_NUM" >> .env
+      echo VIRTUAL_HOST=vu.ac.ug >> .env
+      echo VIRTUAL_PORT=3000 >> .env
+      echo LETSENCRYPT_HOST=vu.ac.ug >> .env
 
+setup_env_staging: &setup_env_staging
+  run:
+    name: setup proxy-companion env
+    command: |
+      cd src/app
+      echo DEFAULT_EMAIL=wanyaland@gmail.com >> .env.staging.proxy-companion
+      echo ACME_CA_URI=https://acme-staging-v02.api.letsencrypt.org/directory >> .env.staging.proxy-companion
+      echo NGINX_PROXY_CONTAINER=nginx
 
 jobs:
   build-dev:
@@ -83,6 +94,24 @@ jobs:
             scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
             scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_project.sh
+  
+  deploy-staging:
+    machine: true
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00
+      - *setup_env
+      - run:
+          name: Deploy 
+          command: |
+            chmod +x src/deploy_staging.sh
+            scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
+            scp  -o StrictHostKeyChecking=no -r  src/app/.env.staging.proxy-companion $CIRCLECI_USER@$VU_IP:/home/circleci/app
+            scp  -o StrictHostKeyChecking=no -r  src/docker-compose.staging.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
+            ./src/deploy_staging.sh
 
 
 workflows:
@@ -99,9 +128,6 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v\d+\.\d+\.\d+$/
-            # branches:
-            #   only:
-            #     - main
       - approve-prod:
           type: approval
           requires:
@@ -111,9 +137,6 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v\d+\.\d+\.\d+$/
-            # branches:
-            #   only:
-            #     - main
       - deploy-prod:
           requires:
             - approve-prod
@@ -123,7 +146,25 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v\d+\.\d+\.\d+$/
-            # branches:
-            #   only:
-            #     - main
+      - approve-staging:
+          type: approval
+          requires:
+            - build-prod
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v\d+\.\d+\.\d+$/
+      - deploy-staging:
+          requires:
+            - approve-staging
+            - build-prod
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v\d+\.\d+\.\d+$/
+      
+
+  
           
