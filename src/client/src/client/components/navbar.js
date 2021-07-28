@@ -38,8 +38,10 @@ class NavBar extends Component{
 				}
 			}
 		}
+		
 	}
 	render(){
+		const currentURL = window.location.pathname
         return(
 	<React.Fragment>
     <section className="w3l-banner-slider-main w3l-inner-page-main">
@@ -57,10 +59,10 @@ class NavBar extends Component{
 					</button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav">
-							<li className="nav-item nav-hover">
+							<li className={currentURL === "/"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="./" className="nav-link">Home</Link>
 							</li>
-							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "about")}>
+							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "nav-item nav-hover-activated" : "nav-item nav-hover"} onClick={this.dropdowned.bind(this, "about")}>
 								<Link href="#" className="dropbtned nav-link">About&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="about" className="dropdown-contenter">
 									<Link to="/about" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
@@ -75,10 +77,10 @@ class NavBar extends Component{
 									<Link to="/staff" className="text-left" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
 								</div>
 							</li>
-							<li className="nav-item nav-hover">
+							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/programs" className="nav-link">Programmes</Link>
 							</li>
-							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "admissions")}>
+							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "nav-item nav-hover-activated" : "nav-item nav-hover"} onClick={this.dropdowned.bind(this, "admissions")}>
 								<Link className="dropbtned nav-link">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="admissions" className="dropdown-contenter">
 									<Link to="/admissions" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
@@ -93,7 +95,7 @@ class NavBar extends Component{
 									<Link to="/apply-now" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</Link>
 								</div>
 							</li>
-							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "admissions2")}>
+							<li className={currentURL === "/current-students" || currentURL === "/exams"? "nav-item nav-hover-activated" : "nav-item nav-hover"} onClick={this.dropdowned.bind(this, "admissions2")}>
 								<Link className="dropbtned nav-link">Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="admissions2" className="dropdown-contenter">
 									<Link to="/current-students" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
@@ -107,10 +109,10 @@ class NavBar extends Component{
 									<Link to="/exams" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
 								</div>
 							</li>
-							<li className="nav-item nav-hover">
+							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/wil-hall-of-fame" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/wil-landing" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 							</li>
-							<li className="nav-item nav-hover">
+							<li className={currentURL === "/research" || currentURL === "/about-res" || currentURL === "/ethics-res" || currentURL === "/avail-res" || currentURL === "/academic-res" || currentURL === "/superv-res"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link className="nav-link" to="/research">Research</Link>
 							</li>
 						</ul>
@@ -119,7 +121,7 @@ class NavBar extends Component{
 						<a className="navbar-brand nav-hover" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
 							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style={{height: '55px'}} />
 						</a>
-						<a href="contact" className="nav-link nav-hover">
+						<a href="contact" className={currentURL === "/contact"? "nav-link nav-hover-activated" : "nav-link nav-hover"}>
 							<span className="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>
 						<span className="nav-link cursor bordered-link-img">

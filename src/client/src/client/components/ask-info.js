@@ -1,6 +1,30 @@
 import React, { Component } from 'react';
 
 class AskInfo extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			curTime: '0:00',
+		}
+	}
+	componentDidMount(){
+		this.getCurrentTime()
+	}
+	getCurrentTime = () => {
+        var timestamp = Date.now();
+        var d = new Date(timestamp);
+		var hours = d.getHours();
+		var minutes = d.getMinutes();
+		var ampm = hours >= 12 ? 'pm' : 'am';
+		hours = hours % 12;
+		hours = hours ? hours : 12;
+		minutes = minutes < 10 ? '0'+minutes : minutes;
+		var strTime = hours + ':' + minutes + ' ' + ampm;
+		console.log(strTime)
+		this.setState({
+			curTime: strTime,
+		})
+	}
     render(){
         return(
             <React.Fragment>
@@ -47,7 +71,7 @@ class AskInfo extends Component {
 						<div className="features-1-info col-lg-12 col-md-12" id="fixer2" style={{paddingBottom: '0 !important'}}>
 							<table style={{width: '100%', height: '100%'}}>
 								<tr>
-									<td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}>You can call us during business hours (8:30 a.m. to 4:30 p.m.). It is currently 9:28 a.m. in Kampala.</td>
+									<td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}>You can call us during business hours (8:30 a.m. to 4:30 p.m.). It is currently {this.state.curTime} in Kampala.</td>
 								</tr>
 							</table>
 						</div>

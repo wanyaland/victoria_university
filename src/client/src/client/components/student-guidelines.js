@@ -22,16 +22,7 @@ class StudentGuidelines extends Component{
 				} 
 			});
 		}
-		this.getCurrentTime()
-	}
-	getCurrentTime = () => {
-		// Creating a timestamp
-        /* var timestamp = Date.now();
-        document.write(timestamp + "<hr>"); */
-         
-        // Converting it back to human-readable date and time
-        /* var d = new Date(timestamp);
-        document.write(d.getTime()); */
+		
 	}
 		change_icon(id, id2) {
 		var element = document.getElementById(id);

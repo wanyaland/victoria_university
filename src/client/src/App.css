@@ -4005,6 +4005,9 @@ h3.hny-title.two {
     color: #fff;
     z-index: 1;
 }
+.nav-hover-activated{
+    border-bottom: #f74040 3px solid;
+}
 .nav-hover{
     border-bottom: transparent 3px solid;
 }
