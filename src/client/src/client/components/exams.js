@@ -69,8 +69,8 @@ class Exams extends Component{
                     <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
 							<tr>
-								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#975110'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
-								<td className="text-left" style={{backgroundColor: '#d37217', textAlign: 'center', color: '#FFF', padding: '20px'}}>Due to Covid-19, Victoria University exam locations are closed and only ONLINE exams are being issued. Students must confirm that an invigilation centre is open before booking an exam. Please refer to the QA covid page for any updates and current steps for booking an online exam.</td>
+								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#df2929'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
+								<td className="text-left" style={{backgroundColor: '#dd4949', textAlign: 'center', color: '#FFF', padding: '20px'}}>Due to Covid-19, Victoria University exam locations are closed and only ONLINE exams are being issued. Students must confirm that an invigilation centre is open before booking an exam. Please refer to the QA covid page for any updates and current steps for booking an online exam.</td>
 							</tr>
 						</table>
 					</div>

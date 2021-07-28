@@ -459,8 +459,8 @@ class ProgIndex extends Component {
 			law_count: count
 		})
 	}
-	toVclass = () => {
-        window.location.href = "https://vclass.ac/"
+	toAbout = () => {
+        window.location.href = "about"
     }
     render(){
 		
@@ -564,7 +564,7 @@ class ProgIndex extends Component {
                         <div class="input-container">
 							<i class="fa fa-search icon"></i>
 							<input class="input-field" type="text" placeholder="Search for programs by name or keywords" name="usrnm"/>
-							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f87a21'}}>Search</button>
+							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f54848'}}>Search</button>
 						</div>
                         <br/>
                     </div>
@@ -572,13 +572,13 @@ class ProgIndex extends Component {
 						<div className="ab-content-6-mian py-5">
 							<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 								<div className="welcome-grids row">
-									<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: 'orange 5px solid', padding: '0'}}>
+									<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: '#ee5f5f 5px solid', padding: '0'}}>
 										<table style={{width: '100%', height: '100%'}}>
 											<tr>
 												<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
 													<h4>Thinking about studying with us?</h4>
 													<p className="my-5" style={{color: '#FFF'}}>We've compiled the most important things you need to know about Victoria University into this handy viewbook. Learn about everything from the Benefits of studying online to convocating from an online university.</p>
-													<p className="my-4"><button className="btn_link2" onClick={this.toVclass}>Click Here to Access</button></p>
+													<p className="my-4"><button className="btn_link2" onClick={this.toAbout}>Click Here to Access</button></p>
 												</td>
 											</tr>
 										</table>
