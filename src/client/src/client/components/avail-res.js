@@ -64,7 +64,7 @@ class AvailRes extends Component {
 				<ResNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Available Research Opportunities and Options</h6>
+						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Available Research Opportunities and Options</h6>
 						<br/>
 						<p className="my-4">There are abundant research opportunities for all kinds of disciplines at Victoria University. Within Business, Education, Humanities and Social Sciences, interested researchers are expected to be more independent on the design and direction of the overall project, then conduct it under the supervision of a faculty-member.</p>
                         <p className="my-4">In the sciences-Health and Information Technology, the research journey is divided and distributed among a group of researchers who work collaboratively.  All these can be done in tandem with the Work Integrated Learning (WIL) Program which greatly enhances the quality of studies and investigations performed.</p>

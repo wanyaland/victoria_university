@@ -62,7 +62,7 @@ class Governing extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Governance</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Governance</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '20px'}}>Victoria University has a principle of good governance  structure through which the academic and administrative affairs of University are Conducted .The governance of the University shall be vested in the Board of Directors, University Chancellor, University Council, University Senate,University Top Management.</p>
                     <p>

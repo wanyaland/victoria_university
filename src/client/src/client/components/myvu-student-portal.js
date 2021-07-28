@@ -65,7 +65,7 @@ class Myvustudentportal extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>myVU & Student Record</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>myVU & Student Record</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '22px'}}>Victoria University’s student portal is named  myVU. This is where you will access all of your course sites, and where you will manage your courses, your program and your Student Record.
                     </p>

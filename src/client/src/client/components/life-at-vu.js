@@ -31,7 +31,7 @@ class LifeVu extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Life At VU</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Life At VU</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '18px'}}>With a truly national and increasingly international student body, Victoria University is a distinctive place to study. The diversity of backgrounds and mindsets of our students fosters an environment in which everyone, as well as everyone’s opinions, are both welcomed and nurtured. A fulfilling student social life is considered an essential part of the University experience. One of the best ways to build student social circles is to participate in the many on-campus activities. Our students have a variety of co-curricular activities they can engage in including Football, Netball, Basketball, Volleyball and Woodball. The Students’ Lounge, furnished with a video games console, pool table and table tennis is quite popular with students.</p>
                     

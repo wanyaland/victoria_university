@@ -61,7 +61,7 @@ class Research extends Component {
 				<ResNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Overview</h6>
+						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Overview</h6>
 						<br/>
 						<p className="my-4">Victoria University education and training is a pathway to success for our students, partners and other stakeholders. Our partnership with industry is a rich platform offering invaluable insights on the breadth of research areas ingrained across the faculties of Business and Management, Humanities and Social Sciences, Education, Science and Technology as well as Health Sciences.</p>
 						<p className="mb-4">Our research tackles a range of program areas, societal disciplines, a variety of subject areas across multiple specialties that are global and local in nature. Our research scholars are determined to push the boundaries interrogating the way people think and behave, while challenging conventions. To unlock leading edge research from Victoria University, browse the VU site to find research supervision opportunities, projects, student research and relevant publications.</p>

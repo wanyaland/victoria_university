@@ -34,7 +34,7 @@ class History extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>History</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>History</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '18px'}}>Victoria University is one of the leading Universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers. The University was opened in 2013 and has the capacity , the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality, student centered learning opportunities based on standards of excellence that are unique, innovative and difficult to match. 
                     </p>

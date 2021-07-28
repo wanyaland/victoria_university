@@ -62,7 +62,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>What's Your Student Profile?</h6>
+						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>What's Your Student Profile?</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '24px'}}>Are you ready to become an Victoria University student?</p>
 						<p className="mb-4">The application process at Victoria University varies depending on what level you wish to study (undergraduate or graduate), where you live, and if you want to take a full program or specific courses. To ensure that you follow the right application process, it is important to understand what type of student you are before getting started. Browse through all our student type options below to find your path!</p>

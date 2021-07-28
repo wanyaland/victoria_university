@@ -45,7 +45,7 @@ class Search extends Component {
 				</div>
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                        <h6 className="hny-title" style={{fontSize: '48px', color: 'orange'}}>Website Search</h6>
+                        <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040'}}>Website Search</h6>
                         <br/>
                         <form action="#" method="post" className="d-flex searchhny-form" style={{border: '#999 1px solid', paddingLeft: '10px'}}>
                             <input type="search" placeholder="Start Your Search" style={{color: '#000', width: '100%', border: 'none'}} required="required" />

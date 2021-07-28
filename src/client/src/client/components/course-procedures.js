@@ -61,7 +61,7 @@ class CourseProcedures extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Course Procedures</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Course Procedures</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '28px'}}>
                         Following the correct process and timelines for registering in, withdrawing from and extending your courses will help keep your VUexperience running smoothly.

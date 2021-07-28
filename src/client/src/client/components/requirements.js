@@ -66,7 +66,7 @@ class Requirements extends Component{
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Admission Requirements</h6>
+						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Admission Requirements</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '22px'}}>We believe in education and learning opportunities for everyone. That’s why Victoria University programs are made to work for our students regardless of level of experience, previous grades or degrees. It’s our priority to ensure that our post-secondary online education is accessible and flexible, so our admission policy accepts undergraduate students to a program as long as they pass the minimum age restriction of 16 years of age.</p>
 						<p className="mb-4" style={{fontSize: '18px'}}>From arts, to business, to tech, to nursing and many more:  are available to our students even without being enrolled in an VU undergraduate or graduate program. All of Victoria University’s minimum requirements listed here apply to both  Ugandan and international candidates.</p>
