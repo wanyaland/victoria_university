@@ -38,7 +38,7 @@ class Gallery extends Component{
 		<div className="container pt-lg-5 pb-lg-4">
 			<div className="row title-content">
 				<div className="col-lg-4 title-left">
-				<h6 className="hny-title" style={{fontSize: '46px', color: 'orange', fontWeight: '600'}}>Gallery</h6>
+				<h6 className="hny-title" style={{fontSize: '46px',  color: '#f74040', fontWeight: '600'}}>Gallery</h6>
 				</div>
 			</div>
 			<br />

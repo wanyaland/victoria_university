@@ -64,7 +64,7 @@ class Exams extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Exams</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Exams</h6>
                     <br/>
                     <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
@@ -112,7 +112,7 @@ class Exams extends Component{
                         You need your student ID number and password to access myVU.
                     </p>
                     <p><Link className="logo-2" onclick={this.toVclass} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to  myVU</span>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to  myVU</span>
                         </span>
                         </Link>
                     </p>
@@ -262,7 +262,7 @@ class Exams extends Component{
                     <p className="mb-4">VU has established a Uganda-wide examination invigilation network <span className="fa fa-external-link"></span> to help students write their exams. If you live within 100 km of an approved VUexamination centre, you must write your exam at one of the centres.</p>
                     <p className="my-4">If you live outside of Uganda, contact examunit@vu.ac.ug for help finding an invigilator in your area.</p>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                        <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Find an invigilator</span></span>
+                        <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Find an invigilator</span></span>
                         </Link>
                     </p>
                     <h6 className="hny-title" style={{fontSize: '30px', color: '#0077b5'}}>I can’t find an invigilator in my area</h6>
@@ -293,7 +293,7 @@ class Exams extends Component{
                                             It’s normal to be nervous before an exam. Learn how to identify and reduce the anxiety you may be feeling.
                                         </p>
                                         <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-                                            <span className="lohny-2"><span  id="iconner5" className="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">Mastering exam anxiety</span>
+                                            <span className="lohny-2"><span  id="iconner5" className="fa fa-external-link programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Mastering exam anxiety</span>
                                             </span>
                                             </Link>
                                         </p>
@@ -308,7 +308,7 @@ class Exams extends Component{
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">Learn more about VU’s services and resources in our New Student Orientation <span className="fa fa-external-link"></span>.</p>
                                         <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-external-link programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">View orientation</span>
+                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-external-link programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">View orientation</span>
                                             </span>
                                             </Link>
                                         </p>

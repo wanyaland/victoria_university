@@ -62,7 +62,7 @@ class TransferCredit extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Transfer Credit</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Transfer Credit</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '22px'}}>This serves as the basis for exemption and credit transfers for all students who qualify for exemption and transfer of credits.
                     </p>
@@ -125,7 +125,7 @@ class TransferCredit extends Component{
                     <p className="mb-4" style={{fontSize: '18px'}}>We have lots of options to help you get credit for your previous post-secondary experience, including individual course assessment, block transfer, post-diploma, or second degrees. First, you should check if your previous education is within the right time limits to be considered <span className="fa fa-external-link"></span> for transfer credits. After that, our transfer credit assessment tool can give you an idea of how your previous courses might transfer even if you did not complete a diploma or degree.</p>
                     <p>
                         <Link className="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                            <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
+                            <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;
                             </span><span className="underline">Assess my transfer credits</span>
                         </Link>
                     </p>
@@ -229,7 +229,7 @@ class TransferCredit extends Component{
                                         <p className="my-4"><span className="fa fa-clock-o"></span> Apply anytime – no deadline!</p>
                                         <p className="my-4">You can apply to VU anytime without a deadline. All undergraduate programs enrol students year round. Just keep in mind that after your program application gets approved you will still need to register for courses to get started.</p>
                                         <p><Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF',}}></span>&nbsp;
+                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;
                                             </span><span className="underline">Learn more about undergraduate applications</span>
                                             </Link>
                                         </p>
@@ -251,7 +251,7 @@ class TransferCredit extends Component{
                                         </table>
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p><Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-                                            <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;
+                                            <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;
                                             </span><span className="underline">Learn how to register for courses</span>
                                             </Link>
                                         </p>
@@ -273,7 +273,7 @@ class TransferCredit extends Component{
                                         </table>
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p><Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Learn how to register for courses</span>
+                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Learn how to register for courses</span>
                                             </Link>
                                         </p>
                                     </div>
@@ -295,7 +295,7 @@ class TransferCredit extends Component{
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p>
                                         <Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-                                            <span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;
+                                            <span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;
                                             </span><span className="underline">Learn how to register for courses</span>
                                             </Link>
                                         </p>
@@ -328,7 +328,7 @@ class TransferCredit extends Component{
                     <p className="my-4">To get the most benefit out of your past experience an assigned mentor will provide essential guidance throughout the development of your PLAR portfolio.</p>
                     <p className="my-4">You want to know if PLAR is an option for you? Please make sure to carefully read through all assessment details:</p>
                     <p><Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-                        <span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00',}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">How does PLAR work?</span>
+                        <span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#f74040',}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">How does PLAR work?</span>
                         </Link>
                     </p>
                 </div>
@@ -365,7 +365,7 @@ class TransferCredit extends Component{
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Most undergraduate courses above the 100 (preparatory) level have a challenge for credit option. There are, however, some specific circumstances where you can’t challenge an undergraduate course for credit, even if that option is normally available. To find out if a particular course offers challenge for credit, please see the information box at the top of the course page.</p>
                     <p><Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-                        <span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View challenge for credit exceptions</span>
+                        <span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;View challenge for credit exceptions</span>
                         </Link>
                     </p>
                     <p className="my-4">Good to know:</p>
@@ -379,7 +379,7 @@ class TransferCredit extends Component{
                     </p>
                     <p className="my-4">Got more questions about how to challenge a course? Find more information in our Undergraduate Calendar <span className="fa fa-external-link"></span></p>
                     <p><Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>
-                        <span className="lohny-2"><span  id="iconner15" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner16" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Submit your challenge for credit form today</span>
+                        <span className="lohny-2"><span  id="iconner15" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner16" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;Submit your challenge for credit form today</span>
                         </Link>
                     </p>
                 </div>
@@ -397,7 +397,7 @@ class TransferCredit extends Component{
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Many  Ugandan post-secondaries have transfer agreements with Victoria University that grant credit for most of our courses. However, we can’t guarantee acceptance of your VU credit. The decision to accept transfer courses is made by the institution you’re applying to, and you should contact them with any questions or concerns.</p>
                     <p><Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner17", "iconner18")} onMouseOut={this.change_icon2.bind(this, "iconner17", "iconner18")}>
-                        <span className="lohny-2"><span  id="iconner17" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner18" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Learn more about transferring VU courses</span>
+                        <span className="lohny-2"><span  id="iconner17" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner18" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Learn more about transferring VU courses</span>
                         </Link>
                     </p>
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>Visiting students</h6>
@@ -405,7 +405,7 @@ class TransferCredit extends Component{
                     <p className="my-4">We encourage you to get a letter of permission from your school to ensure your VU credits will transfer to your program. This is for your peace of mind only – you don’t need to send us this letter.</p>
                     <p className="my-4">Once you've completed your VU course, you will also need to send an VU transcript to your school. You can do this online through myVU or by submitting a Transcript Request Form by fax or mail. <span className="fa fa-file-pdf-o"></span></p>
                     <p><Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner19", "iconner20")} onMouseOut={this.change_icon2.bind(this, "iconner19", "iconner20")}>
-                        <span className="lohny-2"><span  id="iconner19" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00',}}></span><span id="iconner20" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Apply as a visiting student</span>
+                        <span className="lohny-2"><span  id="iconner19" className="fa fa-chain programfa" style={{backgroundColor: '#f74040',}}></span><span id="iconner20" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', fontSize: '26px'}}></span>&nbsp;</span><span className="underline">Apply as a visiting student</span>
                         </Link>
                     </p>
                 </div>

@@ -253,7 +253,7 @@ class Apply extends Component{
                                         <p className="my-4">&emsp;<span>7.</span> &nbsp;For the next steps review the section Register for courses - Program students</p>
                                         <p>
                                             <Link className="logo-2" to="/apply-now" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                                                <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
+                                                <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
                                             </Link>
                                         </p>
 									</div>
@@ -274,7 +274,7 @@ class Apply extends Component{
                                         <p className="my-4">&emsp;<span>4.</span> &nbsp;You are now ready to start registering for VU Undergraduate Course as a Non-Program Student</p>
                                         <p>
                                             <Link className="logo-2" to="/student-guidelines" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                                <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply as a non-program student</span>
+                                                <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply as a non-program student</span>
                                             </Link>
                                         </p>
 									</div>
@@ -291,7 +291,7 @@ class Apply extends Component{
                                         <p>&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<b style={{fontWeight:'600'}}>Learn more about transferring credit to other institutions.</b></p>
                                         <p>
                                             <Link className="logo-2" to="/apply-now" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-                                                <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
+                                                <span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
                                             </Link>
                                         </p>
 									</div>
@@ -366,7 +366,7 @@ class Apply extends Component{
 									<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
 										<p className="my-4">Our courses are revised periodically to make sure the content stays relevant – those courses are unavailable during the revision period. Some other courses need professor approval, which can be requested during the online registration process.</p>
                                         <p><Link className="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Check the course availability</span>
+                                            <span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Check the course availability</span>
                                             </Link>
                                         </p>
 									</div>
@@ -390,7 +390,7 @@ class Apply extends Component{
                                         <p className="my-4">&emsp;<span>7.</span> &nbsp;You will receive an e-letter confirming your course registration within 2 weeks.</p>
                                         <p>
                                             <Link className="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-                                            <span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Start Now</span>
+                                            <span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Start Now</span>
                                             </Link>
                                         </p>
                                         <h6 className="hny-title" style={{color: '#043a57'}}>After you register</h6>
@@ -439,7 +439,7 @@ class Apply extends Component{
                                         <p className="my-4">Be sure to review your program’s information carefully so you can meet all the necessary requirements in time for your application deadline.</p>
                                         <p>
                                             <Link className="logo-2" to="/programs" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-                                            <span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">See all graduate programs</span>
+                                            <span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">See all graduate programs</span>
                                             </Link>
                                         </p>
                                         <p className="my-4">Specific requirements vary from program to program, but generally involve the following steps.</p>
@@ -452,7 +452,7 @@ class Apply extends Component{
                                         <p className="my-4">&emsp;<span>7.</span> &nbsp;Gather and complete other materials required by the program you are applying to. These could include a resumé, a biography, questionnaires, or letters of reference.</p>
                                         <p>
                                             <Link className="logo-2" to="/apply-now" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-                                            <span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
+                                            <span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
                                             </Link>
                                         </p>
                                         
@@ -481,7 +481,7 @@ class Apply extends Component{
                                         <p className="my-4">If you’re enrolled at another university and want to take an VU course for one of your program requirements, you also register as a non-program student. We encourage you to get a letter of permission from your school to ensure your VU credits will transfer to your program. This is for your own records – you don’t have to send it to VU.</p>
                                         <p>
                                             <Link className="logo-2" to="/apply-now" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>
-                                                <span className="lohny-2"><span  id="iconner15" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner16" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
+                                                <span className="lohny-2"><span  id="iconner15" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner16" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Apply Now</span>
                                             </Link>
                                         </p>
 									</div>

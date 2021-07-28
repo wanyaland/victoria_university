@@ -65,7 +65,7 @@ class Myvustudentportal extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>myVU & Student Record</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>myVU & Student Record</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '22px'}}>Victoria University’s student portal is named  myVU. This is where you will access all of your course sites, and where you will manage your courses, your program and your Student Record.
                     </p>
@@ -95,7 +95,7 @@ class Myvustudentportal extends Component{
                         You need your student ID number and password to access myVU.
                     </p>
                     <p><Link className="logo-2" onClick={this.toVclass} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner","iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner","iconner2")}>
-                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp; <span className="underline">Log in to  myVU</span>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp; <span className="underline">Log in to  myVU</span>
                         </span>
                         </Link>
                     </p>
@@ -137,7 +137,7 @@ class Myvustudentportal extends Component{
                                             Learn more about VU’s services and resources in our new student orientation <span className="fa fa-external-link"></span>.
                                         </p>
                                         <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">View new student orientation</span>
+                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">View new student orientation</span>
                                             </span>
                                             </Link>
                                         </p>

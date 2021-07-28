@@ -7,7 +7,7 @@ class BreadNavBar extends Component {
 <React.Fragment>
     <section className="w3l-top-header-content">
 				<div className="hny-top-menu">
-					<div className="top-hd back" style={{background:'#E35A25'}}>
+					<div className="top-hd back" style={{background:'#d63a3a'}}>
 						<div className="container-fluid">
 					<div className="row">
 						<ul className="social-top col-md-7 padded">

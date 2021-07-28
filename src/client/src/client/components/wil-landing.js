@@ -3,7 +3,6 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
-import WilNav from './wil_nav';
 import BottomWil from './bottomWil';
 import WilBanner from './wil_banner';
 
@@ -19,7 +18,7 @@ class WilLand extends Component{
                         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
                             <div className="welcome-grids row">
                                 <div className="col-lg-12 mb-lg-0 mb-5">
-                                    {/* <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Victoria University at a Glance</h6>
+                                    {/* <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Victoria University at a Glance</h6>
                                     <br/> */}
                                     <p className="my-4 text-center" style={{fontSize: '18px', width: '80%', margin: '0 auto'}}>At Victoria University we understand that good things happen when you’re outside yourcomfort zone, away from the classroom and beyond the textbooks. That’s why integrated practical experience is embedded into all of our degrees. Providing meaningful, hands-on workplace experience to enrich the theoretical learning of students and to enhance the employability of graduates is a key focus of our University.
                                     </p>
@@ -46,7 +45,7 @@ class WilLand extends Component{
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
                     <img src="assets/images/b3.jpg" className="img-fluid" alt="WIL" />
-						<p><b style={{fontWeight: '500'}}>Video:</b> Sophie, a Bachelor of Environmental Science and Management student, was awarded the Work Integrated Learning Student of the Year in the 2020 Employability Excellence Awards</p>
+						<p><b style={{fontWeight: '500'}}>Image:</b> Sophie, a Bachelor of Environmental Science and Management student, was awarded the Work Integrated Learning Student of the Year in the 2020 Employability Excellence Awards</p>
 				</div>
 			</div>
         </div>

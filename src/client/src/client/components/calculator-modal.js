@@ -34,13 +34,13 @@ class CalculatorFees extends Component {
         if(progData[program].level === "Professional Development"){
           document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> 0</p>";
           document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> 0</p>";
-          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> 0</p>";
-          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
+          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> 0 </p>";
+          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid once)</p>";
         } else {
-        document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +"</p>";
-        document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +"</p>";
-        document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +"</p>";
-        document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
+        document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +" (Paid once)</p>";
+        document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +" (Paid once)</p>";
+        document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semister per year)</p>";
+        document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semister)</p>";
         }
       } else {
         
@@ -48,12 +48,12 @@ class CalculatorFees extends Component {
           document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> 0</p>";
           document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> 0</p>";
           document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> 0</p>";
-          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +"</p>";
+          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semister)</p>";
         } else {
-          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +"</p>";
-          document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +"</p>";
-          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +"</p>";
-          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +"</p>";
+          document.getElementById("regfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +" (Paid once)</p>";
+          document.getElementById("profee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +" (Paid once)</p>";
+          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semister per year)</p>";
+          document.getElementById("fee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semister)</p>";
         }
       }
     }

@@ -50,7 +50,7 @@ class Appeals extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Appeals</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Appeals</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '28px'}}s>
 						If you feel that a grade has been improperly assigned or an academic or institutional process has not been followed, you have the right of appeal.

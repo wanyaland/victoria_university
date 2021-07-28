@@ -61,7 +61,7 @@ class CourseProcedures extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>Course Procedures</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Course Procedures</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '28px'}}>
                         Following the correct process and timelines for registering in, withdrawing from and extending your courses will help keep your VUexperience running smoothly.
@@ -80,7 +80,7 @@ class CourseProcedures extends Component {
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Undergraduate courses begin on the first of each month. You must register and pay by the 10th of the month to start your course on the 1st of the next month.</p>
                     <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">How to register for courses</span></span>
+                        <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">How to register for courses</span></span>
                         </Link>
                     </p>
                 </div>
@@ -148,7 +148,7 @@ class CourseProcedures extends Component {
                                             Learn more about VU’s services and resources in our new student orientation <span className="fa fa-external-link"></span>.
                                         </p>
                                         <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF', }}></span>&nbsp;<span className="underline">View new student orientation</span>
+                                            <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">View new student orientation</span>
                                             </span>
                                             </Link>
                                         </p>

@@ -64,7 +64,7 @@ class AboutRes extends Component {
 				<ResNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px', color: 'orange', fontWeight: '600'}}>About Research</h6>
+						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>About Research</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '22px'}}>Research is the systematic process of generating (new) knowledge about some aspect of occurrences in a society. By its iterative nature, research has a cycle involving a variety of stages:</p>
 						<p className="mb-4">
