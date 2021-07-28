@@ -38,7 +38,7 @@ class Trustees extends Component {
 <br/>
 <section className="w3l-footer-16 text-center">
 	<div className="container">
-		<h3 className="hny-title text-left" style={{color: '#dd6018', fontSize: '50px', fontWeight: '600'}}>Our Board of Trustees</h3>
+		<h3 className="hny-title text-left" style={{color: '#f74040', fontSize: '50px', fontWeight: '600'}}>Our Board of Trustees</h3>
 	</div>
 </section>
 <section className="w3l-wecome-content-6">

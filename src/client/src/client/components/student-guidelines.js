@@ -9,19 +9,29 @@ import { Link } from 'react-router-dom';
 class StudentGuidelines extends Component{
 	componentDidMount(){
 		var coll = document.getElementsByClassName("collapsible");
-	var i;
+		var i;
 	
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-		this.classList.toggle("activer");
-		var content = this.nextElementSibling;
-		if (content.style.maxHeight){
-		  content.style.maxHeight = null;
-		} else {
-		  content.style.maxHeight = content.scrollHeight + "px";
-		} 
-	  });
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("activer");
+				var content = this.nextElementSibling;
+				if (content.style.maxHeight){
+				content.style.maxHeight = null;
+				} else {
+				content.style.maxHeight = content.scrollHeight + "px";
+				} 
+			});
+		}
+		this.getCurrentTime()
 	}
+	getCurrentTime = () => {
+		// Creating a timestamp
+        /* var timestamp = Date.now();
+        document.write(timestamp + "<hr>"); */
+         
+        // Converting it back to human-readable date and time
+        /* var d = new Date(timestamp);
+        document.write(d.getTime()); */
 	}
 		change_icon(id, id2) {
 		var element = document.getElementById(id);

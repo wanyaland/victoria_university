@@ -18322,7 +18322,7 @@ display:inline-block;
     font-weight: bold;
     text-align: center;
     width: 40px;
-    background-color: #e75d1d;
+    background-color: #f74040;
   }
   
   .close_bio:hover,
@@ -18438,12 +18438,14 @@ display:inline-block;
     text-decoration: none;
     /* display:flex; */
   }
-  
-  .dropdowner a:hover {background-color: #ddd; color: #fff;}
+  .link-hover:hover{
+    background-color: #ddd; color: #fff;
+  }
+  .dropdowner a:hover {background-color: #000; color: #fff;}
   
   .shower {display: block;}
   /**/
-  .dropdownr a:hover {background-color: #ddd; color: #fff;}
+  .dropdownr a:hover {background-color: #000; color: #fff;}
   
   .showr {display: block;}
 
