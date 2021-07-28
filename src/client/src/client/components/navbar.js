@@ -8,7 +8,7 @@ class NavBar extends Component{
 	redirect() {
 		window.location.href = "search";
 	}
-	dropdowned(id, event) {
+	dropdowned(id) {
 		/* window.onclick = function(event) { */
 			//if (!event.target.matches('.dropbtned')) {
 				var dropdowns = document.getElementsByClassName("dropdown-contenter");
@@ -18,7 +18,7 @@ class NavBar extends Component{
 					if (openDropdown.classList.contains('shower')) {
 					openDropdown.classList.remove('shower');
 					} else{
-						document.getElementById(id).classList.toggle("shower");
+						document.getElementById(id).classList.add("shower");
 					}
 				}
 			//}
@@ -45,7 +45,7 @@ class NavBar extends Component{
     <section className="w3l-banner-slider-main w3l-inner-page-main">
 	<div className="breadcrumb-infhny">
 		<header className="top-headerhny" id="head_runner">
-			<nav className="navbar navbar-expand-lg navbar-light fill">
+			<nav className="navbar navbar-expand-lg navbar-light">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="home.php">
 						<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
@@ -57,11 +57,11 @@ class NavBar extends Component{
 					</button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul className="navbar-nav">
-							<li className="nav-item">
+							<li className="nav-item nav-hover">
 								<Link to="./" className="nav-link">Home</Link>
 							</li>
-							<li className="nav-item">
-								<Link href="#" onClick={this.dropdowned.bind(this, "about")} className="dropbtned nav-link">About&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "about")}>
+								<Link href="#" className="dropbtned nav-link">About&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="about" className="dropdown-contenter">
 									<Link to="/about" className="text-left" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
@@ -75,14 +75,14 @@ class NavBar extends Component{
 									<Link to="/staff" className="text-left" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
 								</div>
 							</li>
-							<li className="nav-item">
+							<li className="nav-item nav-hover">
 								<Link to="/programs" className="nav-link">Programmes</Link>
 							</li>
-							<li className="nav-item">
-								<Link onClick={this.dropdowned.bind(this, "admissions")} className="dropbtned nav-link">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "admissions")}>
+								<Link className="dropbtned nav-link">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
 								<div id="admissions" className="dropdown-contenter">
 									<Link to="/admissions" className="text-left" style={{color: '#888', fontWeight: '700'}}>Admissions</Link>
-									<Link to="/vclass" className="text-left" style={{color: '#888', fontWeight: '700'}}>Vclass</Link>
+									<Link to="/vclass" className="text-left" style={{color: '#888', fontWeight: '700'}}>VClass</Link>
 									<Link to="/student-profile" className="text-left" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
 									<Link to="/requirements" className="text-left" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 									<Link to="/student-guidelines" className="text-left" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
@@ -93,36 +93,36 @@ class NavBar extends Component{
 									<Link to="/apply-now" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</Link>
 								</div>
 							</li>
-							<li className="nav-item">
-								<Link onClick={this.dropdowned.bind(this, "current-students")} className="dropbtned nav-link">Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
-								<div id="current-students" className="dropdown-contenter">
+							<li className="nav-item nav-hover" onClick={this.dropdowned.bind(this, "admissions2")}>
+								<Link className="dropbtned nav-link">Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+								<div id="admissions2" className="dropdown-contenter">
 									<Link to="/current-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>Students</Link>
-									{/* <Link to="/new-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>New Students</Link>
-									<Link to="/course-offering" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Offerings</Link>
-									<Link to="/myvu-student-portal" className="text-left" style={{color: '#888', fontWeight: '700'}}>myVU & Student Record</Link> */}
-									{/* <Link to="/course-procedures" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course proceduress</Link> */}
-									{/* <Link to="/dates-deadlines" className="text-left" style={{color: '#888', fontWeight: '700'}}>Course Records</Link> */}
 									<Link to="/exams" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
-									{/* <Link to="/apply" className="text-left" style={{color: '#888', fontWeight: '700'}}>Transcripts & Grades</Link>
-									<Link to="/appeals" className="text-left" style={{color: '#888', fontWeight: '700'}}>Appeals</Link> */}
 								</div>
 							</li>
-							<li className="nav-item">
+							<li className="nav-item nav-hover"  onClick={this.dropdowned.bind(this, "current")} style={{display: 'none'}}>
+								<Link className="dropbtned nav-link">Students&nbsp;&nbsp;<span className="fa fa-angle-down" style={{color: '#FFF', fontSize: '14px'}}></span></Link>
+								<div id="current" className="dropdown-contenter">
+									<Link to="/current-students" className="text-left" style={{color: '#888', fontWeight: '700'}}>Students</Link>
+									<Link to="/exams" className="text-left" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
+								</div>
+							</li>
+							<li className="nav-item nav-hover">
 								<Link to="/wil-landing" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 							</li>
-							<li className="nav-item">
+							<li className="nav-item nav-hover">
 								<Link className="nav-link" to="/research">Research</Link>
 							</li>
 						</ul>
 					</div>
-					<div className="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center'}}>
-						<a className="navbar-brand" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
+					<div className="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center', padding: '2px'}}>
+						<a className="navbar-brand bordered-link-img" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
 							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style={{height: '55px'}} />
 						</a>
-						<a href="contact" className="nav-link">
+						<a href="contact" className="nav-link nav-hover">
 							<span className="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
 						</a>
-						<span className="nav-link cursor">
+						<span className="nav-link cursor bordered-link-img">
 							<span className="fa fa-search dropbtner" style={{fontSize: '1rem', color: '#FFF'}} onClick={this.search}></span>
 							<div className="dropdownr">
 								<div id="myDropdownr" className="dropdown-contentr">

@@ -79,7 +79,7 @@ class Requirements extends Component{
 		<div className="ab-content-6-mian py-5">
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
-					<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: 'orange 5px solid', padding: '0'}}>
+					<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: '#f74040 5px solid', padding: '0'}}>
 						<table style={{width: '100%', height: '100%'}}>
 							<tr>
 								<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
@@ -120,7 +120,7 @@ class Requirements extends Component{
 												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
 											</ul>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-													<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
+													<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
 												</Link>
 											</p>
 											<p className="my-4">Diploma</p>
@@ -149,12 +149,12 @@ class Requirements extends Component{
 										</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -179,7 +179,7 @@ class Requirements extends Component{
 												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
 											</ul>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
-													<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
+													<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
 												</Link>
 											</p>
 											<p className="my-4">Diploma</p>
@@ -208,12 +208,12 @@ class Requirements extends Component{
 										</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -296,7 +296,7 @@ class Requirements extends Component{
 											</p>
 											<p className="my-4">Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -488,12 +488,12 @@ class Requirements extends Component{
 											</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -526,12 +526,12 @@ class Requirements extends Component{
 											</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -577,7 +577,7 @@ class Requirements extends Component{
 										<p className="my-4">A candidate may be admitted to the second year of studies under the following conditions: <br/><br/>Admission other than to the first year of the program shall require a special resolution of the Faculty Board and permission of the Senate. The department will work out all appropriate Credit transfers, which shall not exceed 40% of the minimum diploma Credit units.  Persons holding a good diploma with at least a second class lower division, from a recognized institution can be admitted to 2nd year, with the provision that they will be required to take some Modules from the 1st year that the Faculty Board will have identified and deemed mandatory.
 										</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -627,7 +627,7 @@ class Requirements extends Component{
 										<p className="my-4" style={{fontWeight: '600'}}>Duration of the Programme</p>
 										<p className="my-4">The Diploma shall normally extend over a period of two years.</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -686,12 +686,12 @@ class Requirements extends Component{
 											</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -723,12 +723,12 @@ class Requirements extends Component{
 											</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -765,7 +765,7 @@ class Requirements extends Component{
 											<p className="my-4">The Master of Arts in Mass Communication shall extend to over a period of four semesters.
 											</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -805,7 +805,7 @@ class Requirements extends Component{
 										<p className="my-4" style={{fontWeight: '600'}}>Duration of the Programme</p>
 										<p className="my-4">The Diploma shall normally extend over a period of two years.</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -864,12 +864,12 @@ class Requirements extends Component{
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -890,12 +890,12 @@ class Requirements extends Component{
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -916,12 +916,12 @@ class Requirements extends Component{
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -942,12 +942,12 @@ class Requirements extends Component{
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -969,12 +969,12 @@ class Requirements extends Component{
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
 											<p>
 												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
 												</Link>
 											</p>
 											<p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#ff7b00'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#ff7b00', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>

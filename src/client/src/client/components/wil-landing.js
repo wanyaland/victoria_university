@@ -3,7 +3,6 @@ import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
-import WilNav from './wil_nav';
 import BottomWil from './bottomWil';
 import WilBanner from './wil_banner';
 
@@ -46,7 +45,7 @@ class WilLand extends Component{
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
                     <img src="assets/images/b3.jpg" className="img-fluid" alt="WIL" />
-						<p><b style={{fontWeight: '500'}}>Video:</b> Sophie, a Bachelor of Environmental Science and Management student, was awarded the Work Integrated Learning Student of the Year in the 2020 Employability Excellence Awards</p>
+						<p><b style={{fontWeight: '500'}}>Image:</b> Sophie, a Bachelor of Environmental Science and Management student, was awarded the Work Integrated Learning Student of the Year in the 2020 Employability Excellence Awards</p>
 				</div>
 			</div>
         </div>

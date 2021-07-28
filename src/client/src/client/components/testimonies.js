@@ -23,7 +23,7 @@ class Testimonies extends Component{
 <section className="w3l-specification-6">
 	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
 	<p><h6 className="hny-title text-center" style={{color: '#555', fontSize: '40px'}}>What Our Students Say</h6></p>
-		<div className="container" style={{maxWidth: '80%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
+		<div className="container" style={{maxWidth: '100%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
 			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active testimonial_slides">
@@ -32,7 +32,7 @@ class Testimonies extends Component{
 								<span class="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
 							</div>
 							<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
-								<p className="inside-text" style={{fontSize: '12px'}}>
+								<p className="inside-text">
 									<span className="fa fa-quote-left quotes"></span>
 									<br/><b>
 									<span style={{color: '#FFF'}}>Name: NALUGYA VICTORIA</span>&#44;&nbsp;<br/>
