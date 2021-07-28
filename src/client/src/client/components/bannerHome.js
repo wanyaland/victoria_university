@@ -38,7 +38,7 @@ class BannerHome extends Component{
 							<h1 className="main-header">EXPERIENCE</h1>
 							<p className="sub-head text-center">A WORK-INTEGRATED AND EXPERIENTIAL LEARNING
 							<br/>APPROACH IN UGANDA</p>
-							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.class.ac</p>
+							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>
 							<div class="v-btn-link">
 								{/* <div class="eff-4"></div> */}
 								<button class="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
