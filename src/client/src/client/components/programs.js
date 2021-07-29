@@ -63,18 +63,18 @@ class Programs extends Component{
 		</div>
 	</div>
 </section>
-{/* <section className="w3l-wecome-content-6">
+<section className="w3l-wecome-content-6">
     <br/>
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
 			<div className="welcome-grids row text-center justify-content-center">
 				<div className="welcome-image">
-					<h4 className="text-center">NOT SURE WHERE TO START? BROWSE ALL OUR OFFERINGS.</h4>
+					<h4 className="text-center" style={{color: '#444'}}>NOT SURE WHERE TO START? BROWSE ALL OUR PROGRAMMES.</h4>
 				</div>	
 			</div>
 		</div>
 	</div>
-</section> */}
+</section>
 <br/>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">

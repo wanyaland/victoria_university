@@ -75,7 +75,7 @@ class HowWilWorks extends Component{
                         </p>
                         <table style={{width: '100%', height: '100%'}}>
 							<tr>
-								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px', fontSize: '30px'}}><b>CONTACT US</b><br/>Get in touch if you're interested in hosting WIL</td>
+								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px', fontSize: '30px'}}><Link to="/contactwil" className="underline" style={{color: '#FFF'}}><b>CONTACT US</b></Link><br/>Get in touch if you're interested in hosting WIL</td>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#0077b5'}}><span className="fa fa-angle-right" style={{fontSize: '20px', color: '#fff'}}></span></td>
 							</tr>
 						</table>
