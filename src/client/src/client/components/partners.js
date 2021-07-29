@@ -34,10 +34,10 @@ class Partners extends Component {
 			<div className="container-fluid">
 				<div className="" style={{color: '#EEE'}}>
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
-					Victoria University 
+					Victoria University
 					</span></Link>&nbsp;/&nbsp;
                     <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
-					About Us 
+					About 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ Collaboration &amp; Partnership</span>
 				</div>

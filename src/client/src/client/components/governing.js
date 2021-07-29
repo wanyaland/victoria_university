@@ -48,7 +48,7 @@ class Governing extends Component{
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
                     <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
-					About VU 
+					About
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ Governance</span>
                 </div>
@@ -64,7 +64,7 @@ class Governing extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Governance</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '20px'}}>Victoria University has a principle of good governance  structure through which the academic and administrative affairs of University are Conducted .The governance of the University shall be vested in the Board of Directors, University Chancellor, University Council, University Senate,University Top Management.</p>
+                    <p className="my-4" style={{fontSize: '18px'}}>Victoria University has a principle of good governance  structure through which the academic and administrative affairs of University are Conducted .The governance of the University shall be vested in the Board of Directors, University Chancellor, University Council, University Senate,University Top Management.</p>
                     <p>
                         <Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Visit the Office of the University Secretariat website.</span>

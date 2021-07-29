@@ -205,7 +205,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4"  style={{fontWeight: '500', fontSize: '24px'}}>International students</p>
+						<p className="mb-4"  style={{fontWeight: '400', fontSize: '24px'}}>International students</p>
                         <p className="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Uganda to study? Many of our programs are eligible to accept students on a study permit.</p>
                         <br/>
                         <br/>

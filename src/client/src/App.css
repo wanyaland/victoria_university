@@ -4182,7 +4182,7 @@ h3.hny-title.two {
         color: #f30067;
     }
     .w3l-banner-slider-main .dropdown-menu {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -18428,7 +18428,7 @@ display:inline-block;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 190px;
+    min-width: 260px;
     height: auto;
     /* overflow: auto; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);

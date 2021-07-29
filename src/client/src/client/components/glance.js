@@ -34,8 +34,8 @@ class Glance extends Component {
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
-					Admissions 
+                    <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
+					About 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ At a Glance</span>
                 </div>
@@ -51,7 +51,7 @@ class Glance extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Victoria University at a Glance</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Victoria University provides learning for life. Through the achievements of its students, faculty and staff, VU stands out as a provider of high quality post-secondary education.
+                    <p className="my-4" style={{fontSize: '18px'}}>Victoria University provides learning for life. Through the achievements of its students, faculty and staff, VU stands out as a provider of high quality post-secondary education.
                     </p>
                 </div>
             </div>
@@ -74,7 +74,7 @@ class Glance extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>The university</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>The university</h6>
                     <br/>
                     <p className="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
                 </div>
@@ -87,7 +87,7 @@ class Glance extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Our students</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Our students</h6>
                     <br/>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -108,7 +108,7 @@ class Glance extends Component {
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Institutional learning outcomes</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Institutional learning outcomes</h6>
                     <br/>
                     <p className="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on.</p>
                 </div>
