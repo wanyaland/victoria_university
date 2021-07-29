@@ -15,12 +15,12 @@ class History extends Component {
     <div className="hny-top-menu">
         <div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
             <div className="container-fluid">
-                <div className="">
+                <div className="" style={{color: '#EEE'}}>
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
-					</span></Link>&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
-					/ Admissions 
+					</span></Link>&nbsp;/&nbsp;
+                    <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
+					About 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ History</span>
                 </div>

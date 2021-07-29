@@ -63,8 +63,8 @@ class Faculties extends Component {
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
-                    <Link to="/admissions"><span className="underline" style={{color: "#EEE"}}>
-					Admissions 
+                    <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
+					About 
 					</span></Link>&nbsp;
 					<span style={{color: '#EEE'}}>/ Academic Faculties & Centers</span>
                 </div>

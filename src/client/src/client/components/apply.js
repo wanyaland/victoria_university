@@ -68,7 +68,7 @@ class Apply extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px'}}>How to Apply and Register</h6>
                     <br/>
                     <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p>
-                    <p className="my-4" style={{fontSize: '20px'}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
+                    <p className="my-4" style={{fontSize: '18px'}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
                     <p className="mb-4"></p>
                     <br/>
                 </div>

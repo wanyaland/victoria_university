@@ -65,7 +65,7 @@ class CurrentStudents extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Students</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '22px'}}>Congratulations on your decision to become an Victoria University student. Let us show you what you need to know to succeed.
+                    <p className="my-4" style={{fontSize: '18px'}}>Congratulations on your decision to become an Victoria University student. Let us show you what you need to know to succeed.
                     </p>
                     <p>
                         <Link className="logo-2" to="/new-students" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
@@ -87,7 +87,7 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Taking courses</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Taking courses</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Find out exactly what you need to know about registering in, withdrawing from and extending a course – then learn about the exam process at VU.</p>
                     <br/>
@@ -120,7 +120,7 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Grades</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Grades</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Check your grades online and learn about requesting transcripts.
                     </p>
@@ -139,7 +139,7 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Undergraduate orientation</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Undergraduate orientation</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Our orientation offers an overview of services available to you as an VU student, and guides you through the processes needed to complete your studies.
                     </p>
@@ -158,7 +158,7 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Learner support</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Learner support</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>
                         Find out more about our range of support services, including counselling, the library, and the Write Site.
@@ -178,13 +178,13 @@ class CurrentStudents extends Component{
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px', color: '#0077b5'}}>Find Help</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Find Help</h6>
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>
                         No matter where you are in your VUexperience, we’re here to help you along the way.
                     </p>
                     <p>
-                    <Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>
+                    <Link className="logo-2" to="/contact" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner15", "iconner16")} onMouseOut={this.change_icon2.bind(this, "iconner15", "iconner16")}>
                         <span className="lohny-2"><span  id="iconner15" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner16" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Help & Support</span></span>
                         </Link>
                     </p>
