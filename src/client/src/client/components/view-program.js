@@ -52,23 +52,56 @@ class ViewProgram extends Component {
         window.location.href = "#summary";
     }
 	updateOverview = () =>{
+		var overview = document.getElementById('overview')
+		var duration = document.getElementById('duration')
+		var admission = document.getElementById('admission')
+		var tuition = document.getElementById('admission')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Programme Overview</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.full_desc+'</p>'
+		overview.classList.add('activeSummaryRed')
+		duration.classList.remove('activeSummaryBlue')
+		admission.classList.remove('activeSummaryPurple')
+		tuition.classList.remove('activeSummaryBrown')
 	}
 	updateTime = () => {
+		var overview = document.getElementById('overview')
+		var duration = document.getElementById('duration')
+		var admission = document.getElementById('admission')
+		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Completion Time</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.duration+' Years</p>'
+		overview.classList.remove('activeSummaryRed')
+		duration.classList.add('activeSummaryBlue')
+		admission.classList.remove('activeSummaryPurple')
+		tuition.classList.remove('activeSummaryBrown')
 	}
 	updateRequirements = () => {
+		var overview = document.getElementById('overview')
+		var duration = document.getElementById('duration')
+		var admission = document.getElementById('admission')
+		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Program Requirements</h6><br/><p class="my-4" style="font-size: 18px;"><a href="requirements#business" class="underline" style="color: #0077b5;" target="_blank">Click here to view course requirements under faculty <b style="font-weight: 600;">'+this.state.course_prog.faculty+'</b></a></p>'
+		overview.classList.remove('activeSummaryRed')
+		duration.classList.remove('activeSummaryBlue')
+		admission.classList.add('activeSummaryPurple')
+		tuition.classList.remove('activeSummaryBrown')
 	}
 	updateReqcourses = () => {
 		window.location.href = "requirements";
 	}
 	updateFees = () => {
+		var overview = document.getElementById('overview')
+		var duration = document.getElementById('duration')
+		var admission = document.getElementById('admission')
+		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><p class="my-4" style="font-size: 18px"><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">Local Students</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX '+this.state.course_prog.local_func_fee+'<br>Registration Fee: UGX 50,000<br>Application Fee: UGX 160,000<br><hr style="width:100%;"><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">International Students</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD '+this.state.course_prog.int_func_fee+'<br>Registration Fee: USD 16<br>Application Fee: USD 51</p>'
+		overview.classList.remove('activeSummaryRed')
+		duration.classList.remove('activeSummaryBlue')
+		admission.classList.remove('activeSummaryPurple')
+		tuition.classList.add('activeSummaryBrown')
+
 	}
     render(){
 		//const { search } = this.props.location
@@ -143,14 +176,20 @@ class ViewProgram extends Component {
 		<div class="py-lg-5" >
 			<h6 class="hny-title text-center" style={{fontSize: '28px', color: '#025886', fontWeight: '500'}}>Programme Overview</h6>
 			<br/>
-			<div class="justify-content-center container col-lg-7"  style={{display: 'flex'}}>
+			<div class="justify-content-center container col-lg-9"  style={{display: 'flex'}}>
 				<div class="col-lg-3 with_shadow" style={{border: '#888 1px solid', backgroundColor: '#EEE'}}>
 					<div class="sidenavd" style={{backgroundColor: '#EEE'}}>
-                        <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateOverview}>Overview<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateTime}>Completion time<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateRequirements}>Admission requirements<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
-                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateFees}>Tuition and fees<span onclick="this.parentElement.style.display='none'" class="w3-button w3-transparent w3-display-right"></span></li>
+                       {/*  <ul class="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
+                            <li class="w3-display-container hover-program-red" style={{borderBottom: 'none'}} onClick={this.updateOverview}>Overview</li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateTime}>Completion time</li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateRequirements}>Admission requirements</li>
+                            <li class="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateFees}>Tuition and fees</li>
+                        </ul> */}
+                        <ul class="prog-listuv" style={{boxShadow: 'none'}}>
+                            <li class="prog-listv hover-program-red activeSummaryRed" id="overview" onClick={this.updateOverview}>Overview</li>
+                            <li class="prog-listv hover-program-blue" id="duration" onClick={this.updateTime}>Completion time</li>
+                            <li class="prog-listv hover-program-purple" id="admission" onClick={this.updateRequirements}>Admission requirements</li>
+                            <li class="prog-listv hover-program-brown" id="tuition" onClick={this.updateFees}>Tuition and fees</li>
                         </ul>
                     </div>
 				</div>

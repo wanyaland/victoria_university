@@ -135,27 +135,33 @@ class ExecTeam extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-3 welcome-image" style={{padding: '0rem', borderRadius: '0rem'}}>
 					<div className="">
-						<img src="assets/images/img/james-kalebbo.jpg" className="img-fluid" alt="" />
+						<img src="assets/images/img/lawerence.JPG" className="img-fluid" alt="" />
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Mr. Kalebbo James</h6>
-					<h6 style={{color: '#0077b5'}}><i>Council Member</i></h6>
-					<p className="my-4">Mr. Kalebbo James has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
-						<br/>
-						<b>Educational Qualifications: B.A., M. Soc. Sc.</b></p>
+					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Lawrence Muganga.</h6>
+					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
+					<p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
 					<p className="mb-4"></p>
-					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
+					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 13")}>View Bio</button>
 					<br/>
 				</div>	
 			</div>
-			<div id="myModal_bio 3" className="modal_bio">
+			<div id="myModal_bio 13" className="modal_bio">
 				<div className="modal-content_bio">
-				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 3")}>&times;</span>
+				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 13")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Mr. Kalebbo James has profiled himself as a top executive manager, management practitioner, trainer and consultant with over forty years of professional experience. He headed the Uganda Management Institute for over 12 years, spearheading its transformation from the then Institute of Public Administration to Uganda Management Institute.
-					<br/>
-					<b>Educational Qualifications: B.A., M. Soc. Sc.</b></p>
+				  <p className="my-4">Dr. Lawrence Muganga doubles as the Vice Chancellor and Deputy Vice Chancellor –
+					Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
+					educator, public policy practitioner, strategy advisor, development management Specialist and
+					authentic learning enthusiast based in Edmonton, Alberta Canada. Dr. Muganga earned his MA
+					in Economic Policy Management from Makerere University and a Ph.D. in Educational
+					Administration and Leadership from the University of Alberta, Canada. Dr. Muganga holds a
+					Higher Education Teaching Certification from Harvard University, Derek Bok Center for
+					Teaching and Learning.<br/><br/>
+					Dr. Muganga has extensively researched and written about a cutting-edge educational paradigm
+					known as Authentic Learning, which, in short, means an education that prepares students for the
+					real world by equipping them with real-life skills to face now and the future.</p>
 				</div>
 			</div>
 		</div>

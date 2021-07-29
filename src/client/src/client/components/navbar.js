@@ -49,9 +49,9 @@ class NavBar extends Component{
 		<header className="top-headerhny" id="head_runner">
 			<nav className="navbar navbar-expand-lg navbar-light">
 				<div className="container-fluid">
-					<a className="navbar-brand" href="home.php">
+					<Link className="navbar-brand" to="/">
 						<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
-					</a> 
+					</Link> 
 					<button className="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">

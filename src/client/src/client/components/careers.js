@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom'
 
 
 class Careers extends Component{
-
+startHere = () => {
+    window.location.href = "#available"
+}
 componentDidMount(){
 	var coll = document.getElementsByClassName("collapsible");
 	var i;
@@ -55,7 +57,7 @@ componentDidMount(){
 					<h4 class="text-center" style={{textTransform: 'capitalize'}}>Career Opportunities</h4>
 			</div>
 			<br/>
-			<p class="text-center"><button class="btn_link">Apply Here</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link">Student Recruitment</button></p>
+			<p class="text-center"><button class="btn_link" onClick={this.startHere}>Apply Here</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link">Student Recruitment</button></p>
 			<br/>
 			<br/>
 			<br/>
@@ -70,7 +72,8 @@ componentDidMount(){
             <div className="ab-content-6-mian py-5">
                 <div className="container py-lg-5">
                     <div className="welcome-grids row">
-                        <div className="col-lg-12 welcome-image">
+                        <div className="col-lg-12 welcome-image" id="available">
+                        <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Available vacancies</h6><br/>
                             <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                                 <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
                                     <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Executive/Senior Management and Other Opportunities <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>

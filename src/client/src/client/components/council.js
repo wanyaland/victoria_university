@@ -41,7 +41,7 @@ class Council extends Component {
 		<h3 className="hny-title text-left" style={{color: '#f74040', fontSize: '50px', fontWeight: '600'}}>Our Governing Council</h3>
 	</div>
 </section>
-<section className="w3l-wecome-content-6">
+{/* <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5 bio_container">
 			<div className="welcome-grids row">
@@ -90,7 +90,7 @@ class Council extends Component {
 			</div>			  
 		</div>
 	</div>
-</section>
+</section> */}
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5 bio_container">

@@ -545,13 +545,13 @@ class ProgIndex extends Component {
 							</Link>
 						</ul>
 						<hr/>
-						<div className="" style={{height: '60px'}}>
+						{/* <div className="" style={{height: '60px'}}>
 							<table style={{width: '100%', height: '100%'}}>
 								<tr>
 								<a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}><td className="text-left underline" style={{backgroundColor: '#FFF', textAlign: 'center', paddingLeft: '10px', fontWeight: '400', fontSize: '20px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></td></a>
 								</tr>
 							</table>
-						</div>
+						</div> */}
                     </div>
 				</div>
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>

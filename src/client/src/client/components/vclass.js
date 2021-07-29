@@ -24,6 +24,9 @@ class Vclass extends Component {
     toVclass = () => {
         window.location.href = "https://vclass.ac/"
     }
+    toYouVclass = () => {
+        window.location.href = "https://www.youtube.com/watch?v=85SFXx99NmA"
+    }
 
     render() {
         return (
@@ -59,7 +62,7 @@ class Vclass extends Component {
 					<h4 class="text-center" style={{textTransform: 'capitalize'}}>VClass</h4>
 			</div>
 			<br/>
-			<p class="text-center"><button class="btn_link" onClick={this.toVclass}>Log into VClass</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link" onClick={this.toVclass}>Explore VClass</button></p>
+			<p class="text-center"><button class="btn_link" onClick={this.toVclass}>Log into VClass</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn_link" onClick={this.toYouVclass}>Explore VClass</button></p>
 			<br/>
 			<br/>
 			<br/>
