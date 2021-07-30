@@ -9,6 +9,9 @@ class CalculatorFees extends Component {
       programs: []
     }
   }
+  refreshPage() {
+    window.location.reload(false);
+  }
   dropCal() {
     var modal = document.getElementById("cal-myModal");
     modal.style.display = "none";
@@ -31,50 +34,50 @@ class CalculatorFees extends Component {
     var year = document.getElementById("year").value
     var semester = document.getElementById("semester").value
     var studSelect = document.getElementById(stud).value;
-   // var reg_status = document.getElementById('reg_status').value
+    var reg_status = document.getElementById('reg_status').value
     if(program === '' || year === '' || semester === '' || studSelect === ''){
       document.getElementById('status').innerHTML = "Please select all information";
     } else {
-      //reset.style.display = "block";
+     // reset.style.display = "block";
       res_chk.style.display = "block"
       progr.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Program:</b> "+ progData[program].program +"</p>";
       stude.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Nationality:</b> "+ studSelect +"</p>";
       if(studSelect === "Ugandan"){
         if(progData[program].level === "Professional Development"){
-          regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> 0</p>";
-          profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> 0</p>";
-          funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> 0 </p>";
+          regfee.style.display = "none";
+          profee.style.display = "none";
+          funcfee.style.display = "none";
           fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid once)</p>";
         } else {
-          if(semester === 'First'){
+          if(semester === 'First' && reg_status === 'No'){
             regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +" (Paid once)</p>";
             profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
           } else {
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> 0 (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> 0 (Paid once)</p>";
-            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> 0 (Paid in every first semester per year)</p>";
+            regfee.style.display = "none";
+            profee.style.display = "none";
+            funcfee.style.display = "none";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
           }
         }
       } else {
         
         if(progData[program].level === "Professional Development"){
-          regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> 0</p>";
-          profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> 0</p>";
-          document.getElementById("funcfee").innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> 0</p>";
+          regfee.style.display = "none";
+            profee.style.display = "none";
+            funcfee.style.display = "none";
           fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
         } else {
-          if(semester === 'First'){
+          if(semester === 'First' === "No"){
             regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +" (Paid once)</p>";
             profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
           } else{
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> 0 (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> 0 (Paid once)</p>";
-            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> 0 (Paid in every first semester per year)</p>";
+            regfee.style.display = "none";
+            profee.style.display = "none";
+            funcfee.style.display = "none";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
           }
         }
@@ -122,12 +125,12 @@ class CalculatorFees extends Component {
                   <hr />
                   {/*  */}
                   {/* <p id="reseter" style={{padding: '5px'}}>
-                    <span href="tune" className="cal-btn">Start Over</spa>&nbsp;
+                    <span href="tune" className="cal-btn" onClick={this.refreshPage}>Start Over</span>&nbsp;
                   </p> */}
                   <div  style={{padding: '5px',display: 'flex'}}>
                     <a href="#item1" className="cal-btn">Step 1: Choose Program</a>&nbsp;
-                    {/* <a href="#item2" className="cal-btn">Step 2: Student Status</a>&nbsp; */}
-                    <a href="#item2" className="cal-btn">Step 2: Nationality</a>&nbsp;
+                    <a href="#item2" className="cal-btn">Step 2: Student Status</a>&nbsp;
+                    <a href="#item3" className="cal-btn">Step 3: Nationality</a>&nbsp;
                   </div>
 
                   <div class="items">
@@ -167,27 +170,19 @@ class CalculatorFees extends Component {
                         </div>
                       </div>
                     </section>
-                    {/* <section id="item2">
+                    <section id="item2">
+                      <p className="my-1" style={{fontSize: '15px'}}>Are you a registration student</p>
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
-                          <table style={{width: '100%', height: '100%'}}>
-                            <tr>
-                              <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Are you registered?</td>
-                            </tr>
-                            <tr>
-                              <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>
-                              <select className="form_fields" id="reg_status" style={{padding: '10px'}}>
-                                <option></option>
-                                <option>Yes</option>
-                                <option>No</option>
-                              </select>
-                              </td>
-                            </tr>
-                          </table>
+                          <select className="form_fields" id="reg_status" style={{padding: '10px'}}>
+                            <option></option>
+                            <option>Yes</option>
+                            <option>No</option>
+                          </select>
                         </div>
                       </div>
-                    </section> */}
-                    <section id="item2">
+                    </section>
+                    <section id="item3">
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
                           <table style={{width: '100%', height: '100%'}}>
