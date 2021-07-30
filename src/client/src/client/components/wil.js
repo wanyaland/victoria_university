@@ -110,7 +110,7 @@ class Wil extends Component{
 						<table style={{width: '100%', height: '100%'}}>
 							<tr>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px', fontSize: '30px'}}><b>INSTERESTED IN HOSTING WIL</b>&nbsp;&nbsp;|&nbsp;&nbsp;<Link to="/contactwil" className="underline" style={{color: '#FFF'}}>Contact Us!</Link></td>
-								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#0077b5'}}><span className="fa fa-angle-right" style={{fontSize: '20px', color: '#fff'}}></span></td>
+								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#0077b5'}}><Link to="/contactwil" className="underline" style={{color: '#FFF'}}><span className="fa fa-angle-right" style={{fontSize: '20px', color: '#fff'}}></span></Link></td>
 							</tr>
 						</table>
 					</div>
