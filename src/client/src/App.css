@@ -3888,7 +3888,7 @@ h3.hny-title.two {
 
 .w3l-banner-slider-main nav.navbar {
     background-color: transparent;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .w3l-banner-slider-main a.navbar-brand {
@@ -3917,11 +3917,11 @@ h3.hny-title.two {
 }
 
 .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link {
-    padding: 0.6em 1.0em;
+    padding: 2.6em 1.5em;
     color: #fff;
     background: transparent;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -4007,12 +4007,13 @@ h3.hny-title.two {
 }
 .nav-hover-activated{
     border-bottom: #f74040 3px solid;
+    background-color: #004164;
 }
 .nav-hover{
     border-bottom: transparent 3px solid;
 }
 .nav-hover:hover{
-    border-bottom: #f74040 3px solid;
+    background-color: #004164;
 }
 .w3l-banner-slider-main nav.fill ul li a:hover:after {
     z-index: -10;
