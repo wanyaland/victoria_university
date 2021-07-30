@@ -3888,7 +3888,7 @@ h3.hny-title.two {
 
 .w3l-banner-slider-main nav.navbar {
     background-color: transparent;
-    padding: 20px 0;
+    padding: 0px 0;
 }
 
 .w3l-banner-slider-main a.navbar-brand {
@@ -3921,7 +3921,7 @@ h3.hny-title.two {
     color: #fff;
     background: transparent;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -4007,12 +4007,14 @@ h3.hny-title.two {
 }
 .nav-hover-activated{
     border-bottom: #f74040 3px solid;
+    background-color: #004164;
 }
 .nav-hover{
     border-bottom: transparent 3px solid;
 }
 .nav-hover:hover{
-    border-bottom: #f74040 3px solid;
+    background-color: #004164;
+    cursor: pointer;
 }
 .w3l-banner-slider-main nav.fill ul li a:hover:after {
     z-index: -10;
@@ -6113,6 +6115,10 @@ span.fa.fa-play {
         top: 70%;
         left: 38%;
     }
+    .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
+        padding: 2.5em 1.2em;
+    }
+    
 }
 @media screen and (max-width: 1600px) {
     .pathdots{
@@ -6434,6 +6440,9 @@ span.fa.fa-play {
         top: 73%;
         left: 38%;
     }
+    .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
+        padding: 2.5em .5em;
+    }
 }
 @media screen and (max-width: 1366px) {
     .pathdots{
@@ -6559,6 +6568,9 @@ span.fa.fa-play {
         left: 38%;
     }
     /* ///testimonies */
+    .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
+        padding: 2.5em .5em;
+    }
 }
 @media screen and (max-width: 1080px) {
     .w3l-inner-page-main h2.hny-title {
@@ -6845,6 +6857,9 @@ span.fa.fa-play {
         top: 80%;
         left: 23%;
         padding: 10px;
+    }
+    .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
+        padding: .9em 1.2em;
     }
 }
 
@@ -18382,7 +18397,7 @@ display:inline-block;
    .dropdownr {
     position: absolute;
     display: inline-block;
-    top: 97%;
+    top: 102%;
     right: 1%;
   }
   

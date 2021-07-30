@@ -29,7 +29,7 @@ class CalculatorFees extends Component {
     var intRegfee = "16";
     var locProfee = "160,000"
     var intProfee = "51"
-    //var reset = document.getElementById('reseter');
+    var reset = document.getElementById('reseter');
     var program = document.getElementById("prog_item").value;
     var year = document.getElementById("year").value
     var semester = document.getElementById("semester").value
@@ -38,7 +38,7 @@ class CalculatorFees extends Component {
     if(program === '' || year === '' || semester === '' || studSelect === ''){
       document.getElementById('status').innerHTML = "Please select all information";
     } else {
-     // reset.style.display = "block";
+      reset.style.display = "block";
       res_chk.style.display = "block"
       progr.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Program:</b> "+ progData[program].program +"</p>";
       stude.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Nationality:</b> "+ studSelect +"</p>";
@@ -124,9 +124,9 @@ class CalculatorFees extends Component {
                   
                   <hr />
                   {/*  */}
-                  {/* <p id="reseter" style={{padding: '5px'}}>
+                  <p id="reseter" style={{padding: '5px'}}>
                     <span href="tune" className="cal-btn" onClick={this.refreshPage}>Start Over</span>&nbsp;
-                  </p> */}
+                  </p>
                   <div  style={{padding: '5px',display: 'flex'}}>
                     <a href="#item1" className="cal-btn">Step 1: Choose Program</a>&nbsp;
                     <a href="#item2" className="cal-btn">Step 2: Student Status</a>&nbsp;

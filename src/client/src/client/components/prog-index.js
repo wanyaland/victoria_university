@@ -506,7 +506,6 @@ class ProgIndex extends Component {
 							</ul>
 						</div>
 						<hr/>
-						
 						<ul className="" style={{padding: '10px'}}>
 						<p className="" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;FACULTIES</p>
 							<Link onClick={this.getCourses}><li className="prog-list-course-outline" style={{width: '100%'}}>
