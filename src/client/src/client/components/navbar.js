@@ -43,7 +43,7 @@ class NavBar extends Component{
 									<Link to="/governing" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
 									<Link to="/history" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>History</Link>
 									<Link to="/partners" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
-									<Link to="/staff" className="text-left" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
+									<Link to="/staff" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
 								</ul>
 							</li>
 							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
@@ -77,15 +77,19 @@ class NavBar extends Component{
 							</li>
 						</ul>
 					</div>
-					<div className="d-flex searchhny-form" style={{display: 'flex', alignItems: 'center', padding: '0px'}}>
-						<a className="navbar-brand nav-hover" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
-							<img src="assets/images/myvu.png" alt="Victoria University" title="Victoria University" style={{height: '55px'}} />
-						</a>
-						<a href="contact" className={currentURL === "/contact"? "nav-link nav-hover-activated" : "nav-link nav-hover"}>
-							<span className="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
-						</a>
-						<span className="nav-link cursor bordered-link-img">
-							<span className="fa fa-search dropbtner" style={{fontSize: '1rem', color: '#FFF'}} onClick={this.search}></span>
+					<ul className="d-flex searchhny-form navbar-nav" style={{display: 'flex', alignItems: 'center', padding: '0px'}}>
+						<li className="">
+							<Link className="" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
+								<span><img src="assets/images/myvu.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
+							</Link>
+						</li>
+						<li className={currentURL === "/contact"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
+							<Link to="/contact" className="nav-link">
+								<span className="fa fa-comments" style={{fontSize: '.85rem', color: '#FFF'}}></span>&nbsp;&nbsp;<span style={{fontSize: '13px', color: '#FFF'}}>Help &amp; Contact</span>
+							</Link>
+						</li>
+						<span className="nav-item nav-hover">
+							<span className="fa fa-search nav-link" style={{fontSize: '15px', color: '#FFF'}} onClick={this.search}></span>
 							<div className="dropdownr">
 								<div id="myDropdownr" className="dropdown-contentr">
 									<form action="#" method="post" className="d-flex searchhny-form" style={{border: '#999 1px solid'}}>
@@ -95,7 +99,7 @@ class NavBar extends Component{
 								</div>
 							</div>
 						</span> 
-					</div>
+					</ul>
 				</div>
 			</nav>
     </header>
