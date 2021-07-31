@@ -45,16 +45,9 @@ services:
         env_file:
             - ./.env
         volumes:
-            - ./nginx/certbot/conf:/etc/letsencrypt
-            - ./nginx/certbot/www:/var/www/certbot
-    certbot:
-        image: certbot/certbot
-        restart: unless-stopped
-        volumes:
-            - ./nginx/certbot/conf:/etc/letsencrypt
-            - ./nginx/certbot/www:/var/www/certbot
-        entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
-        
+            - ./nginx/certs/vu.crt:/etc/nginx/certs/vu.crt
+            - ./nginx/certs/vu.key:/etc/nginx/certs/vu.key
+      
 volumes:
     postgres_data:
     client:
