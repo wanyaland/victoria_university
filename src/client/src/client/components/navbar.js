@@ -32,8 +32,8 @@ class NavBar extends Component{
 							<li className={currentURL === "/"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="./" className="nav-link">Home</Link>
 							</li>
-							<li class={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About&nbsp;&nbsp;<span class="fa fa-angle-down"></span></Link>
-								<ul class="dropdown-menu dropdown-contenter">
+							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/about" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
 									<Link to="/council" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Governing Team</Link>
@@ -49,8 +49,8 @@ class NavBar extends Component{
 							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/programs" className="nav-link">Programmes</Link>
 							</li>
-							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
-								<ul class="dropdown-menu dropdown-contenter">
+							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/admissions" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/vclass" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>VClass</Link>
 									<Link to="/student-profile" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
@@ -63,8 +63,8 @@ class NavBar extends Component{
 									<Link to="/apply-now" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</Link>
 								</ul>
 							</li>
-							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link class="dropdown-toggle nav-link" data-toggle="dropdown" >Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
-								<ul class="dropdown-menu dropdown-contenter">
+							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" >Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+								<ul className="dropdown-menu dropdown-contenter">
 								<Link to="/current-students" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 								<Link to="/exams" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
 								</ul>

@@ -112,9 +112,11 @@ class CalculatorFees extends Component {
               <div class="cal-content">
                 <div className="features-1-info col-lg-12 col-md-12" style={{height: '50px', width: '100%', padding: '0', marginBottom: '40px'}}>
                   <table style={{width: '100%', height: '100%'}}>
+                  
                     <tr>
                       <td className="text-left" style={{backgroundColor: '#FFF', textAlign: 'center', color: '#444', paddingLeft: '10px', fontSize: '28px', width: '90%'}}>Course Fee Calculator</td><td style={{backgroundColor: '#FFF', textAlign: 'center', paddingLeft: '10px', fontSize: '28px'}}><span class="cal-close" onClick={this.dropCal} style={{color: '#444'}}>&times;</span></td>
                     </tr>
+                    
                   </table>
                   <div className="container_form">
                   {/*  */}
@@ -186,6 +188,7 @@ class CalculatorFees extends Component {
                       <div className="row_form" style={{marginBottom: '5px'}}>
                         <div className="col-75">
                           <table style={{width: '100%', height: '100%'}}>
+                          
                             <tr>
                               <td className="text-left" style={{backgroundColor: '#EEE', textAlign: 'center', color: '#444', padding: '10px', width: '100%', border: '#777 1px solid'}}>Are you a Ugandan?</td>
                             </tr>
@@ -197,6 +200,7 @@ class CalculatorFees extends Component {
                                 <span for="International">No</span>
                               </td>
                             </tr>
+                            
                           </table>
                         </div>
                       </div>

@@ -24,12 +24,12 @@ class Testimonies extends Component{
 	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
 	<p><h6 className="hny-title text-center" style={{color: '#555', fontSize: '40px'}}>What Our Students Say</h6></p>
 		<div className="container" style={{maxWidth: '100%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active testimonial_slides">
+			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+				<div className="carousel-inner">
+					<div className="carousel-item active testimonial_slides">
 						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-								<span class="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
+								<span className="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
 							</div>
 							<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 								<p className="inside-text">
@@ -44,10 +44,10 @@ class Testimonies extends Component{
 							</div>
 						</div>
 					</div>{/*  */}
-					<div class="carousel-item testimonial_slides">
+					<div className="carousel-item testimonial_slides">
 						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-								<span class="img-box"><img src="assets/images/test2.jpg" alt=""/></span>
+								<span className="img-box"><img src="assets/images/test2.jpg" alt=""/></span>
 							</div>
 							<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 								<p className="inside-text">
@@ -62,10 +62,10 @@ class Testimonies extends Component{
 							</div>
 						</div>
 					</div>{/*  */}
-					<div class="carousel-item testimonial_slides">
+					<div className="carousel-item testimonial_slides">
 						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-								<span class="img-box"><img src="assets/images/test3.jpg" alt=""/></span>	
+								<span className="img-box"><img src="assets/images/test3.jpg" alt=""/></span>	
 							</div>
 							<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 								<p className="inside-text">

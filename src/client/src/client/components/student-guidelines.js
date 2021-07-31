@@ -97,7 +97,7 @@ class StudentGuidelines extends Component{
 					<div className="col-lg-12 welcome-image">
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Studying outside Uganda<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Studying outside Uganda<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -126,7 +126,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Studying in Uganda on study permit<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Studying in Uganda on study permit<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -148,7 +148,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Graduate Admission Requirements<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Graduate Admission Requirements<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -166,7 +166,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Studying in Uganda on a work or visitor's permit<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Studying in Uganda on a work or visitor's permit<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -176,7 +176,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;English language requirements for International students<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;English language requirements for International students<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -201,7 +201,7 @@ class StudentGuidelines extends Component{
 									</div>	
 									<br/>
 								</div>
-                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Transfer credit from previous non-Ugandan education<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Transfer credit from previous non-Ugandan education<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">

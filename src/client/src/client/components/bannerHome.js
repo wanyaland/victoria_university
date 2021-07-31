@@ -34,17 +34,17 @@ class BannerHome extends Component{
 					</div> */}
 					<div>
 						<video src="assets/media/home_wel_no_txt.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video>
-						<div class="carousel-caption">
+						<div className="carousel-caption">
 							<h1 className="main-header">EXPERIENCE</h1>
 							<p className="sub-head text-center">A WORK-INTEGRATED LEARNING APPROACH FOR AFRICA</p>
 							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>
-							<div class="v-btn-link">
-								{/* <div class="eff-4"></div> */}
-								<button class="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
+							<div className="v-btn-link">
+								{/* <div className="eff-4"></div> */}
+								<button className="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
 							  </div>
 							
 						</div>
-						{/* <p class="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '45%'}}><button class="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p> */}
+						{/* <p className="text-center" style={{position: 'absolute', zIndex: '1', top: '90%', left: '45%'}}><button className="btn_link" onClick={this.toVclass}>Take a Tour of Vclass</button></p> */}
 					</div>
 				</div>
 				<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

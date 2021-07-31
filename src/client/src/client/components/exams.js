@@ -68,10 +68,12 @@ class Exams extends Component{
                     <br/>
                     <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
+                        
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#df2929'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#dd4949', textAlign: 'center', color: '#FFF', padding: '20px'}}>Due to Covid-19, Victoria University exam locations are closed and only ONLINE exams are being issued. Students must confirm that an invigilation centre is open before booking an exam. Please refer to the QA covid page for any updates and current steps for booking an online exam.</td>
 							</tr>
+                            
 						</table>
 					</div>
                 </div>
@@ -111,7 +113,7 @@ class Exams extends Component{
                     <p className="my-4">
                         You need your student ID number and password to access myVU.
                     </p>
-                    <p><Link className="logo-2" onclick={this.toVclass} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                    <p><Link className="logo-2" onClick={this.toVclass} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to  myVU</span>
                         </span>
                         </Link>
@@ -284,7 +286,7 @@ class Exams extends Component{
                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <div style={{width: '100%', backgroundColor: '#CCC', border: '#CCC 1px solid', paddingTop: '15px', paddingBottom: '15px'}}><h5 className="text-center" style={{fontSize: '30px', color: '#025683'}}>Helpful links & resources:</h5></div>
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Feeling anxious<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Feeling anxious<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -301,7 +303,7 @@ class Exams extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Calendar<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Calendar<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">

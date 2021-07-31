@@ -41,9 +41,11 @@ class GetInfo extends Component {
 									<div className="col-75">
 										<div className="features-1-info col-lg-12 col-md-12" style={{height: '60px', width: '100%', marginTop: '40px !important', padding: '0'}}>
 											<table style={{width: '100%', height: '100%'}}>
+											
 												<tr>
 													<td className="text-left" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '20px'}}>Areas Of interest</td>
 												</tr>
+												
 											</table>
 										</div>
 										<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 1px solid', padding: '15px'}}>

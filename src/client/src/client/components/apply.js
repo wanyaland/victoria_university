@@ -2,25 +2,50 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import GetInfo from './get_info'
 import { Link } from 'react-router-dom';
 
 class Apply extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+			curTime: '0:00',
+		}
+    }
+    
+
     componentDidMount(){
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-	
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-		this.classList.toggle("activer");
-		var content = this.nextElementSibling;
-		if (content.style.maxHeight){
-		  content.style.maxHeight = null;
-		} else {
-		  content.style.maxHeight = content.scrollHeight + "px";
-		} 
-	  });
+        this.getCurrentTime()
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("activer");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+    }
+    getCurrentTime = () => {
+        var timestamp = Date.now();
+        var d = new Date(timestamp);
+		var hours = d.getHours();
+		var minutes = d.getMinutes();
+		var ampm = hours >= 12 ? 'pm' : 'am';
+		hours = hours % 12;
+		hours = hours ? hours : 12;
+		minutes = minutes < 10 ? '0'+minutes : minutes;
+		var strTime = hours + ':' + minutes + ' ' + ampm;
+		console.log(strTime)
+		this.setState({
+			curTime: strTime,
+		})
 	}
-}
     applynow(){
         window.location.href = "apply-now";
     }
@@ -51,7 +76,7 @@ class Apply extends Component{
 					Victoria University 
 					</span></Link>&nbsp;/&nbsp;
 					<Link to="/admissions"><span className="underline" style={{color: '#EEE'}}>Admissions</span></Link>
-                    <span className="underline" style={{color: '#EEE'}}>/ How to Apply and Register</span>
+                    <span style={{color: '#EEE'}}> / How to Apply and Register</span>
 				</div>
 			</div>
 		</div>
@@ -74,11 +99,13 @@ class Apply extends Component{
                 </div>
                 <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px'}}>
                     <table style={{width: '100%', height: '100%'}}>
+                    
                         <tr>
                             <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                             <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', paddingLeft: '10px'}}>
-                                Online registrations for September will be opening soon. Please watch for updates in <b>myVU.</b></td>
+                                Online registrations for September will be opening soon. Please watch for updates in <b><Link to="/vclass" style={{color: '#FFF'}} className="underline">myVU.</Link></b></td>
                         </tr>
+                        
                     </table>
                 </div>
             </div>
@@ -106,7 +133,7 @@ class Apply extends Component{
 						<span className="fa fa-institution" style={{color: '#0077b5', fontSize: '38px'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Register for course(s)</a></h6>
+						<h6 className="text-center"><Link to="/apply-now">Register for course(s)</Link></h6>
 					</div>
 				</div>
 				<div className="features-1-info col-lg-3 col-md-6">
@@ -122,7 +149,7 @@ class Apply extends Component{
 						<span className="fa fa-phone" style={{color: '#0077b5'}}></span>
 					</div>
 					<div className="features-1-info-info text-center">
-						<h6 className="text-center"><a href="#home">Contact Us</a></h6>
+						<h6 className="text-center"><Link to="/contact">Contact Us</Link></h6>
 					</div>
 				</div>
 			</div>
@@ -189,6 +216,7 @@ class Apply extends Component{
 			</div>
             <div className="col-lg-12 mb-lg-0 mb-5">
                 <table style={{width: '100%', height: '100%'}}>
+                
                     <tr>
                         <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                         <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}><b>Note:</b> If you are an international student, an inactive/former student (not active for 12 months or longer), or a student with a loan you will find all required information here:
@@ -201,6 +229,7 @@ class Apply extends Component{
                             </ul>
                         </td>
                     </tr>
+                    
                 </table>
             </div>
 		</div>
@@ -229,7 +258,7 @@ class Apply extends Component{
 				<div className="col-lg-12 welcome-image">
 					<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 						<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Enrolling in an undergraduate program <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Enrolling in an undergraduate program <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -260,7 +289,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							</div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Taking undergraduate courses as a non-program student <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Taking undergraduate courses as a non-program student <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -281,7 +310,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							  </div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;undergraduate students enrolled at another school<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;undergraduate students enrolled at another school<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solids'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -317,10 +346,12 @@ class Apply extends Component{
                 </div>
                 <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px'}}>
                     <table style={{width: '100%', height: '100%'}}>
+                    
                         <tr>
                             <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                             <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', paddingLeft: '10px'}}>Next deadline: register by February 10 th to start on March 1 st</td>
                         </tr>
+                        
                     </table>
                 </div>
             </div>
@@ -336,7 +367,7 @@ class Apply extends Component{
 				<div className="col-lg-12 welcome-image">
 					<div className="" style={{width: '100%', backgroundColor: '#fff', border:'#CCC 10px solid'}}>
 						<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Program Students <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Program Students <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -349,7 +380,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							</div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Non-program Students  <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Non-program Students  <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -359,7 +390,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							  </div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Course Availability<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Course Availability<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -373,7 +404,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							  </div>
-                              <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;How to register for courses<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                              <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;How to register for courses<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                               <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                   <br/>
                                   <div className="col-lg-12 welcome-image">
@@ -428,7 +459,7 @@ class Apply extends Component{
 				<div className="col-lg-12 welcome-image">
 					<div className="" style={{width: '100%', backgroundColor: '#fff', border:'#CCC 10px solid'}}>
 						<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Enrolling in a graduate program <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Enrolling in a graduate program <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -460,7 +491,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							</div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Taking graduate courses<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Taking graduate courses<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -472,7 +503,7 @@ class Apply extends Component{
 								</div>	
 								<br/>
 							  </div>
-							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Graduate students enrolled at another school<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Graduate students enrolled at another school<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 							<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 								<br/>
 								<div className="col-lg-12 welcome-image">
@@ -502,9 +533,11 @@ class Apply extends Component{
                 <div className="row grids-innf my-lg-5" id="fixer">
                     <div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0', marginBottom: '40px'}}>
                         <table style={{width: '100%', height: '100%'}}>
+                        
                             <tr>
                                 <td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>We're here to help</td>
                             </tr>
+                            
                         </table>
                     </div>
                     <div className="features-1-info col-lg-6 col-md-6" style={{borderRight: '#c2c2c2 1px solid'}}>
@@ -534,9 +567,11 @@ class Apply extends Component{
                     </div>
                     <div className="features-1-info col-lg-12 col-md-12"  id="fixer2" style={{paddingBottom: '0 !important'}}>
                         <table style={{width: '100%', height: '100%'}}>
+                        
                             <tr>
-                                <td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}>You can call us during business hours (8:30 a.m. to 4:30 p.m.). It is currently 9:28 a.m. in Kampala.</td>
+                                <td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}>You can call us during business hours (8:30 a.m. to 4:30 p.m.). It is currently {this.state.curTime} in Kampala.</td>
                             </tr>
+                            
                         </table>
                     </div>
                 </div>
@@ -545,71 +580,7 @@ class Apply extends Component{
 </section>
 <br/>
 <br/>
-<section className="w3l-features-1">
-	<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
-		<div className="container py-lg-5">
-            <div className="row grids-innf my-lg-5" style={{border: '#CCC 1px solid'}}>
-                <div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
-                    <img src="assets/images/path1.jpg" className="img-fluid" id="fixer4" style={{}} alt="img"/>
-                </div>
-                <div className="features-1-info col-lg-9 col-md-9">
-                    <br/>
-                    <div className="features-1-info-icon text-center">
-                        <span className="fa fa-fax" style={{color: '#0077b5', fontSize: '90px'}}></span>
-                    </div>
-                    <div className="features-1-info-info text-center">
-                        <h6 className="hny-title text-center" style={{color: '#025683', fontSize: '32px'}}>Get information about VU</h6>
-                        <p className="text-center" style={{fontSize: '18px'}}>We have information to share with you!</p>
-                    </div>
-                    <div className="container_form">
-                        <form action="/action_page.php">
-                            <div className="row_form">
-                                <div className="col-75">
-                                <input type="text" id="fname" className="form_fields" name="firstname" placeholder="Your name.."/>
-                                </div>
-                            </div>
-                            <div className="row_form">
-                                <div className="col-75">
-                                <input type="text" id="lname" className="form_fields" name="lastname" placeholder="Your last name.."/>
-                                </div>
-                            </div>
-                            <div className="row_form">
-                                <div className="col-75">
-                                <input type="text" id="lname" className="form_fields" name="email" placeholder="Your email.."/>
-                                </div>
-                            </div>
-                            <div className="row_form">
-                                <div className="col-75">
-                                    <div className="features-1-info col-lg-12 col-md-12" style={{height: '60px', width: '100%', marginTop: '40px !important', padding: '0'}}>
-                                        <table style={{width: '100%', height: '100%'}}>
-                                            <tr>
-                                                <td className="text-left" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '20px'}}>Areas Of interest</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                    <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 1px solid', padding: '15px'}}>
-										<p><input type="radio" id="1" name="gender" value="male"/>&nbsp;&nbsp;Apply for undergraduate program</p>
-										<p><input type="radio" id="2" name="gender" value="male"/>&nbsp;&nbsp;Apply for graduate program</p>
-										<p><input type="radio" id="3" name="gender" value="male"/>&nbsp;&nbsp;Take an undergraduate course</p>
-										<p><input type="radio" id="4" name="gender" value="male"/>&nbsp;&nbsp;Take a course to transfer credit back to my university</p>
-									</div>
-                                </div>
-                            </div>
-                            <div className="row_form">
-                                <div className="col-75">
-                                <input type="checkbox" id="lname" className="" name="" required/>&nbsp;<span>Yes, I would like to receive communications via e-mail from Victoria University</span>
-                                </div>
-                            </div>
-                            <div className="row_form">
-                                <input type="submit" value="Get Started" className="applier"/>
-                            </div>
-                            </form>
-                      </div>
-                </div>
-            </div>
-		</div>
-	</div>
-</section>
+<GetInfo />
                 <Footer />
             </React.Fragment>
         )
