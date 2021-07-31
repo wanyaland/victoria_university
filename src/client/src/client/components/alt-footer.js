@@ -45,11 +45,13 @@ class AltFooter extends Component {
         </div>
         <div className="pt-4 mt-5" style={{padding: '0 !important', backgroundColor: '#033652', marginBottom: '0 !important', marginTop: '10px'}}>
             <table style={{width: '100%'}}>
+            
                 <tr>
                     <td style={{width: '50%', color: '#FFF'}}><a className="" href="home.php">
                         <label className="" style={{color: '#FFF', paddingLeft: '20px'}}><img src="assets/images/fav.png" width="40" height="40" alt="img"/> Visit main VU website</label></a></td>
                     <td className="text-right" style={{color: '#FFF', paddingRight: '20px'}}>© 2021 Victoria University. All rights reserved</td>
                 </tr>
+                
             </table>
         </div>
     </div>

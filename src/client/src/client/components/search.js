@@ -36,10 +36,10 @@ class Search extends Component {
 				<div className="col-lg-3 with_shadow side_control">
 					<div className="sidenavd">
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Website Search<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Staff Search<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container">A-Z index<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-                            <li className="w3-display-container">Library Search<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-external-link"></span></span></li>
+                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Website Search<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container" style={{borderBottom: 'none'}}>Staff Search<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container">A-Z index<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container">Library Search<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-external-link"></span></span></li>
                         </ul>
                     </div>
 				</div>

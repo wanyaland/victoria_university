@@ -44,19 +44,19 @@ class Programs extends Component{
 <section className="w3l-apply-6">
 	<div className=""  style={{}}>
 		<div className="container" style={{maxWidth: '100%' , padding: '0rem !important', margin: '0'}}>
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide"/>
+			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
+				<div className="carousel-inner">
+					<div className="carousel-item active">
+						<img className="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide"/>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"/>
+					<div className="carousel-item">
+						<img className="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"/>
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide" />
+					<div className="carousel-item">
+						<img className="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide" />
 					</div>
-					<div class="carousel-item">
-						<img class="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide" />
+					<div className="carousel-item">
+						<img className="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide" />
 					</div>
   				</div>
 			</div>
@@ -84,9 +84,11 @@ class Programs extends Component{
 					<div className="proghead">
 						<div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0', marginBottom: '40px'}}>
 							<table style={{width: '100%', height: '100%'}}>
+							
 								<tr>
 									<td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>Programmes</td>
 								</tr>
+								
 							</table>
 						</div>
 						<div className="text-center"><h3 className="lohny-2"><span className="fa fa-book topprog" style={{fontSize: '80px'}}></span></h3></div>
@@ -125,9 +127,11 @@ class Programs extends Component{
 					<div className="" style={{width: '100%', backgroundColor:'#fff', border: '#CCC 10px solid'}}>
 					<div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0', marginBottom: '40px'}}>
 							<table style={{width: '100%', height: '100%'}}>
+							
 								<tr>
 									<td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>Online Courses</td>
 								</tr>
+								
 							</table>
 						</div>
 						<div className="text-center"><h3 className="lohny-2"><span className="fa fa-book topprog" style={{fontSize: '80px'}}></span></h3></div>
@@ -172,9 +176,11 @@ class Programs extends Component{
 			<div className="row grids-innf my-lg-5" id="fixer">
 				<div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0', marginBottom: '40px'}}>
 					<table style={{width: '100%', height: '100%'}}>
+					
 						<tr>
 							<td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>Which program or course is right for me?</td>
 						</tr>
+						
 					</table>
 				</div>
 				<div className="features-1-info col-lg-12 col-md-12" style={{borderRight: '#c2c2c2 1px solid'}}>
@@ -187,9 +193,11 @@ class Programs extends Component{
 				</div>
 				<div className="features-1-info col-lg-12 col-md-12" id="fixer2" style={{paddingBottom: '0 !important'}}>
 					<table style={{width: '100%', height: '100%'}}>
+					
 						<tr>
 							<td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}> If you’re new to online learning, you may also want to read about what to expect at VU.</td>
 						</tr>
+						
 					</table>
 				</div>
 			</div>

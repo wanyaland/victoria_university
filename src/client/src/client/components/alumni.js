@@ -85,10 +85,10 @@ class Alumni extends Component {
 	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
 		<h3 className="hny-title text-center"><i>Alumni Testimonies</i></h3>
 		<div className="container" style={{maxWidth: '80%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
-			<div class="testimonial_slides">
+			<div className="testimonial_slides">
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 						<p className="inside-text">
@@ -104,7 +104,7 @@ class Alumni extends Component {
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-						<span class="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
@@ -120,7 +120,7 @@ class Alumni extends Component {
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 						<p className="inside-text">
@@ -137,7 +137,7 @@ class Alumni extends Component {
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-						<span class="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
@@ -153,7 +153,7 @@ class Alumni extends Component {
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
-						<span class="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
 						<p className="inside-text">

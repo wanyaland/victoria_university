@@ -489,19 +489,19 @@ class ProgIndex extends Component {
 							<p className="my-2 text-left" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</p>
 							<ul className="prog-listu" style={{border: '#888 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
 								<li className={this.state.courses_title === "Post Graduate"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span class="badged">{this.state.post_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span className="badged">{this.state.post_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Under Graduate"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Under graduate Programs</span></td><td><span class="badged">{this.state.under_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Under graduate Programs</span></td><td><span className="badged">{this.state.under_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Diploma"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getDiploma}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span class="badged">{this.state.diploma_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span className="badged">{this.state.diploma_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Foudations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Foundations Programs</span></td><td><span class="badged">{this.state.found_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Foundations Programs</span></td><td><span className="badged">{this.state.found_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Professional Development"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Professional Development Programs</span></td><td><span class="badged">{this.state.pro_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Professional Development Programs</span></td><td><span className="badged">{this.state.pro_sum}</span></td></tr></table>
 								</li>
 							</ul>
 						</div>
@@ -509,37 +509,37 @@ class ProgIndex extends Component {
 						<ul className="" style={{padding: '10px'}}>
 						<p className="" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;FACULTIES</p>
 							<Link onClick={this.getCourses}><li className="prog-list-course-outline" style={{width: '100%'}}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span class="fa fa-circle purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td><span className="fa fa-circle purple_color"></span></td><td style={{width: '90%'}}><span style={{width: '80%'}}>All</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getBusiness}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o red_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span class="badged">{this.state.busy_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o red_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span className="badged">{this.state.busy_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getTech}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o green_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Science and Technology</span></td><td><span class="badged">{this.state.tech_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o green_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Science and Technology</span></td><td><span className="badged">{this.state.tech_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getHealth}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o blue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Health Sciences</span></td><td><span class="badged">{this.state.health_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o blue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Health Sciences</span></td><td><span className="badged">{this.state.health_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getHumanities}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o orange_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Humanities and Social Science</span></td><td><span class="badged">{this.state.humanities_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o orange_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Humanities and Social Science</span></td><td><span className="badged">{this.state.humanities_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getEdu}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o brown_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Education</span></td><td><span class="badged">{this.state.edu_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o brown_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Education</span></td><td><span className="badged">{this.state.edu_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getLaw}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span class="fa fa-circle-o skyblue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>School Of Law</span></td><td><span class="badged">{this.state.law_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o skyblue_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>School Of Law</span></td><td><span className="badged">{this.state.law_count}</span></td></tr></table>
 								</li>
 							</Link>
 						</ul>
@@ -560,9 +560,9 @@ class ProgIndex extends Component {
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>{this.state.courses_desc}</p>
                         <br/>
-                        <div class="input-container">
-							<i class="fa fa-search icon"></i>
-							<input class="input-field" type="text" placeholder="Search for programs by name or keywords" name="usrnm"/>
+                        <div className="input-container">
+							<i className="fa fa-search icon"></i>
+							<input className="input-field" type="text" placeholder="Search for programs by name or keywords" name="usrnm"/>
 							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f54848'}}>Search</button>
 						</div>
                         <br/>
@@ -573,6 +573,7 @@ class ProgIndex extends Component {
 								<div className="welcome-grids row">
 									<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: '#ee5f5f 5px solid', padding: '0'}}>
 										<table style={{width: '100%', height: '100%'}}>
+										
 											<tr>
 												<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
 													<h4>Thinking about studying with us?</h4>
@@ -580,6 +581,7 @@ class ProgIndex extends Component {
 													<p className="my-4"><button className="btn_link2" onClick={this.toAbout}>Click Here to Access</button></p>
 												</td>
 											</tr>
+											
 										</table>
 									</div>
 								</div>
@@ -588,11 +590,13 @@ class ProgIndex extends Component {
 					</section>
 					<div className="" style={{height: '60px', margin: '0 auto'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', paddingLeft: '10px'}}><b>
 									Our transfer credit assessment tool can give you an idea of how your previous courses might transfer to VU.</b></td>
 							</tr>
+							
 						</table>
 					</div>
 					<br/>

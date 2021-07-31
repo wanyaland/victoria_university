@@ -87,7 +87,7 @@ class Keydates extends Component{
                 <div className="col-lg-12 welcome-image">
                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Application deadlines<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Application deadlines<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -129,17 +129,19 @@ class Keydates extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Course deadlines<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Course deadlines<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">Undergraduate course registration</p>
                                         <table style={{width: '100%', height: '100%'}}>
+                                        
                                             <tr>
                                                 <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                                                 <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Next Deadline: Register by February 10th to start on March 1st</td>
                                             </tr>
+                                            
                                         </table>
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p>
@@ -153,10 +155,12 @@ class Keydates extends Component{
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">Undergraduate course registration</p>
                                         <table style={{width: '100%', height: '100%'}}>
+                                        
                                             <tr>
                                                 <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                                                 <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Next Deadline: Register by February 10th to start on March 1st</td>
                                             </tr>
+                                            
                                         </table>
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p>
@@ -169,10 +173,12 @@ class Keydates extends Component{
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">Undergraduate course registration</p>
                                         <table style={{width: '100%', height: '100%'}}>
+                                        
                                             <tr>
                                                 <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                                                 <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Next Deadline: Register by February 10th to start on March 1st</td>
                                             </tr>
+                                            
                                         </table>
                                         <p className="my-4">Courses start on the first of each month. However, you must register and pay by the 10th of the previous month to begin on the first.</p>
                                         <p>
@@ -185,7 +191,7 @@ class Keydates extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Other key dates<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Other key dates<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">

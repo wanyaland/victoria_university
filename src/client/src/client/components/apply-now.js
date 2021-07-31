@@ -479,21 +479,21 @@ class ApplyNow extends Component{
                                 <div className="row_form">
                                     <div className="col-75">
                                     <p className="text-left" style={{fontSize:'18px', fontWeight: '600'}}>Attach supporting documents</p>
-                                        <div class="custom-file mb-3">
-                                            <input type="file" class="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
-                                            <label class="custom-file-label" for="customFile">Add documents</label>
+                                        <div className="custom-file mb-3">
+                                            <input type="file" className="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
+                                            <label className="custom-file-label" for="customFile">Add documents</label>
                                         </div>
-                                        <div class="custom-file mb-3">
-                                            <input type="file" class="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
-                                            <label class="custom-file-label" for="customFile">Add documents</label>
+                                        <div className="custom-file mb-3">
+                                            <input type="file" className="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
+                                            <label className="custom-file-label" for="customFile">Add documents</label>
                                         </div>
-                                        <div class="custom-file mb-3">
-                                            <input type="file" class="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
-                                            <label class="custom-file-label" for="customFile">Add documents</label>
+                                        <div className="custom-file mb-3">
+                                            <input type="file" className="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
+                                            <label className="custom-file-label" for="customFile">Add documents</label>
                                         </div>
-                                        <div class="custom-file mb-3">
-                                            <input type="file" class="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
-                                            <label class="custom-file-label" for="customFile">Add documents</label>
+                                        <div className="custom-file mb-3">
+                                            <input type="file" className="custom-file-input" id="customFile" name="filename" onChange={this.fileUp}/>
+                                            <label className="custom-file-label" for="customFile">Add documents</label>
                                         </div>
                                     </div>
                                 </div>
@@ -502,9 +502,11 @@ class ApplyNow extends Component{
                                     <p className="text-left" style={{fontSize:'18px', fontWeight: '600'}}>Application Charges</p>
 									<div className="col-75">
 									<table style={{width: '100%', border: '#888 1px solid', padding: '5px'}}>
+                                    
                                         <tr style={{width: '100%', border: '#000 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Description</td><td style={{border: '#000 1px solid', padding: '5px', fontWeight: '600'}}>Amount</td></tr>
                                         <tr style={{width: '100%', border: '#888 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px'}}>Local Student</td><td style={{border: '#000 1px solid', padding: '5px'}}>UGX</td><td style={{border: '#000 1px solid', padding: '5px'}}>50,000/=</td></tr>
                                         <tr style={{width: '100%', border: '#888 1px solid', padding: '5px'}}><td style={{border: '#000 1px solid', padding: '5px'}}>International Students</td><td style={{border: '#000 1px solid', padding: '5px'}}>USD</td><td style={{border: '#000 1px solid', padding: '5px'}}>$16</td></tr>
+                                        
                                     </table>
 									</div>
 								</div>

@@ -81,6 +81,7 @@ class Requirements extends Component{
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: '#f74040 5px solid', padding: '0'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
 									<h4>Thinking of studying with us</h4>
@@ -88,6 +89,7 @@ class Requirements extends Component{
 									<p className="my-4"><button className="btn_link2">Access the viewbook</button></p>
 								</td>
 							</tr>
+							
 						</table>
 					</div>
 				</div>
@@ -102,7 +104,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Science And Technology</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in visual effects and animation<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -161,7 +163,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in science in visual effects and animation<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -220,7 +222,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in big data analytics<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in big data analytics<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -233,7 +235,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in information technology<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -253,7 +255,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in information technology<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -303,7 +305,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of industrial art and innovative design<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of industrial art and innovative design<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -320,7 +322,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of information technology<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -367,7 +369,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of science in computer science<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of science in computer science<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -402,7 +404,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of Business Information Systems<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelor of Business Information Systems<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -439,10 +441,12 @@ class Requirements extends Component{
 					</div>
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Please ensure to review the specific requirements for the undergraduate or graduate program you are applying for carefully before submitting your final application.</td>
 							</tr>
+							
 						</table>
 					</div>	
 				</div>
@@ -457,7 +461,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Business And Management</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of International Business<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of International Business<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<p className="my-4">
 										This programme prepares undergraduates for tasks demanding business expertise and for entry-level managerial positions worldwide in national and international companies and organisations. The Program is a three-year full-time; day, evening and weekend programme of intensive study for learners wishing to earn a Bachelor of International Business degree from Victoria University. It may, however  , be completed in four to six semesters depending on the admission criteria. All elements of the programme have a strong international orientation and aim to develop soft skills such as communication, presentation skills, intercultural competence, and business ethics.
@@ -500,7 +504,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp; Bachelor of Science In Oil And Gas Accounting<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp; Bachelor of Science In Oil And Gas Accounting<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<p className="my-4">Victoria University is one of the premier providers of Petroleum and Energy Education in East Africa. Situated in the heart of Kampala City, the University intends to be the leading provider of high quality of Oil and Gas and energy studies in East Africa at both the undergraduate and postgraduate level as well the provider of quality research in petroleum and energy studies in the region.</p>
@@ -538,7 +542,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in Banking and Finance<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in Banking and Finance<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -584,7 +588,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma In Human Resource Management <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma In Human Resource Management <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -639,10 +643,12 @@ class Requirements extends Component{
 					</div>
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Please ensure to review the specific requirements for the undergraduate or graduate program you are applying for carefully before submitting your final application.</td>
 							</tr>
+							
 						</table>
 					</div>	
 				</div>
@@ -657,7 +663,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Humanities And Social Sciences</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in Public Administration<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in Public Administration<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<p className="my-4">
 									The study of Public Administration has roots way back in 1887 when it started being a specific field of study. The Egyptians and Greeks organized public affairs by office, and the principal officeholders. These were regarded as being principally responsible for administering justice, maintaining law and order, and providing plenty. These are key principles relevant but still inadequate in many institutions today. Public Administration is closely linked with Global Sustainable Development Goal Number Sixteen. This goal considers Peace, Justice and Strong Institutions as key ingredients that humankind requires. This calls for the need to train and skill public administrators that can promote and defend such noble goal. The program will prepare students for administrative and management careers with not only local, state or federal government agencies, but also non-profit organizations. Implementing public programs and managing the people who are involved with those programs is one of the core functions of public administration.
@@ -698,7 +704,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Master of Arts in Diplomacy and Global Studies<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Master of Arts in Diplomacy and Global Studies<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<p className="my-4">In line with Victoria university policy of offering quality education, the department admits candidates to master’s degree programme who possess at least one of the following:</p>
@@ -735,7 +741,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Master of Arts in Mass Communication <span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Master of Arts in Mass Communication <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -772,7 +778,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelors Of Social Work (B.Sw) Programme<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelors Of Social Work (B.Sw) Programme<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -817,10 +823,12 @@ class Requirements extends Component{
 					</div>
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Please ensure to review the specific requirements for the undergraduate or graduate program you are applying for carefully before submitting your final application.</td>
 							</tr>
+							
 						</table>
 					</div>	
 				</div>
@@ -835,7 +843,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Health Sciences</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in public health (3 years ) BPH<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in public health (3 years ) BPH<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -849,7 +857,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Nursing Science (4 years) BNS.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Nursing Science (4 years) BNS.<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -876,7 +884,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Midwifery Science (3 years) BMS<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of Midwifery Science (3 years) BMS<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -902,7 +910,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of environmental health sciences (3 years) BHS.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of environmental health sciences (3 years) BHS.<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -928,7 +936,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in Human Nutrition and Dietetics (4 years) BHN<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in Human Nutrition and Dietetics (4 years) BHN<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -954,7 +962,7 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Uganda Advanced Certificate of education or its equivalent with a subsidiary pass in biology and chemistry.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Uganda Advanced Certificate of education or its equivalent with a subsidiary pass in biology and chemistry.<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
@@ -986,10 +994,12 @@ class Requirements extends Component{
 					</div>
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px', marginTop: '40px'}}>
 						<table style={{width: '100%', height: '100%'}}>
+						
 							<tr>
 								<td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
 								<td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', padding: '20px'}}>Please ensure to review the specific requirements for the undergraduate or graduate program you are applying for carefully before submitting your final application.</td>
 							</tr>
+							
 						</table>
 					</div>	
 				</div>

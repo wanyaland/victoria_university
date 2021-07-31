@@ -83,7 +83,7 @@ class AvailRes extends Component {
                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <div style={{width: '100%', backgroundColor: '#CCC', border: '#CCC 1px solid', paddingTop: '15px', paddingBottom: '15px'}}><h5 className="text-center" style={{fontSize: '30px', color: '#025683'}}>Helpful links & resources:</h5></div>
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Contact Information<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Contact Information<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">

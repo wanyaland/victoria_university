@@ -130,7 +130,7 @@ class TransferCredit extends Component{
                         </Link>
                     </p>
                     <br/>
-                    <h6 class="hny-title text-left" style={{color: '#0077b5', fontSize: '30px'}}>Academic qualifications</h6>
+                    <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '30px'}}>Academic qualifications</h6>
                     <br/>
                     <p className="my-4" style={{fontWeight: '600', fontSize: '24px'}}>Undergraduate</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>To be exempted at an undergraduate degree programme, the following criteria have to be fulfilled:</p>
@@ -220,7 +220,7 @@ class TransferCredit extends Component{
                 <div className="col-lg-12 welcome-image">
                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous post-secondary courses<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous post-secondary courses<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -237,7 +237,7 @@ class TransferCredit extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous diploma or related credentials<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous diploma or related credentials<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -259,7 +259,7 @@ class TransferCredit extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous undergraduate courses<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous undergraduate courses<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -280,7 +280,7 @@ class TransferCredit extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous foreign credentials<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Credits for previous foreign credentials<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">

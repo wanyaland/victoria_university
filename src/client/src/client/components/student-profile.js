@@ -81,6 +81,7 @@ class StudentProfile extends Component {
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5" style={{borderBottom: '#dd4949 5px solid', padding: '0'}}>
 						<table style={{width: '100%', height: '100%'}}>
+                        
 							<tr>
 								<td className="text-left" style={{backgroundColor: '#003d5e', textAlign: 'center', color: '#FFF', padding: '50px 20px 20px 40px'}}>
                                     <h2>THINKING ABOUT STUDYING WITH US?</h2>
@@ -90,6 +91,7 @@ class StudentProfile extends Component {
 									<p className="my-4"><button className="btn_link2" onClick={this.toAbout}>Click Here to Access</button></p>
 								</td>
 							</tr>
+                            
 						</table>
 					</div>
 				</div>
@@ -111,7 +113,7 @@ class StudentProfile extends Component {
                         <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                             <div style={{width: '100%', backgroundColor: '#CCC', border: '#CCC 1px solid', paddingTop: '15px', paddingBottom: '15px'}}><h5 className="text-center" style={{fontSize: '30px', color: '#025683'}}>Choose the option that best describes your situation:</h5></div>
                             <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You want to enrol in an undergraduate degree, diploma, certificate, or a graduate program offered by Victoria University<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You want to enrol in an undergraduate degree, diploma, certificate, or a graduate program offered by Victoria University<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                 <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                     <br/>
                                     <div className="col-lg-12 welcome-image">
@@ -123,7 +125,7 @@ class StudentProfile extends Component {
                                     </div>	
                                     <br/>
                                 </div>
-                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You are enrolled in a program at another university or institution and want to take a few courses at VU at the same time<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You are enrolled in a program at another university or institution and want to take a few courses at VU at the same time<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                 <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                     <br/>
                                     <div className="col-lg-12 welcome-image">
@@ -135,7 +137,7 @@ class StudentProfile extends Component {
                                     </div>	
                                     <br/>
                                 </div>
-                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You want to take some courses for general interested but don't want to enrol in a program at this time.<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;You want to take some courses for general interested but don't want to enrol in a program at this time.<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                 <div className="contenter" style={{backgroundColor: '#FFF'}}>
                                     <br/>
                                     <div className="col-lg-12 welcome-image">
@@ -174,7 +176,7 @@ class StudentProfile extends Component {
 					<div className="col-lg-12 welcome-image">
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;He's how to return to VU<span onclick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;He's how to return to VU<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -235,9 +237,11 @@ class StudentProfile extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid', minHeight: '400px'}}>
                                         <div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0'}}>
                                             <table style={{width: '100%', height: '100%'}}>
+                                            
                                                 <tr>
                                                     <td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>Undergraduate application</td>
                                                 </tr>
+                                                
                                             </table>
                                         </div>
                                         <div className="features-1-info col-lg-12 col-md-6" style={{padding: '30px'}}>
@@ -254,9 +258,11 @@ class StudentProfile extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid', minHeight: '400px'}}>
                                         <div className="features-1-info col-lg-12 col-md-12" style={{height: '100px', width: '100%', padding: '0'}}>
                                             <table style={{width: '100%', height: '100%'}}>
+                                            
                                                 <tr>
                                                     <td className="text-center" style={{backgroundColor: '#033f5f', textAlign: 'center', color: '#FFF', paddingLeft: '10px', fontSize: '28px'}}>Graduate application</td>
                                                 </tr>
+                                                
                                             </table>
                                         </div>
                                         <div className="features-1-info col-lg-12 col-md-6" style={{padding: '30px'}}>
