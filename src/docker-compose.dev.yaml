@@ -53,9 +53,10 @@ services:
         restart: always
         ports:
             - 80:80
+            - 443:443
         build:
             context: ./nginx
-            dockerfile: Dockerfile
+            dockerfile: Dockerfile.staging
         depends_on:
             - client
             - api

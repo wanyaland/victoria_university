@@ -40,24 +40,18 @@ services:
             - 443:443
             - 80:80
         volumes:
-            - certs:/etc/nginx/certs
-            - html:/usr/share/nginx/html
-            - /var/run/docker.sock:/tmp/docker.sock:ro
+            - ./nginx/certbot/conf:/etc/letsencrypt
+            - ./nginx/certbot/www:/var/www/certbot
         depends_on:
           - api
           - client
         env_file:
             - ./.env
-    nginx-proxy-letsencrypt:
-        image: jrcs/letsencrypt-nginx-proxy-companion
-        env_file:
-            - .env.staging.proxy-companion
+    certbot:
+        image: certbot/certbot
         volumes:
-            - /var/run/docker.sock:/var/run/docker.sock:ro
-            - certs:/etc/nginx/certs
-            - html:/usr/share/nginx/html
-        depends_on:
-            - nginx
+            - ./nginx/certbot/conf:/etc/letsencrypt
+            - ./nginx/certbot/www:/var/www/certbot
         
 volumes:
     postgres_data:
