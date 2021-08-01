@@ -12,34 +12,56 @@ class ViewProgram extends Component {
 		this.state = {
 			course_prog: {},
 			course_desc: "",
-			course_test: ""
+			course_test: "",
+			banner_src: ""
 		}
 	}
 	componentDidMount(){
+		window.onscroll = function() {stickyMenu()};
+	
+		var header = document.getElementById("myHeader2");
+		var sticky = header.offsetTop;
+		
+		function stickyMenu() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
 		this.getCourse_ch()
-		this.getBanner()
 	}
 	getCourse_ch = () => {
 		var progData = Data
 		const result = progData.find( ({ program }) => program === this.props.match.params.program );
 		this.setState({
 			course_prog: result,
+			facultyBanner: result.faculty
 		})
-	}
-	getBanner = () => {
-		var facultyBanner = this.state.course_prog.faculty
-		if(facultyBanner === "Faculty Of Business And Management"){
-
-		} else if(facultyBanner === "Faculty Of Science And Technology"){
-
-		} else if(facultyBanner === "Faculty of Health Sciences"){
-
-		} else if(facultyBanner === "Faculty of Humanities and Social Sciences"){
-
-		} else if(facultyBanner === "Institute Of Education And Social Sciences"){
-
-		} else if(facultyBanner === "School Of Law"){
-			
+		if(result.faculty === "Faculty Of Business And Management"){
+			this.setState({
+				banner_src: 'assets/images/faculties/business.jpg'
+			})
+		} else if(result.faculty === "Faculty Of Science And Technology"){
+			this.setState({
+				banner_src: 'assets/images/faculties/tech.jpg'
+			})
+		} else if(result.faculty === "Faculty of Health Sciences"){
+			this.setState({
+				banner_src: 'assets/images/faculties/health.jpg'
+			})
+		} else if(result.faculty === "Faculty of Humanities and Social Sciences"){
+			this.setState({
+				banner_src: 'assets/images/faculties/humanities.jpg'
+			})
+		} else if(result.faculty === "Institute Of Education And Social Sciences"){
+			this.setState({
+				banner_src: 'assets/images/faculties/education.jpg'
+			})
+		} else if(result.faculty === "School Of Law"){
+			this.setState({
+				banner_src: 'assets/images/faculties/law.jpg'
+			})
 		}
 	}
 	openForm(){
@@ -114,25 +136,21 @@ class ViewProgram extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
-				
 <section className="w3l-apply-6">
-	<div className="apply-info py-5">
-		<div className="container py-lg-5">
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-            <br/>
-			<div className="">
-					<h4 className="text-center" style={{textTransform: 'capitalize'}}>{this.state.course_prog.program}</h4>
+	<div className=""  style={{}}>
+		<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+			<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+				<div className="carousel-inner">
+					<div className="carousel-item active">
+						<img className="w-100" src={this.state.banner_src} style={{filter: 'brightness(70%)'}} alt="slide"/>
+					</div>
+					<div className="carousel-caption">
+							<h6 className="sub-head-view" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
+						<br/>
+						<p className="text-center d-block"><button className="btn_linked-view" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
+					</div>
+				</div>
 			</div>
-			<br/>
-			<p className="text-center"><button className="btn_link" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<button className="btn_link" onClick={this.viewSummary}>Program Summary</button></p>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
 		</div>
 	</div>
 </section>
@@ -142,10 +160,10 @@ class ViewProgram extends Component {
 			<div className="container-fluid">
 				<div className="row">
 					<ol className="accounts col-md-12 justify-content-center">
-                        <li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4" style={{color: '#0077b5'}}>&nbsp;Start your journey</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4" style={{color: '#0077b5'}}>&nbsp;Related Programmes</span></li>
+                        <li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
+						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
+						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Start your journey</span></li>
+						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Related Programmes</span></li>
 					</ol>
 				</div>
 			</div>
