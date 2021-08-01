@@ -118,44 +118,44 @@ jobs:
             scp  -o StrictHostKeyChecking=no -r  src/init-letsencrypt.sh $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_project.sh
   
-  build-staging:
-    machine: true
-    working_directory: ~/repo
-    steps:
-      - checkout
-      - *setup_env
-      - *setup_env_staging
-      - run:
-          name: Build Docker image
-          command: |
-            docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker pull wanyaland/vu_web:latest || true
-            docker pull wanyaland/vu_api:latest || true
-            docker pull wanyaland/vu_nginx:latest || true
-            docker-compose -f src/docker-compose.dev.yaml build
-            docker ps
-            docker push wanyaland/vu_web:latest
-            docker push wanyaland/vu_api:latest
-            docker push wanyaland/vu_nginx:latest
+  # build-staging:
+  #   machine: true
+  #   working_directory: ~/repo
+  #   steps:
+  #     - checkout
+  #     - *setup_env
+  #     - *setup_env_staging
+  #     - run:
+  #         name: Build Docker image
+  #         command: |
+  #           docker login -u $DOCKER_USER -p $DOCKER_PASS
+  #           docker pull wanyaland/vu_web:latest || true
+  #           docker pull wanyaland/vu_api:latest || true
+  #           docker pull wanyaland/vu_nginx:latest || true
+  #           docker-compose -f src/docker-compose.dev.yaml build
+  #           docker ps
+  #           docker push wanyaland/vu_web:latest
+  #           docker push wanyaland/vu_api:latest
+  #           docker push wanyaland/vu_nginx:latest
   
-  deploy-staging:
-    machine: true
-    working_directory: ~/repo
-    steps:
-      - checkout
-      - add_ssh_keys:
-          fingerprints:
-            - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00
-      - *setup_env
-      - *setup_env_staging
-      - run:
-          name: Deploy 
-          command: |
-            chmod +x src/deploy_staging.sh
-            scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
-            scp  -o StrictHostKeyChecking=no -r  src/app/.env.staging.proxy-companion $CIRCLECI_USER@$VU_IP:/home/circleci/app
-            scp  -o StrictHostKeyChecking=no -r  src/docker-compose.staging.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
-            ./src/deploy_staging.sh
+  # deploy-staging:
+  #   machine: true
+  #   working_directory: ~/repo
+  #   steps:
+  #     - checkout
+  #     - add_ssh_keys:
+  #         fingerprints:
+  #           - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00
+  #     - *setup_env
+  #     - *setup_env_staging
+  #     - run:
+  #         name: Deploy 
+  #         command: |
+  #           chmod +x src/deploy_staging.sh
+  #           scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
+  #           scp  -o StrictHostKeyChecking=no -r  src/app/.env.staging.proxy-companion $CIRCLECI_USER@$VU_IP:/home/circleci/app
+  #           scp  -o StrictHostKeyChecking=no -r  src/docker-compose.staging.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
+  #           ./src/deploy_staging.sh
 
 workflows:
   build-deploy:
@@ -195,30 +195,30 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v\d+\.\d+\.\d+$/
-      - build-staging:
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v\d+\.\d+\.\d+$/
-      - approve-staging:
-          type: approval
-          requires:
-            - build-staging
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v\d+\.\d+\.\d+$/
-      - deploy-staging:
-          requires:
-            - approve-staging
-            - build-prod
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v\d+\.\d+\.\d+$/
+      # - build-staging:
+      #     filters:
+      #       branches:
+      #         ignore: /.*/
+      #       tags:
+      #         only: /^v\d+\.\d+\.\d+$/
+      # - approve-staging:
+      #     type: approval
+      #     requires:
+      #       - build-staging
+      #     filters:
+      #       branches:
+      #         ignore: /.*/
+      #       tags:
+      #         only: /^v\d+\.\d+\.\d+$/
+      # - deploy-staging:
+      #     requires:
+      #       - approve-staging
+      #       - build-prod
+      #     filters:
+      #       branches:
+      #         ignore: /.*/
+      #       tags:
+      #         only: /^v\d+\.\d+\.\d+$/
       
 
   
