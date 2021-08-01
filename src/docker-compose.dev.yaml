@@ -56,14 +56,26 @@ services:
             - 443:443
         build:
             context: ./nginx
+            dockerfile: Dockerfile
+        depends_on:
+            - client
+            - api
+            
+    nginx_staging:
+        image: wanyaland/vu_nginx_staging
+        container_name: nginx
+        restart: always
+        ports:
+            - 80:80
+            - 443:443
+        build:
+            context: ./nginx
             dockerfile: Dockerfile.staging
         depends_on:
             - client
             - api
 
 
-
-        
 volumes:
     postgres_data:
     postgres_test_data:
