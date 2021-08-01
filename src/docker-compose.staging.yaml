@@ -33,8 +33,8 @@ services:
         ports:
             - 3001:3000
 
-    nginx:
-        image: wanyaland/vu_nginx
+    nginx_staging:
+        image: wanyaland/vu_nginx_staging
         restart: always
         ports:
             - 443:443
