@@ -43,7 +43,7 @@ class Programs extends Component{
 </section>
 <section className="w3l-apply-6">
 	<div className=""  style={{}}>
-		<div className="container" style={{maxWidth: '100%' , padding: '0rem !important', margin: '0'}}>
+		<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
 			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">
 					<div className="carousel-item active">

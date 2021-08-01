@@ -135,12 +135,12 @@ class Tuition extends Component {
                     <br/>
                     <p className="mb-4" style={{fontSize: '18px'}}>Understanding how your fees and tuition are calculated is important to make sure you stay within your budget and make informed decisions when choosing, adding or dropping courses. VU academic fees are calculated differently for undergraduate and graduate students and will also vary depending on where you live while studying, course choice and other individual circumstances.</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>Make sure to understand the details of all tuition and fees that apply to your choice of program - if in doubt, please feel free to contact Victoria University’s administrators for clarification.</p>
-                    {/* <p>
+                    <p>
                         <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                             <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;
                             </span><span className="hny-title underline" style={{fontSize: '28px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></span>
                         </a>
-                    </p> */}
+                    </p>
                 </div>
             </div>
         </div>

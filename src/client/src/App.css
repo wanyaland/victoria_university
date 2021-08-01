@@ -56,6 +56,9 @@ button,
 body img {
     border-radius: 0px;
 }
+.sub-head-view{
+    font-size: 44px;
+}
 .btn_linked {
     background-color: #0077b5;
     color: white;
@@ -68,6 +71,34 @@ body img {
 }
 
 .btn_linked:hover{
+background-color: #014e77;
+}
+.btn_linked-view {
+    background-color: #0077b5;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #0077b5 1px solid;
+    box-shadow: 0px 0px 20px 0px #013e5f inset;
+}
+
+.btn_linked-view:hover{
+background-color: #014e77;
+}
+.btn_linked-view2 {
+    background-color: #0077b5;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #0077b5 1px solid;
+    box-shadow: 0px 0px 20px 0px #013e5f inset;
+}
+
+.btn_linked-view2:hover{
 background-color: #014e77;
 }
 .topper{
@@ -6115,6 +6146,21 @@ span.fa.fa-play {
         top: 70%;
         left: 38%;
     }
+    .sub-head-view{
+        position: absolute;
+        top:20%;
+        left: 23%;
+    }
+    .btn_linked-view{
+        position: absolute;
+        top: 70%;
+        left: 32%;
+    }
+    .btn_linked-view2{
+        position: absolute;
+        top: 70%;
+        left: 52%;
+    }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
         padding: 2.5em 1.2em;
     }
@@ -6315,6 +6361,21 @@ span.fa.fa-play {
         top: 70%;
         left: 38%;
     }
+    .sub-head-view{
+        position: absolute;
+        top:20%;
+        left: 15%;
+    }
+    .btn_linked-view{
+        position: absolute;
+        top: 70%;
+        left: 28%;
+    }
+    .btn_linked-view2{
+        position: absolute;
+        top: 70%;
+        left: 48%;
+    }
 }
 @media screen and (max-width: 1440px) {
     .pathdots{
@@ -6439,6 +6500,21 @@ span.fa.fa-play {
         position: absolute;
         top: 73%;
         left: 38%;
+    }
+    .sub-head-view{
+        position: absolute;
+        top:20%;
+        left: 14%;
+    }
+    .btn_linked-view{
+        position: absolute;
+        top: 70%;
+        left: 28%;
+    }
+    .btn_linked-view2{
+        position: absolute;
+        top: 70%;
+        left: 52%;
     }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
         padding: 2.5em .5em;
@@ -6566,6 +6642,21 @@ span.fa.fa-play {
         position: absolute;
         top: 70%;
         left: 38%;
+    }
+    .sub-head-view{
+        position: absolute;
+        top:20%;
+        left: 11.5%;
+    }
+    .btn_linked-view{
+        position: absolute;
+        top: 70%;
+        left: 28%;
+    }
+    .btn_linked-view2{
+        position: absolute;
+        top: 70%;
+        left: 52%;
     }
     /* ///testimonies */
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
@@ -6857,6 +6948,23 @@ span.fa.fa-play {
         top: 80%;
         left: 23%;
         padding: 10px;
+    }
+    .sub-head-view{
+        position: absolute;
+        top: -30%;
+        left: 0%;
+        font-size: 28px;
+    }
+    .btn_linked-view{
+        position: absolute;
+        top: 70%;
+        left: 0%;
+    }
+    .btn_linked-view2{
+        position: absolute;
+        padding: 0px 10px;
+        top: 70%;
+        left: 52%;
     }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{
         padding: .9em 1.2em;
