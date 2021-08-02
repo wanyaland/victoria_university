@@ -8,6 +8,9 @@ class NavBar extends Component{
 	redirect() {
 		window.location.href = "search";
 	}
+	toVclass = () => {
+        window.location.href = "https://vclass.ac/"
+    }
 	componentDidMount(){
 	}
 	render(){
@@ -22,6 +25,20 @@ class NavBar extends Component{
 					<Link className="navbar-brand" to="/">
 						<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 					</Link> 
+					<ul className="nav-mob">
+						<li className="nav-item nav-focus">
+							<img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
+						</li>
+						<li className="nav-item nav-focus">
+							<Link onClick={this.toVclass} className="nav-link">myVU</Link>
+						</li>
+						<li className="nav-item nav-focus">
+							<Link to="/contact" className="nav-link"><span className="fa fa-comments"></span></Link>
+						</li>
+						<li className="nav-item">
+							<Link className="nav-link" onClick={this.redirect}><span className="fa fa-search"></span></Link>
+						</li>
+					</ul>
 					<button className="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
