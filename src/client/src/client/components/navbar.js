@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 class NavBar extends Component{
 	search() {
-		document.getElementById("myDropdownr").classList.toggle("showr");
+		document.getElementById("myDropdownr").classList.add("showr");
 	}
 	redirect() {
 		window.location.href = "search";

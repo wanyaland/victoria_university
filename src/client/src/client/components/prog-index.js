@@ -462,6 +462,11 @@ class ProgIndex extends Component {
 	toAbout = () => {
         window.location.href = "about"
     }
+	showSide = () => {
+        var element = document.getElementById('mob_bar_control')
+        element.classList.toggle("showr")
+		window.location.href = '#mob_bar_control'
+    }
     render(){
 		
         return(
@@ -472,7 +477,8 @@ class ProgIndex extends Component {
 	<div className="team">
 		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div className="justify-content-center row"  style={{display: 'flex'}}>
-				<div className="col-lg-3 with_shadow side_control" style={{padding: '0px'}}>
+			<button className="side_control_btn" onClick={this.showSide}><span className="fa fa-bars text-center justify-content-center" style={{fontSize: '30px'}}></span></button>
+				<div className="col-lg-3 with_shadow side_control" id="mob_bar_control" style={{padding: '0px'}}>
 					<div className="sidenavd" style={{paddingTop: '0px'}}>
 						<div className="" style={{height: '60px'}}>
 							<table style={{width: '100%', height: '100%'}}>

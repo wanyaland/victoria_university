@@ -649,6 +649,7 @@ h3.hny-title.two {
     opacity: 0.8;
     position: fixed;
     bottom: 53px;
+    top: 25%;
     left: 0;
     width: 50px;
     height: 50px;
@@ -6844,6 +6845,7 @@ span.fa.fa-play {
     }
     .side_control_btn{
         display: block;
+
     }
     .path_point1{
         top:80%;

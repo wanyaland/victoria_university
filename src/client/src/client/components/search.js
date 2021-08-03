@@ -9,6 +9,10 @@ class Search extends Component {
     componentDidMount(){
         
     }
+    showSide = () => {
+        var element = document.getElementById('mob_bar_control')
+        element.classList.toggle("showr")
+    }
     render(){
         return(
             <React.Fragment>
@@ -28,13 +32,13 @@ class Search extends Component {
 		</div>
 	</div>
 </section>
-<button className="side_control_btn" onClick={this.openForm}><span className="fa fa-bars text-center justify-content-center" style={{fontSize: '30px'}}></span></button>
+<button className="side_control_btn" onClick={this.showSide}><span className="fa fa-bars text-center justify-content-center" style={{fontSize: '30px'}}></span></button>
 <section className="w3l-team-main">
 	<div className="team py-5">
 		<div className="container py-lg-5" style={{maxWidth: '100%'}}>
 			<div className="justify-content-center row"  style={{display: 'flex'}}>
-				<div className="col-lg-3 with_shadow side_control">
-					<div className="sidenavd">
+				<div className="col-lg-3 with_shadow">
+					<div className="sidenavd side_control" id="mob_bar_control">
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
                             <li className="w3-display-container" style={{borderBottom: 'none'}}>Website Search<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <li className="w3-display-container" style={{borderBottom: 'none'}}>Staff Search<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
