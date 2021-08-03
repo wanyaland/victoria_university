@@ -6,7 +6,11 @@ class CalculatorFees extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      programs: []
+      programs: [],
+      locRegfee: '50,000',
+      intRegfee: '16',
+      locProfee: '160,000',
+      intProfee: '51'
     }
   }
   /* refreshPage() {
@@ -25,10 +29,6 @@ class CalculatorFees extends Component {
     var profee = document.getElementById("profee")
     var funcfee = document.getElementById("funcfee")
     var fee = document.getElementById("fee")
-    var locRegfee = "50,000";
-    var intRegfee = "16";
-    var locProfee = "160,000"
-    var intProfee = "51"
     var reset = document.getElementById('reseter');
     var program = document.getElementById("prog_item").value;
     var year = document.getElementById("year").value
@@ -38,6 +38,7 @@ class CalculatorFees extends Component {
     if(program === '' || year === '' || semester === '' || studSelect === ''){
       document.getElementById('status').innerHTML = "Please select all information";
     } else {
+      document.getElementById('status').innerHTML = "";
       reset.style.display = "block";
       res_chk.style.display = "block"
       progr.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Program:</b> "+ progData[program].program +"</p>";
@@ -50,19 +51,24 @@ class CalculatorFees extends Component {
           fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid once)</p>";
         } else {
           if(semester === 'First' && reg_status === 'No'){
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +" (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +" (Paid once)</p>";
+            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ this.state.locRegfee +" (Paid once)</p>";
+            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ this.state.locProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
           } else if(semester === 'Second' && reg_status === 'No'){
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ locRegfee +" (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ locProfee +" (Paid once)</p>";
+            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: UGX </b> "+ this.state.locRegfee +" (Paid once)</p>";
+            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: UGX </b> "+ this.state.locProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
-          } else {
+          } else if(semester === 'First' && reg_status === 'Yes'){
             regfee.style.display = "none";
             profee.style.display = "none";
-            funcfee.style.display = "none";
+            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semester per year)</p>";
+            fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
+          } else if(semester === 'Second' && reg_status === 'Yes'){
+            regfee.style.display = "none";
+            profee.style.display = "none";
+            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: UGX </b> "+ progData[program].local_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
           }
         }
@@ -74,19 +80,24 @@ class CalculatorFees extends Component {
           fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: UGX </b> "+ progData[program].local_price +" (Paid per semester)</p>";
         } else {
           if(semester === 'First' && reg_status === "No"){
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +" (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +" (Paid once)</p>";
+            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ this.state.intRegfee +" (Paid once)</p>";
+            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ this.state.intProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
           } else if(semester === 'Second' && reg_status === "No"){
-            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ intRegfee +" (Paid once)</p>";
-            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ intProfee +" (Paid once)</p>";
+            regfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Application Fee: USD </b> "+ this.state.intRegfee +" (Paid once)</p>";
+            profee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Registration Fee: USD </b> "+ this.state.intProfee +" (Paid once)</p>";
             funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
-          } else{
+          } else if(semester === 'First' && reg_status === "Yes"){
             regfee.style.display = "none";
             profee.style.display = "none";
-            funcfee.style.display = "none";
+            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semester per year)</p>";
+            fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
+          }else if(semester === 'Second' && reg_status === "Yes"){
+            regfee.style.display = "none";
+            profee.style.display = "none";
+            funcfee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Functional Fee: USD </b> "+ progData[program].int_func_fee +" (Paid in every first semester per year)</p>";
             fee.innerHTML = "<p className='my-4'><b style='font-weight: 600;'>Tuition: USD </b> "+ progData[program].int_price +" (Paid per semester)</p>";
           }
         }
