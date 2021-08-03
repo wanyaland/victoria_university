@@ -36,9 +36,7 @@ class Wil extends Component{
 	<div className="team py-5">
 		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
-				<div className="col-lg-3">
 					<WilNav />
-				</div>
 				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF'}}>
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>About WIL</b></h6>

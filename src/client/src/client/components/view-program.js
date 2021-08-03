@@ -232,10 +232,11 @@ class ViewProgram extends Component {
 						<p className="my-4 text-center">Additional information that you need to know about VU and this program.</p>
                     </div>
                     <div className="features-1-info col-lg-4 col-md-4" style={{borderRight: '#c2c2c2 1px solid'}}>
+						<br/>
                         <div className="features-1-info-info text-center">
-                            <h6 className="text-left" style={{color: '#025886'}}>Program resources</h6>
+                            <h6 className="text-center" style={{color: '#025886'}}>Program resources</h6>
                         </div>
-						<p className="my-4">
+						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
 								<Link to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></Link>
 							</ul>
@@ -245,7 +246,7 @@ class ViewProgram extends Component {
                         <div className="features-1-info-info text-center">
                             <h6 className="text-center" style={{color: '#025886'}}>Additional resources</h6>
                         </div>
-						<p className="my-4">
+						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
 								<li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline" onClick={this.openForm}>Ask VU</span></li>
 							</ul>
@@ -255,7 +256,7 @@ class ViewProgram extends Component {
                         <div className="features-1-info-info text-center">
                             <h6 className="text-center" style={{color: '#025886'}}>Program contact</h6>
                         </div>
-						<p className="my-4">
+						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
 								<li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-angle-right" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="">+256 759 996 130 or +256 700 300 088 or +256 707 780 158</span></li>
 								<li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-angle-right" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="">admissions@vu.ac.ug OR marketing@vu.ac.ug</span></li>
