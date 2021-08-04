@@ -47,8 +47,7 @@ jobs:
             docker push wanyaland/vu_api:latest
   
   test-dev:
-    docker:
-      - image: wanyaland/vu_api:latest
+    machine: true
     steps:
       - checkout
       - *setup_env
