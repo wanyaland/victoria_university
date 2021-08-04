@@ -47,38 +47,75 @@ class Programs extends Component{
 			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">
 					<div className="carousel-item active">
-						<img className="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide"/>
+						<img className="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide" style={{filter: 'brightness(40%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"/>
+						<img className="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"  style={{filter: 'brightness(40%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide" />
+						<img className="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide"  style={{filter: 'brightness(40%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide" />
+						<img className="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide"  style={{filter: 'brightness(40%)'}}/>
 					</div>
   				</div>
+				<div className="carousel-caption">
+					<h4 className="text-center"><span style={{borderLeft: '8px #D4484A solid', fontSize: '42px'}}>&nbsp;&nbsp;Programmes</span></h4>
+					<br/>
+					<br/>
+					<p><h6 className="text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000', fontSize: '28px'}}>If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses. </h6></p>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <section className="w3l-wecome-content-6">
-    <br/>
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
 			<div className="welcome-grids row text-center justify-content-center">
 				<div className="welcome-image">
-					<h4 className="text-center" style={{color: '#444'}}>NOT SURE WHERE TO START? BROWSE ALL OUR PROGRAMMES.</h4>
+					<h4 className="hny-title text-center" style={{fontSize: '48px',  color: '#f74040', fontWeight: '500'}}>I know what I want <span style={{fontSize: '54px', fontWeight: '600'}}>VS</span> Not sure where to start?</h4>
 				</div>	
 			</div>
 		</div>
 	</div>
 </section>
+ <section className="w3l-wecome-content-6">
+		<div className="ab-content-6-mian py-5">
+			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+				<div className="welcome-grids row">
+					<div className="col-lg-12 mb-lg-0 mb-5">
+						<h4 className="text-center" style={{color: '#f74040', fontSize: '38px'}}>I know what I want.</h4>
+						<h6 className="hny-title" style={{color: '#0077b5', fontSize: '36px'}}>I am interested in;</h6>
+						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Core Courses</p>
+						<p className="my-4">
+							<ul style={{listStyle: 'none'}}>
+								<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
+							</ul>
+						</p>
+						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Professional Development Courses</p>
+						<p className="my-4">
+							<ul style={{listStyle: 'none'}}>
+							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Business</li></Link><br/>
+							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Science and Technology</li></Link><br/>
+							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Health Sciences</li></Link><br/>
+							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Humanities and Social Sciences</li></Link><br/>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 <br/>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
+		<h4 className="text-center" style={{color: '#f74040', fontSize: '38px'}}>Not sure where to start, Browse All Our Core Courses and Professional Development Courses.</h4>
 			<div className="welcome-grids row">
 				<div className="col-lg-6 mb-lg-0 mb-5">
 					<div className="proghead">
@@ -170,6 +207,42 @@ class Programs extends Component{
 		</div>
 	</div>
 </section>
+ <section className="w3l-wecome-content-6">
+		<div className="ab-content-6-mian py-5">
+			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+				<div className="welcome-grids row">
+					<div className="col-lg-12 mb-lg-0 mb-5">
+						<br/>
+						<h6 className="hny-title" style={{color: '#0077b5', fontSize: '36px'}}>Core Courses vs Professional Development Courses</h6>
+						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Core Courses</p>
+						<p className="my-4" style={{fontSize: '18px'}}>Our Foundation, Diploma, Bachelor and Masters programs are taught using a work-integrated learning approach where students study and work simultaneously with the objective of graduating with two to three years’ experience. How VU Core Courses Are Taught: </p>
+						<p className="my-4">
+							<ul style={{listStyle: 'none'}}>
+							<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
+							</ul>
+						</p>
+						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Professional Development Courses</p>
+						<p className="my4">
+							In an increasingly competitive and evolving job market, we know that many employers are keen on skills and what one can do rather qualifications and what one knows. Our professional development courses are designed to equip you with the most relevant and sought-after skills in today’s employment world. How Our Professional Development Courses Are Taught:
+						</p>
+						<p className="my-4">
+							<ul style={{listStyle: 'none'}}>
+							<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 		<div className="container py-lg-5" id="fixer3">
@@ -184,10 +257,11 @@ class Programs extends Component{
 					</table>
 				</div>
 				<div className="features-1-info col-lg-12 col-md-12" style={{borderRight: '#c2c2c2 1px solid'}}>
-					<p className="my-4">Not sure where to begin? We can help. Our counsellors will work with you to clarify your career and educational goals, and help you select an VU program.</p>
+					<p className="my-4">If you are not sure about which course to pursue, we can help. Our student recruiters and faculty registrars are available to help you clarify your career and educational goals. 
+Career Guidance </p>
 					<p className="my-4">
 						<ul style={{listStyle: 'none'}}>
-							<li className="" style={{marginBottom: '0rem !important'}}>&emsp;<span className="fa fa-angle-right" style={{color: '#555', fontSize: '24px'}}></span>&emsp;<span className="underline">Counselling Services</span> <span className="fa fa-external-link" style={{color: '#555', fontSize: '18px'}}></span></li>
+						<Link to="vclass"><li className="" style={{marginBottom: '0rem !important'}}>&emsp;<span className="fa fa-angle-right" style={{color: '#555', fontSize: '24px'}}></span>&emsp;<span className="underline">If you are new to online learning, please check out our detailed tutorials on how to navigate our online learning system.</span> <span className="fa fa-external-link" style={{color: '#555', fontSize: '18px'}}></span></li></Link>
 						</ul>
 					</p>
 				</div>
@@ -195,7 +269,7 @@ class Programs extends Component{
 					<table style={{width: '100%', height: '100%'}}>
 					
 						<tr>
-							<td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}> If you’re new to online learning, you may also want to read about what to expect at VU.</td>
+							<td className="text-center" style={{backgroundColor: '#dadada', textAlign: 'center', color: '#333', paddingLeft: '10px'}}><Link to="vclass">If you’re new to online learning, you may also want to read about what to expect at VU.</Link></td>
 						</tr>
 						
 					</table>
