@@ -37,16 +37,12 @@ services:
         image: wanyaland/vu_nginx
         restart: always
         ports:
-            - 443:443
             - 80:80
         depends_on:
           - api
           - client
         env_file:
             - ./.env
-        volumes:
-            - ./nginx/certs/vu.crt:/etc/nginx/certs/vu.crt
-            - ./nginx/certs/vu.key:/etc/nginx/certs/vu.key
       
 volumes:
     postgres_data:
