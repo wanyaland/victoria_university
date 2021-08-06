@@ -40,7 +40,7 @@ class BannerHome extends Component{
 							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>
 							<div className="v-btn-link">
 								{/* <div className="eff-4"></div> */}
-								<button className="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
+								<a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked" >Take a Tour of VClass</a>
 							  </div>
 							
 						</div>
