@@ -5,6 +5,12 @@ import Footer from './footer';
 import { Link } from 'react-router-dom'
 
 class Programs extends Component{
+	constructor(props) {
+		super(props);
+		this.state = {
+			outllink: "",
+		}
+	}
 	change_icon(id, id2) {
 		var element = document.getElementById(id);
 		element.classList.add("hider");
@@ -17,6 +23,61 @@ class Programs extends Component{
 		var element2 = document.getElementById(id2);
 		element2.classList.remove("block");
 	 }
+	 interests = () => {
+		var outllink = "no_result";
+		console.log("CLICKED")
+		var level = document.getElementById("level").value;
+		var faculty = document.getElementById("faculty").value;
+		if(level === '' || faculty === ''){
+
+		} else {
+			if(level === 'postg' & faculty === 'Business'){
+				outllink = 'faculty_BusPostgraduate'
+			}
+			 else if(level === 'under' && faculty === 'Business'){
+					outllink = 'faculty_Busundergraduate'
+			} else if(level === 'diploma' && faculty === 'Business'){
+					outllink = 'faculty_Busdiploma'
+			} else if(level === 'professional' && faculty === 'Business'){
+					outllink = 'faculty_Busprofessional'
+			} else if(level === 'postg' && faculty === 'Tech'){
+					outllink = 'faculty_TechPostgraduate'
+			} else if(level === 'under' && faculty === 'Tech'){
+					outllink = 'faculty_Techundergraduate'
+			} else if(level === 'diploma' && faculty === 'Tech'){
+					outllink = 'faculty_Techdiploma'
+			} else if(level === 'professional' && faculty === 'Tech'){
+					outllink = 'faculty_Techprofessional'
+			} else if(level === 'postg' && faculty === 'Health'){
+					outllink = 'faculty_HealthPostgraduate'
+			} else if(level === 'under' && faculty === 'Health'){
+					outllink = 'faculty_Healthundergraduate'
+			} else if(level === 'found' && faculty === 'Health'){
+					outllink = 'faculty_HealthFound'
+			} else if(level === 'professional' && faculty === 'Health'){
+					outllink = 'faculty_Healthprofessional'
+			} else if(level === 'postg' && faculty === 'Human'){
+					outllink = 'faculty_HumanPostgraduate'
+			} else if(level === 'under' && faculty === 'Human'){
+					outllink = 'faculty_Humanundergraduate'
+			} else if(level === 'diploma' && faculty === 'Human'){
+					outllink = 'faculty_HumanDiploma'
+			} else if(level === 'found' && faculty === 'Human'){
+					outllink = 'faculty_HumanFound'
+			} else if(level === 'professional' && faculty === 'Human'){
+					outllink = 'faculty_Humanprofessional'
+			} else if(level === 'postg' && faculty === 'Edu'){
+					outllink = 'faculty_EDuPostgraduate'
+			} else if(level === 'under' && faculty === 'Edu'){
+					outllink = 'faculty_Eduundergraduate'
+			} else if(level === 'postg' && faculty === 'law'){
+					outllink = 'faculty_Lawpostgraduate'
+			} else if(level === 'under' && faculty === 'law'){
+					outllink = 'faculty_Lawundergraduate'
+			}
+			window.location.href = 'prog-index'+outllink
+		}
+	}
     render(){
 		const under = 'undergraduate'
 		const postg = 'postgraduate'
@@ -60,10 +121,8 @@ class Programs extends Component{
 					</div>
   				</div>
 				<div className="carousel-caption">
-					<h4 className="text-center"><span style={{borderLeft: '8px #D4484A solid', fontSize: '42px'}}>&nbsp;&nbsp;Programmes</span></h4>
-					<br/>
-					<br/>
-					<p><h6 className="text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000', fontSize: '28px'}}>If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses. </h6></p>
+					<h4 className="text-center another1"><span>&nbsp;&nbsp;Programmes</span></h4>
+					<p><h6 className="another">If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses. </h6></p>
 				</div>
 			</div>
 		</div>
@@ -74,7 +133,7 @@ class Programs extends Component{
 		<div className="container py-lg-5">
 			<div className="welcome-grids row text-center justify-content-center">
 				<div className="welcome-image">
-					<h4 className="hny-title text-center" style={{fontSize: '48px',  color: '#f74040', fontWeight: '500'}}>I know what I want <span style={{fontSize: '54px', fontWeight: '600'}}>VS</span> Not sure where to start?</h4>
+					<h4 className="hny-title text-center" style={{fontSize: '35px',  color: '#f74040', fontWeight: '500'}}>SPECIFY WHICH PROGRAMS/COURSES YOU'RE INTERESTED IN:</h4>
 				</div>	
 			</div>
 		</div>
@@ -84,28 +143,26 @@ class Programs extends Component{
 		<div className="ab-content-6-mian py-5">
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
-					<div className="col-lg-12 mb-lg-0 mb-5">
-						<h4 className="text-center" style={{color: '#f74040', fontSize: '38px'}}>I know what I want.</h4>
-						<h6 className="hny-title" style={{color: '#0077b5', fontSize: '36px'}}>I am interested in;</h6>
-						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Core Courses</p>
-						<p className="my-4">
-							<ul style={{listStyle: 'none'}}>
-								<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
-							</ul>
-						</p>
-						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Professional Development Courses</p>
-						<p className="my-4">
-							<ul style={{listStyle: 'none'}}>
-							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Business</li></Link><br/>
-							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Science and Technology</li></Link><br/>
-							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Health Sciences</li></Link><br/>
-							<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Humanities and Social Sciences</li></Link><br/>
-							</ul>
-						</p>
+					<div className="col-lg-11 mb-lg-0 mb-5" style={{margin: '0 auto'}}>
+						<p className="text-left" style={{color: '#0077b5', fontSize: '36px', fontWeight: '400'}}>I am interested in <select id="level" className="select-interest">
+							<option value=""></option>
+							<option value="postg">Masters</option>
+							<option value="under">Bachelors</option>
+							<option value="diploma">Diploma</option>
+							<option value="found">Foundations</option>
+							<option value="professional">Professional Development Courses</option>
+						</select> and am interested in <select id="faculty" className="select-interest">
+							<option value=""></option>
+							<option value="Business">Business</option>
+							<option value="Tech">Science and Technology</option>
+							<option value="Health">Health Sciences</option>
+							<option value="Human">Humanities and Social Sciences</option>
+							<option value="Edu">Education</option>
+							<option value="Law">Law</option>
+						</select></p>
+						<div className="text-right">
+							<button className="intereset-btn" onClick={this.interests}>Show results</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -115,7 +172,7 @@ class Programs extends Component{
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
-		<h4 className="text-center" style={{color: '#f74040', fontSize: '38px'}}>Not sure where to start, Browse All Our Core Courses and Professional Development Courses.</h4>
+		<h4 className="text-center" style={{color: '#0077b5', fontSize: '38px'}}>Not sure where to start, Browse All Our Core Courses and Professional Development Courses.</h4>
 			<div className="welcome-grids row">
 				<div className="col-lg-6 mb-lg-0 mb-5">
 					<div className="proghead">

@@ -26,9 +26,10 @@ class NavBar extends Component{
 						<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 					</Link> 
 					<ul className="nav-mob">
+					<Link to="/">
 						<li className="nav-item nav-focus">
 							<img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
-						</li>
+						</li></Link>
 						<li className="nav-item nav-focus">
 							<Link onClick={this.toVclass} className="nav-link">myVU</Link>
 						</li>
