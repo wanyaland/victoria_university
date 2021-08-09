@@ -121,15 +121,40 @@ class Programs extends Component{
 					</div>
   				</div>
 				<div className="carousel-caption">
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 					<h4 className="text-center another1"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;&nbsp;Programmes</span></h4>
-					<p><h6 className="another">If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses. </h6></p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<br/>
-<br/>
+<section className="w3l-wecome-content-6">
+	<div className="ab-content-6-mian py-5">
+		<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+			<div className="welcome-grids row">
+				<div className="col-lg-12 mb-lg-0 mb-5">
+					<p className="my-4 text-center" style={{fontSize: '18px', width: '80%', margin: '0 auto'}}>If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
