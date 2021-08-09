@@ -97,7 +97,6 @@ color: #FFF;
     font-size: 28px;
 }
 .another1{
-    border-left: 8px #D4484A solid;
     font-size: 42px;
 }
 .btn_linked-view {
@@ -6208,7 +6207,7 @@ span.fa.fa-play {
     .sub-head-view{
         position: absolute;
         top:20%;
-        left: 23%;
+        left: 13%;
     }
     .btn_linked-view{
         position: absolute;
@@ -6443,7 +6442,7 @@ span.fa.fa-play {
     .sub-head-view{
         position: absolute;
         top:20%;
-        left: 15%;
+        left: 6%;
     }
     .btn_linked-view{
         position: absolute;
@@ -6603,7 +6602,7 @@ span.fa.fa-play {
     .sub-head-view{
         position: absolute;
         top:20%;
-        left: 14%;
+        left: 02%;
     }
     .btn_linked-view{
         position: absolute;
@@ -6765,7 +6764,7 @@ span.fa.fa-play {
     .sub-head-view{
         position: absolute;
         top:20%;
-        left: 11.5%;
+        left: 1%;
     }
     .btn_linked-view{
         position: absolute;

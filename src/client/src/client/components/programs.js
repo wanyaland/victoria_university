@@ -108,20 +108,20 @@ class Programs extends Component{
 			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">
 					<div className="carousel-item active">
-						<img className="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide" style={{filter: 'brightness(40%)'}}/>
+						<img className="d-block w-100" src="assets/images/sliders/1.jpg" alt="First slide" style={{filter: 'brightness(30%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"  style={{filter: 'brightness(40%)'}}/>
+						<img className="d-block w-100" src="assets/images/sliders/2.jpg" alt="Second slide"  style={{filter: 'brightness(30%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide"  style={{filter: 'brightness(40%)'}}/>
+						<img className="d-block w-100" src="assets/images/sliders/3.jpg" alt="Third slide"  style={{filter: 'brightness(30%)'}}/>
 					</div>
 					<div className="carousel-item">
-						<img className="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide"  style={{filter: 'brightness(40%)'}}/>
+						<img className="d-block w-100" src="assets/images/sliders/4.jpg" alt="Third slide"  style={{filter: 'brightness(30%)'}}/>
 					</div>
   				</div>
 				<div className="carousel-caption">
-					<h4 className="text-center another1"><span>&nbsp;&nbsp;Programmes</span></h4>
+					<h4 className="text-center another1"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;&nbsp;Programmes</span></h4>
 					<p><h6 className="another">If you want to study, acquire knowledge, skills and experience to solve society’s problems and make a meaningful impact in the professional world, we encourage you to take on one of our core courses and professional development courses. </h6></p>
 				</div>
 			</div>

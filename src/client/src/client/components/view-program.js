@@ -125,6 +125,15 @@ class ViewProgram extends Component {
 		tuition.classList.add('activeSummaryBrown')
 
 	}
+	glance = () => {
+		window.location.href = "#glance"
+	}
+	getInfo = () => {
+		window.location.href = "#get-info"
+	}
+	resources = () => {
+		window.location.href = "#resources"
+	}
     render(){
 		//const { search } = this.props.location
 		//const { match } = this.props
@@ -160,17 +169,17 @@ class ViewProgram extends Component {
 			<div className="container-fluid">
 				<div className="row">
 					<ol className="accounts col-md-12 justify-content-center">
-                        <li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Start your journey</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Related Programmes</span></li>
+                        <li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.glance}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.viewSummary}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Program Summary</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.resources}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.getInfo}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Get information</span></li>
 					</ol>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section className="w3l-specification-6">
+<section className="w3l-specification-6" id="glance">
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
 			<h6 className="hny-title text-center" style={{fontSize: '32px'}}><span className="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
@@ -222,7 +231,7 @@ class ViewProgram extends Component {
 		</div>
 	</div>
 </section>
-<section className="w3l-features-1">
+<section className="w3l-features-1" id="resources">
 	<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 		<div className="container py-lg-5" style={{border: '#c2c2c2 10px solid', paddingBottom: '0rem !important'}}>
                 <div className="row grids-innf my-lg-5" style={{marginTop: '0 !important', marginBottom: '0 !important', padding: '20px'}}>
@@ -267,6 +276,7 @@ class ViewProgram extends Component {
 		</div>
 	</div>
 </section>
+<div id="get-info"></div>
                 <GetInfo />
                 <Footer />
             </React.Fragment>
