@@ -35,9 +35,7 @@ class HowWilWorks extends Component{
 	<div className="team py-5">
 		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
-				<div className="col-lg-3">
-					<WilNav />
-				</div>
+				<WilNav />
 				<div className="col-lg-9"   style={{padding: '0  px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL Works</b></h6>

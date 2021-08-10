@@ -44,7 +44,7 @@ class Home extends Component{
 			</div>
 			<div className="counter-main-sec">
 				<div className="">
-					<h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3>
+					<Link to="/about"><h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3></Link>
 					<br/>
 					<h4 className="hny-title text-center" style={{color: '#002c44'}}>Victoria University</h4>
 					<div className="text-center longdash"></div>
@@ -100,7 +100,7 @@ class Home extends Component{
 	<div className="content-5-main" style={{border: 'red 1px solid'}}>
 		<div className="container">
 			<div className="content-info-in row">*/}
-				<img src="assets/images/discover.png" className="img-fluid" alt="Discover"/>
+				<Link to="/glance"><img src="assets/images/discover.png" className="img-fluid" alt="Discover"/></Link>
 			{/*</div>
 			<div className="content-info-in row">
 			</div>

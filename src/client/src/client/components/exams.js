@@ -113,10 +113,10 @@ class Exams extends Component{
                     <p className="my-4">
                         You need your student ID number and password to access myVU.
                     </p>
-                    <p><Link className="logo-2" onClick={this.toVclass} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+                    <p><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="logo-2" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Log in to  myVU</span>
                         </span>
-                        </Link>
+                        </a>
                     </p>
                 </div>
             </div>
