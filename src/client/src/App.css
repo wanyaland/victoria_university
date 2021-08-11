@@ -6205,9 +6205,9 @@ span.fa.fa-play {
         left: 38%;
     }
     .sub-head-view{
-        position: absolute;
-        top:20%;
-        left: 13%;
+        position: relative;
+        /* top:20%;
+        left: 13%; */
     }
     .btn_linked-view{
         position: absolute;
@@ -6440,9 +6440,9 @@ span.fa.fa-play {
         left: 38%;
     }
     .sub-head-view{
-        position: absolute;
-        top:20%;
-        left: 6%;
+        position: relative;
+        /* top:20%;
+        left: 6%; */
     }
     .btn_linked-view{
         position: absolute;
@@ -6600,9 +6600,9 @@ span.fa.fa-play {
         left: 38%;
     }
     .sub-head-view{
-        position: absolute;
-        top:20%;
-        left: 02%;
+        position: relative;
+        /* top:20%;
+        left: 02%; */
     }
     .btn_linked-view{
         position: absolute;
@@ -6762,9 +6762,9 @@ span.fa.fa-play {
         left: 38%;
     }
     .sub-head-view{
-        position: absolute;
-        top:20%;
-        left: 1%;
+        position: relative;
+        /* top:20%;
+        left: 1%; */
     }
     .btn_linked-view{
         position: absolute;
@@ -7094,18 +7094,18 @@ span.fa.fa-play {
     .sub-head-view{
         position: absolute;
         top: -30%;
-        left: 0%;
+        left: -10%;
         font-size: 28px;
     }
     .btn_linked-view{
         position: absolute;
         top: 70%;
-        left: 0%;
+        left: -10%;
     }
     .btn_linked-view2{
         position: absolute;
         padding: 0px 10px;
-        top: 70%;
+        top: 71%;
         left: 52%;
     }
     .w3l-banner-slider-main .navbar-light .navbar-nav .nav-link{

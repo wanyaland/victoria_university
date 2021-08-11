@@ -155,7 +155,7 @@ class ViewProgram extends Component {
 						<img className="w-100" src={this.state.banner_src} style={{filter: 'brightness(70%)'}} alt="slide"/>
 					</div>
 					<div className="carousel-caption">
-							<h6 className="sub-head-view" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
+							<h6 className="sub-head-view text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
 						<br/>
 						<p className="text-center d-block"><button className="btn_linked-view" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
 					</div>
