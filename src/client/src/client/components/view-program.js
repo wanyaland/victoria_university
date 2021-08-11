@@ -5,6 +5,7 @@ import GetInfo from './get_info';
 import Footer from './footer'
 import Data from './data/courses.json'
 import { Link } from 'react-router-dom';
+///
 
 class ViewProgram extends Component {
 	constructor(props) {
