@@ -4,7 +4,6 @@ import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer'
 import Data from './data/courses.json'
-import { Link } from 'react-router-dom';
 ///
 
 class ViewProgram extends Component {
@@ -248,7 +247,7 @@ class ViewProgram extends Component {
                         </div>
 						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
-								<Link to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></Link>
+								<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></a>
 							</ul>
 						</p>
                     </div>

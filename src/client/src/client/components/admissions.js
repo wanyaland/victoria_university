@@ -195,7 +195,7 @@ class Admissions extends Component{
         <h4 className="hny-title text-center">Choose a program that’s right for you and set yourself up for success with an accredited undergraduate, graduate, doctorate degree or single courses that match your personal goals.</h4>
         <div className="button-4-pink justify-content-center text-center" style={{margin: '0 auto', padding: '0px 7px'}}>
             <div className="eff-4-pink"></div>
-            <Link to="/apply-now"> Apply Now</Link>
+            <a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer"> Apply Now</a>
         </div>
     </div>
 </section>

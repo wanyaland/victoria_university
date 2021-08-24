@@ -78,7 +78,7 @@ class NavBar extends Component{
 									<Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link>
 									<Link to="/tuition-fees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Tuition and Fees</Link>
 									<Link to="/apply" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
-									<Link to="/apply-now" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</Link>
+									<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</a>
 								</ul>
 							</li>
 							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" >Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>

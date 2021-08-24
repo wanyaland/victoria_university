@@ -20,7 +20,7 @@ class Footer extends Component{
         window.location.href = "https://payments.pesapal.com/victoriauniversity";
     } */
     apply(){
-        window.location.href = "apply-now";
+        window.location.href = "https://eadmissions.vu.ac.ug/";
     }
     popPay(){
 		var modal = document.getElementById("pay-myModal");
