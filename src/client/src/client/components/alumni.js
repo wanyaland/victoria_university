@@ -83,14 +83,14 @@ class Alumni extends Component {
 </section>
 <section className="w3l-specification-6">
 	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
-		<h3 className="hny-title text-center"><i>Alumni Testimonies</i></h3>
+		<h3 className="hny-title text-center" style={{color: '#0077b5'}}><i>Alumni Testimonies</i></h3>
 		<div className="container" style={{maxWidth: '80%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
 			<div className="testimonial_slides">
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
-					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
-					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text">
 							<span className="fa fa-quote-left quotes"></span>
 							<br/><b>
@@ -103,10 +103,10 @@ class Alumni extends Component {
 					</div>
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
-					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
-					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
 							<span className="fa fa-quote-left quotes"></span>
 							<br/><b>
@@ -119,10 +119,10 @@ class Alumni extends Component {
 					</div>
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
-					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
-					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text">
 							<span className="fa fa-quote-left quotes"></span>
 							<br/><b>
@@ -136,10 +136,10 @@ class Alumni extends Component {
 					</div>
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(-1)'}}>
-					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"  style={{transform: 'scaleX(-1)'}}><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
-					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text"  style={{transform: 'scaleX(-1)'}}>
 							<span className="fa fa-quote-left quotes"></span>
 							<br/><b>
@@ -152,10 +152,10 @@ class Alumni extends Component {
 					</div>
 				</div>
 				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
-					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
+					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
-					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text">
+					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text">
 							<span className="fa fa-quote-left quotes"></span>
 							<br/><b>

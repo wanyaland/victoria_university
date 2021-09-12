@@ -79,7 +79,7 @@ class AboutRes extends Component {
 						</ul>
 						</p>
 						<p className="my-4">
-							<h4>Importance of Research</h4>
+							<h4 style={{color: '#0077b5'}}>Importance of Research</h4>
 							The cardinal aim and advantage of engaging in research is to enable researchers gain a deeper understanding of subjects under inquiry. Additional benefits of research include:
 							<p className="my-4"><ul style={{listStyle: 'none'}}>
                        	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">obtaining finer understanding and familiarity with a topic of interest</span></li>

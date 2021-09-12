@@ -41,7 +41,7 @@ class WilCosts extends Component{
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL works</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/><br/>
-						<p className="my-4" style={{fontSize: '30px'}}><b>What does WIL cost?</b></p>
+						<p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}><b>What does WIL cost?</b></p>
 						<p className="my-4">Victoria University recognises the value of WIL experiences for its students, and has Victoria University developed policies to ensure placements comply with the Uganda's working act</p>
 						<p className="my-4">
 							As WIL is aligned with the curriculum, there is generally no expectation that the student will be remunerated, in fact, the majority of WIL placements are unpaid.
@@ -51,7 +51,7 @@ class WilCosts extends Component{
                             If your organisation would like a student quickly, is long or short term, or is for a specific purpose not aligned to curriculum learning outcomes, your opportunity may be better considered as paid work. The Careers Service can help with advertising employment opportunities to our students.
                         </p>
                         <hr className="text-center" style={{color: '#000', width: '90%'}} />
-                        <p className="my-4" style={{fontSize: '34px'}}><b>What about insurance?</b></p>
+                        <p className="my-4" style={{fontSize: '34px', color: '#0077b5'}}><b>What about insurance?</b></p>
                         <p className="my-4">
 						The University has insurance to cover students undertaking professional experience including while undertaking WIL that is a course requirement and unpaid. The WIL experience must form part of the curriculum and be assessed by a course coordinator.
                         </p>

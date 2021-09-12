@@ -162,7 +162,7 @@ class StudentProfile extends Component {
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
 						<p className="my-4"  style={{fontWeight: '500', fontSize: '24px'}}>Program and non-program students also include…</p>
-						<p className="mb-4"  style={{fontWeight: '400', fontSize: '22px'}}>Returning students</p>
+						<p className="mb-4"  style={{fontWeight: '400', fontSize: '22px', color: '#0077b5'}}>Returning students</p>
                         <p className="my-4">Once you've become an VU student, you’ll always be an VU student, though you will become inactive after 12 months of your application date if you haven’t registered for a course or your most recent course completion date, course contract end date, withdrawal date.</p>
 					</div>
 				</div>
@@ -207,7 +207,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4"  style={{fontWeight: '400', fontSize: '24px'}}>International students</p>
+						<p className="mb-4"  style={{fontWeight: '400', fontSize: '24px', color: '#0077b5'}}>International students</p>
                         <p className="my-4">If you are an international student and want to stay in your home country while you complete one of our programs, you can follow the regular application process. Do you want to come to Uganda to study? Many of our programs are eligible to accept students on a study permit.</p>
                         <br/>
                         <br/>
@@ -226,7 +226,7 @@ class StudentProfile extends Component {
     <section className="w3l-footer-16 text-center">
         <div className="container">
             <h3 className="hny-title text-left" style={{color: '#0077b5'}}>What application process should you follow?</h3>
-            <h4 className="hny-title text-left">To become a program student:</h4>
+            <h4 className="hny-title text-left" style={{color: '#0077b5'}}>To become a program student:</h4>
         </div>
     </section>
     <section className="w3l-wecome-content-6">
@@ -285,7 +285,7 @@ class StudentProfile extends Component {
 			<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 				<div className="welcome-grids row">
 					<div className="col-lg-12 mb-lg-0 mb-5">
-						<p className="mb-4" style={{fontSize: '24px', fontWeight: '500'}}>To become a non-program student:</p>
+						<p className="mb-4" style={{fontSize: '24px', fontWeight: '500', color: '#0077b5'}}>To become a non-program student:</p>
                         <p className="my-4">As a non-program student at Victoria University, you will enjoy all of the same rights and privileges as a full time VU program student. Visiting students should obtain a Letter of Permission from their home institution before they register in an VU course. Ensure that the Letter of Permission indicates that the institution will accept the VU course in your program.</p>
                         <br/>
                         <br/>

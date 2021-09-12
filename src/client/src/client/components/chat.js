@@ -46,7 +46,7 @@ class Chat extends Component{
 				<span className="text-left" style={{width: 'auto'}}>How can I help you?</span>
 			</div>
 			<div className="text-box-user" id="agent">
-				<span className="text-left" style={{width: 'auto'}}>Do you sell almond milk?</span>
+				<span className="text-left" style={{width: 'auto'}}>Are you live yet?</span>
 			</div>
 			<div id="ChatModal" className="chat-modal">
 				<div className="chat-modal-content">

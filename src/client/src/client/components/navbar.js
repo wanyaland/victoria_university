@@ -97,9 +97,9 @@ class NavBar extends Component{
 					</div>
 					<ul className="d-flex searchhny-form navbar-nav" style={{display: 'flex', alignItems: 'center', padding: '0px'}}>
 						<li className="">
-							<Link className="" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
+							<a className="" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
 								<span><img src="assets/images/myvu.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
-							</Link>
+							</a>
 						</li>
 						<li className={currentURL === "/contact"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 							<Link to="/contact" className="nav-link">

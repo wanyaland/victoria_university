@@ -209,7 +209,7 @@ class CurrentStudents extends Component{
                                         <p className="my-4">
                                             Find answers about fees, admissions, courses, programs, transcripts, exams, and more.
                                         </p>
-                                        <p><Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner17", "iconner18")} onMouseOut={this.change_icon2.bind(this, "iconner17", "iconner18")}>
+                                        <p><Link className="logo-2" to="/contact" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner17", "iconner18")} onMouseOut={this.change_icon2.bind(this, "iconner17", "iconner18")}>
                                             <span className="lohny-2"><span  id="iconner17" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner18" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Ask a Question</span></span>
                                             </Link>
                                         </p>

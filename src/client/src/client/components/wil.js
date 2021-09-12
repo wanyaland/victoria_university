@@ -42,7 +42,7 @@ class Wil extends Component{
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>About WIL</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
 						<br/><br/>
-						<p className="my-4" style={{fontSize: '30px'}}><b>Facts you need to know about Victoria University</b></p>
+						<p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}><b>Facts you need to know about Victoria University</b></p>
 						<p className="my-4">At Victoria University we understand that good things happen when you’re outside yourcomfort zone, away from the classroom and beyond the textbooks. That’s why integrated practical experience is embedded into all of our degrees.</p>
 						<p className="my-4">Providing meaningful, hands-on workplace experience to enrich the theoretical learning of students and to enhance the employability of graduates is a key focus of our University.</p>
 						<div className="w3l-features-1">
