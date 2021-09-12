@@ -224,9 +224,9 @@ class Tuition extends Component {
                     </p>
                     <img src="assets/images/pay_banner.jpg" className="img-fluid" alt="Discover"/>
                     <br/><br/>
-                    <h6 className="hny-title" style={{fontSize: '38px', color: '#888'}}>Payment steps for our accepted modes of payment</h6>
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Payment steps for our accepted modes of payment</h6>
                     <br/>
-                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>GTPay</h6>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#0077b5'}}>GTPay</h6>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<a href="https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Login into https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>
@@ -239,7 +239,7 @@ class Tuition extends Component {
                         </ul>
                     </p>
                     <br/>
-                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>Wire Transfer Payment Option (For International students)</h6>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#0077b5'}}>Wire Transfer Payment Option (For International students)</h6>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Account Name: Victoria University</span></li>
@@ -249,7 +249,7 @@ class Tuition extends Component {
                             <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Swift Code: GTBIUGKA</span></li>
                         </ul>
                     </p>
-                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>USSD Steps for MTN users</h6>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#0077b5'}}>USSD Steps for MTN users</h6>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<span className="">Dial *237*100#</span></li>
@@ -261,7 +261,7 @@ class Tuition extends Component {
                             <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>7</span>&emsp;<span className="">Press cancel. Then complete the prompted screen from your MM or Dial *165 #for confirmation and PIN entry</span></li>
                         </ul>
                     </p>
-                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>USSD Steps for Airtel users</h6>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#0077b5'}}>USSD Steps for Airtel users</h6>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>1</span>&emsp;<span className="">Dial *237*100#</span></li>
@@ -273,7 +273,7 @@ class Tuition extends Component {
                             <li className="mb-4 t2">&emsp;<span style={{color: '#025683'}}>7</span>&emsp;<span className="">Enter your PIN To close Transaction</span></li>
                         </ul>
                     </p>
-                    <h6 className="hny-title" style={{fontSize: '28px', color: '#888'}}>Pesapal (Click the link below to make payment)</h6>
+                    <h6 className="hny-title" style={{fontSize: '28px', color: '#0077b5'}}>Pesapal (Click the link below to make payment)</h6>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                         <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<a href="https://payments.pesapal.com/victoriauniversity" rel="noreferrer" target="_blank"   style={{color: '#025683'}}><span className="underline">Pesapal&nbsp;&nbsp;<span className="fa fa-external-link"></span></span></a></li>

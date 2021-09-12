@@ -49,14 +49,14 @@ class Search extends Component {
 				</div>
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                        <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040'}}>Website Search</h6>
+						<br/>
+                        <h6 className="hny-title" style={{fontSize: '38px',  color: '#f74040'}}>Website Search</h6>
+                        <div className="input-container">
+							<i className="fa fa-search icon"></i>
+							<input className="input-field" type="text" placeholder="Start Your Search" name="search"/>
+							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f54848'}}>Search</button>
+						</div>
                         <br/>
-                        <form action="#" method="post" className="d-flex searchhny-form" style={{border: '#999 1px solid', paddingLeft: '10px'}}>
-                            <input type="search" placeholder="Start Your Search" style={{color: '#000', width: '100%', border: 'none'}} required="required" />
-                            <button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f87a21'}}>Search</button>
-                        </form>
-                        <br/>
-                        <p className="text-center" style={{color: '#043853'}}>Found 100 search results for start</p>
                     </div>
 					<div className="search_results">
 						<h6 className="underline" style={{color: '#076ea5', fontSize: '24px'}}><b>Getting Started : Victoria University</b></h6>
@@ -85,7 +85,7 @@ class Search extends Component {
                     <div className="text-center">
                         <div className="more_results">
                             <div className=""></div>
-                            <a href="#home"> Show More Results</a>
+                            <a href="#home" className="hover-w"> Show More Results</a>
                             </div>
                     </div>
 				</div>

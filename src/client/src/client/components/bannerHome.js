@@ -34,7 +34,7 @@ class BannerHome extends Component{
 					</div> */}
 					<div>
 						<video src="assets/media/home_wel_no_txt.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video>
-						<div className="carousel-caption">
+						<div className="carousel-caption" style={{border: 'transparent 1px solid'}}>
 							<h1 className="main-header">EXPERIENCE</h1>
 							<p className="sub-head text-center">A WORK-INTEGRATED LEARNING APPROACH FOR AFRICA</p>
 							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>

@@ -127,7 +127,7 @@ class Admissions extends Component{
                                 <span className="fa fa-laptop img-fluid text-center" style={{fontSize: '250px', color: '#7ea7f5'}}></span>
                             </div>	
 							<div className="col-lg-9 mb-lg-0 mb-5">
-								<h4 className="hny-title" style={{fontSize: '32px'}}>
+								<h4 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>
 									Make your previous experience work for you: <b>Transfer Credits.</b>
 								</h4>
 								<p className="my-4">We don’t want to teach you things you already know. If you have a degree, work experience, or any other relevant experience, at VU you can make it count! Getting credit for your knowledge can save you time and money on your way</p>
@@ -150,7 +150,7 @@ class Admissions extends Component{
                                 <span className="fa fa-clock-o  text-center" style={{fontSize: '250px', color: '#7ea7f5'}}></span>
                             </div>	
 							<div className="col-lg-9 mb-lg-0 mb-5">
-								<h4 className="hny-title" style={{fontSize: '32px'}}>
+								<h4 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>
 									Dates and Deadlines? We <b>prioritize your schedule and timing.</b>
 								</h4>
 								<p className="my-4">It’s important for us to make sure that your online education syncs with your life rather than complicates it. Which is why we like to be as flexible as possible and have our admission policies reflect that.</p>
@@ -173,7 +173,7 @@ class Admissions extends Component{
                                 <span className="fa fa-mobile-phone img-fluid text-center" style={{fontSize: '250px', color: '#7ea7f5',}}></span>
                             </div>	
 							<div className="col-lg-9 mb-lg-0 mb-5">
-								<h4 className="hny-title" style={{fontSize: '32px'}}>
+								<h4 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>
 									Everything else in life works <b>pay-as you-go</b>. So should your tuition.
 								</h4>
 								<p className="my-4">After a one-time non-refundable fee when you first apply to Victoria University, you pay for your classes only when you register for them. You have full control over your pace and your finances.</p>

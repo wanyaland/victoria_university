@@ -42,7 +42,7 @@ class HowWilWorks extends Component{
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/>
                         <br/>
-                        <p className="my-4" style={{fontSize: '30px'}}>What is WIL?</p>
+                        <p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}>What is WIL?</p>
 						<p className="my-4">WIL is a new education system in Uganda introduced by Victoria University .You may have heard of WIL as practicum, clinical placement, internship or fieldwork, to name a few.</p>
 						<p className="my-4">
 							WIL also occurs in various types. While placement is the most known form, WIL can also be project-based learning, simulation activities, clinic-based, fieldwork and even virtual.
@@ -58,7 +58,7 @@ class HowWilWorks extends Component{
                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;WIL involves clearly stated outcomes and assessment, and should be consistent with quality teaching and learning.</li>
                             </ul>
                         </p>
-                        <p style={{fontSize: '30px'}}><b>How WIL Works</b></p>
+                        <p style={{fontSize: '30px', color: '#0077b5'}}><b>How WIL Works</b></p>
                         <p className="my-4">
                             WIL courses and industry experience are available to domestic and international students enrolled in most undergraduate, postgraduate or research higher degrees.
                         </p>

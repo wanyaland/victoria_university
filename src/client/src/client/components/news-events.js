@@ -33,7 +33,7 @@ class NewsHub extends Component{
 
 			<div className="row">
 				<div className="col-md-6 filter photo" style={{borderRight: '#CCC 1px solid'}}>
-					<h6 className="hny-title text-left" style={{fontSize: '24px'}}>News Feed</h6>
+					<h6 className="hny-title text-left" style={{fontSize: '24px', color: '#0077b5'}}>News Feed</h6>
 					<div className="course-content" style={{marginBottom: '10px'}}>
 						<div className="course-info">
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
@@ -89,7 +89,7 @@ class NewsHub extends Component{
 				</div>
 
 				<div className="col-md-6 filter graphic photo">
-					<h6 className="hny-title text-left" style={{fontSize: '24px'}}>Events</h6>
+					<h6 className="hny-title text-left" style={{fontSize: '24px', color: '#0077b5'}}>Events</h6>
 					<div className="course-content" style={{marginBottom: '10px'}}>
 						<div className="course-info">
 							{/* <Link to="/news" className="course-titlegulp-wrapper">
