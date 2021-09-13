@@ -33,7 +33,7 @@ class Home extends Component{
 		modal.style.display = "none";
 	}
 	 componentDidMount(){
-		document.getElementById("myModalpromo").style.display= "block";
+		//document.getElementById("myModalpromo").style.display= "block";
 	 }
     render(){
         return(
@@ -65,28 +65,34 @@ class Home extends Component{
 				<div className="row">
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
 							<p className="titled3">of employers say VU grads meet or exceed their expectations</p>
 						</div>
 					</div>
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
 							<p className="titled3">said VU graduates were well prepared for their jobs</p>
 						</div>
 					</div>
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="96" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
 							<p className="titled3">said they would hire another VU graduate</p>
 						</div>
 					</div>
