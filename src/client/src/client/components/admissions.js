@@ -69,7 +69,7 @@ class Admissions extends Component{
 								</h4>
 								<p className="my-4">Since admission requirements vary by program, degree, and course choices make sure to identify which student profile matches your interests before starting the application process!</p>
 								<p>
-									<Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+									<Link className="logo-2" to={`/prog-index/${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
 										<span className="lohny-2"><span id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Undergraduate Programs</span>
 									</Link>	
 								</p>

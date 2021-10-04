@@ -42,7 +42,7 @@ class Footer extends Component{
                         <div className="col-md-8 column">
 
                                 <a className="logo-2" href="home.php">
-                                        <label className="lohny-2" style={{fontSize: '60px'}}><img src="assets/images/fav.png" width="60" height="60" alt="img"/> VU</label></a>
+                                        <label className="lohny-2" style={{fontSize: '60px'}}><img src="/assets/images/fav.png" width="60" height="60" alt="img"/> VU</label></a>
                         </div>
                     </div>
                 </div>

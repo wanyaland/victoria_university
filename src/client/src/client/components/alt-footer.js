@@ -23,7 +23,7 @@ class AltFooter extends Component {
                     <div className="row text-center">
                         <div className="col-md-12 column">
                             <a className="logo-2 text-center" href="home.php" style={{marginRight: '0 !important'}}>
-                                <label className="" style={{fontSize: '60px'}}><img src="assets/images/fav.png" width="60" height="60" alt="img" /> Hub</label>
+                                <label className="" style={{fontSize: '60px'}}><img src="/assets/images/fav.png" width="60" height="60" alt="img" /> Hub</label>
                             </a>
                         </div>
                         <div className="col-md-12 column">

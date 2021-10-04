@@ -26,7 +26,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots orange">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to={`/prog-index${under}`}><img src="assets/images/path1.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
+						<Link className="imghr" to={`/prog-index/${under}`}><img src="assets/images/path1.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
 						<div className="details text-center hover-team" style={{height: '100%'}}>
 								{/* <div className="text-center path_stick"></div> */}
 								<div className="title_path">Online Undergraduate Programs</div><br/>
@@ -40,7 +40,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots brown">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to={`/prog-index${postg}`}><img src="assets/images/path2.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
+						<Link className="imghr" to={`/prog-index/${postg}`}><img src="assets/images/path2.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
 						<div className="details text-center hover-team2" style={{height: '100%'}}>
 								{/* <div className="text-center path_stick"></div> */}
 								<div className="title_path">Online Postgraduate Programs</div><br/>
@@ -54,7 +54,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots blue">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to={`/prog-index${diploma}`}><img src="assets/images/path3.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
+						<Link className="imghr" to={`/prog-index/${diploma}`}><img src="assets/images/path3.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
 						<div className="details text-center hover-team3" style={{height: '100%'}}>
 								{/* <div className="text-center path_stick"></div> */}
 								<div className="title_path">Online Diploma Programme</div><br/>
@@ -68,7 +68,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots purple">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to={`/prog-index${found}`}><img src="assets/images/path5.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
+						<Link className="imghr" to={`/prog-index/${found}`}><img src="assets/images/path5.jpg" className="img-fluid" alt="" style={{filter: 'brightness(65%)'}}/>
 							<div className="details text-center hover-team4" style={{height: '100%'}}>
 								{/* <div className="text-center path_stick"></div> */}
 								<div className="title_path">Online Foundations</div><br/>
@@ -82,7 +82,7 @@ class SelectPath extends Component {
 					<div className="col-md-2-5 imghrs">
 						<div className="justify-content-center pathdots red">&nbsp;</div>
 						<div className="justify-content-center pathdots_round">&nbsp;</div>
-						<Link className="imghr" to={`/prog-index${professional}`}><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(85%)'}}/>
+						<Link className="imghr" to={`/prog-index/${professional}`}><img src="assets/images/path4.jpg" className="img-fluid" alt="" style={{filter: 'brightness(85%)'}}/>
 							<div className="details text-center hover-team5" style={{height: '100%'}}>
 								{/* <div className="text-center path_stick"></div> */}
 								<div className="title_path">Professional Development Programs</div><br/>

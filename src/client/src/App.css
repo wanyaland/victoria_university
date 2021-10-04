@@ -112,6 +112,7 @@ color: #FFF;
 
 .btn_linked-view:hover{
 background-color: #014e77;
+color: #FFF;
 }
 .btn_linked-view2 {
     background-color: #0077b5;
@@ -126,6 +127,7 @@ background-color: #014e77;
 
 .btn_linked-view2:hover{
 background-color: #014e77;
+color: #FFF;
 }
 .select-interest{
     border-bottom: #CCC 1px dotted;
@@ -6989,7 +6991,7 @@ span.fa.fa-play {
         top: 20%;
     }
     .triangle-down{
-        top:12.2%;
+        top:10.4%;
         left: 46.5%;
     }
     h3.hny-title.two {
