@@ -31,6 +31,7 @@ class Footer extends Component{
             <React.Fragment>
             <Chat />
             <PayPop />
+            <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=elFld1AV4L5eoI9oxn1qLKb1xoAAmYvZvWDiT81XlryapnR1ZPqwOuWdpKsH"></script></span>
         <section className="w3l-footer-16">
     <div className="w3l-footer-16-main py-5">
         <div className="container">
