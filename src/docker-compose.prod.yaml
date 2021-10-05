@@ -36,8 +36,11 @@ services:
     nginx:
         image: wanyaland/vu_nginx
         restart: always
+        volumes:
+            ./nginx/certs:/var/www/certs
         ports:
             - 80:80
+            - 443:443
         depends_on:
           - api
           - client
