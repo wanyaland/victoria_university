@@ -23,12 +23,12 @@ class NavBar extends Component{
 			<nav className="navbar navbar-expand-lg navbar-light">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">
-						<img src="assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
+						<img src="/assets/images/logo.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 					</Link> 
 					<ul className="nav-mob">
 					<Link to="/">
 						<li className="nav-item nav-focus">
-							<img src="assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
+							<img src="/assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 						</li></Link>
 						<li className="nav-item nav-focus">
 							<Link onClick={this.toVclass} className="nav-link">myVU</Link>
@@ -48,9 +48,9 @@ class NavBar extends Component{
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
 						&nbsp;<ul className="navbar-nav">
 							<li className={currentURL === "/"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
-								<Link to="./" className="nav-link">Home</Link>
+								<Link to="/" className="nav-link">Home</Link>
 							</li>
-							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" href="#">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/about" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
@@ -67,7 +67,7 @@ class NavBar extends Component{
 							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/programs" className="nav-link">Programmes</Link>
 							</li>
-							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/admissions" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/vclass" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>VClass</Link>
@@ -81,7 +81,7 @@ class NavBar extends Component{
 									<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</a>
 								</ul>
 							</li>
-							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><Link className="dropdown-toggle nav-link" data-toggle="dropdown" >Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></Link>
+							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 								<Link to="/current-students" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 								<Link to="/exams" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
@@ -98,7 +98,7 @@ class NavBar extends Component{
 					<ul className="d-flex searchhny-form navbar-nav" style={{display: 'flex', alignItems: 'center', padding: '0px'}}>
 						<li className="">
 							<a className="" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
-								<span><img src="assets/images/myvu.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
+								<span><img src="/assets/images/myvu.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
 							</a>
 						</li>
 						<li className={currentURL === "/contact"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>

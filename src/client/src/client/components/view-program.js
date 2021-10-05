@@ -40,27 +40,27 @@ class ViewProgram extends Component {
 		})
 		if(result.faculty === "Faculty Of Business And Management"){
 			this.setState({
-				banner_src: 'assets/images/faculties/business.jpg'
+				banner_src: '/assets/images/faculties/business.jpg'
 			})
 		} else if(result.faculty === "Faculty Of Science And Technology"){
 			this.setState({
-				banner_src: 'assets/images/faculties/tech.jpg'
+				banner_src: '/assets/images/faculties/tech.jpg'
 			})
 		} else if(result.faculty === "Faculty of Health Sciences"){
 			this.setState({
-				banner_src: 'assets/images/faculties/health.jpg'
+				banner_src: '/assets/images/faculties/health.jpg'
 			})
 		} else if(result.faculty === "Faculty of Humanities and Social Sciences"){
 			this.setState({
-				banner_src: 'assets/images/faculties/humanities.jpg'
+				banner_src: '/assets/images/faculties/humanities.jpg'
 			})
-		} else if(result.faculty === "Institute Of Education And Social Sciences"){
+		} else if(result.faculty === "Faculty of Education"){
 			this.setState({
-				banner_src: 'assets/images/faculties/education.jpg'
+				banner_src: '/assets/images/faculties/education.jpg'
 			})
 		} else if(result.faculty === "School Of Law"){
 			this.setState({
-				banner_src: 'assets/images/faculties/law.jpg'
+				banner_src: '/assets/images/faculties/law.jpg'
 			})
 		}
 	}
@@ -156,7 +156,7 @@ class ViewProgram extends Component {
 					<div className="carousel-caption">
 							<h6 className="sub-head-view text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
 						<br/>
-						<p className="text-center d-block"><button className="btn_linked-view" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
+						<p className="text-center d-block"><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked-view" >Apply Online</a>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
 					</div>
 				</div>
 			</div>

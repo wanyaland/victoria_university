@@ -108,9 +108,9 @@ const App = () => (
         <Route exact path="/avail-res" component={AvailRes} />
         <Route exact path="/academic-res" component={AcademRes} />
         <Route exact path="/superv-res" component={SupervRes} />
-        <Route exact path="/view-program:program" component={ViewProgram} />
-        <Route exact path="/prog-index:program" component={ProgIndex} />
-        <Route exact path="/prog-index:facultylevel" component={ProgIndex} />
+        <Route exact path="/view-program/:program" component={ViewProgram} />
+        <Route exact path="/prog-index/:program" component={ProgIndex} />
+        <Route exact path="/prog-index/:facultylevel" component={ProgIndex} />
         <Route exact path="/life-at-vu" component={LifeVu} />
         <Route exact path="/library" component={Library} />
         <Route exact path="/covid-notice" component={CovidNotice} />

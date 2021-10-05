@@ -25,7 +25,6 @@ class Programs extends Component{
 	 }
 	 interests = () => {
 		var outllink = "no_result";
-		console.log("CLICKED")
 		var level = document.getElementById("level").value;
 		var faculty = document.getElementById("faculty").value;
 		if(level === '' || faculty === ''){
@@ -75,7 +74,7 @@ class Programs extends Component{
 			} else if(level === 'under' && faculty === 'law'){
 					outllink = 'faculty_Lawundergraduate'
 			}
-			window.location.href = 'prog-index'+outllink
+			window.location.href = 'prog-index/'+outllink
 		}
 	}
     render(){
@@ -220,23 +219,23 @@ class Programs extends Component{
 									<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>How VU Work</h5>
 								</Link><br/>
 							<div className="text-left" style={{width: '60%', margin: '0 auto'}}>
-								<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+								<p><Link className="logo-2" to={`/prog-index/${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
 										<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 										</Link>
 								</p>
-								<p><Link className="logo-2" to={`/prog-index${postg}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${postg}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
 									</Link>
 								</p>        
-								<p><Link className="logo-2" to={`/prog-index${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Diploma Programs</span></span>
 									</Link>
 								</p>        
-								<p><Link className="logo-2" to={`/prog-index${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Foundations Programs</span></span>
 									</Link>
 								</p>        
-								<p><Link className="logo-2" to={`/prog-index${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Professional Development Programs</span></span>
 									</Link>
 								</p>        
@@ -264,23 +263,23 @@ class Programs extends Component{
 									<h5 className="lohny-2 text-center underline" style={{color:'#0077b5'}}>HOW VU Work</h5>
 								</Link><br/>
 							<div className="text-left" style={{width: '60%', margin: '0 auto'}}>
-								<p><Link className="logo-2" to={`/prog-index${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+								<p><Link className="logo-2" to={`/prog-index/${under}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
 									<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Undergraduate Programs</span></span>
 									</Link>
 								</p>
-								<p><Link className="logo-2" to={`/prog-index${postg}`}style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+								<p><Link className="logo-2" to={`/prog-index/${postg}`}style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 									<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Postgraduate Programs</span></span>
 									</Link>
 								</p>
-								<p><Link className="logo-2" to={`/prog-index${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${diploma}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Diploma Programs</span></span>
 									</Link>
 								</p>        
-								<p><Link className="logo-2" to={`/prog-index${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${found}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Foundations Programs</span></span>
 									</Link>
 								</p>        
-								<p><Link className="logo-2" to={`/prog-index${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
+								<p><Link className="logo-2" to={`/prog-index/${professional}`} style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner7", "iconner8")} onMouseOut={this.change_icon2.bind(this, "iconner7", "iconner8")}>
 									<span className="lohny-2"><span  id="iconner7" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner8" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Professional Development Programs</span></span>
 									</Link>
 								</p>    
@@ -304,11 +303,11 @@ class Programs extends Component{
 						<p className="my-4" style={{fontSize: '18px'}}>Our Foundation, Diploma, Bachelor and Masters programs are taught using a work-integrated learning approach where students study and work simultaneously with the objective of graduating with two to three years’ experience. How VU Core Courses Are Taught: </p>
 						<p className="my-4">
 							<ul style={{listStyle: 'none'}}>
-							<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
+							<Link to={`/prog-index/${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
 							</ul>
 						</p>
 						<p className="my-4" style={{fontWeight: '500', fontSize: '28px'}}>Professional Development Courses</p>
@@ -317,11 +316,11 @@ class Programs extends Component{
 						</p>
 						<p className="my-4">
 							<ul style={{listStyle: 'none'}}>
-							<Link to={`/prog-index${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
-								<Link className="logo-2" to={`/prog-index${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
+							<Link to={`/prog-index/${postg}`} ><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Masters</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${under}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Bachelors</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${diploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${found}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations</li></Link><br/>
+								<Link className="logo-2" to={`/prog-index/${professional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Development Courses</li></Link><br/>
 							</ul>
 						</p>
 					</div>
