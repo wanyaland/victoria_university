@@ -34,13 +34,13 @@ class BannerHome extends Component{
 					</div> */}
 					<div>
 						<video src="assets/media/home_wel_no_txt.mp4" className="img-fluid" alt="" autoPlay="true" muted="true" style={{width: '100%'}} loop="true"></video>
-						<div className="carousel-caption">
+						<div className="carousel-caption" style={{border: 'transparent 1px solid'}}>
 							<h1 className="main-header">EXPERIENCE</h1>
 							<p className="sub-head text-center">A WORK-INTEGRATED LEARNING APPROACH FOR AFRICA</p>
 							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>
 							<div className="v-btn-link">
 								{/* <div className="eff-4"></div> */}
-								<button className="btn_linked" onClick={this.toVclass}>Take a Tour of VClass</button>
+								<a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked" >Take a Tour of VClass</a>
 							  </div>
 							
 						</div>

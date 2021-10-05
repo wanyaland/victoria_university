@@ -35,18 +35,16 @@ class Benefits extends Component{
 	<div className="team py-5">
 		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
-				<div className="col-lg-3">
-					<WilNav />
-				</div>
+				<WilNav />
 				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF', borderTopLeftRadius: '0px'}}>
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Benefits</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/>
                         <br/>
-                        <p style={{fontSize: '30px'}}><b>What can WIL do for your organisation?</b></p>
-						<p className="my-4">Victoria University's commitment to providing world-class learning opportunities for its students underpins WIL as a process of reciprocal involvement for the mutual benefit of all involved.</p>
-                        <p className="my-4" style={{fontSize: '30px'}}><b>Benefits for hosts:</b></p>
+                        <p style={{fontSize: '30px', color: '#0077b5'}}><b>What can WIL do for your organisation?</b></p>
+						<p className="my-4">Victori, a University's commitment to providing world-class learning opportunities for its students underpins WIL as a process of reciprocal involvement for the mutual benefit of all involved.</p>
+                        <p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}><b>Benefits for hosts:</b></p>
                         <p className="my-4">
                             <ul style={{listStyle: 'none'}}>
                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-check-circle-o"></span>&emsp;Benefit from the injection of new and innovative ideas, cognitive diversity, and ‘fresh eyes’ of students.</li>
@@ -56,7 +54,7 @@ class Benefits extends Component{
                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-check-circle-o"></span>&emsp;Engage directly with the Victoria University and help to shape the future of the degree programs offered by the world-class organisation.</li>
                             </ul>
                         </p>
-                        <p className="my-4" style={{fontSize: '34px'}}><b>Benefits for students:</b></p>
+                        <p className="my-4" style={{fontSize: '34px', color: '#0077b5'}}><b>Benefits for students:</b></p>
                         <p className="my-4">
                             <ul style={{listStyle: 'none'}}>
                                 <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-check-circle-o"></span>&emsp;WIL makes students career-ready.</li>

@@ -22,7 +22,7 @@ class Testimonies extends Component{
             <React.Fragment>
 <section className="w3l-specification-6">
 	<div className="specification-content py-5"  style={{backgroundColor: '#FFF'}}>
-	<p><h6 className="hny-title text-center" style={{color: '#555', fontSize: '40px'}}>What Our Students Say</h6></p>
+	<p><h6 className="hny-title text-center" style={{color: '#0077b5', fontSize: '40px'}}>What Our Students Say</h6></p>
 		<div className="container" style={{maxWidth: '100%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
 			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">

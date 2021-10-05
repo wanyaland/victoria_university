@@ -28,8 +28,12 @@ class Home extends Component{
 		var modal = document.getElementById("cal-myModal");
 		modal.style.display = "block";
 	}
+	promoClose() {
+		var modal = document.getElementById("myModalpromo");
+		modal.style.display = "none";
+	}
 	 componentDidMount(){
-
+		//document.getElementById("myModalpromo").style.display= "block";
 	 }
     render(){
         return(
@@ -37,6 +41,13 @@ class Home extends Component{
 		<BreadNavBar />
 		<NavBar />
 		<BannerHome />
+		<div id="myModalpromo" className="modalpromo">
+			<div className="modal-content-promo">
+				<span className="closepromo underline" onClick={this.promoClose}>Close</span>
+				<img src="assets/images/admissions.jpg" className="img-fluid" alt="PROMO" />
+			</div>
+		</div>
+
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container py-lg-5">
@@ -44,9 +55,9 @@ class Home extends Component{
 			</div>
 			<div className="counter-main-sec">
 				<div className="">
-					<h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3>
+					<Link to="/about"><h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3></Link>
 					<br/>
-					<h4 className="hny-title text-center" style={{color: '#002c44'}}>Victoria University</h4>
+					<h4 className="hny-title text-center" style={{color: '#555'}}>Victoria University</h4>
 					<div className="text-center longdash"></div>
 				</div>
 				<br/>
@@ -54,30 +65,36 @@ class Home extends Component{
 				<div className="row">
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Beyond Expectations</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
+							<p className="titled3">of employers say VU grads meet or exceed their expectations</p>
 						</div>
-						<p>of employers say VU grads meet or exceed their expectations</p>
 					</div>
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Prepared For The Jobs</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="97" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
+							<p className="titled3">said VU graduates were well prepared for their jobs</p>
 						</div>
-						<p>said VU graduates were well prepared for their jobs</p>
 					</div>
 					<div className="counter-gd col-md-4 text-center">
 						<h4 className="titled4" style={{color: '#e25252'}}>Top Candidates</h4>
+						<br/>
 						<div id="counters_3">
 							<h6 className="titled">
 								<span className="counter" data-TargetNum="96" data-Speed="2000">0</span><span>%</span>
 							</h6>
+							<br/>
+							<p className="titled3">said they would hire another VU graduate</p>
 						</div>
-						<p>said they would hire another VU graduate</p>
 					</div>
 				</div>
 				<br/><br/>
@@ -100,7 +117,7 @@ class Home extends Component{
 	<div className="content-5-main" style={{border: 'red 1px solid'}}>
 		<div className="container">
 			<div className="content-info-in row">*/}
-				<img src="assets/images/discover.png" className="img-fluid" alt="Discover"/>
+				<Link to="/glance"><img src="assets/images/discover.png" className="img-fluid" alt="Discover"/></Link>
 			{/*</div>
 			<div className="content-info-in row">
 			</div>

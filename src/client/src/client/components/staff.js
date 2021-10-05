@@ -155,7 +155,7 @@ class Staff extends Component {
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
 					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Alone Kimwise (PhD-MIS, MBA-IT,BSE)</h6><p className="my-2">Dean Faculty of Science and Technology</p>
-					<p className="my-4">He is the Dean, Faculty of Business and Management at Victoria University. <br/><br/>Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.</p>
+					<p className="my-4">Alone Kimwise (PhD) is currently a Dean and Senior Lecturer in faculty of Science and Technology at Victoria University, former Principal investigator, Acting ICT Director; and Head of Computing Department at Kampala International University (KIU). He has worked at higher education institutions both local and international levels. He has also served under the Inter-University Council of East Africa (IUCEA) arrangement of staff exchange at Independent University of Kigali (ULK) and University of Technology and Arts, Byumba, Rwanda (UTAB).</p>
 					<p className="mb-4"></p>
 					<button className="bio_btn" id="myBtn_bio" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 					<br/>

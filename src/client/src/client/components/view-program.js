@@ -4,7 +4,7 @@ import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer'
 import Data from './data/courses.json'
-import { Link } from 'react-router-dom';
+///
 
 class ViewProgram extends Component {
 	constructor(props) {
@@ -40,27 +40,27 @@ class ViewProgram extends Component {
 		})
 		if(result.faculty === "Faculty Of Business And Management"){
 			this.setState({
-				banner_src: 'assets/images/faculties/business.jpg'
+				banner_src: '/assets/images/faculties/business.jpg'
 			})
 		} else if(result.faculty === "Faculty Of Science And Technology"){
 			this.setState({
-				banner_src: 'assets/images/faculties/tech.jpg'
+				banner_src: '/assets/images/faculties/tech.jpg'
 			})
 		} else if(result.faculty === "Faculty of Health Sciences"){
 			this.setState({
-				banner_src: 'assets/images/faculties/health.jpg'
+				banner_src: '/assets/images/faculties/health.jpg'
 			})
 		} else if(result.faculty === "Faculty of Humanities and Social Sciences"){
 			this.setState({
-				banner_src: 'assets/images/faculties/humanities.jpg'
+				banner_src: '/assets/images/faculties/humanities.jpg'
 			})
-		} else if(result.faculty === "Institute Of Education And Social Sciences"){
+		} else if(result.faculty === "Faculty of Education"){
 			this.setState({
-				banner_src: 'assets/images/faculties/education.jpg'
+				banner_src: '/assets/images/faculties/education.jpg'
 			})
 		} else if(result.faculty === "School Of Law"){
 			this.setState({
-				banner_src: 'assets/images/faculties/law.jpg'
+				banner_src: '/assets/images/faculties/law.jpg'
 			})
 		}
 	}
@@ -118,12 +118,21 @@ class ViewProgram extends Component {
 		var admission = document.getElementById('admission')
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><p class="my-4" style="font-size: 18px"><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">Local Students</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX '+this.state.course_prog.local_func_fee+'<br>Registration Fee: UGX 50,000<br>Application Fee: UGX 160,000<br><hr style="width:100%;"><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 500;">International Students</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD '+this.state.course_prog.int_func_fee+'<br>Registration Fee: USD 16<br>Application Fee: USD 51</p>'
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><p class="my-4" style="font-size: 18px"><br><h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Local Students</h6><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">First Semester</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX '+this.state.course_prog.local_func_fee+'<br>Registration Fee: UGX 50,000<br>Application Fee: UGX 160,000<br><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">Second Semester</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX 0<br>Registration Fee: UGX 0<br>Application Fee: UGX 0<br><hr style="width:100%;"/><h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">International Students</h6><br/><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">First Semester</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD '+this.state.course_prog.int_func_fee+'<br>Registration Fee: USD 16<br>Application Fee: USD 51<br><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">Second Semester</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD 0<br>Registration Fee: USD 0<br>Application Fee: USD 0</p>'
 		overview.classList.remove('activeSummaryRed')
 		duration.classList.remove('activeSummaryBlue')
 		admission.classList.remove('activeSummaryPurple')
 		tuition.classList.add('activeSummaryBrown')
 
+	}
+	glance = () => {
+		window.location.href = "#glance"
+	}
+	getInfo = () => {
+		window.location.href = "#get-info"
+	}
+	resources = () => {
+		window.location.href = "#resources"
 	}
     render(){
 		//const { search } = this.props.location
@@ -145,9 +154,9 @@ class ViewProgram extends Component {
 						<img className="w-100" src={this.state.banner_src} style={{filter: 'brightness(70%)'}} alt="slide"/>
 					</div>
 					<div className="carousel-caption">
-							<h6 className="sub-head-view" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
+							<h6 className="sub-head-view text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
 						<br/>
-						<p className="text-center d-block"><button className="btn_linked-view" onClick={this.apply}>Apply Online</button>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
+						<p className="text-center d-block"><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked-view" >Apply Online</a>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
 					</div>
 				</div>
 			</div>
@@ -160,17 +169,17 @@ class ViewProgram extends Component {
 			<div className="container-fluid">
 				<div className="row">
 					<ol className="accounts col-md-12 justify-content-center">
-                        <li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Start your journey</span></li>
-						<li className="breadcrumb-item" style={{color: '#000'}}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Related Programmes</span></li>
+                        <li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.glance}><span className="fa fa-gears" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;At a Glance</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.viewSummary}><span className="fa fa-dot-circle-o" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Program Summary</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.resources}><span className="fa fa-photo" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Resources & Links</span></li>
+						<li className="breadcrumb-item cursor" style={{color: '#000'}} onClick={this.getInfo}><span className="fa fa-cubes" style={{fontSize: '32px', color: '#013f61'}}></span><span className="titled4 text-hider" style={{color: '#0077b5'}}>&nbsp;Get information</span></li>
 					</ol>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section className="w3l-specification-6">
+<section className="w3l-specification-6" id="glance">
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
 			<h6 className="hny-title text-center" style={{fontSize: '32px'}}><span className="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
@@ -222,7 +231,7 @@ class ViewProgram extends Component {
 		</div>
 	</div>
 </section>
-<section className="w3l-features-1">
+<section className="w3l-features-1" id="resources">
 	<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 		<div className="container py-lg-5" style={{border: '#c2c2c2 10px solid', paddingBottom: '0rem !important'}}>
                 <div className="row grids-innf my-lg-5" style={{marginTop: '0 !important', marginBottom: '0 !important', padding: '20px'}}>
@@ -238,7 +247,7 @@ class ViewProgram extends Component {
                         </div>
 						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
-								<Link to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></Link>
+								<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></a>
 							</ul>
 						</p>
                     </div>
@@ -267,6 +276,7 @@ class ViewProgram extends Component {
 		</div>
 	</div>
 </section>
+<div id="get-info"></div>
                 <GetInfo />
                 <Footer />
             </React.Fragment>

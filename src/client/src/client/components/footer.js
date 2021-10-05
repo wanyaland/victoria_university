@@ -20,7 +20,7 @@ class Footer extends Component{
         window.location.href = "https://payments.pesapal.com/victoriauniversity";
     } */
     apply(){
-        window.location.href = "apply-now";
+        window.location.href = "https://eadmissions.vu.ac.ug/";
     }
     popPay(){
 		var modal = document.getElementById("pay-myModal");
@@ -31,6 +31,7 @@ class Footer extends Component{
             <React.Fragment>
             <Chat />
             <PayPop />
+            <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=elFld1AV4L5eoI9oxn1qLKb1xoAAmYvZvWDiT81XlryapnR1ZPqwOuWdpKsH"></script></span>
         <section className="w3l-footer-16">
     <div className="w3l-footer-16-main py-5">
         <div className="container">
@@ -41,7 +42,7 @@ class Footer extends Component{
                         <div className="col-md-8 column">
 
                                 <a className="logo-2" href="home.php">
-                                        <label className="lohny-2" style={{fontSize: '60px'}}><img src="assets/images/fav.png" width="60" height="60" alt="img"/> VU</label></a>
+                                        <label className="lohny-2" style={{fontSize: '60px'}}><img src="/assets/images/fav.png" width="60" height="60" alt="img"/> VU</label></a>
                         </div>
                     </div>
                 </div>

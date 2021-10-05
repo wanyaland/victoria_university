@@ -69,14 +69,14 @@ class CovidNotice extends Component{
                     <p className="my-4" style={{fontSize: '18px'}}>
                     With the evolving COVID-19 global pandemic we are taking measures to protect learners and team members. We will regularly update information on this page to keep you apprised of changes.
                     </p>
-                    <p className="my-4" style={{fontSize: '24px', fontWeight: '400'}}>Please take care</p>
+                    <p className="my-4" style={{fontSize: '24px', fontWeight: '400', color: '#0077b5'}}>Please take care</p>
                     <p className="my-4">Please follow the advice and guidance of public officials in your community.</p>
                     <p className="my-4">This will save lives.</p>
                     <p className="my-4">Be kind and patient. We must stick together.</p>
-                    <p className="my-4" style={{fontSize: '24px', fontWeight: '400'}}>Service changes</p>
+                    <p className="my-4" style={{fontSize: '24px', fontWeight: '400', color: '#0077b5'}}>Service changes</p>
                     <p className="my-4">While our university remains open to support you and classes will continue as usual, we are adjusting to help keep our AU team members safe and, wherever possible, working from home. </p>
                     <p className="my-4">Reaching us by email is the most efficient method. Email contacts are listed in the Quick Reference section of the Learner Q&A. </p>
-                    <p className="my-4" style={{fontSize: '28px', fontWeight: '400'}}>Helpful links</p>
+                    <p className="my-4" style={{fontSize: '28px', fontWeight: '400', color: '#0077b5'}}>Helpful links</p>
                     <p className="my-4">Follow these sites for up-to-date information and advice:</p>
                     <p className="my-2" style={{color: '#0077b5'}}>&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<a href="https://www.health.go.ug/covid/" className="underline" style={{color: '#0077b5'}} target="_blank" rel="noreferrer">Government of Uganda COVID-19 information</a></p>
                     <p className="my-2">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" className="underline" style={{color: '#0077b5'}} target="_blank" rel="noreferrer">World Health Organization COVID-19 information</a></p>

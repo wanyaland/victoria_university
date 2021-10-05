@@ -94,6 +94,8 @@ class ProgIndex extends Component {
 			this.getFacLawPost()
 		} else if(this.props.match.params.program === "faculty_Lawundergraduate"){
 			this.getFacLawUnder()
+		} else if(this.props.match.params.program === "no_result"){
+			this.no_result()
 		}
 	}
 	getAllCourses = () => {
@@ -294,6 +296,13 @@ class ProgIndex extends Component {
 			courses: result,
 			courses_title: "Diploma",
 			courses_desc: 'Victoria University offers Diploma  programs  They are listed below under their respective faculties'
+		})
+	}
+	no_result = () => {
+		this.setState({
+			courses: [],
+			courses_title: "No results",
+			courses_desc: ''
 		})
 	}
 	postCount = () =>{

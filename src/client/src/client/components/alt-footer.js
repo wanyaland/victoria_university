@@ -13,6 +13,7 @@ class AltFooter extends Component {
         return(
             <React.Fragment>
                 <Chat />
+                <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=elFld1AV4L5eoI9oxn1qLKb1xoAAmYvZvWDiT81XlryapnR1ZPqwOuWdpKsH"></script></span>
                 <section className="w3l-footer-16">
     <div className="w3l-footer-16-main py-5" id="fixer5">
         <div className="container">
@@ -22,7 +23,7 @@ class AltFooter extends Component {
                     <div className="row text-center">
                         <div className="col-md-12 column">
                             <a className="logo-2 text-center" href="home.php" style={{marginRight: '0 !important'}}>
-                                <label className="" style={{fontSize: '60px'}}><img src="assets/images/fav.png" width="60" height="60" alt="img" /> Hub</label>
+                                <label className="" style={{fontSize: '60px'}}><img src="/assets/images/fav.png" width="60" height="60" alt="img" /> Hub</label>
                             </a>
                         </div>
                         <div className="col-md-12 column">

@@ -98,10 +98,10 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <Link to={`prog-index${faculty_BusPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_BusUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_BusDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_BusProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_BusPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_BusUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_BusDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_BusProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -115,10 +115,10 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                            <Link to={`prog-index${faculty_TechPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_TechUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_TechDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_TechProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
+                                            <Link to={`prog-index/${faculty_TechPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_TechUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_TechDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_TechProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -132,10 +132,10 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <Link to={`prog-index${faculty_HealthPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HealthUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HealthProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HealthFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HealthPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HealthUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HealthProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HealthFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -149,11 +149,11 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                                <Link to={`prog-index${faculty_HumanPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HumanUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HumanDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HumanProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index${faculty_HumanFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -167,12 +167,12 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                            <Link to={`prog-index${faculty_EduPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
+                                            <Link to={`prog-index/${faculty_EduPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post Graduate <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                            <Link to={`prog-index${faculty_EduUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li></Link>
+                                            <Link to={`prog-index/${faculty_EduUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -186,8 +186,8 @@ class Faculties extends Component {
                                     <div className="" style={{width: '100%', backgroundColor: '#fff'}}>
                                         <p className="my-4">
                                             <ul style={{listStyle: 'none'}}>
-                                            <Link to={`prog-index${faculty_LawPost}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post graduate <span className="fa fa-external-link"></span></li></Link>
-                                            <Link to={`prog-index${faculty_LawUner}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li></Link>
+                                            <Link to={`prog-index/${faculty_LawPost}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Post graduate <span className="fa fa-external-link"></span></li></Link>
+                                            <Link to={`prog-index/${faculty_LawUner}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Under graduate <span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
