@@ -7500,7 +7500,7 @@ span.fa.fa-play {
     margin: 0 auto;
 }
 .howvu{
-    width: 40%;
+    width: 55%;
     margin: 0 auto;
     background-color: #0077b5;
     padding: 3px 0px;
@@ -19398,3 +19398,6 @@ color: #FFF;
     color: #FFF;
 }
 /*  */
+.hover-color:hover{
+    filter: brightness(80%);
+}

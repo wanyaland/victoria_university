@@ -51,7 +51,7 @@ import ViewProgram from './client/components/view-program';
 import LifeVu from './client/components/life-at-vu';
 import Library from './client/components/library';
 import CovidNotice from './client/components/covid-notice';
-import ExecTeam from './client/components/executive-team';
+import ExecTeam from './client/components/team';
 import Gallery from './client/components/gallery';
 import WilLand from './client/components/wil-landing';
 
@@ -69,7 +69,7 @@ const App = () => (
         <Route exact path="/programs" component={Programs} />
         <Route exact path="/admissions" component={Admissions} />
         <Route exact path="/careers" component={Careers} />
-        <Route exact path="/council" component={Council} />
+        {/* <Route exact path="/council" component={Council} /> */}
         <Route exact path="/alumni" component={Alumni} />
         <Route exact path="/partners" component={Partners} />
         <Route exact path="/apply" component={Apply} />
@@ -79,7 +79,7 @@ const App = () => (
         <Route exact path="/student-profile" component={StudentProfile} />
         <Route exact path="/news" component={News} />
         <Route exact path="/events-hub" component={EventsHub} />
-        <Route exact path="/dates-deadlines" component={Keydates} />
+       {/*  <Route exact path="/dates-deadlines" component={Keydates} /> */}
         <Route exact path="/tuition-fees" component={Tuition} />
         <Route exact path="/transfer-credit" component={TransferCredit} />
         <Route exact path="/glance" component={Glance} />
@@ -114,7 +114,7 @@ const App = () => (
         <Route exact path="/life-at-vu" component={LifeVu} />
         <Route exact path="/library" component={Library} />
         <Route exact path="/covid-notice" component={CovidNotice} />
-        <Route exact path="/executive-team" component={ExecTeam} />
+        <Route exact path="/team" component={ExecTeam} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/wil-landing" component={WilLand} />
       </Switch>

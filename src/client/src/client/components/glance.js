@@ -62,8 +62,8 @@ class Glance extends Component {
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5">
             <div className="welcome-grids row">
-                <div className="welcome-image" style={{width: '100%'}}>
-                    <video src="assets/media/message from vc.mp4" className="img-fluid" alt="" autoPlay="true" controls="true" style={{width: '100%'}}/>
+                <div className="welcome-image text-center" style={{width: '100%'}}>
+                    <video src="assets/media/message from vc.mp4" className="img-fluid" alt="" autoPlay="true" controls="true" style={{width: '80%'}}/>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ class Glance extends Component {
         </div>
     </div>
 </section>
-<section className="w3l-wecome-content-6">
+{/* <section className="w3l-wecome-content-6">
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
@@ -98,6 +98,28 @@ class Glance extends Component {
                         </ul>
                     </p>
                     <p className="my-4">While work experience, volunteering and the like can be valuable to increase student employability skills, it is not work integrated learning. Work Integrated Learning - or WIL as we like to call it - is an umbrella term used to describe a range of approaches that integrate theory with the practice of work within a purposefully designed curriculum. That means, for it to be WIL, it needs to be part of a course or a graduation requirement of a program.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> */}
+<section className="w3l-wecome-content-6">
+    <div className="ab-content-6-mian py-5">
+        <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+            <div className="welcome-grids row">
+                <div className="col-lg-12 mb-lg-0 mb-5">
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>What Makes VU Unique</h6>
+                    <br/>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Online learning</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Work Integrated Learning</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Multi-Culture student’s community</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Student’s research support </li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Strategic Location</li>
+                        </ul>
+                    </p>
+                    {/* <p className="my-4">While work experience, volunteering and the like can be valuable to increase student employability skills, it is not work integrated learning. Work Integrated Learning - or WIL as we like to call it - is an umbrella term used to describe a range of approaches that integrate theory with the practice of work within a purposefully designed curriculum. That means, for it to be WIL, it needs to be part of a course or a graduation requirement of a program.</p> */}
                 </div>
             </div>
         </div>
