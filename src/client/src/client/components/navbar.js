@@ -54,14 +54,14 @@ class NavBar extends Component{
 								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/about" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
-									<Link to="/council" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Governing Team</Link>
-									<Link to="/executive-team" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
-									<Link to="/trustees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link>
+									<Link to="/team" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Teams</Link>
+									{/* <Link to="/executive-team" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
+									<Link to="/trustees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link> */}
 									<li><Link to="/faculties" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link></li>
 									<Link to="/governing" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
 									<Link to="/history" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>History</Link>
 									<Link to="/partners" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
-									<Link to="/staff" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Management Team</Link>
+									{/* <Link to="/staff" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Management Team</Link> */}
 								</ul>
 							</li>
 							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
@@ -75,7 +75,7 @@ class NavBar extends Component{
 									<Link to="/requirements" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
 									<Link to="/student-guidelines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
 									<Link to="/transfer-credit" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Exemption and Transfer Credit</Link>
-									<Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link>
+									{/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link> */}
 									<Link to="/tuition-fees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Tuition and Fees</Link>
 									<Link to="/apply" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
 									<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</a>

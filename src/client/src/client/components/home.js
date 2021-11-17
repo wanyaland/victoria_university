@@ -55,7 +55,7 @@ class Home extends Component{
 			</div>
 			<div className="counter-main-sec">
 				<div className="">
-					<Link to="/about"><h3 className="hny-title text-center howvu" style={{color: '#fff'}}>HOW VU WORKS<span className="triangle-down text-center"></span></h3></Link>
+					<Link to="/about"><h3 className="hny-title text-center howvu" style={{color: '#fff'}}>We Are The University Of You<span className="triangle-down text-center"></span></h3></Link>
 					<br/>
 					<h4 className="hny-title text-center" style={{color: '#555'}}>Victoria University</h4>
 					<div className="text-center longdash"></div>
@@ -103,9 +103,9 @@ class Home extends Component{
                         <h3 className="lohny-2 text-center" style={{color:'#0077b5'}}><span className="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
 					</a> */}
                     <p>
-					<Link className="logo-2" to="/about" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+					<a className="logo-2" href="about#unique" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 						<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;&nbsp;&nbsp;</span><span className="underline">What Makes VU Unique</span>
-					</Link>
+					</a>
 					</p>   
 				</div>
 			</div>
@@ -157,7 +157,7 @@ class Home extends Component{
 						<h6 className="text-center">Online Education</h6>
 						<span className="dot orange"></span>
 						<p><Link to="/vclass">Visit VClass</Link></p>
-						<p><Link to="/about">How VU Works</Link></p>
+						{/* <p><Link to="/about">How VU Works</Link></p> */}
 					</div>
 					<div style={{border: '#000 1px solid;'}}></div>
 					<div className="text-center smalldash orange_d"></div>
@@ -200,7 +200,7 @@ class Home extends Component{
 				</div>
 			</div>
 			{/* First close */}
-			</div>
+		</div>
 	</div>
 </section>
 <hr className="text-center" style={{color:'#000', width: '90%'}}></hr>

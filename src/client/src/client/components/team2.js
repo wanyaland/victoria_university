@@ -31,7 +31,7 @@ class ExecTeam extends Component {
                     <Link to="/about"><span className="underline" style={{color: "#EEE"}}>
 					About 
 					</span></Link>&nbsp;
-					<span style={{color: '#EEE'}}>/ Executive Team</span>
+					<span style={{color: '#EEE'}}>/ Our Team</span>
 				</div>
 			</div>
 		</div>

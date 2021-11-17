@@ -108,7 +108,7 @@ class AboutUs extends Component{
 	  <div className="ab-content-6-mian py-5">
 			 <div className="container py-lg-5">
 					<div className="welcome-grids row">
-							<div className="col-lg-6 mb-lg-0 mb-5">
+							<div className="col-lg-12 mb-lg-0 mb-5">
 								<h6>About Us</h6>
 								<h3 className="hny-title">
 									Victoria University
@@ -117,7 +117,7 @@ class AboutUs extends Component{
 								<p className="mb-4"></p>
 								<br/>
 							</div>
-							<div className="col-lg-6 welcome-image">
+							{/* <div className="col-lg-6 welcome-image">
 									<div className="" style={{width: '100%', border:'#CCC 10px solid', backgroundColor: '#FFF'}}>
 										<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
 										 	<li className="w3-display-container"><Link to="/governance"><span className="fa fa-rocket"></span>&nbsp;&nbsp;&nbsp;Missions And Mandate <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
@@ -130,7 +130,7 @@ class AboutUs extends Component{
 											<li className="w3-display-container"><Link to="/governance"><span className="fa fa-book"></span>&nbsp;&nbsp;&nbsp;Key Facts<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"><span className="fa fa-angle-right"></span></span></Link></li>
 										</ul>
 									</div>
-							</div>
+							</div> */}
 						</div>
 				 </div>
 			</div>
@@ -157,14 +157,39 @@ class AboutUs extends Component{
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
 					<br/>
-					<p className="text-center">
+					{/* <p className="text-center">
 						<Link className="logo-2" to="/governing" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
 							<span className="lohny-2"><span id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About Victoria University</span>
 						</Link>	
-					</p>
+					</p> */}
 				</div>
 			</div>
 		</div>
+	</div>
+</section>
+<section className="w3l-specification-6" id="unique">
+	<div className="specification-content py-5">
+		<div className="container py-lg-5">
+			<h3 className="hny-title text-center">What Makes VU Unique</h3>
+			<div className="mission-grids-info row">
+				<div className="mission-gd-right col-lg-12 pl-lg-12 text-center">
+					<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Students graduate with 2-3 year work experience</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Experiencial learning</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Writing exams</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Internship and Job placement 4.Best in offering online classes</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Located in the heart of Kampala</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Diverse culture </p>
+				</div>
+				{/* <div className="mission-gd-right col-lg-6 pl-lg-4">
+						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
+				</div> */}
+			</div>
+			{/* <p className="text-center">
+				<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+						<span className="lohny-2"><span id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About VU Accreditation</span>
+				</Link>	
+			</p> */}
+        </div>
 	</div>
 </section>
 <section className="w3l-specification-6" id="credit">
@@ -179,11 +204,11 @@ class AboutUs extends Component{
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>
 				</div> */}
 			</div>
-			<p className="text-center">
+			{/* <p className="text-center">
 				<Link className="logo-2" href="home" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 						<span className="lohny-2"><span id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040',color: '#FFF'}}></span>&nbsp;</span><span className="underline">Learn More About VU Accreditation</span>
 				</Link>	
-			</p>
+			</p> */}
         </div>
 	</div>
 </section>
