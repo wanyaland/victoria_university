@@ -19,7 +19,7 @@ class Admissions extends Component{
 		element2.classList.remove("block");
 	 }
     render(){
-		const under = 'undergraduate'
+		//const under = 'undergraduate'
         return(
             <React.Fragment>
                 <BreadNavBar />
