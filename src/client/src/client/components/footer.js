@@ -48,7 +48,7 @@ class Footer extends Component{
             </div>
                     <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=elFld1AV4L5eoI9oxn1qLKb1xoAAmYvZvWDiT81XlryapnR1ZPqwOuWdpKsH"></script></span>
 					<div className="appyl-sub-icon-info">
-						<p style={{color: '#FFF'}}>Victoriadsadsa University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover.</p>
+						<p style={{color: '#FFF'}}>Victoria University is home to opportunities. It’s where you’ll leave behind what’s familiar and step into a world of endless possibilities. Who you are, what you want, where you’ll go, and how you can impact your community, country and the world are yours to discover.</p>
 					</div>
 					<div className="columns-2 mt-md-0 mt-3">
 						<ul className="social text-right">
