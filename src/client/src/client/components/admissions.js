@@ -19,7 +19,7 @@ class Admissions extends Component{
 		element2.classList.remove("block");
 	 }
     render(){
-		const under = 'undergraduate'
+		//const under = 'undergraduate'
         return(
             <React.Fragment>
                 <BreadNavBar />
@@ -59,7 +59,7 @@ class Admissions extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-wecome-content-6">
+{/* <section className="w3l-wecome-content-6">
 	  <div className="ab-content-6-mian py-5">
 			 <div className="container py-lg-5">
 					<div className="welcome-grids row">
@@ -81,7 +81,7 @@ class Admissions extends Component{
 						</div>
 				 </div>
 			</div>
-</section>
+</section> */}
 <section className="w3l-wecome-content-6">
 	  <div className="ab-content-6-mian py-5">
 			 <div className="container py-lg-5">
@@ -105,20 +105,17 @@ class Admissions extends Component{
 				 </div>
 			</div>
 </section>
-<section className="w3l-content-5">
+{/* <section className="w3l-content-5">
 	<img src="assets/images/admission_banner.jpg" className="img-fluid" alt="Discover"/>
-</section>
-<section className="w3l-footer-16 text-center">
+</section> */}
+{/* <section className="w3l-footer-16 text-center">
     <div className="container">
         <br/>
         <span className="fa fa-puzzle-piece text-center" style={{color: 'steelblue', fontSize: '80px'}}></span>
         <h5 className="hny-title text-center" style={{color:'#0077b5', fontSize: '30px'}}>Wherever you want to take your online education, Victoria University is <b>the perfect fit for you.</b></h5>
     </div>
-</section>
-<br/>
-<br/>
-<br/>
-<br/>
+</section> */}
+
 <section className="w3l-wecome-content-6">
 	  <div className="ab-content-6-mian py-5">
 			 <div className="container py-lg-5">

@@ -68,7 +68,7 @@ class StudentGuidelines extends Component{
 					<div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>International Student Guidelines</h6>
 						<br/>
-						<p className="my-4" style={{fontSize: '32px'}}>Make the most of your experience at Victoria University </p>
+						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>Make the most of your experience at Victoria University </p>
 						<p className="mb-4" style={{fontSize: '18px'}}>Victoria University has a student community with over 45 Nationalities</p>
                         <p className="my-4">Special Services Offered to international students:</p>
                         <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Visa processing</p>
@@ -76,13 +76,13 @@ class StudentGuidelines extends Component{
 						<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Counselling and Guidance</p>
 						<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Assist in Verification of Academic documents to check eligibility</p>
 						<p className="my-4">Each year Victoria University welcomes students from more than 45 countries. These students have access to free advice , support and assistance</p>
-						<p className="my-4" style={{fontSize: '32px'}}>Our international students center provides some of the following services.:</p>
+						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>Our international students center provides some of the following services.:</p>
 						<p className="my-4">Special Services Offered to international students:</p>
                         <p className="my-4">Advice on Visas and Entry to Uganda for students and visiting family as well as assisting students in obtaining a rate at the Ministry of internal affairs.</p>
                         <p className="my-4">Students from countries outside East Africa will normally require a student ( General) Visa in order to study in Uganda. To apply for this Visa students will require a confirmation of acceptance for study (CAS) and also appropriate evidence of their funding.</p>
 						<p className="my-4">A (CAS) will be issued by the University when you accept our Offer , meet any conditions mentioned in the offer, and pay a deposit. This deposit is offset against your tuition fees and if you have an official sponsor , for example your government or an international scholarship agency , you will not need to pay this deposit.</p>
 						<p className="my-4">Instead , you should send a copy of your sponsorship letter to the University's finance office consideration. Our international welcome at the start of your first semester includes a special induction programme to guide you through your initial administrative tasks (such as applying for a bank account and providing a range of social activities to help you meet new friends. The international student center also coordinates activities and events for international students ,providing exciting and interesting opportunities to learn about life in Uganda and kampala in Particular.</p>
-						<p className="my-4" style={{fontSize: '32px'}}>YOUR SECURITY AND SAFETY WITHIN UGANDA</p>
+						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>YOUR SECURITY AND SAFETY WITHIN UGANDA</p>
 						<p className="my-4">Safety and security is always a big issue everywhere in Africa and the World. Uganda is one of the safest countries in Africa and Kampala is one of the safest capitals. You can move with ease day and night but precautions have to be taken late at night.</p>
 						<p className="my-4">Simply follow safe practices and you will enjoy your safety in the pearl of Africa</p>
 					</div>

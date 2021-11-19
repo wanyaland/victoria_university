@@ -72,7 +72,7 @@ class TransferCredit extends Component{
         </div>
     </div>
 </section>
-<section className="w3l-features-1">
+{/* <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container">
 			
@@ -114,7 +114,7 @@ class TransferCredit extends Component{
 			</div>
 		</div>
 	</div>
-</section>
+</section> */}
 <section className="w3l-wecome-content-6">
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
@@ -132,7 +132,7 @@ class TransferCredit extends Component{
                     <br/>
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '30px'}}>Academic qualifications</h6>
                     <br/>
-                    <p className="my-4" style={{fontWeight: '600', fontSize: '24px'}}>Undergraduate</p>
+                    <p className="my-4" style={{fontSize: '24px', fontWeight: '400'}}>Undergraduate</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>To be exempted at an undergraduate degree programme, the following criteria have to be fulfilled:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -148,7 +148,7 @@ class TransferCredit extends Component{
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;There shall be no exemption what so ever for students progressing from the Foundation program or Higher Certificate of Education.</li><br/>
                         </ul>
                     </p>
-                    <p className="my-4" style={{fontWeight: '600', fontSize: '24px'}}>Masters</p>
+                    <p className="my-4" style={{fontWeight: '400', fontSize: '24px'}}>Masters</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>Victoria University shall exempt Programme units for students admitted at master's level with a relevant post graduate diploma. To be exempted Programme units at masters, the following criteria have to be fulfilled:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -158,11 +158,11 @@ class TransferCredit extends Component{
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Allows a maximum of 6 Programme units in case of exemptions.</li><br/>
                         </ul>
                     </p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Period of Previous Training</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Period of Previous Training</p>
                     <p className="my-4">This should not be more than 5 years after acquiring the qualification that is being considered for exemption. The degree, diploma and certificate should be relevant to the field a student intends to undertake</p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Experience</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Experience</p>
                     <p className="my-4">Minimum working experience of two years after completion of the Programme in a relevant field. e.g. Nursing, midwifery, Social work practice in Primary agencies, auditing, etc. would be an added advantage.</p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Specification of previous training institution.</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Specification of previous training institution.</p>
                     <p className="mb-4" style={{fontSize: '18px'}}>This shall be a University and any other recognized and licensed Institution of Higher Learning.</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -176,9 +176,9 @@ class TransferCredit extends Component{
                     </p>
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>Credit Transfer</h6>
                     <p className="my-4">Through the process of credit transfer, a student will earn the credit value of-the transferred unit. For credit transfer from diploma or degree programmes of other institutions, credit hours with grades will be transferred.</p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Maximum permitted credit transfer</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Maximum permitted credit transfer</p>
                     <p className="my-4">Undergraduate students are therefore expected to spend two full-time-years at Victoria University. Any exemptions to this rule of maximum credit must be approved by the Senate or the Academic Registrar</p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Process of Admission (Credit Transfers)</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Process of Admission (Credit Transfers)</p>
                     <p className="my-4">Victoria University shall admit students from other (recognized) institutions on normal degree or diploma programs. Students applying for credit transfers should meet the following requirements:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -190,7 +190,7 @@ class TransferCredit extends Component{
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Should be a registered student</li><br/>
                         </ul>
                     </p>
-                    <p className="my-4" style={{fontSize: '30px'}}>Exemption Fees Structure</p>
+                    <p className="my-4" style={{fontSize: '30px', fontWeight: '400'}}>Exemption Fees Structure</p>
                     <p className="my-4">Students should pay a fee to be determined by University Council for each exempted programme unit of study. The current charges shall be a lump sum administrative fee of UGX 200,000. Terms and conditions apply</p>
                     <br/>
                 </div>

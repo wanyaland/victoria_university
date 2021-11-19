@@ -31,7 +31,7 @@ class NavBar extends Component{
 							<img src="/assets/images/fav.png" alt="Victoria University" title="Victoria University" style={{height:'55px'}} />
 						</li></Link>
 						<li className="nav-item nav-focus">
-							<Link onClick={this.toVclass} className="nav-link">myVU</Link>
+							<Link onClick={this.toVclass} className="nav-link">VClass</Link>
 						</li>
 						<li className="nav-item nav-focus">
 							<Link to="/contact" className="nav-link"><span className="fa fa-comments"></span></Link>
@@ -52,16 +52,25 @@ class NavBar extends Component{
 							</li>
 							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
-									<Link to="/about" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-									<Link to="/glance" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Vu at a Glance</Link>
-									<Link to="/team" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Teams</Link>
-									{/* <Link to="/executive-team" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Our Executive Team</Link>
-									<Link to="/trustees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Board of Trustees</Link> */}
-									<li><Link to="/faculties" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Academic Faculties & Centers</Link></li>
-									<Link to="/governing" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Governance</Link>
-									<Link to="/history" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>History</Link>
-									<Link to="/partners" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Collaborations &amp; Partnerships</Link>
-									{/* <Link to="/staff" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Management Team</Link> */}
+									<Link to="/about" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+									<Link to="/glance" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Vu at a Glance</Link>
+									{/* <Link to="/team" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Our Teams</Link> */}
+									<div class="dropdown3">
+									{/* <button class="dropbtn3">Dropdown</button> */}
+									<Link className="text-left link-hover dropbtn3" style={{color: '#FFF', fontWeight: '400'}}>Our Teams</Link>
+									<div class="dropdown-content3">
+										<Link to="/directors" className="text-left link-hover"  style={{color: '#FFF', fontWeight: '400'}}>Directors</Link>
+										<Link to="/council" className="text-left link-hover"  style={{color: '#FFF', fontWeight: '400'}}>University Council</Link>
+										<Link to="/senate" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>University Senate</Link>
+										<Link to="/staff" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Management Team</Link>
+									</div>
+									</div>
+									{/* <Link to="/executive-team" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Our Executive Team</Link>
+									<Link to="/trustees" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Board of Trustees</Link> */}
+									<Link to="/governing" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Governance</Link>
+									<Link to="/history" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>History</Link>
+									<Link to="/partners" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Collaborations &amp; Partnerships</Link>
+									{/* <Link to="/staff" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Management Team</Link> */}
 								</ul>
 							</li>
 							<li className={currentURL === "/programs"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
@@ -69,22 +78,23 @@ class NavBar extends Component{
 							</li>
 							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
-									<Link to="/admissions" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-									<Link to="/vclass" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>VClass</Link>
-									<Link to="/student-profile" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>What's your student profile?</Link>
-									<Link to="/requirements" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Admission Requirements</Link>
-									<Link to="/student-guidelines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>International Students Guidelines</Link>
-									<Link to="/transfer-credit" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Exemption and Transfer Credit</Link>
-									{/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Key dates and deadllines</Link> */}
-									<Link to="/tuition-fees" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Tuition and Fees</Link>
-									<Link to="/apply" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>How To Apply And Register</Link>
-									<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="text-center backed-btn" style={{fontWeight: '700'}}>Apply Now</a>
+									<Link to="/admissions" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+									<Link to="/vclass" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>VClass</Link>
+									<li><Link to="/faculties" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Academic Faculties & Centers</Link></li>
+									<Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link>
+									<Link to="/requirements" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Admission Requirements</Link>
+									<Link to="/student-guidelines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>International Students Guidelines</Link>
+									<Link to="/transfer-credit" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exemption and Transfer Credit</Link>
+									{/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Key dates and deadllines</Link> */}
+									<Link to="/tuition-fees" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Tuition and Fees</Link>
+									<Link to="/apply" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>How To Apply And Register</Link>
+									<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="text-center backed-btn" style={{fontWeight: '400'}}>Apply Now</a>
 								</ul>
 							</li>
 							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
-								<Link to="/current-students" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-								<Link to="/exams" className="text-left link-hover" style={{color: '#888', fontWeight: '700'}}>Exams</Link>
+								<Link to="/current-students" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
+								<Link to="/exams" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exams</Link>
 								</ul>
 							</li>
 							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/wil-hall-of-fame" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
@@ -96,9 +106,9 @@ class NavBar extends Component{
 						</ul>
 					</div>
 					<ul className="d-flex searchhny-form navbar-nav" style={{display: 'flex', alignItems: 'center', padding: '0px'}}>
-						<li className="">
+						<li className="nav-hover">
 							<a className="" href="https://vclass.ac/login" target="_blank" rel="noreferrer">
-								<span><img src="/assets/images/myvu.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
+								<span><img src="/assets/images/vcla.png" className="img-fluid" alt="Victoria University" title="Victoria University" /></span>
 							</a>
 						</li>
 						<li className={currentURL === "/contact"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
