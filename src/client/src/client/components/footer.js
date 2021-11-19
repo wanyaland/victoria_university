@@ -66,7 +66,7 @@ class Footer extends Component{
 					</div>
             <div className="d-flex below-section justify-content-between align-items-center pt-4 mt-5">
                 <div className="columns text-lg-left text-center" style={{color: '#FFF'}}>
-                    <p style={{color: '#FFF'}}>© 2021 Victoria University, Kampala, Uganda. All rights reserved | Victoria University is part of the Ruparelia Group of Companies
+                    <p style={{color: '#FFF'}}>© 2021 Victoria University, Kampala, Uganda. All rights reserved | Victoria University is part of the Ruparelia Group of Companies.
                     </p>
                 </div>
             </div>
