@@ -5,7 +5,7 @@ import Footer from './footer';
 import LabNav from './lab_nav'
 import { Link } from 'react-router-dom';
 
-class Library extends Component {
+class Cnumber extends Component {
     componentDidMount(){
         var coll = document.getElementsByClassName("collapsible");
 		var i;
@@ -49,7 +49,7 @@ class Library extends Component {
                 Victoria University 
                 </span></Link>&nbsp;/&nbsp;
                 <Link to="/research"><span className="underline" style={{color: "#EEE"}}>
-                Research At VU 
+                Library
                 </span></Link>&nbsp;
                 <span style={{color: '#EEE'}}>/ Library</span>
                 </div>
@@ -64,13 +64,24 @@ class Library extends Component {
 				<LabNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>About Library</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Call Number Guides</h6>
 						<br/>
-                        <p className="my-4">Victoria University Library (VULIB), provides a range of services to support the learning, teaching, and research functions of the University including access to extensive information resources, a wide range of flexible learning environments, and the support you need to achieve your learning goals, enhance your research or develop new skills.</p>
-                        <p className="my-4">
-                        <p className="my-4" style={{fontSize: '22px', fontWeight: '500', color: '#0077b5'}}>VULIB as an outstanding library</p>
-                        With a world of knowledge and expertise at your fingertips, you’ll find the Library’s place at the heart of your university experience. It’s a place to explore new horizons, a place to discover your passion, and a place to respond to world-challenges. We continually invest to create the right environment for you, and whatever your level of study or area of research, we're here to help you succeed.If you choose VULIB, you’ll have access to rich resources, outstanding facilities and support – and the freedom to do things your own way.
-                    </p>
+                        <p className="my-4">Main Classes
+                        </p>
+						<p className="my-4">
+						<ul style={{listStyle: 'none'}}>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">000 Computer science, information & general works</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">100 Philosophy & psychology</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">200 Religion</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">300 Social sciences</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">400 Language</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">500 Science</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">600 Technology</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">700 Arts & recreation</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">800 Literature</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">900 History & geography</span></li>
+						</ul>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -83,4 +94,4 @@ class Library extends Component {
     }
 }
 
-export default Library;
+export default Cnumber;

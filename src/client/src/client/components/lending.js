@@ -5,7 +5,7 @@ import Footer from './footer';
 import LabNav from './lab_nav'
 import { Link } from 'react-router-dom';
 
-class Library extends Component {
+class Lending extends Component {
     componentDidMount(){
         var coll = document.getElementsByClassName("collapsible");
 		var i;
@@ -49,7 +49,7 @@ class Library extends Component {
                 Victoria University 
                 </span></Link>&nbsp;/&nbsp;
                 <Link to="/research"><span className="underline" style={{color: "#EEE"}}>
-                Research At VU 
+                Library
                 </span></Link>&nbsp;
                 <span style={{color: '#EEE'}}>/ Library</span>
                 </div>
@@ -64,13 +64,24 @@ class Library extends Component {
 				<LabNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>About Library</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Lending services</h6>
 						<br/>
-                        <p className="my-4">Victoria University Library (VULIB), provides a range of services to support the learning, teaching, and research functions of the University including access to extensive information resources, a wide range of flexible learning environments, and the support you need to achieve your learning goals, enhance your research or develop new skills.</p>
-                        <p className="my-4">
-                        <p className="my-4" style={{fontSize: '22px', fontWeight: '500', color: '#0077b5'}}>VULIB as an outstanding library</p>
-                        With a world of knowledge and expertise at your fingertips, you’ll find the Library’s place at the heart of your university experience. It’s a place to explore new horizons, a place to discover your passion, and a place to respond to world-challenges. We continually invest to create the right environment for you, and whatever your level of study or area of research, we're here to help you succeed.If you choose VULIB, you’ll have access to rich resources, outstanding facilities and support – and the freedom to do things your own way.
-                    </p>
+                        <p className="my-4">This facilitates equitable circulation of information resources among all users.
+                                Information materials borrowed on regular loan are all issued at the circulation section.
+                                Short loan materials are issued from the Circulation Section.</p>
+
+                                <p className="my-4" style={{fontSize: '22px', fontWeight: '500', color: '#0077b5'}}>Lending Regulations and penalties​</p>
+
+                                <p className="my-4">Only registered students of Victoria University and Staff are entitled to borrow materials.
+                                    All library users MUST produce their Student /Staff identification card before borrowing any information material.
+                                Lost or mutilated information materials on loan will be replaced at the market cost of the information materials plus Ugx.10000/= processing charges.
+                                Information materials borrowed on regular loan and not returned on the due date will be charged UGX3000/= on the 1st day and Ugx. 5000/= for the rest of the days.
+                                Information Borrowed on short loan and not returned on time will be charged Ugx. 5000/= per hour.</p>
+
+                                <p className="my-4" style={{fontSize: '22px', fontWeight: '500', color: '#0077b5'}}>Recall of Materials on Loan.</p>
+
+                            <p className="my-4">The Librarian may recall any information material on loan from a user by notice which shall specify return of the same. If a user does not return the item as specified, he shall incur a fine of Ugx. 5000 per book per day.
+                        </p>
 					</div>
 				</div>
 			</div>
@@ -83,4 +94,4 @@ class Library extends Component {
     }
 }
 
-export default Library;
+export default Lending;

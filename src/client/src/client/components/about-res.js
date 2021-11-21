@@ -69,16 +69,16 @@ class AboutRes extends Component {
 						<p className="my-4" style={{fontSize: '22px'}}>Research is the systematic process of generating (new) knowledge about some aspect of occurrences in a society. By its iterative nature, research has a cycle involving a variety of stages:</p>
 						<p className="mb-4">
 						<ul style={{listStyle: 'none'}}>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">formulating a research question or idea/area,</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">situating the question/idea within the landscape of existing knowledge through a literature review,</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">designing the method of studying the question,</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">getting permission to conduct the research,</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">collecting the required data and materials,</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">analyzing this data, inferring conclusions and presenting or writing up the results, and</span></li>
-                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">publishing those findings.</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Formulating a research question or idea/area</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Situating the question/idea within the landscape of existing knowledge through a literature review</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Designing the method of studying the question</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Getting permission to conduct the research</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Collecting the required data and materials</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Analyzing this data, inferring conclusions and presenting or writing up the results</span></li>
+                       	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Publishing those findings</span></li>
 						</ul>
 						</p>
-						<p className="my-4">
+						{/* <p className="my-4">
 							<h4 style={{color: '#0077b5'}}>Importance of Research</h4>
 							The cardinal aim and advantage of engaging in research is to enable researchers gain a deeper understanding of subjects under inquiry. Additional benefits of research include:
 							<p className="my-4"><ul style={{listStyle: 'none'}}>
@@ -89,7 +89,7 @@ class AboutRes extends Component {
                        	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">preparing for thesis research and preparing for graduate school</span></li>
                        	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">demonstrating value for future employers and contributing to a body of knowledge</span></li>
 						</ul></p>
-						</p>
+						</p> */}
 					</div>
 				</div>
 			</div>
