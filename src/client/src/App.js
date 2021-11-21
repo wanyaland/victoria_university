@@ -55,6 +55,15 @@ import Directors from './client/components/directors';
 import Senate from './client/components/senate';
 import Gallery from './client/components/gallery';
 import WilLand from './client/components/wil-landing';
+import Lending from './client/components/lending';
+import Secretarial from './client/components/secretarial';
+import Electric from './client/components/electric';
+import Cnumber from './client/components/call-number';
+import LibContact from './client/components/lib-contact';
+import Catalogue from './client/components/catalogue';
+import LibOpen from './client/components/opening';
+import Offcamp from './client/components/off-campus';
+import Faqs from './client/components/faqs';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -119,6 +128,15 @@ const App = () => (
         <Route exact path="/directors" component={Directors} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/wil-landing" component={WilLand} />
+        <Route exact path="/lending" component={Lending} />
+        <Route exact path="/secretarial" component={Secretarial} />
+        <Route exact path="/electric" component={Electric} />
+        <Route exact path="/call-number" component={Cnumber} />
+        <Route exact path="/lib-contact" component={LibContact} />
+        <Route exact path="/catalogue" component={Catalogue} />
+        <Route exact path="/opening" component={LibOpen} />
+        <Route exact path="/off-campus" component={Offcamp} />
+        <Route exact path="/faqs" component={Faqs} />
       </Switch>
     </Router>
 

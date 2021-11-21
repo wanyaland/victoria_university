@@ -66,8 +66,8 @@ class AcademRes extends Component {
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Research and Academics</h6>
 						<br/>
-						<p className="my-4">Research projects that are funded by fellowships or other awards CANNOT receive academic credit. (Note: in some cases, you can get funding for incidental expenses related to your research -- like traveling to present your research at a conference, etc. -- and still receive academic credit for the research.)</p>
-                        <p className="my-4">In the sciences-Health and Information Technology, the research journey is divided and distributed among a group of researchers who work collaboratively.  All these can be done in tandem with the Work Integrated Learning (WIL) Program which greatly enhances the quality of studies and investigations performed.</p>
+						<p className="my-4">Research projects that are funded by fellowships or other awards CANNOT receive academic credit. (Note: in some cases, you can get funding for incidental expenses related to your research — like traveling to present your research at a conference, etc. — and still receive academic credit for the research.)</p>
+
                         <p className="my-4">Research studies conducted under the Victoria University WIL program may be funded BUT can only receive academic credit after a decision by the faculty research board.</p>
 					</div>
 				</div>

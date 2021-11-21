@@ -66,8 +66,9 @@ class SupervRes extends Component {
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Research Supervisors and Mentors</h6>
 						<br/>
-						<p className="my-4">The research process can be arduous, tedious and sometime quite challenging. Building effective relationship with research supervisors and mentors. These supervisors have the advantage of experience.</p>
-                        <p className="my-4">Not only have they conducted their own research studies, they have also guided graduates and undergraduates in pursuing research and other opportunities. They are therefore well-placed to help with research opportunities and funding sources, provide guidance on the process of the study and mentoring throughout the research project.</p>
+						<p className="my-4">The research process can be arduous, tedious and sometime quite challenging. Building effective relationship with research supervisors and mentors. These supervisors have the advantage of experience. Not only have they conducted their own research studies, they have also guided graduates and undergraduates in pursuing research and other opportunities.</p>
+
+                        <p className="my-4">They are therefore well-placed to help with research opportunities and funding sources, provide guidance on the process of the study and mentoring throughout the research project.</p>
 					</div>
 				</div>
 			</div>
