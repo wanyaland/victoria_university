@@ -31,12 +31,12 @@ class HowWilWorks extends Component{
 	</div>
 </section>
 <WilBanner />
-<section className="w3l-team-main">
+<section className="w3l-team-main"  style={{backgroundColor: '#DDD'}}>
 	<div className="team py-5">
 		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<WilNav />
-				<div className="col-lg-9"   style={{padding: '0  px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"  style={{padding: '0px', backgroundColor: '#FFF'}}>
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL Works</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>

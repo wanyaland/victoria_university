@@ -27,7 +27,7 @@ class BreadNavBar extends Component {
 							<li className="fonted">Join us Now for August - September 2021 intake <a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></a></li>
 						</ul>
 						<ul className="accounts col-md-5">
-							<li className="top_li underline"><Link to="/staff">Staff</Link></li>
+							{/* <li className="top_li underline"><Link to="/staff">Staff</Link></li> */}
 							<li className="top_li underline"><Link to="/library">Library</Link></li>
 							<li className="top_li underline"><Link to="/alumni">Alumni</Link></li>
 							{/* <li className="top_li underline"><Link to="/news">News</Link></li>

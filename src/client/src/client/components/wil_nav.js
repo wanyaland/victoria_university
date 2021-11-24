@@ -11,7 +11,7 @@ class WilNav extends Component{
             <React.Fragment>
             <button className="side_control_btn" onClick={this.showSide}><span className="fa fa-bars text-center justify-content-center" style={{fontSize: '30px'}}></span></button>
                 <div className="col-lg-3 side_control" id="mob_bar_control">
-                    <div className="sidenavd">
+                    <div className="sidenavd shadow-nav">
                         <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
                         <li className="w3-display-container" style={{borderBottom: 'none', padding: '6px 22px'}}>
                         <h6 style={{fontSize: '24px'}}>Work Integrated Learning</h6>

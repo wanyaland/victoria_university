@@ -19141,6 +19141,12 @@ color: #FFF;
 #fixer5{
     padding-bottom: 0rem !important;
 }
+/* Shadow nav */
+.shadow-nav{
+    -webkit-box-shadow: 1px 1px 8px 1px #788891c7; 
+    box-shadow: 1px 1px 8px 1px #788891c7;
+}
+/* Shadow nav */
 /* SEARCH RESULTS */
 .search_results{
     width: 100%;
