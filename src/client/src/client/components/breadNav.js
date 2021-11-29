@@ -24,7 +24,7 @@ class BreadNavBar extends Component {
 				<div className="container-fluid">
 					<div className="row">
 						<ul className="social-top col-md-7 padded">
-							<li className="fonted">Join us Now for August - September 2021 intake <a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></a></li>
+							<li className="fonted">Join us Now for February - March 2022 intake <a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="fonted underline" style={{color: '#000'}}><b>Apply Now</b></a></li>
 						</ul>
 						<ul className="accounts col-md-5">
 							{/* <li className="top_li underline"><Link to="/staff">Staff</Link></li> */}
