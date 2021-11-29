@@ -32,7 +32,7 @@ class Wil extends Component{
 	</div>
 </section>
 <WilBanner />
-<section className="w3l-team-main">
+<section className="w3l-team-main" style={{backgroundColor: '#DDD'}}>
 	<div className="team py-5">
 		<div className="container py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>

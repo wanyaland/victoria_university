@@ -49,6 +49,59 @@ class Contact extends Component{
                 </div>
             </div>
         </section>
+		<section className="w3l-features-1">
+		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
+			<div className="container py-lg-5">
+				<div className="row grids-innf my-lg-5" style={{border: '#CCC 1px solid'}}>
+					{/* <div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
+						<img src="assets/images/path1.jpg" className="img-fluid" id="fixer4"  alt="img"/>
+					</div> */}
+					<div className="features-1-info col-lg-12 col-md-9">
+						<br/>
+						<div className="features-1-info-icon text-center">
+							<span className="fa fa-envelope-o" style={{color: '#0077b5', fontSize: '90px'}}></span>
+						</div>
+						<div className="features-1-info-info text-center">
+							<h6 className="hny-title text-center" style={{color: '#025683', fontSize: '32px'}}>Send us an inquiry</h6>
+							<p className="text-center" style={{fontSize:'18px'}}>We have information to share with you!</p>
+						</div>
+						<div className="container_form">
+							<form action="/action_page.php">
+								<div className="row_form">
+									<div className="col-75">
+									<input type="text" id="fname" className="form_fields" name="firstname" placeholder="Your name.."/>
+									</div>
+								</div>
+								<div className="row_form">
+									<div className="col-75">
+									<input type="text" id="lname" className="form_fields" name="lastname" placeholder="Your last name.." />
+									</div>
+								</div>
+								<div className="row_form">
+									<div className="col-75">
+									<input type="text" id="lname" className="form_fields" name="email" placeholder="Your email.."/>
+									</div>
+								</div>
+								<div className="row_form">
+									<div className="col-75">
+									<textarea type="text" id="lname" className="form_fields" name="message" placeholder="Your email.." rows="6"></textarea>
+									</div>
+								</div>
+								{/* <div className="row_form">
+									<div className="col-75">
+									<input type="checkbox" id="lname" className="" name="" required/>&nbsp;<span>Yes, I would like to receive communications via e-mail from Victoria University</span>
+									</div>
+								</div> */}
+								<div className="row_form">
+									<input type="submit" value="Send Inquiry" className="applier"/>
+								</div>
+								</form>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
         <section className="w3l-features-1">
 		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 			<div className="container py-lg-5" id="fixer3">
