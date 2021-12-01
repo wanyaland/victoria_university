@@ -324,9 +324,16 @@ color: #FFF;
     min-height: 300px;
     overflow-y: auto;
   }
+  .gallery_img{
+      border: #CCC 1px solid;
+      border-radius: 7px;
+  }
   .gallery_img:hover img{
-      cursor: pointer;
-      filter: brightness(50%);
+    cursor: pointer;
+    filter: brightness(70%);
+    padding: none;
+    transition: all ease;
+    transition-duration: .1s;
   }
   /* The Close Button */
   .close_gallery {
