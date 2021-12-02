@@ -12,6 +12,18 @@ class NavBar extends Component{
         window.location.href = "https://vclass.ac/"
     }
 	componentDidMount(){
+		window.onscroll = function() {stickyMenu()};
+	
+		var header = document.getElementById("head_runner");
+		var sticky = header.offsetTop;
+		
+		function stickyMenu() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
 	}
 	render(){
 		const currentURL = window.location.pathname;
@@ -23,9 +35,9 @@ class NavBar extends Component{
 		const all = 'all'
         return(
 	<React.Fragment>
-    <section className="w3l-banner-slider-main w3l-inner-page-main">
+    <section className="w3l-banner-slider-main w3l-inner-page-main" id="head_runner" style={{zIndex: '1'}}>
 	<div className="breadcrumb-infhny">
-		<header className="top-headerhny" id="head_runner">
+		<header className="top-headerhny">
 			<nav className="navbar navbar-expand-lg navbar-light">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">
