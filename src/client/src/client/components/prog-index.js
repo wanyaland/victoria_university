@@ -121,7 +121,6 @@ class ProgIndex extends Component {
 			courses: result,
 			courses_title: "Faculty Of Business And Management (Post Graduate)",
 		})
-		console.log(result, "WE SEE THIS")
 	}
 	getFacBusUndergs = () => {
 		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Business and Management")
@@ -324,7 +323,6 @@ class ProgIndex extends Component {
 		this.setState({
 			courses_count: count,
 		})
-		console.log(this.state.courses_count)
 	}
 	postCount = () =>{
 		var progData = Data;
@@ -642,7 +640,15 @@ class ProgIndex extends Component {
 					<p className="my-4 text-center" style={{fontSize: '24px', fontWeight: 550}}>{this.state.courses_title}</p>
 					<div className="container py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
 						<div className="" style={{}}>
-							<CourseList courses={this.state.courses} />
+							<section className="w3-gallery">
+								<div className="porfolio-inf py-5">
+									<div className="container pt-lg-5 pb-lg-4">
+										<div className="row">{/*  */}
+											<CourseList courses={this.state.courses} />
+										</div>{/*  */}
+                    				</div>
+                				</div>
+            				</section>
 						</div>
 					</div>
 				</div>
