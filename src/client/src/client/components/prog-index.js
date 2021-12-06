@@ -20,7 +20,7 @@ class ProgIndex extends Component {
 			courses: [],
 			courses_title: 'All Programs',
 			courses_desc: 'Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body.',
-			courses_count: '',
+			courses_count: 0,
 			busy_count: 0,
 			tech_count: 0,
 			health_count: 0,
@@ -35,6 +35,7 @@ class ProgIndex extends Component {
         this.diplomaCount()
         this.foundCount()
         this.proCount()
+		this.allCount()
 		this.busyCount()
 		this.techCount()
 		this.healthCount()
@@ -56,6 +57,8 @@ class ProgIndex extends Component {
 			this.getPros()
 		} else if(this.props.match.params.program === "faculty_BusPostgraduate"){
 			this.getFacBusPostgs()
+		} else if(this.props.match.params.program === "all"){
+			this.getAllCourses()
 		} else if(this.props.match.params.program === "faculty_Busundergraduate"){
 			this.getFacBusUndergs()
 		} else if(this.props.match.params.program === "faculty_Busdiploma"){
@@ -101,7 +104,14 @@ class ProgIndex extends Component {
 	getAllCourses = () => {
 		this.setState({
 			courses: Data,
-			courses_title: 'All',
+			courses_title: 'All Programmes',
+			courses_desc: 'Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body'
+		})
+	}
+	getAll = () => {
+		this.setState({
+			courses: Data,
+			courses_title: 'All Programmes',
 			courses_desc: 'Victoria University governs itself through a bicameral governance structure, as set out in the Ugandan Post-Secondary Learning Act  and the Victoria University Regulations . The Board of Governors is the senior governing body, but shares academic governance with the General Faculties Council (GFC), the academic governing body'
 		})
 	}
@@ -111,7 +121,6 @@ class ProgIndex extends Component {
 			courses: result,
 			courses_title: "Faculty Of Business And Management (Post Graduate)",
 		})
-		console.log(result, "WE SEE THIS")
 	}
 	getFacBusUndergs = () => {
 		var result = Data.filter(course => course.level === "Under Graduate" && course.faculty === "Faculty of Business and Management")
@@ -262,7 +271,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Post Graduate")
 		this.setState({
 			courses: result,
-			courses_title: "Post Graduate",
+			courses_title: "Post Graduate Programmes",
 			courses_desc: 'Victoria University offers post  graduate programmes, listed below under their respective faculties'
 		})
 	}
@@ -270,7 +279,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Under Graduate")
 		this.setState({
 			courses: result,
-			courses_title: "Under Graduate",
+			courses_title: "Under Graduate Programmes",
 			courses_desc: 'Victoria  University offers a number of Bachelors Degree Programmes. They are listed below under their respective faculties.'
 		})
 	}
@@ -278,7 +287,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Professional Development")
 		this.setState({
 			courses: result,
-			courses_title: "Professional Development",
+			courses_title: "Professional Development Programmes",
 			courses_desc: 'Join one of our professional development courses and learn new and verifiable skills for your career.'
 		})
 	}
@@ -294,7 +303,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Diploma")
 		this.setState({
 			courses: result,
-			courses_title: "Diploma",
+			courses_title: "Diploma Programmes",
 			courses_desc: 'Victoria University offers Diploma  programs  They are listed below under their respective faculties'
 		})
 	}
@@ -303,6 +312,16 @@ class ProgIndex extends Component {
 			courses: [],
 			courses_title: "No results",
 			courses_desc: ''
+		})
+	}
+	allCount = () => {
+		var progData = Data;
+		var count = 0;
+		for(var i = 0; i < progData.length; ++i){
+			count++;
+		}
+		this.setState({
+			courses_count: count,
 		})
 	}
 	postCount = () =>{
@@ -503,19 +522,22 @@ class ProgIndex extends Component {
 						<div>
 							<p className="my-2 text-left" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</p>
 							<ul className="prog-listu" style={{border: '#888 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
-								<li className={this.state.courses_title === "Post Graduate"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
+								<li className={this.state.courses_title === "All Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getAll} style={{width: '100%', borderBottom: '#999 1px solid'}}>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;All Programmes</span></td><td><span className="badged">{this.state.courses_count}</span></td></tr></table>
+								</li>
+								<li className={this.state.courses_title === "Post Graduate Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;Post graduate Programs</span></td><td><span className="badged">{this.state.post_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Under Graduate"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
+								<li className={this.state.courses_title === "Under Graduate Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Under graduate Programs</span></td><td><span className="badged">{this.state.under_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Diploma"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getDiploma}>
+								<li className={this.state.courses_title === "Diploma Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getDiploma}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span className="badged">{this.state.diploma_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Foudations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
+								<li className={this.state.courses_title === "Foundations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Foundations Programs</span></td><td><span className="badged">{this.state.found_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Professional Development"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
+								<li className={this.state.courses_title === "Professional Development Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Professional Development Programs</span></td><td><span className="badged">{this.state.pro_sum}</span></td></tr></table>
 								</li>
 							</ul>
@@ -571,7 +593,7 @@ class ProgIndex extends Component {
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<br/>
-                        <h6 className="hny-title" style={{fontSize: '38px',  color: '#f74040'}}>{this.state.courses_title} Programs</h6>
+                        <h6 className="hny-title" style={{fontSize: '38px',  color: '#f74040'}}>{this.state.courses_title}</h6>
 						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>{this.state.courses_desc}</p>
                         <br/>
@@ -618,7 +640,15 @@ class ProgIndex extends Component {
 					<p className="my-4 text-center" style={{fontSize: '24px', fontWeight: 550}}>{this.state.courses_title}</p>
 					<div className="container py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
 						<div className="" style={{}}>
-							<CourseList courses={this.state.courses} />
+							<section className="w3-gallery">
+								<div className="porfolio-inf py-5">
+									<div className="container pt-lg-5 pb-lg-4">
+										<div className="row">{/*  */}
+											<CourseList courses={this.state.courses} />
+										</div>{/*  */}
+                    				</div>
+                				</div>
+            				</section>
 						</div>
 					</div>
 				</div>

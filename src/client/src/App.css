@@ -324,9 +324,16 @@ color: #FFF;
     min-height: 300px;
     overflow-y: auto;
   }
+  .gallery_img{
+      border: #CCC 1px solid;
+      border-radius: 7px;
+  }
   .gallery_img:hover img{
-      cursor: pointer;
-      filter: brightness(50%);
+    cursor: pointer;
+    filter: brightness(70%);
+    padding: none;
+    transition: all ease;
+    transition-duration: .1s;
   }
   /* The Close Button */
   .close_gallery {
@@ -674,6 +681,21 @@ h3.hny-title.two {
 .button-4-pink:hover a {
     color: #fff;
 }
+/*  */
+.course-more{
+    background-color: #0077b5;
+    padding: .2em;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+.course-more:hover{
+    cursor: pointer;
+}
+.shadow-hover:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*  */
 /* Calculator */
 .cal-modal {
     display: none; 

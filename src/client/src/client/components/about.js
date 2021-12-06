@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 class AboutUs extends Component{
 	componentDidMount(){
-		window.onscroll = function() {stickyMenu()};
+		/* window.onscroll = function() {stickyMenu()};
 	
 		var header = document.getElementById("myHeader2");
 		var sticky = header.offsetTop;
@@ -17,7 +17,7 @@ class AboutUs extends Component{
 		  } else {
 			header.classList.remove("sticky");
 		  }
-		}
+		} */
 	}
 	change_icon(id, id2) {
 		var element = document.getElementById(id);
@@ -76,7 +76,7 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-top-header-content" id="myHeader2" style={{zIndex: '1'}}>
+<section className="w3l-top-header-content" id="" style={{zIndex: '1'}}>
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>
 			<div className="container-fluid">
