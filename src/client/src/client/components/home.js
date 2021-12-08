@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import BannerHome from './bannerHome';
-import NewsHub from './news-events';
+import NewsHub from './news-hub';
 //import Events from './events';
 import Testimonies from './testimonies';
 import Footer from './footer';
