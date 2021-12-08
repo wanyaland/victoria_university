@@ -170,7 +170,7 @@ class Home extends Component{
 						<h6 className="text-center"><Link to="/admissions">Admissions</Link></h6>
 						<span className="dot brown"></span>
 						<p><Link to='/requirements'>Requirements per faculty</Link></p>
-						<p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p>
+						{/* <p><Link to="/dates-deadlines">Date &amp; Deadlines</Link></p> */}
 					</div>
 					<div className="text-center smalldash brown_d"></div>
 				</div>
