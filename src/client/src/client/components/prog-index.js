@@ -638,11 +638,11 @@ class ProgIndex extends Component {
 					</div>
 					<br/>
 					<p className="my-4 text-center" style={{fontSize: '24px', fontWeight: 550}}>{this.state.courses_title}</p>
-					<div className="container py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
+					<div className=" py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
 						<div className="" style={{}}>
-							<section className="w3-gallery">
+							<section className="w3-gallery" style={{}}>
 								<div className="porfolio-inf py-5">
-									<div className="container pt-lg-5 pb-lg-4">
+									<div className="pt-lg-5 pb-lg-4" style={{maxWidth: '100%'}}>
 										<div className="row">{/*  */}
 											<CourseList courses={this.state.courses} />
 										</div>{/*  */}

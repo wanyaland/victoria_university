@@ -10,7 +10,7 @@ const CourseList = (props) => {
                         <div className="each-item">
                             <Link to={`/view-program/${item.program}`}><img className="port-image img-fuild" src="/assets/images/cap.png" alt="" /></Link>
                         </div>
-                        <div className="course-content">
+                        <div className="course-content" style={{minHeight: '6.5rem'}}>
                             <div className="course-info">
                                 <Link to="/events-hub" className="course-title-wrapper">
                                     <h3 className="course-title" data-gal="prettyPhoto[gallery]">{item.program}</h3>
