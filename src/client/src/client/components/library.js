@@ -48,10 +48,10 @@ class Library extends Component {
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
                 Victoria University 
                 </span></Link>&nbsp;/&nbsp;
-                <Link to="/research"><span className="underline" style={{color: "#EEE"}}>
-                Research At VU 
+                <Link to="/library"><span className="underline" style={{color: "#EEE"}}>
+                Library
                 </span></Link>&nbsp;
-                <span style={{color: '#EEE'}}>/ Library</span>
+                <span style={{color: '#EEE'}}>/ About Library</span>
                 </div>
             </div>
 		</div>
@@ -64,7 +64,7 @@ class Library extends Component {
 				<LabNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>About Library</h6>
+                    <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Library</h6>
 						<br/>
                         <p className="my-4">Victoria University Library (VULIB), provides a range of services to support the learning, teaching, and research functions of the University including access to extensive information resources, a wide range of flexible learning environments, and the support you need to achieve your learning goals, enhance your research or develop new skills.</p>
                         <p className="my-4">

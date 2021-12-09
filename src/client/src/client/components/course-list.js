@@ -12,7 +12,7 @@ const CourseList = (props) => {
                         </div>
                         <div className="course-content" style={{minHeight: '6.5rem'}}>
                             <div className="course-info">
-                                <Link to="/events-hub" className="course-title-wrapper">
+                                <Link to={`/view-program/${item.program}`} className="course-title-wrapper">
                                     <h3 className="course-title" data-gal="prettyPhoto[gallery]">{item.program}</h3>
                                 </Link>
                             </div>

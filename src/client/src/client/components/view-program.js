@@ -80,10 +80,10 @@ class ViewProgram extends Component {
 		var tuition = document.getElementById('admission')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Programme Overview</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.full_desc+'</p>'
-		overview.classList.add('activeSummaryRed')
+		overview.classList.add('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
-		admission.classList.remove('activeSummaryPurple')
-		tuition.classList.remove('activeSummaryBrown')
+		admission.classList.remove('activeSummaryBlue')
+		tuition.classList.remove('activeSummaryBlue')
 	}
 	updateTime = () => {
 		var overview = document.getElementById('overview')
@@ -92,10 +92,10 @@ class ViewProgram extends Component {
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Completion Time</h6><br/><p class="my-4" style="font-size: 18px">'+this.state.course_prog.duration+' Years</p>'
-		overview.classList.remove('activeSummaryRed')
+		overview.classList.remove('activeSummaryBlue')
 		duration.classList.add('activeSummaryBlue')
-		admission.classList.remove('activeSummaryPurple')
-		tuition.classList.remove('activeSummaryBrown')
+		admission.classList.remove('activeSummaryBlue')
+		tuition.classList.remove('activeSummaryBlue')
 	}
 	updateRequirements = () => {
 		var overview = document.getElementById('overview')
@@ -104,10 +104,10 @@ class ViewProgram extends Component {
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
 		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Program Requirements</h6><br/><p class="my-4" style="font-size: 18px;"><a href="requirements#business" class="underline" style="color: #0077b5;" target="_blank">Click here to view course requirements under faculty <b style="font-weight: 600;">'+this.state.course_prog.faculty+'</b></a></p>'
-		overview.classList.remove('activeSummaryRed')
+		overview.classList.remove('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
-		admission.classList.add('activeSummaryPurple')
-		tuition.classList.remove('activeSummaryBrown')
+		admission.classList.add('activeSummaryBlue')
+		tuition.classList.remove('activeSummaryBlue')
 	}
 	updateReqcourses = () => {
 		window.location.href = "requirements";
@@ -118,11 +118,11 @@ class ViewProgram extends Component {
 		var admission = document.getElementById('admission')
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Fees and Tuition</h6><p class="my-4" style="font-size: 18px"><br><h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Local Students</h6><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">First Semester</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX '+this.state.course_prog.local_func_fee+'<br>Registration Fee: UGX '+this.state.course_prog.reg_fee_loc+'<br>Application Fee: UGX '+this.state.course_prog.application_fee_loc+'<br><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">Second Semester</h6>Tuition Fee: UGX '+this.state.course_prog.local_price+'<br>Functional Fee: UGX 0<br>Registration Fee: UGX 0<br>Application Fee: UGX 0<br><hr style="width:100%;"/><h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">International Students</h6><br/><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">First Semester</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD '+this.state.course_prog.int_func_fee+'<br>Registration Fee: USD '+this.state.course_prog.reg_fee_int+'<br>Application Fee: USD '+this.state.course_prog.application_fee_int+'<br><br><h6 class="hny-title" style="font-size: 20px; color: #444; font-weight: 400;text-decoration: underline;">Second Semester</h6>Tuition Fee: USD '+this.state.course_prog.int_price+'<br>Funcitional Fee: USD 0<br>Registration Fee: USD 0<br>Application Fee: USD 0</p>'
-		overview.classList.remove('activeSummaryRed')
+		mainDisplay.innerHTML = '<table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (International Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">Application Fee (USD)</th><td>'+this.state.course_prog.application_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Caution Fee (USD)</th><td>16</td><td></td><td></td><td></td></tr><tr><th scope="row">Funcitional Fees (USD)</th><td>'+this.state.course_prog.int_func_fee+'</td><td></td><td>'+this.state.course_prog.int_func_fee+'</td><td></td></tr><tr><th scope="row">Identity Card (USD)</th><td>'+this.state.course_prog.identity_card_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Registration Fees (USD)</th><td>'+this.state.course_prog.reg_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Tuition Fees (USD)</th><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td></tr></tbody></table><br/><table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (Local Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">APPLICATION FEE (UGX)</th><td>'+this.state.course_prog.application_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">CAUTION FEE (UGX)</th><td>50,000</td><td></td><td></td><td></td></tr><tr><th scope="row">FUNCTIONAL FEES (UGX)</th><td>'+this.state.course_prog.local_func_fee+'</td><td></td><td>'+this.state.course_prog.local_func_fee+'</td><td></td></tr><tr><th scope="row">IDENTITY CARD (UGX)</th><td>'+this.state.course_prog.identity_card_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">REGISTRATION FEES (UGX)</th><td>'+this.state.course_prog.reg_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">TUITION FEES (UGX)</th><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td></tr></tbody></table>'
+		overview.classList.remove('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
-		admission.classList.remove('activeSummaryPurple')
-		tuition.classList.add('activeSummaryBrown')
+		admission.classList.remove('activeSummaryBlue')
+		tuition.classList.add('activeSummaryBlue')
 
 	}
 	glance = () => {
@@ -155,8 +155,8 @@ class ViewProgram extends Component {
 					</div>
 					<div className="carousel-caption">
 							<h6 className="sub-head-view text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
-						<br/>
-						<p className="text-center d-block"><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked-view" >Apply Online</a>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p>
+						{/* <br/>
+						<p className="text-center d-block"><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked-view" >Apply Online</a>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p> */}
 					</div>
 				</div>
 			</div>
@@ -182,8 +182,8 @@ class ViewProgram extends Component {
 <section className="w3l-specification-6" id="glance">
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
-			<h6 className="hny-title text-center" style={{fontSize: '32px'}}><span className="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
-			<p className="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: {this.state.course_prog.level}</span>&nbsp;|&nbsp;<span>Credits: {this.state.course_prog.credit}</span>&nbsp;|&nbsp;<span>Next Start:</span></p>
+			<h6 className="hny-title text-center" style={{fontSize: '32px', color: '#0077b5'}}><span className="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
+			<p className="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: {this.state.course_prog.level}</span>&nbsp;|&nbsp;<span>Credits: {this.state.course_prog.credit}</span>&nbsp;{/* |&nbsp;<span>Next Start:</span> */}</p>
 			<p className="my-4 text-center">Advance your skills and begin your academic journey with Victoria University’s {this.state.course_prog.program}.</p>
 			<div className="mission-grids-info row">
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
@@ -200,10 +200,10 @@ class ViewProgram extends Component {
 </section>
 <section className="w3l-team-main" id="summary">
 	<div className="team py-5">
-		<div className="py-lg-5" >
+		<div className="py-lg-5">
 			<h6 className="hny-title text-center" style={{fontSize: '28px', color: '#025886', fontWeight: '500'}}>Programme Overview</h6>
 			<br/>
-			<div className="justify-content-center container col-lg-9"  style={{display: 'flex'}}>
+			<div className="justify-content-center container col-lg-9"  style={{display: 'flex', maxWidth: '86%'}}>
 				<div className="col-lg-3 with_shadow" style={{border: '#888 1px solid', backgroundColor: '#EEE'}}>
 					<div className="sidenavd" style={{backgroundColor: '#EEE'}}>
                        {/*  <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
@@ -213,10 +213,10 @@ class ViewProgram extends Component {
                             <li className="w3-display-container" style={{borderBottom: 'none'}} onClick={this.updateFees}>Tuition and fees</li>
                         </ul> */}
                         <ul className="prog-listuv" style={{boxShadow: 'none'}}>
-                            <li className="prog-listv hover-program-red activeSummaryRed" id="overview" onClick={this.updateOverview}>Overview</li>
+                            <li className="prog-listv hover-program-blue activeSummaryBlue" id="overview" onClick={this.updateOverview}>Overview</li>
                             <li className="prog-listv hover-program-blue" id="duration" onClick={this.updateTime}>Completion time</li>
-                            <li className="prog-listv hover-program-purple" id="admission" onClick={this.updateRequirements}>Admission requirements</li>
-                            <li className="prog-listv hover-program-brown" id="tuition" onClick={this.updateFees}>Tuition and fees</li>
+                            <li className="prog-listv hover-program-blue" id="admission" onClick={this.updateRequirements}>Admission requirements</li>
+                            <li className="prog-listv hover-program-blue" id="tuition" onClick={this.updateFees}>Tuition and fees</li>
                         </ul>
                     </div>
 				</div>

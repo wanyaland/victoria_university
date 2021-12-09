@@ -48,10 +48,10 @@ class LibContact extends Component {
                     <Link to="/"><span className="underline" style={{color: "#EEE"}}>
                 Victoria University 
                 </span></Link>&nbsp;/&nbsp;
-                <Link to="/research"><span className="underline" style={{color: "#EEE"}}>
+                <Link to="/library"><span className="underline" style={{color: "#EEE"}}>
                 Library
                 </span></Link>&nbsp;
-                <span style={{color: '#EEE'}}>/ Library</span>
+                <span style={{color: '#EEE'}}>/ Library/Librarian’s contact</span>
                 </div>
             </div>
 		</div>
