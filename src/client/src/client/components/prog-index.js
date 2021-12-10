@@ -594,17 +594,14 @@ class ProgIndex extends Component {
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<br/>
                         <h6 className="hny-title" style={{fontSize: '38px',  color: '#f74040'}}>{this.state.courses_title}</h6>
-						<br/>
 						<p className="my-4" style={{fontSize: '18px'}}>{this.state.courses_desc}</p>
-                        <br/>
                         <div className="input-container">
 							<i className="fa fa-search icon"></i>
 							<input className="input-field" type="text" placeholder="Search for programs by name or keywords" name="usrnm"/>
 							<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#f54848'}}>Search</button>
 						</div>
-                        <br/>
                     </div>
-					<section className="w3l-wecome-content-6">
+					{/* <section className="w3l-wecome-content-6">
 						<div className="ab-content-6-mian py-5">
 							<div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
 								<div className="welcome-grids row">
@@ -624,8 +621,8 @@ class ProgIndex extends Component {
 								</div>
 							</div>
 						</div>
-					</section>
-					<div className="" style={{height: '60px', margin: '0 auto'}}>
+					</section> */}
+					{/* <div className="" style={{height: '60px', margin: '0 auto'}}>
 						<table style={{width: '100%', height: '100%'}}>
 						
 							<tr>
@@ -635,8 +632,7 @@ class ProgIndex extends Component {
 							</tr>
 							
 						</table>
-					</div>
-					<br/>
+					</div> */}
 					<p className="my-4 text-center" style={{fontSize: '24px', fontWeight: 550}}>{this.state.courses_title}</p>
 					<div className=" py-lg-5" style={{maxWidth: '100%', margin: '0rem', padding: '0rem !important'}}>
 						<div className="" style={{}}>
