@@ -336,7 +336,7 @@ class Partners extends Component {
             </div>    
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
-                    <h6 className="hny-title" style={{fontSize:'48px'}}>Collaboration & Partnerships</h6>
+                    <h6 className="hny-title" style={{fontSize:'48px', color: '#f74040', fontWeight: '600'}}>Collaboration & Partnerships</h6>
                     <p className="my-4" style={{fontSize: '18px'}}>VU has a long-standing practice of working collaboratively with other  Ugandan and international post-secondary educational institutions, with professional associations and employer groups and with First Nations institutions and communities to facilitate access to university-level study. Over 350 formal collaborative agreements are now in place. In addition, students enrolled at other post-secondary institutions make extensive use of VU courses and educational services to help them complete their degrees.</p>
                     <p className="mb-4"></p>
                     <br/>

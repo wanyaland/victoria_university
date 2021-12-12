@@ -36,7 +36,19 @@ dl {
     margin-bottom: 0rem;
     padding: 0;
 }
-
+.read-more{
+    color: #fff;
+    background: #0077b5;
+    border: none;
+    padding: 0px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 32px;
+    border-radius: 7px;
+}
 .form-control:focus {
     box-shadow: none !important;
 }
@@ -98,6 +110,16 @@ color: #FFF;
 }
 .another1{
     font-size: 42px;
+}
+.council_desc{
+    min-height: 50px;
+    padding: 10px;
+    border: #CCC 1px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    display: flex;
+    right: 9%;
 }
 .btn_linked-view {
     background-color: #0077b5;
@@ -544,7 +566,7 @@ color: #FFF;
     margin: 0 auto;
     width: 0px;
     height: 0px;
-    top:18%;
+    top:16%;
     left: 49%;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -5338,12 +5360,13 @@ span.fa.fa-play {
 }
 
 .w3-gallery .port-image {
+    height: 100%;
     width: 100%;
     border-radius: 0;
-    border-radius: 6px 6px 6px 6px;
-    -webkit-border-radius: 6px 6px 6px 6px;
-    -o-border-radius: 6px 6px 6px 6px;
-    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 0px 0px 0px;
+    -o-border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
 }
 
 .w3-gallery .course-divider {
@@ -5389,6 +5412,7 @@ span.fa.fa-play {
 }
 
 .w3-gallery .course-content {
+    min-height: 6rem;
     padding: 10px 10px;
     background: #eff0f1;
     border-radius: 0;
@@ -5490,7 +5514,7 @@ span.fa.fa-play {
 }
 
 .w3l-apply-6 .apply-info {
-    background: url(../src/client/assets/images/bg2.jpg) no-repeat center;
+    /* background: url(../src/client/assets/images/abt.JPG) no-repeat center; */
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -6887,7 +6911,7 @@ span.fa.fa-play {
         left: 1%;
     }
     .triangle-down{
-        top:16.9%;
+        top:16.5%;
         left: 49%;
     }
     .path_point1{
@@ -7527,7 +7551,7 @@ span.fa.fa-play {
 .w3l-team-main h3.name-pos a {
     font-size: 22px;
     line-height: 26px;
-    color: #252b33;
+    color: #444;
     font-weight: 500;
 }
 
@@ -19394,7 +19418,7 @@ color: #FFF;
 }
 .prog-listv:hover{
     background-color: #EEE;
-    color: #FFF;
+    color: #444;
     cursor: pointer;
 }
 .prog-list:hover{
@@ -19404,8 +19428,11 @@ color: #FFF;
 }
 .prog-list-active{
     background-color: #EEE;
-    color: #FFF; 
+    color: #444; 
     border-left: #555 3px solid; 
+}
+.quat-line{
+    border: 1px #CCC solid;
 }
 .grad_icon {
     color: #045079;
