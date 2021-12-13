@@ -151,13 +151,9 @@ class ViewProgram extends Component {
 			<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
 				<div className="carousel-inner">
 					<div className="carousel-item active">
-						<img className="w-100" src={this.state.banner_src} style={{filter: 'brightness(70%)'}} alt="slide"/>
+						<img className="w-100" src={this.state.banner_src} style={{filter: 'brightness(50%)'}} alt="slide"/>
 					</div>
-					<div className="carousel-caption">
-							<h6 className="sub-head-view text-center" style={{textTransform: 'capitalize', color: '#FFF', textShadow: '2px 2px #000'}}>{this.state.course_prog.program}</h6>
-						{/* <br/>
-						<p className="text-center d-block"><a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked-view" >Apply Online</a>&nbsp;&nbsp;&nbsp;&nbsp;<br/><button className="btn_linked-view2" onClick={this.viewSummary}>Program Summary</button></p> */}
-					</div>
+					<div className="program-caption">&nbsp;{this.state.course_prog.program}</div>
 				</div>
 			</div>
 		</div>

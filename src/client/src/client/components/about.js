@@ -40,18 +40,19 @@ class AboutUs extends Component{
 			<BreadNavBar />
 			<NavBar />
 			<section className="w3l-apply-6">
-					<div className=""  style={{}}>
-						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
-							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
-								<div className="carousel-inner">
-									<div className="carousel-item active">
-										<img className="d-block w-100" src="assets/images/abt.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
-									</div>
+				<div className=""  style={{}}>
+					<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+						<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<img className="d-block w-100" src="assets/images/abt.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 								</div>
+								<div className='banner-caption'>&nbsp;About VU</div>
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 			<section className="content2">
 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
@@ -123,7 +124,7 @@ class AboutUs extends Component{
 					<div className="welcome-grids row">
 							<div className="col-lg-12 mb-lg-0 mb-5">
 								<h6>About Us</h6>
-								<h3 className="hny-title">
+								<h3 className="hny-title" style={{color: '#0077b5'}}>
 									Victoria University
 									</h3>
 								<p className="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
@@ -165,7 +166,7 @@ class AboutUs extends Component{
 					</div>
 				</div> */}
 				<div className="mission-gd-right col-lg-12 pl-lg-4" style={{backgroundColor: '#E5E5E5', padding: '40px 20px 40px 20px'}}>
-					<h3 className="hny-title text-center">VU at a Glance</h3>
+					<h3 className="hny-title text-center" style={{color: '#0077b5'}}>VU at a Glance</h3>
 					<p>
 						Victoria University is one of the leading universities in Uganda and stands out as a center for academic excellence. It offers a fresh and intellectually stimulating environment that nurtures critical thinkers.The University was opened in August 2013 and has the capacity, the facilities and determination to revitalize higher education in Uganda and in the region. We are committed to playing a leading role in bringing and developing high quality education, student centered learning opportunities based in standards of excellence that are unique, innovative and difficult to match.
 					</p>
@@ -183,13 +184,14 @@ class AboutUs extends Component{
 <section className="w3l-specification-6" id="unique">
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
-			<h3 className="hny-title text-center">What Makes VU Unique</h3>
+			<h3 className="hny-title text-center" style={{color: '#0077b5'}}>What Makes VU Unique</h3>
 			<div className="mission-grids-info row">
 				<div className="mission-gd-right col-lg-12 pl-lg-12 text-center">
 					<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Students graduate with 2-3 year work experience</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Experiencial learning</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Writing exams</p>
-                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Internship and Job placement 4.Best in offering online classes</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Internship and Job placement</p>
+                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Best in offering online classes</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Located in the heart of Kampala</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Diverse culture </p>
 				</div>
@@ -208,7 +210,7 @@ class AboutUs extends Component{
 <section className="w3l-specification-6" id="credit">
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
-			<h3 className="hny-title text-center">Accreditation</h3>
+			<h3 className="hny-title text-center" style={{color: '#0077b5'}}>Accreditation</h3>
 			<div className="mission-grids-info row">
 				<div className="mission-gd-right col-lg-12 pl-lg-12 text-center">
 					<p>Victoria University is acredited by the National Council For Higher education</p>

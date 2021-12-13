@@ -193,7 +193,7 @@ class NewsHub extends Component{
 							</div>
 							<div className="col-md-4 filter webdesign graphic">
 								<div className="each-item">
-									<a href="https://dailyexpress.co.ug/2021/10/29/victoria-university-to-host-ugandan-celebrities-in-endiba-weekend-soccer-bonanza/" target="_blank" rel="noreferrer"><img className="port-image img-fuild" src="assets/images/articles/3.jpg" alt="" style={{border: '#CCC 1px solid'}}style={{width: '55%'}}/></a>
+									<a href="https://dailyexpress.co.ug/2021/10/29/victoria-university-to-host-ugandan-celebrities-in-endiba-weekend-soccer-bonanza/" target="_blank" rel="noreferrer"><img className="port-image img-fuild" src="assets/images/articles/3.jpg" alt="" style={{border: '#CCC 1px solid'}}/></a>
 								</div>
 								<div className="course-content">
 									<div className="course-info">

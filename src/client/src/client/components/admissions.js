@@ -24,6 +24,20 @@ class Admissions extends Component{
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
+				<section className="w3l-apply-6">
+				<div className=""  style={{}}>
+					<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+						<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+							<div className="carousel-inner">
+								<div className="carousel-item active">
+									<img className="d-block w-100" src="assets/images/admissions.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+								</div>
+								<div className='ad-banner-caption'>&nbsp;Admissions{/* &nbsp;<p className='my-4' style={{color: '#FFF'}}>&nbsp;Connect with Admissions to learn how Victoria University and our world-renowned cooperative education program could be the right fit for you. We are here to make applying as simple and convenient as possible.</p> */}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
                 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
@@ -38,7 +52,7 @@ class Admissions extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-apply-6">
+{/* <section className="w3l-apply-6">
 	<div className="apply-info py-5">
 		<div className="container py-lg-5">
 			<br/>
@@ -58,7 +72,7 @@ class Admissions extends Component{
 			</div>
 		</div>
 	</div>
-</section>
+</section> */}
 {/* <section className="w3l-wecome-content-6">
 	  <div className="ab-content-6-mian py-5">
 			 <div className="container py-lg-5">
@@ -90,7 +104,7 @@ class Admissions extends Component{
                                 <img src="assets/images/bg1.jpg" className="img-fluid" alt=""/>
                             </div>
 							<div className="col-lg-6 mb-lg-0 mb-5" style={{borderTop: '#D4484A 4px solid'}}>
-								<h4 className="hny-title" style={{fontSize: '32px'}}>
+								<h4 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>
 									Admission requirements
 								</h4>
 								<p className="my-4">As long as you meet the minimum age requirement of being at least 16 years old, you'll fit right in! With our open admission policy becoming an online student at Victoria University has never been easier.</p>

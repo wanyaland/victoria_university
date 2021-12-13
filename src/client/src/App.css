@@ -480,6 +480,37 @@ color: #FFF;
     margin-left: 100px;
     color: #FFF;
 }
+.banner-caption{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 500;
+    border-left: 8px #D4484A solid;
+}
+.ad-banner-caption{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 500;
+    border-left: 8px #D4484A solid;
+}
+.program-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 500;
+    border-left: 8px #D4484A solid;
+    text-transform: capitalize;
+}
 .quotes{
     font-size: 40px;
 }
