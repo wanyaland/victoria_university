@@ -66,7 +66,7 @@ class Alumni extends Component {
 			<div className="welcome-grids row">
 				<div className="col-lg-12 welcome-image">
 					<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid', padding: '40px'}}>
-						<h4 className="hny-title text-center" style={{color: '#0077b5', fontSize: '36px'}}>Alumni</h4>
+						<h4 className="hny-title text-center" style={{color: '#f74040', fontSize: '48px', fontWeight: '600'}}>Alumni</h4>
                         <p className="text-center my-4">"
 						As a graduate or ‘alumnus’ of Victoria University, you automatically become part of our extensive alumni community which brings with it a host of benefits before and after graduation.
 						We strive to ensure that each member of our alumni community enjoys the benefits of studying at Victoria University, beyond one’s graduation.</p>

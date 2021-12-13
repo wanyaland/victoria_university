@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
+import Data from './data/gallery.json';
+import GalleryList from './gallery-list';
 
 class Gallery extends Component{
+	constructor(props) {
+		super(props);
+		this.state = {
+			gallerylister: [],
+		}
+	}
+	componentDidMount(){
+		this.getGallery()
+	}
+	getGallery = () => {
+		this.setState({
+			gallerylister: Data,
+		})
+	}
     view_photo(id) {
         var modal = document.getElementById(id);
         modal.style.display = "block";
@@ -38,166 +53,15 @@ class Gallery extends Component{
 		<div className="container pt-lg-5 pb-lg-4" style={{maxWidth: '90%'}}>
 			<div className="row title-content">
 				<div className="col-lg-4 title-left">
-				<h6 className="hny-title" style={{fontSize: '46px',  color: '#f74040', fontWeight: '600'}}>Gallery</h6>
+					<h6 className="hny-title" style={{fontSize: '46px',  color: '#f74040', fontWeight: '600'}}>Gallery</h6>
 				</div>
 			</div>
 			<br />
 
 			<div className="row">
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
+				<GalleryList gallerylister={this.state.gallerylister}/>
 			</div>
 			<br/>
-			<div className="row">
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-			</div>
-			<br/>
-			<div className="row">
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-			</div>
-			<br/>
-			<div className="row">
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-				<div className="col-md-4 filter photo">
-					<div className="each-item gallery_img" onClick={() => this.view_photo("photo_1")}>
-						<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" />
-					</div>
-					<div id="photo_1" className="modal_gallery">
-						<div className="modal-content_gallery">
-						<span className="close_gallery" onClick={() => this.close_bio("photo_1")}>&times;</span>
-						<br/><br/>
-							<img className="port-image img-fuild" src="assets/images/bg3.jpg" alt="" style={{width: '100%', height: '100%'}} />
-						</div>
-					</div>
-				</div>
-			</div>
 			<br/>
 		</div>
 	</div>

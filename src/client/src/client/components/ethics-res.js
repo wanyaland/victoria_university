@@ -64,7 +64,7 @@ class EthicsRes extends Component {
 				<ResNav />
 				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
-						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Victoria University’s Ethical Conduct of Research</h6>
+						<h6 className="hny-title" style={{fontSize: '44px',  color: '#f74040', fontWeight: '600'}}>Victoria University’s Ethical Conduct of Research</h6>
 						<br/>
 						<p className="my-4">Globally, ethical conduct undergirds every aspect of research, from conceiving the question to collecting and analyzing the data, to sharing the results. Each Faculty research board has ethical standards that students and staff undertaking research must be familiar with and must be done with the highest level of integrity and commitment to excellence.</p>
                         <p className="my-4">Note that there is additional obligation on the ethical dimension when the research involves humans or animals. In order to ensure ethical standards in such research, national regulations require that such research be reviewed and approved before data-collection can begin.</p>

@@ -39,6 +39,19 @@ class AboutUs extends Component{
             <React.Fragment>
 			<BreadNavBar />
 			<NavBar />
+			<section className="w3l-apply-6">
+					<div className=""  style={{}}>
+						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+								<div className="carousel-inner">
+									<div className="carousel-item active">
+										<img className="d-block w-100" src="assets/images/abt.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 			<section className="content2">
 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
@@ -54,15 +67,15 @@ class AboutUs extends Component{
 		</div>
 	</div>
 </section>
-<section className="w3l-apply-6">
-	<div className="apply-info py-5">
+{/* <section className="w3l-apply-6">
+	<div className="apply-info py-5" style={{background: 'url(../assets/images/abt.JPG) center'}}>
 		<div className="container py-lg-5">
 			<br/>
 			<br/>
 			<br/>
 			<br/>
 			<div className="">
-					<h4 className="text-center"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
+					<h4 className="text-left"><span style={{borderLeft: '8px #D4484A solid'}}>&nbsp;About VU</span></h4>
 				</div>
 			<div className="apply-grids-info row">
 				<div className="row mt-lg-5 mt-4 col-md-12">
@@ -75,7 +88,7 @@ class AboutUs extends Component{
 			</div>
 		</div>
 	</div>
-</section>
+</section> */}
 <section className="w3l-top-header-content" id="" style={{zIndex: '1'}}>
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '10px 0px 10px 0px', backgroundColor: '#EEE'}}>

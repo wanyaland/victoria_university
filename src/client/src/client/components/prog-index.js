@@ -593,7 +593,7 @@ class ProgIndex extends Component {
 				<div className="col-lg-9"   style={{backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<br/>
-                        <h6 className="hny-title" style={{fontSize: '38px',  color: '#f74040'}}>{this.state.courses_title}</h6>
+                        <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>{this.state.courses_title}</h6>
 						<p className="my-4" style={{fontSize: '18px'}}>{this.state.courses_desc}</p>
                         <div className="input-container">
 							<i className="fa fa-search icon"></i>

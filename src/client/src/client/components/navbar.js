@@ -109,7 +109,7 @@ class NavBar extends Component{
 									<Link to="/admissions" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/vclass" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>VClass</Link>
 									<li><Link to="/faculties" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Academic Faculties & Centers</Link></li>
-									<Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link>
+									{/* <Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link> */}
 									<Link to="/requirements" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Admission Requirements</Link>
 									<Link to="/student-guidelines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>International Students Guidelines</Link>
 									<Link to="/transfer-credit" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exemption and Transfer Credit</Link>

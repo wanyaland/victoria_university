@@ -1342,6 +1342,28 @@
   },
   {
     "id": 61,
+    "program": "Higher Education Certificate (HEC) - General",
+    "duration": "1",
+    "local_price": "482,200",
+    "int_price": "154",
+    "short_desc": "Foundation program is a widely accepted program by many Higher Education institutions as an entry b bridging component .In order to assist prospective students who donot ahave A level (or did not reach a requisit grades at A level , the foundation program acts as a bridge int the gap between school and university .It runs for 1 Year",
+    "full_desc": "Foundation program is a widely accepted program by many Higher Education institutions as an entry b bridging component .In order to assist prospective students who donot ahave A level (or did not reach a requisit grades at A level , the foundation program acts as a bridge int the gap between school and university .It runs for 1 Year",
+    "faculty": "Faculty of Humanities and Social Sciences",
+    "level": "Foundations",
+    "credit": "30",
+    "local_func_fee": "350,000",
+    "int_func_fee": "112",
+    "application_fee_loc": "50,000",
+    "application_fee_int": "16",
+    "caution_fee_loc": "50,000",
+    "caution_fee_int": "16",
+    "identity_card_loc": "10,000",
+    "identity_card_int": "3",
+    "reg_fee_loc": "100,000",
+    "reg_fee_int": "32"
+  },
+  {
+    "id": 62,
     "program": "Digital Marketing and Social Media Specialist",
     "duration": "10 WEEKS",
     "local_price": "360,000",
@@ -1362,7 +1384,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 62,
+    "id": 63,
     "program": "Entrepreneurial Development Studies",
     "duration": "10 WEEKS",
     "local_price": "360,000",
@@ -1383,7 +1405,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 63,
+    "id": 64,
     "program": "Export Trade Promotion",
     "duration": "6 WEEKS",
     "local_price": "360,000",
@@ -1404,7 +1426,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 64,
+    "id": 65,
     "program": "Sustainable Microfinance",
     "duration": "10 WEEKS",
     "local_price": "360,000",
@@ -1425,7 +1447,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 65,
+    "id": 66,
     "program": "Introduction to Oil and Gas Industry",
     "duration": "6 WEEKENDS",
     "local_price": "900,000",
@@ -1446,7 +1468,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 66,
+    "id": 67,
     "program": "Oil and Gas Supply Chain and Logistics Management",
     "duration": "6 WEEKENDS",
     "local_price": "900,000",
@@ -1467,7 +1489,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 67,
+    "id": 68,
     "program": "Oil and Gas Project Management",
     "duration": "6 WEEKENDS",
     "local_price": "900,000",
@@ -1488,7 +1510,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 68,
+    "id": 69,
     "program": "Health, Safety and Environmental Management in the Oil and Gas Industry",
     "duration": "6 WEEKENDS",
     "local_price": "900,000",
@@ -1509,7 +1531,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 69,
+    "id": 70,
     "program": "House Keeping in the Hospitality Industry",
     "duration": "6 WEEKS",
     "local_price": "400,000",
@@ -1530,7 +1552,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 70,
+    "id": 71,
     "program": "Customer Service in the Hospitality Industry",
     "duration": "6 WEEKS",
     "local_price": "400,000",
@@ -1551,7 +1573,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 71,
+    "id": 72,
     "program": "Front Office Management in the Hospitality Industry",
     "duration": "6 WEEKS",
     "local_price": "400,000",
@@ -1572,7 +1594,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 72,
+    "id": 73,
     "program": "Chartered Institute of Logistics and Transport (CILT)",
     "duration": "",
     "local_price": "",
@@ -1593,7 +1615,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 73,
+    "id": 74,
     "program": "CISCO-CCNA",
     "duration": "4 MONTHS",
     "local_price": "600,000",
@@ -1614,7 +1636,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 74,
+    "id": 75,
     "program": "Cisco-IT Essentials",
     "duration": "2 MONTHS",
     "local_price": "400,000",
@@ -1635,7 +1657,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 75,
+    "id": 76,
     "program": "Basic Computer Applications",
     "duration": "4 WEEKS",
     "local_price": "200,000",
@@ -1656,7 +1678,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 76,
+    "id": 77,
     "program": "CCTV Controller",
     "duration": "6 WEEKS",
     "local_price": "300,000",
@@ -1677,7 +1699,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 77,
+    "id": 78,
     "program": "Cyber Security Essentials",
     "duration": "2 MONTHS",
     "local_price": "600,000",
@@ -1698,7 +1720,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 78,
+    "id": 79,
     "program": "PCAP Programming Essentials in Python",
     "duration": "2 MONTHS",
     "local_price": "600,000",
@@ -1719,7 +1741,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 79,
+    "id": 80,
     "program": "CCNA Security",
     "duration": "2 MONTHS",
     "local_price": "600,000",
@@ -1740,7 +1762,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 80,
+    "id": 81,
     "program": "Artificial Intelligence with Python",
     "duration": "2 MONTHS",
     "local_price": "600,000",
@@ -1761,7 +1783,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 81,
+    "id": 82,
     "program": "Comprehensive Management of STI’s, HIV",
     "duration": "2 WEEKS",
     "local_price": "360,000",
@@ -1782,7 +1804,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 82,
+    "id": 83,
     "program": "First Aid",
     "duration": "2 WEEKS",
     "local_price": "360,000",
@@ -1803,7 +1825,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 83,
+    "id": 84,
     "program": "Resource Mobilisation and Project ProposalWriting for Health workers",
     "duration": "2 WEEKS",
     "local_price": "360,000",
@@ -1824,7 +1846,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 84,
+    "id": 85,
     "program": "SPSS - Statistical Package For Social Sciences",
     "duration": "10 WEEKS",
     "local_price": "360,000",
@@ -1845,7 +1867,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 85,
+    "id": 86,
     "program": "Public Health Nutrition",
     "duration": "2 WEEKS",
     "local_price": "360,000",
@@ -1866,7 +1888,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 86,
+    "id": 87,
     "program": "Presentation and Public Speaking",
     "duration": "5 WEEKS",
     "local_price": "400,000",
@@ -1887,7 +1909,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 87,
+    "id": 88,
     "program": "Coaching and Mentoring",
     "duration": "5 WEEKS",
     "local_price": "400,000",
@@ -1908,7 +1930,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 88,
+    "id": 89,
     "program": "Graphics Designing",
     "duration": "10 WEEKS",
     "local_price": "400,000",
@@ -1929,7 +1951,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 89,
+    "id": 90,
     "program": "Filmmaking (Video/Audio production/Editing)",
     "duration": "10 WEEKS",
     "local_price": "400,000",
@@ -1950,7 +1972,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 90,
+    "id": 91,
     "program": "Radio Production",
     "duration": "10 WEEKS",
     "local_price": "400,000",
@@ -1971,7 +1993,7 @@
     "reg_fee_int": ""
   },
   {
-    "id": 91,
+    "id": 92,
     "program": "English Language (Beginner, Intermediate and Advanced)",
     "duration": "1 MONTH",
     "local_price": "300,000",
