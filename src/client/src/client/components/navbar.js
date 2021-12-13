@@ -68,7 +68,7 @@ class NavBar extends Component{
 							<li className={currentURL === "/"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/" className="nav-link">Home</Link>
 							</li>
-							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/faculties" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
+							<li className={currentURL === "/about" || currentURL === "/glance" || currentURL === "/council" || currentURL === "/executive-team" || currentURL === "/trustees" || currentURL === "/governing" || currentURL === "/history" || currentURL === "/partners" || currentURL === "/staff"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">About&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/about" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>About VU<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/glance" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Vu at a Glance</Link>
@@ -104,7 +104,7 @@ class NavBar extends Component{
 									{/* <Link to={`/prog-index/${all}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>All Programmes</Link> */}
 								</ul>
 							</li>
-							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
+							<li className={currentURL === "/admissions" || currentURL === "/vclass" || currentURL === "/student-profile" || currentURL === "/requirements" || currentURL === "/student-guidelines" || currentURL === "/transfer-credit" || currentURL === "/tuition-fees" || currentURL === "/faculties"  || currentURL === "/apply" || currentURL === "/apply-now"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Admissions&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 									<Link to="/admissions" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Admissions<span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
 									<Link to="/vclass" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>VClass</Link>

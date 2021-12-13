@@ -55,12 +55,12 @@ class Footer extends Component{
                 <div className="col-lg-4 column">
                     <h6 className='' style={{color: '#FFF', fontWeight: '600', fontSize: '1.5rem'}}>Quick Links</h6>
                     <ul className="text-left" style={{listStyle: 'none', color: '#FFF', lineHeight: '180%', fontSize: '.95rem'}}>
-                        <li><Link to="/vclass" style={{color: '#FFF'}}>VClass</Link></li>
-                        <li><Link to="/about" style={{color: '#FFF'}}>About VU</Link></li>
-                        <li><Link to="/library" style={{color: '#FFF'}}>Library</Link></li>
-                        <li><Link to="/careers" style={{color: '#FFF'}}>Careers</Link></li>
-                        <li><Link to="/faculties" style={{color: '#FFF'}}>Faculties</Link></li>
-                        <li><Link to="/contact" style={{color: '#FFF'}}>Contact</Link></li>
+                        <li><Link to="/vclass" className="underline" style={{color: '#FFF'}}>VClass</Link></li>
+                        <li><Link to="/about" className="underline" style={{color: '#FFF'}}>About VU</Link></li>
+                        <li><Link to="/library" className="underline" style={{color: '#FFF'}}>Library</Link></li>
+                        <li><Link to="/careers" className="underline" style={{color: '#FFF'}}>Careers</Link></li>
+                        <li><Link to="/faculties" className="underline" style={{color: '#FFF'}}>Faculties</Link></li>
+                        <li><Link to="/contact" className="underline" style={{color: '#FFF'}}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="col-lg-4 column">

@@ -12,6 +12,7 @@ class WilBanner extends Component{
 									<div className="carousel-item active">
 										<img className="d-block w-100" src="assets/images/wil.JPG" alt="First slide" style={{filter: 'brightness(55%)'}}/>
 									</div>
+									<div className='banner-caption'>&nbsp;Get To Work</div>
 								</div>
 							</div>
 						</div>

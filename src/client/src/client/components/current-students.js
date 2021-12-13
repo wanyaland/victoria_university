@@ -51,6 +51,7 @@ class CurrentStudents extends Component{
 									<div className="carousel-item active">
 										<img className="d-block w-100" src="assets/images/students.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 									</div>
+                                    <div className='banner-caption'>&nbsp;Students</div>
 								</div>
 							</div>
 						</div>

@@ -47,6 +47,7 @@ class Library extends Component {
 								<div className="carousel-inner">
 									<div className="carousel-item active">
 										<img className="d-block w-100" src="assets/images/lib.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+										<div className='banner-caption'>Library</div>
 									</div>
 								</div>
 							</div>

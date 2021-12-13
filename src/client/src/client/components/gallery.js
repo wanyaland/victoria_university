@@ -12,6 +12,8 @@ class Gallery extends Component{
 		this.state = {
 			gallerylister: [],
 		}
+		this.view_photo = this.view_photo.bind(this);
+		this.close_bio = this.close_bio.bind(this);
 	}
 	componentDidMount(){
 		this.getGallery()
@@ -22,6 +24,7 @@ class Gallery extends Component{
 		})
 	}
     view_photo(id) {
+		console.log(id, "ID")
         var modal = document.getElementById(id);
         modal.style.display = "block";
     }
@@ -59,7 +62,7 @@ class Gallery extends Component{
 			<br />
 
 			<div className="row">
-				<GalleryList gallerylister={this.state.gallerylister}/>
+				<GalleryList gallerylister={this.state.gallerylister} view_photo={this.view_photo} close_bio={this.close_bio}/>
 			</div>
 			<br/>
 			<br/>
