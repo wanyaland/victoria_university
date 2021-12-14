@@ -44,8 +44,8 @@ class WilLand extends Component{
 					</p>
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
-                    <img src="assets/images/b3.jpg" className="img-fluid" alt="WIL" />
-						<p><b style={{fontWeight: '500'}}>Image:</b> Sophie, a Bachelor of Environmental Science and Management student, was awarded the Work Integrated Learning Student of the Year in the 2020 Employability Excellence Awards</p>
+                    <img src="assets/images/work.JPG" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Research and learning</p>
 				</div>
 			</div>
         </div>

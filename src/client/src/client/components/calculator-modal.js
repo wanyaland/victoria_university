@@ -173,6 +173,8 @@ class CalculatorFees extends Component {
                               <option>First</option>
                               <option>Second</option>
                               <option>Third</option>
+                              <option>Forth</option>
+                              <option>Fifth</option>
                             </select>
                           </div>
                         </div>
