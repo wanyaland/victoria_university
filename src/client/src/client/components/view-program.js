@@ -4,6 +4,10 @@ import NavBar from './navbar';
 import GetInfo from './get_info';
 import Footer from './footer'
 import Data from './data/courses.json'
+import { Link } from 'react-router-dom';
+import CalculatorFees from './calculator-modal';
+import * as math from 'mathjs'
+
 ///
 
 class ViewProgram extends Component {
@@ -13,7 +17,13 @@ class ViewProgram extends Component {
 			course_prog: {},
 			course_desc: "",
 			course_test: "",
-			banner_src: ""
+			banner_src: "",
+			first_sem_sem: 0,
+			first_sem: 0,
+			second_sem: 0,
+			first_sem_semL: 0,
+			first_semL: 0,
+			second_semL: 0
 		}
 	}
 	componentDidMount(){
@@ -36,7 +46,37 @@ class ViewProgram extends Component {
 		const result = progData.find( ({ program }) => program === this.props.match.params.program );
 		this.setState({
 			course_prog: result,
-			facultyBanner: result.faculty
+			facultyBanner: result.faculty,
+		})
+		/* International */
+		var int_price = (result.int_price).replace(/,/g, "")
+		var int_func_fee = (result.int_func_fee).replace(/,/g, "")
+		var caution_fee_int = (result.caution_fee_int).replace(/,/g, "")
+		var identity_card_int = (result.identity_card_int).replace(/,/g, "")
+		var reg_fee_int = (result.reg_fee_int).replace(/,/g, "")
+		var application_fee_int = (result.application_fee_int).replace(/,/g, "")
+		/* Local */
+		var local_price = (result.local_price).replace(/,/g, "")
+		var local_func_fee = (result.local_func_fee).replace(/,/g, "")
+		var caution_fee_loc = (result.caution_fee_loc).replace(/,/g, "")
+		var identity_card_loc = (result.identity_card_loc).replace(/,/g, "")
+		var reg_fee_loc = (result.reg_fee_loc).replace(/,/g, "")
+		var application_fee_loc = (result.application_fee_loc).replace(/,/g, "")
+		/* Int Set */
+		var fssI = math.add(int_price, int_func_fee, caution_fee_int, identity_card_int, reg_fee_int, application_fee_int)
+		var fsI = math.sum(int_price, int_func_fee)
+		var ssI = math.sum(int_price)
+		/* Loc Set */
+		var fssL = math.add(local_price, local_func_fee, caution_fee_loc, identity_card_loc, reg_fee_loc, application_fee_loc)
+		var fsL = math.sum(local_price, local_func_fee)
+		var ssL = math.sum(local_price)
+		this.setState({
+			first_sem_sem: fssI,
+			first_sem: fsI,
+			second_sem: ssI,
+			first_sem_semL: fssL.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','),
+			first_semL: fsL.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','),
+			second_semL: ssL.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 		})
 		if(result.faculty === "Faculty Of Business And Management"){
 			this.setState({
@@ -63,6 +103,10 @@ class ViewProgram extends Component {
 				banner_src: '/assets/images/faculties/law.jpg'
 			})
 		}
+	}
+	popCal(){
+		var modal = document.getElementById("cal-myModal");
+		modal.style.display = "block";
 	}
 	openForm(){
         document.getElementById("myForm").style.display = "block";
@@ -118,7 +162,7 @@ class ViewProgram extends Component {
 		var admission = document.getElementById('admission')
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (International Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">Application Fee (USD)</th><td>'+this.state.course_prog.application_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Caution Fee (USD)</th><td>16</td><td></td><td></td><td></td></tr><tr><th scope="row">Funcitional Fees (USD)</th><td>'+this.state.course_prog.int_func_fee+'</td><td></td><td>'+this.state.course_prog.int_func_fee+'</td><td></td></tr><tr><th scope="row">Identity Card (USD)</th><td>'+this.state.course_prog.identity_card_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Registration Fees (USD)</th><td>'+this.state.course_prog.reg_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Tuition Fees (USD)</th><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td></tr></tbody></table><br/><table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (Local Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">APPLICATION FEE (UGX)</th><td>'+this.state.course_prog.application_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">CAUTION FEE (UGX)</th><td>50,000</td><td></td><td></td><td></td></tr><tr><th scope="row">FUNCTIONAL FEES (UGX)</th><td>'+this.state.course_prog.local_func_fee+'</td><td></td><td>'+this.state.course_prog.local_func_fee+'</td><td></td></tr><tr><th scope="row">IDENTITY CARD (UGX)</th><td>'+this.state.course_prog.identity_card_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">REGISTRATION FEES (UGX)</th><td>'+this.state.course_prog.reg_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">TUITION FEES (UGX)</th><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td></tr></tbody></table>'
+		mainDisplay.innerHTML = '<table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (International Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">Application Fee (USD)</th><td>'+this.state.course_prog.application_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Caution Fee (USD)</th><td>16</td><td></td><td></td><td></td></tr><tr><th scope="row">Funcitional Fees (USD)</th><td>'+this.state.course_prog.int_func_fee+'</td><td></td><td>'+this.state.course_prog.int_func_fee+'</td><td></td></tr><tr><th scope="row">Identity Card (USD)</th><td>'+this.state.course_prog.identity_card_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Registration Fees (USD)</th><td>'+this.state.course_prog.reg_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Tuition Fees(USD)</th><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td></tr><tr><th>Total (USD)</th><td>'+this.state.first_sem_sem+'</td><td>'+this.state.second_sem+'</td><td>'+this.state.first_sem+'</td><td>'+this.state.second_sem+'</td></tr></tbody></table><br/><table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (Local Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">APPLICATION FEE (UGX)</th><td>'+this.state.course_prog.application_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">CAUTION FEE (UGX)</th><td>50,000</td><td></td><td></td><td></td></tr><tr><th scope="row">FUNCTIONAL FEES (UGX)</th><td>'+this.state.course_prog.local_func_fee+'</td><td></td><td>'+this.state.course_prog.local_func_fee+'</td><td></td></tr><tr><th scope="row">IDENTITY CARD (UGX)</th><td>'+this.state.course_prog.identity_card_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">REGISTRATION FEES (UGX)</th><td>'+this.state.course_prog.reg_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">TUITION FEES (UGX)</th><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td></tr><tr><th>Total (UGX)</th><td>'+this.state.first_sem_semL+'</td><td>'+this.state.second_semL+'</td><td>'+this.state.first_semL+'</td><td>'+this.state.second_semL+'</td></tr></tbody></table>'
 		overview.classList.remove('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
 		admission.classList.remove('activeSummaryBlue')
@@ -244,6 +288,7 @@ class ViewProgram extends Component {
 						<p className="my-4 text-center">
 							<ul style={{listStyle: 'none'}}>
 								<a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" to="/apply-now"><li className="" style={{marginBottom: '.5rem !important', color: '#025886'}}><span className="fa fa-external-link" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className="underline">Apply Online</span></li></a>
+								<Link className="calBtn" onClick={this.popCal} style={{marginBottom: '.5rem !important', color: '#025886'}}><li><span className="fa fa-calculator" style={{color: '#025886', fontSize: '18px'}}></span>&emsp;<span className='underline'>Calculate Fees</span></li></Link>
 							</ul>
 						</p>
                     </div>
@@ -274,6 +319,7 @@ class ViewProgram extends Component {
 </section>
 <div id="get-info"></div>
                 <GetInfo />
+				<CalculatorFees />
                 <Footer />
             </React.Fragment>
         )

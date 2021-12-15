@@ -68,6 +68,10 @@ class Secretarial extends Component {
 						<br/>
                         <p className="my-4">Photocopy services are offered at the following rates: Photocopy- ugx. 100/= per page, scanning at 500/=per page. This is done within the permissible copying limits as per Copyright Act.</p>
 					</div>
+					<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    	<img src="assets/images/stock2.JPG" className="img-fluid" alt="WIL" />
+						{/* <p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p> */}
+					</div>
 				</div>
 			</div>
 		</div>

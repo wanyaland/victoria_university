@@ -86,6 +86,10 @@ class Library extends Component {
                         With a world of knowledge and expertise at your fingertips, you’ll find the Library’s place at the heart of your university experience. It’s a place to explore new horizons, a place to discover your passion, and a place to respond to world-challenges. We continually invest to create the right environment for you, and whatever your level of study or area of research, we're here to help you succeed.If you choose VULIB, you’ll have access to rich resources, outstanding facilities and support – and the freedom to do things your own way.
                     </p>
 					</div>
+					<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    	<img src="assets/images/stock.JPG" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p>
+					</div>
 				</div>
 			</div>
 		</div>

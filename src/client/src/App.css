@@ -19464,6 +19464,7 @@ color: #FFF;
 }
 .quat-line{
     border: 1px #CCC solid;
+    background-color: #CCC;
 }
 .grad_icon {
     color: #045079;

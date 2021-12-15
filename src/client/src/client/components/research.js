@@ -87,12 +87,16 @@ class Research extends Component {
 						The 21st Century posits different ways of doing things. There are various challenges that will need both holistic and specific approaches. The Covid-19 pandemic has affected every social fabric of our societies locally and abroad ranging from altering the way people relate to the way they trade.Victoria University research brings together the greatest minds in all disciplines to work with your organization for the benefit of all. Our team of researchers are ready to find new opportunities and insights that will help you solve issues within your organization, be it a start-up, community groups, the environment and across all sectors of the economy</p><p className="my-4">We invite you to take advantage of our robust research ecosystem including our custom-built paradigms, latest industry-university collaborative research, technologies among others.
 						</p>
 					</div>
+					<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    	<img src="assets/images/res.jpg" className="img-fluid" alt="WIL" />
+						{/* <p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p> */}
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section className="w3l-wecome-content-6">
+{/* <section className="w3l-wecome-content-6">
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5">
             <div className="welcome-grids row">
@@ -118,7 +122,7 @@ class Research extends Component {
             </div>
         </div>
     </div>
-</section>
+</section> */}
                 <Footer />
             </React.Fragment>
         )
