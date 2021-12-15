@@ -49,19 +49,19 @@ class ViewProgram extends Component {
 			facultyBanner: result.faculty,
 		})
 		/* International */
-		var int_price = (result.int_price).replace(/,/g, "")
-		var int_func_fee = (result.int_func_fee).replace(/,/g, "")
-		var caution_fee_int = (result.caution_fee_int).replace(/,/g, "")
-		var identity_card_int = (result.identity_card_int).replace(/,/g, "")
-		var reg_fee_int = (result.reg_fee_int).replace(/,/g, "")
-		var application_fee_int = (result.application_fee_int).replace(/,/g, "")
+		var int_price = (result.int_price)
+		var int_func_fee = (result.int_func_fee)
+		var caution_fee_int = (result.caution_fee_int)
+		var identity_card_int = (result.identity_card_int)
+		var reg_fee_int = (result.reg_fee_int)
+		var application_fee_int = (result.application_fee_int)
 		/* Local */
-		var local_price = (result.local_price).replace(/,/g, "")
-		var local_func_fee = (result.local_func_fee).replace(/,/g, "")
-		var caution_fee_loc = (result.caution_fee_loc).replace(/,/g, "")
-		var identity_card_loc = (result.identity_card_loc).replace(/,/g, "")
-		var reg_fee_loc = (result.reg_fee_loc).replace(/,/g, "")
-		var application_fee_loc = (result.application_fee_loc).replace(/,/g, "")
+		var local_price = (result.local_price)
+		var local_func_fee = (result.local_func_fee)
+		var caution_fee_loc = (result.caution_fee_loc)
+		var identity_card_loc = (result.identity_card_loc)
+		var reg_fee_loc = (result.reg_fee_loc)
+		var application_fee_loc = (result.application_fee_loc)
 		/* Int Set */
 		var fssI = math.add(int_price, int_func_fee, caution_fee_int, identity_card_int, reg_fee_int, application_fee_int)
 		var fsI = math.sum(int_price, int_func_fee)
@@ -162,7 +162,7 @@ class ViewProgram extends Component {
 		var admission = document.getElementById('admission')
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (International Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">Application Fee (USD)</th><td>'+this.state.course_prog.application_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Caution Fee (USD)</th><td>16</td><td></td><td></td><td></td></tr><tr><th scope="row">Funcitional Fees (USD)</th><td>'+this.state.course_prog.int_func_fee+'</td><td></td><td>'+this.state.course_prog.int_func_fee+'</td><td></td></tr><tr><th scope="row">Identity Card (USD)</th><td>'+this.state.course_prog.identity_card_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Registration Fees (USD)</th><td>'+this.state.course_prog.reg_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Tuition Fees(USD)</th><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td></tr><tr><th>Total (USD)</th><td>'+this.state.first_sem_sem+'</td><td>'+this.state.second_sem+'</td><td>'+this.state.first_sem+'</td><td>'+this.state.second_sem+'</td></tr></tbody></table><br/><table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (Local Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">APPLICATION FEE (UGX)</th><td>'+this.state.course_prog.application_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">CAUTION FEE (UGX)</th><td>50,000</td><td></td><td></td><td></td></tr><tr><th scope="row">FUNCTIONAL FEES (UGX)</th><td>'+this.state.course_prog.local_func_fee+'</td><td></td><td>'+this.state.course_prog.local_func_fee+'</td><td></td></tr><tr><th scope="row">IDENTITY CARD (UGX)</th><td>'+this.state.course_prog.identity_card_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">REGISTRATION FEES (UGX)</th><td>'+this.state.course_prog.reg_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">TUITION FEES (UGX)</th><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td></tr><tr><th>Total (UGX)</th><td>'+this.state.first_sem_semL+'</td><td>'+this.state.second_semL+'</td><td>'+this.state.first_semL+'</td><td>'+this.state.second_semL+'</td></tr></tbody></table>'
+		mainDisplay.innerHTML = '<table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (International Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">Application Fee (USD)</th><td>'+this.state.course_prog.application_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Caution Fee (USD)</th><td>'+this.state.course_prog.caution_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Funcitional Fees (USD)</th><td>'+this.state.course_prog.int_func_fee+'</td><td></td><td>'+this.state.course_prog.int_func_fee+'</td><td></td></tr><tr><th scope="row">Identity Card (USD)</th><td>'+this.state.course_prog.identity_card_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Registration Fees (USD)</th><td>'+this.state.course_prog.reg_fee_int+'</td><td></td><td></td><td></td></tr><tr><th scope="row">Tuition Fees(USD)</th><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td><td>'+this.state.course_prog.int_price+'</td></tr><tr><th>Total (USD)</th><td>'+this.state.first_sem_sem+'</td><td>'+this.state.second_sem+'</td><td>'+this.state.first_sem+'</td><td>'+this.state.second_sem+'</td></tr></tbody></table><br/><table class="table table-bordered" style="font-size: .8em"><thead><tr><th scope="col">FEES (Local Students)</th><th scope="col" colspan="2">YEAR 1</th><th scope="col" colspan="2">YEAR 2</th></tr></thead><tbody><tr><td></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td><td><b>SEM 1</b></td><td><b>SEM 2</b></td></tr><tr><th scope="row">APPLICATION FEE (UGX)</th><td>'+this.state.course_prog.application_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">CAUTION FEE (UGX)</th><td>'+this.state.course_prog.caution_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">FUNCTIONAL FEES (UGX)</th><td>'+this.state.course_prog.local_func_fee+'</td><td></td><td>'+this.state.course_prog.local_func_fee+'</td><td></td></tr><tr><th scope="row">IDENTITY CARD (UGX)</th><td>'+this.state.course_prog.identity_card_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">REGISTRATION FEES (UGX)</th><td>'+this.state.course_prog.reg_fee_loc+'</td><td></td><td></td><td></td></tr><tr><th scope="row">TUITION FEES (UGX)</th><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td><td>'+this.state.course_prog.local_price+'</td></tr><tr><th>Total (UGX)</th><td>'+this.state.first_sem_semL+'</td><td>'+this.state.second_semL+'</td><td>'+this.state.first_semL+'</td><td>'+this.state.second_semL+'</td></tr></tbody></table>'
 		overview.classList.remove('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
 		admission.classList.remove('activeSummaryBlue')
