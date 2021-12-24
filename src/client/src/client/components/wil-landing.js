@@ -44,7 +44,7 @@ class WilLand extends Component{
 					</p>
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
-                    <img src="assets/images/work.JPG" className="img-fluid" alt="WIL" />
+                    <img src="assets/images/work.jpg" className="img-fluid" alt="WIL" />
 						<p><b style={{fontWeight: '500'}}>Image:</b> Research and learning</p>
 				</div>
 			</div>
