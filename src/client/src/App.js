@@ -30,13 +30,13 @@ import Trustees from './client/components/trustees';
 import CurrentStudents from './client/components/current-students';
 import NewStudents from './client/components/new-students';
 import Myvustudentportal from './client/components/myvu-student-portal';
-import Exams from './client/components/exams';
+/* import Exams from './client/components/exams'; */
 import Appeals from './client/components/appeals';
 import CourseProcedures from './client/components/course-procedures';
 import ContactWil from './client/components/contactwil';
-import WilCosts from './client/components/costs-and-insurance';
+import YourCall from './client/components/yourcall';
 import HowWilWorks from './client/components/how-wil-works';
-import Benefits from './client/components/benefits';
+import keySteps from './client/components/keysteps';
 import WilHallOfFame from './client/components/wil-hall-of-fame'
 import Vclass from './client/components/vclass';
 import ProgIndex from './client/components/prog-index';
@@ -64,6 +64,8 @@ import Catalogue from './client/components/catalogue';
 import LibOpen from './client/components/opening';
 import Offcamp from './client/components/off-campus';
 import Faqs from './client/components/faqs';
+import WilFaqs from './client/components/wilfaqs';
+import Benefits from './client/components/benefits';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -103,13 +105,13 @@ const App = () => (
         <Route exact path="/current-students" component={CurrentStudents} />
         <Route exact path="/new-students" component={NewStudents} />
         <Route exact path="/myvu-student-portal" component={Myvustudentportal} />
-        <Route exact path="/exams" component={Exams} />
+        {/* <Route exact path="/exams" component={Exams} /> */}
         <Route exact path="/appeals" component={Appeals} />
         <Route exact path="/course-procedures" component={CourseProcedures} />
         <Route exact path="/contactwil" component={ContactWil} />
-        <Route exact path="/costs-and-insurance" component={WilCosts} />
+        <Route exact path="/yourcall" component={YourCall} />
         <Route exact path="/how-wil-works" component={HowWilWorks} />
-        <Route exact path="/benefits" component={Benefits} />
+        <Route exact path="/keysteps" component={keySteps} />
         <Route exact path="/wil-hall-of-fame" component={WilHallOfFame} />
         <Route exact path="/vclass" component={Vclass} />
         <Route exact path="/course-offering" component={CourseOffering} />
@@ -137,6 +139,8 @@ const App = () => (
         <Route exact path="/opening" component={LibOpen} />
         <Route exact path="/off-campus" component={Offcamp} />
         <Route exact path="/faqs" component={Faqs} />
+        <Route exact path="/wilfaqs" component={WilFaqs} />
+        <Route exact path="/benefits" component={Benefits} />
       </Switch>
     </Router>
 
