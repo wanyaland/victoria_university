@@ -42,35 +42,63 @@ class HowWilWorks extends Component{
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/>
                         <br/>
-                        <p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}>What is WIL?</p>
-						<p className="my-4">WIL is a new education system in Uganda introduced by Victoria University .You may have heard of WIL as practicum, clinical placement, internship or fieldwork, to name a few.</p>
-						<p className="my-4">
-							WIL also occurs in various types. While placement is the most known form, WIL can also be project-based learning, simulation activities, clinic-based, fieldwork and even virtual.
-						</p>
-                        <p className="my-4">
-                        WIL opportunities are aligned with the curriculum of hundreds of courses offered by Victoria University and are delivered at different times of the year.
-                        </p>
+                        <p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}>Victoria University WIL program involves five stakeholders:</p>
                         <p className="my-4">
                             <ul style={{listStyle: 'none'}}>
-                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;WIL can be real or simulated, provided on or off campus, a compulsory or optional part of a program.</li>
-                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;WIL can be designed to meet the needs of an industry, business or community partner to achieve real-world outcomes.</li>
-                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;WIL students are expected to exemplify the skills, attitudes and attributes of a professional in their field of expertise.</li>
-                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;WIL involves clearly stated outcomes and assessment, and should be consistent with quality teaching and learning.</li>
+                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Victoria University (GRIP)</li>
+                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Victoria University Students</li>
+                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Your (Host) Organization</li>
+                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Victoria University Lecturers/researchers & Educators</li>
+                                <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Government regulators-NCHE & MOES and other professional-specific bodies</li>
                             </ul>
                         </p>
-                        <p style={{fontSize: '30px', color: '#0077b5'}}><b>How WIL Works</b></p>
+                        <p style={{fontSize: '30px', color: '#0077b5'}}><b>Here is how the involvement works for the benefit of all			</b></p>
                         <p className="my-4">
-                            WIL courses and industry experience are available to domestic and international students enrolled in most undergraduate, postgraduate or research higher degrees.
+                        <table class="table table-bordered" style={{fontSize: '.8em'}}>
+	<thead>
+		<tr>
+			<th scope="col">STAKEHOLDER/TIMING</th>
+			<th scope="col">PRE-WIL</th>
+			<th scope="col">DURING WIL</th>
+			<th scope="col">POST-WIL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th><b>Students</b></th>
+			<td><b>Prepares for WIL experience by participating in curricular preparatory content and activities (pedagogy)</b></td>
+			<td><b>Engages effectively with work and people (experience) Engages with curricular expectations of academic program (pedagogy)</b></td>
+			<td><b>Leaves WIL experience having met all expected obligations and with positive working relationships Reflects on experience and learning/growth (pedagogy and reflection)</b></td>
+		</tr>
+		<tr>
+			<th >Host (Your Organization)</th>
+			<td>Prepares for Student arrival</td>
+			<td>Provides responsibilities for students that are authentic and meaningful (experience) and connect to students’ skill sets/knowledge base (pedagogy) Provides support for students (experience)</td>
+			<td>Provides assessment of student learning and performance (assessment) Considers what went well and what might be changed for a subsequent student (reflection)</td>
+		</tr>
+		<tr>
+			<th>Educators/lecturers/researchers from Victoria University</th>
+			<td>Supports students and hosts in preparatory activities including designing curricular content and assessments (pedagogy)</td>
+			<td>Monitors progress and provides supports to students and hosts as needed (experience)</td>
+			<td>Facilitates student reflection and follows up with host to evaluate experience (pedagogy and reflection)</td>
+		</tr>
+		<tr>
+			<th>Victoria University (GRIP)</th>
+			<td colspan="3">Recognizing WIL as part of curricular Enabling curricular reform through reports from students and educators</td>
+		</tr>
+		<tr>
+			<th>Government</th>
+			<td colspan="3">Support VU WIL through NDP III Creating better conditions for organizations that support WIL</td>
+		</tr>
+	</tbody>
+</table>
                         </p>
-                        <p className="my-4">
-                            The majority of the undergraduate degree programs offered by Victoria University include an opportunity for students to take part in some type of WIL. Tens of thousands of students from across the University take part in a diverse range of core, compulsory, elective, and directed WIL courses opportunities each year.
-                        </p>
-                        <p className="my-4">
+                        {/* <p className="my-4">
                             It is not just teachers, nurses, doctors and engineers that can take part in these meaningful workplace learning opportunities, with WIL courses being offered as part of degree programs in diverse fields such as Information Technology, Communications and Design, Humanities, Business, Commerce and Marketing.
                         </p>
                         <p className="my-4">
                             As WIL is predominantly part of courses within degrees, WIL opportunities are delivered at different times of the year, depending on the course and semester timetable and annual course structures.
-                        </p>
+                        </p> */}
                         <table style={{width: '100%', height: '100%'}}>
                         
 							<tr>

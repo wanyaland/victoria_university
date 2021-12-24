@@ -122,7 +122,7 @@ class NavBar extends Component{
 							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 								<Link to="/current-students" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-								<Link to="/exams" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exams</Link>
+								{/* <Link to="/exams" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exams</Link> */}
 								</ul>
 							</li>
 							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/wil-hall-of-fame" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
