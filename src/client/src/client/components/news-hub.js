@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 class NewsHub extends Component{
 		change_icon(id, id2) {
@@ -238,13 +238,13 @@ class NewsHub extends Component{
 				</div>
 			</div>
 			<br/>
-			<div className="text-right">
+			{/* <div className="text-right">
 				<p>
 					<Link className="logo-2" to="/events-hub" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
 						<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;</span><span className="underline">View all News</span>
 					</Link>
 				</p>
-			</div>
+			</div> */}
 		</div>
 	</div>
 </section>
