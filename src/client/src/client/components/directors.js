@@ -57,7 +57,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Martin Jerome Okec Aliker</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 1" className="modal_bio">
@@ -80,7 +80,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Dr. Sudhir Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 2" className="modal_bio">
@@ -104,7 +104,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Rajiv Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 3" className="modal_bio">
@@ -125,7 +125,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Mrs. Jyotsna Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 4" className="modal_bio">
@@ -150,7 +150,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Ms. Meera Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 5" className="modal_bio">
@@ -171,7 +171,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Ms. Sheena Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 6" className="modal_bio">
@@ -193,7 +193,7 @@ class Directors extends Component {
 								<h3 class="name-pos"><a href="#url">Ms Naiya Ruparelia</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 7" className="modal_bio">

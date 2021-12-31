@@ -17,7 +17,7 @@ const CourseList = (props) => {
                                 </Link>
                             </div>
                             <div className="course-divider">
-                                <div className="course-meta grid"><span className="course-students" title="">UGX {item.local_price}</span>
+                                <div className="course-meta grid"><span className="course-students" title="">UGX {item.local_price} <b>OR</b> USD {item.int_price}</span>
                                     <span className="course-reviews" title=""></span>
 
                                 </div>

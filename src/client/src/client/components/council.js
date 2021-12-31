@@ -57,7 +57,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Joseph N. Biribonwa</a></h3>
 								<p>Vice Chairperson University Council</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 1" className="modal_bio">
@@ -83,7 +83,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Kalebbo James</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 2" className="modal_bio">
@@ -106,7 +106,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Dr. Mary Kanyiginya Tizikara</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 3" className="modal_bio">
@@ -137,7 +137,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Joram Francis Kahenano</a></h3>
 								<p>Chairman</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 4" className="modal_bio">
@@ -163,7 +163,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Sameer Thakkar</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 5" className="modal_bio">
@@ -193,7 +193,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Rajiv Ruparelia</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 6" className="modal_bio">
@@ -214,7 +214,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Ssemambo Rashid</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 7" className="modal_bio">
@@ -227,7 +227,7 @@ class Council extends Component {
 								team building, people management, report writing, data analyzing and compiling. He is currently
 								the managing partner in Ssemambo & Ssemambo Advocates. He owns a number of businesses
 								among which include Chrome Beverages Limited. He holds Bachelors of Law from Makerere
-								University and Post Graduate Diploma in Legal Practice. He is currently pursuing his Master of
+								University and Postgraduate Diploma in Legal Practice. He is currently pursuing his Master of
 								Laws at Makerere University.
 								</p>
 								</div>
@@ -243,7 +243,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Dr. Kabonesa Consolata</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 8" className="modal_bio">
@@ -272,7 +272,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Andrew M. Mwenda</a></h3>
 								<p>Council Member</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 9" className="modal_bio">
@@ -303,14 +303,14 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mary Goretti Katusabe – Ssemwezi (Mrs.)</a></h3>
 								<p>EX-Officio/Secretary To Council</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 10")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 10")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 10" className="modal_bio">
 								<div className="modal-content_bio">
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 10")}>&times;</span>
 									<br/>
-									<p className="my-4 text-left">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
+									<p className="my-4 text-left">Mrs M.G Katusabe - Ssemwezi is the Victoria University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 									<br/>
 									<b>Qualifications: M.Ed (Mak), B.A./Dip Ed. (Mak), PGDFM (UM) Ad. Cert. Tr. Mgt (Bristal University)</b></p>
 								</div>
@@ -326,7 +326,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Mr. Waliraki J. Bosco</a></h3>
 								<p>Staff Representative</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 11")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 11")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 11" className="modal_bio">
@@ -349,7 +349,7 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">Dr. Lawrence Muganga</a></h3>
 								<p>Vice Chancellor and Deputy Vice Chancellor</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 12")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 12")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 12" className="modal_bio">
@@ -382,14 +382,14 @@ class Council extends Component {
 								<h3 class="name-pos"><a href="#url">H.E Mark Serebe</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 9" className="modal_bio">
 								<div className="modal-content_bio">
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
 									<br/>
-									<p className="my-4 text-left">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
+									<p className="my-4 text-left">H.E Mark Serebe is the the students representative. 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 									<br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p>
 								</div>

@@ -186,14 +186,17 @@ class AboutUs extends Component{
 		<div className="container py-lg-5">
 			<h3 className="hny-title text-center" style={{color: '#0077b5'}}>What Makes VU Unique</h3>
 			<div className="mission-grids-info row">
-				<div className="mission-gd-right col-lg-12 pl-lg-12 text-center">
+				<div className="mission-gd-right col-lg-6 pl-lg-12 text-center">
 					<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Students graduate with 2-3 year work experience</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Experiencial learning</p>
-                    <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Writing exams</p>
+                    {/* <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Writing exams</p> */}
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Internship and Job placement</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Best in offering online classes</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Located in the heart of Kampala</p>
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Diverse culture </p>
+				</div>
+				<div className="mission-gd-right col-lg-6 pl-lg-12 text-center">
+					<img src='assets/images/culture.jpg' className='img-fluid' alt='unique' />
 				</div>
 				{/* <div className="mission-gd-right col-lg-6 pl-lg-4">
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>

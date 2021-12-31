@@ -104,66 +104,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Science And Technology</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<br/>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
-										<p className="my-4">Direct Entry</p>
-											<p className="my-4">Candidate must have a minimum requirement of admission on a diploma as required by Victoria University Uganda.</p>
-											<p>
-											<p className="my-4">Candidates seeking admission on this scheme should have:</p>
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;At least five credits at O-Level.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A candidate must have at least one principal pass at Advanced level obtained at the same sitting.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The essential subjects are; Economics, Geography, Entrepreneurship, Fine Art, Technical Drawing, Literature, Computer Studies, Electronics, Mathematics, Physics, Chemistry, Foods and Nutrition, Biology, Healthy Science and Agriculture.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any other subject done and passed at Advanced level is relevant.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
-											</ul>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
-													<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
-												</Link>
-											</p>
-											<p className="my-4">Diploma</p>
-											<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The Uganda Certificate of Education (UCE) or its equivalent, with a credit in Mathematics</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Computer Science, IT, Mathematics, Information Systems, Statistics, Computer Engineering or equivalent from a recognized institution.</li>
-											</ul>
-											</p>
-											<p className="my-4">Mature Age Entry Scheme</p>
-											<p className="my-4">
-										A candidate must be 25 years of age and above have passed the mature age entry examination conducted by National Council for Higher Education (NCHE) or an institution accredited by 
-										</p>
-										<p className="my-4">NCHE. NCHE recognizes the following institutions’ mature age examinations:</p>
-											<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Makererere University</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Gulu University.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Islamic University in Uganda Mbale</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Mbarara University of Science and Technology</li>
-											</ul>
-											</p>
-											<p className="my-4">The eligible candidate must have got two principal passes at A Level in relevant subjects and 5 passes at O’Level. They should have been obtained at the same sitting, not consecutive sittings.</p>
-											<p className="my-4">
-										Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.
-										</p>
-											<p>
-												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
-												</Link>
-											</p>
-											<p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
-												</Link>
-											</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Diploma in science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -222,39 +163,6 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in big data analytics<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<br/>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
-										<p className="my-4">
-											The Faculty will admit students on the Masters of Science in Big data Analytics programme who possess at least a second-class honors Bachelor’s degree in Information Technology, Computer Science or any other Computing or Mathematics discipline from any recognized university in and beyond Uganda. Applicants with a PGD in the above disciplines will also be considered.
-										</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<br/>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
-										<p className="my-4">
-										One will first satisfy the general requirements for admission to Victoria University prior to being considered for admission to the programme. Admission to the programme shall be open to the following category of candidate.
-										</p>
-										<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Holder of a minimum of second-class honors undergraduate degree that has content rich in Information Technology, Information systems, computer science, software engineering or mathematics.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Holder of postgraduate diploma in Information Technology, Information Systems, Computer Science, Software Engineering and Computer Engineering from a recognized University/ Institution</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any other relevant degree from a recognized university/institution with evidence of having taken a considerable number of acceptable courses related to the Information Technology or Information Systems discipline.</li>
-											</ul>
-										</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
 								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
@@ -299,6 +207,65 @@ class Requirements extends Component{
 											<p className="my-4">Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.</p>
 												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
 													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in visual effects and animation<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<br/>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+										<p className="my-4">Direct Entry</p>
+											<p className="my-4">Candidate must have a minimum requirement of admission on a diploma as required by Victoria University Uganda.</p>
+											<p>
+											<p className="my-4">Candidates seeking admission on this scheme should have:</p>
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;At least five credits at O-Level.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A candidate must have at least one principal pass at Advanced level obtained at the same sitting.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The essential subjects are; Economics, Geography, Entrepreneurship, Fine Art, Technical Drawing, Literature, Computer Studies, Electronics, Mathematics, Physics, Chemistry, Foods and Nutrition, Biology, Healthy Science and Agriculture.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any other subject done and passed at Advanced level is relevant.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;General paper, computer skills and Sub mathematics are desirable subjects.</li>
+											</ul>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
+													<span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">Find all your requirements for your undergraduate program</span>
+												</Link>
+											</p>
+											<p className="my-4">Diploma</p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;The Uganda Certificate of Education (UCE) or its equivalent, with a credit in Mathematics</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Computer Science, IT, Mathematics, Information Systems, Statistics, Computer Engineering or equivalent from a recognized institution.</li>
+											</ul>
+											</p>
+											<p className="my-4">Mature Age Entry Scheme</p>
+											<p className="my-4">
+										A candidate must be 25 years of age and above have passed the mature age entry examination conducted by National Council for Higher Education (NCHE) or an institution accredited by 
+										</p>
+										<p className="my-4">NCHE. NCHE recognizes the following institutions’ mature age examinations:</p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Makererere University</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Gulu University.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Islamic University in Uganda Mbale</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Mbarara University of Science and Technology</li>
+											</ul>
+											</p>
+											<p className="my-4">The eligible candidate must have got two principal passes at A Level in relevant subjects and 5 passes at O’Level. They should have been obtained at the same sitting, not consecutive sittings.</p>
+											<p className="my-4">
+										Credit transfers from other universities are considered on a one-to one basis depending on the university where the student is transferring from and the grades obtained in the relevant modules.
+										</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -436,6 +403,39 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in big data analytics<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<br/>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
+										<p className="my-4">
+											The Faculty will admit students on the Masters of Science in Big data Analytics programme who possess at least a second-class honors Bachelor’s degree in Information Technology, Computer Science or any other Computing or Mathematics discipline from any recognized university in and beyond Uganda. Applicants with a PGD in the above disciplines will also be considered.
+										</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Masters of science in information technology<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<br/>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
+										<p className="my-4">
+										One will first satisfy the general requirements for admission to Victoria University prior to being considered for admission to the programme. Admission to the programme shall be open to the following category of candidate.
+										</p>
+										<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Holder of a minimum of second-class honors undergraduate degree that has content rich in Information Technology, Information systems, computer science, software engineering or mathematics.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Holder of postgraduate diploma in Information Technology, Information Systems, Computer Science, Software Engineering and Computer Engineering from a recognized University/ Institution</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any other relevant degree from a recognized university/institution with evidence of having taken a considerable number of acceptable courses related to the Information Technology or Information Systems discipline.</li>
+											</ul>
+										</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
 							</ul>
 						</div>
 					</div>
@@ -461,88 +461,7 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Business And Management</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of International Business<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<p className="my-4">
-										This programme prepares undergraduates for tasks demanding business expertise and for entry-level managerial positions worldwide in national and international companies and organisations. The Program is a three-year full-time; day, evening and weekend programme of intensive study for learners wishing to earn a Bachelor of International Business degree from Victoria University. It may, however  , be completed in four to six semesters depending on the admission criteria. All elements of the programme have a strong international orientation and aim to develop soft skills such as communication, presentation skills, intercultural competence, and business ethics.
-									</p>
-									<p className="my-4">
-										The programme is targeted at learners who want to work in a multicultural environment. The programme is designed to offer you the opportunity to apply theoretical business management knowledge in a real-life business environment, and further develop soft skills while extending your comprehension of business issues and management tasks. Furthermore, the internship programme gives you the chance to broaden your intercultural competencies and build international networks. The international study semester is an essential part of the programme and is fully accredited with a certificate of competence. 
-									</p>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
-										<p className="my-4">To gain admission to the programme, a candidate must first of all satisfy the general requirements for admission into Victoria University at a Bachelors level. In addition, a candidate shall be eligible for admissions to the programme on meeting any of the following minimum qualifications: -</p>
-										<p className="my-4">Direct Entry</p>
-											<p className="my-4">At least two principal passes in the Uganda Advanced Certificate of Education level in one sitting or its equivalent and at least a credit in mathematics at O-level. The essential subject at Advanced level will be Economics.</p>
-											<p className="my-4">Diploma</p>
-											<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any Diploma (Upper credit and above) from a recognized Institution of learning can be admitted or</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Candidates with at least a second class Lower division and five passes at ordinary level in one sitting will be considered plus one principal pass.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;For credit transfer entry: Since there is no current CATs, university management will consider this later.</li>
-											</ul>
-											</p>
-											<p className="my-4">Credit transfer from other universities</p>
-											<p className="my-4">There will be a possibility of credit transfer from other Ugandan Universities. The formula will be worked out accordingly.
-										</p>
-										<p className="my-4">NCHE. NCHE recognizes the following institutions’ mature age examinations:</p>
-										<p className="my-4" style={{fontWeight: '500'}}>Duration of th programme</p>
-											<p className="my-4">The Bachelor’s Degree in International Business shall extend over a period of six semesters. For category 4b. (i) the duration will be 4 semesters.
-											</p>
-											<p>
-												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
-													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
-												</Link>
-											</p>
-											<p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
-													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
-												</Link>
-											</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp; Bachelor of Science In Oil And Gas Accounting<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<br/>
-									<p className="my-4">Victoria University is one of the premier providers of Petroleum and Energy Education in East Africa. Situated in the heart of Kampala City, the University intends to be the leading provider of high quality of Oil and Gas and energy studies in East Africa at both the undergraduate and postgraduate level as well the provider of quality research in petroleum and energy studies in the region.</p>
-									<p className="my-4">
-										With an outstanding line-up of highly qualified and well experienced Oil and Gas and business professionals as part of its academic staff, rigorous academic standards, an excellent purpose built, modern campus, and strong collaborations locally and international oil and gas companies, studying at Victoria University will benefit a learner with the top class qualifications and training in the Oil and Gas that will unlock your potential to succeed as petroleum economist, business analyst, energy economist, among other areas of expertise in the wide spectrum of the market. Victoria University aims at helping students, professionals to achieve real industry competence and analytical skills in Uganda’s petroleum sector in particular, and eventually the regional and global petroleum industry in general. All academic programs at Victoria University are delivered through highly interactive, market oriented modern learning atmosphere and by highly sought after professionals who are either working in the oil and gas sector or have been trained in various aspects that suite the course units involved. On successful completion of this programme, the student shall be awarded a Bachelor of Science in Oil and Gas Accounting.
-									</p>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<p className="my-4">Duration of the programme</p>
-										<p className="my-4">The program will take a maximum of three years. Each year has two learning semesters.</p>
-										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
-										<p className="my-4">Direct Entry</p>
-											<p className="my-4">At least two principal passes in the Uganda certificate of Education (UACE) or its equivalent and at least a credit in accounts, mathematics, at O-level.</p>
-											<p className="my-4">Diploma</p>
-											<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any Diploma from a recognized University, but applicants with diplomas in business studies and accounting will have added advantage.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Preference/exemption might be accorded to applicants with good diplomas in accounting and oil and gas training i.e. applicants might be exempted from offering similar courses or modules attended elsewhere prior to joining Victoria University</li>
-											</ul>
-											</p>
-											<p className="my-4">Credit transfer from other Universities</p>
-											<p className="my-4">There will be a possibility of credit transfer from other Universities. The formula will be worked out accordingly
-											</p>
-											<p>
-												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
-												</Link>
-											</p>
-											<p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
-												</Link>
-											</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in Banking and Finance<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+							<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Diploma in Banking and Finance<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
 									<div className="col-lg-12 welcome-image">
@@ -638,6 +557,87 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of International Business<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<p className="my-4">
+										This programme prepares undergraduates for tasks demanding business expertise and for entry-level managerial positions worldwide in national and international companies and organisations. The Program is a three-year full-time; day, evening and weekend programme of intensive study for learners wishing to earn a Bachelor of International Business degree from Victoria University. It may, however  , be completed in four to six semesters depending on the admission criteria. All elements of the programme have a strong international orientation and aim to develop soft skills such as communication, presentation skills, intercultural competence, and business ethics.
+									</p>
+									<p className="my-4">
+										The programme is targeted at learners who want to work in a multicultural environment. The programme is designed to offer you the opportunity to apply theoretical business management knowledge in a real-life business environment, and further develop soft skills while extending your comprehension of business issues and management tasks. Furthermore, the internship programme gives you the chance to broaden your intercultural competencies and build international networks. The international study semester is an essential part of the programme and is fully accredited with a certificate of competence. 
+									</p>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+										<p className="my-4">To gain admission to the programme, a candidate must first of all satisfy the general requirements for admission into Victoria University at a Bachelors level. In addition, a candidate shall be eligible for admissions to the programme on meeting any of the following minimum qualifications: -</p>
+										<p className="my-4">Direct Entry</p>
+											<p className="my-4">At least two principal passes in the Uganda Advanced Certificate of Education level in one sitting or its equivalent and at least a credit in mathematics at O-level. The essential subject at Advanced level will be Economics.</p>
+											<p className="my-4">Diploma</p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any Diploma (Upper credit and above) from a recognized Institution of learning can be admitted or</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Candidates with at least a second class Lower division and five passes at ordinary level in one sitting will be considered plus one principal pass.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;For credit transfer entry: Since there is no current CATs, university management will consider this later.</li>
+											</ul>
+											</p>
+											<p className="my-4">Credit transfer from other universities</p>
+											<p className="my-4">There will be a possibility of credit transfer from other Ugandan Universities. The formula will be worked out accordingly.
+										</p>
+										<p className="my-4">NCHE. NCHE recognizes the following institutions’ mature age examinations:</p>
+										<p className="my-4" style={{fontWeight: '500'}}>Duration of th programme</p>
+											<p className="my-4">The Bachelor’s Degree in International Business shall extend over a period of six semesters. For category 4b. (i) the duration will be 4 semesters.
+											</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
+													<span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>
+													<span className="lohny-2"><span  id="iconner5" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner6" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp; Bachelor of Science In Oil And Gas Accounting<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<br/>
+									<p className="my-4">Victoria University is one of the premier providers of Petroleum and Energy Education in East Africa. Situated in the heart of Kampala City, the University intends to be the leading provider of high quality of Oil and Gas and energy studies in East Africa at both the undergraduate and postgraduate level as well the provider of quality research in petroleum and energy studies in the region.</p>
+									<p className="my-4">
+										With an outstanding line-up of highly qualified and well experienced Oil and Gas and business professionals as part of its academic staff, rigorous academic standards, an excellent purpose built, modern campus, and strong collaborations locally and international oil and gas companies, studying at Victoria University will benefit a learner with the top class qualifications and training in the Oil and Gas that will unlock your potential to succeed as petroleum economist, business analyst, energy economist, among other areas of expertise in the wide spectrum of the market. Victoria University aims at helping students, professionals to achieve real industry competence and analytical skills in Uganda’s petroleum sector in particular, and eventually the regional and global petroleum industry in general. All academic programs at Victoria University are delivered through highly interactive, market oriented modern learning atmosphere and by highly sought after professionals who are either working in the oil and gas sector or have been trained in various aspects that suite the course units involved. On successful completion of this programme, the student shall be awarded a Bachelor of Science in Oil and Gas Accounting.
+									</p>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4">Duration of the programme</p>
+										<p className="my-4">The program will take a maximum of three years. Each year has two learning semesters.</p>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+										<p className="my-4">Direct Entry</p>
+											<p className="my-4">At least two principal passes in the Uganda certificate of Education (UACE) or its equivalent and at least a credit in accounts, mathematics, at O-level.</p>
+											<p className="my-4">Diploma</p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any Diploma from a recognized University, but applicants with diplomas in business studies and accounting will have added advantage.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Preference/exemption might be accorded to applicants with good diplomas in accounting and oil and gas training i.e. applicants might be exempted from offering similar courses or modules attended elsewhere prior to joining Victoria University</li>
+											</ul>
+											</p>
+											<p className="my-4">Credit transfer from other Universities</p>
+											<p className="my-4">There will be a possibility of credit transfer from other Universities. The formula will be worked out accordingly
+											</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
 							</ul>
 						</div>
 					</div>
@@ -704,37 +704,40 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Master of Arts in Diplomacy and Global Studies<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelors Of Social Work (B.Sw) Programme<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
-									<p className="my-4">In line with Victoria university policy of offering quality education, the department admits candidates to master’s degree programme who possess at least one of the following:</p>
 									<div className="col-lg-12 welcome-image">
+										<p className="my-4" style={{fontWeight: '600'}}>Programme Description</p>
+										<p className="my-4">Social work is a practice based profession and an academic discipline that promotes social change and development, while addressing life challenges and enhances the wellbeing of the people. Given the global health challenges, this programme is designed to enhance innovativeness in delivery of developmental social welfare and wellbeing as well as harmonizing therapeutic, preventive, rehabilitative, curative and promotive aspects of social work.
+										</p>
+										<p className="my-4">
+										In this view, this particular social work programme is designed to prepare competent, pragmatic professionals, ethical and environment aware social work human resources who can work with individual family groups, organization and or communities in a variety of practice settings to promote social functioning.  Students will learn skills including problem solving, engagement, assessment, intervention and evaluation. They will acquire requisite competencies in planning, advocacy, policy, critical thinking and research/ evidence based practice and apply them at Micro, Meso and macro levels while challenging and addressing societal problems / concerns in the context of aspirations of Ugandan Nation, Africa and beyond. 
+										</p>
+										<p className="my-4">The programme attempts to meet the standards set by international Association of Schools of Social work (ISSW), the international federation of Social workers (IFSW) and has been made in close consultations with the National Association of Social workers of Uganda (NASWU).</p>
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<p className="my-4">Duration of the programme</p>
-										<p className="my-4">The program will take a maximum of three years. Each year has two learning semesters.</p>
-										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
+										<p className="my-4">In line with the university’s policy of offering quality education, the department admits candidates to B.SW programme who possess the following;</p>
 										<p className="my-4">Direct Entry</p>
-											<p className="my-4">At least two principal passes in the Uganda certificate of Education (UACE) or its equivalent and at least a credit in accounts, mathematics, at O-level.</p>
-											<p className="my-4">Diploma</p>
-											<p className="my-4">
+										<p className="my-4">
+										<p className="my-4">Admission through Direct Entry Scheme requires the following;</p>
+										<p className="my-4">
 											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A good first degree from Victoria University, Uganda, or</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any accredited university in Uganda in a similar program with at least a second class.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any recognized international degree in Diplomacy and Global studies or related field with at least second-class honors or its equivalent.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Applicants with a PGD in diplomacy and global studies or any other closely related field.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Sat the O’ Level examination (or equivalent) and obtained at least 5 passes; and or</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Obtained at least 1 Principal Pass and 2 subsidiary passes obtained at the same sitting or the equivalent</li>
 											</ul>
-											</p>
-											<p className="my-4" style={{fontWeight: '500'}}>Duration of th programme</p>
-											<p className="my-4">The Master of Arts in Diplomacy and Global studies shall extend to over a period of four semesters
-											</p>
-											<p>
-												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
-												</Link>
-											</p>
-											<p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+										</p>
+										<p className="my-4">The Weighting System is as follows:</p>
+										<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;‘O' Level Certificate of Education (UCE) with at least five Passes or its equivalent.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;At least two `A' Level principal passes at the same sitting of the U.A.C.E. (or its equivalent).</li>
+											</ul>
+										</p>
+										<p className="my-4" style={{fontWeight: '600'}}>Duration of the Programme</p>
+										<p className="my-4">The Diploma shall normally extend over a period of two years.</p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
+													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -778,40 +781,37 @@ class Requirements extends Component{
 									</div>	
 									<br/>
 								</div>
-								<li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Bachelors Of Social Work (B.Sw) Programme<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Master of Arts in Diplomacy and Global Studies<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<br/>
+									<p className="my-4">In line with Victoria university policy of offering quality education, the department admits candidates to master’s degree programme who possess at least one of the following:</p>
 									<div className="col-lg-12 welcome-image">
-										<p className="my-4" style={{fontWeight: '600'}}>Programme Description</p>
-										<p className="my-4">Social work is a practice based profession and an academic discipline that promotes social change and development, while addressing life challenges and enhances the wellbeing of the people. Given the global health challenges, this programme is designed to enhance innovativeness in delivery of developmental social welfare and wellbeing as well as harmonizing therapeutic, preventive, rehabilitative, curative and promotive aspects of social work.
-										</p>
-										<p className="my-4">
-										In this view, this particular social work programme is designed to prepare competent, pragmatic professionals, ethical and environment aware social work human resources who can work with individual family groups, organization and or communities in a variety of practice settings to promote social functioning.  Students will learn skills including problem solving, engagement, assessment, intervention and evaluation. They will acquire requisite competencies in planning, advocacy, policy, critical thinking and research/ evidence based practice and apply them at Micro, Meso and macro levels while challenging and addressing societal problems / concerns in the context of aspirations of Ugandan Nation, Africa and beyond. 
-										</p>
-										<p className="my-4">The programme attempts to meet the standards set by international Association of Schools of Social work (ISSW), the international federation of Social workers (IFSW) and has been made in close consultations with the National Association of Social workers of Uganda (NASWU).</p>
 										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Admission Requirements</h6>
-										<p className="my-4">In line with the university’s policy of offering quality education, the department admits candidates to B.SW programme who possess the following;</p>
+										<p className="my-4">Duration of the programme</p>
+										<p className="my-4">The program will take a maximum of three years. Each year has two learning semesters.</p>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
 										<p className="my-4">Direct Entry</p>
-										<p className="my-4">
-										<p className="my-4">Admission through Direct Entry Scheme requires the following;</p>
-										<p className="my-4">
+											<p className="my-4">At least two principal passes in the Uganda certificate of Education (UACE) or its equivalent and at least a credit in accounts, mathematics, at O-level.</p>
+											<p className="my-4">Diploma</p>
+											<p className="my-4">
 											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Sat the O’ Level examination (or equivalent) and obtained at least 5 passes; and or</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Obtained at least 1 Principal Pass and 2 subsidiary passes obtained at the same sitting or the equivalent</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A good first degree from Victoria University, Uganda, or</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any accredited university in Uganda in a similar program with at least a second class.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Any recognized international degree in Diplomacy and Global studies or related field with at least second-class honors or its equivalent.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Applicants with a PGD in diplomacy and global studies or any other closely related field.</li>
 											</ul>
-										</p>
-										<p className="my-4">The Weighting System is as follows:</p>
-										<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;‘O' Level Certificate of Education (UCE) with at least five Passes or its equivalent.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;At least two `A' Level principal passes at the same sitting of the U.A.C.E. (or its equivalent).</li>
-											</ul>
-										</p>
-										<p className="my-4" style={{fontWeight: '600'}}>Duration of the Programme</p>
-										<p className="my-4">The Diploma shall normally extend over a period of two years.</p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner13", "iconner14")} onMouseOut={this.change_icon2.bind(this, "iconner13", "iconner14")}>
-													<span className="lohny-2"><span  id="iconner13" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner14" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+											</p>
+											<p className="my-4" style={{fontWeight: '500'}}>Duration of th programme</p>
+											<p className="my-4">The Master of Arts in Diplomacy and Global studies shall extend to over a period of four semesters
+											</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
 												</Link>
 											</p>
 										</div>
@@ -843,6 +843,33 @@ class Requirements extends Component{
 						<h6 className="hny-title" style={{fontSize: '38px', color: '#003d5e', fontWeight: '600'}}>Faculty of Health Sciences</h6>
 						<div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
 							<ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
+							<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Higher Education Certificate in Biological Sciences (1 year) HEB<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
+									<div className="col-lg-12 welcome-image">
+										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
+										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
+											<p className="my-4">
+											<ul style={{listStyle: 'none'}}>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;UACE or its equivalent with two principle passes in either Food and Nutrition, Chemistry, or Biology obtained at the same sitting.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
+												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Students whose foreign secondary school qualifications are not considered equivalent to the Uganda advanced certificate of education in their respective countries, such students shall be required to have an equivalent of the following, biology, physics, chemistry. Foreign students whose studies were not conducted in English shall show proof of proficiency in English language.Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
+											</ul>
+											</p>
+											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
+											<p>
+												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
+													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
+												</Link>
+											</p>
+											<p>
+												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
+													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
+												</Link>
+											</p>
+										</div>
+									</div>	
+									<br/>
+								</div>
 								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Bachelor of science in public health (3 years ) BPH<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
 								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
 									<div className="col-lg-12 welcome-image">
@@ -945,33 +972,6 @@ class Requirements extends Component{
 											<ul style={{listStyle: 'none'}}>
 												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;UACE or its equivalent with two principle passes in either Food and Nutrition, Chemistry, or Biology obtained at the same sitting.</li>
 												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma in Health Sciences from a recognized institution and must be certified by relevant council.</li>
-											</ul>
-											</p>
-											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
-											<p>
-												<Link className="logo-2" to="/transfer-credit" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner9", "iconner10")} onMouseOut={this.change_icon2.bind(this, "iconner9", "iconner10")}>
-													<span className="lohny-2"><span  id="iconner9" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner10" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to transfer credit</span>
-												</Link>
-											</p>
-											<p>
-												<Link className="logo-2" to="/apply" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner11", "iconner12")} onMouseOut={this.change_icon2.bind(this, "iconner11", "iconner12")}>
-													<span className="lohny-2"><span  id="iconner11" className="fa fa-chain programfa"Faculty of Education></span><span id="iconner12" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF'}}></span>&nbsp;</span><span className="underline">How to apply</span>
-												</Link>
-											</p>
-										</div>
-									</div>	
-									<br/>
-								</div>
-								<li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Uganda Advanced Certificate of education or its equivalent with a subsidiary pass in biology and chemistry.<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
-								<div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
-									<div className="col-lg-12 welcome-image">
-										<div className="" style={{width: '100%', backgroundColor: '#fff'}}>
-										<p className="my-4" style={{fontWeight: '500'}}><b>Admission Requirements</b></p>
-											<p className="my-4">
-											<ul style={{listStyle: 'none'}}>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;UACE or its equivalent with two principle passes in either Food and Nutrition, Chemistry, or Biology obtained at the same sitting.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
-												<li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Students whose foreign secondary school qualifications are not considered equivalent to the Uganda advanced certificate of education in their respective countries, such students shall be required to have an equivalent of the following, biology, physics, chemistry. Foreign students whose studies were not conducted in English shall show proof of proficiency in English language.Technical/ vocational qualifications in Biological sciences or health related disciplines such as, nursing, and midwifery, environmental health sciences, and laboratory techniques that are equivalent to the Uganda certificate of education.</li>
 											</ul>
 											</p>
 											<p className="my-4"><b>NOTE:</b> With regards to online study, the student who chooses this program is subjected to blended learning. For example, physical and online classes, with end of semester exams being physical.</p>
