@@ -57,7 +57,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Lawrence Muganga</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 1" className="modal_bio">
@@ -88,14 +88,14 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Mary Goretti Katusabe – Ssemwezi (Mrs.)</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 2" className="modal_bio">
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 2")}>&times;</span>
 								<br/>
-								<p className="my-4 text-left">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
+								<p className="my-4 text-left">Mrs M.G Katusabe - Ssemwezi is the Victoria University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
 								<br/>
 								<b>Qualifications: M.Ed (Mak), B.A./Dip Ed. (Mak), PGDFM (UM) Ad. Cert. Tr. Mgt (Bristal University)</b></p>
 								</div>
@@ -111,7 +111,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Ms Winnie Nassiwa</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 3" className="modal_bio">
@@ -134,7 +134,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Joseph Walusimbi</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 4" className="modal_bio">
@@ -159,7 +159,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Alone Kimwise</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 5" className="modal_bio">
@@ -180,7 +180,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Nnwana Kevin</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 6" className="modal_bio">
@@ -202,7 +202,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Dr Rosemary Nakijoba</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 7" className="modal_bio">
@@ -225,7 +225,7 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">Mr Moris B. Mwahuhlwa</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 8" className="modal_bio">
@@ -250,14 +250,14 @@ class Senate extends Component {
 								<h3 class="name-pos"><a href="#url">H.E Mark Serebe</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Vio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 9" className="modal_bio">
 								<div className="modal-content_bio">
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
 									<br/>
-									<p className="my-4 text-left">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
+									<p className="my-4 text-left">H.E Mark Serebe is the the students representative. 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 									<br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p>
 								</div>

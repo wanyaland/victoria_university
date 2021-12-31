@@ -156,7 +156,7 @@ class Governing extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;University documents<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;University documents<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -165,7 +165,7 @@ class Governing extends Component{
                                     </div>
                                 </div>	
                                 <br/>
-                            </div>
+                            </div> */}
                             <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Policy manuals<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
@@ -184,7 +184,7 @@ class Governing extends Component{
                                 </div>	
                                 <br/>
                             </div>
-                            <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Privacy - brief summary<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                            {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Privacy - brief summary<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>
                                 <div className="col-lg-12 welcome-image">
@@ -193,7 +193,7 @@ class Governing extends Component{
                                     </div>
                                 </div>	
                                 <br/>
-                            </div>
+                            </div> */}
                             {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Service standards<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                             <div className="contenter" style={{backgroundColor: '#FFF', borderBottom: '#CCC 1px solid'}}>
                                 <br/>

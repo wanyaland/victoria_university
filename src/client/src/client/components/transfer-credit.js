@@ -149,7 +149,7 @@ class TransferCredit extends Component{
                         </ul>
                     </p>
                     <p className="my-4" style={{fontWeight: '400', fontSize: '24px'}}>Masters</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Victoria University shall exempt Programme units for students admitted at master's level with a relevant post graduate diploma. To be exempted Programme units at masters, the following criteria have to be fulfilled:</p>
+                    <p className="mb-4" style={{fontSize: '18px'}}>Victoria University shall exempt Programme units for students admitted at master's level with a relevant Postgraduate diploma. To be exempted Programme units at masters, the following criteria have to be fulfilled:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A student should have passed the relevant Programme unit with 60% and above.</li><br/>

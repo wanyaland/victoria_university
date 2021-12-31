@@ -7,7 +7,7 @@ class BannerHome extends Component{
     render(){
         return(
 <React.Fragment>
-	<section className="w3l-banner-slider-main w3l-inner-page-main" id="">
+	<section className="w3l-banner-slider-main w3l-inner-page-main">
 		<div className="w3l-banner-slider-main breadcrumb-infhny" style={{zIndex: '0'}}>
 			<div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">

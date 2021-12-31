@@ -40,18 +40,14 @@ class ContactWil extends Component{
 					<div className="search_results">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Contact us</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
-						<p className="my-4">Your Points of Contact (PoC) for further details are:</p>
+						<p className="my-4">Identifying the discipline or area that you are interested in hosting at your organisation is the first step to find the best point of contact.</p>
 						<p className="my-4">
-                        Dr. John Mayanja Bbale<br/>
-Director, Grants, Research, Innovations & Partnership (GRIP)<br/>
-Email Address: jbbale@vu.ac.ug <br/>
+							Then either complete the form below or get in touch with Employability and Enterprise:
 						</p>
-                        <p className='my-4'>Mr. Maurice A. Otieno<br/>
-Coordinator, Grants, Research & Innovations and Partnerships (GRIP)<br/>
-Email Address: m.otieno@vu.ac.ug</p>
-						<p className="my-4">Phone: +256707780158, +256755026776, +256770546537<br/>
-                            Email: grip@vu.ac.ug / marketing@vu.ac.ug
+						<p className="my-4">Phone: +256 759 996 130, +256 700 300 088, +256 707 780 158<br/>
+                            Email: admissions@vu.ac.ug /marketing@vu.ac.ug
                         </p>
+                        
                         <div className="w3l-features-1">
                             <div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
                                 <div className="container py-lg-5">
