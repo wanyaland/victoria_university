@@ -127,7 +127,7 @@ class AboutUs extends Component{
 								<h3 className="hny-title" style={{color: '#0077b5'}}>
 									Victoria University
 									</h3>
-								<p className="my-4">We are setting the bar for co-op education and experiential learning in Uganda because we saw a need for experienced, university-educated graduates. We encourage dreamers and entrepreneurs because we believe that cultivating creativity is key to global progress. We value diversity and inclusivity because we know we’re better, brighter, and stronger together. Some people call us innovative, but that’s just who we are. As we welcome you to Victoria University, we encourage you to be yourself, work hard, and reap the rewards. We’ll do the same to support you as our student and partner in impacting society.</p>
+								<p className="my-4">Victoria University is the leading University in Uganda and East Africa when it comes to offering Experiential and Work Integrated Learning. We are determined to produce graduates with employable skills and capacity to creatively employ themselves. We do this by providing meaningful, hands-on workplace experience to enrich theoretical learning. Our work integrated learning program is enabling students to complete a program of three years with at least 2-3 years’ work experience.</p>
 								<p className="mb-4"></p>
 								<br/>
 							</div>

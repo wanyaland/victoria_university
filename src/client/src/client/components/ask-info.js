@@ -52,7 +52,13 @@ class AskInfo extends Component {
 								<h6 className="text-center">Get real-time answers to common questions about Victoria University.</h6>
 							</div>
 							<div className="features-1-info-info text-center">
-								<h6 className="text-center">Email: admissions@vu.ac.ug</h6>
+								<h6 className="text-center">Email: <span style={{fontWeight: '400'}}>admissions@vu.ac.ug</span></h6>
+								<h6 className="text-center">Academic: <span style={{fontWeight: '400'}}>Registrar-registry@vu.ac.ug</span></h6>
+								<h6 className="text-center">Dean of Humanities: <span style={{fontWeight: '400'}}>deanofhumanities@vu.ac.ug</span></h6>
+								<h6 className="text-center">Dean of Business: <span style={{fontWeight: '400'}}>deanofbusiness@vu.ac.ug</span></h6>
+								<h6 className="text-center">Dean of Students: <span style={{fontWeight: '400'}}>deanofstudents@vu.ac.ug</span></h6>
+								<h6 className="text-center">Dean of Science and Technology: <span style={{fontWeight: '400'}}>deanoftechnology@vu.ac.ug</span></h6>
+								<h6 className="text-center">Dean of Health Sciences: <span style={{fontWeight: '400'}}>deanhealthscience@vu.ac.ug</span></h6>
 							</div>
                             <br/>
                             <br/>
