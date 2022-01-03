@@ -64,6 +64,9 @@ import Catalogue from './client/components/catalogue';
 import LibOpen from './client/components/opening';
 import Offcamp from './client/components/off-campus';
 import Faqs from './client/components/faqs';
+import YourCall from './client/components/yourcall';
+import keySteps from './client/components/keysteps';
+import WilFaqs from './client/components/wilfaqs';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -137,6 +140,9 @@ const App = () => (
         <Route exact path="/opening" component={LibOpen} />
         <Route exact path="/off-campus" component={Offcamp} />
         <Route exact path="/faqs" component={Faqs} />
+        <Route exact path="/yourcall" component={YourCall} />
+        <Route exact path="/wilfaqs" component={WilFaqs} />
+        <Route exact path="/keysteps" component={keySteps} />
       </Switch>
     </Router>
 

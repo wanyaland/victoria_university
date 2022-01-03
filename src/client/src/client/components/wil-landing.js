@@ -36,15 +36,15 @@ class WilLand extends Component{
                         <ul className="" style={{boxShadow: 'none', listStyle: 'none'}}>
                             <li className="w3-display-container list-nav-wil" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/wil'><span className="fa fa-users"></span>&nbsp;&nbsp;About WIL&nbsp;<span className="fa fa-angle-right"></span></Link></li>
                             <li className="w3-display-container list-nav-wil" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/how-wil-works'><span className="fa fa-gear"></span>&nbsp;&nbsp;&nbsp;How it works&nbsp;<span className="fa fa-angle-right"></span></Link></li>
-                            <li className="w3-display-container list-nav-wil" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/benefits'><span className="fa fa-check"></span>&nbsp;&nbsp;Benefits&nbsp;<span className="fa fa-angle-right"></span></Link></li>
-                            <li className="w3-display-container list-nav-wil"style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/costs-and-insurance'><span className="fa fa-dollar"></span>&nbsp;&nbsp;&nbsp;Costs and insurance&nbsp;<span className="fa fa-angle-right"></span></Link></li>
+                            <li className="w3-display-container list-nav-wil" style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/benefits'><span className="fa fa-check"></span>&nbsp;&nbsp;Organization / Partner / Employer Benefits&nbsp;<span className="fa fa-angle-right"></span></Link></li>
+                            <li className="w3-display-container list-nav-wil"style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/keysteps'><span className="fa fa-dollar"></span>&nbsp;&nbsp;&nbsp;Key Steps&nbsp;<span className="fa fa-angle-right"></span></Link></li>
                            {/*  <li className="w3-display-container list-nav-wil"style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/wil-hall-of-fame'><span className="fa fa-dollar"></span>&nbsp;&nbsp;&nbsp;WIL Hall of Fame&nbsp;<span className="fa fa-angle-right"></span></Link></li> */}
                             <li className="w3-display-container list-nav-wil"style={{borderBottom: 'none', padding: '6px 22px'}}><Link to='/contactwil'><span className="fa fa-address-card-o"></span>&nbsp;Contact us&nbsp;<span className="fa fa-angle-right"></span></Link></li>
                         </ul>
 					</p>
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
-                    <img src="assets/images/work.jpg" className="img-fluid" alt="WIL" />
+                    <img src="assets/images/work.JPG" className="img-fluid" alt="WIL" />
 						<p><b style={{fontWeight: '500'}}>Image:</b> Research and learning</p>
 				</div>
 			</div>

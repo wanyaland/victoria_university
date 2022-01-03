@@ -34,6 +34,18 @@ class Home extends Component{
 	}
 	 componentDidMount(){
 		//document.getElementById("myModalpromo").style.display= "block";
+		window.onscroll = function() {stickyMenu()};
+	
+		var header = document.getElementById("head_runner");
+		var sticky = header.offsetTop;
+		
+		function stickyMenu() {
+		  if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		  } else {
+			header.classList.remove("sticky");
+		  }
+		}
 	 }
     render(){
         return(

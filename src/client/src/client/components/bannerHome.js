@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class BannerHome extends Component{
 	toVclass = () => {
@@ -40,7 +41,8 @@ class BannerHome extends Component{
 							<p className="sub-link" style={{textTransform: 'lowercase'}}>www.vclass.ac</p>
 							<div className="v-btn-link">
 								{/* <div className="eff-4"></div> */}
-								<a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked" >Take a Tour of VClass</a>
+								{/* <a href="https://vclass.ac/login" target="_blank" rel="noreferrer" className="btn_linked" >Take a Tour of VClass</a> */}
+								<Link to="/vclass" className="btn_linked">Take a Tour of VClass</Link>
 							  </div>
 							
 						</div>
