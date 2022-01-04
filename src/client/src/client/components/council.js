@@ -320,7 +320,7 @@ class Council extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 9")}>
-								<a href="#url"><img src="assets/images/img/guild.JPG" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/guild.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">H.E Mark Serebe</a></h3>

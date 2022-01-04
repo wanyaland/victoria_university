@@ -96,10 +96,10 @@ class NavBar extends Component{
 							</li> */}
 							<li className={currentURL === "/programs"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Programmes&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
-									<Link to={`/prog-index/${under}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Undergraduate</Link>
 									<Link to={`/prog-index/${postg}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Postgraduate</Link>
+									<Link to={`/prog-index/${under}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Undergraduate</Link>
 									<Link to={`/prog-index/${diploma}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Diploma</Link>
-									<Link to={`/prog-index/${found}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Foundations</Link>
+									<Link to={`/prog-index/${found}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Higher Education Certificate</Link>
 									<Link to={`/prog-index/${professional}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Professional Development</Link>
 									{/* <Link to={`/prog-index/${all}`} className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>All Programmes</Link> */}
 								</ul>
@@ -122,7 +122,7 @@ class NavBar extends Component{
 							<li className={currentURL === "/current-students" || currentURL === "/exams"? "dropdown nav-item nav-hover-activated" : "dropdown nav-item nav-hover"}><span className="dropdown-toggle nav-link" data-toggle="dropdown">Students&nbsp;&nbsp;<span className="fa fa-angle-down"></span></span>
 								<ul className="dropdown-menu dropdown-contenter">
 								<Link to="/current-students" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Students <span className="fa fa-home justify-content-lg-end" style={{fontSize: '20px', float: 'right'}}></span></Link>
-								{/* <Link to="/exams" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Exams</Link> */}
+								<Link to="/life-at-vu" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Life At VU</Link>
 								</ul>
 							</li>
 							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/wil-hall-of-fame" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>

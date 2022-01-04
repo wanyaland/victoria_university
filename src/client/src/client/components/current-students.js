@@ -106,7 +106,7 @@ class CurrentStudents extends Component{
                     <p className="mb-4" style={{fontSize: '18px'}}>Find out exactly what you need to know about registering in, withdrawing from and extending a course – then learn about the exam process at VU.</p>
                     <br/>
                     <br/>
-                    <img src="assets/images/class_mat.jpg" className="img-fluid" alt="" />
+                    <img src="assets/images/studs.jpg" className="img-fluid" alt="" />
                     <br/>
                     <br/>
                     <p><Link className="logo-2" to="/new-students" style={{color: '#0077b5'}} onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>

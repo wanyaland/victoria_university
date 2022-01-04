@@ -591,6 +591,45 @@ color: #FFF;
     text-shadow: 1px 1px 2px #000;
 }
 /* //SELECT PATH */
+/* search sidebar */
+.sidenavd {
+    /* height: 800px; */
+    width: auto;
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenavd a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    /* color: red; */
+    display: block;
+  }
+  
+  .sidenavd a:hover {
+    color: #f1f1f1;
+  }
+  
+  .maind {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenavd {padding-top: 15px;}
+    .sidenavd a {font-size: 18px;}
+  }
+  .with_shadow {
+      border-right: #CCC 1px solid;
+  }
+/* //SEARCH RESULTS */
 /* TOOLTIP */
 .triangle-down {
     position:absolute;
@@ -19257,44 +19296,6 @@ color: #FFF;
 .hover-w:hover{
     color: #FFF;
 }
-/* search sidebar */
-.sidenavd {
-    /* height: 800px; */
-    width: auto;
-    position:sticky;
-    top: 0;
-    left: 0;
-    background-color: #FFF;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenavd a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .sidenavd a:hover {
-    color: #f1f1f1;
-  }
-  
-  .maind {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenavd {padding-top: 15px;}
-    .sidenavd a {font-size: 18px;}
-  }
-  .with_shadow {
-      border-right: #CCC 1px solid;
-  }
-/* //SEARCH RESULTS */
 /* IMG OVER TEXT */
 .img-text-left {
     position: absolute;
@@ -19457,14 +19458,15 @@ color: #FFF;
     color: #444;
     cursor: pointer;
 }
-.prog-list-active{
+.prog-list-active a{
     background-color: #EEE;
-    color: #444; 
-    border-left: #555 3px solid; 
+    border-left: #555 3px solid;
+    color: red;
+    font-weight: 500;
 }
 .quat-line{
-    border: 1px #CCC solid;
-    background-color: #CCC;
+    /* border: 1px #CCC solid;
+    background-color: #CCC; */
 }
 .grad_icon {
     color: #045079;

@@ -52,14 +52,57 @@ class Contact extends Component{
 		<section className="w3l-features-1">
 		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 			<div className="container py-lg-5">
-				<div className="row grids-innf my-lg-5" style={{border: '#CCC 1px solid'}}>
+				<div className="row grids-innf my-lg-5">
 					{/* <div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
 						<img src="assets/images/path1.jpg" className="img-fluid" id="fixer4"  alt="img"/>
 					</div> */}
-					<div className="features-1-info col-lg-12 col-md-9">
-						<br/>
+					<div class="grid col-lg-6">
+					<div class="column">
+						<h3 class="hny-title" style={{color: '#0077b5'}}>Contact Info</h3>
+						<p class="head-main">Welcome to our Website. We are glad to have you around. You can call us during business hours (8:30 a.m. to 4:30 p.m.). It is currently {this.state.curTime} in Kampala.</p>
+					</div>
+					<div class="column2">
+						<div class="contact-para contact-info-align">
+							<div class="icon">
+								<span class="fa fa-map-marker"  style={{color: '#0077b5'}}></span>
+							</div>
+							<div>
+								<strong class="info">Office Address :</strong> <p>Victoria Towers, 1-13 Jinja Road, Kampala</p>
+							</div>
+						</div>
+						<div class="contact-info-align">
+							<div class="icon">
+								<span class="fa fa-phone" style={{color: '#0077b5'}}></span>
+							</div>
+							<div div class="icon-con-info">
+							    <strong class="info">Phone:</strong><br/> 
+								<a href="tel:+256 759 996 130"> +256 759 996 130</a><br/>
+								<a href="tel:+256 700 300 088"> +256 700 300 088</a><br/>
+								<a href="tel:+256 707 780 158"> +256 707 780 158</a>
+						    </div>
+						</div>
+						<div class="contact-info-align">
+							<div class="icon">
+								<span class="fa fa-envelope-open-o" style={{color: '#0077b5'}}> </span>
+							</div>
+							<div>
+							<strong class="info">Email:</strong> <br/>
+							<a href="mailto:admissions@vu.ac.ug"> admissions@vu.ac.ug</a><br/>
+							<a href="mailto:admissions@vu.ac.ug"> Marketing@vu.ac.ug</a><br/><br/>
+						</div>
+						</div>
+					</div>{/* 
+					<div class="column3">
+						<h4 class="header">Follow us </h4>
+						<a href="#facebook" class="facebook" title="facebook"><span class="fa fa-facebook"></span></a>
+						<a href="#twitter" class="twitter" title="twitter"><span class="fa fa-twitter"></span></a>
+						<a href="#linkedin" class="linkedin" title="linkedin"><span class="fa fa-linkedin"></span></a>
+						<a href="#instagram" class="instagram" title="instagram"><span class="fa fa-instagram"></span></a>
+					</div> */}
+				</div>
+					<div className="features-1-info col-lg-6">
 						<div className="features-1-info-icon text-center">
-							<span className="fa fa-envelope-o" style={{color: '#0077b5', fontSize: '90px'}}></span>
+							{/* <span className="fa fa-envelope-o" style={{color: '#0077b5', fontSize: '90px'}}></span> */}
 						</div>
 						<div className="features-1-info-info text-center">
 							<h6 className="hny-title text-center" style={{color: '#025683', fontSize: '32px'}}>Send us an inquiry</h6>
@@ -102,7 +145,7 @@ class Contact extends Component{
 			</div>
 		</div>
 	</section>
-        <section className="w3l-features-1">
+       {/*  <section className="w3l-features-1">
 		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 			<div className="container py-lg-5" id="fixer3">
 					<div className="row grids-innf my-lg-5" id="fixer">
@@ -157,16 +200,16 @@ class Contact extends Component{
 					</div>
 			</div>
 		</div>
-	</section>
+	</section> */}
 <section class="w3l-contact-main w3l-contact3">
-	<div class="contact1-bg py-5">
-		<div class="container py-lg-5" style={{maxWidth: '100%'}}>
-			<div class="row contact-main" style={{margin: '0', padding: '0'}}>
+	<div class="contact1-bg">
+		<div class="container" style={{maxWidth: '100%'}}>
+			<div class="row" style={{margin: '0', padding: '0'}}>
 				<div class="map col-lg-12">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.03418861348!2d32.589167!3d0.313628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x384a30e2f12512dd!2sVictoria%20University%20Kampala!5e0!3m2!1sen!2sug!4v1628174976678!5m2!1sen!2sug"
-						frameborder="0" style={{border: '0'}} width="800" height="600" allowfullscreen="" title="map"></iframe>
-				</div> 
+						frameborder="0" style={{border: '0'}} width="800" allowfullscreen="" title="map"></iframe>
+				</div>
 			</div>
 		</div>
 	</div>
