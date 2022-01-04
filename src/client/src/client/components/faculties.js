@@ -135,7 +135,7 @@ class Faculties extends Component {
                                                 <Link to={`prog-index/${faculty_HealthPostg}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Postgraduate <span className="fa fa-external-link"></span></li></Link>
                                                 <Link to={`prog-index/${faculty_HealthUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
                                                 <Link to={`prog-index/${faculty_HealthProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index/${faculty_HealthFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HealthFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Higher Education Certificate<span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>
@@ -153,7 +153,7 @@ class Faculties extends Component {
                                                 <Link to={`prog-index/${faculty_HumanUnder}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Undergraduate <span className="fa fa-external-link"></span></li></Link>
                                                 <Link to={`prog-index/${faculty_HumanDiploma}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Diploma <span className="fa fa-external-link"></span></li></Link>
                                                 <Link to={`prog-index/${faculty_HumanProfessional}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Professional Courses <span className="fa fa-external-link"></span></li></Link>
-                                                <Link to={`prog-index/${faculty_HumanFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Foundations<span className="fa fa-external-link"></span></li></Link>
+                                                <Link to={`prog-index/${faculty_HumanFound}`}><li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;Higher Education Certificate<span className="fa fa-external-link"></span></li></Link>
                                             </ul>
                                         </p>
                                     </div>

@@ -117,6 +117,10 @@ class ViewProgram extends Component {
 	viewSummary(){
         window.location.href = "#summary";
     }
+	requirements = () => {
+		console.log('Clicked')
+		window.location.href = 'requirements#'+this.state.facultyBanner;
+	}
 	updateOverview = () =>{
 		var overview = document.getElementById('overview')
 		var duration = document.getElementById('duration')
@@ -147,7 +151,7 @@ class ViewProgram extends Component {
 		var admission = document.getElementById('admission')
 		var tuition = document.getElementById('tuition')
 		var mainDisplay = document.getElementById('main-display')
-		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Program Requirements</h6><br/><p class="my-4" style="font-size: 18px;"><a href="requirements#business" class="underline" style="color: #0077b5;" target="_blank">Click here to view course requirements under faculty <b style="font-weight: 600;">'+this.state.course_prog.faculty+'</b></a></p>'
+		mainDisplay.innerHTML = '<h6 class="hny-title" style="font-size: 28px; color: #444; font-weight: 500;">Program Requirements</h6><br/><p class="my-4" style="font-size: 18px;"><a href="/requirements#'+this.state.facultyBanner+'" class="underline" style="color: #0077b5;" onclick="requirements()">Click here to view course requirements under faculty: <b style="font-weight: 600;">'+this.state.facultyBanner+'</b></a></p>'
 		overview.classList.remove('activeSummaryBlue')
 		duration.classList.remove('activeSummaryBlue')
 		admission.classList.add('activeSummaryBlue')

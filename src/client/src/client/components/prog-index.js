@@ -123,24 +123,24 @@ class ProgIndex extends Component {
 		})
 	}
 	getFacBusUndergs = () => {
-		var result = Data.filter(course => course.level === "Undergraduate" && course.faculty === "Faculty of Business and Management")
+		var result = Data.filter(course => course.level === "Undergraduate" && course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Business and Management (Undergraduate)",
+			courses_title: "Faculty Of Business And Management (Undergraduate)",
 		})
 	}
 	getFacBusDiplogs = () => {
-		var result = Data.filter(course => course.level === "Diploma" && course.faculty === "Faculty of Business and Management")
+		var result = Data.filter(course => course.level === "Diploma" && course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Business and Management (Diploma)",
+			courses_title: "Faculty Of Business And Management (Diploma)",
 		})
 	}
 	getFacBusPros = () => {
 		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Business and Management (Professional Development)",
+			courses_title: "Faculty Of Business And Management (Professional Development)",
 		})
 	}
 	///////
@@ -189,6 +189,7 @@ class ProgIndex extends Component {
 	}
 	getFacHealthPros = () => {
 		var result = Data.filter(course => course.level === "Professional Development" && course.faculty === "Faculty of Health Sciences")
+		console.log(result)
 		this.setState({
 			courses: result,
 			courses_title: "Faculty of Health Sciences (Professional Development)",
@@ -198,7 +199,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Foundations" && course.faculty === "Faculty of Health Sciences")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Health Sciences (Foundations)",
+			courses_title: "Faculty of Health Sciences (Higher Educational Certificate)",
 		})
 	}
 	//////
@@ -227,7 +228,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Foundations" && course.faculty === "Faculty of Humanities and Social Sciences")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Humanities and Social Science (Foundations)",
+			courses_title: "Faculty of Humanities and Social Science (Higher Educational Certificate)",
 		})
 	}
 	getFacHumanPros = () => {
@@ -295,8 +296,8 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.level === "Foundations")
 		this.setState({
 			courses: result,
-			courses_title: "Foundations",
-			courses_desc: 'Victoria University offers foundation programs that help prepare students for higher education and also advance their careers.  Foundations help students who didnot perform well to attain a course of thier interest'
+			courses_title: "Higher Educational Certificate",
+			courses_desc: 'Victoria University offers foundation programs that help prepare students for higher education and also advance their careers.  Higher Educational Certificate help students who didnot perform well to attain a course of thier interest'
 		})
 	}
 	getDiploma = () => {
@@ -383,7 +384,7 @@ class ProgIndex extends Component {
 		var result = Data.filter(course => course.faculty === "Faculty Of Business And Management")
 		this.setState({
 			courses: result,
-			courses_title: "Faculty of Business and Management",
+			courses_title: "Faculty Of Business And Management",
 		})
 	}
 	getTech = () => {
@@ -535,7 +536,7 @@ class ProgIndex extends Component {
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span className="badged">{this.state.diploma_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Foundations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
-									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Foundations Programs</span></td><td><span className="badged">{this.state.found_sum}</span></td></tr></table>
+									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Higher Education Certificate</span></td><td><span className="badged">{this.state.found_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Professional Development Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Professional Development Programs</span></td><td><span className="badged">{this.state.pro_sum}</span></td></tr></table>
@@ -551,7 +552,7 @@ class ProgIndex extends Component {
 							</Link>
 							<Link>
 								<li className="prog-list-course-outline" onClick={this.getBusiness}>
-								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o red_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty of Business and Management</span></td><td><span className="badged">{this.state.busy_count}</span></td></tr></table>
+								<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '10%'}}><span className="fa fa-circle-o red_color"></span></td><td style={{width: '80%'}}><span style={{width: 'auto'}}>Faculty Of Business And Management</span></td><td><span className="badged">{this.state.busy_count}</span></td></tr></table>
 								</li>
 							</Link>
 							<Link>

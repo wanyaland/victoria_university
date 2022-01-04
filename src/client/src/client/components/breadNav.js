@@ -34,7 +34,7 @@ class BreadNavBar extends Component {
 							<li className="top_li underline"><Link to="/events-hub">Events</Link></li> */}
 							<li className="top_li underline"><Link to="/careers">Careers</Link></li>
 							<li className="top_li underline"><Link to="/gallery">Gallery</Link></li>
-							<li className="top_li underline"><Link to="/life-at-vu">Life At VU</Link></li>
+							{/* <li className="top_li underline"><Link to="/life-at-vu">Life At VU</Link></li> */}
 						</ul>
 					</div>
 				</div>
