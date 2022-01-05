@@ -125,7 +125,7 @@ class NavBar extends Component{
 								<Link to="/life-at-vu" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Life At VU</Link>
 								</ul>
 							</li>
-							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/wil-hall-of-fame" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
+							<li className={currentURL === "/wil-landing" || currentURL === "/wil" || currentURL === "/how-wil-works" || currentURL === "/benefits" || currentURL === "/costs-and-insurance" || currentURL === "/keysteps" || currentURL === "/yourcall" || currentURL === "/wilfaqs" || currentURL === "/contactwil"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>
 								<Link to="/wil-landing" className="nav-link" title="Work Intergrated Learning">Get To Work</Link>
 							</li>
 							<li className={currentURL === "/research" || currentURL === "/about-res" || currentURL === "/ethics-res" || currentURL === "/avail-res" || currentURL === "/academic-res" || currentURL === "/superv-res"? "nav-item nav-hover-activated" : "nav-item nav-hover"}>

@@ -49,10 +49,24 @@ class Contact extends Component{
                 </div>
             </div>
         </section>
+		<section className="w3l-apply-6">
+					<div className=""  style={{}}>
+						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+								<div className="carousel-inner">
+									<div className="carousel-item active">
+										<img className="d-block w-100" src="assets/images/contact.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									</div>
+									<div className='banner-caption'>&nbsp;Contact Us</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 		<section className="w3l-features-1">
-		<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
-			<div className="container py-lg-5">
-				<div className="row grids-innf my-lg-5">
+		<div className="features-1-mian" style={{backgroundColor: '#FFF', paddingBottom: '0rem !important'}}>
+			<div className="container">
+				<div className="row grids-innf" style={{marginBottom: '0rem !important'}}>
 					{/* <div className="features-1-info col-lg-3 col-md-3" style={{borderRight: '#c2c2c2 1px solid', padding: '0'}}>
 						<img src="assets/images/path1.jpg" className="img-fluid" id="fixer4"  alt="img"/>
 					</div> */}
@@ -203,12 +217,22 @@ class Contact extends Component{
 	</section> */}
 <section class="w3l-contact-main w3l-contact3">
 	<div class="contact1-bg">
-		<div class="container" style={{maxWidth: '100%'}}>
-			<div class="row" style={{margin: '0', padding: '0'}}>
-				<div class="map col-lg-12">
+		<div class="container" style={{minWidth: '100%'}}>
+			<div class="row">
+				<div className="col-lg-12 mb-lg-0 mb-5 text-center align-center">
+					<h6 className="hny-title" style={{fontSize: '38px',  color: '#0077b5'}}>Sign up for our newsletter</h6>
+					<div className="input-container align-center" style={{width: '50%', position: 'relative', left: '25%'}}>
+						<input className="input-field justify-content-center" type="text" placeholder="Enter your email Here" name="search"/>
+						<button className="search_btn" style={{borderRadius:'0rem',backgroundColor: '#0077b5'}}><span className='fa fa-paper-plane'></span></button>
+					</div>
+					<br/>
+				</div>
+			</div>
+			<div class="row"  style={{minHeight: '500px'}}>
+				<div class="map col-lg-12" style={{padding: '0'}}>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.03418861348!2d32.589167!3d0.313628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x384a30e2f12512dd!2sVictoria%20University%20Kampala!5e0!3m2!1sen!2sug!4v1628174976678!5m2!1sen!2sug"
-						frameborder="0" style={{border: '0'}} width="800" allowfullscreen="" title="map"></iframe>
+						frameborder="0" style={{border: '0',  minHeight: '500px'}} width="800" allowfullscreen="" title="map"></iframe>
 				</div>
 			</div>
 		</div>

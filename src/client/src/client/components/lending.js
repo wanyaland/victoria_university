@@ -82,6 +82,10 @@ class Lending extends Component {
 
                             <p className="my-4">The Librarian may recall any information material on loan from a user by notice which shall specify return of the same. If a user does not return the item as specified, he shall incur a fine of Ugx. 5000 per book per day.
                         </p>
+						<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/lib2.JPG" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p>
+					</div>
 					</div>
 				</div>
 			</div>

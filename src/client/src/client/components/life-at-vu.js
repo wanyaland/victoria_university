@@ -25,7 +25,20 @@ class LifeVu extends Component {
         </div>
     </div>
 </section>
-<br/>
+<section className="w3l-apply-6">
+					<div className=""  style={{}}>
+						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+								<div className="carousel-inner">
+									<div className="carousel-item active">
+										<img className="d-block w-100" src="assets/images/students.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									</div>
+                                    <div className='banner-caption'>&nbsp;Life At VU</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 <section className="w3l-wecome-content-6">
     <div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
@@ -34,7 +47,10 @@ class LifeVu extends Component {
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Life At VU</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '18px'}}>With a truly national and increasingly international student body, Victoria University is a distinctive place to study. The diversity of backgrounds and mindsets of our students fosters an environment in which everyone, as well as everyone’s opinions, are both welcomed and nurtured. A fulfilling student social life is considered an essential part of the University experience. One of the best ways to build student social circles is to participate in the many on-campus activities. Our students have a variety of co-curricular activities they can engage in including Football, Netball, Basketball, Volleyball and Woodball. The Students’ Lounge, furnished with a video games console, pool table and table tennis is quite popular with students.</p>
-                    
+                    <div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/sport.jpg" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Basketball Team</p>
+					</div>
                     <p className="my-4">Students also organise several social activities including;</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
@@ -49,6 +65,10 @@ class LifeVu extends Component {
                             <li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Faculty Deans’ Outing"</span></li>
                         </ul>
                     </p>
+                    <div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/intstud.jpg" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> International Day</p>
+					</div>
                 </div>
             </div>
         </div>

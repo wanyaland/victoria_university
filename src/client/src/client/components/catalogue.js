@@ -68,6 +68,10 @@ class Catalogue extends Component {
 						<br/>
                         <p className="my-4">Online Public Access Catalogue (OPAC) – The library uses KOHA, an Integrated Library Management System – There are computers designated for students to access the OPAC. VULIB Catalogue
                     </p>
+					<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    	<img src="assets/images/stocked.JPG" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p>
+					</div>
 					</div>
 				</div>
 			</div>

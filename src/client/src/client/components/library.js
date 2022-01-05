@@ -87,7 +87,7 @@ class Library extends Component {
                     </p>
 					</div>
 					<div className="mission-gd-right col-lg-12 pl-lg-4">
-                    	<img src="assets/images/stock.JPG" className="img-fluid" alt="WIL" />
+                    	<img src="assets/images/stock.jpg" className="img-fluid" alt="WIL" />
 						<p><b style={{fontWeight: '500'}}>Image:</b> Well Stocked Library</p>
 					</div>
 				</div>

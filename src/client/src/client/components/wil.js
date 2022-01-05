@@ -32,19 +32,17 @@ class Wil extends Component{
 	</div>
 </section>
 <WilBanner />
-<section className="w3l-team-main" style={{backgroundColor: '#DDD'}}>
+
+<section className="w3l-team-main">
 	<div className="team py-5">
-		<div className="container py-lg-5" >
+		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
-					<WilNav />
-				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF'}}>
-					<div className="search_results">
+				<WilNav />
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+                    <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>About WIL</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
-						<br/>{/* <br/>
-						<p className="my-4" style={{fontSize: '30px', color: '#0077b5'}}><b>Facts you need to know about Victoria University</b></p> */}
-						{/* <p className="my-4">At Victoria University we understand that good things happen when you’re outside yourcomfort zone, away from the classroom and beyond the textbooks. That’s why integrated practical experience is embedded into all of our degrees.</p>
-						<p className="my-4">Providing meaningful, hands-on workplace experience to enrich the theoretical learning of students and to enhance the employability of graduates is a key focus of our University.</p> */}
+						<br/>
 						<div className="w3l-features-1">
 							<div className="features-1-mian py-5" style={{paddingBottom: '0rem !important', backgroundColor: '#FFF'}}>
 								<div className="container py-lg-5" style={{paddingBottom: '0rem !important', backgroundColor: '#FFF'}}>

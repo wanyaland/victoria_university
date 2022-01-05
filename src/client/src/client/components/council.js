@@ -319,19 +319,19 @@ class Council extends Component {
 					</div>
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
-							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 9")}>
+							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 19")}>
 								<a href="#url"><img src="assets/images/img/guild.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">H.E Mark Serebe</a></h3>
 								<p>Guild President</p>
 								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 19")}>View Bio</button>
 								</div>
 							</div>
 							<div id="myModal_bio 9" className="modal_bio">
 								<div className="modal-content_bio">
-									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
+									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 19")}>&times;</span>
 									<br/>
 									<p className="my-4 text-left">H.E Mark Serebe is the the students representative. 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 									<br/>
