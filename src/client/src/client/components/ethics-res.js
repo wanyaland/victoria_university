@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import Footer from './footer';
 import ResNav from './res_nav'
 import { Link } from 'react-router-dom';
+import ResBanner from './res_banner';
 
 class EthicsRes extends Component {
     componentDidMount(){
@@ -40,6 +41,7 @@ class EthicsRes extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
+				<ResBanner />
                 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
@@ -62,7 +64,7 @@ class EthicsRes extends Component {
 		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<ResNav />
-				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderBottom: '#CCC 1px solid', borderRight: '#CCC 1px solid', borderTop: '#CCC 1px solid'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '44px',  color: '#f74040', fontWeight: '600'}}>Victoria University’s Ethical Conduct of Research</h6>
 						<br/>

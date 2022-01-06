@@ -62,7 +62,7 @@ class WilHallOfFame extends Component{
 								<div className="container py-lg-5">
 									<div className="welcome-grids row">
 										<div className="welcome-image">
-											<img src="assets/images/wil_banner.jpg" className="img-fluid" alt="" />
+											<img src="assets/images/wil.jpg" className="img-fluid" alt="" />
 										</div>
 									</div>
 								</div>

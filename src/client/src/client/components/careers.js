@@ -76,45 +76,84 @@ componentDidMount(){
                         <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Available vacancies</h6><br/>
                             <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                                 <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>
-                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Quality Assurance Manager and Other Opportunities <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Quality Assurance Manager<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                     <div className="contenter">
                                         <br/>
                                         <div className="col-lg-12 welcome-image">
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Open Vacancies&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
                                         <br/>
                                     </div>
-                                    {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Management, Academic, Professional &amp; Administrative Opportunities <span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Manager Internal Audit<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                     <div className="contenter">
                                         <br/>
                                         <div className="col-lg-12 welcome-image">
-                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#187eb4 1px solid'}}>
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad.pdf" download="assets/docs/job_ad.pdf">Store Manager&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
                                         <br/>
-                                    </div> */}
-                                    {/* <li className="w3-display-container collapsible"><span className="fa fa-chevron-right programfa2"></span>&nbsp;&nbsp;&nbsp;Research Assistant Opportunities<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    </div>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Librarian<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                     <div className="contenter">
                                         <br/>
                                         <div className="col-lg-12 welcome-image">
-                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#187eb4 1px solid'}}>
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad.pdf" download="assets/docs/job_ad.pdf">Store Manager&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
                                         <br/>
-                                    </div> */}
+                                    </div>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Human Resource Officer<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <div className="contenter">
+                                        <br/>
+                                        <div className="col-lg-12 welcome-image">
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
+                                                <ul className="job_list" style={{listStyle: 'none'}}>
+                                                    <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>	
+                                        <br/>
+                                    </div>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Web Administrator<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <div className="contenter">
+                                        <br/>
+                                        <div className="col-lg-12 welcome-image">
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
+                                                <ul className="job_list" style={{listStyle: 'none'}}>
+                                                    <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>	
+                                        <br/>
+                                    </div>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Executive Assistant (Personal Assistant<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <div className="contenter">
+                                        <br/>
+                                        <div className="col-lg-12 welcome-image">
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
+                                                <ul className="job_list" style={{listStyle: 'none'}}>
+                                                    <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>	
+                                        <br/>
+                                    </div>
                                 </ul>
                             </div>
                         </div>	

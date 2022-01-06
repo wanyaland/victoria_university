@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import Footer from './footer';
 import LabNav from './lab_nav'
 import { Link } from 'react-router-dom';
+import LibBanner from './lib_banner';
 
 class LibOpen extends Component {
     componentDidMount(){
@@ -40,6 +41,7 @@ class LibOpen extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
+				<LibBanner />
                 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
