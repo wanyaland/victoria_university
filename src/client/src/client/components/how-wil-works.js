@@ -31,14 +31,14 @@ class HowWilWorks extends Component{
 	</div>
 </section>
 <WilBanner />
-<section className="w3l-team-main"  style={{backgroundColor: '#DDD'}}>
+<section className="w3l-team-main">
 	<div className="team py-5">
-		<div className="container py-lg-5" >
+		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<WilNav />
-				<div className="col-lg-9"  style={{padding: '0px', backgroundColor: '#FFF'}}>
-					<div className="search_results">
-						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL Works</b></h6>
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+                    <div className="col-lg-12 mb-lg-0 mb-5">
+					<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>How WIL Works</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/>
                         <br/>
@@ -55,43 +55,43 @@ class HowWilWorks extends Component{
                         <p style={{fontSize: '30px', color: '#0077b5'}}><b>Here is how the involvement works for the benefit of all			</b></p>
                         <p className="my-4">
                         <table class="table table-bordered" style={{fontSize: '.8em'}}>
-	<thead>
-		<tr>
-			<th scope="col">STAKEHOLDER/TIMING</th>
-			<th scope="col">PRE-WIL</th>
-			<th scope="col">DURING WIL</th>
-			<th scope="col">POST-WIL</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th><b>Students</b></th>
-			<td><b>Prepares for WIL experience by participating in curricular preparatory content and activities (pedagogy)</b></td>
-			<td><b>Engages effectively with work and people (experience) Engages with curricular expectations of academic program (pedagogy)</b></td>
-			<td><b>Leaves WIL experience having met all expected obligations and with positive working relationships Reflects on experience and learning/growth (pedagogy and reflection)</b></td>
-		</tr>
-		<tr>
-			<th >Host (Your Organization)</th>
-			<td>Prepares for Student arrival</td>
-			<td>Provides responsibilities for students that are authentic and meaningful (experience) and connect to students’ skill sets/knowledge base (pedagogy) Provides support for students (experience)</td>
-			<td>Provides assessment of student learning and performance (assessment) Considers what went well and what might be changed for a subsequent student (reflection)</td>
-		</tr>
-		<tr>
-			<th>Educators/lecturers/researchers from Victoria University</th>
-			<td>Supports students and hosts in preparatory activities including designing curricular content and assessments (pedagogy)</td>
-			<td>Monitors progress and provides supports to students and hosts as needed (experience)</td>
-			<td>Facilitates student reflection and follows up with host to evaluate experience (pedagogy and reflection)</td>
-		</tr>
-		<tr>
-			<th>Victoria University (GRIP)</th>
-			<td colspan="3">Recognizing WIL as part of curricular Enabling curricular reform through reports from students and educators</td>
-		</tr>
-		<tr>
-			<th>Government</th>
-			<td colspan="3">Support VU WIL through NDP III Creating better conditions for organizations that support WIL</td>
-		</tr>
-	</tbody>
-</table>
+							<thead>
+								<tr>
+									<th scope="col">STAKEHOLDER/TIMING</th>
+									<th scope="col">PRE-WIL</th>
+									<th scope="col">DURING WIL</th>
+									<th scope="col">POST-WIL</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th><b>Students</b></th>
+									<td><b>Prepares for WIL experience by participating in curricular preparatory content and activities (pedagogy)</b></td>
+									<td><b>Engages effectively with work and people (experience) Engages with curricular expectations of academic program (pedagogy)</b></td>
+									<td><b>Leaves WIL experience having met all expected obligations and with positive working relationships Reflects on experience and learning/growth (pedagogy and reflection)</b></td>
+								</tr>
+								<tr>
+									<th >Host (Your Organization)</th>
+									<td>Prepares for Student arrival</td>
+									<td>Provides responsibilities for students that are authentic and meaningful (experience) and connect to students’ skill sets/knowledge base (pedagogy) Provides support for students (experience)</td>
+									<td>Provides assessment of student learning and performance (assessment) Considers what went well and what might be changed for a subsequent student (reflection)</td>
+								</tr>
+								<tr>
+									<th>Educators/lecturers/researchers from Victoria University</th>
+									<td>Supports students and hosts in preparatory activities including designing curricular content and assessments (pedagogy)</td>
+									<td>Monitors progress and provides supports to students and hosts as needed (experience)</td>
+									<td>Facilitates student reflection and follows up with host to evaluate experience (pedagogy and reflection)</td>
+								</tr>
+								<tr>
+									<th>Victoria University (GRIP)</th>
+									<td colspan="3">Recognizing WIL as part of curricular Enabling curricular reform through reports from students and educators</td>
+								</tr>
+								<tr>
+									<th>Government</th>
+									<td colspan="3">Support VU WIL through NDP III Creating better conditions for organizations that support WIL</td>
+								</tr>
+							</tbody>
+						</table>
                         </p>
                         {/* <p className="my-4">
                             It is not just teachers, nurses, doctors and engineers that can take part in these meaningful workplace learning opportunities, with WIL courses being offered as part of degree programs in diverse fields such as Information Technology, Communications and Design, Humanities, Business, Commerce and Marketing.

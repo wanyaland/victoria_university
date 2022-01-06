@@ -49,7 +49,7 @@ class CurrentStudents extends Component{
 							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
 								<div className="carousel-inner">
 									<div className="carousel-item active">
-										<img className="d-block w-100" src="assets/images/students.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+										<img className="d-block w-100" src="assets/images/students.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 									</div>
                                     <div className='banner-caption'>&nbsp;Students</div>
 								</div>
@@ -124,6 +124,10 @@ class CurrentStudents extends Component{
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Letter of permission request form (pdf)&nbsp;<span className="fa fa-external-link"></span></p>
                     <p className="my-4">Once your course is complete, you must have the school send an official transcript to VU.</p>
                 </div>
+                <div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/lounge.JPG" className="img-fluid" alt="WIL" />
+						<p><b style={{fontWeight: '500'}}>Image:</b> Student's Lounge</p>
+					</div>
             </div>
         </div>
     </div>

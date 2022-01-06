@@ -31,14 +31,14 @@ class YourCall extends Component{
 	</div>
 </section>
 <WilBanner />
-<section className="w3l-team-main" style={{backgroundColor: '#DDD'}}>
+<section className="w3l-team-main">
 	<div className="team py-5">
-		<div className="container py-lg-5" >
+		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<WilNav />
-				<div className="col-lg-9"   style={{padding: '0px', backgroundColor: '#FFF', borderTopLeftRadius: '0px'}}>
-					<div className="search_results">
-						<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Your Call</b></h6>
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+                    <div className="col-lg-12 mb-lg-0 mb-5">
+					<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Your Call</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
                         <br/>
                         {/* <p style={{fontSize: '30px', color: '#0077b5'}}><b>What can WIL do for your organisation?</b></p> */}

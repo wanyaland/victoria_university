@@ -68,6 +68,10 @@ class Offcamp extends Component {
 						<br/>
                         <p className="my-4" style={{fontSize: '22px', fontWeight: '500', color: '#0077b5'}}><br/><h6 className="underline" style={{fontSize: '22px', color: '#0077b5'}}><a href="https://app.myloft.xyz/user/login?institute=ckenwkzqs5kvq09387eesvtje" target="_blank" rel="noreferrer" onClick={this.toVclass} style={{color: '#0077b5'}}>Click here to view off campus E-resources <span className="fa fa-external-link"></span></a></h6></p>
 					</div>
+					<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/libhelp.jpg" className="img-fluid" alt="WIL" />
+							<p><b style={{fontWeight: '500'}}>Image:</b> Library support</p>
+						</div>
 				</div>
 			</div>
 		</div>

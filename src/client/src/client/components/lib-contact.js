@@ -69,6 +69,10 @@ class LibContact extends Component {
                         <p className="my-4">
                         <br/><span style={{fontWeight: '500'}}>Mwahulhwa Baluku Moris</span>
                         <br/><span style={{fontWeight: '500'}}>Mob: +256707780156</span></p>
+						<div className="mission-gd-right col-lg-12 pl-lg-4">
+                    		<img src="assets/images/libhelp.jpg" className="img-fluid" alt="WIL" />
+							<p><b style={{fontWeight: '500'}}>Image:</b> Library support</p>
+						</div>
 					</div>
 				</div>
 			</div>
