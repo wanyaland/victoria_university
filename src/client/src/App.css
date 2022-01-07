@@ -19460,9 +19460,9 @@ color: #FFF;
 }
 .prog-list-active a{
     background-color: #FFF;
-    border-left: #555 3px solid;
-    border-top: #555 1px solid;
-    border-bottom: #555 1px solid;
+    border-left: #CCC 3px solid;
+    border-top: #CCC 1px solid;
+    border-bottom: #CCC 1px solid;
     color: red;
     font-weight: 500;
 }

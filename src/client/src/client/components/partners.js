@@ -334,6 +334,7 @@ class Partners extends Component {
                     </div>
                 </div>
             </div>    
+            <hr className="text-center" style={{color: '#000', width: '90%'}} />
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize:'48px', color: '#f74040', fontWeight: '600'}}>Collaboration & Partnerships</h6>
@@ -632,6 +633,7 @@ class Partners extends Component {
         </div>
 	</div>
 </section>
+<hr className="text-center" style={{color: '#000', width: '90%'}} />
 {/* <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">

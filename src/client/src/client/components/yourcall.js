@@ -36,7 +36,7 @@ class YourCall extends Component{
 		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<WilNav />
-				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderBottom: '#CCC 1px solid', borderRight: '#CCC 1px solid', borderTop: '#CCC 1px solid'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 					<h6 style={{color: '#076ea5', fontSize: '34px'}}><b>Your Call</b></h6>
                         <div style={{width: '10%', border: '#f04545 3px solid'}} className="text-left"></div>
@@ -70,7 +70,7 @@ class YourCall extends Component{
 								<div className="container py-lg-5">
 									<div className="welcome-grids row">
 										<div className="welcome-image">
-											<img src="assets/images/wil_banner.jpg" className="img-fluid" alt="" />
+											<img src="assets/images/wil3.jpg" className="img-fluid" alt="" />
 										</div>
                                         {/* <span><i><span className="fa fa-sort-asc"></span><b>Video:</b> BMG Partnership</i></span> */}
 									</div>

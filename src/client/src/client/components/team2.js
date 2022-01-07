@@ -154,17 +154,41 @@ class ExecTeam extends Component {
 				<div className="modal-content_bio">
 				  <span className="close_bio" onClick={() => this.close_bio("myModal_bio 13")}>&times;</span>
 				  <br/>
-				  <p className="my-4">Dr. Lawrence Muganga doubles as the Vice Chancellor and Deputy Vice Chancellor –
-					Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
-					educator, public policy practitioner, strategy advisor, development management Specialist and
-					authentic learning enthusiast based in Edmonton, Alberta Canada. Dr. Muganga earned his MA
-					in Economic Policy Management from Makerere University and a Ph.D. in Educational
-					Administration and Leadership from the University of Alberta, Canada. Dr. Muganga holds a
-					Higher Education Teaching Certification from Harvard University, Derek Bok Center for
-					Teaching and Learning.<br/><br/>
-					Dr. Muganga has extensively researched and written about a cutting-edge educational paradigm
-					known as Authentic Learning, which, in short, means an education that prepares students for the
-					real world by equipping them with real-life skills to face now and the future.</p>
+				  <p className="my-4 text-left">I am a Ugandan-born Canadian researcher, academic administrator and an award winning author
+						of several books that have been ranked by Amazon as best sellers around the world. Currently I
+						am honored to serve as Vice Chancellor of Victoria University Uganda. I am the author of both
+						“You Can&#39;t Make Fish Climb Trees” and “Transform”. I also happen to be the first Education
+						Scholar to research and introduce Authentic Learning Education in Uganda, with emphasis on
+						Real-World Learning for all levels of education. <br/><br/>
+						I am an ardent advocate for the implementation of a real-world Education Model that emphasizes
+						both Experiential Learning (EXL) &amp; Work-Integrated Learning (WIL) programs to ensure that
+						students maximize their learning and gain meaningful education. My transformational education
+						research that embraces and embeds both technology and learning in the real-world has prepared
+						me to deploy my unconscious mind that looks at education very differently with the intention of
+						making learning relevant to every learner and making education work for everyone. I have been
+						blessed to visit 47 countries for purposes of research and education advisory role. I have been
+						privileged to advise education institutions in several countries including Sweden, Finland,
+						Canada, USA, Ethiopia, Argentina, Singapore, Uganda, Solomon Islands and the list goes on.<br/><br/>
+						In terms of Education background, I have had the opportunity to pursue my studies at several
+						universities around the world including Makerere University, where I obtained both a Bachelors
+						and Master’s Degree in Economics, then University of Alberta in Canada where I successfully
+						attained both a Master’s in Education and PHD in Educational Administration and Leadership.
+						Because we live in a world where lifelong learning has become part of us; I further ended up at
+						Harvard University to pursue my Post- Doctoral studies focusing on Higher Education Teaching.
+						I have also been awarded the title of Honorary Professorship of the Academic Union by the
+						Academic Union of Oxford, UK for my continued contribution towards developing the
+						University of the Future driven by Digital Transformation.<br/><br/>
+						Some of my work as an educationist has focused on transforming education to make it fit in the
+						times we live in now and those we anticipate in the future, in fact, one of my education books
+						focusing on authentic learning attracted several awards and grants including a $1,300,000 grant
+						from the Bill &amp; Melinda Gates Foundation. This remarkable book &quot;YOU CAN&#39;T MAKE FISH
+						CLIMB TREES - OVERCOMING EDUCATIONAL MALPRACTICE THROUGH
+						AUTHENTIC LEARNING&quot;, has been praised, endorsed and promoted by Uganda&#39;s First Lady
+						and Minister of Education and Sports (MOES), Hon. Janet Kataha Museveni. The book has
+						triggered the infusion of Authentic Learning into Uganda&#39;s Curriculum for the first time in the
+						history of Uganda&#39;s education system and this initiative no doubt puts the country&#39;s education on
+						course to greatness.
+					</p>
 				</div>
 			</div>
 		</div>

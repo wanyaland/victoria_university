@@ -39,6 +39,20 @@ class TransferCredit extends Component{
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
+                <section className="w3l-apply-6">
+					<div className=""  style={{}}>
+						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
+							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
+								<div className="carousel-inner">
+									<div className="carousel-item active">
+										<img className="d-block w-100" src="assets/images/admissions.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									</div>
+                                    <div className='banner-caption'>&nbsp;Transfer Credit</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
                 <section className="w3l-top-header-content">
     <div className="hny-top-menu">
         <div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>

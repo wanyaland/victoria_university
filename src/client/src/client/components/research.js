@@ -4,6 +4,7 @@ import NavBar from './navbar';
 import Footer from './footer';
 import ResNav from './res_nav'
 import { Link } from 'react-router-dom';
+import ResBanner from './res_banner';
 
 class Research extends Component {
     componentDidMount(){
@@ -40,20 +41,7 @@ class Research extends Component {
             <React.Fragment>
                 <BreadNavBar />
                 <NavBar />
-				<section className="w3l-apply-6">
-					<div className=""  style={{}}>
-						<div className="container" style={{maxWidth: '100%' , padding: '0', margin: '0'}}>
-							<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
-								<div className="carousel-inner">
-									<div className="carousel-item active">
-										<img className="d-block w-100" src="assets/images/lib.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
-									</div>
-									<div className='banner-caption'>&nbsp;Research</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+				<ResBanner />
                 <section className="w3l-top-header-content">
 	<div className="hny-top-menu">
 		<div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
@@ -73,7 +61,7 @@ class Research extends Component {
 		<div className="py-lg-5" >
 			<div className="justify-content-center"  style={{display: 'flex'}}>
 				<ResNav />
-				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderTopLeftRadius: '15px'}}>
+				<div className="col-lg-9"   style={{padding: '25px', backgroundColor: '#FFF', borderBottom: '#CCC 1px solid', borderRight: '#CCC 1px solid', borderTop: '#CCC 1px solid'}}>
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Overview</h6>
 						<br/>

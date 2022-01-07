@@ -30,7 +30,7 @@ class Admissions extends Component{
 						<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="d-block w-100" src="assets/images/admissions.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									<img className="d-block w-100" src="assets/images/admissions.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 								</div>
 								<div className='ad-banner-caption'>&nbsp;Admissions{/* &nbsp;<p className='my-4' style={{color: '#FFF'}}>&nbsp;Connect with Admissions to learn how Victoria University and our world-renowned cooperative education program could be the right fit for you. We are here to make applying as simple and convenient as possible.</p> */}</div>
 							</div>
