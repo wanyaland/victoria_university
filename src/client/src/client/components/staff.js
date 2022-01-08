@@ -83,8 +83,8 @@ class Staff extends Component {
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Mrs Batebi Irenea</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<h3 class="name-pos"><a href="#url">Ms Batebi Irene</a></h3>
+								<p>Human Resource Manager</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 								</div>
@@ -93,9 +93,12 @@ class Staff extends Component {
 								<div className="modal-content_bio">
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 1")}>&times;</span>
 									<br/>
-									{/* <p className="my-4 text-left">Dr. Lawrence Muganga doubles as the Vice Chancellor and Deputy Vice Chancellor –
-									Academic Affairs of Victoria University. He is an award-winning writer and author, researcher,
-									educator, public policy practitioner, strategy advisor, development management Specialist andfuture.</p> */}
+									<p className="my-4 text-left">Ms. Irene is an HR and Administration professional with substantial working experience in various
+									office environments. Since she joined Victoria University in February 2021, she has been at the fore-
+									front in the Initiation, development, review and implementation of HR systems and processes in line
+									with the HR policy, consistent with the University’s strategic plan. She holds Master’s degree in
+									Human Resources Management and Bachelor’s degree in Human Resources Management from
+									Ndejje University, Kampala.</p>
 								</div>
 							</div>
 						</div>
@@ -106,8 +109,8 @@ class Staff extends Component {
 								<a href="#url"><img src="assets/images/img/vc.JPG" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Lawrence Muganga</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<h3 class="name-pos"><a href="#url">Prof. Lawrence Muganga</a></h3>
+								<p>Vice Chancellor and Deputy Vice Chancellor</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Bio</button>
 								</div>
@@ -162,7 +165,7 @@ class Staff extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Mary Goretti Katusabe – Ssemwezi (Mrs.)</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>EX-Officio/Secretary To Council</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 								</div>
@@ -185,7 +188,7 @@ class Staff extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Ms Winnie Nassiwa</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Students</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 								</div>
@@ -209,8 +212,8 @@ class Staff extends Component {
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Joseph Walusimbi</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<h3 class="name-pos"><a href="#url">Mr. Nkeeto Bill Richard</a></h3>
+								<p>Dean Faculty of Business and management</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Bio</button>
 								</div>
@@ -219,9 +222,9 @@ class Staff extends Component {
 								<div className="modal-content_bio">
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 5")}>&times;</span>
 									<br/>
-									<p className="my-4 text-left">
+									{/* <p className="my-4 text-left">
 									Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant and sustainable growth.<br/><br/>24 years of global experience in commercial, development and education sectors; various departmental roles in FMCG and services industries, leadership of projects for NGOs and community-based organisations, global advisory services for nascent and established entrepreneurial ventures, as well as thought-leadership based courses facilitation for local and regional management institutes.<br/><br/>Multi-skilled in the areas of Strategy Development, Customer Relationship Management (CRM), Commercial Management (Sales, Brand & Trade Marketing), Communications, Organisational Development Advisory and Industry Value Chain & Cluster Analysis, Board Governance, Operations Management, Leadership, Research, Stakeholder Communications, Media Enagement, Project Management, Partnerships Building, Capacity Development, Resource Mobilisation, Gender & Inclusion, Rights-based Project Development, Public Speaking, Entrepreneurial Coaching and Financial Management
-									</p>
+									</p> */}
 								</div>
 							</div>
 						</div>
@@ -233,7 +236,7 @@ class Staff extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr. David Kakeeto</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean Faculty of Science and Technology</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 								</div>
@@ -281,7 +284,7 @@ class Staff extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr Nnwana Kevin</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Health Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 								</div>
@@ -303,7 +306,7 @@ class Staff extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr Rosemary Nakijoba.</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Humanities and Social Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
 								</div>
@@ -343,58 +346,12 @@ class Staff extends Component {
 				<div class="row team-row">
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
-							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 9")}>
-								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
-							</div><br/>
-							<div class="column">
-								<h3 class="name-pos"><a href="#url">Mr Mourice Baluku</a></h3>
-								{/* <p>Law Instructor</p> */}
-								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
-								</div>
-							</div>
-							<div id="myModal_bio 9" className="modal_bio">
-								<div className="modal-content_bio">
-									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 9")}>&times;</span>
-									<br/>
-									<p className="my-4 text-left">Mark Serebe is the 2019-2020 Guild President of Victoria University.  He graduated with a Diploma in Human Resource Management at the same University in 2018 and is currently pursuing a Bachelor’s degree in Human Resource Management. He takes his responsibility as students’ leader at the University with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
-									{/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 team-wrap">
-						<div class="team-info text-center">
-							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 10")}>
-								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
-							</div><br/>
-							<div class="column">
-								<h3 class="name-pos"><a href="#url">Shahul Hamid</a></h3>
-								{/* <p>Law Instructor</p> */}
-								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 10")}>View Bio</button>
-								</div>
-							</div>
-							<div id="myModal_bio 10" className="modal_bio">
-								<div className="modal-content_bio">
-									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 10")}>&times;</span>
-									<br/>
-									{/* <p className="my-4 text-left">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
-									<br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p> */}
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 team-wrap">
-						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 11")}>
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Shahul Hamid</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Bursar </p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 11")}>View Bio</button>
 								</div>

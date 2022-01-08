@@ -16476,7 +16476,6 @@ a.text-dark:focus {
 .lister{
     list-style: none;
     padding: 5px 0px 5px 0px;
-    text-decoration: underline;
     color: #555;
     font-size: medium;
 }

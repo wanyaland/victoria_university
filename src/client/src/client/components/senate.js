@@ -54,8 +54,8 @@ class Senate extends Component {
 								<a href="#url"><img src="assets/images/img/vc.JPG" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Lawrence Muganga</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<h3 class="name-pos"><a href="#url">Prof. Lawrence Muganga</a></h3>
+								<p>Vice Chancellor and Deputy Vice Chancellor</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
 								</div>
@@ -110,7 +110,7 @@ class Senate extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Mary Goretti Katusabe – Ssemwezi (Mrs.)</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>EX-Officio/Secretary To Council</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 2")}>View Bio</button>
 								</div>
@@ -133,7 +133,7 @@ class Senate extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Ms Winnie Nassiwa</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Students</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 3")}>View Bio</button>
 								</div>
@@ -155,8 +155,8 @@ class Senate extends Component {
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Joseph Walusimbi</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<h3 class="name-pos"><a href="#url">Mr Nkeeto Bill Richard</a></h3>
+								<p>Dean Faculty of Business and management</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 4")}>View Bio</button>
 								</div>
@@ -165,9 +165,9 @@ class Senate extends Component {
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 4")}>&times;</span>
 								<br/>
-								<p className="my-4 text-left">
+								{/* <p className="my-4 text-left">
 								Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant and sustainable growth.<br/><br/>24 years of global experience in commercial, development and education sectors; various departmental roles in FMCG and services industries, leadership of projects for NGOs and community-based organisations, global advisory services for nascent and established entrepreneurial ventures, as well as thought-leadership based courses facilitation for local and regional management institutes.<br/><br/>Multi-skilled in the areas of Strategy Development, Customer Relationship Management (CRM), Commercial Management (Sales, Brand & Trade Marketing), Communications, Organisational Development Advisory and Industry Value Chain & Cluster Analysis, Board Governance, Operations Management, Leadership, Research, Stakeholder Communications, Media Enagement, Project Management, Partnerships Building, Capacity Development, Resource Mobilisation, Gender & Inclusion, Rights-based Project Development, Public Speaking, Entrepreneurial Coaching and Financial Management
-								</p>
+								</p> */}
 								</div>
 							</div>
 						</div>
@@ -177,11 +177,11 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 5")}>
-								<a href="#url"><img src="assets/images/img/kakeeto.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/Kakeeto.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr. David Kakeeto</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean Faculty of Science and Technology</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 5")}>View Bio</button>
 								</div>
@@ -229,7 +229,7 @@ class Senate extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr Nnwana Kevin</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Health Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
 								</div>
@@ -251,7 +251,7 @@ class Senate extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr Rosemary Nakijoba</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Dean of Humanities and Social Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>
 								</div>
@@ -315,11 +315,11 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 9")}>
-								<a href="#url"><img src="assets/images/img/guild.JPG" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/guild.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">H.E Mark Serebe</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Guild President</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 9")}>View Bio</button>
 								</div>

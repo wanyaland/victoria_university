@@ -50,7 +50,7 @@ class StudentGuidelines extends Component{
 									<div className="carousel-item active">
 										<img className="d-block w-100" src="assets/images/admissions.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 									</div>
-                                    <div className='banner-caption'>&nbsp;Guidelines</div>
+                                    <div className='banner-caption'>&nbsp;International <br/> &nbsp;Student Guidelines</div>
 								</div>
 							</div>
 						</div>
@@ -99,7 +99,10 @@ class StudentGuidelines extends Component{
                         <p className="my-4">Students from countries outside East Africa will normally require a student ( General) Visa in order to study in Uganda. To apply for this Visa students will require a confirmation of acceptance for study (CAS) and also appropriate evidence of their funding.</p>
 						<p className="my-4">A (CAS) will be issued by the University when you accept our Offer , meet any conditions mentioned in the offer, and pay a deposit. This deposit is offset against your tuition fees and if you have an official sponsor , for example your government or an international scholarship agency , you will not need to pay this deposit.</p>
 						<p className="my-4">Instead , you should send a copy of your sponsorship letter to the University's finance office consideration. Our international welcome at the start of your first semester includes a special induction programme to guide you through your initial administrative tasks (such as applying for a bank account and providing a range of social activities to help you meet new friends. The international student center also coordinates activities and events for international students ,providing exciting and interesting opportunities to learn about life in Uganda and kampala in Particular.</p>
-						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>YOUR SECURITY AND SAFETY WITHIN UGANDA</p>
+						<p className='my-4'>
+							<img src="assets/images/inter-stude.jpg" className="img-fluid" alt="WIL" />
+						</p>
+						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>Your security and safety within Uganda</p>
 						<p className="my-4">Safety and security is always a big issue everywhere in Africa and the World. Uganda is one of the safest countries in Africa and Kampala is one of the safest capitals. You can move with ease day and night but precautions have to be taken late at night.</p>
 						<p className="my-4">Simply follow safe practices and you will enjoy your safety in the pearl of Africa</p>
 					</div>

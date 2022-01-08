@@ -66,7 +66,7 @@ class Footer extends Component{
                 <div className="col-lg-4 column">
                     <h6 className='' style={{color: '#FFF', fontWeight: '600', fontSize: '1.5rem'}}>Call Us</h6>
                     <ul className="text-left" style={{listStyle: 'none', color: '#FFF', lineHeight: '180%', fontSize: '.95rem'}}>
-                        <li>+256 759 996 130</li>
+                        {/* <li>+256 759 996 130</li> */}
                         <li>+256 700 300 088</li>
                         <li>+256 707 780 158</li>
                     </ul>

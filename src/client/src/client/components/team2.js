@@ -142,9 +142,9 @@ class ExecTeam extends Component {
 					</div>
 				</div>
 				<div className="col-lg-9 mb-lg-0 mb-5 justify-content-center" style={{padding: '40px'}}>
-					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Dr. Lawrence Muganga.</h6>
+					<h6 className="hny-title" style={{color: '#0077b5', fontSize: '34px'}}>Prof. Lawrence Muganga.</h6>
 					<h6 style={{color: '#0077b5'}}><i>Vice Chancellor/Deputy Vice Chancellor – Academic Affairs</i></h6>
-					<p className="my-4">Dr. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
+					<p className="my-4">Prof. Lawrence Muganga doubles as the Ag. Vice Chancellor and Deputy Vice Chancellor – Academic Affairs of Victoria University. He is an award-winning writer and author, researcher, educator, public policy practitioner, strategy advisor, development management Specialist and authentic learning enthusiast based in Edmonton, Alberta Canada.</p>
 					<p className="mb-4"></p>
 					<button className="bio_btn" onClick={() => this.view_bio("myModal_bio 13")}>View Bio</button>
 					<br/>

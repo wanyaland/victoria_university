@@ -68,7 +68,7 @@ class AboutRes extends Component {
                     <div className="col-lg-12 mb-lg-0 mb-5">
 						<h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>About Research</h6>
 						<br/>
-						<p className="my-4" style={{fontSize: '22px'}}>Research is the systematic process of generating (new) knowledge about some aspect of occurrences in a society. By its iterative nature, research has a cycle involving a variety of stages:</p>
+						<p className="my-4" style={{}}>Research is the systematic process of generating (new) knowledge about some aspect of occurrences in a society. By its iterative nature, research has a cycle involving a variety of stages:</p>
 						<p className="mb-4">
 						<ul style={{listStyle: 'none'}}>
                        	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">Formulating a research question or idea/area</span></li>

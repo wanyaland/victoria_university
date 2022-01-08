@@ -2,7 +2,7 @@
   {
     "id": 0,
     "program": "Masters of Business Administration",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "The programme is designed to build students’ existing knowledge and experience as well as developing their academic knowledge in these areas. The programme will improve students’ ability to translate business knowledge into concrete actions suitable for the business environment in which they work and study, and the wider global community in which they may aspire to transfer.",
@@ -24,7 +24,7 @@
   {
     "id": 1,
     "program": "Master of Business Administration (MBA Accounting and Finance)",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -46,7 +46,7 @@
   {
     "id": 2,
     "program": "Master of Business Administration (MBA Human Resource Management)",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -68,7 +68,7 @@
   {
     "id": 3,
     "program": "Master of Business Administration (Marketing)",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -90,7 +90,7 @@
   {
     "id": 4,
     "program": "Master of Business Administration (MBA Real Estate and Propoerty Management)",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -112,7 +112,7 @@
   {
     "id": 5,
     "program": "Masters of Monitoring & Evaluation",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1608500",
     "int_price": "515",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -134,7 +134,7 @@
   {
     "id": 6,
     "program": "Master of Science in Information Technology",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1696900",
     "int_price": "543",
     "short_desc": "The programme focuses on information technologies such as Internet and web, emerging technologies, with an emphasis on their management and security. The courses delivered in this curriculum will also have a strong research and development bias to address the continuously changing societal needs. The program aims at providing an enduring foundation for future professional and academic growth.",
@@ -156,7 +156,7 @@
   {
     "id": 7,
     "program": "Master of Science in Big Data Analytics",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1823300",
     "int_price": "583",
     "short_desc": "Data science is an emerging field that seeks to discover and explore new ways of exploiting data to support decision-making for a range of domains and problems",
@@ -178,7 +178,7 @@
   {
     "id": 8,
     "program": "Master of Science in Global Health Nutrition",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1823300",
     "int_price": "583",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -266,7 +266,7 @@
   {
     "id": 12,
     "program": "Masters of Science in Health Service Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1760100",
     "int_price": "563",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -288,7 +288,7 @@
   {
     "id": 13,
     "program": "Master of Arts in Public Administration and Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1570600",
     "int_price": "503",
     "short_desc": "This programme combines extensive coverage of the field with a strong focus on managing public services and leardership skills .Participants are exposed to policy and management problems facing public organisations, or related non - profit and private firms.",
@@ -310,7 +310,7 @@
   {
     "id": 14,
     "program": "Masters of Arts in Mass Communication",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1570600",
     "int_price": "503",
     "short_desc": "Mass communication deals with how messages are created/produced and then disseminated on a large scale. This field can further be broken down into the following broad industries- print, radio, television, public relations, advertising and applied communication. At master’s level, students are not just concerned with the production and dissemination of information, but also go into great details on the development and application of theories, understanding the role of media in society and developing research that helps position the media industry better to remain relevant in a digital world",
@@ -332,7 +332,7 @@
   {
     "id": 15,
     "program": "Masters in Diplomacy and Global Studies",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1570600",
     "int_price": "503",
     "short_desc": "The program aims at deepening students’ understanding of international affairs and diplomatic contemporary practices",
@@ -354,7 +354,7 @@
   {
     "id": 16,
     "program": "Masters of Educational Administration and leadership and Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1570600",
     "int_price": "503",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -376,7 +376,7 @@
   {
     "id": 17,
     "program": "Postgraduate Diploma Monitoring & Evaluation",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1317800",
     "int_price": "422",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -398,7 +398,7 @@
   {
     "id": 18,
     "program": "Postgraduate Diploma in Nutrition and Leadership",
-    "duration": "1",
+    "duration": "1 Year",
     "local_price": "1494800",
     "int_price": "478",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -420,7 +420,7 @@
   {
     "id": 19,
     "program": "Bachelor of Business Administration",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This degree is an appropriate goal for learners who want to acquire extensive skills and knowledge in business and management. Beyond such acquisition, Victoria University designs the programmes to transform its learners to graduates with a formidable capacity to solve complex business problems with enormous creativity and innovation.",
@@ -442,7 +442,7 @@
   {
     "id": 20,
     "program": "Bachelor of Business Administration (Real Estate and Property Management)",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -464,7 +464,7 @@
   {
     "id": 21,
     "program": "Bachelor of Science in Banking and Finance",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "Banking and Finance will provide learners with an excellent understanding of core issues in open economy macroeconomics, including current account imbalances, exchange rate determination, and monetary policy the empirical performance of economic models of exchange rates",
@@ -486,7 +486,7 @@
   {
     "id": 22,
     "program": "Bachelor of Procurement & Logistics Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This degree is an appropriate goal for students who want to acquire extensive skills and knowledge in business and management. Beyond such acquisition, Victoria University Uganda designs the programmes to transform its students to graduates with a formidable capacity to solve complex business problems with enormous creativity and innovation",
@@ -508,7 +508,7 @@
   {
     "id": 23,
     "program": "Bachelor of Tourism and Hopitality Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "Tourism and hospitality Industry contributions and need for its Developments Tourism and hotel management is now a source of over 250 million jobs spread over in retail, construction, manufacturing, telecommunications, travel, tourism and hotels companies is now recognized to be the world’s largest, economic, ecological and social sustainable industry",
@@ -530,7 +530,7 @@
   {
     "id": 24,
     "program": "Bachelor of International Business",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This programme provides an extensive array of skills and knowledge to learners to acquire competence and expertise to participate in international business environment. The design of the programme is intended to transform learners to graduates with a capacity to solve complex business problems with enormous creativity and innovation. The blend of the content will expose the learner to international business outlook but with particular focus on international trade.",
@@ -552,7 +552,7 @@
   {
     "id": 25,
     "program": "Bachelor of Science in Oil and Gas Accounting",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The BSc in oil and gas accounting is a new course designed for you to develop specialized knowledge and skills specifically for an accounting career in the oil and gas industry.",
@@ -574,7 +574,7 @@
   {
     "id": 26,
     "program": "Bachelor of Arts in Human Resource Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This aims to acquaint aspirant Human Resource Management Professionals with an analysis of Business environment comprehensively from the human resource perspective. It is a market oriented Programme targeting to groom Human Resource professionals that can handle Human Resource challenges at National and International level.",
@@ -596,7 +596,7 @@
   {
     "id": 27,
     "program": "Bachelor of Hotel and Hospitality Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The programme emphasizes work based and practical/field based learning to equip graduates with core competences in knowledge , skills and attitude",
@@ -618,7 +618,7 @@
   {
     "id": 28,
     "program": "Bachelor of Events Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -640,7 +640,7 @@
   {
     "id": 29,
     "program": "Bachelor of Science in Computer Science",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The Bachelor of Science Computer Science programme at Victoria University is a three-year full-time programme. The programme aims to produce graduates with a high level of Computer Science fundamentals and specific practical skills. Graduates from the programme are expected to utilize the acquired skills to act as facilitators in matching organization‘s ICT requirements with the latest information technology in line with the organization's vision, mission and goals with a bias of profit making",
@@ -662,7 +662,7 @@
   {
     "id": 30,
     "program": "Bachelor of Business Information Systems",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "Information technology is a critical component of modern life. It is the nervous system of most businesses and organizations and essential to the communications that support modern society. New applications of information technology are constantly appearing; different applications are linked together forming a complex computing environment",
@@ -684,7 +684,7 @@
   {
     "id": 31,
     "program": "Bachelor of Information Technology",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "IT ensures that successful business organizations must have personnel who understand and can identify methods of using Information Technology to meet their needs effectively.",
@@ -706,7 +706,7 @@
   {
     "id": 32,
     "program": "Bachelor of Commerce Art & Industrial Design",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The need for creative and inventive Artists and Designers for Industrial development in the global productions is ostensible and it requires the cultivation of such components. The Department of Creative Art, Industrial Design and Technology (CAIT) has established necessary review of the programme to nurture and train students with creative knowledge, skills that suit the consumer and capital market both local and international.",
@@ -728,7 +728,7 @@
   {
     "id": 33,
     "program": "Bachelor Agriculture & Rural Innovation",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The programme is intended to offer a full-time four-year degree Bachelor of Agricultural & Rural Innovation (BARI) whose objective is to produce graduates with professional skills to become all round agro-entrepreneurs in not only crop and animal husbandry but also with skills in value addition and management of agriculture as a business.",
@@ -750,7 +750,7 @@
   {
     "id": 34,
     "program": "Bachelor of Science in Animation and Visual Effects",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "1254605",
     "int_price": "300",
     "short_desc": "The Bachelor of Science in Animation and Visual Effect programme brings on board new approaches to teaching of digital Information Technology, combining solid engineering practices with knowledge of management and business processes",
@@ -772,7 +772,7 @@
   {
     "id": 35,
     "program": "Bachelor of Science in Public Health",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "1254700",
     "int_price": "401",
     "short_desc": "Bachelor of science in public health is a three year study programme.it has high global market demand .public health graduates work to prevent diseases , protect health and promote population health and promote population health through planning implementing and evaluating public health projects /programs.",
@@ -794,7 +794,7 @@
   {
     "id": 36,
     "program": "Bachelor of Nursing Science (DIRECT)",
-    "duration": "4",
+    "duration": "4 Years",
     "local_price": "1254700",
     "int_price": "401",
     "short_desc": "This program is designed to meet the current and future nursing and health care delivery challenges",
@@ -860,7 +860,7 @@
   {
     "id": 39,
     "program": "Bachelor of Science in Human Nutrition and Dietetics",
-    "duration": "4",
+    "duration": "4 Years",
     "local_price": "1254700",
     "int_price": "401",
     "short_desc": "Upon completion of this study programm one can practice therapeutic nutrition , community nutritionists,dieticians ,food or restaurant managers, food and health reporters , nutrition editors,and many others",
@@ -882,7 +882,7 @@
   {
     "id": 40,
     "program": "Bachelor of Arts in Public Administration & Management",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The program is purposely designed to provide participants with strong theoretical and practical foundation knowledge in the field of Public Administration and Management.",
@@ -904,7 +904,7 @@
   {
     "id": 41,
     "program": "Bachelor of Social work and Social Administration",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "To equip students with both academic and practical professional knowledge, skills, values and attitudes necessary for professional social work practice.",
@@ -926,7 +926,7 @@
   {
     "id": 42,
     "program": "Bachelor of Arts in Journalism and Media Studies",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938700",
     "int_price": "300",
     "short_desc": "The media helps us to understand the world around us.They inform us about what has happened and what might happen .From billboards and advertisements to newspapers, radio and internet movies.",
@@ -948,7 +948,7 @@
   {
     "id": 43,
     "program": "Bachelor of Development Studies",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938000",
     "int_price": "300",
     "short_desc": "This programme focusses on the role and form of markets, states , civil society and local communities in the eradication of mass poverty and improvement of human well-being",
@@ -970,7 +970,7 @@
   {
     "id": 44,
     "program": "Bachelor of Arts in International Relations & Diplomatic Studies",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "938000",
     "int_price": "300",
     "short_desc": "The study of international relations develops specific skills and knowledge which provide an advantage for employment opportunities.",
@@ -992,7 +992,7 @@
   {
     "id": 45,
     "program": "Bachelor of Arts in Education (BA. Ed)",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "711300",
     "int_price": "228",
     "short_desc": "The general objective of this programme is to produce competent teachers with adequate knowledge, skills, concern and proficiency to meet the challenges of teaching in a developing country.",
@@ -1014,7 +1014,7 @@
   {
     "id": 46,
     "program": "Bachelor of Science in Education (BSC. Ed)",
-    "duration": "3",
+    "duration": "3 Years",
     "local_price": "812400",
     "int_price": "260",
     "short_desc": "The general objective of this programme is to produce competent teachers with adequate knowledge, skills, concern and proficiency to meet the challenges of teaching in a developing country.",
@@ -1058,11 +1058,11 @@
   {
     "id": 48,
     "program": "Diploma in Procurement & Logistics Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
-    "short_desc": "The diploma in procurement and logistics management endeavors to produce graduates with the skills and knowledge required for efficient acquisition and disposal of organisation resources.",
-    "full_desc": "The diploma in procurement and logistics management endeavors to produce graduates with the skills and knowledge required for efficient acquisition and disposal of organisation resources.",
+    "short_desc": "Studying procurement and logistics management opens up excellent career prospects for graduates. This diploma will equip you with the skills and knowledge required for efficient acquisition and disposal of an organization's resources.",
+    "full_desc": "Studying procurement and logistics management opens up excellent career prospects for graduates. This diploma will equip you with the skills and knowledge required for efficient acquisition and disposal of an organization's resources.",
     "faculty": "Faculty Of Business And Management",
     "level": "Diploma",
     "credit": "30",
@@ -1080,7 +1080,7 @@
   {
     "id": 49,
     "program": "Diploma in Banking and Finance",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "The programme aims to provide a broad education and training in modern finance and banking business profile, suitable for a wide range of learners in key areas of practice, research and management in banking and finance institutions.",
@@ -1102,7 +1102,7 @@
   {
     "id": 50,
     "program": "Diploma In Business and Administration",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1124,7 +1124,7 @@
   {
     "id": 51,
     "program": "Diploma in Tourism and Hospitality Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "The diploma of Tourism and Hospitality management programme is a two year intensive programme",
@@ -1146,7 +1146,7 @@
   {
     "id": 52,
     "program": "Diploma in Human Resource Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "This diploma aims to acquaint aspirant Human Resource Management Professionals with an analysis of Business environment comprehensively from the human resource perspective. It is a market oriented Programme targeting to groom Human Resource professionals that can handle Human Resource challenges at National and International level.",
@@ -1168,7 +1168,7 @@
   {
     "id": 53,
     "program": "Diploma in Real Estate and Property Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1190,7 +1190,7 @@
   {
     "id": 54,
     "program": "Diploma in Events Management",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1212,7 +1212,7 @@
   {
     "id": 55,
     "program": "Diploma in Information Technology",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "The Diploma in Information Technology programme ensures that successful business organizations must have personnel who understand and can identify methods of using Information Technology to meet their needs effectively.",
@@ -1234,7 +1234,7 @@
   {
     "id": 56,
     "program": "Diploma in Viual Effects And Animation",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "The Bachelor of Science in Animation and Visual Effect programme brings on board new approaches to teaching of digital Information Technology, combining solid engineering practices with knowledge of management and business processes",
@@ -1255,7 +1255,7 @@
   {
     "id": 57,
     "program": "Diploma in Social work and Social Administration",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "The Diploma is designed to equip students with both academic and proffessional knowledge , attitudes and skills for DSWSA work.",
@@ -1277,7 +1277,7 @@
   {
     "id": 58,
     "program": "Diploma in International Relations & Diplomatic Studies",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "Diploma in international relations and diplomatic studies DIRDS is an interdisciplinary field of study that focuses on the study of foreign affairs and global issues that affect states within the international system.",
@@ -1299,7 +1299,7 @@
   {
     "id": 59,
     "program": "Diploma in Journalism and Media Studies",
-    "duration": "2",
+    "duration": "2 Years",
     "local_price": "509100",
     "int_price": "163",
     "short_desc": "This course recognizes the growing importance of journalism , public relations and media management",
@@ -1321,11 +1321,11 @@
   {
     "id": 60,
     "program": "Higher Education Certificate (HEC) in Biological Science",
-    "duration": "1",
+    "duration": "1 Year",
     "local_price": "520000",
     "int_price": "166",
-    "short_desc": "This is intended to provide a bridge between highschool and University and to equip students with intelectual and study skills appropriate for the demand of an undergraduate degree programme",
-    "full_desc": "This is intended to provide a bridge between highschool and University and to equip students with intelectual and study skills appropriate for the demand of an undergraduate degree programme",
+    "short_desc": "This program is suitable for students who are interested in pursuing a diploma or degree program in the Health Sciences, but did not achieve the minimum entry requirements at Uganda Advanced Certificate of Education (UACE). This program is fully accredited and approved by the National Council for Higher Education (NCHE) as an avenue into all Higher Education Institutions.",
+    "full_desc": "This program is suitable for students who are interested in pursuing a diploma or degree program in the Health Sciences, but did not achieve the minimum entry requirements at Uganda Advanced Certificate of Education (UACE). This program is fully accredited and approved by the National Council for Higher Education (NCHE) as an avenue into all Higher Education Institutions.",
     "faculty": "Faculty of Health Sciences",
     "level": "Foundations",
     "credit": "30",
@@ -1343,11 +1343,11 @@
   {
     "id": 61,
     "program": "Higher Education Certificate (HEC) - General",
-    "duration": "1",
+    "duration": "1 Year",
     "local_price": "482200",
     "int_price": "154",
-    "short_desc": "Foundation program is a widely accepted program by many Higher Education institutions as an entry b bridging component .In order to assist prospective students who donot ahave A level (or did not reach a requisit grades at A level , the foundation program acts as a bridge int the gap between school and university .It runs for 1 Year",
-    "full_desc": "Foundation program is a widely accepted program by many Higher Education institutions as an entry b bridging component .In order to assist prospective students who donot ahave A level (or did not reach a requisit grades at A level , the foundation program acts as a bridge int the gap between school and university .It runs for 1 Year",
+    "short_desc": "This program is suitable for students who are interested in pursuing a diploma or degree program in the Humanities, Arts or Business field, but did not achieve the minimum entry requirements at Uganda Advanced Certificate of Education (UACE). This program is fully accredited and approved by the National Council for Higher Education (NCHE) as an avenue into all Higher Education Institutions.",
+    "full_desc": "This program is suitable for students who are interested in pursuing a diploma or degree program in the Humanities, Arts or Business field, but did not achieve the minimum entry requirements at Uganda Advanced Certificate of Education (UACE). This program is fully accredited and approved by the National Council for Higher Education (NCHE) as an avenue into all Higher Education Institutions.",
     "faculty": "Faculty of Humanities and Social Sciences",
     "level": "Foundations",
     "credit": "30",
@@ -1365,7 +1365,7 @@
   {
     "id": 62,
     "program": "Digital Marketing and Social Media Specialist",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1387,7 +1387,7 @@
   {
     "id": 63,
     "program": "Entrepreneurial Development Studies",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1409,7 +1409,7 @@
   {
     "id": 64,
     "program": "Export Trade Promotion",
-    "duration": "6 WEEKS",
+    "duration": "6 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1431,7 +1431,7 @@
   {
     "id": 65,
     "program": "Sustainable Microfinance",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1541,7 +1541,7 @@
   {
     "id": 70,
     "program": "House Keeping in the Hospitality Industry",
-    "duration": "6 WEEKS",
+    "duration": "6 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1563,7 +1563,7 @@
   {
     "id": 71,
     "program": "Customer Service in the Hospitality Industry",
-    "duration": "6 WEEKS",
+    "duration": "6 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1585,7 +1585,7 @@
   {
     "id": 72,
     "program": "Front Office Management in the Hospitality Industry",
-    "duration": "6 WEEKS",
+    "duration": "6 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1629,7 +1629,7 @@
   {
     "id": 74,
     "program": "CISCO-CCNA",
-    "duration": "4 MONTHS",
+    "duration": "4 Months",
     "local_price": "600000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1651,7 +1651,7 @@
   {
     "id": 75,
     "program": "Cisco-IT Essentials",
-    "duration": "2 MONTHS",
+    "duration": "2 Months",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1673,7 +1673,7 @@
   {
     "id": 76,
     "program": "Basic Computer Applications",
-    "duration": "4 WEEKS",
+    "duration": "4 Weeks",
     "local_price": "200000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1695,7 +1695,7 @@
   {
     "id": 77,
     "program": "CCTV Controller",
-    "duration": "6 WEEKS",
+    "duration": "6 Weeks",
     "local_price": "300000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1717,7 +1717,7 @@
   {
     "id": 78,
     "program": "Cyber Security Essentials",
-    "duration": "2 MONTHS",
+    "duration": "2 Months",
     "local_price": "600000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1739,7 +1739,7 @@
   {
     "id": 79,
     "program": "PCAP Programming Essentials in Python",
-    "duration": "2 MONTHS",
+    "duration": "2 Months",
     "local_price": "600000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1761,7 +1761,7 @@
   {
     "id": 80,
     "program": "CCNA Security",
-    "duration": "2 MONTHS",
+    "duration": "2 Months",
     "local_price": "600000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1783,7 +1783,7 @@
   {
     "id": 81,
     "program": "Artificial Intelligence with Python",
-    "duration": "2 MONTHS",
+    "duration": "2 Months",
     "local_price": "600000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1805,7 +1805,7 @@
   {
     "id": 82,
     "program": "Comprehensive Management of STI’s, HIV",
-    "duration": "2 WEEKS",
+    "duration": "2 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1827,7 +1827,7 @@
   {
     "id": 83,
     "program": "First Aid",
-    "duration": "2 WEEKS",
+    "duration": "2 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1849,7 +1849,7 @@
   {
     "id": 84,
     "program": "Resource Mobilisation and Project ProposalWriting for Health workers",
-    "duration": "2 WEEKS",
+    "duration": "2 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1871,7 +1871,7 @@
   {
     "id": 85,
     "program": "SPSS - Statistical Package For Social Sciences",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1893,7 +1893,7 @@
   {
     "id": 86,
     "program": "Public Health Nutrition",
-    "duration": "2 WEEKS",
+    "duration": "2 Weeks",
     "local_price": "360000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1915,7 +1915,7 @@
   {
     "id": 87,
     "program": "Presentation and Public Speaking",
-    "duration": "5 WEEKS",
+    "duration": "5 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1937,7 +1937,7 @@
   {
     "id": 88,
     "program": "Coaching and Mentoring",
-    "duration": "5 WEEKS",
+    "duration": "5 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1959,7 +1959,7 @@
   {
     "id": 89,
     "program": "Graphics Designing",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -1981,7 +1981,7 @@
   {
     "id": 90,
     "program": "Filmmaking",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
@@ -2003,7 +2003,7 @@
   {
     "id": 91,
     "program": "Radio Production",
-    "duration": "10 WEEKS",
+    "duration": "10 Weeks",
     "local_price": "400000",
     "int_price": "0",
     "short_desc": "This is a short description about this course, you can learn more by about this course by reading this description",
