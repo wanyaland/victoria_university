@@ -63,7 +63,7 @@ class Tuition extends Component {
 							</div>
 						</div>
 					</div>
-				</section>z
+				</section>
                 <section className="w3l-top-header-content">
     <div className="hny-top-menu">
         <div className="top-hd" style={{padding: '5px 0px 5px 0px', backgroundColor:'#024c74'}}>
@@ -133,8 +133,8 @@ class Tuition extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Your tuition, your career investment</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>At Victoria University we want to allow you to study at your own pace. To reflect that, all our courses are pay-as-you-go. You pay for each course only when you register for it, and our course fees include all textbooks, class materials, and access to a tutor or success centre. All course fees must be paid in full when you register.</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>The first time you take an VU course or apply to an VU program, you’ll also pay a one-time, non-refundable application fee. You won’t have to pay this fee again, no matter how many courses you take, or how long you wait between courses.</p>
+                    <p className="mb-4" style={{}}>At Victoria University we want to allow you to study at your own pace. To reflect that, all our courses are pay-as-you-go. You pay for each course only when you register for it, and our course fees include all textbooks, class materials, and access to a tutor or success centre. All course fees must be paid in full when you register.</p>
+                    <p className="mb-4" style={{}}>The first time you take an VU course or apply to an VU program, you’ll also pay a one-time, non-refundable application fee. You won’t have to pay this fee again, no matter how many courses you take, or how long you wait between courses.</p>
                 </div>
             </div>
         </div>
@@ -147,8 +147,8 @@ class Tuition extends Component {
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '32px', color: '#0077b5'}}>Online tuition and fee assessment</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Understanding how your fees and tuition are calculated is important to make sure you stay within your budget and make informed decisions when choosing, adding or dropping courses. VU academic fees are calculated differently for undergraduate and graduate students and will also vary depending on where you live while studying, course choice and other individual circumstances.</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Make sure to understand the details of all tuition and fees that apply to your choice of program - if in doubt, please feel free to contact Victoria University’s administrators for clarification.</p>
+                    <p className="mb-4" style={{}}>Understanding how your fees and tuition are calculated is important to make sure you stay within your budget and make informed decisions when choosing, adding or dropping courses. VU academic fees are calculated differently for undergraduate and graduate students and will also vary depending on where you live while studying, course choice and other individual circumstances.</p>
+                    <p className="mb-4" style={{}}>Make sure to understand the details of all tuition and fees that apply to your choice of program - if in doubt, please feel free to contact Victoria University’s administrators for clarification.</p>
                     <p>
                         <a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                             <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;

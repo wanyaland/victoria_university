@@ -371,7 +371,7 @@ class Council extends Component {
 								<a href="#url"><img src="assets/images/img/vc.JPG" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr. Lawrence Muganga</a></h3>
+								<h3 class="name-pos"><a href="#url">Prof. Lawrence Muganga</a></h3>
 								<p>Vice Chancellor and Deputy Vice Chancellor</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 12")}>View Bio</button>

@@ -4,23 +4,34 @@ import NavBar from './navbar';
 import Footer from './footer';
 import { Link } from 'react-router-dom';
 import Data from './data/gallery.json';
+import Datav from './data/galleryv.json';
 import GalleryList from './gallery-list';
+import GalleryListv from './gallery-listv';
 
 class Gallery extends Component{
 	constructor(props) {
 		super(props);
 		this.state = {
 			gallerylister: [],
+			gallerylisterv: [],
 		}
 		this.view_photo = this.view_photo.bind(this);
 		this.close_bio = this.close_bio.bind(this);
+		this.view_photov = this.view_photov.bind(this);
+		this.close_biov = this.close_biov.bind(this);
 	}
 	componentDidMount(){
 		this.getGallery()
+		this.getGalleryv()
 	}
 	getGallery = () => {
 		this.setState({
 			gallerylister: Data,
+		})
+	}
+	getGalleryv = () => {
+		this.setState({
+			gallerylisterv: Datav,
 		})
 	}
     view_photo(id) {
@@ -29,6 +40,15 @@ class Gallery extends Component{
         modal.style.display = "block";
     }
 	close_bio(id) {
+        var modal = document.getElementById(id);
+        modal.style.display = "none";
+    }
+    view_photov(id) {
+		console.log(id, "ID")
+        var modal = document.getElementById(id);
+        modal.style.display = "block";
+    }
+	close_biov(id) {
         var modal = document.getElementById(id);
         modal.style.display = "none";
     }
@@ -63,6 +83,7 @@ class Gallery extends Component{
 
 			<div className="row">
 				<GalleryList gallerylister={this.state.gallerylister} view_photo={this.view_photo} close_bio={this.close_bio}/>
+				<GalleryListv gallerylisterv={this.state.gallerylisterv} view_photov={this.view_photov} close_biov={this.close_biov}/>
 			</div>
 			<br/>
 			<br/>

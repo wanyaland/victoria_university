@@ -80,7 +80,7 @@ class CurrentStudents extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Students</h6>
                     <br/>
                     <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Why should a student choose Victoria University?</h6>
-                    <p className="my-4" style={{fontSize: '18px'}}>
+                    <p className="my-4" style={{}}>
                     Victoria University is different; we help our students create knowledge and we teach
                     them experience. When you come to Victoria University you are assured that you will
                     graduate with 2-3 years’ experience and you also have an opportunity to be accorded a
@@ -102,11 +102,11 @@ class CurrentStudents extends Component{
                     All in all we are the University of You and you can comfortably choose Victoria
                     University for a greater and memorable education experience.
                     </p>
-                    <p>
+                    {/* <p>
                         <Link className="logo-2" to="/new-students" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                         <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">Overview for new students</span></span>
                         </Link>
-                    </p>
+                    </p> */}
                     <p><a href="https://vclass.ac/login" className="logo-2" style={{color: '#0077b5'}} target="_blank" rel="noreferrer" onMouseOver={this.change_icon.bind(this, "iconner3", "iconner4")} onMouseOut={this.change_icon2.bind(this, "iconner3", "iconner4")}>
                         <span className="lohny-2"><span  id="iconner3" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner4" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF', }}></span>&nbsp;<span className="underline">myVU Student Portal</span></span>
                         </a>
@@ -124,7 +124,7 @@ class CurrentStudents extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Working Class Students</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Victoria University believes in empowering people to solve problems in their respective communities and workplaces. We have several partnerships with different
+                    <p className="mb-4" style={{}}>Victoria University believes in empowering people to solve problems in their respective communities and workplaces. We have several partnerships with different
                     top universities around the world and through these partnerships, we have developed a
                     rich portfolio of professional courses that Ugandans can benefit from to enhance their
                     competences and gain unique skills that are required in their various respective
@@ -145,7 +145,7 @@ class CurrentStudents extends Component{
                         </Link>
                     </p> */}
                     <h6 className="hny-title" style={{fontSize: '34px', color: '#0077b5'}}>International Students</h6>
-                    <p className="mb-4" style={{fontSize: '18px'}}>
+                    <p className="mb-4" style={{}}>
                     Victoria University is privileged to have the most diverse student community
                     in Uganda. We have students coming from more than 50 countries including
                     Kuwait, Haiti, Oman, Afghanistan, India, Comoros, Nigeria, Chad, Liberia to
@@ -171,7 +171,7 @@ class CurrentStudents extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Student Online Learning</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Victoria University has developed an interactive state of the art learning
+                    <p className="mb-4" style={{}}>Victoria University has developed an interactive state of the art learning
                     management system that keep students learning without any interruption.
                     V-Class (our online learning management portal) was vetted by Uganda’s
                     National Council for Higher Education and was accorded a score of 80% -

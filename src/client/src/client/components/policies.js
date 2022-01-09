@@ -2,10 +2,28 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Data from './data/policy.json'
+import PolicyList from './policy-list';
 
 
 class Policies extends Component{
+	constructor(props) {
+		super(props);
+		this.state = {
+			policylist: [],
+		}
+	}
+	
+	componentDidMount(){
+		this.getPolicy()
+	}
+
+	getPolicy = () => {
+		this.setState({
+			policylist: Data,
+		})
+	}
     render(){
         return(
             <React.Fragment>
@@ -30,7 +48,7 @@ class Policies extends Component{
 	<div className="porfolio-inf py-5">
 	
 		<div className="container">
-			<h2>Policies And Procedures</h2>
+			<h2 style={{color: '#f74040'}}>Policies And Manuals</h2>
 		</div>
 	</div>
 </section>
@@ -51,18 +69,15 @@ class Policies extends Component{
 <section className="w3-gallery">
 	<div className="porfolio-inf py-5">
 		<div className="container pt-lg-5 pb-lg-4">
-			<div className="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
-				<li className="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Policy and Procedures Manuals</li>
+			{/* <div className="port-text-cards text-left mt-5 mb-3 col-lg-4" style={{backgroundColor:'#0077b5'}}>
+				<li className="btn active filter-button" data-filter="all" style={{color:'#fff'}}>Policy and Manuals</li>
 			</div>
-			<br />
+			<br /> */}
 
 			<div className="row">
 				<div className="col-md-12 filter graphic photo">
 					<div className="each-item">
-						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="assets/docs/Sports scholarships policy final.pdf">Sports Scholarships Policy</a></li>
-						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
-						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
-						<li className="lister"><a href="assets/docs/Sports scholarships policy final.pdf" download="">Sports Scholarships Policy</a></li>
+						<PolicyList policylist={this.state.policylist}/>
 					</div>
 				</div>
 			</div>

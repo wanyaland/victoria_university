@@ -242,7 +242,7 @@ class ViewProgram extends Component {
 			    </div>
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
 					<p style={{fontSize: '24px', color: '#025886'}}><b >Q:</b>&nbsp;How long would it take to complete?</p>
-					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>&nbsp;The expected normal completion time is {this.state.course_prog.duration} years.</p>
+					<p><b style={{fontWeight: '600', color: '#025886'}}>A:</b>&nbsp;The expected normal completion time is {this.state.course_prog.duration}.</p>
 				</div>
 			</div>
 		</div>

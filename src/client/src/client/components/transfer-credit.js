@@ -67,7 +67,7 @@ class TransferCredit extends Component{
 					<span style={{color: '#EEE'}}>/ Exemption and Transfer Credit</span>
                 </div>
             </div>
-        </div>
+        </div>a
     </div>
 </section>
 <br/>
@@ -78,9 +78,9 @@ class TransferCredit extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Transfer Credit</h6>
                     <br/>
-                    <p className="my-4" style={{fontSize: '18px'}}>This serves as the basis for exemption and credit transfers for all students who qualify for exemption and transfer of credits.
+                    <p className="my-4" style={{}}>This serves as the basis for exemption and credit transfers for all students who qualify for exemption and transfer of credits.
                     </p>
-                    <p className="my-4" style={{fontSize: '18px'}}>It is recognized that many students wishing to join Victoria University (YU) are students with transcripts and qualifications from other universities and from different levels. Unfortunately, some students are denied admissions due to the absence of recognized measures to help them assimilate their points and apply for admission to the appropriate programs implemented in the University.</p>
+                    <p className="my-4" style={{}}>It is recognized that many students wishing to join Victoria University (YU) are students with transcripts and qualifications from other universities and from different levels. Unfortunately, some students are denied admissions due to the absence of recognized measures to help them assimilate their points and apply for admission to the appropriate programs implemented in the University.</p>
                 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@ class TransferCredit extends Component{
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '40px'}}>Requirements for exemption</h6>
                     <br/>
-                    <p className="mb-4" style={{fontSize: '18px'}}>We have lots of options to help you get credit for your previous post-secondary experience, including individual course assessment, block transfer, post-diploma, or second degrees. First, you should check if your previous education is within the right time limits to be considered <span className="fa fa-external-link"></span> for transfer credits. After that, our transfer credit assessment tool can give you an idea of how your previous courses might transfer even if you did not complete a diploma or degree.</p>
+                    <p className="mb-4" style={{}}>We have lots of options to help you get credit for your previous post-secondary experience, including individual course assessment, block transfer, post-diploma, or second degrees. First, you should check if your previous education is within the right time limits to be considered <span className="fa fa-external-link"></span> for transfer credits. After that, our transfer credit assessment tool can give you an idea of how your previous courses might transfer even if you did not complete a diploma or degree.</p>
                     <p>
                         <Link className="logo-2" to="/admissions" style={{color: '#0077b5'}}  onMouseOver={this.change_icon.bind(this, "iconner", "iconner2")} onMouseOut={this.change_icon2.bind(this, "iconner", "iconner2")}>
                             <span className="lohny-2"><span  id="iconner" className="fa fa-chain programfa" style={{backgroundColor: '#f74040'}}></span><span id="iconner2" className="fa fa-arrow-right programfa hider" style={{backgroundColor: '#f74040', color: '#FFF',}}></span>&nbsp;
@@ -147,7 +147,7 @@ class TransferCredit extends Component{
                     <h6 className="hny-title text-left" style={{color: '#0077b5', fontSize: '30px'}}>Academic qualifications</h6>
                     <br/>
                     <p className="my-4" style={{fontSize: '24px', fontWeight: '400'}}>Undergraduate</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>To be exempted at an undergraduate degree programme, the following criteria have to be fulfilled:</p>
+                    <p className="mb-4" style={{}}>To be exempted at an undergraduate degree programme, the following criteria have to be fulfilled:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A student should provide equated and certified results in English language from the authorized regulator, if the awarding institution is from an institution outside the jurisdiction of NCHE.  Otherwise authentication of the validity of the documents can always be established by Victoria University experts assigned.</li><br/>
@@ -163,7 +163,7 @@ class TransferCredit extends Component{
                         </ul>
                     </p>
                     <p className="my-4" style={{fontWeight: '400', fontSize: '24px'}}>Masters</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Victoria University shall exempt Programme units for students admitted at master's level with a relevant Postgraduate diploma. To be exempted Programme units at masters, the following criteria have to be fulfilled:</p>
+                    <p className="mb-4" style={{}}>Victoria University shall exempt Programme units for students admitted at master's level with a relevant Postgraduate diploma. To be exempted Programme units at masters, the following criteria have to be fulfilled:</p>
                     <p className="my-4">
                         <ul style={{listStyle: 'none'}}>
                             <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span className="fa fa-angle-right"></span>&emsp;A student should have passed the relevant Programme unit with 60% and above.</li><br/>

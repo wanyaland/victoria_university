@@ -297,7 +297,7 @@ class ProgIndex extends Component {
 		this.setState({
 			courses: result,
 			courses_title: "Higher Educational Certificate",
-			courses_desc: 'Victoria University offers foundation programs that help prepare students for higher education and also advance their careers.  Higher Educational Certificate help students who didnot perform well to attain a course of thier interest'
+			courses_desc: 'Victoria University offers foundation programs that help prepare students for higher education and also advance their careers. The Higher Educational Certificate (HEC) helps students who did not attain the minimum requirement of 2 principal passes to pursue an undergraduate program at university. '
 		})
 	}
 	getDiploma = () => {
@@ -305,7 +305,7 @@ class ProgIndex extends Component {
 		this.setState({
 			courses: result,
 			courses_title: "Diploma Programmes",
-			courses_desc: 'Victoria University offers Diploma  programs  They are listed below under their respective faculties'
+			courses_desc: 'Victoria University offers the following Diploma programs in the Faculties of Business Management, Science and Technology, Health Sciences, Humanities and Social Sciences.'
 		})
 	}
 	no_result = () => {
@@ -522,20 +522,20 @@ class ProgIndex extends Component {
 						<hr/>
 						<div>
 							<p className="my-2 text-left" style={{fontSize: '18px', fontWeight: '500'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEVEL</p>
-							<ul className="prog-listu" style={{border: '#888 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
-								<li className={this.state.courses_title === "All Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getAll} style={{width: '100%', borderBottom: '#999 1px solid'}}>
+							<ul className="prog-listu" style={{border: '#CCC 1px solid', width: '90%', margin: '0 auto', padding: '0'}}>
+								<li className={this.state.courses_title === "All Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getAll} style={{width: '100%', borderBottom: '#CCC 1px solid'}}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;All Programmes</span></td><td><span className="badged">{this.state.courses_count}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Postgraduate Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#999 1px solid'}}>
+								<li className={this.state.courses_title === "Postgraduate Programmes"? "prog-list prog-list-active" : "prog-list"} onClick={this.getPostGs} style={{width: '100%', borderBottom: '#CCC 1px solid'}}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon orange_color"></span>&nbsp;&nbsp;&nbsp;Postgraduate Programs</span></td><td><span className="badged">{this.state.post_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Undergraduate Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getUnder}>
+								<li className={this.state.courses_title === "Undergraduate Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#CCC 1px solid'}} onClick={this.getUnder}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Undergraduate Programs</span></td><td><span className="badged">{this.state.under_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Diploma Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getDiploma}>
+								<li className={this.state.courses_title === "Diploma Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#CCC 1px solid'}} onClick={this.getDiploma}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Diploma Programs</span></td><td><span className="badged">{this.state.diploma_sum}</span></td></tr></table>
 								</li>
-								<li className={this.state.courses_title === "Foundations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#999 1px solid'}} onClick={this.getFounds}>
+								<li className={this.state.courses_title === "Foundations"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%', borderBottom: '#CCC 1px solid'}} onClick={this.getFounds}>
 									<table style={{width: '100%'}}><tr style={{width: '100%'}}><td style={{width: '100%'}}><span style={{width: '90%'}}><span className="fa fa-graduation-cap grad_icon"></span>&nbsp;&nbsp;&nbsp;Higher Education Certificate</span></td><td><span className="badged">{this.state.found_sum}</span></td></tr></table>
 								</li>
 								<li className={this.state.courses_title === "Professional Development Programmes"? "prog-list prog-list-active" : "prog-list"} style={{width: '100%'}} onClick={this.getPros}>
@@ -585,7 +585,7 @@ class ProgIndex extends Component {
 						<div className="" style={{height: '60px'}}>
 							<table style={{width: '100%', height: '100%'}}>
 								<tr>
-								<a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}><td className="text-left underline" style={{backgroundColor: '#FFF', textAlign: 'center', paddingLeft: '10px', fontWeight: '400', fontSize: '20px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o"></span></td></a>
+								<a className="logo-2" href="/assets/docs/Tution and Fees Documentation.pdf" download="assets/docs/Tution and Fees Documentation.pdf" style={{color: '#0077b5'}}><td className="text-left underline" style={{backgroundColor: '#FFF', textAlign: 'center', paddingLeft: '10px', fontWeight: '400', fontSize: '20px', color: '#0077b5'}}>View our tuition and fees documentation <span className="fa fa-file-pdf-o" style={{color: '#f74040'}}></span></td></a>
 								</tr>
 							</table>
 						</div>

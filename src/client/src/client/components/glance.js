@@ -32,7 +32,7 @@ class Glance extends Component {
 						<div id="carouselExampleSlidesOnly" className="carousel" data-ride="">
 							<div className="carousel-inner">
 								<div className="carousel-item active">
-									<img className="d-block w-100" src="assets/images/glance.JPG" alt="First slide" style={{filter: 'brightness(60%)'}}/>
+									<img className="d-block w-100" src="assets/images/glance.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 								</div>
 								<div className='banner-caption'>&nbsp;At a Glance</div>
 							</div>

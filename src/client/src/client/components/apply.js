@@ -75,7 +75,7 @@ class Apply extends Component{
 									<div className="carousel-item active">
 										<img className="d-block w-100" src="assets/images/admissions.jpg" alt="First slide" style={{filter: 'brightness(60%)'}}/>
 									</div>
-                                    <div className='banner-caption'>&nbsp;How To Apply</div>
+                                    <div className='banner-caption'>&nbsp;How To Apply <br/>&nbsp;And Register</div>
 								</div>
 							</div>
 						</div>
@@ -107,7 +107,7 @@ class Apply extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px'}}>How to Apply and Register</h6>
                     <br/>
                     <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p>
-                    <p className="my-4" style={{fontSize: '18px'}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
+                    <p className="my-4" style={{}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
                     <p className="mb-4"></p>
                     <br/>
                 </div>
@@ -257,7 +257,7 @@ class Apply extends Component{
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <p className="hny-title" style={{fontSize: '34px', color: '#0077b5', fontWeight: '500'}}>Apply to become an <b>VU undergraduate student</b></p>
-                    <p className="my-4" style={{fontSize: '18px'}}>We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate, or just take some courses as a non-program student - it’s up to you. If you change your mind later, you won’t have to pay another application fee. You can start registering for courses as soon as you finish your application.</p>
+                    <p className="my-4" style={{}}>We accept undergraduate applications year-round – if you’re interested in learning the VU way, you can start right away. Enrol in a program to earn a degree, diploma or certificate, or just take some courses as a non-program student - it’s up to you. If you change your mind later, you won’t have to pay another application fee. You can start registering for courses as soon as you finish your application.</p>
                     <p className="mb-4" style={{fontWeight: '700'}}>No matter what route you choose, you’ll start with our online application system.</p>
                     <br/>
                 </div>
@@ -457,9 +457,9 @@ class Apply extends Component{
             <div className="welcome-grids row">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                     <p className="hny-title" style={{fontSize: '34px', color: '#0077b5', fontWeight: '500'}}>Apply to become an <b>VU graduate student</b></p>
-                    <p className="my-4" style={{fontSize: '18px'}}>You can get started on your application whenever you’re ready. Graduate programs have a multi-step application process. Most programs have application deadlines and intakes happen on a specific schedule.</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Graduate programs and courses are advanced studies and generally require an undergraduate degree for admission. Doctoral degrees and post-masters certificates and diplomas require a master’s degree for admission.</p>
-                    <p className="mb-4" style={{fontSize: '18px'}}>Once you have accepted your offer of admission, you can begin registering for your courses. Please note that most programs require you to pay an admission fee after you’re accepted into the program.</p>
+                    <p className="my-4" style={{}}>You can get started on your application whenever you’re ready. Graduate programs have a multi-step application process. Most programs have application deadlines and intakes happen on a specific schedule.</p>
+                    <p className="mb-4" style={{}}>Graduate programs and courses are advanced studies and generally require an undergraduate degree for admission. Doctoral degrees and post-masters certificates and diplomas require a master’s degree for admission.</p>
+                    <p className="mb-4" style={{}}>Once you have accepted your offer of admission, you can begin registering for your courses. Please note that most programs require you to pay an admission fee after you’re accepted into the program.</p>
                     <br/>
                 </div>
             </div>
@@ -562,7 +562,7 @@ class Apply extends Component{
                             <span className="fa fa-globe" style={{color: '#0077b5', fontSize: '90px'}}></span>
                         </div>
                         <div className="features-1-info-info text-center">
-                            <h6 className="text-center">+256 759 996 130 or 256 700 300 088 or +256 707 780 158</h6>
+                            <h6 className="text-center">256 700 300 088 or +256 707 780 158</h6>
                         </div>
                         <br/>
                     </div>
