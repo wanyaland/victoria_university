@@ -116,8 +116,7 @@ class Admissions extends Component{
 					reasonable prospect of success.
 					</p>
                     <br/>
-                    <br/>
-                    <img src="assets/images/studs.jpg" className="img-fluid" alt="" />
+                    <img src="assets/images/admis.jpg" className="img-fluid" alt="" />
                     <br/>
                     <br/>
                     {/* <p><Link className="logo-2" to="/new-students" style={{color: '#0077b5'}} onMouseOver={this.change_icon.bind(this, "iconner5", "iconner6")} onMouseOut={this.change_icon2.bind(this, "iconner5", "iconner6")}>

@@ -91,7 +91,7 @@ class StudentGuidelines extends Component{
 						<p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Assist in Verification of Academic documents to check eligibility</p>
 						<p className="my-4">Each year Victoria University welcomes students from more than 45 countries. These students have access to free advice , support and assistance</p>
 						<p className='my-4'>
-							<img src="assets/images/intstud.jpg" className="img-fluid" alt="WIL" />
+							<img src="assets/images/ints.jpg" className="img-fluid" alt="WIL" />
 						</p>
 						<p className="my-4" style={{fontSize: '32px', color: '#0077b5', fontWeight: '500'}}>Our international students center provides some of the following services.:</p>
 						<p className="my-4">Special Services Offered to international students:</p>

@@ -196,7 +196,7 @@ class AboutUs extends Component{
                     <p className="my-4">&emsp;<span className="fa fa-angle-right"></span>&nbsp;&nbsp;Diverse culture </p>
 				</div>
 				<div className="mission-gd-right col-lg-6 pl-lg-12 text-center">
-					<img src='assets/images/culture.jpg' className='img-fluid' alt='unique' />
+					<img src='assets/images/grad.jpg' className='img-fluid' alt='unique' />
 				</div>
 				{/* <div className="mission-gd-right col-lg-6 pl-lg-4">
 						<p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur.Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elitFuga, suscipit totam animi consequatur saepe blanditiis.Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit..</p>

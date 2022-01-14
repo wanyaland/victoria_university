@@ -86,9 +86,9 @@ class Alumni extends Component {
 		<h3 className="hny-title text-center" style={{color: '#0077b5'}}><i>Alumni Testimonies</i></h3>
 		<div className="container" style={{maxWidth: '100%', display: 'flex',padding: '0', paddingBottom: '.0rem !important'}}>
 			<div className="testimonial_slides">
-				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(1)'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
-						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
+						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF', position: 'inherit'}}/></span>
 					</div>
 					<div className="mission-gd-right col-lg-9 pl-lg-4 testimonial_text_a">
 						<p className="inside-text">
@@ -118,7 +118,7 @@ class Alumni extends Component {
 						</p>
 					</div>
 				</div>
-				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(1)'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>
@@ -151,7 +151,7 @@ class Alumni extends Component {
 						</p>
 					</div>
 				</div>
-				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+				<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(1)'}}>
 					<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title_a">
 						<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 					</div>

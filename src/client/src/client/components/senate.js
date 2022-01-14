@@ -197,22 +197,23 @@ class Senate extends Component {
 									for two years, Head of Department University of Kisubi for three years. A holder of B.A SS
 									(Economics), (Mak), Certificate in Certificate in Computer Networking Technology, (Telecom
 									Institute, Malaysia), Master of ICT with Education, (Mak) and Doctor of Philosophy Ph.D in
-									Education with ICT (Mak).<br/><br/>
+									Education with ICT (Mak).<br></br>
 									Dr. Kakeeto has examined several research projects from different universities in Uganda and
 									both graduate and undergraduate research projects both in areas of ICT and Education. He has
 									vast teaching experience of over sixteen years in areas of: Multimedia for Education, Information
 									systems, Micro Computer Applications, E-Business, Research methods, Data processing and
-									Management, Instructional design and development.<br/><br/>
+									Management, Instructional design and development.<br></br>
 									He is a computing, statistical and operations research consultant with various governmental and
-									private agencies. Has been involved in quite a number of research projects with different
-									institutions, including Governmental parastatals. Dr. Kakeeto has publications in line with ICT
-									and Learning. He has supervised 12 master’s degree students to completion and over 20
-									undergraduate research projects to graduation.<br/><br/>
+									private agencies. Dr. Kakeeto is an academic with research interests in Educational Technology,
+									Information systems and E-Health. Has been involved in quite a number of research projects
+									with different institutions, including Governmental parastatals. Dr. Kakeeto has publications in
+									line with ICT and Learning. He has supervised 12 master’s degree students to completion and
+									over 20 undergraduate research projects to graduation.<br></br>
 									Dr. Kakeeto has headed curriculum design and development; reviewed several old curriculum as
 									mandated by the standards of National Council for Higher Education for quite a number of years.
 									Dr. Kakeeto also works with National Council for Higher Education in issues of monitoring and
 									supervision of tertiary institutions, especially in areas of accreditations, a research consultant
-									with Uganda National Examinations Board (UNEB).<br/><br/>
+									with Uganda National Examinations Board (UNEB).<br></br>
 									Dr. Kakeeto lectures Database management systems, Information Technology, Information
 									systems, Micro E-Business, Data processing and Management, systems analysis and design, Big
 									data analytics, research methods, ICT, and statistical methods at both postgraduate and
@@ -247,7 +248,7 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 7")}>
-								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/rosemary.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr Rosemary Nakijoba</a></h3>
@@ -287,14 +288,14 @@ class Senate extends Component {
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-6 team-wrap">
+					{/* <div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 8")}>
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Mr Moris B. Mwahuhlwa</a></h3>
-								{/* <p>Law Instructor</p> */}
+								<p>Law Instructor</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
 								</div>
@@ -303,13 +304,13 @@ class Senate extends Component {
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
 								<br/>
-								{/* <p className="my-4 text-left">
+								<p className="my-4 text-left">
 								Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant
-								</p> */}
+								</p>
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div class="row team-row">
 					<div class="col-lg-3 col-md-6 team-wrap">

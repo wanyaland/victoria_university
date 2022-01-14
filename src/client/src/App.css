@@ -472,7 +472,7 @@ color: #FFF;
     display: flex;
     padding: 45px;
     /* border-top-right-radius: 15px; */
-    position: absolute;
+    position: relative;
     z-index: 1;
     left: 4%;
 }

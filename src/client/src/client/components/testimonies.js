@@ -27,7 +27,7 @@ class Testimonies extends Component{
 			<div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel">
 				<div className="carousel-inner">
 					<div className="carousel-item active testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '5px', display: 'flex', alignItems: 'center', alignContent: 'center'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', padding: '0px', display: 'flex', alignItems: 'center', alignContent: 'center', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/test1.jpg" alt=""/></span>
 							</div>
@@ -45,7 +45,7 @@ class Testimonies extends Component{
 						</div>
 					</div>{/*  */}
 					<div className="carousel-item testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/test3.jpg" alt=""/></span>	
 							</div>
@@ -64,7 +64,7 @@ class Testimonies extends Component{
 						</div>
 					</div>{/*  */}
 					<div className="carousel-item testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 							</div>
@@ -81,7 +81,7 @@ class Testimonies extends Component{
 						</div>
 					</div>{/*  */}
 					<div className="carousel-item testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 							</div>
@@ -102,7 +102,7 @@ class Testimonies extends Component{
 						</div>
 					</div>{/*  */}
 					<div className="carousel-item testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 							</div>
@@ -119,7 +119,7 @@ class Testimonies extends Component{
 						</div>
 					</div>{/*  */}
 					<div className="carousel-item testimonial_slides">
-						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0'}}>
+						<div className="mission-grids-info row" style={{marginLeft: '0', marginRight: '0', transform: 'scaleX(1)'}}>
 							<div className="mission-gd-right col-lg-3 pl-lg-4 testimonial_title">
 								<span className="img-box"><img src="assets/images/clone.png" alt="" style={{backgroundColor: '#FFF'}}/></span>
 							</div>
