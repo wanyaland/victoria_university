@@ -92,6 +92,10 @@ class AboutRes extends Component {
                        	 	<li className="mb-4 t2">&emsp;<span className="fa fa-angle-right" style={{color: '#025683'}}></span>&emsp;<span className="">demonstrating value for future employers and contributing to a body of knowledge</span></li>
 						</ul></p>
 						</p> */}
+						<br/>
+						<img src="assets/images/vr.jpg" className="img-fluid" alt="" />
+						<br/>
+						<br/>
 					</div>
 				</div>
 			</div>

@@ -108,7 +108,7 @@ class Wil extends Component{
 								<div className="container py-lg-5">
 									<div className="welcome-grids row">
 										<div className="welcome-image">
-											<img src="assets/images/wil3.jpg" className="img-fluid" alt="" />
+											<img src="assets/images/capture.jpg" className="img-fluid" alt="" />
 										</div>
 									</div>
 								</div>

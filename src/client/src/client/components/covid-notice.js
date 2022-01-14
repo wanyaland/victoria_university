@@ -67,6 +67,11 @@ class CovidNotice extends Component{
                     <p className="my-4" style={{fontSize: '24px', fontWeight: '400', color: '#0077b5'}}>Victoria University's COVID-19 Response</p>
                     <p className="my-4" style={{fontSize: '18px'}}>Victoria University (VU) is open for business and continues to serve learners amidst the global COVID-19 pandemic. As Uganda’s leading technologically-enabled university, we have been able to teach throughout the total and partial lockdowns, using our state-of-the-art online learning management system, www.vclass.ac.
                     </p>
+                    <br/>
+                    <br/>
+                    <img src="assets/images/covid.jpg" className="img-fluid" alt="" />
+                    <br/>
+                    <br/>
                     {/* <p className="my-4" style={{fontSize: '18px'}}>
                     With the evolving COVID-19 global pandemic we are taking measures to protect learners and team members. We will regularly update information on this page to keep you apprised of changes.
                     </p> */}
