@@ -372,7 +372,7 @@ class Council extends Component {
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Prof. Lawrence Muganga</a></h3>
-								<p>Vice Chancellor and Deputy Vice Chancellor</p>
+								<p>Vice Chancellor</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 12")}>View Bio</button>
 								</div>

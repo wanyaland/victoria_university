@@ -23,6 +23,9 @@ class Partners extends Component {
           });
         }
     }
+    morelogos = () => {
+        window.location.href = "#logos"
+    }
     render(){
         return(
             <React.Fragment>
@@ -333,6 +336,9 @@ class Partners extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="text-left">
+                        <button className="more_vclass" onClick={this.morelogos}><span>View All</span></button>
+                    </div>
             </div>    
             <hr className="text-center" style={{color: '#000', width: '90%'}} />
             <div className="welcome-grids row">
@@ -359,7 +365,7 @@ class Partners extends Component {
                     <h6 className="hny-title" style={{fontSize: '36px', color: '#0077b5'}}>Partners</h6>
                     <p className="my-4" style={{fontSize: '18px'}}>We maintain additional educational or research agreements with the following institutions and organizations:</p>
                     <div className="container py-lg-5">
-                        <div className="row grids-innf my-lg-5">
+                        <div className="row grids-innf my-lg-5" id='logos'>
                             <div className="features-1-info col-lg-2 col-md-6 hover-partners">
                                 <a href="https://munyonyocommonwealth.com/" target="_blank" rel="noreferrer">
                                     <div className="features-1-info-icon text-center">
