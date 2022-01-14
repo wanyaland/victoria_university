@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BreadNavBar from './breadNav';
 import NavBar from './navbar';
 import Footer from './footer';
+import AskInfo from './ask-info';
 import GetInfo from './get_info'
 import { Link } from 'react-router-dom';
 
@@ -107,7 +108,7 @@ class Apply extends Component{
                     <h6 className="hny-title" style={{fontSize: '48px'}}>How to Apply and Register</h6>
                     <br/>
                     <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p>
-                    <p className="my-4" style={{}}>After you apply to become an Victoria University student, you can register in courses. The application process varies depending on what level you wish to study (undergraduate, graduate or doctoral), where you live, and if you want to complete a full program or take courses as a non-program student.</p>
+                    <p className="my-4" style={{}}>Victoria University welcomes you, and thank you for choosing it for your next degree programme. . The application process depends on what level you wish to study (postgraduate, undergraduate and graduate professional development courses.) and mode of study.</p>
                     <p className="mb-4"></p>
                     <br/>
                 </div>
@@ -117,7 +118,7 @@ class Apply extends Component{
                         <tr>
                             <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
                             <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', paddingLeft: '10px'}}>
-                                Online registrations for September will be opening soon. Please watch for updates in <b><Link to="/vclass" style={{color: '#FFF'}} className="underline">myVU.</Link></b></td>
+                                Online registrations are open. <b><a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="underline" style={{color: '#FFF'}}>Click Here to register</a></b></td>
                         </tr>
                         
                     </table>
@@ -127,6 +128,70 @@ class Apply extends Component{
 	</div>
 </section>
 <br/>
+<section className="w3l-wecome-content-6">
+	<div className="ab-content-6-mian py-5">
+        <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
+            <div className="welcome-grids row">
+                <div className="col-lg-12 mb-lg-0 mb-5">
+                    <h6 className="hny-title" style={{color: '#076ea5', fontSize: '34px'}}>We have both online and physical applications</h6>
+                    <br/>
+                    <h6 className="hny-title" style={{color: '#888', fontSize: '34px'}}>Online applications</h6>
+                    {/* <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p> */}
+                    <p className="my-4" style={{}}>Below you will find instructions on how to successfully apply for our various programmes online. You’re needed to submit your email address and your full names.</p>
+                    <p className="my-4">How to create your account:</p>
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 1:</span>Visit www.vu.ac.ug</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 2: </span> Click on the APPLY NOW Button from the home Page, or Accessing the Application Portal. Access The online application link by clicking here: <a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="underline">(https://eadmissions.vu.ac.ug/)</a> you will be directed to the application form where you will fill in your email and your name.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 3:</span> Click on create account and login, it will take you to the application form Page where you will fill in the form with your details as they appear on your Academic Documents and passport or national ID using your application password.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 4:</span> Filling a Form online</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 5: </span> During application, you will be asked for your Applicant name, email address, telephone number, sex, sponsor, and date of birth, nationality, education background, academic documents, and applicant`s program choice and how you got to know about Victoria University.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 6: </span> Submit your academic documents and personal information as well as the next of kin`s information.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 7: </span> The Email address and Telephone Number MUST be correct and your personal number(s).</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 8: </span> Follow the payment procedures <Link to="/tuition-fees">(https://www.vu.ac.ug/tuition-fees)</Link> and pay application fee of 50,000/= (Local students) and $16 for international students.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 9: </span> Admissions office issues out lists of admitted students after which they register upon payment of 160,000/=. (Local students) and $51(International students)</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 10: </span> Registered students then receive registration numbers.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 11:</span> Master the application number in case you would like to access your application and make some changes on time.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 12: </span> On the Applicant Login Page, login with applicant number.</li><br/>
+                        </ul>
+                    </p>
+                    <p className='my-4'>NOTE: Your Registration Details are Editable, note down your applicant number to always review your application.</p>
+                    <h6 className="hny-title" style={{color: '#888', fontSize: '34px'}}>Physical Application</h6>
+                    {/* <p className="hny-title" style={{fontSize: '24px', color: '#0077b5'}}>Just a few clicks away from your next big milestone</p> */}
+                    <p className="my-4">
+                        <ul style={{listStyle: 'none'}}>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 1:</span>Visits the University admissions office plot 1-13 Jinja road for guidance.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 2: </span> Submit academic documents and personal information.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 3:</span> An application form is issued which is to be filled in.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 4:</span> Follow the payment procedures <Link to="/tuition-fees">(https://www.vu.ac.ug/tuition-fees)</Link> and pay application fee of 50,000/= (Local students) or $16 for international students.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 5: </span> Visit the finance office for submission of proof of payments.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 6: </span> Admissions office issues out lists of admitted students</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 7: </span> Students make registration fees payment of 160,000/=. (Local students) and $51 (International students) upon which they receive the registration number.</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 8: </span> Then the applicant is fully a registered student and is able to start classes at Victoria University.</li><br/>
+                            {/* <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 9: </span> Admissions office issues out lists of admitted students after which they register upon payment of 160,000/=. (Local students) and $51(International students)</li><br/>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 10: </span> Registered students then receive registration numbers.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 11:</span> Master the application number in case you would like to access your application and make some changes on time.</li>
+                            <li className="" style={{marginBottom: '.5rem !important'}}>&emsp;<span style={{fontWeight: '500'}}>STEP 12: </span> On the Applicant Login Page, login with applicant number.</li> */}
+                        </ul>
+                    </p>
+                    {/* <p className='my-4'>NOTE: Your Registration Details are Editable, note down your applicant number to always review your application.</p> */}
+                </div>
+                {/* <div className="col-lg-12 mb-lg-0 mb-5" style={{height: '60px'}}>
+                    <table style={{width: '100%', height: '100%'}}>
+                    
+                        <tr>
+                            <td style={{width: '5%', textAlign: 'center', backgroundColor: '#003d5e'}}><span className="fa fa-info-circle" style={{fontSize: '20px', color: '#fff'}}></span></td>
+                            <td className="text-left" style={{backgroundColor: '#0077b5', textAlign: 'center', color: '#FFF', paddingLeft: '10px'}}>
+                                Online registrations are open. <b><a href="https://eadmissions.vu.ac.ug/" target="_blank" rel="noreferrer" className="underline" style={{color: '#FFF'}}>Click Here to register</a></b></td>
+                        </tr>
+                        
+                    </table>
+                </div> */}
+            </div>
+        </div>
+	</div>
+</section>
+{/* <br/>
 <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container">
@@ -169,13 +234,13 @@ class Apply extends Component{
 			</div>
 		</div>
 	</div>
-</section>
-<section className="w3l-footer-16 text-center">
+</section> */}
+{/* <section className="w3l-footer-16 text-center">
     <div className="container">
         <h6 className="hny-title text-center" style={{color:'#004d77', fontSize: '30px'}}>Whether you want to <b>earn a degree, diploma or certificate, or just take some courses,</b> as a non-program student just follow these two steps:</h6>
     </div>
-</section>
-<section className="w3l-features-1">
+</section> */}
+{/* <section className="w3l-features-1">
 	<div className="features-1-mian py-5">
 		<div className="container py-lg-5">
 			<div className="row grids-innf my-lg-5">
@@ -249,8 +314,8 @@ class Apply extends Component{
 		</div>
 	</div>
 </section>
-<br/>
-<br/>
+<br/> */}
+{/* <br/>
 <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
@@ -264,8 +329,8 @@ class Apply extends Component{
             </div>
         </div>
 	</div>
-</section>
-<section className="w3l-wecome-content-6">
+</section> */}
+{/* <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
 		<div className="container py-lg-5">
 			<div className="welcome-grids row">
@@ -426,8 +491,8 @@ class Apply extends Component{
                                         <p className="my-4">You must register and pay by the 10th of the month to start your course on the 1st of the next month. You can also set a start date up to 5 months in advance. Your actual start date will depend on when your registration is received, so you’ll want to register early:</p>
                                         <p className="my-4">&emsp;<span>1.</span> &nbsp;Choose your courses.</p>
                                         <p className="my-4">&emsp;<span>2.</span> &nbsp;Log in to  myVU. You will need your student ID number.</p>
-                                        <p>&emsp;&emsp;<span className="fa fa-angle-right"></span>&emsp;If this is your first time logging into  myVU, your password will be your birthday (YYYYMMDD).</p>
-                                        <p>&emsp;&emsp;<span className="fa fa-angle-right"></span>&emsp;You will need to change your password and choose a security question after your first login.</p>
+                                        <p>&emsp;&emsp;If this is your first time logging into  myVU, your password will be your birthday (YYYYMMDD).</p>
+                                        <p>&emsp;&emsp;You will need to change your password and choose a security question after your first login.</p>
                                         <p className="my-4">&emsp;<span>3.</span> &nbsp;Click on "Register in a Course."</p>
                                         <p className="my-4">&emsp;<span>4.</span> &nbsp;Confirm your address.</p>
                                         <p className="my-4">&emsp;<span>5.</span> &nbsp;Select your start term, subject and course(s).</p>
@@ -450,8 +515,8 @@ class Apply extends Component{
 			</div>
 		</div>
 	</div>
-</section>
-<section className="w3l-wecome-content-6">
+</section> */}
+{/* <section className="w3l-wecome-content-6">
 	<div className="ab-content-6-mian py-5">
         <div className="container py-lg-5" style={{paddingBottom: '0rem !important'}}>
             <div className="welcome-grids row">
@@ -539,8 +604,8 @@ class Apply extends Component{
 			</div>
 		</div>
 	</div>
-</section>
-<section className="w3l-features-1">
+</section> */}
+{/* <section className="w3l-features-1">
 	<div className="features-1-mian py-5" style={{backgroundColor: '#FFF'}}>
 		<div className="container py-lg-5" id="fixer3">
                
@@ -591,7 +656,8 @@ class Apply extends Component{
                 </div>
 		</div>
 	</div>
-</section>
+</section> */}
+<AskInfo />
 <br/>
 <br/>
 <GetInfo />
