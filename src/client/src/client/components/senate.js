@@ -165,9 +165,30 @@ class Senate extends Component {
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 4")}>&times;</span>
 								<br/>
-								{/* <p className="my-4 text-left">
-								Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant and sustainable growth.<br/><br/>24 years of global experience in commercial, development and education sectors; various departmental roles in FMCG and services industries, leadership of projects for NGOs and community-based organisations, global advisory services for nascent and established entrepreneurial ventures, as well as thought-leadership based courses facilitation for local and regional management institutes.<br/><br/>Multi-skilled in the areas of Strategy Development, Customer Relationship Management (CRM), Commercial Management (Sales, Brand & Trade Marketing), Communications, Organisational Development Advisory and Industry Value Chain & Cluster Analysis, Board Governance, Operations Management, Leadership, Research, Stakeholder Communications, Media Enagement, Project Management, Partnerships Building, Capacity Development, Resource Mobilisation, Gender & Inclusion, Rights-based Project Development, Public Speaking, Entrepreneurial Coaching and Financial Management
-								</p> */}
+								<p className="my-4 text-left">
+								Bill Nkeeto is an economist and lecturer in the Faculty of Business and Management at Victoria
+								University, Kampala - Uganda. He is also the Dean of the Faculty Business and Management
+								(FBM) performing a supervisory role for the four departments of the Faculty (Postgraduate,
+								Research, and Grants - PRG, Department of Management and Finance - DMF, Department of
+								Oil, Procurement, &amp; Real Estates - DOPE, Department of Hospitality Management - DHM)). He
+								is a member of the Victoria University senate as well as the university’s top management. Bill is
+								a Ph.D. in Economics Candidate, holds a Masters in Economic Policy and Planning, and a BA-
+								SS (Economics) all from Makerere University. He has been involved in Ugandan private
+								University Management for the last 12 years, having participated in the establishment, nurturing,
+								and growing of Cavendish University Uganda between 2008 and 2015.<br/><br/>
+								Bill possesses a wealth of experience in University quality assurance, where he has previously
+								widely consulted with various institutions, something which gives him a holistic understanding
+								of University operations. He has been involved in the development and review of various
+								academic programmes especially those aligned to the Ugandan context, given the SDGs. He
+								participated in drafting the Ministry of Health Quality improvement learners and facilitator
+								Manuals which will eventually become quality improvement tools for all health practitioners in
+								the country. His interest in Health economics has seen him get involved in activities on the
+								demand side of health resources, maternal and newborn health areas, as well as health policy-
+								related issues.<br/><br/>
+								Bill’s areas of interest in teaching include; Economics, Marketing, Research Methodology,
+								Strategic Management, Project Management, International Business, Management theory and
+								Practice, operations Management, quality and systems, and Business Statistics.
+								</p>
 								</div>
 							</div>
 						</div>
