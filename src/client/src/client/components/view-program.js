@@ -233,7 +233,7 @@ class ViewProgram extends Component {
 	<div className="specification-content py-5">
 		<div className="container py-lg-5">
 			<h6 className="hny-title text-center" style={{fontSize: '32px', color: '#0077b5'}}><span className="fa fa-window-maximize text-center" style={{fontSize: '48px'}}></span><br/>At a Glance</h6>
-			<p className="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: {this.state.course_prog.level}</span>&nbsp;|&nbsp;<span>Credits: {this.state.course_prog.credit}</span>&nbsp;{/* |&nbsp;<span>Next Start:</span> */}</p>
+			<p className="hny-title text-center" style={{fontSize: '18px'}}><span>Level of Education: {this.state.course_prog.level}</span>&nbsp;{/* |&nbsp;<span>Credits: {this.state.course_prog.credit}</span> */}&nbsp;{/* |&nbsp;<span>Next Start:</span> */}</p>
 			<p className="my-4 text-center">Advance your skills and begin your academic journey with Victoria University’s {this.state.course_prog.program}.</p>
 			<div className="mission-grids-info row">
 				<div className="mission-gd-right col-lg-6 pl-lg-4">
