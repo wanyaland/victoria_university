@@ -54,7 +54,7 @@ class Directors extends Component {
 								<a href="#url"><img src="assets/images/trustees/aliker.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Martin Jerome Okec Aliker</a></h3>
+								<h3 class="name-pos"><a href="#url">Dr. Martin Jerome Okec Aliker</a></h3>
 								{/* <p>Law Instructor</p> */}
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 1")}>View Bio</button>
@@ -65,7 +65,7 @@ class Directors extends Component {
 									<span className="close_bio" onClick={() => this.close_bio("myModal_bio 1")}>&times;</span>
 									<br/>
 									<p className="my-4 text-left">Chairman Victoria University Limited. He served as the Chancellor of Victoria University from 3rd October 2013 to 10th January 2020. He has also served as the first chancellor of Gulu University, a public university in northern Uganda between 2004 and 2014 before he became the chancellor of Victoria University. Dr. Aliker has a Bachelor of Arts degree, with a major in Political Science and a Doctor of Dental Surgery (DDS) degree. He set up the first private dental clinic owned by an indigenous in Uganda.
-									<br /><br />Dr Aliker is also a businessman, entrepreneur as well as a community leader. He is a senior adviser to President Yoweri Kaguta Museveni. Dr. Aliker has sat on the board of nearly forty companies in Uganda. Among many other companies, Dr Aliker is a shareholder in Stanbic Bank Uganda Limited, Uganda Clays Limited, Nation Media Group, National Insurance Corporation and East African Breweries. These companies are listed on the Uganda Securities Exchange. He is the Chairman of Uganda Clays Limited. He also sits on the “Acting East African Advisory Board”, the private equity firm of the United Kingdom’s Commonwealth Development Corporation.
+									<br /><br />Dr. Aliker is also a businessman, entrepreneur as well as a community leader. He is a senior adviser to President Yoweri Kaguta Museveni. Dr. Aliker has sat on the board of nearly forty companies in Uganda. Among many other companies, Dr. Aliker is a shareholder in Stanbic Bank Uganda Limited, Uganda Clays Limited, Nation Media Group, National Insurance Corporation and East African Breweries. These companies are listed on the Uganda Securities Exchange. He is the Chairman of Uganda Clays Limited. He also sits on the “Acting East African Advisory Board”, the private equity firm of the United Kingdom’s Commonwealth Development Corporation.
 									</p>
 								</div>
 							</div>
