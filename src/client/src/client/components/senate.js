@@ -97,7 +97,8 @@ class Senate extends Component {
 										and Minister of Education and Sports (MOES), Hon. Janet Kataha Museveni. The book has
 										triggered the infusion of Authentic Learning into Uganda&#39;s Curriculum for the first time in the
 										history of Uganda&#39;s education system and this initiative no doubt puts the country&#39;s education on
-										course to greatness.
+										course to greatness.<br /><br />
+										<h6 style={{fontSize: '22px', color: '#0077b5'}}><a href='assets/docs/Dr. Lawrence Muganga.pdf' className="underline" download={'assets/docs/Dr. Lawrence Muganga.pdf'} style={{color: '#0077b5'}}>Download Full Profile <span className="fa fa-file-pdf-o"></span></a> | <a href='glance#vid' style={{color: '#0077b5'}}  className="underline">View Interview <span className="fa fa-video-camera"></span></a></h6>
 									</p>
 								</div>
 							</div>
@@ -129,7 +130,7 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 3")}>
-								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/winnie.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Ms Winnie Nassiwa</a></h3>
@@ -142,9 +143,59 @@ class Senate extends Component {
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 3")}>&times;</span>
 								<br/>
-								{/* <p className="my-4 text-left">Mrs M.G Katusabe - Ssemwezi is the Victoria University Academic Registrar/Ag. University Secretary and secretary to Council. She is a seasons professional in University governance and management stretching over 30 years. She has served in various positions in higher education and was the pioneer University Secretary of Kyambogo University and also served in same position at Nkumba University. She is passionate about higher education governance and management.
-								<br/>
-								<b>Qualifications: M.Ed (Mak), B.A./Dip Ed. (Mak), PGDFM (UM) Ad. Cert. Tr. Mgt (Bristal University)</b></p> */}
+								<p className="my-4 text-left">
+								<b>Dean of Students Office</b><br/><br/>
+								The Dean of Students office co-ordinates the activities of students’ welfare in the
+								University. The activities include but are not limited to; creating and maintaining safe,
+								healthy and supportive study environment; student accommodation; promoting a
+								university culture that synthesizes the intellectual, physical, social, emotional and
+								spiritual development in a holistic way. Other sectors overseen by the Dean’s office
+								include the students’ Guild body, counselling section, sports and recreation.<br/><br/>
+								<b>Profile for Winfred Nassiwa (Mrs.)</b><br/><br/>
+								Mrs. Winfred Nassiwa is the Dean of students, a primary student advocate and
+								passionate administrator with bias in fostering student support services both
+								academically and socially. She has over 6 years of administrative experience in a
+								university environment through which she is able to efficiently support the students
+								achieve their study objectives at the University.
+								She has managed to administer comprehensive support to student services including;
+								Registry, Student Welfare, University Polices implementation, Admissions and Records
+								Management.<br/><br/>
+								Winfred has built judicious proficiency over the years and has a great interest in the
+								following; student recruitment and admissions of new students, support in student
+								enrollment, settling in or transition of new students especially international students.
+								She has potential and ability to support the on boarding of students given the
+								competency attained during her administrative positions/roles in which she served as an
+								Admissions Officer, Senior Assistant Academic Registrar (Admissions) and Ag.
+								Academic Registrar in the prestigious Institution, Victoria University. She has managed
+								to attain strength in supervisory and management experience in higher education.
+								In reference to her ability to serve the community, Winifred has corresponded,
+								supported development and implementation procedures for plans of orientation
+								programs for admitted students and induction of new students, which enhanced her
+								capacity to plan and host for university functions/programs.<br/><br/>
+								She has knowledge of organization and administration of higher education and how to
+								implement the university policies and procedures visa vie student services.
+								As a result of her experience within the University Management Systems, she has
+								developed leadership, negotiation, counselling, mentorship and communication skills.
+								Winfred is able to offer guidance, answer questions and respond extemporaneously to a
+								variety of situations. She has comprehension skills to understand and respond to
+								student related cases.<br/><br/>
+								Winfred has over 16 years of experience in financial management, including; planning
+								and budgeting; internal auditing; funds accountability and monitoring. She has a rich
+								experience in internal forex exchange and offers financial advice. She desires to always
+								share and offer counsel to the students to manage their current and future financial
+								status.<br/><br/>
+								She has with time experienced the ability to oversee the maintenance of vital student’s
+								records, support student financial tracking information, scholarship program, preparation
+								of reports required by the institution for monitoring and evaluation.
+								Winfred holds a Master’s Degree in Business Administration (MBA) from Herriot-Watt
+								University, Edinburg Business School in UK; Certificate in Database Administration
+								(OCA/OCP) from Oracle University in USA, a Bachelor’s Degree in Arts (Social
+								Sciences) from Makerere University, Kampala Uganda.<br/><br/>
+								Given her ambition to support and serve humanity, Winfred has mastered the art of
+								humble leadership and administration as a service to the community, where she seeks
+								to mentor and equip the next generation to be solution providers and an inspiration in
+								this advancing technological world.
+								</p>
 								</div>
 							</div>
 						</div>
@@ -198,7 +249,7 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 5")}>
-								<a href="#url"><img src="assets/images/img/Kakeeto.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/kakeeto.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr. David Kakeeto</a></h3>
@@ -250,7 +301,7 @@ class Senate extends Component {
 								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Nnwana Kevin</a></h3>
+								<h3 class="name-pos"><a href="#url">Dr. Nnwana Kevin</a></h3>
 								<p>Dean of Health Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 6")}>View Bio</button>
@@ -260,7 +311,7 @@ class Senate extends Component {
 								<div className="modal-content_bio">
 								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 6")}>&times;</span>
 								<br/>
-								<p className="my-4 text-left">Dr Nwanna Uchechukwu Kevin is a renowned Public Health specialist, a citizen of Nigeria but resides in Uganda for over 7 years. He had his Doctoral degree in Public Health (specialization in Occupational Safety and Health) from City University, Cambodia. He obtained his Master of Science in Public Health from the International Health Sciences University, Uganda. He studied a Post-Graduate Diploma in Teaching and Management at Higher Education from the Islamic University in Uganda. In addition to his name, he is a U.K certified IOSH specialist (Institute of Occupational Safety and Health); he bagged his Bachelor of Science Degree in Human Anatomy from the University of Portharcourt, Nigeria. <br/><br/>Dr. Nwanna is a Senior Lecturer in Victoria University, Uganda and doubles as the Dean of Faculty of Health Sciences in the same University. He has served as Head of Department and Dean of Faculty in two Universities in Uganda and has over 21 peer-reviewed research publications attributed to his name together with over 10 short courses and certificates in various academic and social disciplines. <br/><br/> He has consulted for various organizations such as WHO, Uganda Ministry of Health and other international agencies. In academia, he has taught and supervised various undergraduate and postgraduate students to completion since 2015 up till now.One of his newest published research papers is on the impact of Covid-19 on the Education industry in Africa. Dr. Nwanna is a Fellow of the Medical Research Council (FMRC) in the United Kingdom and a Fellow of the African Institute of Public Health Professionals.
+								<p className="my-4 text-left">Dr. Nwanna Uchechukwu Kevin is a renowned Public Health specialist, a citizen of Nigeria but resides in Uganda for over 7 years. He had his Doctoral degree in Public Health (specialization in Occupational Safety and Health) from City University, Cambodia. He obtained his Master of Science in Public Health from the International Health Sciences University, Uganda. He studied a Post-Graduate Diploma in Teaching and Management at Higher Education from the Islamic University in Uganda. In addition to his name, he is a U.K certified IOSH specialist (Institute of Occupational Safety and Health); he bagged his Bachelor of Science Degree in Human Anatomy from the University of Portharcourt, Nigeria. <br/><br/>Dr. Nwanna is a Senior Lecturer in Victoria University, Uganda and doubles as the Dean of Faculty of Health Sciences in the same University. He has served as Head of Department and Dean of Faculty in two Universities in Uganda and has over 21 peer-reviewed research publications attributed to his name together with over 10 short courses and certificates in various academic and social disciplines. <br/><br/> He has consulted for various organizations such as WHO, Uganda Ministry of Health and other international agencies. In academia, he has taught and supervised various undergraduate and postgraduate students to completion since 2015 up till now.One of his newest published research papers is on the impact of Covid-19 on the Education industry in Africa. Dr. Nwanna is a Fellow of the Medical Research Council (FMRC) in the United Kingdom and a Fellow of the African Institute of Public Health Professionals.
                     			</p>
 								</div>
 							</div>
@@ -272,7 +323,7 @@ class Senate extends Component {
 								<a href="#url"><img src="assets/images/img/rosemary.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
-								<h3 class="name-pos"><a href="#url">Dr Rosemary Nakijoba</a></h3>
+								<h3 class="name-pos"><a href="#url">Dr. Rosemary Nakijoba</a></h3>
 								<p>Dean of Humanities and Social Sciences</p>
 								<div class="social">
 									<button className="read-more" onClick={() => this.view_bio("myModal_bio 7")}>View Bio</button>

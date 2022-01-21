@@ -294,6 +294,17 @@ class Admissions extends Component{
         </div>
     </div>
 </section> */}
+{/* <section className="w3l-wecome-content-6" id='vid'>
+    <div className="ab-content-6-mian py-5">
+        <div className="container py-lg-5">
+            <div className="welcome-grids row">
+                <div className="welcome-image text-center" style={{width: '100%'}}>
+                    <video src="assets/media/message from vc.mp4" className="img-fluid" alt="" autoPlay="true" controls="true" style={{width: '80%'}}/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> */}
             <GetInfo />
             <Footer />
             </React.Fragment>
