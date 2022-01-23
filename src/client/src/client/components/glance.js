@@ -148,6 +148,11 @@ class Glance extends Component {
                     <br/>
                     <p className="my-4">We are crafting the future of the Victoria University experience around Academic Excellence, Research Excellence & Impact, Authentic Learning Education, Internationalization and Entrepreneurship. With Authentic Learning at our core, we are shaping our future with an emphasis on.</p>
                 </div>
+                <div className="col-lg-12 mb-lg-0 mb-5">
+                    <h6 className="hny-title" style={{fontSize: '38px', color: '#0077b5'}}>Publications</h6>
+                    <p className="my-4"><li className="underline lister"><a href='assets/docs/THE CEOs 2 mail.pdf' className="underline" download={'assets/docs/THE CEOs 2 mail.pdf'} style={{color: '#0077b5'}}>The CEOs 1st Edition <span className="fa fa-file-pdf-o"></span></a></li></p>
+                    <p className="my-4"><li className="underline lister"><a href='assets/docs/TG50FINAL.pdf' className="underline" download={'assets/docs/TG50FINAL.pdf'} style={{color: '#0077b5'}}>Discover The Experience <span className="fa fa-file-pdf-o"></span></a></li></p>
+                </div>
             </div>
         </div>
     </div>
