@@ -83,7 +83,7 @@ componentDidMount(){
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
@@ -96,7 +96,7 @@ componentDidMount(){
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
@@ -109,7 +109,7 @@ componentDidMount(){
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
@@ -122,7 +122,7 @@ componentDidMount(){
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
@@ -135,20 +135,33 @@ componentDidMount(){
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
                                         <br/>
                                     </div>
-                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Executive Assistant (Personal Assistant<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Executive Assistant (Personal Assistant)<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
                                     <div className="contenter">
                                         <br/>
                                         <div className="col-lg-12 welcome-image">
                                             <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
                                                 <ul className="job_list" style={{listStyle: 'none'}}>
                                                     <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
-                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf">Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                    <li className="job_title"><a href="assets/docs/job_ad2.pdf" download="assets/docs/job_ad2.pdf" title='job_ad2.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>	
+                                        <br/>
+                                    </div>
+                                    <li className="w3-display-container collapsible"><span><span className="fa fa-chevron-right programfa2"></span></span>&nbsp;&nbsp;&nbsp;Facilities Supervisor<span onClick="this.parentElement.style.display='none'" className="w3-button w3-transparent w3-display-right"></span></li>
+                                    <div className="contenter">
+                                        <br/>
+                                        <div className="col-lg-12 welcome-image">
+                                            <div className="" style={{width: '100%', backgroundColor: '#fff', border:'#187eb4 1px solid'}}>
+                                                <ul className="job_list" style={{listStyle: 'none'}}>
+                                                    <li className="" style={{backgroundColor: '#0077b5', color: '#FFF'}}><b>Job Title</b></li>
+                                                    <li className="job_title"><a href="assets/docs/2022 FACILITY SUPERVISOR.pdf" download="assets/docs/2022 FACILITY SUPERVISOR.pdf" title='2022 FACILITY SUPERVISOR.pdf'>Job Description&nbsp;<span className="fa fa-file-pdf-o" style={{color: '#d32727'}}></span></a></li>
                                                 </ul>
                                             </div>
                                         </div>	
