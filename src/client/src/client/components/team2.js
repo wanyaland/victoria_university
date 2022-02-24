@@ -189,7 +189,7 @@ class ExecTeam extends Component {
 						history of Uganda&#39;s education system and this initiative no doubt puts the country&#39;s education on
 						course to greatness.
 						<br /><br />
-						<h6 style={{fontSize: '22px', color: '#0077b5'}}><a href='assets/docs/Dr. Lawrence Muganga.pdf' className="underline" download={'assets/docs/Dr. Lawrence Muganga.pdf'} style={{color: '#0077b5'}}>Download Full Profile <span className="fa fa-file-pdf-o"></span></a> | <a href='glance#vid' style={{color: '#0077b5'}}  className="underline">View Interview <span className="fa fa-video-camera"></span></a></h6>
+						<h6 style={{fontSize: '22px', color: '#0077b5'}}><a href='assets/docs/Dr. Lawrence Muganga.pdf' className="underline" download={'assets/docs/Dr. Lawrence Muganga.pdf'} style={{color: '#0077b5'}}>Download Full Profile <span className="fa fa-file-pdf-o"></span></a> | <a href='admissions#vid' style={{color: '#0077b5'}}  className="underline">View video <span className="fa fa-video-camera"></span></a></h6>
 					</p>
 				</div>
 			</div>
