@@ -75,13 +75,13 @@ class NavBar extends Component{
 									{/* <Link to="/team" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Our Teams</Link> */}
 									<div class="dropdown3">
 									{/* <button class="dropbtn3">Dropdown</button> */}
-									<Link className="text-left link-hover dropbtn3" style={{color: '#FFF', fontWeight: '400'}}>Our Teams</Link>
-									<div class="dropdown-content3">
+									<Link to="/our-team" className="text-left link-hover dropbtn3" style={{color: '#FFF', fontWeight: '400'}}>Our Teams</Link>
+									{/* <div class="dropdown-content3">
 										<Link to="/directors" className="text-left link-hover"  style={{color: '#FFF', fontWeight: '400'}}>Directors</Link>
 										<Link to="/council" className="text-left link-hover"  style={{color: '#FFF', fontWeight: '400'}}>University Council</Link>
 										<Link to="/senate" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>University Senate</Link>
 										<Link to="/staff" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Management Team</Link>
-									</div>
+									</div> */}
 									</div>
 									{/* <Link to="/executive-team" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Our Executive Team</Link>
 									<Link to="/trustees" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Board of Trustees</Link> */}
