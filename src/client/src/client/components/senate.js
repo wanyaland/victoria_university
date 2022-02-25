@@ -249,7 +249,7 @@ class Senate extends Component {
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 5")}>
-								<a href="#url"><img src="assets/images/img/kakeeto.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
+								<a href="#url"><img src="assets/images/img/kakeeto1.jpg" alt="" class="img-fluid shadow-hover img-box" /></a>
 							</div><br/>
 							<div class="column">
 								<h3 class="name-pos"><a href="#url">Dr. David Kakeeto</a></h3>
