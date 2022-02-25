@@ -67,6 +67,7 @@ import Faqs from './client/components/faqs';
 import YourCall from './client/components/yourcall';
 import keySteps from './client/components/keysteps';
 import WilFaqs from './client/components/wilfaqs';
+import PublicRes from './client/components/publication-res';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -143,6 +144,7 @@ const App = () => (
         <Route exact path="/yourcall" component={YourCall} />
         <Route exact path="/wilfaqs" component={WilFaqs} />
         <Route exact path="/keysteps" component={keySteps} />
+        <Route exact path="/publication-res" component={PublicRes} />
       </Switch>
     </Router>
 
