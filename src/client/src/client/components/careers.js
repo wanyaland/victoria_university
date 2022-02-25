@@ -57,7 +57,7 @@ componentDidMount(){
 					<h4 className="text-center" style={{textTransform: 'capitalize'}}>Career Opportunities</h4>
 			</div>
 			<br/>
-			<p className="text-center"><button className="btn_link" onClick={this.startHere}>Apply Here</button>&nbsp;&nbsp;&nbsp;&nbsp;<button className="btn_link">Student Recruitment</button></p>
+			<p className="text-center"><button className="btn_link" onClick={this.startHere}>Jobs</button>&nbsp;&nbsp;&nbsp;&nbsp;<button className="btn_link">Student Recruitment</button></p>
 			<br/>
 			<br/>
 			<br/>
@@ -68,11 +68,11 @@ componentDidMount(){
 </section>
         <br/>
         <br/>
-        <section className="w3l-wecome-content-6">
+        <section className="w3l-wecome-content-6" id="available">
             <div className="ab-content-6-mian py-5">
                 <div className="container py-lg-5">
                     <div className="welcome-grids row">
-                        <div className="col-lg-12 welcome-image" id="available">
+                        <div className="col-lg-12 welcome-image">
                         <h6 className="hny-title" style={{fontSize: '48px',  color: '#f74040', fontWeight: '600'}}>Available vacancies</h6><br/>
                             <div className="" style={{width: '100%', backgroundColor: '#fff', border: '#CCC 10px solid'}}>
                                 <ul className="w3-ul w3-card-4" style={{boxShadow: 'none'}}>

@@ -69,6 +69,7 @@ import keySteps from './client/components/keysteps';
 import WilFaqs from './client/components/wilfaqs';
 import PublicRes from './client/components/publication-res';
 import OurTeam from './client/components/our-team';
+import Downloads from './client/components/downloads';
 
 import { BrowserRouter as Router, Switch, Route, withRouter } from "react-router-dom";
 
@@ -147,6 +148,7 @@ const App = () => (
         <Route exact path="/keysteps" component={keySteps} />
         <Route exact path="/publication-res" component={PublicRes} />
         <Route exact path="/our-team" component={OurTeam} />
+        <Route exact path="/downloads" component={Downloads} />
       </Switch>
     </Router>
 
