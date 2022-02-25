@@ -360,31 +360,6 @@ class Senate extends Component {
 							</div>
 						</div>
 					</div>
-					{/* <div class="col-lg-3 col-md-6 team-wrap">
-						<div class="team-info text-center">
-							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 8")}>
-								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
-							</div><br/>
-							<div class="column">
-								<h3 class="name-pos"><a href="#url">Mr Moris B. Mwahuhlwa</a></h3>
-								<p>Law Instructor</p>
-								<div class="social">
-									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
-								</div>
-							</div>
-							<div id="myModal_bio 8" className="modal_bio">
-								<div className="modal-content_bio">
-								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
-								<br/>
-								<p className="my-4 text-left">
-								Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant
-								</p>
-								</div>
-							</div>
-						</div>
-					</div> */}
-				</div>
-				<div class="row team-row">
 					<div class="col-lg-3 col-md-6 team-wrap">
 						<div class="team-info text-center">
 							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 9")}>
@@ -408,6 +383,31 @@ class Senate extends Component {
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="row team-row">
+					{/* <div class="col-lg-3 col-md-6 team-wrap">
+						<div class="team-info text-center">
+							<div class="column position-relative cursor" onClick={() => this.view_bio("myModal_bio 8")}>
+								<a href="#url"><img src="assets/images/clone.png" alt="" class="img-fluid shadow-hover img-box" /></a>
+							</div><br/>
+							<div class="column">
+								<h3 class="name-pos"><a href="#url">Mr Moris B. Mwahuhlwa</a></h3>
+								<p>Law Instructor</p>
+								<div class="social">
+									<button className="read-more" onClick={() => this.view_bio("myModal_bio 8")}>View Bio</button>
+								</div>
+							</div>
+							<div id="myModal_bio 8" className="modal_bio">
+								<div className="modal-content_bio">
+								<span className="close_bio" onClick={() => this.close_bio("myModal_bio 8")}>&times;</span>
+								<br/>
+								<p className="my-4 text-left">
+								Dr. Walusimbi holds a Doctorate degree from the Maastricht School of Management (MsM) in the Netherlands, an MBA from the East and Southern Africa Management Institute and a Bachelors in Business Administration degree from Makerere University.<br/><br/>An astute academician and organizational development consultant embodied with a wide array of skills which when applied to educational institutions and business enterprises alike has proven to lead to significant
+								</p>
+								</div>
+							</div>
+						</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

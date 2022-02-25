@@ -5571,6 +5571,24 @@ span.fa.fa-play {
     background: #00B3B0;
     transition: 0.3s ease;
 }
+.w3-gallery a.price-course.btn {
+    color: #fff;
+    background: #0077b5;
+    border: none;
+    padding: 0px 6px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 32px;
+}
+
+.w3-gallery a.price-course.btn:hover {
+    background: #00B3B0;
+    transition: 0.3s ease;
+}
 
 .w3-gallery img:hover {
     transition: 0.3s ease;
