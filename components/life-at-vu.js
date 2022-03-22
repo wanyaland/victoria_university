@@ -75,7 +75,7 @@ class LifeVu extends Component {
                     Life At VU
                   </h6>
                   <br />
-                  {/* <p className="my-4" style={{}}>
+                  <p className="my-4" style={{}}>
                     With a truly national and increasingly international student
                     body, Victoria University is a distinctive place to study.
                     The diversity of backgrounds and mindsets of our students
@@ -89,7 +89,7 @@ class LifeVu extends Component {
                     Football, Netball, Basketball, Volleyball and Woodball. The
                     Students’ Lounge, furnished with a video games console, pool
                     table and table tennis is quite popular with students.
-                  </p> */}
+                  </p>
                   <div className="mission-gd-right col-lg-12 pl-lg-4">
                     <img
                       src="assets/images/sport.jpg"
