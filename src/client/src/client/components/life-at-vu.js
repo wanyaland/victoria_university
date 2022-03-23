@@ -76,11 +76,11 @@ class LifeVu extends Component {
                   </h6>
                   <br />
                   <p className="my-4" style={{}}>
-                    With1 a truly national and increasingly international
-                    student body, Victoria University is a distinctive place to
-                    study. The diversity of backgrounds and mindsets of our
-                    students fosters an environment in which everyone, as well
-                    as everyone’s opinions, are both welcomed and nurtured. A
+                    With a truly national and increasingly international student
+                    body, Victoria University is a distinctive place to study.
+                    The diversity of backgrounds and mindsets of our students
+                    fosters an environment in which everyone, as well as
+                    everyone’s opinions, are both welcomed and nurtured. A
                     fulfilling student social life is considered an essential
                     part of the University experience. One of the best ways to
                     build student social circles is to participate in the many
