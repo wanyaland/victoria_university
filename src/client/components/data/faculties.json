@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "faculty": "Faculty of Business and Management"
+    },
+    {
+        "id": 1,
+        "faculty": "Faculty of Science and Technology"
+    },
+    {
+        "id": 2,
+        "faculty": "Faculty of Health Sciences"
+    },
+    {
+        "id": 3,
+        "faculty": "Faculty of Humanities and Social Science"
+    },
+    {
+        "id": 4,
+        "faculty": "Institute Of Education And Social Sciences"
+    },
+    {
+        "id": 5,
+        "faculty": "School Of Law"
+    }
+]
