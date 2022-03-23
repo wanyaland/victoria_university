@@ -1,0 +1,30 @@
+[
+    {
+        "id": "0",
+        "level": ""
+    },
+    {
+        "id": "1",
+        "level": "Certificate"
+    },
+    {
+        "id": "2",
+        "level": "Foundation"
+    },
+    {
+        "id": "3",
+        "level": "Diploma"
+    },
+    {
+        "id": "4",
+        "level": "Undergraduate"
+    },
+    {
+        "id": "5",
+        "level": "Postgraduate"
+    },
+    {
+        "id": "6",
+        "level": "Professional development"
+    }
+]
