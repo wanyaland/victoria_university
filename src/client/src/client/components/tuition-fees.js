@@ -600,11 +600,11 @@ class Tuition extends Component {
                   <div
                     style={{
                       display: "flex",
-                      justifyContent: "space-evenly",
+                      justifyContent: "space-between",
                       alignItems: "center",
                     }}
                   >
-                    <div>
+                    <div style={{ width: "50%" }}>
                       <h6
                         className="hny-title"
                         style={{ fontSize: "28px", color: "#0077b5" }}
@@ -661,7 +661,8 @@ class Tuition extends Component {
                         </ul>
                       </p>
                     </div>
-                    <div>
+                    <div style={{ width: "50%" }}>
+                      <br />
                       <h6
                         className="hny-title"
                         style={{ fontSize: "28px", color: "#0077b5" }}
@@ -705,8 +706,8 @@ class Tuition extends Component {
                             &emsp;<span style={{ color: "#025683" }}>3.</span>
                             &emsp;
                             <span className="">
-                              Mobile money payment - Use merchant code for MTN
-                              or Airtel
+                              Mobile money payment - Use{" "}
+                              <b>Merchant Code (239748)</b> for MTN or Airtel
                             </span>
                           </li>
                           <li className="mb-1 t2">
@@ -734,15 +735,19 @@ class Tuition extends Component {
                   </div>
 
                   <br />
-                  <h6
-                    className="hny-title"
-                    style={{ fontSize: "28px", color: "#0077b5" }}
+                  <div
+                    style={{ display: "flex", justifyContent: "space-between" }}
                   >
-                    GTBank (Bank Details)
-                  </h6>
-                  <p className="my-4">
-                    <ul style={{ listStyle: "none" }}>
-                      {/* <li className="mb-4 t2">
+                    <div style={{ width: "50%" }}>
+                      <h6
+                        className="hny-title"
+                        style={{ fontSize: "28px", color: "#0077b5" }}
+                      >
+                        GTBank (Bank Details)
+                      </h6>
+                      <p className="my-4">
+                        <ul style={{ listStyle: "none" }}>
+                          {/* <li className="mb-4 t2">
                         &emsp;<span style={{ color: "#025683" }}>1</span>&emsp;
                         <a
                           href="https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx"
@@ -757,33 +762,75 @@ class Tuition extends Component {
                           </span>
                         </a>
                       </li> */}
-                      <li className="mb-1 t2">
-                        &emsp;<span style={{ color: "#025683" }}>#</span>&emsp;
-                        <span className="">Account Name: </span>
-                        <b className="">Victoria University</b>
-                      </li>
-                      <li className="mb-1 t2">
-                        &emsp;<span style={{ color: "#025683" }}>#</span>&emsp;
-                        <span className="">UGX Account Number: </span>
-                        <b className="">218143915151110</b>
-                      </li>
-                      <li className="mb-1 t2">
-                        &emsp;<span style={{ color: "#025683" }}>#</span>&emsp;
-                        <span className="">USD Account Number: </span>
-                        <b className="">218143915251110</b>
-                      </li>
-                      <li className="mb-1 t2">
-                        &emsp;<span style={{ color: "#025683" }}>#</span>&emsp;
-                        <span className="">Bank Name: </span>
-                        <b className="">Guaranty Trust Bank (Uganda) Ltd</b>
-                      </li>
-                      <li className="mb-1 t2">
-                        &emsp;<span style={{ color: "#025683" }}>#</span>&emsp;
-                        <span className="">SWIFT Code: </span>
-                        <b className="">GTBIUGKA</b>
-                      </li>
-                    </ul>
-                  </p>
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>#</span>
+                            &emsp;
+                            <span className="">Account Name: </span>
+                            <b className="">Victoria University</b>
+                          </li>
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>#</span>
+                            &emsp;
+                            <span className="">UGX Account Number: </span>
+                            <b className="">218143915151110</b>
+                          </li>
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>#</span>
+                            &emsp;
+                            <span className="">USD Account Number: </span>
+                            <b className="">218143915251110</b>
+                          </li>
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>#</span>
+                            &emsp;
+                            <span className="">Bank Name: </span>
+                            <b className="">Guaranty Trust Bank (Uganda) Ltd</b>
+                          </li>
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>#</span>
+                            &emsp;
+                            <span className="">SWIFT Code: </span>
+                            <b className="">GTBIUGKA</b>
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div style={{ width: "50%" }}>
+                      <h6
+                        className="hny-title"
+                        style={{ fontSize: "28px", color: "#0077b5" }}
+                      >
+                        Payment Methods
+                      </h6>
+                      <p className="my-4">
+                        <ul style={{ listStyle: "none" }}>
+                          {/* <li className="mb-4 t2">
+                        &emsp;<span style={{ color: "#025683" }}>1</span>&emsp;
+                        <a
+                          href="https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx"
+                          rel="noreferrer"
+                          target="_blank"
+                          style={{ color: "#025683" }}
+                        >
+                          <span className="underline">
+                            Login into
+                            https://eportal.vu.ac.ug/cooperp/mobile/cardpay.aspx&nbsp;&nbsp;
+                            <span className="fa fa-external-link"></span>
+                          </span>
+                        </a>
+                      </li> */}
+                          <li className="mb-1 t2">
+                            &emsp;<span style={{ color: "#025683" }}>1.</span>
+                            &emsp;
+                            <span className="">
+                              Direct payment to the bank - Victoria University
+                              account
+                            </span>
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
 
                   {/* <br />
                   <h6
@@ -937,6 +984,7 @@ class Tuition extends Component {
                       </li>
                     </ul>
                   </p> */}
+                  <br />
                   <h6
                     className="hny-title"
                     style={{ fontSize: "28px", color: "#0077b5" }}

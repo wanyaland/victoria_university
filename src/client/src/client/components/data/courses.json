@@ -1426,7 +1426,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 65,
@@ -1448,7 +1449,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 66,
@@ -1470,7 +1472,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 67,
@@ -1514,7 +1517,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 69,
@@ -1602,7 +1606,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 73,
@@ -1624,7 +1629,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 74,
@@ -1646,12 +1652,13 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 75,
     "program": "Chartered Institute of Logistics and Transport (CILT)",
-    "duration": "0",
+    "duration": "7months (Certificate), 1Year (Diploma), 1Year(Advanced Diploma)",
     "local_price": "0",
     "int_price": "0",
     "short_desc": "As a student, learning with the CILT means that you: Will be learning about the most up-to-date transport and logistics techniques,Will be able to choose units of study that best match your career,Will be able to use our qualifications to progress through CILT membership levels, will be able to use your qualification internationally to show your level of knowledge and competence",
@@ -1668,7 +1675,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 76,
@@ -1690,7 +1698,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 77,
@@ -1712,7 +1721,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 78,
@@ -1734,7 +1744,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for all students who are interested in equipping themselves with skills."
   },
   {
     "id": 79,
@@ -1756,7 +1767,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 80,
@@ -1778,7 +1790,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 81,
@@ -1822,7 +1835,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 83,
@@ -1844,7 +1858,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 84,
@@ -1866,7 +1881,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 85,
@@ -1888,7 +1904,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for all students who are interested in equipping themselves with skills."
   },
   {
     "id": 86,
@@ -1932,7 +1949,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 88,
@@ -1954,7 +1972,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 89,
@@ -1976,7 +1995,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 90,
@@ -1998,7 +2018,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 91,
@@ -2020,7 +2041,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 92,
@@ -2042,7 +2064,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
     "id": 93,
@@ -2064,7 +2087,8 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, diploma, bachelors, masters etc and interested in equipping themselves with skills."
   },
   {
     "id": 94,
@@ -2086,6 +2110,7 @@
     "identity_card_loc": "0",
     "identity_card_int": "0",
     "reg_fee_loc": "0",
-    "reg_fee_int": "0"
+    "reg_fee_int": "0",
+    "requirements": "This is a skilling course and caters for all students who are interested in equipping themselves with skills."
   }
 ]
