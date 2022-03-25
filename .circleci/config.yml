@@ -45,7 +45,7 @@ jobs:
             docker build --cache-from  wanyaland/vu_api:latest \
             --tag wanyaland/vu_api:latest --file ./Dockerfile .
             docker push wanyaland/vu_api:latest
-  
+
   test-dev:
     docker:
       - image: wanyaland/vu_api:latest
@@ -57,11 +57,8 @@ jobs:
           command: |
             cd src/app
             pytest -p no:warnings --cov=.
-            flake8 .
-            black --check -l 127 .
-            isort . --check-only
 
-            
+
   deploy-dev:
     machine: true
     steps:
@@ -109,7 +106,7 @@ jobs:
             - fe3:8f:a5:d6:d8:95:8a:ff:c4:81:91:2e:67:0c:00:00
       - *setup_env
       - run:
-          name: Deploy 
+          name: Deploy
           command: |
             chmod +x src/deploy_project.sh
             chmod +x src/init-letsencrypt.sh
@@ -117,7 +114,7 @@ jobs:
             scp  -o StrictHostKeyChecking=no -r  src/docker-compose.prod.yaml $CIRCLECI_USER@$VU_IP:/home/circleci/app
             scp  -o StrictHostKeyChecking=no -r  src/init-letsencrypt.sh $CIRCLECI_USER@$VU_IP:/home/circleci/app
             ./src/deploy_project.sh
-  
+
   # build-staging:
   #   machine: true
   #   working_directory: ~/repo
@@ -137,7 +134,7 @@ jobs:
   #           docker push wanyaland/vu_web:latest
   #           docker push wanyaland/vu_api:latest
   #           docker push wanyaland/vu_nginx:latest
-  
+
   # deploy-staging:
   #   machine: true
   #   working_directory: ~/repo
@@ -149,7 +146,7 @@ jobs:
   #     - *setup_env
   #     - *setup_env_staging
   #     - run:
-  #         name: Deploy 
+  #         name: Deploy
   #         command: |
   #           chmod +x src/deploy_staging.sh
   #           scp  -o StrictHostKeyChecking=no -r src/app/.env  $CIRCLECI_USER@$VU_IP:/home/circleci/app
@@ -219,7 +216,3 @@ workflows:
       #         ignore: /.*/
       #       tags:
       #         only: /^v\d+\.\d+\.\d+$/
-      
-
-  
-          
