@@ -706,7 +706,7 @@ class Tuition extends Component {
                             &emsp;<span style={{ color: "#025683" }}>3.</span>
                             &emsp;
                             <span className="">
-                              Mobile money payment - Use{" "}
+                              Mobile money payment - Use`{" "}
                               <b>Merchant Code (239748)</b> for MTN or Airtel
                             </span>
                           </li>
