@@ -201,7 +201,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/Prof. Augustine.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -250,7 +250,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/Prof. Athur.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -945,7 +945,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/mbago-ronald.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -1114,7 +1114,7 @@ class Senate extends Component {
                       <div className="modal-content_bio">
                         <span
                           className="close_bio"
-                          onClick={() => this.close_bio("myModal_bio 915")}
+                          onClick={() => this.close_bio("myModal_bio 15")}
                         >
                           &times;
                         </span>
@@ -1233,7 +1233,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/lilian tamale.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
