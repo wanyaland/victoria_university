@@ -8,5 +8,5 @@ ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP << 'ENDSSH'
   docker pull wanyaland/vu_api:latest
   docker pull wanyaland/vu_nginx:latest
   docker-compose -f docker-compose.prod.yaml up -d
-  docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+  docker system prune -f
 ENDSSH
