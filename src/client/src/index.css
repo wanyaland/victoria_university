@@ -17,3 +17,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+table {
+  border-color: #0077b5;
+}
+
+thead {
+  background-color: #0077b5;
+  color: #fff;
+  border-color: #fff;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px;
+}

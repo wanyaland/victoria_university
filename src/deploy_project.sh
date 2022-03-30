@@ -11,3 +11,4 @@ ssh -o StrictHostKeyChecking=no -v $CIRCLECI_USER@$VU_IP << 'ENDSSH'
   docker-compose -f docker-compose.prod.yaml up -d
   docker system prune -f
 ENDSSH
+
