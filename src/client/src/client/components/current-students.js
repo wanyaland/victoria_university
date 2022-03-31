@@ -2227,6 +2227,47 @@ class CurrentStudents extends Component {
                     &emsp;• Cancellation of relevant examination and dismissal
                     from the University.
                   </p>
+                  <br />
+                  <br />
+                  <p>
+                    <a
+                      className="logo-2"
+                      href="/assets/docs/students charter.pdf"
+                      download="assets/students charter.pdf"
+                      style={{ color: "#0077b5" }}
+                      onMouseOver={this.change_icon.bind(
+                        this,
+                        "iconner",
+                        "iconner2"
+                      )}
+                      onMouseOut={this.change_icon2.bind(
+                        this,
+                        "iconner",
+                        "iconner2"
+                      )}
+                    >
+                      <span className="lohny-2">
+                        <span
+                          id="iconner"
+                          className="fa fa-chain programfa"
+                          style={{ backgroundColor: "#f74040" }}
+                        ></span>
+                        <span
+                          id="iconner2"
+                          className="fa fa-arrow-right programfa hider"
+                          style={{ backgroundColor: "#f74040", color: "#FFF" }}
+                        ></span>
+                        &nbsp;
+                      </span>
+                      <span
+                        className="hny-title underline"
+                        style={{ fontSize: "28px", color: "#0077b5" }}
+                      >
+                        Download the Students' Charter here.
+                        <span className="fa fa-file-pdf-o"></span>
+                      </span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
