@@ -219,24 +219,203 @@ class Tuition extends Component {
                     className="hny-title"
                     style={{ fontSize: "32px", color: "#0077b5" }}
                   >
-                    Online tuition and fee assessment
+                    New Tuition and Fees Collection Policy
                   </h6>
                   <br />
-                  <p className="mb-4" style={{}}>
-                    Understanding how your fees and tuition are calculated is
-                    important to make sure you stay within your budget and make
-                    informed decisions when choosing, adding or dropping
-                    courses. VU academic fees are calculated differently for
-                    undergraduate and graduate students and will also vary
-                    depending on where you live while studying, course choice
-                    and other individual circumstances.
-                  </p>
-                  <p className="mb-4" style={{}}>
-                    Make sure to understand the details of all tuition and fees
-                    that apply to your choice of program - if in doubt, please
-                    feel free to contact Victoria University’s administrators
-                    for clarification.
-                  </p>
+                  <h4 style={{ color: "rgb(247, 64, 64)" }}>
+                    <i>1.Full payment per year (s) with rebates/discounts:</i>
+                  </h4>
+                  <table border="2">
+                    <tr style={{ backgroundColor: "#0077b5", color: "#fff" }}>
+                      <th colSpan={"3"}>
+                        1.Full payment per year (s) with rebates/discounts:
+                      </th>
+                    </tr>
+                    <tr>
+                      <th>#</th>
+                      <th>Criteria</th>
+                      <th>Discount</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Full fees paid for 1 year</td>
+                      <td>4% discount on tuition</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Full fees paid for 2 years</td>
+                      <td>8% discount on tuition</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Full fees paid for 3 years</td>
+                      <td>12% discount on tuition</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Full fees paid for 4 years</td>
+                      <td>16% discount on tuition</td>
+                    </tr>
+                  </table>
+                  <br />
+                  <h4 style={{ color: "rgb(247, 64, 64)" }}>
+                    <i>2. Full payment for Semester</i>
+                  </h4>
+                  <table border="2">
+                    <tr
+                      style={{
+                        backgroundColor: "#0077b5",
+                        color: "#fff",
+                        borderColor: "#ffff",
+                        textAlign: "center",
+                      }}
+                    >
+                      <th></th>
+                      <th>First instalment</th>
+                      <th>Second instalment</th>
+                      <th colSpan={"4"}>Penalty charges</th>
+                    </tr>
+                    <tr>
+                      <th>#</th>
+                      <th>1st month</th>
+                      <th>2nd month</th>
+                      <th>3rd month</th>
+                      <th>4th month</th>
+                      <th>National students</th>
+                      <th>International students</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>100%</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        UGX 100,000 penalty charge to defaulters per month
+                      </td>
+                      <td>$32 penalty charge to defaulters per month</td>
+                    </tr>
+                  </table>
+                  <br />
+                  <br />
+                  <h4 style={{ color: "rgb(247, 64, 64)" }}>
+                    <i>3. Instalment payment for Semester</i>
+                  </h4>
+                  <table border={"2"}>
+                    <tr
+                      style={{
+                        backgroundColor: "#0077b5",
+                        color: "#fff",
+                        borderColor: "#ffff",
+                        textAlign: "center",
+                      }}
+                    >
+                      <th></th>
+                      <th>First Instalment</th>
+                      <th>Second Instalment</th>
+                      <th colSpan={"5"}></th>
+                    </tr>
+                    <tr
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      <th></th>
+                      <th colSpan={"2"}>1st Month</th>
+                      <th>2nd Month</th>
+                      <th>3rd Month</th>
+                      <th>4th Month</th>
+                      <th colSpan={"2"}>Penalty charges</th>
+                    </tr>
+                    <tr
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      <th>#</th>
+                      <th>Week 2</th>
+                      <th>Week 4</th>
+                      <th>Week 8</th>
+                      <th></th>
+                      <th></th>
+                      <th>National students</th>
+                      <th>International students</th>
+                    </tr>
+                    <tr
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      <td>1</td>
+                      <td>40%</td>
+                      <td>20%</td>
+                      <td>40%</td>
+                      <td></td>
+                      <td></td>
+                      <td>
+                        UGX 100,000 penalty charge to defaulters per month
+                      </td>
+                      <td>$32 penalty charge to defaulters per month</td>
+                    </tr>
+                  </table>
+                  <br />
+                  <br />
+                  <h4 style={{ color: "rgb(247, 64, 64)" }}>
+                    <i>4. Other University Fees</i>
+                  </h4>
+                  <table border={"2"}>
+                    <thead>
+                      <tr>
+                        <th>Fees</th>
+                        <th>National Students</th>
+                        <th>International Students</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Application fees</td>
+                        <td>UGX 50,000</td>
+                        <td>$ 16</td>
+                      </tr>
+                      <tr>
+                        <td>Registration fees</td>
+                        <td>UGX 100,000</td>
+                        <td>$ 32</td>
+                      </tr>
+                      <tr>
+                        <td>Identity card</td>
+                        <td>UGX 10,000</td>
+                        <td>$ 3</td>
+                      </tr>
+                      <tr>
+                        <td>Resumption fees with notice</td>
+                        <td>UGX 100,000</td>
+                        <td>$ 32</td>
+                      </tr>
+                      <tr>
+                        <td>Resumption fees without notice</td>
+                        <td>UGX 187,500</td>
+                        <td>$ 60</td>
+                      </tr>
+                      <tr>
+                        <td>Retake fees</td>
+                        <td>UGX 200,000</td>
+                        <td>$ 64</td>
+                      </tr>
+                      <tr>
+                        <td>Caution fees</td>
+                        <td>UGX 50,000</td>
+                        <td>$ 16</td>
+                      </tr>
+                      <tr>
+                        <td>Missed paper</td>
+                        <td>UGX 200,000</td>
+                        <td>$ 64</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br />
+                  <br />
                   <p>
                     <a
                       className="logo-2"
@@ -271,7 +450,7 @@ class Tuition extends Component {
                         className="hny-title underline"
                         style={{ fontSize: "28px", color: "#0077b5" }}
                       >
-                        View our tuition and fees documentation{" "}
+                        Download our tuition and fees documentation{" "}
                         <span className="fa fa-file-pdf-o"></span>
                       </span>
                     </a>
@@ -584,7 +763,7 @@ class Tuition extends Component {
                     <br />
                   </p>
                   <img
-                    src="assets/images/pay_banner.jpg"
+                    src="assets/images/Web Ads templates-min.jpg"
                     className="img-fluid"
                     alt="Discover"
                   />
