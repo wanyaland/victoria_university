@@ -132,7 +132,7 @@ class Tuition extends Component {
                   </div>
                   <div className="features-1-info-info text-center">
                     <h6 className="text-center">
-                      <a href="#home">Fees payment</a>
+                      <a href="#home">Fee payment</a>
                     </h6>
                   </div>
                 </div>
