@@ -122,7 +122,7 @@ class Tuition extends Component {
 				</div> */}
                 <div
                   className="features-1-info col-lg-4 col-md-6 fa-hover"
-                  onClick={this.popPay}
+                  // onClick={this.popPay}
                 >
                   <div className="features-1-info-icon text-center">
                     <span
@@ -226,12 +226,13 @@ class Tuition extends Component {
                     <i>1.Full payment per year (s) with rebates/discounts:</i>
                   </h4>
                   <table border="2">
-                    <tr style={{ backgroundColor: "#0077b5", color: "#fff" }}>
-                      <th colSpan={"3"}>
-                        1.Full payment per year (s) with rebates/discounts:
-                      </th>
-                    </tr>
-                    <tr>
+                    <tr
+                      style={{
+                        backgroundColor: "#0077b5",
+                        color: "#fff",
+                        textAlign: "center",
+                      }}
+                    >
                       <th>#</th>
                       <th>Criteria</th>
                       <th>Discount</th>
