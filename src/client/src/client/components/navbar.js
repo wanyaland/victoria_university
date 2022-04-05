@@ -377,18 +377,17 @@ class NavBar extends Component {
                               style={{ fontSize: "20px", float: "right" }}
                             ></span>
                           </Link>
-                          {/* <Link
+                          <Link
                             to={{
                               pathname: "/current-students",
                               href: "",
                             }}
-                            href="charter"
+                            href="#charter"
                             className="text-left link-hover"
                             style={{ color: "#FFF", fontWeight: "400" }}
                           >
                             Students' Charter
-                            
-                          </Link> */}
+                          </Link>
                           <Link
                             to="/life-at-vu"
                             className="text-left link-hover"

@@ -202,7 +202,7 @@ class Senate extends Component {
                       <a href="#url">
                         <img
                           src="assets/images/img/Prof. Augustine.jpg"
-                          alt=""
+                          alt="No image"
                           class="img-fluid shadow-hover img-box"
                         />
                       </a>
@@ -284,7 +284,75 @@ class Senate extends Component {
                           <b>AR</b>
                           <br />
                           <br />
-                          NO BIO AT THE MOMENT
+                          Prof. Arthur Ahimbisibwe Rugo holds a PhD in Supply
+                          Chain Management from Victoria University of
+                          Wellington, New Zealand, Master of Science in
+                          Procurement and Supply Chain Management with a
+                          distinction from Makerere University, Kampala, Uganda,
+                          and a First-Class Degree in Bachelor of Business
+                          Administration specialising in Procurement and Supply
+                          Chain Management also from Makerere University,
+                          Kampala, Uganda. He also possess professional
+                          qualifications such as being a certified member of
+                          Chartered Institute of Purchasing and supply-MCIPS
+                          (UK), a Fellow of Chartered Institute of Logistics and
+                          Transport-FCILT (UK), a certified member of Project
+                          Management Institute-PMI (UK) and a Certified
+                          Procurement Professional, Institute of Procurement
+                          Professionals of Uganda-(IPPU) among other
+                          qualifications. He is Professor of Supply Chain
+                          Management, a senior researcher, consultant and an
+                          accomplished academician.
+                          <br />
+                          <br />
+                          Prof. Ahimbisibwe has over fifteen (15) years of
+                          working experience in universities, of which eight (8)
+                          years he has been in senior managerial positions. He
+                          has served in various managerial positions as a Head
+                          of Department (HOD) and as Acting Dean both in
+                          Makerere University, Dean of School of Postgraduate
+                          Studies, Deputy Vice Chancellor Academics and served
+                          as Acting Vice Chancellor of University of Kigali.
+                          <br />
+                          <br />
+                          Prof. Ahimbisibwe has written and published more than
+                          fifty (50) research articles which have been published
+                          in international refereed journals in the top ranked
+                          academic journals in the world. Some of the key top
+                          most research journals in the world where his work has
+                          been published include: Journal of Strategy and
+                          Management, Journal of African Business, Journal of
+                          Public Procurement, Journal of Enterprise Information
+                          Management, Records Management Journal, European
+                          Journal of Logistics, Purchasing and Supply Chain
+                          Management, International Journal of Operations and
+                          Logistics Management, International Journal of Supply
+                          Chain Management, European Journal of Business and
+                          Management, Journal of Supply Chain Management,
+                          European Journal of Logistics, Purchasing and Supply
+                          Chain Management, Journal of Management, Journal of
+                          Public Procurement and Contract Management, among
+                          others.
+                          <br />
+                          <br />
+                          Prof. Ahimbisibwe has supervised over 400 postgraduate
+                          students in the Postgraduate School to completion;
+                          facilitated in over 110 training workshops and
+                          conferences in both local and international
+                          environments. He has also worked in collaborations
+                          with vibrant, interdisciplinary and dynamic research
+                          groups to present research in international
+                          conferences, compete for funding and providing
+                          guidance to undergraduate, masters and PhD students.
+                          In 2011, He was awarded the best research paper of the
+                          year in Technology, Innovation and Supply Chain
+                          Management at the Australian and New Zealand Academy
+                          of Management (ANZAM) Conference, 7-9 December,
+                          Wellington, New Zealand. He has excellent written and
+                          oral presentation skills, strong interpersonal skills,
+                          organizational and communication skills. He speaks
+                          very good fluent English and enjoys sharing knowledge
+                          through teaching and research.
                         </p>
                       </div>
                     </div>
@@ -300,7 +368,7 @@ class Senate extends Component {
                       <a href="#url">
                         <img
                           src="assets/images/img/M.G KATUSABE SSEMWEZI.jpg"
-                          alt=""
+                          alt="No image at the moment"
                           class="img-fluid shadow-hover img-box"
                         />
                       </a>
@@ -1264,9 +1332,58 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
-                          NO BIO AT THE MOMENT
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                          Ms. Lillian Tamale - Head of Computing and Information
+                          Science (CIS) Department
+                          <br />
+                          <br />
+                          Lillian Tamale is a Lecturer and the Head of Computing
+                          and Information Science (CIS) Department in the
+                          Faculty of Science and Technology at Victoria
+                          University. She is an Information Technology
+                          Professional with an Honours Bachelors degree in
+                          Information Technology from Makerere University, a
+                          CISCO Certified Network Associate (CCNA), a Master of
+                          Business Administration in Information Technology
+                          (MBA-IT) and currently pursuing her PhD in Information
+                          Systems at Nkumba University.
+                          <br />
+                          <br />
+                          Prior to joining Victoria University, Lillian served
+                          as a Lecturer in the Faculty of Science and Technology
+                          at Cavendish University Uganda and in the Faculty of
+                          Science, Department of Computer Science at Kyambogo
+                          University where she has lectured, mentored and
+                          examined students in themes along Computer Science,
+                          Information Technology, Information Systems, Business
+                          Computing and short courses. Lillian has supervised
+                          quite a number of undergraduate projects to
+                          completion.
+                          <br />
+                          Lillian has a wealth of experience in planning,
+                          coordination and executing a range of administrative
+                          services independently. She has been able to take on
+                          several administrative roles while working with
+                          universities such as; Academic Registrar for the
+                          School of Post Graduate and Faculty Secretary for the
+                          Faculty of Science and Technology at Cavendish
+                          University Uganda. She has been an External Examiner
+                          in the Department of Information Technology at Muteesa
+                          I Royal University.
+                          <br />
+                          <br />
+                          She is technically skilled personnel in Database
+                          design and maintenance, Geographical Information
+                          Systems, Website designing, Programming, Networking
+                          and Advanced in Statistical Methods of Research using
+                          Statistical Data Analysis Using Statistical Package
+                          for the Social Sciences (SPSS) Python and R
+                          Programming Languages.
+                          <br />
+                          <br />
+                          She has participated and attended in several workshops
+                          and trainings within and outside Uganda majorly
+                          organised by Regional Universities Forum for Capacity
+                          Building in Agriculture (RUFORUM)
                         </p>
                       </div>
                     </div>
