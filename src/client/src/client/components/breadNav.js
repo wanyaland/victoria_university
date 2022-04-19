@@ -42,9 +42,13 @@ class BreadNavBar extends Component {
                         target="_blank"
                         rel="noreferrer"
                         className="fonted underline"
-                        style={{ color: "#000" }}
+                        style={{
+                          color: "#0fb",
+                          fontSize: "20px",
+                          paddingLeft: "10px",
+                        }}
                       >
-                        <b>Apply Now</b>
+                        <b style={{ color: "#d63a3a" }}>Apply Now</b>
                       </a>
                     </li>
                   </ul>

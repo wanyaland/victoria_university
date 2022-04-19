@@ -139,7 +139,7 @@ class Apply extends Component {
                     How to Apply and Register
                   </h6>
                   <br />
-                  <p
+                  {/* <p
                     className="hny-title"
                     style={{ fontSize: "24px", color: "#0077b5" }}
                   >
@@ -152,7 +152,7 @@ class Apply extends Component {
                     undergraduate and graduate professional development
                     courses.) and mode of study.
                   </p>
-                  <p className="mb-4"></p>
+                  <p className="mb-4"></p> */}
                   <br />
                 </div>
                 <div
