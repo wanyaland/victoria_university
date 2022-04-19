@@ -639,8 +639,7 @@ class Tuition extends Component {
                                     padding: "20px",
                                   }}
                                 >
-                                  Next Deadline: Register by February 10th to
-                                  start on March 1st
+                                  Upcoming intake: September 2022
                                 </td>
                               </tr>
                             </table>
