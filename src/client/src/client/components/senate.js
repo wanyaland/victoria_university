@@ -201,8 +201,8 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/Prof. Augustine.jpg"
-                          alt="No image"
+                          src="assets/images/img/Prof. Aug.jpg"
+                          alt=""
                           class="img-fluid shadow-hover img-box"
                         />
                       </a>
@@ -368,7 +368,7 @@ class Senate extends Component {
                       <a href="#url">
                         <img
                           src="assets/images/img/M.G KATUSABE SSEMWEZI.jpg"
-                          alt="No image at the moment"
+                          alt=""
                           class="img-fluid shadow-hover img-box"
                         />
                       </a>
@@ -1310,7 +1310,7 @@ class Senate extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Ms. Lilian Tamale</a>
+                        <a href="#url">Ms. Lillian Tamale</a>
                       </h3>
                       <p>Head of Department (FST)</p>
                       <div class="social">

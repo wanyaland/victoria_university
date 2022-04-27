@@ -169,6 +169,8 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">Human Resource Manager</h4>
+                        <h6 className="text-left">Ms. Batebi Irene</h6>
                         <p className="my-4 text-left">
                           Ms. Irene is an HR and Administration professional
                           with substantial working experience in various office
@@ -223,6 +225,8 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">Vice Chancellor</h4>
+                        <h6 className="text-left">Prof. Lawrence Muganga</h6>
                         <p className="my-4 text-left">
                           I am a Ugandan-born Canadian researcher, academic
                           administrator and an award winning author of several
@@ -357,6 +361,12 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">
+                          EX-Officio/Secretary To Council
+                        </h4>
+                        <h6 className="text-left">
+                          Mary Goretti Katusabe – Ssemwezi (Mrs.)
+                        </h6>
                         <p className="my-4 text-left">
                           Mrs M.G Katusabe - Ssemwezi is the Victoria University
                           Secretary and secretary to Council. She is a seasons
@@ -415,6 +425,8 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">Dean of Students</h4>
+                        <h6 className="text-left">Ms. Winnie Nassiwa</h6>
                         <p className="my-4 text-left">
                           <b>Dean of Students Office</b>
                           <br />
@@ -536,7 +548,7 @@ class Staff extends Component {
                       <h3 class="name-pos">
                         <a href="#url">Mr. Nkeeto Bill Richard</a>
                       </h3>
-                      <p>Dean Faculty of Business and management</p>
+                      <p>Dean of Faculty of Business and management</p>
                       <div class="social">
                         <button
                           className="read-more"
@@ -555,6 +567,10 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">
+                          Dean of Faculty of Business and management
+                        </h4>
+                        <h6 className="text-left">Mr. Nkeeto Bill Richard</h6>
                         <p className="my-4 text-left">
                           Bill Nkeeto is an economist and lecturer in the
                           Faculty of Business and Management at Victoria
@@ -623,7 +639,7 @@ class Staff extends Component {
                       <h3 class="name-pos">
                         <a href="#url">Dr. David Kakeeto</a>
                       </h3>
-                      <p>Dean Faculty of Science and Technology</p>
+                      <p>Dean of Faculty of Science and Technology</p>
                       <div class="social">
                         <button
                           className="read-more"
@@ -642,6 +658,10 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">
+                          Dean of Faculty of Science and Technology
+                        </h4>
+                        <h6 className="text-left">Dr. David Kakeeto</h6>
                         <p className="my-4 text-left">
                           Dr. David Kakeeto (Ph.D), an Educational Technology
                           (ICT-Educ), a senior lecturer at Victoria University.
@@ -715,7 +735,7 @@ class Staff extends Component {
                       <h3 class="name-pos">
                         <a href="#url">Dr. Nnwana Kevin</a>
                       </h3>
-                      <p>Dean of Health Sciences</p>
+                      <p>Dean of Faculty of Health Sciences</p>
                       <div class="social">
                         <button
                           className="read-more"
@@ -734,6 +754,10 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
+                        <h4 className="text-left">
+                          Dean of Faculty of Health Sciences
+                        </h4>
+                        <h6 className="text-left">Dr. Nnwana Kevin</h6>
                         <p className="my-4 text-left">
                           Dr. Nwanna Uchechukwu Kevin is a renowned Public
                           Health specialist, a citizen of Nigeria but resides in
@@ -791,9 +815,9 @@ class Staff extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Dr. Rosemary Nakijoba.</a>
+                        <a href="#url">Dr. Rosemary Nakijoba</a>
                       </h3>
-                      <p>Dean of Humanities and Social Sciences</p>
+                      <p>Dean of Faculty Humanities and Social Sciences</p>
                       <div class="social">
                         <button
                           className="read-more"
@@ -812,9 +836,16 @@ class Staff extends Component {
                           &times;
                         </span>
                         <br />
-                        <p className="my-4 text-left">
+                        <h4 className="text-left">
+                          Dean of Faculty of Humanities and Social Sciences
+                        </h4>
+                        <h6 className="text-left">
                           Dr. Rosemary Nakijoba (PhD-UWC, MADS-UMU, BDS-NDU)
-                          <br />
+                        </h6>
+                        <p
+                          className="my-4 text-left"
+                          style={{ fontWeight: "400" }}
+                        >
                           <br />
                           Dr. Rosemary is a Senior Lecturer and doubles as Dean
                           of the Faculty of Humanities and Social Sciences

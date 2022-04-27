@@ -29,6 +29,7 @@ class NavBar extends Component {
       }
     }
   }
+
   render() {
     const currentURL = window.location.pathname;
     const under = "undergraduate";
@@ -380,11 +381,12 @@ class NavBar extends Component {
                           <Link
                             to={{
                               pathname: "/current-students",
-                              href: "",
                             }}
-                            href="#charter"
                             className="text-left link-hover"
                             style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "#charter";
+                            }}
                           >
                             Students' Charter
                           </Link>

@@ -1,0 +1,15 @@
+#apply-Link.red-color {
+  color: red;
+  background-color: none;
+  transform: scale(0.5);
+}
+
+#apply-Link.blue-color {
+  color: #0077b5;
+  background-color: none;
+  transform: scale(1);
+}
+
+#apply-Link {
+  background-color: none;
+}
