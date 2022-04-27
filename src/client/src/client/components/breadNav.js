@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "../assets/css/breadNav-custom-css.css";
 
 class BreadNavBar extends Component {
   render() {
+    setInterval(() => {
+      const applyLink = document.getElementById("apply-Link");
+      applyLink.classList.add("red-color");
+      applyLink.classList.remove("blue-color");
+    }, 500);
+    setInterval(() => {
+      const applyLink = document.getElementById("apply-Link");
+      applyLink.classList.remove("red-color");
+      applyLink.classList.add("blue-color");
+    }, 1000);
     return (
       <React.Fragment>
         <section className="w3l-top-header-content">
@@ -48,7 +59,9 @@ class BreadNavBar extends Component {
                           paddingLeft: "10px",
                         }}
                       >
-                        <b style={{ color: "#d63a3a" }}>Apply Now</b>
+                        <b id="apply-Link" className="aa">
+                          Apply Now
+                        </b>
                       </a>
                     </li>
                   </ul>
