@@ -152,10 +152,8 @@ class PublicRes extends Component {
                         <div className="child-right">
                           <h1>Prof. Lawrence Muganga</h1>
                           <p>
-                            BSc, MBA, PhD <br />
-                            College of Business& Economics
+                            Vice Chancellor
                             <br />
-                            <b>Email: </b>ar@vu.ac.ug
                           </p>
                           <button
                             className="read-more"
@@ -350,18 +348,13 @@ class PublicRes extends Component {
                         id="publications-child2"
                       >
                         <div className="child-left">
-                          <img
-                            src="assets/images/img/Prof. Augustine.jpg"
-                            alt=""
-                          />
+                          <img src="assets/images/img/Prof. Aug.jpg" alt="" />
                         </div>
                         <div className="child-right">
                           <h1>Prof. Augustine Osamor Ifelebuegu</h1>
                           <p>
-                            BSc, MBA, PhD <br />
-                            College of Business& Economics
+                            DVC
                             <br />
-                            <b>Email: </b>ar@vu.ac.ug
                           </p>
                           <button
                             className="read-more"
@@ -848,10 +841,8 @@ class PublicRes extends Component {
                         <div className="child-right">
                           <h1>Prof. Athur Ahimbisibwe</h1>
                           <p>
-                            BSc, MBA, PhD <br />
-                            College of Business& Economics
+                            Academic Registrar
                             <br />
-                            <b>Email: </b>ar@vu.ac.ug
                           </p>
                           <button
                             className="read-more"
@@ -1530,10 +1521,8 @@ class PublicRes extends Component {
                         <div className="child-right">
                           <h1>Dr. David Kakeeto</h1>
                           <p>
-                            BSc, MBA, PhD <br />
-                            College of Business& Economics
+                            Dean of Faculty of Science and Technology
                             <br />
-                            <b>Email: </b>ar@vu.ac.ug
                           </p>
                           <button
                             className="read-more"
@@ -1661,10 +1650,8 @@ class PublicRes extends Component {
                         <div className="child-right">
                           <h1>Dr. Rosemary Nakijoba</h1>
                           <p>
-                            BSc, MBA, PhD <br />
                             Dean of Faculty of Humanities and Social Sciences
                             <br />
-                            <b>Email: </b>ar@vu.ac.ug
                           </p>
                           <button
                             className="read-more"
