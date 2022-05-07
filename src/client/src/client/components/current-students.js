@@ -361,6 +361,7 @@ class CurrentStudents extends Component {
                         difficult to support their studies online, Victoria
                         University has provided free education data and
                       </li>
+                      <div id="charter"></div>
                       <li
                         className=""
                         style={{ marginBottom: ".5rem !important" }}
@@ -457,7 +458,7 @@ class CurrentStudents extends Component {
               className="container py-lg-5"
               style={{ paddingBottom: "0rem !important" }}
             >
-              <div className="welcome-grids row" id="charter">
+              <div className="welcome-grids row" id="">
                 <div className="col-lg-12 mb-lg-0 mb-5">
                   <h1 style={{ fontSize: "65px", color: "#0077b5" }}>
                     Students' Charter

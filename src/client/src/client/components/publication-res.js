@@ -147,7 +147,7 @@ class PublicRes extends Component {
                         id="publications-child1"
                       >
                         <div className="child-left">
-                          <img src="assets/images/img/vc.jpg" alt="" />
+                          <img src="assets/images/img/vc.JPG" alt="" />
                         </div>
                         <div className="child-right">
                           <h1>Prof. Lawrence Muganga</h1>
@@ -872,11 +872,11 @@ class PublicRes extends Component {
                                 button3.textContent = "View Publications";
                               } else {
                                 publication1.classList.remove("show");
-                                button1.textContent = "Hide Publications";
+                                button1.textContent = "View Publications";
                                 publication2.classList.remove("show");
                                 button2.textContent = "View Publications";
                                 publication3.classList.add("show");
-                                button3.textContent = "View Publications";
+                                button3.textContent = "Hide Publications";
                                 publication4.classList.remove("show");
                                 button4.textContent = "View Publications";
                                 publication5.classList.remove("show");
@@ -1552,13 +1552,13 @@ class PublicRes extends Component {
                                 button4.textContent = "View Publications";
                               } else {
                                 publication1.classList.remove("show");
-                                button1.textContent = "Hide Publications";
+                                button1.textContent = "View Publications";
                                 publication2.classList.remove("show");
                                 button2.textContent = "View Publications";
                                 publication3.classList.remove("show");
                                 button3.textContent = "View Publications";
                                 publication4.classList.add("show");
-                                button4.textContent = "View Publications";
+                                button4.textContent = "Hide Publications";
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
                                 window.location.href = "#publications-child4";

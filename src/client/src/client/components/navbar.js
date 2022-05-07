@@ -351,6 +351,7 @@ class NavBar extends Component {
                           </a>
                         </ul>
                       </li>
+
                       <li
                         className={
                           currentURL === "/current-students" ||
@@ -385,7 +386,7 @@ class NavBar extends Component {
                             className="text-left link-hover"
                             style={{ color: "#FFF", fontWeight: "400" }}
                             onClick={function () {
-                              window.location.href = "#charter";
+                              window.location.href = "current-students#charter";
                             }}
                           >
                             Students' Charter
@@ -399,7 +400,7 @@ class NavBar extends Component {
                           </Link>
                         </ul>
                       </li>
-                      <li
+                      {/* <li
                         className={
                           currentURL === "/wil-landing" ||
                           currentURL === "/wil" ||
@@ -421,8 +422,9 @@ class NavBar extends Component {
                         >
                           Get To Work
                         </Link>
-                      </li>
-                      <li
+                      </li> */}
+
+                      {/* <li
                         className={
                           currentURL === "/research" ||
                           currentURL === "/about-res" ||
@@ -437,6 +439,407 @@ class NavBar extends Component {
                         <Link className="nav-link" to="/research">
                           Research
                         </Link>
+                      </li> */}
+
+                      <li
+                        className={
+                          currentURL === "/wil-landing" ||
+                          currentURL === "/wil" ||
+                          currentURL === "/how-wil-works" ||
+                          currentURL === "/keysteps" ||
+                          currentURL === "/benefits" ||
+                          currentURL === "/yourcall" ||
+                          currentURL === "/contactwil" ||
+                          currentURL === "/wilfaqs"
+                            ? "dropdown nav-item nav-hover-activated"
+                            : "dropdown nav-item nav-hover"
+                        }
+                      >
+                        <span
+                          className="dropdown-toggle nav-link"
+                          data-toggle="dropdown"
+                        >
+                          Get to Work&nbsp;&nbsp;
+                          <span className="fa fa-angle-down"></span>
+                        </span>
+                        <ul className="dropdown-menu dropdown-contenter">
+                          <Link
+                            to="/wil-landing"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Get To Work
+                            <span
+                              className="fa fa-home justify-content-lg-end"
+                              style={{ fontSize: "20px", float: "right" }}
+                            ></span>
+                          </Link>
+                          <Link
+                            to="/how-wil-works"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            How It Works
+                          </Link>
+                          <Link
+                            to="/keysteps"
+                            className="text-left link-hover col-12"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Key Steps
+                          </Link>
+                          {/* <Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link> */}
+                          <Link
+                            to="/benefits"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Organization / Partner / Employer benefits
+                          </Link>
+                          <Link
+                            to="/yourcall"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Your Call
+                          </Link>
+                          <Link
+                            to="/contactwil"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Contact Us
+                          </Link>
+                          {/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Key dates and deadllines</Link> */}
+                          <Link
+                            to="/wilfaqs"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            FAQS
+                          </Link>
+
+                          <a
+                            href="https://eadmissions.vu.ac.ug/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-center backed-btn"
+                            style={{ fontWeight: "400" }}
+                          >
+                            Apply Now
+                          </a>
+                        </ul>
+                      </li>
+
+                      <li
+                        className={
+                          currentURL === "/research" ||
+                          currentURL === "/about-res" ||
+                          currentURL === "/publication-res" ||
+                          currentURL === "/ethics-res" ||
+                          currentURL === "/avail-res" ||
+                          currentURL === "/academic-res" ||
+                          currentURL === "/superv-res" ||
+                          currentURL === "/apply-now"
+                            ? "dropdown nav-item nav-hover-activated"
+                            : "dropdown nav-item nav-hover"
+                        }
+                      >
+                        <span
+                          className="dropdown-toggle nav-link"
+                          data-toggle="dropdown"
+                        >
+                          Research&nbsp;&nbsp;
+                          <span className="fa fa-angle-down"></span>
+                        </span>
+                        <ul className="dropdown-menu dropdown-contenter">
+                          <Link
+                            to="/research"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Research
+                            <span
+                              className="fa fa-home justify-content-lg-end"
+                              style={{ fontSize: "20px", float: "right" }}
+                            ></span>
+                          </Link>
+                          <Link
+                            to="/about-res"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            About Research
+                          </Link>
+                          <Link
+                            to="/publication-res"
+                            className="text-left link-hover col-12"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Publications
+                          </Link>
+                          {/* <Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link> */}
+                          <Link
+                            to="/ethics-res"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Ethical Conduct of Research
+                          </Link>
+                          <Link
+                            to="/avail-res"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Available opportunities & Options
+                          </Link>
+                          <Link
+                            to="/academic-res"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Research & Academics
+                          </Link>
+                          {/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Key dates and deadllines</Link> */}
+                          <Link
+                            to="/superv-res"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Research supervisors & Mentors
+                          </Link>
+
+                          <a
+                            href="https://eadmissions.vu.ac.ug/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-center backed-btn"
+                            style={{ fontWeight: "400" }}
+                          >
+                            Apply Now
+                          </a>
+                        </ul>
+                      </li>
+
+                      <li
+                        className={
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery" ||
+                          currentURL === "/gallery"
+                            ? "dropdown nav-item nav-hover-activated"
+                            : "dropdown nav-item nav-hover"
+                        }
+                      >
+                        <span
+                          className="dropdown-toggle nav-link"
+                          data-toggle="dropdown"
+                        >
+                          Gallery&nbsp;&nbsp;
+                          <span className="fa fa-angle-down"></span>
+                        </span>
+                        <ul className="dropdown-menu dropdown-contenter">
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Gallery
+                            <span
+                              className="fa fa-home justify-content-lg-end"
+                              style={{ fontSize: "20px", float: "right" }}
+                            ></span>
+                          </Link>
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "gallery#library";
+                            }}
+                          >
+                            Library
+                          </Link>
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href =
+                                "gallery#international-day";
+                            }}
+                          >
+                            International Day
+                          </Link>
+                          {/* <Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link> */}
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "gallery#skills-lab";
+                            }}
+                          >
+                            Skills Lab
+                          </Link>
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "gallery#ceo-platform";
+                            }}
+                          >
+                            CEO Platform
+                          </Link>
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "gallery#mr-vu";
+                            }}
+                          >
+                            Mr. & Ms. VU
+                          </Link>
+                          {/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Key dates and deadllines</Link> */}
+                          <Link
+                            to="/gallery"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "gallery#freshers-ball";
+                            }}
+                          >
+                            Freshers' Ball
+                          </Link>
+
+                          <a
+                            href="https://eadmissions.vu.ac.ug/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-center backed-btn"
+                            style={{ fontWeight: "400" }}
+                          >
+                            Apply Now
+                          </a>
+                        </ul>
+                      </li>
+                      <li
+                        className={
+                          currentURL === "/library" ||
+                          currentURL === "/lending" ||
+                          currentURL === "/secretarial" ||
+                          currentURL === "/electric" ||
+                          currentURL === "/call-number" ||
+                          currentURL === "/catalogue" ||
+                          currentURL === "/lib-contact" ||
+                          currentURL === "/faqs" ||
+                          currentURL === "/opening" ||
+                          currentURL === "/off-campus"
+                            ? "dropdown nav-item nav-hover-activated"
+                            : "dropdown nav-item nav-hover"
+                        }
+                      >
+                        <span
+                          className="dropdown-toggle nav-link"
+                          data-toggle="dropdown"
+                        >
+                          Library&nbsp;&nbsp;
+                          <span className="fa fa-angle-down"></span>
+                        </span>
+                        <ul className="dropdown-menu dropdown-contenter">
+                          <Link
+                            to="/library"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Library
+                            <span
+                              className="fa fa-home justify-content-lg-end"
+                              style={{ fontSize: "20px", float: "right" }}
+                            ></span>
+                          </Link>
+                          <Link
+                            to="/lending"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Lending Services
+                          </Link>
+                          <Link
+                            to="/secretarial"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Secretarial Services
+                          </Link>
+                          {/* <Link to="/student-profile" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>What's your student profile?</Link> */}
+                          <Link
+                            to="/electric"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Electronic Services
+                          </Link>
+                          <Link
+                            to="/call-number"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Call Number Guides
+                          </Link>
+                          <Link
+                            to="/catalogue"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Library Catalogue
+                          </Link>
+                          {/* <Link to="/dates-deadlines" className="text-left link-hover" style={{color: '#FFF', fontWeight: '400'}}>Key dates and deadllines</Link> */}
+                          <Link
+                            to="/lib-contact"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            VULIB HelpDesk
+                          </Link>
+                          <Link
+                            to="/faqs"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            FAQs
+                          </Link>
+                          <Link
+                            to="/opening"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Opening Hours
+                          </Link>
+                          <Link
+                            to="/off-campus"
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                          >
+                            Off Campus Resources
+                          </Link>
+
+                          <a
+                            href="https://eadmissions.vu.ac.ug/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-center backed-btn"
+                            style={{ fontWeight: "400" }}
+                          >
+                            Apply Now
+                          </a>
+                        </ul>
                       </li>
                     </ul>
                   </div>

@@ -203,6 +203,7 @@ class Gallery extends Component {
                   </h6>
                 </div>
               </div>
+              <div id="library" style={{ paddingTop: "" }}></div>
               <br />
               <br />
               <br />
@@ -215,6 +216,7 @@ class Gallery extends Component {
                   close_bioLib={this.close_bioLib}
                 />
               </div>
+              <div id="international-day" style={{ paddingTop: "100px" }}></div>
               <br />
               <br />
               <br />
@@ -234,6 +236,7 @@ class Gallery extends Component {
                   close_biov={this.close_biov}
                 /> */}
               </div>
+              <div id="skills-lab" style={{ paddingTop: "100px" }}></div>
               <br />
               <br />
               <br />
@@ -248,6 +251,7 @@ class Gallery extends Component {
                   close_bios={this.close_bios}
                 />
               </div>
+              <div id="ceo-platform" style={{ paddingTop: "100px" }}></div>
               <br />
               <br />
               <br />
@@ -262,6 +266,7 @@ class Gallery extends Component {
                   close_bioceo={this.close_bioceo}
                 />
               </div>
+              <div id="mr-vu" style={{ paddingTop: "100px" }}></div>
               <br />
               <br />
               <br />
@@ -276,7 +281,7 @@ class Gallery extends Component {
                   close_bioMrVU={this.close_bioMrVU}
                 />
               </div>
-
+              <div id="freshers-ball" style={{ paddingTop: "100px" }}></div>
               <br />
               <br />
               <br />
