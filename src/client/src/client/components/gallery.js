@@ -272,7 +272,7 @@ class Gallery extends Component {
               <br />
               <br />
               <br />
-              <h1>Mr. and Ms. VU</h1>
+              <h1>Mr. & Ms. VU</h1>
               <hr />
               <div className="row">
                 <GalleryListMrVU
