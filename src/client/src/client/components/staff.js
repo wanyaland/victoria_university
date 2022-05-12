@@ -195,7 +195,7 @@ class Staff extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/vc.JPG"
+                          src="assets/images/img/vc.JPEG"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
