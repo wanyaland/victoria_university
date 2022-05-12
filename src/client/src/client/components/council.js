@@ -800,7 +800,7 @@ class Council extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/vc.JPEG"
+                          src="assets/images/img/vc.jpeg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />

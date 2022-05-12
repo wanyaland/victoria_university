@@ -147,7 +147,7 @@ class PublicRes extends Component {
                         id="publications-child1"
                       >
                         <div className="child-left">
-                          <img src="assets/images/img/vc.JPEG" alt="" />
+                          <img src="assets/images/img/vc.jpeg" alt="" />
                         </div>
                         <div className="child-right">
                           <h1>Prof. Lawrence Muganga</h1>
