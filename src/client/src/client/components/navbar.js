@@ -494,7 +494,7 @@ class NavBar extends Component {
                             className="text-left link-hover"
                             style={{ color: "#FFF", fontWeight: "400" }}
                           >
-                            Organization / Partner / Employer benefits
+                            Organization / Partner / Employer benefit
                           </Link>
                           <Link
                             to="/yourcall"
