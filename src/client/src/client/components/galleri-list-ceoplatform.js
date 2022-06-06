@@ -31,7 +31,7 @@ const GalleryListCEO = (props) => {
               <br />
               <img
                 className="port-image img-fuild"
-                src={`assets/images/gallery/CEOplatform/${item.name}`}
+                src={`assets/images/gallery/CEOPlatform/${item.name}`}
                 alt=""
                 style={{ width: "100%", height: "100%" }}
               />
