@@ -52,9 +52,41 @@ class BannerHome extends Component {
                   ></video>
                   <div
                     className="carousel-caption"
-                    style={{ border: "transparent 1px solid" }}
+                    style={{
+                      border: "transparent 1px solid",
+                      // minWidth: "80vw",
+                      // justifySelf: "center",
+                      // left: "0",
+                    }}
                   >
-                    <h1 className="main-header">EXPERIENCE</h1>
+                    <marquee
+                      loop="2"
+                      style={{
+                        position: "absolute",
+                        top: "-150px",
+                        left: "12.5%",
+                        fontSize: "50px",
+                        width: "100%",
+                        // transform: "tranlate(0, -50%)",
+                        // margin: "auto",
+                      }}
+                    >
+                      <h2
+                        style={{
+                          fontSize: "50px",
+                          textShadow: "3px 3px red",
+                        }}
+                      >
+                        VU Upcoming 6<sup>th</sup> Graduation Happening on 26
+                        <sup>th</sup> August 2022 &nbsp;
+                      </h2>
+                    </marquee>
+                    <h1
+                      className="main-header"
+                      style={{ textAlign: "center", width: "100%" }}
+                    >
+                      EXPERIENCE
+                    </h1>
                     <p className="sub-head text-center">
                       A WORK-INTEGRATED LEARNING APPROACH FOR AFRICA
                     </p>

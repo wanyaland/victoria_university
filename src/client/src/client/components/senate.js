@@ -611,7 +611,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/nnwana-kevin.jpg"
+                          src="assets/images/clone.png"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -620,7 +620,7 @@ class Senate extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Dr. Nnwana Kevin</a>
+                        <a href="#url">---</a>
                       </h3>
                       <p>Dean of Health Sciences</p>
                       <div class="social">
@@ -641,7 +641,7 @@ class Senate extends Component {
                           &times;
                         </span>
                         <br />
-                        <p className="my-4 text-left">
+                        {/* <p className="my-4 text-left">
                           Dr. Nwanna Uchechukwu Kevin is a renowned Public
                           Health specialist, a citizen of Nigeria but resides in
                           Uganda for over 7 years. He had his Doctoral degree in
@@ -676,7 +676,7 @@ class Senate extends Component {
                           Nwanna is a Fellow of the Medical Research Council
                           (FMRC) in the United Kingdom and a Fellow of the
                           African Institute of Public Health Professionals.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -689,7 +689,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/rosemary.jpg"
+                          src="assets/images/clone.png"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -698,7 +698,7 @@ class Senate extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Dr. Rosemary Nakijoba</a>
+                        <a href="#url">---</a>
                       </h3>
                       <p>Dean of Humanities and Social Sciences</p>
                       <div class="social">
@@ -719,7 +719,7 @@ class Senate extends Component {
                           &times;
                         </span>
                         <br />
-                        <p className="my-4 text-left">
+                        {/* <p className="my-4 text-left">
                           Dr. Rosemary Nakijoba (PhD-UWC, MADS-UMU, BDS-NDU)
                           <br />
                           <br />
@@ -764,7 +764,7 @@ class Senate extends Component {
                           Japan International Cooperation Agency (JICA), the
                           International Labour Organization (ILO) specifically
                           in the area of gender and disability.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -1636,7 +1636,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/guild.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />

@@ -724,7 +724,7 @@ class Staff extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/nnwana-kevin.jpg"
+                          src="assets/images/clone.png"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -733,7 +733,7 @@ class Staff extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Dr. Nnwana Kevin</a>
+                        <a href="#url">--</a>
                       </h3>
                       <p>Dean of Faculty of Health Sciences</p>
                       <div class="social">
@@ -757,7 +757,7 @@ class Staff extends Component {
                         <h4 className="text-left">
                           Dean of Faculty of Health Sciences
                         </h4>
-                        <h6 className="text-left">Dr. Nnwana Kevin</h6>
+                        {/* <h6 className="text-left">Dr. Nnwana Kevin</h6>
                         <p className="my-4 text-left">
                           Dr. Nwanna Uchechukwu Kevin is a renowned Public
                           Health specialist, a citizen of Nigeria but resides in
@@ -793,7 +793,7 @@ class Staff extends Component {
                           Nwanna is a Fellow of the Medical Research Council
                           (FMRC) in the United Kingdom and a Fellow of the
                           African Institute of Public Health Professionals.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
@@ -806,7 +806,7 @@ class Staff extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/rosemary.jpg"
+                          src="assets/images/clone.png"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -815,7 +815,7 @@ class Staff extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Dr. Rosemary Nakijoba</a>
+                        <a href="#url">--</a>
                       </h3>
                       <p>Dean of Faculty Humanities and Social Sciences</p>
                       <div class="social">
@@ -839,10 +839,10 @@ class Staff extends Component {
                         <h4 className="text-left">
                           Dean of Faculty of Humanities and Social Sciences
                         </h4>
-                        <h6 className="text-left">
+                        {/* <h6 className="text-left">
                           Dr. Rosemary Nakijoba (PhD-UWC, MADS-UMU, BDS-NDU)
-                        </h6>
-                        <p
+                        </h6> */}
+                        {/* <p
                           className="my-4 text-left"
                           style={{ fontWeight: "400" }}
                         >
@@ -888,7 +888,7 @@ class Staff extends Component {
                           Japan International Cooperation Agency (JICA), the
                           International Labour Organization (ILO) specifically
                           in the area of gender and disability.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>

@@ -1649,10 +1649,10 @@ class PublicRes extends Component {
                         </div>
                         <div className="child-right">
                           <h1>Dr. Rosemary Nakijoba</h1>
-                          <p>
+                          {/* <p>
                             Dean of Faculty of Humanities and Social Sciences
                             <br />
-                          </p>
+                          </p> */}
                           <button
                             className="read-more"
                             onClick={function () {
