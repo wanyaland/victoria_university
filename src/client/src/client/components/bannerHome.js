@@ -1,11 +1,25 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "../assets/css/breadNav-custom-css.css";
 
 class BannerHome extends Component {
   toVclass = () => {
     window.location.href = "vclass";
   };
   render() {
+    var aa = setInterval(() => {
+      const grad_img = document.getElementById("grad-img");
+      grad_img.classList.add("large");
+    }, 5000);
+
+    setTimeout(aa, 1000);
+
+    var bb = setInterval(() => {
+      const grad_img = document.getElementById("grad-img");
+      grad_img.classList.remove("large");
+    }, 5100);
+    setTimeout(bb, 1000);
+
     return (
       <React.Fragment>
         <section className="w3l-banner-slider-main w3l-inner-page-main">
@@ -40,6 +54,13 @@ class BannerHome extends Component {
 						
 						</div>
 					</div> */}
+                <img
+                  src="assets/images/graduation.JPG"
+                  className="img-fluid"
+                  alt="PROMO"
+                  // style={{}}
+                  id="grad-img"
+                />
                 <div>
                   <video
                     src="assets/media/home_wel_no_txt.mp4"
@@ -54,9 +75,6 @@ class BannerHome extends Component {
                     className="carousel-caption"
                     style={{
                       border: "transparent 1px solid",
-                      // minWidth: "80vw",
-                      // justifySelf: "center",
-                      // left: "0",
                     }}
                   >
                     <marquee
@@ -64,7 +82,7 @@ class BannerHome extends Component {
                       style={{
                         position: "absolute",
                         top: "-150px",
-                        left: "12.5%",
+                        left: "5.5%",
                         fontSize: "50px",
                         width: "100%",
                         // transform: "tranlate(0, -50%)",

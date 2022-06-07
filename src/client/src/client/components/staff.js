@@ -733,7 +733,7 @@ class Staff extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">--</a>
+                        <a href="#url">Dr. Aisha Musaazi Sebunya Nakitto</a>
                       </h3>
                       <p>Dean of Faculty of Health Sciences</p>
                       <div class="social">
@@ -757,43 +757,38 @@ class Staff extends Component {
                         <h4 className="text-left">
                           Dean of Faculty of Health Sciences
                         </h4>
-                        {/* <h6 className="text-left">Dr. Nnwana Kevin</h6>
+                        <h6 className="text-left">
+                          Dr. Aisha Musaazi Sebunya Nakitto
+                        </h6>
                         <p className="my-4 text-left">
-                          Dr. Nwanna Uchechukwu Kevin is a renowned Public
-                          Health specialist, a citizen of Nigeria but resides in
-                          Uganda for over 7 years. He had his Doctoral degree in
-                          Public Health (specialization in Occupational Safety
-                          and Health) from City University, Cambodia. He
-                          obtained his Master of Science in Public Health from
-                          the International Health Sciences University, Uganda.
-                          He studied a Post-Graduate Diploma in Teaching and
-                          Management at Higher Education from the Islamic
-                          University in Uganda. In addition to his name, he is a
-                          U.K certified IOSH specialist (Institute of
-                          Occupational Safety and Health); he bagged his
-                          Bachelor of Science Degree in Human Anatomy from the
-                          University of Portharcourt, Nigeria. <br />
+                          Dr. Aisha Musaazi Sebunya Nakitto is her Nutrition
+                          Specialist, with over 12 years of experience. Her
+                          areas of interest in teaching and research include
+                          nutraceuticals, nutrigenomics, nutritional
+                          biochemistry, clinical and pre-clinical studies,
+                          aging, non-communicable diseases, HIV, food security,
+                          dietary assessment, maternal and child nutrition, and
+                          food product development. <br />
                           <br />
-                          Dr. Nwanna is a Senior Lecturer in Victoria
-                          University, Uganda and doubles as the Dean of Faculty
-                          of Health Sciences in the same University. He has
-                          served as Head of Department and Dean of Faculty in
-                          two Universities in Uganda and has over 21
-                          peer-reviewed research publications attributed to his
-                          name together with over 10 short courses and
-                          certificates in various academic and social
-                          disciplines. <br />
-                          <br /> He has consulted for various organizations such
-                          as WHO, Uganda Ministry of Health and other
-                          international agencies. In academia, he has taught and
-                          supervised various undergraduate and postgraduate
-                          students to completion since 2015 up till now.One of
-                          his newest published research papers is on the impact
-                          of Covid-19 on the Education industry in Africa. Dr.
-                          Nwanna is a Fellow of the Medical Research Council
-                          (FMRC) in the United Kingdom and a Fellow of the
-                          African Institute of Public Health Professionals.
-                        </p> */}
+                          Dr. Aisha has a joint/ binational Ph.D. from Justus
+                          Liebig University, Giessen (Germany) and Makerere
+                          University. She has an MSc. in Applied Human Nutrition
+                          and a BSc. in Education (Biology, Chemistry), both
+                          obtained from Makerere University. Additionally, she
+                          has Certificates in “Enhancing Academic Qualifications
+                          in teaching and research of Public Health” and “Good
+                          Health Research Practices” from the University of
+                          Heidelberg, “Nutrition and Food Systems” from FAO, and
+                          “Implementation research” from WHO. <br />
+                          <br />
+                          Although a Nutrition Specialist, Dr Aisha is
+                          passionate about data analytics, with proficiency in
+                          Statistical (R, SPSS, GraphPad Prism) and Nutritional
+                          (EpiInfo and CsDietary) software. She also has
+                          Certificates in “Advanced Quantitative Data Analysis”
+                          and “Advanced Research Methods” from Makerere
+                          University. <br />
+                        </p>
                       </div>
                     </div>
                   </div>
