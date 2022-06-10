@@ -441,7 +441,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/dean-fbm.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -623,7 +623,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/dean-fhs.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -692,7 +692,8 @@ class Senate extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6 team-wrap">
+
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -733,8 +734,8 @@ class Senate extends Component {
                         <h4 className="text-left">
                           Dean of Humanities and Social Sciencess
                         </h4>
-                        <h6 className="text-left">-------</h6>
-                        {/* <p className="my-4 text-left">
+                        <h6 className="text-left">-------</h6>}
+                         <p className="my-4 text-left">
                           Dr. Rosemary Nakijoba (PhD-UWC, MADS-UMU, BDS-NDU)
                           <br />
                           <br />
@@ -779,11 +780,11 @@ class Senate extends Component {
                           Japan International Cooperation Agency (JICA), the
                           International Labour Organization (ILO) specifically
                           in the area of gender and disability.
-                        </p> */}
+                        </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
@@ -932,7 +933,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/librarian.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -941,9 +942,9 @@ class Senate extends Component {
                     <br />
                     <div class="column">
                       <h3 class="name-pos">
-                        <a href="#url">Ms. LoeKodia Kembabazi</a>
+                        <a href="#url">Mr. Mubiru Steven</a>
                       </h3>
-                      <p>Assistant Librarian</p>
+                      <p>University Librarian</p>
                       <div class="social">
                         <button
                           className="read-more"
@@ -972,7 +973,7 @@ class Senate extends Component {
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 team-wrap">
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -1012,13 +1013,13 @@ class Senate extends Component {
                         <br />
                         <p className="my-4 text-left">
                           NO BIO AT THE MOMET
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                          <br/>
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b>
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
@@ -1068,7 +1069,7 @@ class Senate extends Component {
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 team-wrap">
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -1108,13 +1109,13 @@ class Senate extends Component {
                         <br />
                         <p className="my-4 text-left">
                           NO BIO AT THE MOMENT
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                          <br/>
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b>
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
@@ -1124,7 +1125,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/HOD-fbm.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -1212,7 +1213,7 @@ class Senate extends Component {
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 team-wrap">
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -1252,8 +1253,8 @@ class Senate extends Component {
                         <br />
                         <p className="my-4 text-left">
                           NO BIO AT THE MOMENT
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                           <br/>
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b>}
                         </p>
                       </div>
                     </div>
@@ -1300,13 +1301,13 @@ class Senate extends Component {
                         <br />
                         <p className="my-4 text-left">
                           NO BIO AT THE MOMENT
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                          <br/>
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b>}
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
@@ -1507,7 +1508,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/precious.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -1555,7 +1556,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/challote.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -1595,7 +1596,7 @@ class Senate extends Component {
                   </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 team-wrap">
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -1635,13 +1636,13 @@ class Senate extends Component {
                         <br />
                         <p className="my-4 text-left">
                           NO BIO AT THE MOMENT
-                          {/* <br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
+                         <br/>
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> }
                         </p>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
