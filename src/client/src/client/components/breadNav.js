@@ -54,13 +54,23 @@ class BreadNavBar extends Component {
                         rel="noreferrer"
                         className="fonted underline"
                         style={{
-                          color: "#0fb",
+                          color: "#04f",
                           fontSize: "20px",
                           paddingLeft: "10px",
                         }}
                       >
                         <b id="apply-Link" className="aa">
                           Apply Now
+                        </b>
+                        &nbsp;
+                        <b
+                          style={{
+                            fontSize: "16px",
+                            color: "#0077b5",
+                          }}
+                        >
+                          VU Upcoming 6<sup>th</sup> Graduation Happening on 26
+                          <sup>th</sup> August 2022
                         </b>
                       </a>
                     </li>

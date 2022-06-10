@@ -178,6 +178,10 @@ class PublicRes extends Component {
                                 document.getElementById("publication5");
                               const button5 =
                                 document.getElementById("read-more5");
+                              const publication6 =
+                                document.getElementById("publication6");
+                              const button6 =
+                                document.getElementById("read-more6");
                               if (publication1.classList.contains("show")) {
                                 publication1.classList.remove("show");
                                 button1.textContent = "View Publications";
@@ -192,6 +196,8 @@ class PublicRes extends Component {
                                 button4.textContent = "View Publications";
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
+                                publication6.classList.remove("show");
+                                button6.textContent = "View Publications";
                                 window.location.href = "#publications-child1";
                               }
                             }}
@@ -379,6 +385,10 @@ class PublicRes extends Component {
                                 document.getElementById("publication5");
                               const button5 =
                                 document.getElementById("read-more5");
+                              const publication6 =
+                                document.getElementById("publication6");
+                              const button6 =
+                                document.getElementById("read-more6");
                               if (publication2.classList.contains("show")) {
                                 publication2.classList.remove("show");
                                 button2.textContent = "View Publications";
@@ -393,6 +403,8 @@ class PublicRes extends Component {
                                 button4.textContent = "View Publications";
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
+                                publication6.classList.remove("show");
+                                button6.textContent = "View Publications";
                                 window.location.href = "#publications-child2";
                               }
                             }}
@@ -867,6 +879,10 @@ class PublicRes extends Component {
                                 document.getElementById("publication5");
                               const button5 =
                                 document.getElementById("read-more5");
+                              const publication6 =
+                                document.getElementById("publication6");
+                              const button6 =
+                                document.getElementById("read-more6");
                               if (publication3.classList.contains("show")) {
                                 publication3.classList.remove("show");
                                 button3.textContent = "View Publications";
@@ -881,6 +897,8 @@ class PublicRes extends Component {
                                 button4.textContent = "View Publications";
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
+                                publication6.classList.remove("show");
+                                button6.textContent = "View Publications";
                                 window.location.href = "#publications-child3";
                               }
                             }}
@@ -1547,6 +1565,10 @@ class PublicRes extends Component {
                                 document.getElementById("publication5");
                               const button5 =
                                 document.getElementById("read-more5");
+                              const publication6 =
+                                document.getElementById("publication6");
+                              const button6 =
+                                document.getElementById("read-more6");
                               if (publication4.classList.contains("show")) {
                                 publication4.classList.remove("show");
                                 button4.textContent = "View Publications";
@@ -1561,6 +1583,8 @@ class PublicRes extends Component {
                                 button4.textContent = "Hide Publications";
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
+                                publication6.classList.remove("show");
+                                button6.textContent = "View Publications";
                                 window.location.href = "#publications-child4";
                               }
                             }}
@@ -1640,6 +1664,7 @@ class PublicRes extends Component {
                           </ul>
                         </div>
                       </div>
+
                       <div
                         className="publications-child"
                         id="publications-child5"
@@ -1676,6 +1701,10 @@ class PublicRes extends Component {
                                 document.getElementById("publication5");
                               const button5 =
                                 document.getElementById("read-more5");
+                              const publication6 =
+                                document.getElementById("publication6");
+                              const button6 =
+                                document.getElementById("read-more6");
                               if (publication5.classList.contains("show")) {
                                 publication5.classList.remove("show");
                                 button5.textContent = "View Publications";
@@ -1690,6 +1719,8 @@ class PublicRes extends Component {
                                 button4.textContent = "View Publications";
                                 publication5.classList.add("show");
                                 button5.textContent = "Hide Publications";
+                                publication6.classList.remove("show");
+                                button6.textContent = "View Publications";
                                 window.location.href = "#publications-child5";
                               }
                             }}
@@ -1776,6 +1807,140 @@ class PublicRes extends Component {
                             </li>
                           </ul>
                         </div>
+                      </div>
+                    </div>
+
+                    <div
+                      className="publications-child"
+                      id="publications-child6"
+                    >
+                      <div className="child-left">
+                        <img src="assets/images/img/dean-fhs.jpg" alt="" />
+                      </div>
+                      <div className="child-right">
+                        <h1>Dr. Aisha Musaazi Sebunya Nakitto</h1>
+                        <p>
+                          Dean of Faculty of Health Sciences
+                          <br />
+                        </p>
+                        <button
+                          className="read-more"
+                          onClick={function () {
+                            const publication1 =
+                              document.getElementById("publication1");
+                            const button1 =
+                              document.getElementById("read-more1");
+                            const publication2 =
+                              document.getElementById("publication2");
+                            const button2 =
+                              document.getElementById("read-more2");
+                            const publication3 =
+                              document.getElementById("publication3");
+                            const button3 =
+                              document.getElementById("read-more3");
+                            const publication4 =
+                              document.getElementById("publication4");
+                            const button4 =
+                              document.getElementById("read-more4");
+                            const publication5 =
+                              document.getElementById("publication5");
+                            const button5 =
+                              document.getElementById("read-more5");
+                            const publication6 =
+                              document.getElementById("publication6");
+                            const button6 =
+                              document.getElementById("read-more6");
+                            if (publication6.classList.contains("show")) {
+                              publication6.classList.remove("show");
+                              button6.textContent = "View Publications";
+                            } else {
+                              publication1.classList.remove("show");
+                              button1.textContent = "View Publications";
+                              publication2.classList.remove("show");
+                              button2.textContent = "View Publications";
+                              publication3.classList.remove("show");
+                              button3.textContent = "View Publications";
+                              publication4.classList.remove("show");
+                              button4.textContent = "View Publications";
+                              publication5.classList.remove("show");
+                              button5.textContent = "View Publications";
+                              publication6.classList.add("show");
+                              button6.textContent = "Hide Publications";
+                              window.location.href = "#publications-child6";
+                            }
+                          }}
+                          id="read-more6"
+                        >
+                          View publications
+                        </button>
+                        <br />
+                      </div>
+
+                      <div
+                        className="Publications"
+                        id="publication6"
+                        style={{ width: "100%" }}
+                      >
+                        <br />
+                        <br />
+                        <br />
+                        <h5>Publications</h5>
+                        <ul>
+                          <li>
+                            {/* <a
+                              href="http://etd.uwc.ac.za/"
+                              target={"_blank"}
+                              rel="noreferrer"
+                            > */}
+                            Nakitto, A.M.S., Rudloff, S., Borsch, C., and
+                            Wagner, A.E. (2021): Solanum anguivi Lam. fruit
+                            preparations counteract the negative effects of a
+                            high-sugar diet on the glucose metabolism in
+                            Drosophila melanogaster. Food Funct. Doi:
+                            10.1039/D1FO01363G.
+                            {/* </a> */}
+                          </li>
+                          <li>
+                            {/* <a
+                              href="https://doi.org/10.21467/ajss.10.1.52-62"
+                              target={"_blank"}
+                              rel="noreferrer"
+                            > */}
+                            Nakitto, A.M.S., Muyonga, J.H., Byaruhanga, Y.B.,
+                            and Wagner, A.E. (2021): Solanum anguivi Lam.
+                            fruits: Their Potential Effects on Type 2 Diabetes
+                            Mellitus. Molecules 2021, 26, 2044. Doi:
+                            10.3390/molecules26072044.
+                            {/* </a> */}
+                          </li>
+                          <li>
+                            {/* <a
+                              href="https://econpapers.repec.org/scripts/getreflist.pl?h=repec%3Aris%3Asphecs%3A0408;reflist=citec;pg=1"
+                              target={"_blank"}
+                              rel="noreferrer"
+                            > */}
+                            Nakitto, A.M.S., Byaruhanga, Y.B., Wagner, A.E.,
+                            Muyonga, J.H. (2022): Morphological characteristics,
+                            bioactive compounds content, and antioxidant
+                            activity of different accessions of Solanum anguivi
+                            Lam. Journal of Applied Botany and Food Quality 94,
+                            220 - 228. doi:10.5073/JABFQ.2021.094.027.
+                            {/* </a> */}
+                          </li>
+                          <li>
+                            {/* <a
+                              href="https://www.laboutiqueafricavivre.com"
+                              target={"_blank"}
+                              rel="noreferrer"
+                            > */}
+                            Nakitto, A.M., Muyonga, J.H., and Nakimbugwe, D.
+                            (2015): Effects of combined traditional processing
+                            methods on the nutritional quality of beans. Food
+                            Science and Nutrition, 3: 233 - 241.
+                            doi:10.1002/fsn3.209.
+                            {/* </a> */}
+                          </li>
+                        </ul>
                       </div>
                     </div>
 

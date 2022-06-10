@@ -537,7 +537,7 @@ class Staff extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/dean-fbm.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -724,7 +724,7 @@ class Staff extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/clone.png"
+                          src="assets/images/img/dean-fhs.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -793,7 +793,8 @@ class Staff extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6 team-wrap">
+
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -833,11 +834,11 @@ class Staff extends Component {
                         <br />
                         <h4 className="text-left">
                           Dean of Faculty of Humanities and Social Sciences
-                        </h4>
-                        {/* <h6 className="text-left">
+                        </h4> */}
+                {/* <h6 className="text-left">
                           Dr. Rosemary Nakijoba (PhD-UWC, MADS-UMU, BDS-NDU)
                         </h6> */}
-                        {/* <p
+                {/* <p
                           className="my-4 text-left"
                           style={{ fontWeight: "400" }}
                         >
@@ -884,13 +885,14 @@ class Staff extends Component {
                           International Labour Organization (ILO) specifically
                           in the area of gender and disability.
                         </p> */}
-                      </div>
+                {/* </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="row team-row">
-                <div class="col-lg-3 col-md-6 team-wrap">
+                </div> */}
+                {/* </div> */}
+
+                {/* <div class="row team-row"> */}
+                {/* <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
                       class="column position-relative cursor"
@@ -930,11 +932,11 @@ class Staff extends Component {
                         <br />
                         {/* <p className="my-4 text-left">H.E Mark Serebe is the 2019-2020 Guild President of Victoria University pursuing a Bachelor’s in Human Resource Management , in 2018 he graduated with a Diploma in Human Resource Management at the same univrsity and takes his responsibility as students leader at university with great honour and pride. He took part in the training of student leaders at National Leadership Institute in Kyankwanzi in 2019.
 									<br/>
-									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p> */}
+									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b></p> }
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

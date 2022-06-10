@@ -55,7 +55,7 @@ class BannerHome extends Component {
 						</div>
 					</div> */}
                 <img
-                  src="assets/images/graduation.JPG"
+                  src="assets/images/graduation.jpg"
                   className="img-fluid"
                   alt="PROMO"
                   // style={{}}
@@ -91,8 +91,7 @@ class BannerHome extends Component {
                     >
                       <h2
                         style={{
-                          fontSize: "50px",
-                          textShadow: "3px 3px red",
+                          fontSize: "40px",
                         }}
                       >
                         VU Upcoming 6<sup>th</sup> Graduation Happening on 26
