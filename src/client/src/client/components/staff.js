@@ -321,6 +321,110 @@ class Staff extends Component {
                     </div>
                   </div>
                 </div>
+
+                <div class="col-lg-3 col-md-6 team-wrap">
+                  <div class="team-info text-center">
+                    <div
+                      class="column position-relative cursor"
+                      onClick={() => this.view_bio("myModal_bio 12")}
+                    >
+                      <a href="#url">
+                        <img
+                          src="assets/images/img/Prof. Aug.jpg"
+                          alt=""
+                          class="img-fluid shadow-hover img-box"
+                        />
+                      </a>
+                    </div>
+                    <br />
+                    <div class="column">
+                      <h3 class="name-pos">
+                        <a href="#url">Prof. Augustine Osamor Ifelebuegu</a>
+                      </h3>
+                      <p>DVC</p>
+                      <div class="social">
+                        <button
+                          className="read-more"
+                          onClick={() => this.view_bio("myModal_bio 12")}
+                        >
+                          View Bio
+                        </button>
+                      </div>
+                    </div>
+                    <div id="myModal_bio 12" className="modal_bio">
+                      <div className="modal-content_bio">
+                        <span
+                          className="close_bio"
+                          onClick={() => this.close_bio("myModal_bio 12")}
+                        >
+                          &times;
+                        </span>
+                        <br />
+                        <p className="my-4 text-left">
+                          <h4 className="text-left">DVC</h4>
+                          <h6 className="text-left">
+                            Prof. Augustine Osamor Ifelebuegu
+                          </h6>
+                          <br />
+                          <br />
+                          Prof Augustine Ifelebuegu is a thorough breed academic
+                          and a Senior Fellow of the UK Higher Education
+                          Academy. He is a highly innovative, exceptionally
+                          talented and extremely versatile professional with
+                          over 24 years of post-graduation experience that spans
+                          the petroleum industry, water/waste industry, and
+                          academia. He is currently the Deputy Vice
+                          Chancellor-Academic Affairs at Victoria University. U,
+                          Kampala. Until recently, he was the Head of Civil and
+                          Environmental Engineering Cluster at the University of
+                          West of England Bristol (UWE), UK. Before joining UWE
+                          in 2021, he worked for Coventry University for 13
+                          years where he rose from a Lecturer to an Associate
+                          Professor in Energy and Environment. He was the
+                          International Team Lead for World Bank-funded
+                          Albertine Regional Sustainable Development Project in
+                          Uganda. He pioneered and led the development of
+                          Coventry University suites of energy programmes which
+                          grew to become a School of Energy, Construction and
+                          Environment in the Faculty of Engineering. He has many
+                          years experience of in international collaborations.
+                          He served as a Link Tutor to Ghana Technology
+                          University and a Visiting Professor to Kadir Has
+                          University Turkey, Saveetha University India,
+                          Cranfield University UK, University of Leeds UK, etc.
+                          He has severed as an external examiner for several UK
+                          Universities including, Newcastle University,
+                          Heriot-Watt University, DMU Leicester, Robert Gordon
+                          University, and the University of Plymouth.
+                          <br />
+                          <br />
+                          Before joining Coventry University, he was a Process
+                          Design Engineer at Severn Trent Water where he was
+                          involved in several multimillion Pounds projects. He
+                          also worked for Fugro Consultants as a QHSE
+                          Consultant. He consulted for various multinational
+                          companies operating in the upstream and downstream Oil
+                          and Gas sector in West Africa, UK, and the Middle
+                          East. He was involved in several projects for Nigeria
+                          Liquefied Natural Gas, Shell Petroleum, Shell Nigerian
+                          Gas, ExxonMobil, Addax Petroleum, ChevronTexaco,
+                          Total, Eni, Schlumberger, Oildata Wireline, Air
+                          Liquide, ConocoPhillips, etc. Augustine has consulted
+                          for several Governments and parastatals in Nigeria,
+                          Uganda, South Sudan, Saudi Arabia, Ghana, Liberia,
+                          Tanzania, Cameroon, and Brazil.
+                          <br />
+                          <br />
+                          Augustine is a multidiciplinary researcher with
+                          researches covering the Water-Food- Energy nexus,
+                          environmental stutainability, project management and
+                          safety.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
@@ -387,6 +491,7 @@ class Staff extends Component {
                     </div>
                   </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div
@@ -527,8 +632,8 @@ class Staff extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="row team-row">
+                {/* </div> */}
+                {/* <div class="row team-row"> */}
                 <div class="col-lg-3 col-md-6 team-wrap">
                   <div class="team-info text-center">
                     <div

@@ -240,7 +240,58 @@ class Senate extends Component {
                           </h6>
                           <br />
                           <br />
-                          NO BIO AT THE MOMENT
+                          Prof Augustine Ifelebuegu is a thorough breed academic
+                          and a Senior Fellow of the UK Higher Education
+                          Academy. He is a highly innovative, exceptionally
+                          talented and extremely versatile professional with
+                          over 24 years of post-graduation experience that spans
+                          the petroleum industry, water/waste industry, and
+                          academia. He is currently the Deputy Vice
+                          Chancellor-Academic Affairs at Victoria University. U,
+                          Kampala. Until recently, he was the Head of Civil and
+                          Environmental Engineering Cluster at the University of
+                          West of England Bristol (UWE), UK. Before joining UWE
+                          in 2021, he worked for Coventry University for 13
+                          years where he rose from a Lecturer to an Associate
+                          Professor in Energy and Environment. He was the
+                          International Team Lead for World Bank-funded
+                          Albertine Regional Sustainable Development Project in
+                          Uganda. He pioneered and led the development of
+                          Coventry University suites of energy programmes which
+                          grew to become a School of Energy, Construction and
+                          Environment in the Faculty of Engineering. He has many
+                          years experience of in international collaborations.
+                          He served as a Link Tutor to Ghana Technology
+                          University and a Visiting Professor to Kadir Has
+                          University Turkey, Saveetha University India,
+                          Cranfield University UK, University of Leeds UK, etc.
+                          He has severed as an external examiner for several UK
+                          Universities including, Newcastle University,
+                          Heriot-Watt University, DMU Leicester, Robert Gordon
+                          University, and the University of Plymouth.
+                          <br />
+                          <br />
+                          Before joining Coventry University, he was a Process
+                          Design Engineer at Severn Trent Water where he was
+                          involved in several multimillion Pounds projects. He
+                          also worked for Fugro Consultants as a QHSE
+                          Consultant. He consulted for various multinational
+                          companies operating in the upstream and downstream Oil
+                          and Gas sector in West Africa, UK, and the Middle
+                          East. He was involved in several projects for Nigeria
+                          Liquefied Natural Gas, Shell Petroleum, Shell Nigerian
+                          Gas, ExxonMobil, Addax Petroleum, ChevronTexaco,
+                          Total, Eni, Schlumberger, Oildata Wireline, Air
+                          Liquide, ConocoPhillips, etc. Augustine has consulted
+                          for several Governments and parastatals in Nigeria,
+                          Uganda, South Sudan, Saudi Arabia, Ghana, Liberia,
+                          Tanzania, Cameroon, and Brazil.
+                          <br />
+                          <br />
+                          Augustine is a multidiciplinary researcher with
+                          researches covering the Water-Food- Energy nexus,
+                          environmental stutainability, project management and
+                          safety.
                         </p>
                       </div>
                     </div>
@@ -933,7 +984,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/librarian.jpg"
+                          src="assets/images/img/librarian1.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -964,7 +1015,15 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
-                          NO BIO AT THE MOMENT
+                          Mr. Mubiru Steven is a Librarian by profession and
+                          practice with vast experience in library and
+                          information center management which was gained while
+                          serving in different institutions like Clarke
+                          International University, Uganda Christian University
+                          and Team University in different positions. He hold a
+                          Masters of Library and Information Studies and a
+                          Bachelors of Library and Information Science from
+                          Uganda Christian University, Mukono.
                           {/* <br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
                         </p>
@@ -1060,7 +1119,129 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
-                          NO BIO AT THE MOMENT
+                          <br />
+                          <br />
+                          Ronald Mbago is the current head of the Quality
+                          Assurance Department of Victoria University. He holds
+                          both a Bachelor and a Masters in Human Resource
+                          Management (2008 and 2011 respectively); and he is
+                          currently pursuing a Ph.D in Business Management. In
+                          2010, he completed Training of trainers’ course on
+                          MDGs Capacity Building, Rotary Youth Leadership Award,
+                          Behavioral Change Training (2008) and Procurement
+                          &amp; Contract management (2007) and Training in
+                          Finance for non-Finance Managers (2009).
+                          <br />
+                          <br />
+                          He co-authored and published in European – American
+                          journals on Human Resource Policy and Job satisfaction
+                          of employees in knowledge-based enterprises: a
+                          comparative study of indigenous and expatriate
+                          teaching staffs of Kampala International University,
+                          Uganda.
+                          <br />
+                          <br />
+                          He has over 12 years of work experience as a lecturer
+                          and manager in three Universities (Two in Uganda and
+                          one in Rwanda) and he has exposure in the general
+                          management and administration of the University
+                          faculties. He is strong team leader and player with
+                          proven ability to adapt quickly to changing
+                          circumstances.
+                          <br />
+                          <br />
+                          Most recently (2017 -2021), he served as an Associate
+                          Dean for Evening and Weekend Programs at the
+                          University of Kigali in Rwanda. In this position, he
+                          supervised over 65 academic and administrative staff;
+                          monitored the implementation of programmes for over
+                          2500 students. As a Dean and Deputy Principal, he was
+                          a member of the University senate and Senior
+                          Management Committee and his key accomplishments
+                          include review of the strategic objectives and
+                          development of a 5 year (2020 -2025) strategic plan
+                          and review of HR needs and guidelines which resulted
+                          in the identification of competency gaps and designing
+                          of the current job chart.
+                          <br />
+                          <br />
+                          In 2017, he served as a Deputy Principal of University
+                          of Kigali (Musanze Campus) located in Musanze
+                          District, the second biggest and tourism city of
+                          Rwanda where he was able to manage and supervise a
+                          diverse work force with a very high level of ethics
+                          and integrity. He progressively built the capacity of
+                          staff under his supervision through coaching and
+                          training session in understanding of academic
+                          management and enforcing best practices.
+                          <br />
+                          <br />
+                          In 2016, he was appointed Head of department at
+                          University of Kigali; where he was in charge of
+                          teaching and learning and monitored the curriculum
+                          review and implementation of four Programs: Bachelor
+                          of Science with Honours in Marketing, Bachelor of
+                          Sciences with honours in Economics, Bachelor of
+                          Science with Honours in Procurement and Bachelor of
+                          Public Administration and Local Governance. With very
+                          excellent managerial and innovative skills, he
+                          introduced team teaching to help improve the method of
+                          delivery in class and provide students with the
+                          opportunity to effectively participate and contribute
+                          during lectures.
+                          <br />
+                          <br />
+                          Previously (2012 – 2015), he served as the Head of
+                          Department (HOD) of Human Resource and Supply
+                          Management at Kampala International University. In
+                          this position, he spearheaded the review of
+                          curriculums with the objective of aligning them with
+                          the 21 st labour market needs. This review made Human
+                          Resource Management one of flagship program for the
+                          University and many institutions in the country
+                          benchmark with KIU while drafting their Human Resource
+                          programs.
+                          <br />
+                          <br />
+                          Over the years, he has provided consultancy services
+                          to private and public sectors on Human Resource
+                          matters. Specifically, in 2017, he provided management
+                          advise on the administration of human resources
+                          policies and procedures for Special Guarantee Fund, a
+                          Rwandan government parastatal responsible for insuring
+                          against wild animal damages, non-insured and
+                          non-identified vehicle accidents. Furthermore, in
+                          2019, he analysed the Human Resource programs for
+                          Rwanda Federation of Transport Cooperatives, and
+                          recommended solutions on contractual matters in order
+                          to maximize employee potential and help solidify the
+                          growth of human resources for successive career path
+                          and job advancement for the cooperatives.
+                          <br />
+                          <br />
+                          I have very strong organizational skills that he used
+                          as the Vice President of Rotary Club of Kololo,
+                          Uganda, to chair and coordinate the preparation of
+                          three medical outreach projects for over 2000 members
+                          from the less privileged communities that were treated
+                          free of charge in rural areas of Eastern and Central
+                          Uganda. In addition, as a Community Services Director,
+                          he mobilised members of the club to willingly donate
+                          in kind or financially household items which were
+                          donated to refugee camps of Adjumani district in
+                          Uganda.
+                          <br />
+                          <br />
+                          He has proven Interpersonal skills that he
+                          demonstrated (2008 – 2009) during his tenure as a
+                          project manager in South Sudan at a time where the
+                          country had just come from a very long civil war. He
+                          managed to establish and maintain positive relations
+                          with the community, leaders including other project
+                          stakeholders and agencies. All parties appreciated
+                          each other’s perspective which consequently enabled
+                          the organization to thrive in a culturally diverse and
+                          fragile environment.
                           {/* <br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
                         </p>
@@ -1204,7 +1385,24 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
-                          NO BIO AT THE MOMENT
+                          Ms.Barbra Lynn Amanya holds a Second Class Upper
+                          Bachelor of Industrial and Organizational Psychology
+                          from Makerere University Kampala, Uganda and a first
+                          class MBA from Amity University, Uttar Pradesh, India.
+                          She is currently pursuing a PhD. in Human Resource
+                          Management. She possesses professional qualifications
+                          in Sales and Presentation skills, Administrative Law,
+                          Project Planning and Management and Customer Service
+                          and Telephone handling. Her research interests
+                          include; Change Management, Organizational Behavior,
+                          Performance Management and Affirmative Action among
+                          others. Ms.Barbara Lynn has fifteen years experience
+                          in the areas of Training and Development of Talent and
+                          conducts both physical and online classes with ease.
+                          Additional experience is in the areas of Banking,
+                          Human Resource Management. She is currently the Head
+                          of Department at the Faculty of Business and
+                          Management.
                           {/* <br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
                         </p>
@@ -1508,7 +1706,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/precious.jpg"
+                          src="assets/images/img/precious1.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />
@@ -1556,7 +1754,7 @@ class Senate extends Component {
                     >
                       <a href="#url">
                         <img
-                          src="assets/images/img/challote.jpg"
+                          src="assets/images/img/challote1.jpg"
                           alt=""
                           class="img-fluid shadow-hover img-box"
                         />

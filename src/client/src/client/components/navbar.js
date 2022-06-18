@@ -392,6 +392,18 @@ class NavBar extends Component {
                             Students' Charter
                           </Link>
                           <Link
+                            to={{
+                              pathname: "",
+                            }}
+                            className="text-left link-hover"
+                            style={{ color: "#FFF", fontWeight: "400" }}
+                            onClick={function () {
+                              window.location.href = "current-students#charter";
+                            }}
+                          >
+                            Office of Dean of Students
+                          </Link>
+                          <Link
                             to="/life-at-vu"
                             className="text-left link-hover"
                             style={{ color: "#FFF", fontWeight: "400" }}
