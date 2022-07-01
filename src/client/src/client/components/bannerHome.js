@@ -27,6 +27,31 @@ class BannerHome extends Component {
             className="w3l-banner-slider-main breadcrumb-infhny"
             style={{ zIndex: "0" }}
           >
+            <div className="cube">
+              {/* <div> */}
+              <div className="back slider">
+                <h1>Anatoli</h1>
+              </div>
+              <div className="left slider">
+                <img src="assets/images/graduation.jpg" />
+              </div>
+              <div className="right slider">
+                <h1>Your future begins with us</h1>
+              </div>
+              <div className="top slider">
+                <h1>
+                  You can graduate with 1000<sup>+</sup>hours of experience on
+                  your CV
+                </h1>
+              </div>
+              <div className="bottom slider">
+                <h1>Step into a world of experience</h1>
+              </div>
+              <div className="front slider">
+                <h1>Education that is driven by experience</h1>
+              </div>
+              {/* </div> */}
+            </div>
             <div
               id="carouselExampleIndicators"
               className="carousel slide"
@@ -98,14 +123,18 @@ class BannerHome extends Component {
                         <sup>th</sup> August 2022 &nbsp;
                       </h2>
                     </marquee>
+
                     <h1
                       className="main-header"
                       style={{ textAlign: "center", width: "100%" }}
                     >
                       EXPERIENCE
                     </h1>
-                    <p className="sub-head text-center">
-                      A WORK-INTEGRATED LEARNING APPROACH FOR AFRICA
+                    <p
+                      className="sub-head text-center"
+                      style={{ textAlign: "center", width: "100%" }}
+                    >
+                      EDUCATION FOR DIFFERENCE MAKERS
                     </p>
                     <p
                       className="sub-link"
