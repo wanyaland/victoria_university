@@ -167,7 +167,7 @@ class OurTeam extends Component {
                           <Link to="/senate">
                             <img
                               className="port-image img-fuild"
-                              src="assets/images/img/vc.jpeg"
+                              src="assets/images/img/vc.JPG"
                               alt=""
                               style={{ border: "#CCC 1px solid" }}
                             />
