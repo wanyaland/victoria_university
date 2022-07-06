@@ -242,7 +242,7 @@ class Gallery extends Component {
               <br />
               <br />
               <br />
-              <h1>Skills Lab</h1>
+              <h1>Skills' Lab</h1>
               <hr />
               <div className="row">
                 <GalleryListSkillsLab
@@ -257,7 +257,7 @@ class Gallery extends Component {
               <br />
               <br />
               <br />
-              <h1>CEO Platiform</h1>
+              <h1>CEO's Platform</h1>
               <hr />
               <div className="row">
                 <GalleryListCEO
@@ -287,7 +287,7 @@ class Gallery extends Component {
               <br />
               <br />
               <br />
-              <h1>Freshers Ball</h1>
+              <h1>Freshers' Ball</h1>
               <hr />
               <div className="row">
                 <GalleryListFBall
