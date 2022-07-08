@@ -147,7 +147,7 @@ class PublicRes extends Component {
                         id="publications-child1"
                       >
                         <div className="child-left">
-                          <img src="assets/images/img/vc.jpeg" alt="" />
+                          <img src="assets/images/img/vc.JPG" alt="" />
                         </div>
                         <div className="child-right">
                           <h1>Prof. Lawrence Muganga</h1>
@@ -1665,7 +1665,7 @@ class PublicRes extends Component {
                         </div>
                       </div>
 
-                      <div
+                      {/* <div
                         className="publications-child"
                         id="publications-child5"
                       >
@@ -1674,10 +1674,10 @@ class PublicRes extends Component {
                         </div>
                         <div className="child-right">
                           <h1>Dr. Rosemary Nakijoba</h1>
-                          {/* <p>
+                          <p>
                             Dean of Faculty of Humanities and Social Sciences
                             <br />
-                          </p> */}
+                          </p>
                           <button
                             className="read-more"
                             onClick={function () {
@@ -1807,7 +1807,7 @@ class PublicRes extends Component {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div
