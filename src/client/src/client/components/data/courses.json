@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "img": "/assets/images/cources/1.JPEG",
+    "img": "/assets/images/cources/1.jpeg",
     "program": "Masters of Business Administration",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -24,7 +24,7 @@
   },
   {
     "id": 1,
-    "img": "/assets/images/cources/2.JPEG",
+    "img": "/assets/images/cources/2.jpeg",
     "program": "Master of Business Administration (MBA Accounting and Finance)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -47,7 +47,7 @@
   },
   {
     "id": 2,
-    "img": "/assets/images/cources/3.JPEG",
+    "img": "/assets/images/cources/3.jpeg",
     "program": "Master of Business Administration (MBA Human Resource Management)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -70,7 +70,7 @@
   },
   {
     "id": 3,
-    "img": "/assets/images/cources/4.JPEG",
+    "img": "/assets/images/cources/4.jpeg",
     "program": "Master of Business Administration (Marketing)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -93,7 +93,7 @@
   },
   {
     "id": 4,
-    "img": "/assets/images/cources/5.JPEG",
+    "img": "/assets/images/cources/5.jpeg",
     "program": "Master of Business Administration (MBA Real Estate and Propoerty Management)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -116,7 +116,7 @@
   },
   {
     "id": 5,
-    "img": "/assets/images/cources/6.JPEG",
+    "img": "/assets/images/cources/6.jpeg",
     "program": "Masters in Monitoring & Evaluation",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -139,7 +139,7 @@
   },
   {
     "id": 6,
-    "img": "/assets/images/cources/7.JPEG",
+    "img": "/assets/images/cources/7.jpeg",
     "program": "Master of Science in Information Technology",
     "duration": "2 Years",
     "local_price": "1696900",
@@ -162,7 +162,7 @@
   },
   {
     "id": 7,
-    "img": "/assets/images/cources/8.JPEG",
+    "img": "/assets/images/cources/8.jpeg",
     "program": "Master of Science in Big Data Analytics",
     "duration": "2 Years",
     "local_price": "1823300",
