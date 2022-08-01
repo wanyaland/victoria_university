@@ -99,7 +99,7 @@ class Careers extends Component {
                     Available vacancies
                   </h6>
                   <br />
-                  <div
+                  {/* <div
                     className=""
                     style={{
                       width: "100%",
@@ -473,11 +473,11 @@ class Careers extends Component {
                               </li>
                             </ul>
                           </div>
-                        </div>
+                        </div> 
                         <br />
                       </div>
                     </ul>
-                  </div>
+                              </div>*/}
                 </div>
               </div>
             </div>

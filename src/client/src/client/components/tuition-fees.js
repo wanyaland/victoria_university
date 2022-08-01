@@ -418,7 +418,7 @@ class Tuition extends Component {
                   <br />
                   <br />
                   <p>
-                    <a
+                    {/* <a
                       className="logo-2"
                       href="/assets/docs/Tution and Fees Documentation.pdf"
                       download="assets/docs/Tution and Fees Documentation.pdf"
@@ -454,7 +454,7 @@ class Tuition extends Component {
                         Download our tuition and fees documentation{" "}
                         <span className="fa fa-file-pdf-o"></span>
                       </span>
-                    </a>
+                    </a> */}
                   </p>
                 </div>
               </div>
@@ -642,6 +642,7 @@ class Tuition extends Component {
                                   Upcoming intake: September 2022
                                 </td>
                               </tr>
+                              Download our tuition and fees documentation
                             </table>
                             <p className="my-4">
                               Courses start on the first of each month. However,
