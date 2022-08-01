@@ -240,35 +240,20 @@ class Senate extends Component {
                           </h6>
                           <br />
                           <br />
-                          Prof Augustine Ifelebuegu is a thorough breed academic
-                          and a Senior Fellow of the UK Higher Education
-                          Academy. He is a highly innovative, exceptionally
-                          talented and extremely versatile professional with
+                          Prof Augustine Ifelebuegu posseses unique credentials
+                          as an academic. The Senior Fellow of the UK Higher
+                          Education Academy is a highly innovative,
+                          exceptionally talented and versatile professional with
                           over 24 years of post-graduation experience that spans
                           the petroleum industry, water/waste industry, and
                           academia. He is currently the Deputy Vice
-                          Chancellor-Academic Affairs at Victoria University. U,
-                          Kampala. Until recently, he was the Head of Civil and
-                          Environmental Engineering Cluster at the University of
-                          West of England Bristol (UWE), UK. Before joining UWE
-                          in 2021, he worked for Coventry University for 13
-                          years where he rose from a Lecturer to an Associate
-                          Professor in Energy and Environment. He was the
-                          International Team Lead for World Bank-funded
-                          Albertine Regional Sustainable Development Project in
-                          Uganda. He pioneered and led the development of
-                          Coventry University suites of energy programmes which
-                          grew to become a School of Energy, Construction and
-                          Environment in the Faculty of Engineering. He has many
-                          years experience of in international collaborations.
-                          He served as a Link Tutor to Ghana Technology
-                          University and a Visiting Professor to Kadir Has
-                          University Turkey, Saveetha University India,
-                          Cranfield University UK, University of Leeds UK, etc.
-                          He has severed as an external examiner for several UK
-                          Universities including, Newcastle University,
-                          Heriot-Watt University, DMU Leicester, Robert Gordon
-                          University, and the University of Plymouth.
+                          Chancellor-Academic Affairs at Victoria University
+                          Uganda, Kampala. Until recently, he was the Head of
+                          Civil and Environmental Engineering Cluster at the
+                          University of West of England Bristol (UWE), UK.
+                          Before joining UWE in 2021, he worked for Coventry
+                          University for 13 years where he rose from a Lecturer
+                          to an Associate Professor in Energy and Environment.
                           <br />
                           <br />
                           Before joining Coventry University, he was a Process
@@ -288,10 +273,38 @@ class Senate extends Component {
                           Tanzania, Cameroon, and Brazil.
                           <br />
                           <br />
-                          Augustine is a multidiciplinary researcher with
-                          researches covering the Water-Food- Energy nexus,
-                          environmental stutainability, project management and
-                          safety.
+                          He has a background in international collaborations.
+                          He served as a Link Tutor to Ghana Technology
+                          University and a Visiting Professor to Kadir Has
+                          University Turkey, Saveetha University India,
+                          Cranfield University UK, University of Leeds UK, etc.
+                          He has served as an external examiner for several UK
+                          Universities including, Newcastle University,
+                          Heriot-Watt University, DMU Leicester, Robert Gordon
+                          University, and the University of Plymouth.
+                          <br />
+                          <br />
+                          Before joining Coventry University, he was a Process
+                          Design Engineer at Se vern Trent Water where he was
+                          involved in several multimillion Pounds projects. He
+                          also worked for Fugro Consultants as a QHSE
+                          Consultant. He consulted for various multinational
+                          companies operating in the upstream and downstream Oil
+                          and Gas sector in West Africa, UK, and the Middle
+                          East. He was involved in several projects for Nigeria
+                          Liquefied Natural Gas, Shell Petroleum, Shell Nigerian
+                          Gas, ExxonMobil, Addax Petroleum, ChevronTexaco,
+                          Total, Eni, Schlumberger, Oildata Wireline, Air
+                          Liquide, ConocoPhillips, etc. Augustine has consulted
+                          for several Governments and parastatals in Nigeria,
+                          Uganda, South Sudan, Saudi Arabia, Ghana, Liberia,
+                          Tanzania, Cameroon, and Brazil.
+                          <br />
+                          <br />
+                          Prof. Augustine Ifelebuegu is a multidisciplinary
+                          researcher with studies covering the Water-Food-Energy
+                          nexus, environmental stutainability, project
+                          management and safety.
                         </p>
                       </div>
                     </div>
@@ -339,77 +352,78 @@ class Senate extends Component {
                         <h4 className="text-left">Accademic Registrar</h4>
                         <h6 className="text-left">Prof. Athur Ahimbisibwe</h6>
                         <p className="my-4 text-left">
+                          PROCURING SOLUTIONS TO THE WORLD
                           <br />
                           <br />
-                          Prof. Arthur Ahimbisibwe Rugo holds a PhD in Supply
-                          Chain Management from Victoria University of
-                          Wellington, New Zealand, Master of Science in
-                          Procurement and Supply Chain Management with a
-                          distinction from Makerere University, Kampala, Uganda,
-                          and a First-Class Degree in Bachelor of Business
-                          Administration specialising in Procurement and Supply
-                          Chain Management also from Makerere University,
-                          Kampala, Uganda. He also possess professional
-                          qualifications such as being a certified member of
-                          Chartered Institute of Purchasing and supply-MCIPS
-                          (UK), a Fellow of Chartered Institute of Logistics and
+                          Prof. Arthur Ahimbisibwe Rugo is an accomplished
+                          practitioner of Supply Chain Management, a senior
+                          researcher, consultant and academician of undisputed
+                          heights. He holds a PhD in Supply Chain Management
+                          from Victoria University of Wellington, New Zealand,
+                          Master of Science in Procurement and Supply Chain
+                          Management with a distinction from Makerere
+                          University, Kampala, Uganda, and a First-Class Degree
+                          in Bachelor of Business Administration specialising in
+                          Procurement and Supply Chain Management from Makerere
+                          University, Kampala, Uganda.
+                          <br />
+                          <br />
+                          Prof. Arthur Ahimbisibwe also possess professional
+                          qualifications; he is a certified member of Chartered
+                          Institute of Purchasing and supply-MCIPS (UK), a
+                          Fellow of Chartered Institute of Logistics and
                           Transport-FCILT (UK), a certified member of Project
                           Management Institute-PMI (UK) and a Certified
-                          Procurement Professional, Institute of Procurement
+                          Procurement Professional - Institute of Procurement
                           Professionals of Uganda-(IPPU) among other
-                          qualifications. He is Professor of Supply Chain
-                          Management, a senior researcher, consultant and an
-                          accomplished academician.
+                          qualifications..
                           <br />
                           <br />
                           Prof. Ahimbisibwe has over fifteen (15) years of
-                          working experience in universities, of which eight (8)
-                          years he has been in senior managerial positions. He
-                          has served in various managerial positions as a Head
-                          of Department (HOD) and as Acting Dean both in
-                          Makerere University, Dean of School of Postgraduate
-                          Studies, Deputy Vice Chancellor Academics and served
-                          as Acting Vice Chancellor of University of Kigali.
+                          working experience in universities, eight (8) of which
+                          in senior managerial positions. At Makerere
+                          University, he has served as Head of Department and
+                          Dean of School of Postgraduate Studies, Deputy Vice
+                          Chancellor Academics. In the past, he has served as
+                          Acting Vice Chancellor of University of Kigali.
                           <br />
                           <br />
                           Prof. Ahimbisibwe has written and published more than
                           fifty (50) research articles which have been published
-                          in international refereed journals in the top ranked
-                          academic journals in the world. Some of the key top
-                          most research journals in the world where his work has
-                          been published include: Journal of Strategy and
-                          Management, Journal of African Business, Journal of
-                          Public Procurement, Journal of Enterprise Information
-                          Management, Records Management Journal, European
-                          Journal of Logistics, Purchasing and Supply Chain
-                          Management, International Journal of Operations and
-                          Logistics Management, International Journal of Supply
-                          Chain Management, European Journal of Business and
-                          Management, Journal of Supply Chain Management,
-                          European Journal of Logistics, Purchasing and Supply
-                          Chain Management, Journal of Management, Journal of
-                          Public Procurement and Contract Management, among
-                          others.
+                          in international refereed top ranked academic journals
+                          in the world. Some of the high profile publications
+                          include: Journal of Strategy and Management, Journal
+                          of African Business, Journal of Public Procurement,
+                          Journal of Enterprise Information Management, Records
+                          Management Journal, European Journal of Logistics,
+                          Purchasing and Supply Chain Management, International
+                          Journal of Operations and Logistics Management,
+                          International Journal of Supply Chain Management,
+                          European Journal of Business and Management, Journal
+                          of Supply Chain Management, European Journal of
+                          Logistics, Purchasing and Supply Chain Management,
+                          Journal of Management, Journal of Public Procurement
+                          and Contract Management, among others.
                           <br />
                           <br />
                           Prof. Ahimbisibwe has supervised over 400 postgraduate
                           students in the Postgraduate School to completion;
                           facilitated in over 110 training workshops and
                           conferences in both local and international
-                          environments. He has also worked in collaborations
-                          with vibrant, interdisciplinary and dynamic research
-                          groups to present research in international
-                          conferences, compete for funding and providing
-                          guidance to undergraduate, masters and PhD students.
-                          In 2011, He was awarded the best research paper of the
+                          environments. He has also corroborated with vibrant,
+                          interdisciplinary and dynamic research groups to
+                          present research in international conferences, compete
+                          for funding and providing guidance to undergraduate,
+                          masters and PhD students.
+                          <br />
+                          <br />
+                          In 2011, he was awarded the best research paper of the
                           year in Technology, Innovation and Supply Chain
                           Management at the Australian and New Zealand Academy
                           of Management (ANZAM) Conference, 7-9 December,
-                          Wellington, New Zealand. He has excellent written and
-                          oral presentation skills, strong interpersonal skills,
-                          organizational and communication skills. He speaks
-                          very good fluent English and enjoys sharing knowledge
-                          through teaching and research.
+                          Wellington, New Zealand. He is famed for impeccable
+                          skills in presentation, and organisational discipline
+                          relevant for modern institutions
                         </p>
                       </div>
                     </div>
@@ -610,57 +624,51 @@ class Senate extends Component {
                         >
                           &times;
                         </span>
+                        <h4 className="text-left">
+                          Dean Faculty of Science and Technology
+                        </h4>
+                        <h6 className="text-left">Dr. Kakeeto David</h6>
                         <br />
                         <p className="my-4 text-left">
-                          Dr. David Kakeeto (Ph.D), an Educational Technology
-                          (ICT-Educ), a senior lecturer at Victoria University.
-                          He is currently academic and administrative Dean,
+                          Dr. David Kakeeto (PhD), an authority in Educational
+                          Technology (ICT-Edu). He is a Senior Lecturer, and
+                          currently the Academic and Administrative Dean –
                           Faculty of Science and Technology (FST), Victoria
-                          University, but formerly Head of Department Nkumba
-                          University for two years, Head of Department
-                          University of Kisubi for three years. A holder of B.A
-                          SS (Economics), (Mak), Certificate in Certificate in
-                          Computer Networking Technology, (Telecom Institute,
-                          Malaysia), Master of ICT with Education, (Mak) and
-                          Doctor of Philosophy Ph.D in Education with ICT (Mak).
-                          <br></br>
-                          Dr. Kakeeto has examined several research projects
-                          from different universities in Uganda and both
-                          graduate and undergraduate research projects both in
-                          areas of ICT and Education. He has vast teaching
-                          experience of over sixteen years in areas of:
-                          Multimedia for Education, Information systems, Micro
+                          University.
+                          <br />
+                          <br />
+                          He has previously served in the capacity as Head of
+                          Department Nkumba University, formerly Head of
+                          Department University of Kisubi.
+                          <br />
+                          <br />A former Head Curriculum design, at National
+                          Council for Higher Education, Dr. Kakeeto has been
+                          credited for reviewing several old curriculum in
+                          higher education.
+                          <br />
+                          <br />
+                          Currently, Dr. Kakeeto supervises tertiary
+                          institutions in areas of accreditations, at NCHE and a
+                          research consultant with Uganda National Examinations
+                          Board (UNEB).
+                          <br />
+                          <br />A holder of B.A SS (Economics), (Mak),
+                          Certificate in Computer Networking Technology,
+                          (Telecom Institute, Malaysia), Master of ICT with
+                          Education, (Mak) and PhD in Education with ICT (Mak).
+                          Dr. Kakeeto’s in-depth data analysis has seen him
+                          undertake several research projects in areas of ICT
+                          and Education. His over sixteen years teaching
+                          background, has amassed pedigree in areas of:
+                          Multimedia for Education, Information Systems, Micro
                           Computer Applications, E-Business, Research methods,
                           Data processing and Management, Instructional design
                           and development.
-                          <br></br>
+                          <br />
+                          <br />
                           He is a computing, statistical and operations research
                           consultant with various governmental and private
-                          agencies. Dr. Kakeeto is an academic with research
-                          interests in Educational Technology, Information
-                          systems and E-Health. Has been involved in quite a
-                          number of research projects with different
-                          institutions, including Governmental parastatals. Dr.
-                          Kakeeto has publications in line with ICT and
-                          Learning. He has supervised 12 master’s degree
-                          students to completion and over 20 undergraduate
-                          research projects to graduation.<br></br>
-                          Dr. Kakeeto has headed curriculum design and
-                          development; reviewed several old curriculum as
-                          mandated by the standards of National Council for
-                          Higher Education for quite a number of years. Dr.
-                          Kakeeto also works with National Council for Higher
-                          Education in issues of monitoring and supervision of
-                          tertiary institutions, especially in areas of
-                          accreditations, a research consultant with Uganda
-                          National Examinations Board (UNEB).<br></br>
-                          Dr. Kakeeto lectures Database management systems,
-                          Information Technology, Information systems, Micro
-                          E-Business, Data processing and Management, systems
-                          analysis and design, Big data analytics, research
-                          methods, ICT, and statistical methods at both
-                          postgraduate and undergraduate levels, E-Governance
-                          and ICT for Development.
+                          agencies.
                         </p>
                       </div>
                     </div>
@@ -711,33 +719,46 @@ class Senate extends Component {
                           Dr. Aisha Musaazi Sebunya Nakitto
                         </h6>
                         <p className="my-4 text-left">
-                          Dr. Aisha Musaazi Sebunya Nakitto is her Nutrition
-                          Specialist, with over 12 years of experience. Her
-                          areas of interest in teaching and research include
-                          nutraceuticals, nutrigenomics, nutritional
-                          biochemistry, clinical and pre-clinical studies,
-                          aging, non-communicable diseases, HIV, food security,
-                          dietary assessment, maternal and child nutrition, and
-                          food product development. <br />
+                          FEED RIGHT TO STAY RIGHT
                           <br />
-                          Dr. Aisha has a joint/ binational Ph.D. from Justus
+                          <br />
+                          Dr. Aisha Musaazi Sebunya Nakitto is a seasoned
+                          Nutrition Specialist, with over 12 years’ experience.
+                          Her repute in teaching and research extends to
+                          nutraceuticals, nutrigenomics, Nutritional
+                          Biochemistry, clinical and pre-clinical studies,
+                          aging, Non-Communicable Diseases, HIV, Food Security,
+                          dietary assessment, Maternal and Child Nutrition, and
+                          Food Product Development.
+                          <br />
+                          <br />
+                          Dr. Musaazi has a joint/ binational PhD. from Justus
                           Liebig University, Giessen (Germany) and Makerere
-                          University. She has an MSc. in Applied Human Nutrition
-                          and a BSc. in Education (Biology, Chemistry), both
-                          obtained from Makerere University. Additionally, she
-                          has Certificates in “Enhancing Academic Qualifications
-                          in teaching and research of Public Health” and “Good
-                          Health Research Practices” from the University of
-                          Heidelberg, “Nutrition and Food Systems” from FAO, and
-                          “Implementation research” from WHO. <br />
+                          University. She holds a MSc. in Applied Human
+                          Nutrition and a BSc. in Education (Biology,
+                          Chemistry), from Makerere University.
                           <br />
-                          Although a Nutrition Specialist, Dr Aisha is
-                          passionate about data analytics, with proficiency in
-                          Statistical (R, SPSS, GraphPad Prism) and Nutritional
-                          (EpiInfo and CsDietary) software. She also has
-                          Certificates in “Advanced Quantitative Data Analysis”
-                          and “Advanced Research Methods” from Makerere
-                          University. <br />
+                          <br />
+                          She holds additional certificates in: “Enhancing
+                          Academic Qualifications in teaching and research in
+                          Public Health” and “Good Health Research Practices”
+                          obtained from the University of Heidelberg, “Nutrition
+                          and Food Systems” from FAO, and “Implementation
+                          Research” from WHO.
+                          <br />
+                          <br />
+                          Dr Aisha is proficient in data analytics, with
+                          competence in Statistical (R, SPSS, GraphPad Prism)
+                          and Nutritional (EpiInfo and CsDietary) software. She
+                          also possess certificates in “Advanced Quantitative
+                          Data Analysis” and “Advanced Research Methods” from
+                          Makerere University.
+                          <br />
+                          <br />
+                          The award-winning scholar (DAAD, University of
+                          Heidelberg and USAID) has over the years undertaken a
+                          number of consultancy roles with various international
+                          organizations such as; FHI 360 and Akademiya2063.
                         </p>
                       </div>
                     </div>
@@ -1015,15 +1036,28 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
-                          Mr. Mubiru Steven is a Librarian by profession and
-                          practice with vast experience in library and
-                          information center management which was gained while
-                          serving in different institutions like Clarke
+                          Librarian of many shades
+                          <br />
+                          <br />
+                          Mr. Mubiru Steven is a seasoned Librarian. He comes
+                          with vast experience in library and Information Center
+                          Management and passage of acknowledgements.
+                          <br />
+                          <br />
+                          That history has been gained with past experiences
+                          working with different institutions like Clarke
                           International University, Uganda Christian University
-                          and Team University in different positions. He hold a
-                          Masters of Library and Information Studies and a
-                          Bachelors of Library and Information Science from
-                          Uganda Christian University, Mukono.
+                          and Team University.
+                          <br />
+                          <br />
+                          He hold a Masters of Library and Information Studies
+                          and a Bachelors of Library and Information Science
+                          from Uganda Christian University, Mukono.
+                          <br />
+                          <br />
+                          He is one of the most sought after in the filed for
+                          consultancy and continues to be a reference point for
+                          librarians.
                           {/* <br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
                         </p>
@@ -1119,129 +1153,103 @@ class Senate extends Component {
                         </span>
                         <br />
                         <p className="my-4 text-left">
+                          <h4 className="text-left">Quality assurance</h4>
+                          <h6 className="text-left">Mr. Mbago Ronald</h6>
+                          Leading light on career satisfaction
                           <br />
                           <br />
-                          Ronald Mbago is the current head of the Quality
+                          Ronald Mbago is the Current Head of the Quality
                           Assurance Department of Victoria University. He holds
-                          both a Bachelor and a Masters in Human Resource
-                          Management (2008 and 2011 respectively); and he is
-                          currently pursuing a Ph.D in Business Management. In
-                          2010, he completed Training of trainers’ course on
-                          MDGs Capacity Building, Rotary Youth Leadership Award,
-                          Behavioral Change Training (2008) and Procurement
-                          &amp; Contract management (2007) and Training in
-                          Finance for non-Finance Managers (2009).
+                          a Bachelor and a Masters in Human Resource Management.
+                          He is currently pursuing a Ph.D. in Business
+                          Management.
                           <br />
                           <br />
-                          He co-authored and published in European – American
-                          journals on Human Resource Policy and Job satisfaction
-                          of employees in knowledge-based enterprises: a
-                          comparative study of indigenous and expatriate
-                          teaching staffs of Kampala International University,
-                          Uganda.
+                          He has broadened his skills development with extended
+                          training in: MDGs Capacity Building (2010), Rotary
+                          Youth Leadership Award, Behavioral Change (2008),
+                          Procurement & Contract Management (2007) and Finance
+                          for non-Finance Managers (2009).
                           <br />
                           <br />
-                          He has over 12 years of work experience as a lecturer
-                          and manager in three Universities (Two in Uganda and
-                          one in Rwanda) and he has exposure in the general
-                          management and administration of the University
-                          faculties. He is strong team leader and player with
-                          proven ability to adapt quickly to changing
-                          circumstances.
+                          He has co-authored and published extensively in high
+                          profile journals in Europe, America and the continent
+                          on Human Resource Policy and Job satisfaction of
+                          employees in knowledge-based enterprises
                           <br />
                           <br />
-                          Most recently (2017 -2021), he served as an Associate
-                          Dean for Evening and Weekend Programs at the
-                          University of Kigali in Rwanda. In this position, he
-                          supervised over 65 academic and administrative staff;
-                          monitored the implementation of programmes for over
-                          2500 students. As a Dean and Deputy Principal, he was
-                          a member of the University senate and Senior
-                          Management Committee and his key accomplishments
-                          include review of the strategic objectives and
+                          His publication - “A comparative study of indigenous
+                          and expatriate teaching staffs of Kampala
+                          International University, Uganda.” has been widely
+                          acknowledged.
+                          <br />
+                          <br />
+                          His over 12 years as a lecturer and senior manager in
+                          three Universities is attributed to his adaptability
+                          and flexibility to changing leadership needs.
+                          <br />
+                          <br />
+                          From 2017 -2021, he served as an Associate Dean for
+                          Evening and Weekend Programs at the University of
+                          Kigali in Rwanda. In this position, he championed the
+                          implementation of programmes for over 2500 students.
+                          <br />
+                          <br />
+                          As a Dean and Deputy Principal, sitting on the
+                          University senate and Senior Management Committee, he
+                          steered the review of the strategic objectives and
                           development of a 5 year (2020 -2025) strategic plan
-                          and review of HR needs and guidelines which resulted
-                          in the identification of competency gaps and designing
-                          of the current job chart.
+                          and review of HR needs and guidelines.
                           <br />
                           <br />
-                          In 2017, he served as a Deputy Principal of University
-                          of Kigali (Musanze Campus) located in Musanze
-                          District, the second biggest and tourism city of
-                          Rwanda where he was able to manage and supervise a
-                          diverse work force with a very high level of ethics
-                          and integrity. He progressively built the capacity of
-                          staff under his supervision through coaching and
-                          training session in understanding of academic
-                          management and enforcing best practices.
+                          He is renowned for reforming systems and instilling
+                          progress. As a Deputy Principal of The University of
+                          Kigali (Musanze Campus) he enforced the best practises
+                          through developing progressive policies.
                           <br />
                           <br />
-                          In 2016, he was appointed Head of department at
-                          University of Kigali; where he was in charge of
-                          teaching and learning and monitored the curriculum
-                          review and implementation of four Programs: Bachelor
-                          of Science with Honours in Marketing, Bachelor of
-                          Sciences with honours in Economics, Bachelor of
-                          Science with Honours in Procurement and Bachelor of
-                          Public Administration and Local Governance. With very
-                          excellent managerial and innovative skills, he
-                          introduced team teaching to help improve the method of
-                          delivery in class and provide students with the
-                          opportunity to effectively participate and contribute
-                          during lectures.
+                          As Head of department at University of Kigali (2016),
+                          he fostered a Curriculum Review and implementation of
+                          four Programs: Bachelor of Science with Honours in
+                          Marketing, Bachelor of Sciences with honours in
+                          Economics, Bachelor of Science with Honours in
+                          Procurement and Bachelor of Public Administration and
+                          Local Governance.
                           <br />
                           <br />
-                          Previously (2012 – 2015), he served as the Head of
-                          Department (HOD) of Human Resource and Supply
-                          Management at Kampala International University. In
-                          this position, he spearheaded the review of
-                          curriculums with the objective of aligning them with
-                          the 21 st labour market needs. This review made Human
-                          Resource Management one of flagship program for the
-                          University and many institutions in the country
-                          benchmark with KIU while drafting their Human Resource
-                          programs.
+                          As the Head of Department (HOD) Human Resource and
+                          Supply Management at Kampala International University
+                          (2012 – 2015), he spearheaded the review of
+                          curriculums to reflect the 21st labour market needs.
                           <br />
                           <br />
-                          Over the years, he has provided consultancy services
-                          to private and public sectors on Human Resource
-                          matters. Specifically, in 2017, he provided management
-                          advise on the administration of human resources
-                          policies and procedures for Special Guarantee Fund, a
-                          Rwandan government parastatal responsible for insuring
-                          against wild animal damages, non-insured and
-                          non-identified vehicle accidents. Furthermore, in
-                          2019, he analysed the Human Resource programs for
-                          Rwanda Federation of Transport Cooperatives, and
-                          recommended solutions on contractual matters in order
-                          to maximize employee potential and help solidify the
-                          growth of human resources for successive career path
-                          and job advancement for the cooperatives.
+                          The review document, has since become a reference
+                          point and adopted by a number of institutions in the
+                          country.
                           <br />
                           <br />
-                          I have very strong organizational skills that he used
-                          as the Vice President of Rotary Club of Kololo,
-                          Uganda, to chair and coordinate the preparation of
-                          three medical outreach projects for over 2000 members
-                          from the less privileged communities that were treated
-                          free of charge in rural areas of Eastern and Central
-                          Uganda. In addition, as a Community Services Director,
-                          he mobilised members of the club to willingly donate
-                          in kind or financially household items which were
-                          donated to refugee camps of Adjumani district in
-                          Uganda.
+                          Over the years, he has been a consultant to private
+                          and public sectors on Human Resource matters. In 2017,
+                          he guided on the administration of human resources
+                          policies and procedures for a Special Guarantee Fund
+                          for the Rwandan government
                           <br />
                           <br />
-                          He has proven Interpersonal skills that he
-                          demonstrated (2008 – 2009) during his tenure as a
-                          project manager in South Sudan at a time where the
-                          country had just come from a very long civil war. He
-                          managed to establish and maintain positive relations
-                          with the community, leaders including other project
-                          stakeholders and agencies. All parties appreciated
-                          each other’s perspective which consequently enabled
-                          the organization to thrive in a culturally diverse and
-                          fragile environment.
+                          His consultancy for the Rwanda Federation of Transport
+                          Cooperatives in 2019, revitalised contractual matters
+                          and employee potential within the institution.
+                          <br />
+                          <br />
+                          As the Vice President of Rotary Club of Kololo,
+                          Uganda, he has initiated landmark outreach projects
+                          that have benefited hundreds in less privileged
+                          communities especially in far reach areas.
+                          <br />
+                          <br />
+                          He has proven Interpersonal skills; as Project Manager
+                          (2008 – 2009) in South Sudan he instilled an enabling
+                          working environment in war ravaged communities in the
+                          midst of conflict.
                           {/* <br/>
 									<b>Qualifications: Diploma in Human Resource Management, Victoria University.</b> */}
                         </p>

@@ -361,11 +361,11 @@ class Home extends Component {
                       <Link to="/tuition-fees">Tuition &amp; Fees</Link>
                     </h6>
                     <span className="dot purple"></span>
-                    <p>
+                    {/* <p>
                       <Link className="calBtn" onClick={this.popCal}>
                         Calculate Fees
                       </Link>
-                    </p>
+                    </p> */}
                     <p>
                       <Link to="/tuition-fees">Fees and tuition payment</Link>
                     </p>

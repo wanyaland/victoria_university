@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "img": "/assets/images/cources/1.JPEG",
     "program": "Masters of Business Administration",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -23,6 +24,7 @@
   },
   {
     "id": 1,
+    "img": "/assets/images/cources/2.JPEG",
     "program": "Master of Business Administration (MBA Accounting and Finance)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -45,6 +47,7 @@
   },
   {
     "id": 2,
+    "img": "/assets/images/cources/3.JPEG",
     "program": "Master of Business Administration (MBA Human Resource Management)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -67,6 +70,7 @@
   },
   {
     "id": 3,
+    "img": "/assets/images/cources/4.JPEG",
     "program": "Master of Business Administration (Marketing)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -89,6 +93,7 @@
   },
   {
     "id": 4,
+    "img": "/assets/images/cources/5.JPEG",
     "program": "Master of Business Administration (MBA Real Estate and Propoerty Management)",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -111,6 +116,7 @@
   },
   {
     "id": 5,
+    "img": "/assets/images/cources/6.JPEG",
     "program": "Masters in Monitoring & Evaluation",
     "duration": "2 Years",
     "local_price": "1608500",
@@ -133,6 +139,7 @@
   },
   {
     "id": 6,
+    "img": "/assets/images/cources/7.JPEG",
     "program": "Master of Science in Information Technology",
     "duration": "2 Years",
     "local_price": "1696900",
@@ -155,6 +162,7 @@
   },
   {
     "id": 7,
+    "img": "/assets/images/cources/8.JPEG",
     "program": "Master of Science in Big Data Analytics",
     "duration": "2 Years",
     "local_price": "1823300",
@@ -177,6 +185,7 @@
   },
   {
     "id": 8,
+    "img": "/assets/images/cap.png",
     "program": "Master of Science in Global Health Nutrition (Full-Time)",
     "duration": "1.5 Years",
     "local_price": "1823300",
@@ -199,6 +208,7 @@
   },
   {
     "id": 9,
+    "img": "/assets/images/cap.png",
     "program": "Master of Science in Global Health Nutrition (Part-Time)",
     "duration": "2.5 Years",
     "local_price": "1823300",
@@ -221,6 +231,7 @@
   },
   {
     "id": 10,
+    "img": "/assets/images/cap.png",
     "program": "Masters of Science in Sexual and Reproductive Health",
     "duration": "2 Years",
     "local_price": "1760100",
@@ -243,6 +254,7 @@
   },
   {
     "id": 11,
+    "img": "/assets/images/cap.png",
     "program": "Masters of Science in Health Service Management",
     "duration": "1.5 Years",
     "local_price": "1760100",
@@ -265,6 +277,7 @@
   },
   {
     "id": 12,
+    "img": "/assets/images/cap.png",
     "program": "Master Of Science In Public Health (Full-Time)",
     "duration": "2 Years",
     "local_price": "1760100",
@@ -287,6 +300,7 @@
   },
   {
     "id": 13,
+    "img": "/assets/images/cap.png",
     "program": "Master Of Science In Public Health (Part-Time)",
     "duration": "2 Years",
     "local_price": "1760100",
@@ -309,6 +323,7 @@
   },
   {
     "id": 14,
+    "img": "/assets/images/cap.png",
     "program": "Masters of Science in Health Service Management",
     "duration": "1 Years",
     "local_price": "1760100",
@@ -331,6 +346,7 @@
   },
   {
     "id": 15,
+    "img": "/assets/images/cap.png",
     "program": "Master of Arts in Public Administration and Management",
     "duration": "2 Years",
     "local_price": "1570600",
@@ -353,6 +369,7 @@
   },
   {
     "id": 16,
+    "img": "/assets/images/cap.png",
     "program": "Masters of Arts in Mass Communication",
     "duration": "2 Years",
     "local_price": "1570600",
@@ -375,6 +392,7 @@
   },
   {
     "id": 17,
+    "img": "/assets/images/cap.png",
     "program": "Masters in Diplomacy and Global Studies",
     "duration": "2 Years",
     "local_price": "1570600",
@@ -397,6 +415,7 @@
   },
   {
     "id": 18,
+    "img": "/assets/images/cap.png",
     "program": "Masters of Educational Administration and leadership and Management",
     "duration": "2 Years",
     "local_price": "1570600",
@@ -419,6 +438,7 @@
   },
   {
     "id": 19,
+    "img": "/assets/images/cap.png",
     "program": "Postgraduate Diploma Monitoring & Evaluation",
     "duration": "2 Years",
     "local_price": "1317800",
@@ -441,6 +461,7 @@
   },
   {
     "id": 20,
+    "img": "/assets/images/cap.png",
     "program": "Postgraduate Diploma in Nutrition and Leadership",
     "duration": "1 Year",
     "local_price": "1494800",
@@ -463,6 +484,7 @@
   },
   {
     "id": 21,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Business Administration",
     "duration": "3 Years",
     "local_price": "938700",
@@ -485,6 +507,7 @@
   },
   {
     "id": 22,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Business Administration (Real Estate and Property Management)",
     "duration": "3 Years",
     "local_price": "938700",
@@ -507,6 +530,7 @@
   },
   {
     "id": 23,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Banking and Finance",
     "duration": "3 Years",
     "local_price": "938700",
@@ -529,6 +553,7 @@
   },
   {
     "id": 24,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Procurement & Logistics Management",
     "duration": "3 Years",
     "local_price": "938700",
@@ -551,6 +576,7 @@
   },
   {
     "id": 25,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Tourism and Hopitality Management",
     "duration": "3 Years",
     "local_price": "938700",
@@ -573,6 +599,7 @@
   },
   {
     "id": 26,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of International Business",
     "duration": "3 Years",
     "local_price": "938700",
@@ -595,6 +622,7 @@
   },
   {
     "id": 27,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Oil and Gas Accounting",
     "duration": "3 Years",
     "local_price": "938700",
@@ -617,6 +645,7 @@
   },
   {
     "id": 28,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Arts in Human Resource Management",
     "duration": "3 Years",
     "local_price": "938700",
@@ -639,6 +668,7 @@
   },
   {
     "id": 29,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Hotel and Hospitality Management",
     "duration": "3 Years",
     "local_price": "938700",
@@ -661,6 +691,7 @@
   },
   {
     "id": 30,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Computer Science",
     "duration": "3 Years",
     "local_price": "938700",
@@ -683,6 +714,7 @@
   },
   {
     "id": 31,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Business Information Systems",
     "duration": "3 Years",
     "local_price": "938700",
@@ -705,6 +737,7 @@
   },
   {
     "id": 32,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Information Technology",
     "duration": "3 Years",
     "local_price": "938700",
@@ -727,6 +760,7 @@
   },
   {
     "id": 33,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Commerce Art & Industrial Design",
     "duration": "2 Years",
     "local_price": "938700",
@@ -749,6 +783,7 @@
   },
   {
     "id": 34,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor Agriculture & Rural Innovation",
     "duration": "2 Years",
     "local_price": "938700",
@@ -771,6 +806,7 @@
   },
   {
     "id": 35,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Animation and Visual Effects",
     "duration": "2 Years",
     "local_price": "1254605",
@@ -793,6 +829,7 @@
   },
   {
     "id": 36,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Public Health (Full Time)",
     "duration": "3 Years",
     "local_price": "1254700",
@@ -815,6 +852,7 @@
   },
   {
     "id": 37,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Public Health (Part Time)",
     "duration": "4 Years",
     "local_price": "1254700",
@@ -837,6 +875,7 @@
   },
   {
     "id": 38,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Nursing Science (DIRECT)",
     "duration": "4 Years",
     "local_price": "1254700",
@@ -859,6 +898,7 @@
   },
   {
     "id": 39,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Nursing Science (TOP-UP)",
     "duration": "2.5 Years",
     "local_price": "1254700",
@@ -881,6 +921,7 @@
   },
   {
     "id": 40,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor Of Midwifery Science (TOP-UP)",
     "duration": "2.5 Years",
     "local_price": "1254700",
@@ -903,6 +944,7 @@
   },
   {
     "id": 41,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Human Nutrition and Dietetics",
     "duration": "4 Years",
     "local_price": "1254700",
@@ -925,6 +967,7 @@
   },
   {
     "id": 42,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Arts in Public Administration & Management",
     "duration": "3 Years",
     "local_price": "938700",
@@ -947,6 +990,7 @@
   },
   {
     "id": 43,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Social work and Social Administration",
     "duration": "3 Years",
     "local_price": "938700",
@@ -969,6 +1013,7 @@
   },
   {
     "id": 44,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Arts in Journalism and Media Studies",
     "duration": "3 Years",
     "local_price": "938700",
@@ -991,6 +1036,7 @@
   },
   {
     "id": 45,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Development Studies",
     "duration": "3 Years",
     "local_price": "938000",
@@ -1013,6 +1059,7 @@
   },
   {
     "id": 46,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Arts in International Relations & Diplomatic Studies",
     "duration": "3 Years",
     "local_price": "938000",
@@ -1035,6 +1082,7 @@
   },
   {
     "id": 47,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Arts in Education (BA. Ed)",
     "duration": "3 Years",
     "local_price": "711300",
@@ -1057,6 +1105,7 @@
   },
   {
     "id": 48,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Science in Education (BSC. Ed)",
     "duration": "3 Years",
     "local_price": "812400",
@@ -1079,6 +1128,7 @@
   },
   {
     "id": 49,
+    "img": "/assets/images/cap.png",
     "program": "Bachelor of Laws",
     "duration": "5",
     "local_price": "1570000",
@@ -1101,6 +1151,7 @@
   },
   {
     "id": 50,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Procurement & Logistics Management",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1123,6 +1174,7 @@
   },
   {
     "id": 51,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Banking and Finance",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1145,6 +1197,7 @@
   },
   {
     "id": 52,
+    "img": "/assets/images/cap.png",
     "program": "Diploma In Business and Administration",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1167,6 +1220,7 @@
   },
   {
     "id": 53,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Tourism and Hospitality Management",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1189,6 +1243,7 @@
   },
   {
     "id": 54,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Human Resource Management",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1211,6 +1266,7 @@
   },
   {
     "id": 55,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Real Estate and Property Management",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1233,6 +1289,7 @@
   },
   {
     "id": 56,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Information Technology",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1255,6 +1312,7 @@
   },
   {
     "id": 57,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Viual Effects And Animation",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1276,6 +1334,7 @@
   },
   {
     "id": 58,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Social work and Social Administration",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1298,6 +1357,7 @@
   },
   {
     "id": 59,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in International Relations & Diplomatic Studies",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1320,6 +1380,7 @@
   },
   {
     "id": 60,
+    "img": "/assets/images/cap.png",
     "program": "Diploma in Journalism and Media Studies",
     "duration": "2 Years",
     "local_price": "509100",
@@ -1342,6 +1403,7 @@
   },
   {
     "id": 61,
+    "img": "/assets/images/cap.png",
     "program": "Higher Education Certificate (HEC) in Biological Science",
     "duration": "1 Year",
     "local_price": "520000",
@@ -1364,6 +1426,7 @@
   },
   {
     "id": 62,
+    "img": "/assets/images/cap.png",
     "program": "Higher Education Certificate (HEC) in Physical Sciences",
     "duration": "1 Year",
     "local_price": "520000",
@@ -1386,6 +1449,7 @@
   },
   {
     "id": 63,
+    "img": "/assets/images/cap.png",
     "program": "Higher Education Certificate (HEC) - General",
     "duration": "1 Year",
     "local_price": "482200",
@@ -1408,6 +1472,7 @@
   },
   {
     "id": 64,
+    "img": "/assets/images/cap.png",
     "program": "Digital Marketing and Social Media Specialist",
     "duration": "10 Weeks",
     "local_price": "360000",
@@ -1431,6 +1496,7 @@
   },
   {
     "id": 65,
+    "img": "/assets/images/cap.png",
     "program": "Entrepreneurial Development Studies",
     "duration": "10 Weeks",
     "local_price": "360000",
@@ -1454,6 +1520,7 @@
   },
   {
     "id": 66,
+    "img": "/assets/images/cap.png",
     "program": "Export Trade Promotion",
     "duration": "6 Weeks",
     "local_price": "360000",
@@ -1477,6 +1544,7 @@
   },
   {
     "id": 67,
+    "img": "/assets/images/cap.png",
     "program": "Sustainable Microfinance",
     "duration": "10 Weeks",
     "local_price": "360000",
@@ -1499,6 +1567,7 @@
   },
   {
     "id": 68,
+    "img": "/assets/images/cap.png",
     "program": "Introduction to Oil and Gas Industry",
     "duration": "6 WEEKENDS",
     "local_price": "900000",
@@ -1522,6 +1591,7 @@
   },
   {
     "id": 69,
+    "img": "/assets/images/cap.png",
     "program": "Oil and Gas Supply Chain and Logistics Management",
     "duration": "6 WEEKENDS",
     "local_price": "900000",
@@ -1544,6 +1614,7 @@
   },
   {
     "id": 70,
+    "img": "/assets/images/cap.png",
     "program": "Oil and Gas Project Management",
     "duration": "6 WEEKENDS",
     "local_price": "900000",
@@ -1566,6 +1637,7 @@
   },
   {
     "id": 71,
+    "img": "/assets/images/cap.png",
     "program": "Health, Safety and Environmental Management in the Oil and Gas Industry",
     "duration": "6 WEEKENDS",
     "local_price": "900000",
@@ -1588,6 +1660,7 @@
   },
   {
     "id": 72,
+    "img": "/assets/images/cap.png",
     "program": "House Keeping in the Hospitality Industry",
     "duration": "6 Weeks",
     "local_price": "400000",
@@ -1611,6 +1684,7 @@
   },
   {
     "id": 73,
+    "img": "/assets/images/cap.png",
     "program": "Customer Service in the Hospitality Industry",
     "duration": "6 Weeks",
     "local_price": "400000",
@@ -1634,6 +1708,7 @@
   },
   {
     "id": 74,
+    "img": "/assets/images/cap.png",
     "program": "Front Office Management in the Hospitality Industry",
     "duration": "6 Weeks",
     "local_price": "400000",
@@ -1657,6 +1732,7 @@
   },
   {
     "id": 75,
+    "img": "/assets/images/cap.png",
     "program": "Chartered Institute of Logistics and Transport (CILT)",
     "duration": "7months (Certificate), 1Year (Diploma), 1Year(Advanced Diploma)",
     "local_price": "0",
@@ -1680,6 +1756,7 @@
   },
   {
     "id": 76,
+    "img": "/assets/images/cap.png",
     "program": "CISCO-CCNA",
     "duration": "4 Months",
     "local_price": "600000",
@@ -1703,6 +1780,7 @@
   },
   {
     "id": 77,
+    "img": "/assets/images/cap.png",
     "program": "Cisco-IT Essentials",
     "duration": "2 Months",
     "local_price": "400000",
@@ -1725,6 +1803,7 @@
     "requirements": "This is a skilling course and caters for students who have completed s.4, s.6, bachelors etc and interested in equipping themselves with skills."
   },
   {
+    "img": "/assets/images/cap.png",
     "id": 78,
     "program": "Basic Computer Applications",
     "duration": "4 Weeks",
@@ -1749,6 +1828,7 @@
   },
   {
     "id": 79,
+    "img": "/assets/images/cap.png",
     "program": "CCTV Controller",
     "duration": "6 Weeks",
     "local_price": "300000",
@@ -1772,6 +1852,7 @@
   },
   {
     "id": 80,
+    "img": "/assets/images/cap.png",
     "program": "Cyber Security Essentials",
     "duration": "2 Months",
     "local_price": "600000",
@@ -1795,6 +1876,7 @@
   },
   {
     "id": 81,
+    "img": "/assets/images/cap.png",
     "program": "PCAP Programming Essentials in Python",
     "duration": "2 Months",
     "local_price": "600000",
@@ -1817,6 +1899,7 @@
   },
   {
     "id": 82,
+    "img": "/assets/images/cap.png",
     "program": "CCNA Security",
     "duration": "2 Months",
     "local_price": "600000",
@@ -1840,6 +1923,7 @@
   },
   {
     "id": 83,
+    "img": "/assets/images/cap.png",
     "program": "Artificial Intelligence with Python",
     "duration": "2 Months",
     "local_price": "600000",
@@ -1863,6 +1947,7 @@
   },
   {
     "id": 84,
+    "img": "/assets/images/cap.png",
     "program": "Comprehensive Management of STI’s, HIV",
     "duration": "6 Weeks",
     "local_price": "360000",
@@ -1886,6 +1971,7 @@
   },
   {
     "id": 85,
+    "img": "/assets/images/cap.png",
     "program": "First Aid",
     "duration": "2 Weeks",
     "local_price": "360000",
@@ -1909,6 +1995,7 @@
   },
   {
     "id": 86,
+    "img": "/assets/images/cap.png",
     "program": "Resource Mobilisation and Project ProposalWriting for Health workers",
     "duration": "2 Weeks",
     "local_price": "360000",
@@ -1931,6 +2018,7 @@
   },
   {
     "id": 87,
+    "img": "/assets/images/cap.png",
     "program": "SPSS - Statistical Package For Social Sciences",
     "duration": "6 Weeks",
     "local_price": "360000",
@@ -1954,6 +2042,7 @@
   },
   {
     "id": 88,
+    "img": "/assets/images/cap.png",
     "program": "Public Health Nutrition",
     "duration": "2 Weeks",
     "local_price": "360000",
@@ -1977,6 +2066,7 @@
   },
   {
     "id": 89,
+    "img": "/assets/images/cap.png",
     "program": "Presentation and Public Speaking",
     "duration": "5 Weeks",
     "local_price": "400000",
@@ -2000,6 +2090,7 @@
   },
   {
     "id": 90,
+    "img": "/assets/images/cap.png",
     "program": "Coaching and Mentoring",
     "duration": "5 Weeks",
     "local_price": "400000",
@@ -2023,6 +2114,7 @@
   },
   {
     "id": 91,
+    "img": "/assets/images/cap.png",
     "program": "Graphics Designing",
     "duration": "10 Weeks",
     "local_price": "400000",
@@ -2046,6 +2138,7 @@
   },
   {
     "id": 92,
+    "img": "/assets/images/cap.png",
     "program": "Film Making",
     "duration": "10 Weeks",
     "local_price": "400000",
@@ -2069,6 +2162,7 @@
   },
   {
     "id": 93,
+    "img": "/assets/images/cap.png",
     "program": "Radio Production",
     "duration": "10 Weeks",
     "local_price": "400000",
@@ -2092,6 +2186,7 @@
   },
   {
     "id": 94,
+    "img": "/assets/images/cap.png",
     "program": "English Language (Beginner, Intermediate and Advanced)",
     "duration": "1 MONTH PER LEVEL",
     "local_price": "300000",
