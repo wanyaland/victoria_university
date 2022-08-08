@@ -166,6 +166,85 @@ class Home extends Component {
                 </div>
                 <br />
                 <br />
+                <br />
+                <h4 style={{ color: "#0077b5" }} className="text-center">
+                  VU-Podcasts
+                </h4>
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-ride="carousel"
+                  style={{ height: "200px" }}
+                >
+                  <div class="carousel-inner">
+                    <div
+                      class="carousel-item active row align-center"
+                      style={{ height: "200px" }}
+                    >
+                      <video
+                        class="col-3"
+                        style={{ height: "200px", backgroundColor: "#d3d3d3" }}
+                      >
+                        <source src="" type="video/mp4" />
+                      </video>
+
+                      <video
+                        class="col-3 justify-center"
+                        controls
+                        style={{ height: "200px" }}
+                      >
+                        <source src="assets/media/pod1.mp4" type="video/mp4" />
+                      </video>
+
+                      <video
+                        class="col-3 justify-center"
+                        controls
+                        style={{ height: "200px" }}
+                      >
+                        <source src="assets/media/pod2.mp4" type="video/mp4" />
+                      </video>
+
+                      <video
+                        class="col-3 justify-center"
+                        style={{ height: "200px", backgroundColor: "#d3d3d3" }}
+                      >
+                        <source src="" type="video/mp4" />
+                      </video>
+                    </div>
+                    {/* <div
+                      class="carousel-item row align-center"
+                      style={{ height: "200px" }}
+                    ></div> */}
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carouselExampleControls"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
                 <div className="text-center">
                   {/* <a className="logo-2" href="home.php">
                         <h3 className="lohny-2 text-center" style={{color:'#0077b5'}}><span className="fa fa-chain programfa"></span>&nbsp;What Makes VU Unique</h3>
