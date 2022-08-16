@@ -79,13 +79,13 @@ class BannerHome extends Component {
 						
 						</div>
 					</div> */}
-                <img
+                {/* <img
                   src="assets/images/graduation.jpg"
                   className="img-fluid"
                   alt="PROMO"
                   // style={{}}
                   id="grad-img"
-                />
+                /> */}
                 <div>
                   <video
                     src="assets/media/home_wel_no_txt.mp4"
@@ -119,8 +119,8 @@ class BannerHome extends Component {
                           fontSize: "40px",
                         }}
                       >
-                        VU Upcoming 6<sup>th</sup> Graduation Happening on 26
-                        <sup>th</sup> August 2022 &nbsp;
+                        VU Upcoming 6<sup>th</sup> Graduation Happening on 3
+                        <sup>rd</sup> September 2022 &nbsp;
                       </h2>
                     </marquee>
 
