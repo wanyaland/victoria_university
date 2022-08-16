@@ -547,7 +547,7 @@ class NewsHub extends Component {
                         </div>
                       </div>
 
-                      <div className="col-md-4 filter webdesign graphic">
+                      {/* <div className="col-md-4 filter webdesign graphic">
                         <div className="each-item">
                           <a
                             href="https://twitter.com/VUKampala/status/1539317462998474753?t=QtWyagLvnNTtNrZ7cXujcA&s=08"
@@ -592,9 +592,6 @@ class NewsHub extends Component {
                                 ></span>{" "}
                                 October 29, 2021
                               </span>
-                              {/* <span className="course-reviews" title="Location">
-												<span className="fa fa-map-marker" aria-hidden="true"></span> Main Campus
-											</span> */}
                             </div>
                             <button
                               className="price-course btn"
@@ -604,7 +601,7 @@ class NewsHub extends Component {
                             </button>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
