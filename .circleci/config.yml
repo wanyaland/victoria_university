@@ -59,24 +59,6 @@ jobs:
             pytest -p no:warnings --cov=.
 
 
-  deploy-dev:
-    machine: true
-    steps:
-      - checkout
-      - *setup_env
-      - run:
-          name: Build backend
-          command: |
-            docker-compose -f src/docker-compose.dev.yaml up -d --build
-      - run:
-          name: Deploy Heroku
-          command: |
-            sudo curl https://cli-assets.heroku.com/install.sh | sh
-            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
-            docker tag wanyaland/vu_web:latest registry.heroku.com/$APP_NAME/web
-            docker push registry.heroku.com/$APP_NAME/web
-            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a $APP_NAME web
-
   build-prod:
     machine: true
     working_directory: ~/repo
@@ -161,13 +143,6 @@ workflows:
       - test-dev:
           requires:
             - build-dev
-      - deploy-dev:
-          requires:
-            - test-dev
-          filters:
-            branches:
-              only:
-                - main
       - build-prod:
           filters:
             branches:
