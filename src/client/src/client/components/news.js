@@ -4,7 +4,7 @@ import NavBar from "./navbar";
 import Altfooter from "./alt-footer";
 import { Link } from "react-router-dom";
 
-class News extends Component {
+class Career_emp extends Component {
   change_icon(id, id2) {
     var element = document.getElementById(id);
     element.classList.add("hider");
@@ -1196,4 +1196,4 @@ class News extends Component {
   }
 }
 
-export default News;
+export default Career_emp;

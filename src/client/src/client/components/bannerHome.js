@@ -33,7 +33,7 @@ class BannerHome extends Component {
                 <h1>Anatoli</h1>
               </div>
               <div className="left slider">
-                <img src="assets/images/graduation.jpg" />
+                <img src="assets/images/graduation.jpg" alt="" />
               </div>
               <div className="right slider">
                 <h1>Your future begins with us</h1>
@@ -102,7 +102,7 @@ class BannerHome extends Component {
                       border: "transparent 1px solid",
                     }}
                   >
-                    <marquee
+                    {/* <marquee
                       loop="2"
                       style={{
                         position: "absolute",
@@ -122,7 +122,7 @@ class BannerHome extends Component {
                         VU Upcoming 6<sup>th</sup> Graduation Happening on 3
                         <sup>rd</sup> September 2022 &nbsp;
                       </h2>
-                    </marquee>
+                    </marquee> */}
 
                     <h1
                       className="main-header"
