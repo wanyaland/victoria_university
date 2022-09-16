@@ -62,7 +62,7 @@ class BreadNavBar extends Component {
                         <b id="apply-Link" className="aa">
                           Apply Now
                         </b>
-                        &nbsp;
+                        {/* &nbsp;
                         <b
                           style={{
                             fontSize: "16px",
@@ -71,11 +71,25 @@ class BreadNavBar extends Component {
                         >
                           VU Upcoming 6<sup>th</sup> Graduation Happening on 3
                           <sup>rd</sup> September 2022
-                        </b>
+                        </b> */}
                       </a>
                     </li>
                   </ul>
+
                   <ul className="accounts col-md-5">
+                    <ul>
+                      <li className="fonted">
+                        <h5 className="">
+                          {/* Join us Now for September 2022 intake{" "} */}
+                          <Link
+                            to="/career-employability"
+                            className="text-primary"
+                          >
+                            Career Employ<i className="text-danger">Ability</i>
+                          </Link>
+                        </h5>
+                      </li>
+                    </ul>
                     {/* <li className="top_li underline"><Link to="/staff">Staff</Link></li> */}
                     <li className="top_li underline">
                       <Link to="/news">News</Link>
