@@ -147,7 +147,7 @@ class Employability extends Component {
                   <div className="each-item">
                     <a href="#home">
                       <video
-                        src="assets/media/career_emp.MP4"
+                        src="assets/media/career_emp.mp4"
                         className="img-fluid"
                         alt=""
                         autoPlay="true"
@@ -168,7 +168,7 @@ class Employability extends Component {
                           style={{ border: "1px solid gray" }}
                         >
                           <img
-                            src="assets/images/emp1.PNG"
+                            src="assets/images/emp1.png"
                             alt=""
                             className="img-fluid"
                           />
